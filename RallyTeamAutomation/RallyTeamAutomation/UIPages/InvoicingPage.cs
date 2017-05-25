@@ -110,7 +110,7 @@ namespace RallyTeam.UIPages
         //Enter the Comments
         public void EnterComments(String comments)
         {
-            _driver.SafeEnterText(InvoicingUI.comments, comments);
+            _driver.EnterTextUsingAction(InvoicingUI.comments, comments);
         }
 
         //Click Invoice Displayed

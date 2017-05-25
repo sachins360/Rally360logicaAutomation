@@ -373,12 +373,7 @@ namespace RallyTeam.TestScripts
             //Click Invoice Displayed
             invoicingPage.ClickInvoiceDisplayed(invoiceTitle);
             log.Info("Click Invoice displayed.");
-            Thread.Sleep(5000);
-
-            //Click the Comments Div
-            invoicingPage.ClickCommentsDiv();
-            log.Info("Click the Comments Div.");
-            Thread.Sleep(1000);
+            Thread.Sleep(5000);            
 
             //Enter Comments
             invoicingPage.EnterComments("Invoice Approved");
