@@ -1,0 +1,223 @@
+[START]
+INFO  2016-12-29 16:59:20,057 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 16:59:26,756 [Worker#STA_NP] TestScripts.BaseTest - Verify Tasks menu icon
+INFO  2016-12-29 16:59:26,758 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 16:59:48,534 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 16:59:54,813 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 16:59:57,851 [Worker#STA_NP] TestScripts.BaseTest - Verify Tasks Page get displayed.
+INFO  2016-12-29 16:59:58,901 [Worker#STA_NP] TestScripts.BaseTest - Verify Add Task Text field get displayed.
+INFO  2016-12-29 16:59:59,951 [Worker#STA_NP] TestScripts.BaseTest - Verify Add Text Plus Icon get displayed.
+INFO  2016-12-29 17:00:00,993 [Worker#STA_NP] TestScripts.BaseTest - Verify To-Do section gets displayed.
+INFO  2016-12-29 17:00:02,042 [Worker#STA_NP] TestScripts.BaseTest - Verify In Progress section gets displayed.
+INFO  2016-12-29 17:00:03,090 [Worker#STA_NP] TestScripts.BaseTest - Verify Completed section gets displayed.
+INFO  2016-12-29 17:00:03,090 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:00:29,567 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:00:37,384 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:00:41,561 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:00:44,731 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:00:48,732 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:00:51,854 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-12-29 17:00:57,183 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:01:00,413 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:01:02,566 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-12-29 17:01:04,567 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:01:50,992 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:01:57,171 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:02:01,430 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:02:04,592 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:02:08,593 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:02:10,883 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to In Progress section.
+INFO  2016-12-29 17:02:12,927 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed in In Progress section.
+INFO  2016-12-29 17:02:15,157 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to To-Do section.
+INFO  2016-12-29 17:02:20,551 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:02:23,775 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:02:25,942 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-12-29 17:02:29,944 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:02:55,052 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:03:01,156 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:03:05,437 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:03:08,737 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:03:12,738 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:03:15,006 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to In Progress section.
+INFO  2016-12-29 17:03:17,055 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed in In Progress section.
+INFO  2016-12-29 17:03:19,295 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to To-Do section.
+INFO  2016-12-29 17:03:24,587 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:03:27,784 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:03:29,919 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-12-29 17:03:33,921 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:03:56,078 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:04:02,569 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:04:06,958 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:04:10,107 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:04:14,108 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:04:17,158 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-12-29 17:04:22,614 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:04:25,792 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:04:27,921 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-12-29 17:04:31,922 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:04:53,154 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:04:59,578 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:05:03,837 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:05:06,988 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:05:10,990 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:05:16,269 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:05:19,323 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Delete This Task Link.
+INFO  2016-12-29 17:05:20,375 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Add Due Date.
+INFO  2016-12-29 17:05:21,418 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Add Comment Div.
+INFO  2016-12-29 17:05:22,462 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Files Plus Icon.
+INFO  2016-12-29 17:05:23,520 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Attachment Icon.
+INFO  2016-12-29 17:05:24,564 [Worker#STA_NP] TestScripts.BaseTest - Verify Task Window Close Icon.
+INFO  2016-12-29 17:05:25,706 [Worker#STA_NP] TestScripts.BaseTest - Click Task Window Close Icon.
+INFO  2016-12-29 17:05:30,905 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:05:34,076 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:05:36,200 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-12-29 17:05:38,202 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:06:05,441 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:06:11,562 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:06:15,801 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:06:18,941 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:06:22,942 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:06:28,245 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:06:31,373 [Worker#STA_NP] TestScripts.BaseTest - Click add comment area.
+INFO  2016-12-29 17:06:33,681 [Worker#STA_NP] TestScripts.BaseTest - Enter comment in Text Area.
+INFO  2016-12-29 17:06:36,886 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-12-29 17:06:39,934 [Worker#STA_NP] TestScripts.BaseTest - Verify the Add Comment Reply button.
+INFO  2016-12-29 17:06:44,123 [Worker#STA_NP] TestScripts.BaseTest - Click Task Window Close Icon.
+INFO  2016-12-29 17:06:49,305 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:06:52,529 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:06:54,688 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-12-29 17:06:58,691 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:07:22,950 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:07:29,470 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:07:33,741 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:07:36,883 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:07:40,884 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:07:46,239 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:07:49,364 [Worker#STA_NP] TestScripts.BaseTest - Click add comment area.
+INFO  2016-12-29 17:07:51,617 [Worker#STA_NP] TestScripts.BaseTest - Enter comment in Text Area.
+INFO  2016-12-29 17:07:54,809 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-12-29 17:07:58,032 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Comment Message Reply button.
+INFO  2016-12-29 17:08:07,545 [Worker#STA_NP] TestScripts.BaseTest - Enter the Reply Comment Text Area
+INFO  2016-12-29 17:08:14,714 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-12-29 17:10:17,499 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-29-17-10-17.png
+ERROR 2016-12-29 17:10:17,676 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 400
+INFO  2016-12-29 17:10:17,889 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_019_ReplyAddCommentAndVerify_2016-12-29-17-10-17.png
+INFO  2016-12-29 17:10:17,889 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:10:59,758 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:11:06,388 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:11:10,599 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:11:13,792 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:11:17,794 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:11:23,165 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:11:26,343 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:11:29,450 [Worker#STA_NP] TestScripts.BaseTest - Verify the Delete Event window.
+INFO  2016-12-29 17:11:32,492 [Worker#STA_NP] TestScripts.BaseTest - Verify the Delete Task window No Button.
+INFO  2016-12-29 17:11:35,535 [Worker#STA_NP] TestScripts.BaseTest - Verify the Delete Task window Yes Button.
+INFO  2016-12-29 17:11:37,651 [Worker#STA_NP] TestScripts.BaseTest - Click Delete Event Window No button.
+INFO  2016-12-29 17:11:39,814 [Worker#STA_NP] TestScripts.BaseTest - Click Task Window Close Icon.
+INFO  2016-12-29 17:11:45,014 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:11:48,183 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:11:50,319 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-12-29 17:11:54,320 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:12:20,799 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:12:27,142 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:12:31,350 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:12:34,498 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:12:38,499 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:12:43,977 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:12:47,193 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:12:49,347 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task window No Button.
+INFO  2016-12-29 17:12:51,518 [Worker#STA_NP] TestScripts.BaseTest - Click Task Window Close Icon.
+INFO  2016-12-29 17:12:54,543 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-12-29 17:12:59,726 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:13:02,890 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:13:05,037 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-12-29 17:13:09,038 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:13:48,742 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:13:55,592 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:13:59,825 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:14:03,039 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:14:07,040 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-29 17:14:12,540 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:14:15,776 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:14:17,907 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task window Yes Button.
+INFO  2016-12-29 17:16:20,075 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-12-29 17:16:22,076 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:16:52,578 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:16:59,463 [Worker#STA_NP] TestScripts.BaseTest - Click on the Plus icon at the top.
+INFO  2016-12-29 17:17:01,841 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-29 17:17:04,961 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-29 17:17:17,864 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:17:26,189 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-29 17:17:29,347 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-29 17:17:31,504 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-12-29 17:17:35,506 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:18:43,658 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:19:01,007 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-29 17:19:19,636 [Worker#STA_NP] TestScripts.BaseTest - Verify Tasks tab on the created Project page.
+INFO  2016-12-29 17:19:26,071 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:19:59,280 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:20:12,487 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-29 17:20:29,269 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-29 17:20:33,768 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-29 17:20:36,950 [Worker#STA_NP] TestScripts.BaseTest - Click Add Text Plus Icon.
+INFO  2016-12-29 17:20:40,109 [Worker#STA_NP] TestScripts.BaseTest - Click the About tab of Prjects
+INFO  2016-12-29 17:20:47,453 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:21:17,442 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:21:30,075 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-29 17:21:48,545 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-29 17:21:50,770 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-29 17:21:53,998 [Worker#STA_NP] TestScripts.BaseTest - Click Add Text Plus Icon.
+INFO  2016-12-29 17:21:57,150 [Worker#STA_NP] TestScripts.BaseTest - Click the About tab of Prjects
+INFO  2016-12-29 17:22:04,469 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:22:51,364 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:23:05,332 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-29 17:23:21,809 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-29 17:23:23,853 [Worker#STA_NP] TestScripts.BaseTest - Verify Add Task Text field gets displayed.
+INFO  2016-12-29 17:23:24,897 [Worker#STA_NP] TestScripts.BaseTest - Verify Add Text Plus Icon get displayed.
+INFO  2016-12-29 17:23:25,941 [Worker#STA_NP] TestScripts.BaseTest - Verify To-Do section gets displayed.
+INFO  2016-12-29 17:23:26,990 [Worker#STA_NP] TestScripts.BaseTest - Verify In Progress section gets displayed.
+INFO  2016-12-29 17:23:28,049 [Worker#STA_NP] TestScripts.BaseTest - Verify Completed section gets displayed.
+INFO  2016-12-29 17:23:29,231 [Worker#STA_NP] TestScripts.BaseTest - Click the About tab of Prjects
+INFO  2016-12-29 17:23:36,617 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:24:07,780 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:24:22,949 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-29 17:24:39,625 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-29 17:24:42,029 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-29 17:24:45,193 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-12-29 17:24:48,238 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-12-29 17:24:51,419 [Worker#STA_NP] TestScripts.BaseTest - Click the About tab of Prjects
+INFO  2016-12-29 17:24:58,810 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:25:28,880 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:25:41,380 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-29 17:26:03,694 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-29 17:26:12,138 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-29 17:26:17,811 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-29 17:26:22,483 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-29 17:26:25,644 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-12-29 17:26:29,028 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:28:32,103 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-12-29 17:28:35,445 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-29 17:28:41,648 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-29 17:28:44,772 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-29 17:30:43,413 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-29 17:30:50,863 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:31:32,532 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 17:31:45,633 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-29 17:32:04,852 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-29 17:32:13,363 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-29 17:32:18,669 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-29 17:32:23,291 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-29 17:32:26,496 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-12-29 17:32:28,677 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to In Progress section.
+INFO  2016-12-29 17:32:32,113 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-29 17:34:35,445 [Worker#STA_NP] TestScripts.BaseTest - Verify Task not displayed.
+INFO  2016-12-29 17:34:38,797 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-29 17:34:44,975 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-29 17:34:48,070 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-29 17:34:56,635 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-29 17:35:03,994 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-29 17:35:29,137 [Worker#STA_NP] TestScripts.BaseTest - Setup test

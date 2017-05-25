@@ -1,0 +1,19 @@
+[START]
+INFO  2016-11-08 17:08:37,710 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-08 17:08:58,325 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-08 17:09:17,630 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-08 17:09:18,290 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_080_ViewProjectsTeamStatus_2016-11-08-17-09-17.png
+INFO  2016-11-08 17:09:18,316 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-08 17:09:51,053 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-08 17:10:10,681 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-08 17:10:29,868 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-08 17:12:31,696 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-08-17-12-31.png
+ERROR 2016-11-08 17:12:31,696 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@placeholder='Enter user name or email']"}
+INFO  2016-11-08 17:12:31,956 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_081_VerifyProjectsTeamStatusDisplay_2016-11-08-17-12-31.png
+INFO  2016-11-08 17:12:31,956 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-08 17:13:13,495 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-08 17:15:15,687 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-08-17-15-15.png
+ERROR 2016-11-08 17:15:15,687 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[text()='RallyNow']) to be displayed but did not.
+INFO  2016-11-08 17:15:15,985 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_083_VerifyClosedIvePostedProjects_2016-11-08-17-15-15.png
+INFO  2016-11-08 17:15:15,985 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

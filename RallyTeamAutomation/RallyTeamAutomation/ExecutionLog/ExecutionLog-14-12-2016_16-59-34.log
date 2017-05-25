@@ -1,0 +1,7 @@
+[START]
+INFO  2016-12-14 17:00:02,470 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-14 17:00:34,238 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-14 17:00:39,408 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-14 17:00:44,477 [Worker#STA_NP] TestScripts.BaseTestES - Verify Update Metrics button.
+INFO  2016-12-14 17:00:55,835 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

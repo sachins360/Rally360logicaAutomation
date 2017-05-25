@@ -1,0 +1,32 @@
+[START]
+INFO  2017-01-13 13:51:19,487 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-13 13:51:51,644 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-13 13:52:14,066 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-13 13:52:19,338 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-13 13:52:21,996 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-13 13:52:28,142 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-13 13:52:30,206 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-13 13:52:32,754 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-13 13:52:37,870 [Worker#STA_NP] TestScripts.BaseTest - Click Request To Join button doisplayed on screen.
+INFO  2017-01-13 13:52:48,098 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-13 13:53:00,929 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-13 13:53:07,019 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-13 13:53:09,065 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-13 13:53:14,619 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-13 13:53:20,893 [Worker#STA_NP] TestScripts.BaseTest - Click the Requested Member of the Project.
+INFO  2017-01-13 13:53:27,038 [Worker#STA_NP] TestScripts.BaseTest - Accept the Requested member.
+INFO  2017-01-13 13:53:31,620 [Worker#STA_NP] TestScripts.BaseTest - Close the Pending member window.
+INFO  2017-01-13 13:53:41,804 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-13 13:53:48,995 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-13 13:53:55,196 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-13 13:54:01,328 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-13 13:54:03,390 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-13 13:54:08,905 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-13 13:54:14,977 [Worker#STA_NP] TestScripts.BaseTest - Verify Leave Project icon displayed on screen.
+INFO  2017-01-13 13:54:24,427 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-13 13:54:28,725 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-13 13:54:34,862 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-13 13:54:36,977 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-13 13:54:42,511 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-13 13:54:56,937 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

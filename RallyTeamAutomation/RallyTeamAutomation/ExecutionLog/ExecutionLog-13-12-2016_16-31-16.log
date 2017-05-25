@@ -1,0 +1,26 @@
+[START]
+INFO  2016-12-13 16:32:21,123 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-13 16:32:30,331 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-13 16:32:37,859 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-12-13 16:32:42,114 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-12-13 16:32:45,473 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-12-13 16:32:50,834 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Location.
+INFO  2016-12-13 16:32:57,362 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-12-13 16:33:01,358 [Worker#STA_NP] TestScripts.BaseTest - Create a new Event.
+INFO  2016-12-13 16:33:13,328 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-13 16:33:17,266 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-13 16:33:19,615 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-13 16:33:28,429 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-12-13 16:33:30,797 [Worker#STA_NP] TestScripts.BaseTest - Click the Join button on Dashboard.
+INFO  2016-12-13 16:34:02,478 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is joined.
+INFO  2016-12-13 16:34:03,562 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Leave Event'
+INFO  2016-12-13 16:34:15,410 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-13 16:34:21,413 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-13 16:34:27,809 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2016-12-13 16:34:31,114 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2016-12-13 16:34:34,872 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-12-13 16:34:40,250 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-12-13 16:34:41,838 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-12-13 16:34:44,105 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-12-13 16:34:46,105 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

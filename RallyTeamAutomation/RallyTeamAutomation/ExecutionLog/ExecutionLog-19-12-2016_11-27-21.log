@@ -1,0 +1,25 @@
+[START]
+INFO  2016-12-19 11:28:32,176 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-19 11:29:03,798 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-19 11:29:08,984 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-19 11:29:14,394 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2016-12-19 11:29:19,707 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2016-12-19 11:29:30,990 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2016-12-19 11:29:32,554 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-19-11-29-32.png
+ERROR 2016-12-19 11:29:33,311 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: Cannot locate element with text: Completed
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 63
+INFO  2016-12-19 11:29:33,587 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.MarketplaceTest.Marketplace_008_VerifyCompletedProjectsSearch_2016-12-19-11-29-33.png
+INFO  2016-12-19 11:29:33,587 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2016-12-19 11:30:32,958 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-19 11:31:01,646 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Closed'
+INFO  2016-12-19 11:31:07,192 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2016-12-19 11:31:12,479 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2016-12-19 11:31:22,866 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2016-12-19 11:31:24,777 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-19-11-31-24.png
+ERROR 2016-12-19 11:31:24,777 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: Cannot locate element with text: Closed
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 63
+INFO  2016-12-19 11:31:25,871 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.MarketplaceTest.Marketplace_009_VerifyClosedProjectsSearch_2016-12-19-11-31-25.png
+INFO  2016-12-19 11:31:25,871 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

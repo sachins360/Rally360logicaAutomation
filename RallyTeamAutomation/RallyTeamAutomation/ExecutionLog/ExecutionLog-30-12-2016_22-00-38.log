@@ -1,0 +1,47 @@
+[START]
+INFO  2016-12-30 22:01:10,881 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:01:21,281 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:03:30,621 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-22-03-28.png
+ERROR 2016-12-30 22:03:35,982 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"optionsRadios1"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<Id>c__AnonStorey0.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2016-12-30 22:03:37,123 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_012_VerifyAllRadio_2016-12-30-22-03-36.png
+INFO  2016-12-30 22:03:37,124 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:04:09,155 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:04:17,154 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-30 22:04:23,461 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-30 22:04:38,291 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:06:45,861 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-22-06-45.png
+ERROR 2016-12-30 22:06:45,862 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"optionsRadios3"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<Id>c__AnonStorey0.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2016-12-30 22:06:46,045 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_013_VerifyGroupRadio_2016-12-30-22-06-45.png
+INFO  2016-12-30 22:06:46,045 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:07:21,352 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:07:31,125 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.

@@ -1,0 +1,12 @@
+[START]
+INFO  2016-11-24 16:56:55,187 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-24 16:57:45,685 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2016-11-24 16:57:47,926 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2016-11-24 16:57:53,168 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Users tab.
+INFO  2016-11-24 16:57:55,434 [Worker#STA_NP] TestScripts.BaseTest - Click Invite Users button.
+INFO  2016-11-24 16:58:00,479 [Worker#STA_NP] TestScripts.BaseTest - Verify Close Icon.
+INFO  2016-11-24 17:00:02,295 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-24-17-00-01.png
+ERROR 2016-11-24 17:00:02,321 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Let's expand your network!')]) to be displayed but did not.
+INFO  2016-11-24 17:00:02,670 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InviteUsersTest.InviteUser_001_VerifyInviteUserWindow_2016-11-24-17-00-02.png
+INFO  2016-11-24 17:00:02,670 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

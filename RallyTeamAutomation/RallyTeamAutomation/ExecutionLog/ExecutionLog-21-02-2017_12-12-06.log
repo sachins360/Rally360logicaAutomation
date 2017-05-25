@@ -1,0 +1,26 @@
+[START]
+INFO  2017-02-21 12:13:41,600 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 12:14:05,669 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-21 12:14:07,991 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-21 12:14:14,447 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-21 12:14:19,629 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-02-21 12:14:25,068 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-02-21 12:14:27,496 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-21 12:14:32,615 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-02-21 12:14:52,625 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-02-21 12:14:59,875 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-02-21 12:15:13,451 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-02-21 12:15:28,055 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-02-21 12:15:28,843 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-02-21 12:15:31,113 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-02-21 12:15:33,275 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-02-21 12:15:38,835 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-02-21 12:15:41,053 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-02-21 12:15:43,196 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-02-21 12:15:51,412 [Worker#STA_NP] TestScripts.BaseTestES - Click Get Staerted button.
+INFO  2017-02-21 12:15:57,771 [Worker#STA_NP] TestScripts.BaseTestES - Click LinkedIn button.
+INFO  2017-02-21 12:18:06,441 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-21-12-18-05.png
+ERROR 2017-02-21 12:18:06,473 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@name= 'session_key']"}
+INFO  2017-02-21 12:18:06,967 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_006_UploadLinkedIn_2017-02-21-12-18-06.png
+INFO  2017-02-21 12:18:06,967 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

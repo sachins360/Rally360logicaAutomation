@@ -1,0 +1,21 @@
+[START]
+INFO  2016-12-26 14:55:53,500 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-26 14:56:28,728 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-26 14:56:37,205 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-26 14:56:40,334 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-26 14:56:46,605 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-26 14:56:50,822 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-26 14:56:53,978 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-26 14:57:06,394 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-26 14:57:10,099 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-26 14:57:19,677 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2016-12-26 14:57:24,877 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2016-12-26 14:57:30,069 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2016-12-26 14:59:35,293 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-26-14-59-31.png
+ERROR 2016-12-26 14:59:39,481 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 395
+INFO  2016-12-26 14:59:39,945 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_001_CreateDraftInvoice_2016-12-26-14-59-39.png
+INFO  2016-12-26 14:59:39,945 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

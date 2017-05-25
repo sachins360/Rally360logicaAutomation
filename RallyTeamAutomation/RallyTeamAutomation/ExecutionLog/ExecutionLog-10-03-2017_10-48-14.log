@@ -1,0 +1,25 @@
+[START]
+INFO  2017-03-10 10:48:40,437 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-10 10:49:17,237 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-10 10:49:24,476 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-10 10:49:28,630 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-10 10:49:41,003 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-10 10:49:56,939 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-03-10 10:50:07,138 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2017-03-10 10:50:12,407 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2017-03-10 10:50:13,504 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2017-03-10 10:50:14,580 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-03-10 10:50:17,743 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2017-03-10 10:50:19,031 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2017-03-10 10:50:21,283 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2017-03-10 10:50:23,486 [Worker#STA_NP] TestScripts.BaseTestES - Click Submit button.
+INFO  2017-03-10 10:50:30,703 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-10 10:50:42,310 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-10 10:50:49,595 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Requires Approval short notification on the Notification Window.
+INFO  2017-03-10 10:50:50,837 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-03-10 10:50:57,887 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Requires Approval Notification on Notifications Page.
+INFO  2017-03-10 10:52:59,659 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-10-10-52-59.png
+ERROR 2017-03-10 10:52:59,690 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'anupk@360logica.com has approved an invoice for payment')]) to be displayed but did not.
+INFO  2017-03-10 10:53:00,106 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_007_InvoiceRequiresApproval_2017-03-10-10-52-59.png
+INFO  2017-03-10 10:53:00,106 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

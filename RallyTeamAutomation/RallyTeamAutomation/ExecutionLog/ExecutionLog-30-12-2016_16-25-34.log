@@ -1,0 +1,8 @@
+[START]
+INFO  2016-12-30 16:26:34,518 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 16:26:44,583 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 16:28:51,749 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-16-28-51.png
+ERROR 2016-12-30 16:28:51,956 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //h2[contains(text(), 'Search Page')]) to be displayed but did not.
+INFO  2016-12-30 16:28:52,455 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_002_SearchLoggedInUser_2016-12-30-16-28-52.png
+INFO  2016-12-30 16:28:52,455 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

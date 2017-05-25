@@ -1,0 +1,24 @@
+[START]
+INFO  2017-02-10 14:42:32,528 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-10 14:43:14,915 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-02-10 14:43:25,411 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-02-10 14:43:29,637 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-02-10 14:43:40,409 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2017-02-10 14:45:45,302 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-10-14-45-44.png
+ERROR 2017-02-10 14:45:45,591 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to find element with xpath == //div[contains(@class, 'awesome')]
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-02-10 14:45:45,997 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_010_RequestFeedback_2017-02-10-14-45-45.png
+INFO  2017-02-10 14:45:45,998 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

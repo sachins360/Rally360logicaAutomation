@@ -1,0 +1,31 @@
+[START]
+INFO  2016-11-11 11:58:18,729 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-11 11:58:24,859 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2016-11-11 11:58:27,343 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2016-11-11 11:58:30,015 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2016-11-11 11:58:32,094 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Profile Builder button is displayed.
+INFO  2016-11-11 11:58:33,135 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Save button is displayed.
+INFO  2016-11-11 11:58:34,177 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Cancel button is displayed.
+INFO  2016-11-11 11:58:35,221 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window First Name is displayed.
+INFO  2016-11-11 11:58:36,265 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Last Name is displayed.
+INFO  2016-11-11 11:58:37,307 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Email is displayed.
+INFO  2016-11-11 11:58:38,350 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Title is displayed.
+INFO  2016-11-11 11:58:39,380 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Email is displayed.
+INFO  2016-11-11 11:58:40,447 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window About Me is displayed.
+INFO  2016-11-11 11:58:41,492 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window My Top Skills is displayed.
+INFO  2016-11-11 11:58:42,580 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Other Skills is displayed.
+INFO  2016-11-11 11:58:43,675 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Industry/Domain Expertise is displayed.
+INFO  2016-11-11 11:58:44,760 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Languages is displayed.
+INFO  2016-11-11 11:58:45,848 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Interested In is displayed.
+INFO  2016-11-11 11:58:46,933 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window LinkedIn Url is displayed.
+INFO  2016-11-11 11:58:47,975 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Phone is displayed.
+INFO  2016-11-11 11:58:49,065 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Address is displayed.
+INFO  2016-11-11 11:58:50,166 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window City is displayed.
+INFO  2016-11-11 11:58:51,270 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Email is displayed.
+INFO  2016-11-11 11:58:52,312 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Postal Code is displayed.
+INFO  2016-11-11 11:58:53,403 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Country is displayed.
+INFO  2016-11-11 11:58:54,491 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Old Password is displayed.
+INFO  2016-11-11 11:58:55,591 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window New Password is displayed.
+INFO  2016-11-11 11:58:56,642 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Confirm Password is displayed.
+INFO  2016-11-11 11:58:56,646 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

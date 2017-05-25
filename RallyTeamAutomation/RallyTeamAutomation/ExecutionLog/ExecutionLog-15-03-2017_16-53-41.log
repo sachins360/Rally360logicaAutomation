@@ -1,0 +1,16 @@
+[START]
+INFO  2017-03-15 16:54:01,906 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-15 16:54:34,089 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-15 16:54:42,668 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-15 16:54:45,814 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-15 16:54:55,977 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-03-15 16:54:58,364 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-15 16:55:00,632 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-03-15 16:55:05,122 [Worker#STA_NP] TestScripts.BaseTestES - Click the searched user.
+INFO  2017-03-15 16:55:10,420 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-03-15 16:55:15,832 [Worker#STA_NP] TestScripts.BaseTestES - Select Project DropDown.
+INFO  2017-03-15 16:55:18,079 [Worker#STA_NP] TestScripts.BaseTestES - Click the Awesome rating.
+INFO  2017-03-15 16:55:20,339 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2017-03-15 16:55:21,554 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-03-15 16:55:26,557 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

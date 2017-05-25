@@ -1,0 +1,22 @@
+[START]
+INFO  2017-04-05 12:35:37,706 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-05 12:35:57,146 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-05 12:36:08,574 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-05 12:36:08,775 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Back button.
+INFO  2017-04-05 12:36:11,883 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save Draft button.
+INFO  2017-04-05 12:36:22,218 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-05 12:36:23,529 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-05 12:36:39,015 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-05 12:36:49,173 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-05 12:36:52,410 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save Draft button.
+INFO  2017-04-05 12:37:02,805 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-05 12:37:04,356 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-05 12:37:21,017 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-05 12:37:31,282 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-05 12:37:34,474 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-05 12:37:37,694 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save Draft button.
+INFO  2017-04-05 12:37:48,090 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-05 12:37:49,423 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-05 12:38:04,527 [Worker#STA_NP] TestScripts.BaseTestES - Verify Draft status of Project.
+INFO  2017-04-05 12:38:06,531 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

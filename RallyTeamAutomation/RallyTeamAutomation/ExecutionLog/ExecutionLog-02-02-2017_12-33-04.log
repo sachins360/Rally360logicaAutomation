@@ -1,0 +1,5 @@
+[START]
+INFO  2017-02-02 12:33:59,871 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-02 12:34:22,940 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-02-02 12:34:35,236 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,116 @@
+[START]
+INFO  2016-11-18 12:02:52,673 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:03:00,106 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify SignUp option given to the user.
+INFO  2016-11-18 12:03:00,108 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:04:06,600 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:04:41,017 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 12:04:43,195 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify First Name on the screen.
+INFO  2016-11-18 12:04:45,248 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Last Name on the screen.
+INFO  2016-11-18 12:04:47,313 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Work Email on the screen.
+INFO  2016-11-18 12:04:49,652 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify SignUp button on the screen.
+INFO  2016-11-18 12:04:51,700 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Terms Of Use on the screen.
+INFO  2016-11-18 12:04:53,746 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Privacy Policy on the screen.
+INFO  2016-11-18 12:04:55,747 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:05:51,428 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:05:56,933 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 12:05:59,251 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-18 12:06:01,850 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-18 12:06:04,094 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-18 12:06:06,236 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-18 12:08:09,220 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-18-12-08-08.png
+ERROR 2016-11-18 12:08:09,281 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //form[contains(@class, 'form-horizontal')]//input[@name='password']) to be displayed but did not.
+INFO  2016-11-18 12:08:09,517 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:09:18,880 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:09:46,763 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 12:09:49,322 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-18 12:09:51,470 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-18 12:09:53,931 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-18 12:09:56,067 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-18 12:09:59,912 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-18 12:10:02,136 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-18 12:10:04,375 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-18 12:10:07,745 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Not You Link on the screen.
+INFO  2016-11-18 12:10:09,788 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify SignUp button on the screen.
+INFO  2016-11-18 12:10:11,789 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:11:21,147 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:11:42,235 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 12:11:44,404 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-18 12:11:46,572 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-18 12:11:48,902 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-18 12:11:51,096 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-18 12:11:53,276 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Duplicate error message on the screen.
+INFO  2016-11-18 12:11:55,277 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:13:06,075 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:13:47,262 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 12:13:49,431 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-18 12:13:51,594 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-18 12:13:53,734 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-18 12:13:55,781 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify error message on the screen.
+INFO  2016-11-18 12:13:57,781 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:15:02,722 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:15:39,007 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 12:15:41,151 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-18 12:15:43,403 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-18 12:15:45,619 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-18 12:15:47,849 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-18 12:15:50,563 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-18 12:15:52,690 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-18 12:17:55,621 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-18-12-17-54.png
+ERROR 2016-11-18 12:17:55,621 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Please fill out the missing info.')]) to be displayed but did not.
+INFO  2016-11-18 12:17:55,645 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:18:46,223 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:18:49,508 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 12:18:51,770 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-18 12:18:54,073 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-18 12:18:56,368 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-18 12:18:58,496 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-18 12:19:02,871 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-18 12:19:05,029 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-18 12:21:07,913 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-18-12-21-07.png
+ERROR 2016-11-18 12:21:07,913 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Please fill out the missing info.')]) to be displayed but did not.
+INFO  2016-11-18 12:21:07,918 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:22:15,586 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:23:32,140 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-18-12-23-18.png
+ERROR 2016-11-18 12:23:32,354 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:62844/session/2f75fe49a6ed02c7baf52cbfb409aeb0/element timed out after 60 seconds. ---> System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 372
+INFO  2016-11-18 12:23:32,433 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:24:36,603 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:24:39,980 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 12:24:42,110 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-18 12:24:44,233 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-18 12:24:46,459 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-18 12:24:48,634 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-18 12:24:51,330 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-18 12:24:53,513 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-18 12:24:55,735 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-18 12:26:58,524 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-18-12-26-57.png
+ERROR 2016-11-18 12:26:58,524 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Please fill out the missing info.')]) to be displayed but did not.
+INFO  2016-11-18 12:26:58,540 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:27:46,159 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:27:49,709 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 12:27:51,854 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-18 12:27:53,982 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-18 12:27:56,308 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-18 12:27:58,512 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-18 12:28:00,564 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify invalid email error message on the screen.
+INFO  2016-11-18 12:28:02,564 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-18 12:28:54,860 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 12:28:58,111 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2016-11-18 12:29:01,255 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Login Button on Registration page.
+INFO  2016-11-18 12:29:03,301 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Url Page
+INFO  2016-11-18 12:29:05,303 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

@@ -1,0 +1,4 @@
+[START]
+INFO  2016-12-22 09:47:06,419 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-22 09:47:18,795 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-22 09:47:25,126 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page

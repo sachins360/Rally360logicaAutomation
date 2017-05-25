@@ -1,0 +1,8 @@
+[START]
+INFO  2016-12-13 15:43:57,821 [13] TestScripts.BaseTest - Setup test
+INFO  2016-12-13 15:44:32,339 [13] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-13 15:44:56,484 [13] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-13 15:45:27,356 [13] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-13 15:45:36,212 [13] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-13 15:46:09,739 [13] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-13 15:46:18,488 [13] TestScripts.BaseTest - Click Add Task Plus Icon.

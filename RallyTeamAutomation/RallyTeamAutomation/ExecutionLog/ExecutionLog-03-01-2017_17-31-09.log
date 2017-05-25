@@ -1,0 +1,19 @@
+[START]
+INFO  2017-01-03 17:31:42,270 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 17:31:51,127 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2017-01-03 17:31:55,461 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2017-01-03 17:31:58,685 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2017-01-03 17:32:02,685 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2017-01-03 17:32:08,131 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2017-01-03 17:32:11,400 [Worker#STA_NP] TestScripts.BaseTest - Click add comment area.
+INFO  2017-01-03 17:32:13,821 [Worker#STA_NP] TestScripts.BaseTest - Enter comment in Text Area.
+INFO  2017-01-03 17:32:17,117 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2017-01-03 17:32:20,468 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Comment Message Reply button.
+INFO  2017-01-03 17:32:30,301 [Worker#STA_NP] TestScripts.BaseTest - Enter the Reply Comment Text Area
+INFO  2017-01-03 17:32:37,568 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2017-01-03 17:32:43,818 [Worker#STA_NP] TestScripts.BaseTest - Click Task Window Close Icon.
+INFO  2017-01-03 17:32:49,090 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2017-01-03 17:32:52,576 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2017-01-03 17:32:54,792 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2017-01-03 17:32:58,795 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

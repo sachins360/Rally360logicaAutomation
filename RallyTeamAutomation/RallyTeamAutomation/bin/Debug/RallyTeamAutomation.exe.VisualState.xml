@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1068]RallyTeam.TestScripts.GroupsTest</TopNode>
+  <SelectedNode>[0-1196]F:\Automation_SeleniumCSharp\RallyTeam\Repository\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1196]F:\Automation_SeleniumCSharp\RallyTeam\Repository\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe" Expanded="true" />
+    <Node UniqueName="[0-1197]RallyTeam" Expanded="true" />
+    <Node UniqueName="[0-1198]RallyTeam.TestScripts" Expanded="true" />
+    <Node UniqueName="[0-1068]RallyTeam.TestScripts.GroupsTest" Expanded="true" />
+    <Node UniqueName="[0-1071]RallyTeam.TestScripts.GroupsTest.Groups_008_TestCreatePublicGroup" Checked="true" />
+  </Nodes>
+</VisualState>

@@ -1,0 +1,14 @@
+[START]
+INFO  2017-01-13 15:49:38,563 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-13 15:50:17,488 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-13 15:50:21,191 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-13 15:50:26,445 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-13 15:50:27,735 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-01-13 15:52:43,500 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-13-15-52-43.png
+ERROR 2017-01-13 15:52:43,670 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-13 15:52:43,909 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_011_RequestToJoinProject_2017-01-13-15-52-43.png
+INFO  2017-01-13 15:52:43,910 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

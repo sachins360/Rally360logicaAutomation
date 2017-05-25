@@ -1,0 +1,5 @@
+[START]
+INFO  2017-05-23 11:19:47,260 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-23 11:20:00,041 [Worker#STA_NP] TestScripts.BaseTestES - Verify Post A Project tab
+INFO  2017-05-23 11:20:00,043 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

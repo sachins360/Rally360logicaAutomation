@@ -1,0 +1,20 @@
+[START]
+INFO  2016-11-22 13:03:22,687 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-22 13:03:52,623 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-22 13:03:54,869 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-22 13:03:57,186 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-22 13:03:59,497 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-22 13:04:03,761 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-22 13:04:06,618 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-22 13:04:08,880 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-22 13:04:11,019 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-22 13:04:26,535 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2016-11-22 13:04:31,748 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2016-11-22 13:04:37,144 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Go button.
+INFO  2016-11-22 13:04:42,277 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Email Sender.
+INFO  2016-11-22 13:04:44,326 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Email Subject.
+INFO  2016-11-22 13:04:46,543 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Sender.
+INFO  2016-11-22 13:06:52,626 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-22-13-06-51.png
+ERROR 2016-11-22 13:06:52,655 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[text()= 'You're just one step away!']) to be displayed but did not.
+INFO  2016-11-22 13:06:55,684 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

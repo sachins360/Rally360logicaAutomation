@@ -1,0 +1,12 @@
+[START]
+INFO  2017-01-17 14:05:16,931 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-17 14:05:46,187 [Worker#STA_NP] TestScripts.BaseTestES - Select the Private Project check-box.
+INFO  2017-01-17 14:06:02,748 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-17 14:06:10,721 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-17 14:06:20,989 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-17 14:06:22,457 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-01-17 14:08:30,234 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-17-14-08-29.png
+ERROR 2017-01-17 14:08:30,261 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'Ammar Testing LPVR')]) to be displayed but did not.
+INFO  2017-01-17 14:08:30,652 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_014_VerifyInvitedUsersCanAccessPrivateProject_2017-01-17-14-08-30.png
+INFO  2017-01-17 14:08:30,652 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

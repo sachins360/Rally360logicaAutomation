@@ -1,0 +1,12 @@
+[START]
+INFO  2017-04-10 14:11:35,621 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-10 14:11:57,371 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 14:12:08,813 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-10 14:12:10,132 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-10 14:12:19,891 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 14:12:31,431 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 14:12:34,685 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 14:12:46,843 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-10 14:12:55,295 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_005_AddMembersAndVerify_2017-04-10-14-12-55.png
+INFO  2017-04-10 14:12:55,300 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

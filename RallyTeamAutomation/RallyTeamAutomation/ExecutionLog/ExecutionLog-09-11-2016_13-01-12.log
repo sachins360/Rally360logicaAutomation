@@ -1,0 +1,63 @@
+[START]
+INFO  2016-11-09 13:02:28,518 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-09 13:02:43,944 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-11-09 13:02:50,338 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-11-09 13:03:13,222 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-09 13:03:18,063 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-11-09 13:03:24,528 [Worker#STA_NP] TestScripts.BaseTest - Entered zafara@360logica.com into Add Member Text field 
+INFO  2016-11-09 13:03:30,761 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2016-11-09 13:05:36,658 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-09-13-05-35.png
+ERROR 2016-11-09 13:05:47,295 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form[@name= 'addUsersForm']//a[contains(text(), 'Add')]"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 372
+INFO  2016-11-09 13:05:50,280 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_013_AddMemberInGroup_2016-11-09-13-05-49.png
+INFO  2016-11-09 13:05:50,280 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-09 13:06:45,443 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-09 13:06:57,094 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-11-09 13:07:03,530 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-11-09 13:07:26,587 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-09 13:07:29,697 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-11-09 13:07:36,329 [Worker#STA_NP] TestScripts.BaseTest - Entered zafara@360logica.com into Add Member Text field 
+INFO  2016-11-09 13:07:42,637 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2016-11-09 13:09:48,517 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-09-13-09-48.png
+ERROR 2016-11-09 13:09:48,518 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form[@name= 'addUsersForm']//a[contains(text(), 'Add')]"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 372
+INFO  2016-11-09 13:09:48,752 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_019_ClickManageMembersCancelBtn_2016-11-09-13-09-48.png
+INFO  2016-11-09 13:09:48,752 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-09 13:10:35,648 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-09 13:10:46,731 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-11-09 13:10:53,208 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-11-09 13:11:15,937 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-09 13:11:19,958 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-11-09 13:11:21,136 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-11-09 13:11:23,335 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-11-09 13:11:26,391 [Worker#STA_NP] TestScripts.BaseTest - Verify the deleted group confirmation message.
+INFO  2016-11-09 13:11:28,392 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

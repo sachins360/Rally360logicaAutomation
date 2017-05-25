@@ -1,0 +1,74 @@
+[START]
+INFO  2017-01-02 14:19:36,770 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 14:20:43,089 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 14:20:59,943 [Worker#STA_NP] TestScripts.BaseTest - Verify About tab on the created Project page.
+INFO  2017-01-02 14:21:03,017 [Worker#STA_NP] TestScripts.BaseTest - Verify Discussion tab on the created Project page.
+INFO  2017-01-02 14:21:06,064 [Worker#STA_NP] TestScripts.BaseTest - Verify Tasks tab on the created Project page.
+INFO  2017-01-02 14:21:09,108 [Worker#STA_NP] TestScripts.BaseTest - Verify Add member icon on the created Project page.
+INFO  2017-01-02 14:21:12,179 [Worker#STA_NP] TestScripts.BaseTest - Verify Share project icon on the created Project page.
+INFO  2017-01-02 14:21:15,231 [Worker#STA_NP] TestScripts.BaseTest - Verify Delete project icon on the created Project page.
+INFO  2017-01-02 14:21:18,292 [Worker#STA_NP] TestScripts.BaseTest - Verify Start Date field on the created Project page.
+INFO  2017-01-02 14:21:21,369 [Worker#STA_NP] TestScripts.BaseTest - Verify Due Date field on the created Project page.
+INFO  2017-01-02 14:21:24,430 [Worker#STA_NP] TestScripts.BaseTest - Verify Status field on the created Project page.
+INFO  2017-01-02 14:21:27,540 [Worker#STA_NP] TestScripts.BaseTest - Verify Location field on the created Project page.
+INFO  2017-01-02 14:21:30,590 [Worker#STA_NP] TestScripts.BaseTest - Verify Group field on the created Project page.
+INFO  2017-01-02 14:21:33,646 [Worker#STA_NP] TestScripts.BaseTest - Verify Event field on the created Project page.
+INFO  2017-01-02 14:21:36,699 [Worker#STA_NP] TestScripts.BaseTest - Verify Reward field on the created Project page.
+INFO  2017-01-02 14:21:39,751 [Worker#STA_NP] TestScripts.BaseTest - Verify Owner field on the created Project page.
+INFO  2017-01-02 14:21:42,797 [Worker#STA_NP] TestScripts.BaseTest - Verify Mark Complete on the created Project page.
+INFO  2017-01-02 14:21:54,727 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 14:22:35,185 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 14:22:55,973 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 14:23:15,341 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 14:23:24,259 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2017-01-02 14:23:27,387 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 14:25:33,515 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-14-25-32.png
+ERROR 2017-01-02 14:25:39,106 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class= 'col-lg-12 rt-projects-members']///i[contains(@class, 'rt-member__remove-btn')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class= 'col-lg-12 rt-projects-members']///i[contains(@class, 'rt-member__remove-btn')]' is not a valid XPath expression.
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-02 14:25:39,756 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_039_ClickRemoveMemberAndVerify_2017-01-02-14-25-39.png
+INFO  2017-01-02 14:25:39,757 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 14:26:07,056 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 14:26:27,626 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 14:26:46,889 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 14:26:55,377 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2017-01-02 14:26:58,578 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 14:29:05,021 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-14-29-04.png
+ERROR 2017-01-02 14:29:05,022 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class= 'col-lg-12 rt-projects-members']///i[contains(@class, 'rt-member__remove-btn')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class= 'col-lg-12 rt-projects-members']///i[contains(@class, 'rt-member__remove-btn')]' is not a valid XPath expression.
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-02 14:29:05,263 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_040_ClickRemoveMemberNoBtn_2017-01-02-14-29-05.png
+INFO  2017-01-02 14:29:05,263 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 14:29:31,633 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 14:29:51,906 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 14:30:11,371 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 14:30:19,676 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2017-01-02 14:30:22,828 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.

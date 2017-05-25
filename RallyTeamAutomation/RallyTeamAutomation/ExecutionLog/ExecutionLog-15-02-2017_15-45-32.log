@@ -1,0 +1,11 @@
+[START]
+INFO  2017-02-15 15:46:38,484 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-15 15:46:58,996 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-15 15:47:02,200 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-15 15:47:08,146 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-15 15:47:13,319 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-02-15 15:49:23,406 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-15-15-49-19.png
+ERROR 2017-02-15 15:49:23,920 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@class= 'input ng-valid ng-dirty ng-touched']"}
+INFO  2017-02-15 15:49:31,731 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InviteUsersTest.InviteUser_002_SendInvitationViaEmail_2017-02-15-15-49-31.png
+INFO  2017-02-15 15:49:31,731 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

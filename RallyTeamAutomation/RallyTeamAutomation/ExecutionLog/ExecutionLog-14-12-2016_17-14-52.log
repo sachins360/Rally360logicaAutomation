@@ -1,0 +1,8 @@
+[START]
+INFO  2016-12-14 17:15:18,275 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-14 17:15:46,634 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'In Progress'
+INFO  2016-12-14 17:17:52,684 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-14-17-17-52.png
+ERROR 2016-12-14 17:17:52,725 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[text()= 'Update Metrics']) to be displayed but did not.
+INFO  2016-12-14 17:17:53,153 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProject.PostProject_007_MarkProjectClosed_2016-12-14-17-17-52.png
+INFO  2016-12-14 17:17:53,153 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

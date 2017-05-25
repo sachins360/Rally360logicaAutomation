@@ -1,0 +1,38 @@
+[START]
+INFO  2017-01-24 12:18:28,482 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-24 12:18:40,718 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2017-01-24 12:18:47,083 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2017-01-24 12:18:53,537 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2017-01-24 12:18:57,765 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2017-01-24 12:19:01,054 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2017-01-24 12:19:04,265 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2017-01-24 12:19:15,509 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-24 12:19:22,270 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-24 12:19:25,002 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2017-01-24 12:19:31,511 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2017-01-24 12:19:34,902 [Worker#STA_NP] TestScripts.BaseTest - Click the Join button on Dashboard.
+INFO  2017-01-24 12:19:38,322 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2017-01-24 12:19:41,370 [Worker#STA_NP] TestScripts.BaseTest - Verify Join Event Activity is displayed.
+INFO  2017-01-24 12:19:43,413 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2017-01-24 12:19:52,530 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-24 12:19:57,020 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2017-01-24 12:22:06,570 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-24-12-22-06.png
+ERROR 2017-01-24 12:22:06,722 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='dropdown-toggle']//*[contains(text(), 'All Events')]"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 401
+INFO  2017-01-24 12:22:07,118 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_011_VerifyEventJoinActivity_2017-01-24-12-22-06.png
+INFO  2017-01-24 12:22:07,118 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

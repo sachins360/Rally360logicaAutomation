@@ -1,0 +1,12 @@
+[START]
+INFO  2017-02-16 12:28:06,334 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-16 12:28:20,772 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-16 12:28:23,374 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-16 12:28:29,259 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-16 12:28:39,354 [Worker#STA_NP] TestScripts.BaseTestES - Verify Close Icon.
+INFO  2017-02-16 12:28:40,380 [Worker#STA_NP] TestScripts.BaseTestES - Verify Maybe Later Option.
+INFO  2017-02-16 12:28:41,439 [Worker#STA_NP] TestScripts.BaseTestES - Verify CSV button.
+INFO  2017-02-16 12:28:42,487 [Worker#STA_NP] TestScripts.BaseTestES - Verify Email button.
+INFO  2017-02-16 12:28:43,534 [Worker#STA_NP] TestScripts.BaseTestES - Verify Create Profile button.
+INFO  2017-02-16 12:28:43,536 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

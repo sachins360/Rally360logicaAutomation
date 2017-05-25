@@ -1,0 +1,5 @@
+[START]
+INFO  2017-02-10 14:07:24,304 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-10 14:08:08,317 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.MarketplaceTest.Marketplace_006_VerifyRecommendedProjectsSearch_2017-02-10-14-08-07.png
+INFO  2017-02-10 14:08:08,485 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,17 @@
+[START]
+INFO  2016-12-26 15:01:27,858 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-26 15:02:00,702 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-26 15:02:09,044 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-26 15:02:12,285 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-26 15:02:18,638 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-26 15:02:22,958 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-26 15:02:26,150 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-26 15:02:38,722 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-26 15:02:42,385 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-26 15:02:49,690 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2016-12-26 15:02:54,819 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2016-12-26 15:03:00,999 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2016-12-26 15:03:02,048 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Calendar Icon.
+INFO  2016-12-26 15:03:03,687 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_001_CreateDraftInvoice_2016-12-26-15-03-03.png
+INFO  2016-12-26 15:03:03,710 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

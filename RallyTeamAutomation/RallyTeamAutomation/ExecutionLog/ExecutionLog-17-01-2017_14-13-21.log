@@ -1,0 +1,12 @@
+[START]
+INFO  2017-01-17 14:14:33,567 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-17 14:14:55,286 [Worker#STA_NP] TestScripts.BaseTestES - Select the Private Project check-box.
+INFO  2017-01-17 14:15:10,777 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-17 14:15:17,922 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-17 14:15:28,289 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-17 14:15:29,636 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-01-17 14:17:39,759 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-17-14-17-36.png
+ERROR 2017-01-17 14:17:40,161 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'PrivateProject QREP')]) to be displayed but did not.
+INFO  2017-01-17 14:17:49,995 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_015_VerifyAdminCanAccessPrivateProject_2017-01-17-14-17-49.png
+INFO  2017-01-17 14:17:49,995 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

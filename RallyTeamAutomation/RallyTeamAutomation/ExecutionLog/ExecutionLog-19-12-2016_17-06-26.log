@@ -1,0 +1,7 @@
+[START]
+INFO  2016-12-19 17:07:35,094 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-19 17:07:53,645 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-19 17:07:58,835 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2016-12-19 17:08:04,288 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2016-12-19 17:08:08,560 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2016-12-19 17:08:10,725 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.

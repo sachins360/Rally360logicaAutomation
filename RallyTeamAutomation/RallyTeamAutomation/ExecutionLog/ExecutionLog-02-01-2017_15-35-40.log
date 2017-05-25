@@ -1,0 +1,9 @@
+[START]
+INFO  2017-01-02 15:36:19,717 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:36:44,250 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:37:05,018 [Worker#STA_NP] TestScripts.BaseTest - Verify the Delete Project Member Window.
+INFO  2017-01-02 15:37:07,065 [Worker#STA_NP] TestScripts.BaseTest - Verify the Delete Project Member Window No Button.
+INFO  2017-01-02 15:37:09,116 [Worker#STA_NP] TestScripts.BaseTest - Verify the Delete Project Member Window Yes button.
+INFO  2017-01-02 15:37:11,302 [Worker#STA_NP] TestScripts.BaseTest - Close the Delete Group Member Window.
+INFO  2017-01-02 15:37:23,640 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

@@ -1,0 +1,25 @@
+[START]
+INFO  2017-02-16 17:22:28,677 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-16 17:22:40,683 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-16 17:22:43,081 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-16 17:22:48,319 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-16 17:22:53,515 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-02-16 17:22:58,919 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-02-16 17:23:01,149 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-16 17:23:06,270 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-02-16 17:23:17,982 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-02-16 17:23:25,339 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-02-16 17:23:46,495 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-02-16 17:23:54,343 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-02-16 17:23:54,546 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-02-16 17:23:56,881 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-02-16 17:23:59,067 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-02-16 17:24:04,390 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-02-16 17:24:06,595 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-02-16 17:24:08,747 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-02-16 17:24:17,003 [Worker#STA_NP] TestScripts.BaseTestES - Click Get Staerted button.
+INFO  2017-02-16 17:26:37,914 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-16-17-26-34.png
+ERROR 2017-02-16 17:26:38,136 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[@class= 'fa-stack']) to be displayed but did not.
+INFO  2017-02-16 17:26:44,518 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InviteUsersTest.InviteUser_005_UploadResumeAndOnboard_2017-02-16-17-26-44.png
+INFO  2017-02-16 17:26:44,518 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

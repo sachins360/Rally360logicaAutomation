@@ -1,0 +1,12 @@
+[START]
+INFO  2017-01-31 12:37:55,990 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-31 12:38:03,106 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-31 12:38:05,523 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-31 12:38:08,107 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-31 12:38:10,309 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Profile Builder button.
+INFO  2017-01-31 12:38:15,362 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Window is displayed.
+INFO  2017-01-31 12:38:16,419 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Connect With LinkedIn button is displayed.
+INFO  2017-01-31 12:38:17,475 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Upload Resume button is displayed.
+INFO  2017-01-31 12:38:18,517 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Close button is displayed.
+INFO  2017-01-31 12:38:18,519 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

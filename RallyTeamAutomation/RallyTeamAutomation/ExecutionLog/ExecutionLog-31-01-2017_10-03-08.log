@@ -1,0 +1,24 @@
+[START]
+INFO  2017-01-31 10:05:23,523 [14] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-01-31 10:06:17,559 [14] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2017-01-31 10:06:19,757 [14] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2017-01-31 10:06:21,958 [14] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2017-01-31 10:06:24,195 [14] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2017-01-31 10:06:28,310 [14] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2017-01-31 10:06:33,949 [14] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2017-01-31 10:06:41,968 [14] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2017-01-31 10:06:44,135 [14] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2017-01-31 10:06:56,206 [14] TestScripts.BaseTestWithoutLogin - Verify the Welcome RallyTeam message.
+INFO  2017-01-31 10:06:57,270 [14] TestScripts.BaseTestWithoutLogin - Verify Get Started button.
+INFO  2017-01-31 10:06:58,467 [14] TestScripts.BaseTestWithoutLogin - Click Get Staerted button.
+INFO  2017-01-31 10:07:03,647 [14] TestScripts.BaseTestWithoutLogin - Click Next button on LinkedIn Page.
+INFO  2017-01-31 10:07:08,885 [14] TestScripts.BaseTestWithoutLogin - Select Expertise.
+INFO  2017-01-31 10:07:11,114 [14] TestScripts.BaseTestWithoutLogin - Click Expertise Continue button.
+INFO  2017-01-31 10:07:25,705 [14] TestScripts.BaseTestWithoutLogin - Click View My Profile button.
+INFO  2017-01-31 10:07:30,932 [14] TestScripts.BaseTestWithoutLogin - Assert Skill One.
+INFO  2017-01-31 10:07:32,116 [14] TestScripts.BaseTestWithoutLogin - Assert Skill Two.
+INFO  2017-01-31 10:07:35,231 [14] TestScripts.BaseTestWithoutLogin - Click Done button.
+INFO  2017-01-31 10:07:45,720 [14] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2017-01-31 10:07:51,016 [14] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2017-01-31 10:08:04,309 [14] TestScripts.BaseTestWithoutLogin - Click the Email Subject.
+INFO  2017-01-31 10:08:11,411 [14] TestScripts.BaseTestWithoutLogin - Get Confirmation Code.

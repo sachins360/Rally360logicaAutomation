@@ -1,0 +1,22 @@
+[START]
+INFO  2016-11-10 16:33:11,880 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 16:33:25,721 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-11-10 16:33:30,054 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-11-10 16:33:33,253 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-11-10 16:33:37,255 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-11-10 16:33:42,971 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-11-10 16:33:46,167 [Worker#STA_NP] TestScripts.BaseTest - Click add comment area.
+INFO  2016-11-10 16:33:48,486 [Worker#STA_NP] TestScripts.BaseTest - Enter comment in Text Area.
+INFO  2016-11-10 16:33:51,723 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-11-10 16:33:54,988 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Comment Message Reply button.
+INFO  2016-11-10 16:34:04,492 [Worker#STA_NP] TestScripts.BaseTest - Enter the Reply Comment Text Area
+INFO  2016-11-10 16:34:11,663 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-11-10 16:35:41,733 [Worker#STA_NP] TestScripts.BaseTest - Click Task Window Close Icon.
+INFO  2016-11-10 16:37:47,789 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-16-37-46.png
+ERROR 2016-11-10 16:37:48,169 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 372
+INFO  2016-11-10 16:37:48,425 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_019_ReplyAddCommentAndVerify_2016-11-10-16-37-48.png
+INFO  2016-11-10 16:37:48,425 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

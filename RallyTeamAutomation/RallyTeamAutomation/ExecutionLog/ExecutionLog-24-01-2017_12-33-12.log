@@ -1,0 +1,13 @@
+[START]
+INFO  2017-01-24 12:34:17,779 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-24 12:34:32,911 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2017-01-24 12:34:39,036 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2017-01-24 12:34:45,682 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2017-01-24 12:34:49,901 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2017-01-24 12:34:53,298 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2017-01-24 12:34:56,472 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2017-01-24 12:35:07,720 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-24 12:35:15,464 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-24 12:35:17,851 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_011_VerifyEventJoinActivity_2017-01-24-12-35-16.png
+INFO  2017-01-24 12:35:17,932 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

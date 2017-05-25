@@ -1,0 +1,18 @@
+[START]
+INFO  2017-04-20 14:59:43,098 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 15:00:02,905 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 15:00:14,372 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 15:00:23,014 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 15:00:34,585 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 15:00:37,778 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 15:00:50,153 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 15:00:58,595 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 15:01:02,339 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-20 15:01:07,631 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'In Progress'
+INFO  2017-04-20 15:01:10,964 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-20 15:01:16,160 [Worker#STA_NP] TestScripts.BaseTestES - Verify In Progress Status on About Page.
+INFO  2017-04-20 15:01:20,374 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 15:01:23,701 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-04-20 15:01:27,110 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-04-20 15:01:27,112 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

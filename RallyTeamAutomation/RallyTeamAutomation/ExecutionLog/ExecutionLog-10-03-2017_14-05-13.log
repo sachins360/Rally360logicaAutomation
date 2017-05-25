@@ -1,0 +1,30 @@
+[START]
+INFO  2017-03-10 14:06:09,120 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-10 14:07:00,567 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-10 14:07:10,882 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-10 14:07:15,038 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-10 14:07:28,505 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-10 14:07:44,405 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-03-10 14:07:54,585 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2017-03-10 14:07:59,819 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2017-03-10 14:08:00,958 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2017-03-10 14:08:02,072 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-03-10 14:08:04,215 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2017-03-10 14:08:05,491 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2017-03-10 14:08:07,774 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2017-03-10 14:08:10,019 [Worker#STA_NP] TestScripts.BaseTestES - Click Submit button.
+INFO  2017-03-10 14:08:17,133 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-10 14:08:31,204 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-03-10 14:08:33,649 [Worker#STA_NP] TestScripts.BaseTestES - Click Invoice displayed.
+INFO  2017-03-10 14:08:38,809 [Worker#STA_NP] TestScripts.BaseTestES - Click the Approve button.
+INFO  2017-03-10 14:08:44,643 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-10 14:08:49,799 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Requires Payment short notification on the Notification Window.
+INFO  2017-03-10 14:08:50,969 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-03-10 14:08:58,037 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Requires Payment Notification on Notifications Page.
+INFO  2017-03-10 14:08:59,110 [Worker#STA_NP] TestScripts.BaseTestES - Verify Invoice Requires Payment notification subject on the Notifications Page.
+INFO  2017-03-10 14:09:01,387 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-03-10 14:09:06,656 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-03-10 14:09:08,996 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-03-10 14:09:24,780 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-03-10 14:09:42,065 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

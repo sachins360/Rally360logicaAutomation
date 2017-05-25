@@ -1,0 +1,11 @@
+[START]
+INFO  2017-03-02 12:28:39,055 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-02 12:28:58,239 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-03-02 12:29:00,783 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-02 12:29:06,702 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-03-02 12:29:11,908 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-03-02 12:31:28,029 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-02-12-31-18.png
+ERROR 2017-03-02 12:31:28,277 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@placeholder= 'name@domain.com']"}
+INFO  2017-03-02 12:31:35,625 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.VendorTest.Vendor_002_NewVendorUserCreateVendorProfile_2017-03-02-12-31-35.png
+INFO  2017-03-02 12:31:35,626 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

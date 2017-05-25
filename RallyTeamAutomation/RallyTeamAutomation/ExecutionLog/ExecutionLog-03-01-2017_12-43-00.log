@@ -1,0 +1,191 @@
+[START]
+INFO  2017-01-03 12:43:46,108 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:44:07,230 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 12:44:09,341 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Admin'.
+INFO  2017-01-03 12:44:10,807 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-03 12:44:13,839 [Worker#STA_NP] TestScripts.BaseTest - Verify Features tab is displayed.
+INFO  2017-01-03 12:46:19,819 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-46-15.png
+ERROR 2017-01-03 12:46:19,941 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[text()='Manage Users']) to be displayed but did not.
+INFO  2017-01-03 12:46:22,588 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2177_001_VerifyAdminOption_2017-01-03-12-46-22.png
+INFO  2017-01-03 12:46:22,588 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:47:01,336 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:47:13,655 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 12:47:16,030 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-03 12:49:18,622 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-49-18.png
+ERROR 2017-01-03 12:49:18,691 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Manage Users']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-03 12:49:18,915 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2177_002_VerifyAdminColumn_2017-01-03-12-49-18.png
+INFO  2017-01-03 12:49:18,915 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:49:55,825 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:50:03,974 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 12:50:08,402 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-03 12:50:14,607 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-03 12:50:17,353 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-01-03 12:50:20,518 [Worker#STA_NP] TestScripts.BaseTest - Click the User Settings Profile button.
+INFO  2017-01-03 12:50:22,273 [Worker#STA_NP] TestScripts.BaseTest - Select 'Edit Profile' from the Settings Profile options.
+INFO  2017-01-03 12:52:26,086 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-52-25.png
+ERROR 2017-01-03 12:52:26,086 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"Name","selector":"title"}
+INFO  2017-01-03 12:52:26,374 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2177_006_EditOtherUserProfileByAdminUser_2017-01-03-12-52-26.png
+INFO  2017-01-03 12:52:26,375 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:52:53,685 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:53:30,504 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 12:53:32,811 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-03 12:55:35,629 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-55-35.png
+ERROR 2017-01-03 12:55:35,629 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //table[@class='table table-hover']//thead/tr//strong[text()= 'Notes']) to be displayed but did not.
+INFO  2017-01-03 12:55:35,913 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2248_001_VerifyAddNotesViewNotes_2017-01-03-12-55-35.png
+INFO  2017-01-03 12:55:35,913 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:56:13,925 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:56:53,749 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 12:56:56,065 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-03 12:56:58,380 [Worker#STA_NP] TestScripts.BaseTest - Enter search user email id.
+INFO  2017-01-03 12:59:03,342 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-59-02.png
+ERROR 2017-01-03 12:59:03,343 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='table table-hover']//tbody/tr[1]/td[8]//a"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-03 12:59:03,746 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2248_002_VerifyViewNotesWindow_2017-01-03-12-59-03.png
+INFO  2017-01-03 12:59:03,746 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:59:36,016 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:00:10,891 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 13:00:14,274 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-03 13:00:17,096 [Worker#STA_NP] TestScripts.BaseTest - Enter search user email id.
+INFO  2017-01-03 13:02:22,096 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-13-02-21.png
+ERROR 2017-01-03 13:02:22,097 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='table table-hover']//tbody/tr[1]/td[8]//a"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-03 13:02:22,493 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2248_004_AddNoteAndVerify_2017-01-03-13-02-22.png
+INFO  2017-01-03 13:02:22,493 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:02:36,016 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:02:41,307 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile icon
+INFO  2017-01-03 13:02:43,308 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:02:57,448 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:03:03,098 [Worker#STA_NP] TestScripts.BaseTest - Verify the USer Profile icon tooltip.
+INFO  2017-01-03 13:03:05,232 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 13:03:07,316 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Profile'.
+INFO  2017-01-03 13:03:08,409 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Support'.
+INFO  2017-01-03 13:03:09,509 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Sign out'.
+INFO  2017-01-03 13:03:10,511 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:03:30,358 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:03:36,110 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 13:03:38,575 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-03 13:03:40,610 [Worker#STA_NP] TestScripts.BaseTest - Verify User Details Window displayed.
+INFO  2017-01-03 13:03:41,611 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:03:58,520 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:04:04,590 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 13:04:07,037 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-03 13:04:09,110 [Worker#STA_NP] TestScripts.BaseTest - Verify User Details Window displayed.
+INFO  2017-01-03 13:04:10,202 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile User Name.
+INFO  2017-01-03 13:04:12,289 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Skills & Endorsements.
+INFO  2017-01-03 13:04:14,330 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Industry/Domain Expertise.
+INFO  2017-01-03 13:04:16,411 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Languages.
+INFO  2017-01-03 13:04:18,543 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Interests.
+INFO  2017-01-03 13:04:20,641 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Projects.
+INFO  2017-01-03 13:04:22,642 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:04:39,632 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:04:45,245 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 13:04:47,787 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-03 13:04:50,477 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-03 13:04:52,555 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window displayed.
+INFO  2017-01-03 13:04:52,556 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:05:11,888 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:05:16,989 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 13:05:19,333 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-03 13:05:21,947 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-03 13:05:24,035 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Profile Builder button is displayed.
+INFO  2017-01-03 13:05:25,132 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Save button is displayed.
+INFO  2017-01-03 13:05:26,226 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Cancel button is displayed.
+INFO  2017-01-03 13:05:27,321 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window First Name is displayed.
+INFO  2017-01-03 13:05:28,441 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Last Name is displayed.
+INFO  2017-01-03 13:05:29,531 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Email is displayed.
+INFO  2017-01-03 13:05:30,621 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Title is displayed.
+INFO  2017-01-03 13:05:31,662 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Email is displayed.
+INFO  2017-01-03 13:05:32,747 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window About Me is displayed.
+INFO  2017-01-03 13:05:33,835 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window My Top Skills is displayed.
+INFO  2017-01-03 13:05:34,893 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Other Skills is displayed.
+INFO  2017-01-03 13:05:35,991 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Industry/Domain Expertise is displayed.
+INFO  2017-01-03 13:05:37,087 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Languages is displayed.
+INFO  2017-01-03 13:05:38,188 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Interested In is displayed.
+INFO  2017-01-03 13:05:39,244 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window LinkedIn Url is displayed.
+INFO  2017-01-03 13:05:40,350 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Phone is displayed.
+INFO  2017-01-03 13:05:41,442 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Address is displayed.
+INFO  2017-01-03 13:05:42,650 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window City is displayed.
+INFO  2017-01-03 13:05:43,751 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Email is displayed.
+INFO  2017-01-03 13:05:44,825 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Postal Code is displayed.
+INFO  2017-01-03 13:05:45,914 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Country is displayed.
+INFO  2017-01-03 13:05:47,002 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Old Password is displayed.
+INFO  2017-01-03 13:05:48,093 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window New Password is displayed.
+INFO  2017-01-03 13:05:49,114 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Confirm Password is displayed.
+INFO  2017-01-03 13:05:49,115 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:06:27,757 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:31:10,631 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-13-30-41.png
+ERROR 2017-01-03 13:31:10,631 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[text()='RallyNow']) to be displayed but did not.
+INFO  2017-01-03 13:31:15,460 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.UserProfile_008_ClearFirstNameAndVerify_2017-01-03-13-31-11.png
+INFO  2017-01-03 13:31:15,460 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:32:31,837 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:32:52,673 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 13:32:55,184 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-03 13:32:58,732 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-03 13:33:01,096 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window Last Name.
+INFO  2017-01-03 13:33:02,439 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Save button.
+INFO  2017-01-03 13:33:04,549 [Worker#STA_NP] TestScripts.BaseTest - Verify Mandatory Field error message is displayed.
+INFO  2017-01-03 13:33:05,549 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:33:42,793 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:33:51,190 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 13:33:53,672 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-03 13:33:56,286 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-03 13:33:58,421 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window Title.
+INFO  2017-01-03 13:33:59,646 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window About Me.
+INFO  2017-01-03 13:34:03,488 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Save button.
+INFO  2017-01-03 13:34:06,598 [Worker#STA_NP] TestScripts.BaseTest - Verify update About Me is displayed.
+INFO  2017-01-03 13:34:07,695 [Worker#STA_NP] TestScripts.BaseTest - Verify update Title is displayed.
+INFO  2017-01-03 13:34:07,696 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 13:34:34,800 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 13:34:41,220 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 13:34:43,562 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-03 13:34:46,327 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-03 13:34:48,679 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Profile Builder button.
+INFO  2017-01-03 13:34:51,731 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Window is displayed.
+INFO  2017-01-03 13:34:52,817 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Connect With LinkedIn button is displayed.
+INFO  2017-01-03 13:34:53,907 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Upload Resume button is displayed.
+INFO  2017-01-03 13:34:54,949 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Close button is displayed.
+INFO  2017-01-03 13:34:54,949 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

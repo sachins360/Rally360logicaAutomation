@@ -1,0 +1,24 @@
+[START]
+INFO  2016-11-28 14:17:20,350 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-28 14:17:43,447 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-28 14:18:03,730 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-28 14:18:26,583 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-28 14:18:34,691 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-28 14:18:39,864 [Worker#STA_NP] TestScripts.BaseTest - Click on the Biew Team Status hyperlink.
+INFO  2016-11-28 14:18:45,115 [Worker#STA_NP] TestScripts.BaseTest - Click on Team Status window Close icon.
+INFO  2016-11-28 14:18:48,534 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-28 14:18:58,613 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-28 14:19:40,314 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-28 14:20:01,059 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-28 14:20:19,058 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 14:20:25,332 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 14:20:28,498 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-28 14:20:34,028 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-28 14:20:40,275 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Closed'
+INFO  2016-11-28 14:20:44,643 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 14:20:50,834 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 14:20:53,914 [Worker#STA_NP] TestScripts.BaseTest - Select 'Closed' option from the All Projects dropdown.
+INFO  2016-11-28 14:20:58,947 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2016-11-28 14:21:02,347 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-28 14:21:15,548 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

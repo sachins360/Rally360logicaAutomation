@@ -1,0 +1,135 @@
+[START]
+INFO  2017-01-02 12:36:02,533 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:36:36,215 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:36:55,823 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 12:37:04,429 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2017-01-02 12:37:07,605 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 12:37:12,694 [Worker#STA_NP] TestScripts.BaseTest - Verified Project member added confirmation message.
+INFO  2017-01-02 12:37:24,097 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:37:55,350 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:38:16,403 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:38:35,896 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 12:38:55,838 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 12:39:01,354 [Worker#STA_NP] TestScripts.BaseTest - Verified Project member added confirmation message.
+INFO  2017-01-02 12:39:13,026 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:39:39,086 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:39:59,582 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:40:18,963 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 12:40:27,260 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2017-01-02 12:40:30,453 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 12:42:37,882 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-12-42-35.png
+ERROR 2017-01-02 12:42:44,400 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[3]/div/i"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-02 12:42:45,182 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_039_ClickRemoveMemberAndVerify_2017-01-02-12-42-44.png
+INFO  2017-01-02 12:42:45,182 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:43:45,576 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:44:06,108 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:44:25,447 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 12:44:33,805 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2017-01-02 12:44:37,047 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 12:46:42,656 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-12-46-42.png
+ERROR 2017-01-02 12:46:42,656 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[3]/div/i"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-02 12:46:42,942 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_040_ClickRemoveMemberNoBtn_2017-01-02-12-46-42.png
+INFO  2017-01-02 12:46:42,942 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:47:20,478 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:47:46,845 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:48:06,405 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 12:48:15,013 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2017-01-02 12:48:18,188 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 12:50:23,755 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-12-50-23.png
+ERROR 2017-01-02 12:50:23,756 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[3]/div/i"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-02 12:50:24,051 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_041_ClickRemoveMemberYesBtn_2017-01-02-12-50-23.png
+INFO  2017-01-02 12:50:24,051 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:51:11,805 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:51:32,595 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:51:50,805 [Worker#STA_NP] TestScripts.BaseTest - Edit the Project Name.
+INFO  2017-01-02 12:51:54,284 [Worker#STA_NP] TestScripts.BaseTest - Edit the Start Date.
+INFO  2017-01-02 12:51:57,837 [Worker#STA_NP] TestScripts.BaseTest - Edit the Due Date.
+INFO  2017-01-02 12:52:01,298 [Worker#STA_NP] TestScripts.BaseTest - Edit the Project Owner.
+INFO  2017-01-02 12:52:08,995 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:52:18,174 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 12:52:20,469 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:52:26,630 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:52:30,762 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-02 12:52:33,484 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:54:40,432 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-12-54-39.png
+ERROR 2017-01-02 12:54:40,433 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[3]/a/div/i"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-02 12:54:40,746 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_042_EditProject_2017-01-02-12-54-40.png
+INFO  2017-01-02 12:54:40,746 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:55:35,681 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:55:56,956 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:58:20,118 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-12-58-19.png
+ERROR 2017-01-02 12:58:20,119 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'modal-content')]//h1[text()='Are you sure you want to delete this project?']) to be displayed but did not.
+INFO  2017-01-02 12:58:20,379 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_043_ClickDeleteProjectAndVerify_2017-01-02-12-58-20.png
+INFO  2017-01-02 12:58:20,379 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:58:28,377 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:58:28,728 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_044_ClickDeleteProjectNoBtn_2017-01-02-12-58-28.png
+INFO  2017-01-02 12:58:28,728 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:58:36,910 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:58:37,193 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_045_ClickDeleteProjectYesBtn_2017-01-02-12-58-36.png
+INFO  2017-01-02 12:58:37,193 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:58:45,592 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:58:45,859 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_046_CreateProjectWithoutAnyField_2017-01-02-12-58-45.png
+INFO  2017-01-02 12:58:45,859 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:58:54,192 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:58:54,477 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_047_CreateProjectWithoutName_2017-01-02-12-58-54.png
+INFO  2017-01-02 12:58:54,477 [Worker#STA_NP] TestScripts.BaseTest - Teardown test

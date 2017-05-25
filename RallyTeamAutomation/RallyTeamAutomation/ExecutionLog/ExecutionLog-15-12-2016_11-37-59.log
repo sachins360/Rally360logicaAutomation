@@ -1,0 +1,7 @@
+[START]
+INFO  2016-12-15 11:39:02,516 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-15 11:39:39,714 [Worker#STA_NP] TestScripts.BaseTestES - Edit the Project Name.
+INFO  2016-12-15 11:39:43,020 [Worker#STA_NP] TestScripts.BaseTestES - Edit the Project Location.
+INFO  2016-12-15 11:39:46,367 [Worker#STA_NP] TestScripts.BaseTestES - Edit the Project Owner.
+INFO  2016-12-15 11:39:49,369 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

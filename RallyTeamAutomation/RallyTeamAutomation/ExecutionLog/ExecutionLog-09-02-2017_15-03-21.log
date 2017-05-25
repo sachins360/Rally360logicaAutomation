@@ -1,0 +1,12 @@
+[START]
+INFO  2017-02-09 15:04:40,828 [14] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 15:05:43,400 [14] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-02-09 15:06:05,806 [14] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2017-02-09 15:06:12,364 [14] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2017-02-09 15:06:14,630 [14] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2017-02-09 15:10:17,135 [14] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-02-09 15:10:23,499 [14] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-02-09 15:10:26,745 [14] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2017-02-09 15:10:32,873 [14] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-02-09 15:10:45,582 [14] TestScripts.BaseTest - Teardown test
+[END]

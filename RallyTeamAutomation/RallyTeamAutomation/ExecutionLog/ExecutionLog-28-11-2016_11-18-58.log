@@ -1,0 +1,14 @@
+[START]
+INFO  2016-11-28 11:19:44,935 [14] TestScripts.BaseTest - Setup test
+INFO  2016-11-28 11:20:06,674 [14] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-28 11:20:53,708 [14] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 11:21:03,741 [14] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 11:21:08,747 [14] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-28 11:24:47,347 [14] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-28-11-24-46.png
+ERROR 2016-11-28 11:24:47,468 [14] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-11-28 11:24:52,677 [14] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_009_VerifyCompletedProjects_2016-11-28-11-24-52.png
+INFO  2016-11-28 11:24:52,677 [14] TestScripts.BaseTest - Teardown test
+[END]

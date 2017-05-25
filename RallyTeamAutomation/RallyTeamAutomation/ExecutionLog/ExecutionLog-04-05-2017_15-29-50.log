@@ -1,0 +1,37 @@
+[START]
+INFO  2017-05-04 15:30:31,893 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 15:30:53,178 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 15:31:04,651 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 15:31:13,416 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 15:31:24,994 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 15:31:28,216 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 15:31:40,670 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 15:31:50,428 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 15:32:08,733 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-05-04 15:32:19,001 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2017-05-04 15:32:24,569 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2017-05-04 15:32:25,720 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2017-05-04 15:32:26,915 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-05-04 15:32:29,348 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2017-05-04 15:32:30,758 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2017-05-04 15:32:33,295 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2017-05-04 15:32:35,787 [Worker#STA_NP] TestScripts.BaseTestES - Click Submit button.
+INFO  2017-05-04 15:32:43,200 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 15:32:57,981 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-05-04 15:33:00,751 [Worker#STA_NP] TestScripts.BaseTestES - Click Invoice displayed.
+INFO  2017-05-04 15:33:06,192 [Worker#STA_NP] TestScripts.BaseTestES - Click the Deny button.
+INFO  2017-05-04 15:33:13,593 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 15:33:28,193 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 15:33:33,347 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Denied short notification on the Notification Window.
+INFO  2017-05-04 15:33:34,860 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 15:33:41,998 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Denied Notification on Notifications Page.
+INFO  2017-05-04 15:33:43,140 [Worker#STA_NP] TestScripts.BaseTestES - Verify Invoice Denied notification subject on the Notifications Page.
+INFO  2017-05-04 15:33:47,558 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 15:34:01,731 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-05-04 15:34:04,635 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-05-04 15:34:20,202 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-05-04 15:34:28,668 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-04 15:34:32,138 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-05-04 15:34:35,545 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-05-04 15:34:35,549 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

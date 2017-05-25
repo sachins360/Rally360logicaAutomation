@@ -1,0 +1,23 @@
+[START]
+INFO  2016-12-19 14:20:32,883 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-19 14:21:14,452 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-19 14:21:21,305 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-19 14:21:28,250 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-19 14:21:55,696 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-19 14:22:00,886 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-19 14:22:04,460 [Worker#STA_NP] TestScripts.BaseTest - Click the Groups menu option.
+INFO  2016-12-19 14:22:13,041 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-12-19 14:22:15,294 [Worker#STA_NP] TestScripts.BaseTest - Click the Join button on Dashboard.
+INFO  2016-12-19 14:22:18,592 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-19 14:22:21,660 [Worker#STA_NP] TestScripts.BaseTest - Verify Join Group Activity is displayed.
+INFO  2016-12-19 14:22:23,714 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Group Activity is displayed.
+INFO  2016-12-19 14:22:36,235 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-19 14:22:40,121 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-19 14:22:46,346 [Worker#STA_NP] TestScripts.BaseTest - Click the All Groups dropdown.
+INFO  2016-12-19 14:22:49,504 [Worker#STA_NP] TestScripts.BaseTest - Click the My Groups dropdown option.
+INFO  2016-12-19 14:22:52,893 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-12-19 14:23:01,130 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-19 14:23:02,375 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-19 14:23:04,551 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-19 14:23:06,553 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

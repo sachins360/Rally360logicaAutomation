@@ -1,0 +1,10 @@
+[START]
+INFO  2017-04-04 14:07:19,305 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-04 14:07:45,234 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-04 14:07:47,588 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-04-14-07-47.png
+ERROR 2017-04-04 14:07:47,605 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: Cannot locate element with text: Long Term Project
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 74
+INFO  2017-04-04 14:07:47,883 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_002_PostANewProject_2017-04-04-14-07-47.png
+INFO  2017-04-04 14:07:47,883 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,17 @@
+[START]
+INFO  2017-04-20 14:21:59,379 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 14:22:19,576 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 14:22:30,977 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 14:22:39,694 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 14:22:51,157 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 14:22:54,393 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 14:23:06,605 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 14:23:13,795 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2017-04-20 14:23:55,802 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating for user1
+INFO  2017-04-20 14:23:58,133 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating for user2
+INFO  2017-04-20 14:24:00,349 [Worker#STA_NP] TestScripts.BaseTestES - Click Complete Project button.
+INFO  2017-04-20 14:26:07,825 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-20-14-26-07.png
+ERROR 2017-04-20 14:26:07,830 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'Update Metrics')]) to be displayed but did not.
+INFO  2017-04-20 14:26:08,000 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_008_CompleteProject_2017-04-20-14-26-07.png
+INFO  2017-04-20 14:26:08,001 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

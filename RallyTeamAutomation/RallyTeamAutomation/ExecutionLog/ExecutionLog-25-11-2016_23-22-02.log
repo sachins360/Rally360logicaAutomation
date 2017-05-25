@@ -1,0 +1,67 @@
+[START]
+INFO  2016-11-25 23:22:38,478 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-25 23:22:48,782 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-25 23:22:55,309 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-11-25 23:22:59,523 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-11-25 23:23:02,732 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-11-25 23:23:07,924 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Location.
+INFO  2016-11-25 23:23:14,312 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-11-25 23:23:18,313 [Worker#STA_NP] TestScripts.BaseTest - Create a new Event.
+INFO  2016-11-25 23:23:29,890 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-11-25 23:23:33,782 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-11-25 23:23:34,979 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-25 23:23:43,409 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-11-25 23:23:45,667 [Worker#STA_NP] TestScripts.BaseTest - Click the Join button on Dashboard.
+INFO  2016-11-25 23:23:47,786 [Worker#STA_NP] TestScripts.BaseTest - Verify the Joined button on Dashboard.
+INFO  2016-11-25 23:23:59,235 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-11-25 23:24:02,869 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-25 23:24:09,014 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2016-11-25 23:24:12,156 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2016-11-25 23:24:16,569 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-11-25 23:24:21,773 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-11-25 23:24:23,098 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-11-25 23:24:25,374 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-11-25 23:24:27,376 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-25 23:24:56,955 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-25 23:25:03,008 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-25 23:25:09,423 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-11-25 23:25:13,691 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-11-25 23:25:16,923 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-11-25 23:25:22,116 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Location.
+INFO  2016-11-25 23:25:28,463 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-11-25 23:25:32,464 [Worker#STA_NP] TestScripts.BaseTest - Create a new Event.
+INFO  2016-11-25 23:25:44,117 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-11-25 23:25:47,562 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-11-25 23:25:49,461 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-25 23:25:57,895 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-11-25 23:26:00,100 [Worker#STA_NP] TestScripts.BaseTest - Click the Join button on Dashboard.
+INFO  2016-11-25 23:26:20,125 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is joined.
+INFO  2016-11-25 23:26:21,223 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Leave Event'
+INFO  2016-11-25 23:26:32,765 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-11-25 23:26:36,562 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-25 23:26:43,741 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2016-11-25 23:26:46,909 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2016-11-25 23:26:50,362 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-11-25 23:26:55,529 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-11-25 23:26:56,713 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-11-25 23:26:58,901 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-11-25 23:27:00,902 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-25 23:27:20,141 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-25 23:27:25,997 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-25 23:27:32,265 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-11-25 23:27:36,554 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-11-25 23:27:39,740 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-11-25 23:27:44,917 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Location.
+INFO  2016-11-25 23:27:51,247 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-11-25 23:27:55,248 [Worker#STA_NP] TestScripts.BaseTest - Create a new Event.
+INFO  2016-11-25 23:28:01,606 [Worker#STA_NP] TestScripts.BaseTest - Click Settings option value: 'Add Participants'
+INFO  2016-11-25 23:28:05,032 [Worker#STA_NP] TestScripts.BaseTest - Entered zafara@360logica.com into Add Member Text field 
+INFO  2016-11-25 23:28:11,334 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2016-11-25 23:28:16,588 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-11-25 23:28:26,076 [Worker#STA_NP] TestScripts.BaseTest - Click Settings option value: 'Add Participants'
+INFO  2016-11-25 23:28:29,512 [Worker#STA_NP] TestScripts.BaseTest - Entered zafara@360logica.com into Add Member Text field 
+INFO  2016-11-25 23:31:39,378 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-11-25 23:31:40,917 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-11-25 23:31:44,602 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-11-25 23:31:48,612 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

@@ -1,0 +1,32 @@
+[START]
+INFO  2017-01-17 09:14:42,980 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-17 09:14:52,055 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2017-01-17 09:14:58,765 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2017-01-17 09:15:02,947 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2017-01-17 09:15:06,188 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2017-01-17 09:15:11,442 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Location.
+INFO  2017-01-17 09:15:17,812 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2017-01-17 09:15:21,813 [Worker#STA_NP] TestScripts.BaseTest - Create a new Event.
+INFO  2017-01-17 09:15:32,158 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-17 09:15:35,747 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-17 09:15:37,490 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2017-01-17 09:17:44,691 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-17-09-17-43.png
+ERROR 2017-01-17 09:17:44,878 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Test EventSXXK')]"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-17 09:17:45,385 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.EventsTest.Event_056_VerifyEventCreatedByOtherUser_2017-01-17-09-17-44.png
+INFO  2017-01-17 09:17:45,385 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

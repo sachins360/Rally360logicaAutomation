@@ -1,0 +1,108 @@
+[START]
+INFO  2017-01-02 15:38:19,489 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:38:32,718 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:38:42,192 [Worker#STA_NP] TestScripts.BaseTest - Verify the Desc required error message
+INFO  2017-01-02 15:38:44,371 [Worker#STA_NP] TestScripts.BaseTest - Click on Cancel button.
+INFO  2017-01-02 15:38:46,373 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:39:28,094 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:39:50,093 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:40:09,668 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 15:40:17,151 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2017-01-02 15:40:20,395 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 15:40:28,343 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 15:40:32,083 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 15:40:34,995 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 15:40:41,231 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 15:40:44,360 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-02 15:40:46,812 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 15:42:51,814 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-15-42-51.png
+ERROR 2017-01-02 15:42:52,033 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'rt-project-actions')]//i[@class='fa fa-sign-out']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-02 15:42:52,288 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_052_LeaveProject_2017-01-02-15-42-52.png
+INFO  2017-01-02 15:42:52,288 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:43:19,690 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:43:40,505 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:43:59,053 [Worker#STA_NP] TestScripts.BaseTest - Click on Project's Discussion tab.
+INFO  2017-01-02 15:44:05,111 [Worker#STA_NP] TestScripts.BaseTest - Verify the Discussion message div.
+INFO  2017-01-02 15:44:11,187 [Worker#STA_NP] TestScripts.BaseTest - Verify the Discussion tab Add member icon.
+INFO  2017-01-02 15:44:14,307 [Worker#STA_NP] TestScripts.BaseTest - Verify the Discussion Share Project icon.
+INFO  2017-01-02 15:44:17,389 [Worker#STA_NP] TestScripts.BaseTest - Verify the Discussion tab Delete Project icon.
+INFO  2017-01-02 15:44:26,826 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:44:52,289 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:45:13,610 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:45:30,379 [Worker#STA_NP] TestScripts.BaseTest - Click on Project's Discussion tab.
+INFO  2017-01-02 15:45:43,034 [Worker#STA_NP] TestScripts.BaseTest - Enter message in Discussion.
+INFO  2017-01-02 15:45:46,249 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the message.
+INFO  2017-01-02 15:45:49,292 [Worker#STA_NP] TestScripts.BaseTest - Verify the Discussion Message Reply button.
+INFO  2017-01-02 15:45:59,584 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:46:33,662 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:46:54,689 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:47:11,559 [Worker#STA_NP] TestScripts.BaseTest - Click on Project's Discussion tab.
+INFO  2017-01-02 15:47:15,882 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2017-01-02 15:47:34,732 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:48:06,377 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:48:27,398 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:48:44,885 [Worker#STA_NP] TestScripts.BaseTest - Click on Project's Discussion tab.
+INFO  2017-01-02 15:48:49,945 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2017-01-02 15:48:53,177 [Worker#STA_NP] TestScripts.BaseTest - Enter message in Discussion.
+INFO  2017-01-02 15:48:59,183 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the message.
+INFO  2017-01-02 15:49:08,657 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:49:37,433 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:50:01,399 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:50:19,125 [Worker#STA_NP] TestScripts.BaseTest - Click on Project's Discussion tab.
+INFO  2017-01-02 15:50:24,183 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2017-01-02 15:50:27,452 [Worker#STA_NP] TestScripts.BaseTest - Enter message in Discussion.
+INFO  2017-01-02 15:50:32,775 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the message.
+INFO  2017-01-02 15:50:42,312 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:51:08,755 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:51:16,400 [Worker#STA_NP] TestScripts.BaseTest - Click on the Plus icon at the top.
+INFO  2017-01-02 15:51:40,259 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:52:12,322 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:52:33,257 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:52:52,828 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 15:53:15,452 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 15:53:22,854 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 15:53:28,184 [Worker#STA_NP] TestScripts.BaseTest - Click on the Biew Team Status hyperlink.
+INFO  2017-01-02 15:53:32,491 [Worker#STA_NP] TestScripts.BaseTest - Click on Team Status window Close icon.
+INFO  2017-01-02 15:53:35,956 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 15:53:46,376 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:54:14,587 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:54:35,214 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:54:54,582 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 15:55:14,308 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 15:55:22,947 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 15:55:25,129 [Worker#STA_NP] TestScripts.BaseTest - Click on the Biew Team Status hyperlink.
+INFO  2017-01-02 15:55:27,320 [Worker#STA_NP] TestScripts.BaseTest - Verify the Team Member Type.
+INFO  2017-01-02 15:55:29,399 [Worker#STA_NP] TestScripts.BaseTest - Verify the Team Member Project Role.
+INFO  2017-01-02 15:55:31,483 [Worker#STA_NP] TestScripts.BaseTest - Verify the Team Member Status.
+INFO  2017-01-02 15:55:31,684 [Worker#STA_NP] TestScripts.BaseTest - Click on Team Status window Close icon.
+INFO  2017-01-02 15:55:35,247 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 15:55:44,714 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 15:56:19,348 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 15:56:40,041 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 15:56:57,549 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 15:57:03,808 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 15:57:06,907 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2017-01-02 15:57:12,726 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 15:57:19,895 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Closed'
+INFO  2017-01-02 15:57:24,338 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 15:57:30,588 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 15:57:33,640 [Worker#STA_NP] TestScripts.BaseTest - Select 'Closed' option from the All Projects dropdown.
+INFO  2017-01-02 15:57:38,709 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2017-01-02 15:57:41,097 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 15:57:54,532 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

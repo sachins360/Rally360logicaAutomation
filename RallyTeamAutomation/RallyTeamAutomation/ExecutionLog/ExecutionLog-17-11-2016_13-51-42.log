@@ -1,0 +1,134 @@
+[START]
+INFO  2016-11-17 13:53:37,265 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 13:54:27,886 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-11-17 13:54:32,735 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-11-17 13:54:35,904 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-11-17 13:54:39,905 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-11-17 13:54:45,569 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-11-17 13:54:50,236 [Worker#STA_NP] TestScripts.BaseTest - Click attachment icon under task window.
+INFO  2016-11-17 13:57:06,469 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-17-13-57-04.png
+ERROR 2016-11-17 13:57:08,799 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 372
+INFO  2016-11-17 13:57:09,100 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_017_UploadAttachmentFileAndVerify_2016-11-17-13-57-08.png
+INFO  2016-11-17 13:57:09,100 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-17 13:58:07,208 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 13:58:19,994 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-11-17 13:58:24,270 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-11-17 13:58:27,539 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-11-17 13:58:31,541 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-11-17 13:58:37,001 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-11-17 13:58:40,127 [Worker#STA_NP] TestScripts.BaseTest - Click add comment area.
+INFO  2016-11-17 13:58:42,528 [Worker#STA_NP] TestScripts.BaseTest - Enter comment in Text Area.
+INFO  2016-11-17 13:58:45,753 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-11-17 13:58:48,982 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Comment Message Reply button.
+INFO  2016-11-17 13:58:58,621 [Worker#STA_NP] TestScripts.BaseTest - Enter the Reply Comment Text Area
+INFO  2016-11-17 13:59:05,848 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-11-17 14:01:08,627 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-17-14-01-08.png
+ERROR 2016-11-17 14:01:08,627 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 373
+INFO  2016-11-17 14:01:09,019 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_019_ReplyAddCommentAndVerify_2016-11-17-14-01-08.png
+INFO  2016-11-17 14:01:09,019 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-17 14:02:21,435 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 14:02:36,855 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-17 14:02:56,710 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-17 14:03:05,292 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-17 14:03:11,639 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-11-17 14:03:16,484 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-11-17 14:03:19,657 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-11-17 14:03:28,457 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-11-17 14:03:31,697 [Worker#STA_NP] TestScripts.BaseTest - Click the About tab of Prjects
+INFO  2016-11-17 14:03:39,089 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-17 14:04:15,183 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 14:04:28,304 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-17 14:04:50,978 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-17 14:05:00,015 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-17 14:05:05,653 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-11-17 14:05:10,471 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-11-17 14:05:13,671 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-11-17 14:05:17,107 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-11-17 14:07:20,233 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-11-17 14:07:23,536 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-17 14:07:29,821 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-17 14:07:32,965 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-17 14:07:35,720 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-17 14:07:43,074 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-17 14:08:09,848 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 14:08:22,168 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-17 14:08:41,527 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-17 14:08:49,954 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-17 14:08:55,567 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-11-17 14:09:00,627 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-11-17 14:09:03,788 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-11-17 14:09:05,974 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to In Progress section.
+INFO  2016-11-17 14:09:08,019 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed in In Progress section.
+INFO  2016-11-17 14:09:11,284 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-17 14:09:17,542 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-17 14:09:20,622 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-17 14:09:23,018 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-17 14:09:30,525 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-17 14:09:57,505 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 14:10:09,781 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-17 14:10:28,922 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-17 14:10:37,358 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-17 14:10:42,408 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-11-17 14:10:47,235 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-11-17 14:10:50,398 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-11-17 14:10:52,581 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to In Progress section.
+INFO  2016-11-17 14:10:55,948 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-11-17 14:12:59,370 [Worker#STA_NP] TestScripts.BaseTest - Verify Task not displayed.
+INFO  2016-11-17 14:13:02,699 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-17 14:13:08,858 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-17 14:13:11,934 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-17 14:13:14,452 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-17 14:13:21,919 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-17 14:13:52,193 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 14:14:04,513 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-17 14:14:25,022 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-17 14:14:33,439 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-17 14:14:40,263 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-11-17 14:14:45,109 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-11-17 14:14:48,269 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-11-17 14:14:50,466 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to Complete section.
+INFO  2016-11-17 14:14:52,513 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed in Complete section.
+INFO  2016-11-17 14:14:55,789 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-17 14:15:01,942 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-17 14:15:05,019 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-17 14:15:07,443 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-17 14:15:15,308 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-17 14:15:45,642 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 14:15:57,858 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-17 14:16:17,131 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-17 14:16:25,561 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-17 14:16:31,002 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-11-17 14:16:35,757 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-11-17 14:16:38,924 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-11-17 14:16:41,120 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to Complete section.
+INFO  2016-11-17 14:16:44,542 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-11-17 14:18:47,936 [Worker#STA_NP] TestScripts.BaseTest - Verify Task not displayed.
+INFO  2016-11-17 14:18:51,272 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-17 14:18:57,425 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-17 14:19:00,514 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-17 14:21:05,946 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-17-14-21-03.png
+ERROR 2016-11-17 14:21:06,233 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'rt-project-tile')]//span[contains(text(), 'Project for TaskGYZF')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 372
+INFO  2016-11-17 14:21:07,724 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_042_AddTaskUnderProjectAndAssignToOtherComplete_2016-11-17-14-21-07.png
+INFO  2016-11-17 14:21:07,724 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

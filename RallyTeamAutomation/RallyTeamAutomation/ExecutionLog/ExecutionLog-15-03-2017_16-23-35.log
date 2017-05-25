@@ -1,0 +1,21 @@
+[START]
+INFO  2017-03-15 16:24:30,246 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-15 16:25:45,800 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-15 16:25:56,418 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-15 16:26:00,621 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-15 16:26:13,311 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-15 16:26:27,415 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-03-15 16:26:30,133 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Profile'.
+INFO  2017-03-15 16:26:32,976 [Worker#STA_NP] TestScripts.BaseTestES - Click on Request Feedback button.
+INFO  2017-03-15 16:26:40,383 [Worker#STA_NP] TestScripts.BaseTestES - Select Project DropDown.
+INFO  2017-03-15 16:26:43,561 [Worker#STA_NP] TestScripts.BaseTestES - Click Request Feedback Send button.
+INFO  2017-03-15 16:26:50,782 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-15 16:27:03,155 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-15 16:27:10,140 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Requests Feedback short notification on the Notification Window.
+INFO  2017-03-15 16:27:11,360 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-03-15 16:27:18,460 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Requests Feedback Notification on Notifications Page.
+INFO  2017-03-15 16:29:27,280 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-15-16-29-23.png
+ERROR 2017-03-15 16:29:27,301 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'Ammar Khan has requested feedback from you on Endorse Project TJLZ')]) to be displayed but did not.
+INFO  2017-03-15 16:29:28,519 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_012_UserRequestsFeedback_2017-03-15-16-29-28.png
+INFO  2017-03-15 16:29:28,520 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

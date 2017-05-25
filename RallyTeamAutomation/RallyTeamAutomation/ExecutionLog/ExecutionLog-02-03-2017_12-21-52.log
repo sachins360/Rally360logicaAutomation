@@ -1,0 +1,5 @@
+[START]
+INFO  2017-03-02 12:23:29,964 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-02 12:24:13,801 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.VendorTest.Vendor_002_NewVendorUserCreateVendorProfile_2017-03-02-12-23-57.png
+INFO  2017-03-02 12:24:14,348 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

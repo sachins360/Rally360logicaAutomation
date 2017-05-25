@@ -1,0 +1,8 @@
+[START]
+INFO  2017-02-21 16:52:26,927 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 16:52:53,749 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-02-21 16:52:59,095 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-02-21 16:53:02,283 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-02-21 16:53:07,836 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2017-02-21 16:53:12,014 [Worker#STA_NP] TestScripts.BaseTestES - Click on View Profile button.
+INFO  2017-02-21 16:53:19,171 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.

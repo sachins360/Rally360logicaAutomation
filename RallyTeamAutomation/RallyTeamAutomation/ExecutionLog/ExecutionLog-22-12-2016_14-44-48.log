@@ -1,0 +1,10 @@
+[START]
+INFO  2016-12-22 14:45:52,025 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-22 14:45:59,654 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-22 14:46:05,008 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2016-12-22 14:46:06,512 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2016-12-22 14:46:11,607 [Worker#STA_NP] TestScripts.BaseTestES - Verify searched user is displayed.
+INFO  2016-12-22 14:46:13,789 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text.
+INFO  2016-12-22 14:46:20,102 [Worker#STA_NP] TestScripts.BaseTestES - Verify searched user is displayed.
+INFO  2016-12-22 14:46:20,104 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

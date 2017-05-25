@@ -1,0 +1,23 @@
+[START]
+INFO  2016-12-22 11:58:44,168 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-22 11:58:55,099 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-22 11:59:00,331 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2016-12-22 11:59:05,805 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2016-12-22 11:59:10,052 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2016-12-22 11:59:12,312 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2016-12-22 11:59:23,790 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-22 11:59:30,438 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-22 11:59:41,979 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-22 11:59:48,650 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-22 12:00:02,908 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-22 12:00:08,265 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2016-12-22 12:00:13,610 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2016-12-22 12:00:17,840 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2016-12-22 12:00:20,026 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2016-12-22 12:00:31,610 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-22 12:00:38,311 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-22 12:02:46,251 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-22-12-02-45.png
+ERROR 2016-12-22 12:02:46,257 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(@class, 'rt-top-navbar__messages-count')] and text()= '2']) to be displayed but did not.
+INFO  2016-12-22 12:02:46,756 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_005_VerifyMessageReceivedCounter_2016-12-22-12-02-46.png
+INFO  2016-12-22 12:02:46,756 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

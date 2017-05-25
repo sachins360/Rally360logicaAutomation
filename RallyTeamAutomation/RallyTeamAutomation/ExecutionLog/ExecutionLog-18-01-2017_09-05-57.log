@@ -1,0 +1,9 @@
+[START]
+INFO  2017-01-18 09:06:12,681 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-18 09:06:26,601 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2017-01-18 09:06:34,525 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2017-01-18 09:06:40,039 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2017-01-18 09:06:44,289 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2017-01-18 09:06:50,450 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Location.
+INFO  2017-01-18 09:06:58,422 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2017-01-18 09:07:02,423 [Worker#STA_NP] TestScripts.BaseTest - Create a new Event.

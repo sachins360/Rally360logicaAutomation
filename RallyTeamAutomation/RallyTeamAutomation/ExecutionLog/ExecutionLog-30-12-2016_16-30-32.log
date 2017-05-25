@@ -1,0 +1,24 @@
+[START]
+INFO  2016-12-30 16:31:02,192 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 16:31:08,973 [Worker#STA_NP] TestScripts.BaseTest - Verify Search menu icon
+INFO  2016-12-30 16:31:08,975 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 16:31:36,618 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 16:31:46,474 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 16:31:52,787 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search Page is displayed.
+INFO  2016-12-30 16:31:54,245 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-12-30 16:31:56,246 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 16:32:30,549 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 16:32:37,311 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 16:32:43,429 [Worker#STA_NP] TestScripts.BaseTest - Verify zero results displayed.
+INFO  2016-12-30 16:32:45,429 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 16:33:09,447 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 16:35:17,120 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-16-35-16.png
+ERROR 2016-12-30 16:35:17,151 [Worker#STA_NP] Util.DriverExtender - Unable to send text to element: {"method":"Name","selector":"searchTerm"}
+INFO  2016-12-30 16:35:17,443 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_009_VerifySearchScreenDisplay_2016-12-30-16-35-17.png
+INFO  2016-12-30 16:35:17,443 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 16:35:47,718 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 16:37:54,892 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-16-37-54.png
+ERROR 2016-12-30 16:37:54,892 [Worker#STA_NP] Util.DriverExtender - Unable to send text to element: {"method":"Name","selector":"searchTerm"}
+INFO  2016-12-30 16:37:55,117 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_012_VerifyAllRadio_2016-12-30-16-37-54.png
+INFO  2016-12-30 16:37:55,117 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 16:38:21,185 [Worker#STA_NP] TestScripts.BaseTest - Setup test

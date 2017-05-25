@@ -1,0 +1,8 @@
+[START]
+INFO  2017-05-08 17:13:00,740 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-08 17:13:20,789 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 17:13:32,150 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-08 17:13:32,367 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 17:13:44,656 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-08 17:13:54,023 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-08 17:14:08,876 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.

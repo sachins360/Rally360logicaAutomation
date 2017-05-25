@@ -1,0 +1,10 @@
+[START]
+INFO  2017-01-31 14:24:36,432 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-31 14:24:47,322 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-01-31 14:24:50,600 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-01-31 14:24:52,933 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-01-31 14:24:57,289 [Worker#STA_NP] TestScripts.BaseTestES - Click View Notes link.
+INFO  2017-01-31 14:25:00,521 [Worker#STA_NP] TestScripts.BaseTestES - Enter View Notes TextArea.
+INFO  2017-01-31 14:25:02,680 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Note button.
+INFO  2017-01-31 14:25:05,757 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

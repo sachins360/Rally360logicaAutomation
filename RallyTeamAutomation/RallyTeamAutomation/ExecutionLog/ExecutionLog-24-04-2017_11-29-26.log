@@ -1,0 +1,53 @@
+[START]
+INFO  2017-04-24 11:30:16,033 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 11:30:26,258 [Worker#STA_NP] TestScripts.BaseTestES - Verify Messages icon
+INFO  2017-04-24 11:30:27,554 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-04-24 11:30:30,631 [Worker#STA_NP] TestScripts.BaseTestES - Verify All Messages drop-down is displayed.
+INFO  2017-04-24 11:30:32,715 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Btn is displayed.
+INFO  2017-04-24 11:30:33,793 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send Announcemnet Btn is displayed.
+INFO  2017-04-24 11:30:33,795 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-24 11:31:19,633 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 11:31:31,922 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-04-24 11:31:37,229 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-04-24 11:31:42,305 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Window is displayed.
+INFO  2017-04-24 11:31:43,397 [Worker#STA_NP] TestScripts.BaseTestES - Verify To label is displayed.
+INFO  2017-04-24 11:31:44,464 [Worker#STA_NP] TestScripts.BaseTestES - Verify To text input is displayed.
+INFO  2017-04-24 11:31:45,554 [Worker#STA_NP] TestScripts.BaseTestES - Verify Text Area is displayed.
+INFO  2017-04-24 11:31:46,632 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send button is displayed.
+INFO  2017-04-24 11:31:47,679 [Worker#STA_NP] TestScripts.BaseTestES - Verify attachment icon is displayed.
+INFO  2017-04-24 11:31:48,708 [Worker#STA_NP] TestScripts.BaseTestES - Verify close icon is displayed.
+INFO  2017-04-24 11:31:48,708 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-24 11:32:44,349 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 11:32:56,209 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-04-24 11:33:01,539 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-04-24 11:33:07,365 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-04-24 11:33:11,998 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-04-24 11:33:14,232 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-04-24 11:33:19,308 [Worker#STA_NP] TestScripts.BaseTestES - Verify message is successfully posted.
+INFO  2017-04-24 11:33:19,309 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-24 11:34:13,767 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 11:34:25,246 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-04-24 11:34:31,016 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-04-24 11:34:36,807 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-04-24 11:34:41,444 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-04-24 11:34:43,672 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-04-24 11:34:51,949 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 11:34:55,637 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-04-24 11:37:02,592 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-24-11-37-02.png
+ERROR 2017-04-24 11:37:02,592 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 462
+INFO  2017-04-24 11:37:02,922 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_004_ReplyMessage_2017-04-24-11-37-02.png
+INFO  2017-04-24 11:37:02,922 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-24 11:38:07,355 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 11:38:19,726 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-04-24 11:38:25,217 [Worker#STA_NP] TestScripts.BaseTestES - Click Send Announcement button.
+INFO  2017-04-24 11:38:30,290 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send Announcement Window is displayed.
+INFO  2017-04-24 11:38:31,381 [Worker#STA_NP] TestScripts.BaseTestES - Verify Group Drop-Down is displayed.
+INFO  2017-04-24 11:38:32,469 [Worker#STA_NP] TestScripts.BaseTestES - Verify Text Area is displayed.
+INFO  2017-04-24 11:38:33,563 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send button is displayed.
+INFO  2017-04-24 11:38:34,623 [Worker#STA_NP] TestScripts.BaseTestES - Verify attachment icon is displayed.
+INFO  2017-04-24 11:38:35,685 [Worker#STA_NP] TestScripts.BaseTestES - Verify close icon is displayed.
+INFO  2017-04-24 11:38:35,685 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

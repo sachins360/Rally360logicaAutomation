@@ -1,0 +1,5 @@
+[START]
+INFO  2017-02-02 12:08:03,023 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-02 12:08:16,670 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.CommonIssuesTest.CommonIssues_001_VerifyDeactivatedUserLogin_2017-02-02-12-08-16.png
+INFO  2017-02-02 12:08:16,695 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

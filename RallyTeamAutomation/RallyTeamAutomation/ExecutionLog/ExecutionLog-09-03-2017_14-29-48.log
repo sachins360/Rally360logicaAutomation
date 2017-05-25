@@ -1,0 +1,15 @@
+[START]
+INFO  2017-03-09 14:30:55,828 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-09 14:31:47,580 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-09 14:31:56,161 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-09 14:32:00,323 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-09 14:32:14,341 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Discussions tab.
+INFO  2017-03-09 14:32:23,082 [Worker#STA_NP] TestScripts.BaseTestES - Enter message in Discussion.
+INFO  2017-03-09 14:32:27,311 [Worker#STA_NP] TestScripts.BaseTestES - Click the Post button for the message.
+INFO  2017-03-09 14:32:35,136 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-09 14:32:49,283 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-09 14:34:55,864 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-09-14-34-54.png
+ERROR 2017-03-09 14:34:55,892 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You were mentioned i')]) to be displayed but did not.
+INFO  2017-03-09 14:34:56,737 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_006_UserMentionedInProjectWithAll_2017-03-09-14-34-56.png
+INFO  2017-03-09 14:34:56,737 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,44 @@
+[START]
+INFO  2017-01-31 12:55:37,766 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-01-31 12:55:41,337 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2017-01-31 12:55:43,507 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2017-01-31 12:55:45,650 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2017-01-31 12:55:47,941 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2017-01-31 12:55:50,067 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2017-01-31 12:55:55,281 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2017-01-31 12:55:57,413 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2017-01-31 12:56:02,483 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify error message on the screen.
+INFO  2017-01-31 12:56:02,484 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-01-31 12:57:02,034 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-01-31 12:57:05,531 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2017-01-31 12:57:07,676 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2017-01-31 12:57:09,826 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2017-01-31 12:57:12,036 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2017-01-31 12:57:14,157 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2017-01-31 12:57:19,342 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2017-01-31 12:57:21,469 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2017-01-31 12:57:26,519 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify error message on the screen.
+INFO  2017-01-31 12:57:26,519 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-01-31 12:58:10,840 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-01-31 12:58:14,321 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2017-01-31 12:58:16,718 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2017-01-31 12:58:18,847 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2017-01-31 12:58:21,231 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2017-01-31 12:58:23,346 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2017-01-31 12:58:25,553 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2017-01-31 12:58:27,765 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2017-01-31 12:58:29,917 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2017-01-31 12:58:34,958 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify error message on the screen.
+INFO  2017-01-31 12:58:36,960 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-01-31 12:59:16,468 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-01-31 12:59:19,755 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2017-01-31 12:59:21,919 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2017-01-31 12:59:24,067 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2017-01-31 12:59:26,327 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2017-01-31 12:59:28,445 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2017-01-31 12:59:33,780 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2017-01-31 12:59:35,936 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2017-01-31 12:59:38,077 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2017-01-31 12:59:43,122 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify error message on the screen.
+INFO  2017-01-31 12:59:45,123 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

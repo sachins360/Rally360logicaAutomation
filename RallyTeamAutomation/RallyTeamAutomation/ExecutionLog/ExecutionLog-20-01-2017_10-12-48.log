@@ -1,0 +1,44 @@
+[START]
+INFO  2017-01-20 10:13:46,159 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-20 10:14:43,708 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-01-20 10:14:54,900 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-01-20 10:14:58,963 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-01-20 10:15:09,824 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2017-01-20 10:15:15,020 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2017-01-20 10:15:19,302 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2017-01-20 10:15:32,840 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-20 10:15:39,641 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-20 10:15:49,174 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-01-20 10:15:55,074 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2017-01-20 10:16:01,878 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2017-01-20 10:16:03,270 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2017-01-20 10:16:04,702 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-01-20 10:16:07,556 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2017-01-20 10:16:09,600 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2017-01-20 10:16:13,335 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2017-01-20 10:16:16,327 [Worker#STA_NP] TestScripts.BaseTestES - Click Save Draft button.
+INFO  2017-01-20 10:16:21,707 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-20 10:16:29,693 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-20 10:16:45,840 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-01-20 10:16:51,684 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-20 10:17:04,302 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-20 10:17:08,219 [Worker#STA_NP] TestScripts.BaseTestES - Select Completed Projects from the drop-down.
+INFO  2017-01-20 10:17:13,583 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-20 10:19:28,252 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-20-10-19-27.png
+ERROR 2017-01-20 10:19:29,335 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: Unable to find element with xpath == //li[2]/a/div/i
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 401
+INFO  2017-01-20 10:19:33,933 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_001_CreateAndVerifyDraftInvoice_2017-01-20-10-19-30.png
+INFO  2017-01-20 10:19:33,933 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

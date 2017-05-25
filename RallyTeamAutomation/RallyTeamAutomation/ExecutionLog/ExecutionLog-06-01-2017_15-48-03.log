@@ -1,0 +1,10 @@
+[START]
+INFO  2017-01-06 15:48:35,872 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-06 15:48:53,095 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-06 15:49:08,371 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-06 15:49:14,849 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2017-01-06 15:49:24,222 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-06 15:49:27,288 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2017-01-06 15:49:29,889 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-06 15:49:40,232 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

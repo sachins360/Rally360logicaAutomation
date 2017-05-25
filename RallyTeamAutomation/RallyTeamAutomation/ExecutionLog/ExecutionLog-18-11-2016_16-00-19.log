@@ -1,0 +1,14 @@
+[START]
+INFO  2016-11-18 16:00:42,176 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-18 16:00:46,944 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-18 16:00:49,113 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-18 16:00:51,240 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-18 16:00:53,487 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-18 16:00:55,605 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-18 16:00:58,159 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-18 16:01:00,394 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-18 16:01:02,534 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-18 16:03:05,538 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-18-16-03-05.png
+ERROR 2016-11-18 16:03:05,559 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Please fill out the missing info.')]) to be displayed but did not.
+INFO  2016-11-18 16:03:05,647 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

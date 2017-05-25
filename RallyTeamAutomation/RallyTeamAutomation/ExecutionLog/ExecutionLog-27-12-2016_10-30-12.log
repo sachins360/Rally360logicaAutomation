@@ -1,0 +1,12 @@
+[START]
+INFO  2016-12-27 10:31:16,429 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-27 10:31:56,890 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-27 10:32:05,271 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-27 10:32:08,513 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-27 10:32:19,839 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-27 10:32:24,037 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-27 10:32:27,180 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-27 10:32:39,332 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-27 10:32:42,395 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_003_ApproveInvoiceAndVerifyStatus_2016-12-27-10-32-41.png
+INFO  2016-12-27 10:32:42,428 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

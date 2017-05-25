@@ -1,0 +1,14 @@
+[START]
+INFO  2017-04-25 20:33:27,375 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 20:33:37,624 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 20:33:40,386 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 20:33:45,749 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:33:51,000 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-25 20:33:56,941 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-25 20:33:59,267 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:34:04,465 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-25 20:34:13,441 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-25 20:34:20,795 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-25 20:34:31,486 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_003_OnboardWithInvitedUser_2017-04-25-20-34-30.png
+INFO  2017-04-25 20:34:31,489 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

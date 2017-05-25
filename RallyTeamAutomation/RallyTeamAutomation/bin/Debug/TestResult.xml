@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="F:\Automation_SeleniumCSharp\RallyTeam\Repository\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-10-12" time="14:16:42">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="360LP043" user="ammark" user-domain="360LOGICA" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="F:\Automation_SeleniumCSharp\RallyTeam\Repository\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe" executed="True" result="Failure" success="False" time="65.751" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="RallyTeam" executed="True" result="Failure" success="False" time="65.720" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="TestScripts" executed="True" result="Failure" success="False" time="65.719" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="GroupsTest" executed="True" result="Failure" success="False" time="65.715" asserts="0">
+                <categories>
+                  <category name="Groups" />
+                </categories>
+                <results>
+                  <test-case name="RallyTeam.TestScripts.GroupsTest.Groups_008_TestCreatePublicGroup" executed="True" result="Error" success="False" time="65.189" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.InvalidOperationException : ERROR-KEY_NOT_FOUND
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                      <stack-trace><![CDATA[at RallyTeam.Util.IniFile.IniReadValue(String Section, String Key) in F:\Automation_SeleniumCSharp\RallyTeam\Repository\RallyTeamAutomation\RallyTeamAutomation\Util\IniFile.cs:line 50
+at RallyTeam.Util.ReadData.GetValue(String type, String key) in F:\Automation_SeleniumCSharp\RallyTeam\Repository\RallyTeamAutomation\RallyTeamAutomation\Util\ReadData.cs:line 41
+at RallyTeam.TestScripts.GroupsTest.Groups_008_TestCreatePublicGroup() in F:\Automation_SeleniumCSharp\RallyTeam\Repository\RallyTeamAutomation\RallyTeamAutomation\TestScripts\GroupsTest.cs:line 155
+--TearDown
+at NUnit.Framework.TestContext.ResultAdapter.get_Outcome()
+at RallyTeam.TestScripts.BaseTest.TearDown() in F:\Automation_SeleniumCSharp\RallyTeam\Repository\RallyTeamAutomation\RallyTeamAutomation\TestScripts\BaseTest.cs:line 105
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

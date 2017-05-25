@@ -1,0 +1,18 @@
+[START]
+INFO  2016-12-26 14:44:00,604 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-26 14:44:49,905 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-26 14:44:58,486 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-26 14:45:01,665 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-26 14:45:09,637 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-26 14:45:13,880 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-26 14:45:17,024 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-26 14:45:29,583 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-26 14:45:33,727 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-26 14:47:41,483 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-26-14-47-39.png
+ERROR 2016-12-26 14:47:41,726 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 395
+INFO  2016-12-26 14:47:42,617 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_001_CreateDraftInvoice_2016-12-26-14-47-41.png
+INFO  2016-12-26 14:47:42,617 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

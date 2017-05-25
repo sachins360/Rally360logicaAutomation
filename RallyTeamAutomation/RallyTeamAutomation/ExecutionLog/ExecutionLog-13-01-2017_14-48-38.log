@@ -1,0 +1,14 @@
+[START]
+INFO  2017-01-13 14:49:39,273 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-13 14:50:03,040 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-13 14:50:22,391 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-13 14:50:43,092 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-13 14:50:49,420 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-13 14:50:51,611 [Worker#STA_NP] TestScripts.BaseTest - Click on the Biew Team Status hyperlink.
+INFO  2017-01-13 14:52:54,550 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-13-14-52-54.png
+ERROR 2017-01-13 14:52:54,557 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//div[contains(@class, 'rt-find-teamates')]//tbody//tr[1]//td[2]"}
+INFO  2017-01-13 14:52:54,709 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-13-14-52-54.png
+ERROR 2017-01-13 14:52:54,709 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-find-teamates')]//tbody//tr[1]//td[2]) to exist but did not.
+INFO  2017-01-13 14:52:55,015 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_081_VerifyProjectsTeamStatusDisplay_2017-01-13-14-52-54.png
+INFO  2017-01-13 14:52:55,015 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

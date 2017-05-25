@@ -1,0 +1,16 @@
+[START]
+INFO  2017-04-10 17:01:59,600 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-10 17:02:21,284 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 17:02:32,636 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-10 17:02:41,236 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 17:02:52,845 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 17:02:56,069 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 17:03:08,366 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-10 17:03:16,628 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-10 17:03:20,045 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-10 17:03:25,316 [Worker#STA_NP] TestScripts.BaseTestES - Click Member Remove icon
+INFO  2017-04-10 17:03:28,472 [Worker#STA_NP] TestScripts.BaseTestES - Click Member Remove icon
+INFO  2017-04-10 17:03:40,166 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 17:03:43,363 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-10 17:07:54,887 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

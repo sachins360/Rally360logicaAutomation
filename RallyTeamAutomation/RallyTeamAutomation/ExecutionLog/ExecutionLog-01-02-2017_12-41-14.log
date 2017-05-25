@@ -1,0 +1,9 @@
+[START]
+INFO  2017-02-01 12:41:58,091 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-01 12:42:11,937 [Worker#STA_NP] TestScripts.BaseTestES - Verify Messages icon
+INFO  2017-02-01 12:42:14,096 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-02-01 12:42:17,334 [Worker#STA_NP] TestScripts.BaseTestES - Verify All Messages drop-down is displayed.
+INFO  2017-02-01 12:42:18,621 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Btn is displayed.
+INFO  2017-02-01 12:42:19,945 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send Announcemnet Btn is displayed.
+INFO  2017-02-01 12:42:19,947 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

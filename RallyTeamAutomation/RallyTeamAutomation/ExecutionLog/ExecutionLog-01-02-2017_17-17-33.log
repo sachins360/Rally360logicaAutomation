@@ -1,0 +1,15 @@
+[START]
+INFO  2017-02-01 17:17:49,619 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-01 17:18:37,493 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-02-01 17:18:44,709 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-02-01 17:18:51,490 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-02-01 17:18:53,814 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-02-01 17:19:10,416 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-02-01 17:19:20,878 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-02-01 17:19:27,986 [Worker#STA_NP] TestScripts.BaseTestES - Verify Request Sent button doisplayed on screen.
+INFO  2017-02-01 17:19:39,951 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-02-01 17:19:50,836 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-02-01 17:19:53,459 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-02-01 17:20:10,653 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-02-01 17:20:28,163 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

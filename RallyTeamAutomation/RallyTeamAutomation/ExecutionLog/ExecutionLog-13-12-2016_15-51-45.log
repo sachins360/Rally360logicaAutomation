@@ -1,0 +1,8 @@
+[START]
+INFO  2016-12-13 15:52:59,876 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-13 15:53:30,443 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-13 15:53:52,632 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-13 15:54:01,378 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-13 15:54:07,729 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-13 15:54:12,629 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-13 15:54:15,845 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.

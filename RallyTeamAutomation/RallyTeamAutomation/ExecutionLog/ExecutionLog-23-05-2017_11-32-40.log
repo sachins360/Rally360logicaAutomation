@@ -1,0 +1,7 @@
+[START]
+INFO  2017-05-23 11:33:39,803 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-23 11:36:07,730 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-23-11-36-07.png
+ERROR 2017-05-23 11:36:07,734 [Worker#STA_NP] Util.DriverExtender - Unable to send text to element: {"method":"XPath","selector":"//form[@name= 'projectWizard1']//div[3]//span[contains(text(), 'For example')]"}
+INFO  2017-05-23 11:36:07,891 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_002_PostANewProject_2017-05-23-11-36-07.png
+INFO  2017-05-23 11:36:07,892 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,9 @@
+[START]
+INFO  2017-03-06 11:25:34,455 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-06 11:26:23,852 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-06 11:26:40,677 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-06 11:28:46,900 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-06-11-28-46.png
+ERROR 2017-03-06 11:28:46,925 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You've been assigned')]) to be displayed but did not.
+INFO  2017-03-06 11:28:47,651 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_001_ProjectAssignment_2017-03-06-11-28-47.png
+INFO  2017-03-06 11:28:47,651 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

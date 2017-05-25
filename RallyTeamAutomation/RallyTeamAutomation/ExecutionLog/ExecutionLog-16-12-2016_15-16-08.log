@@ -1,0 +1,12 @@
+[START]
+INFO  2016-12-16 15:17:13,332 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-16 15:17:44,998 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2016-12-16 15:17:50,312 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2016-12-16 15:18:00,573 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2016-12-16 15:18:04,926 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-16-15-18-01.png
+ERROR 2016-12-16 15:18:12,997 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.Support.UI.UnexpectedTagNameException: Element should have been select but was a
+   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 63
+INFO  2016-12-16 15:18:15,368 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.MarketplaceTest.Marketplace_003_VerifyMyProjectsSearch_2016-12-16-15-18-14.png
+INFO  2016-12-16 15:18:15,368 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

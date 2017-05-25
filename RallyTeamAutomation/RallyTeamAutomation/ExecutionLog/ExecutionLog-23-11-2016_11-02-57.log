@@ -1,0 +1,39 @@
+[START]
+INFO  2016-11-23 11:03:52,001 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-23 11:04:37,306 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-23 11:04:39,586 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-23 11:04:41,802 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-23 11:04:44,079 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-23 11:04:48,225 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-23 11:04:50,951 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-23 11:04:53,171 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-23 11:04:55,310 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-23 11:07:07,336 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-23-11-07-06.png
+ERROR 2016-11-23 11:07:07,361 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Please check your inbox and you'll be ready to rally in no time!')]) to be displayed but did not.
+INFO  2016-11-23 11:07:07,577 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-23 11:08:04,101 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-23 11:08:43,612 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-23 11:08:45,780 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-23 11:08:47,940 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-23 11:08:50,201 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-23 11:08:54,338 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-23 11:08:57,251 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-23 11:08:59,395 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-23 11:09:01,626 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-23 11:09:19,727 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2016-11-23 11:09:25,082 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2016-11-23 11:09:29,922 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Go button.
+INFO  2016-11-23 11:09:40,546 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Email Sender.
+INFO  2016-11-23 11:09:42,599 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Email Subject.
+INFO  2016-11-23 11:09:44,697 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Sender.
+INFO  2016-11-23 11:09:51,826 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the button: Verify your Email.
+INFO  2016-11-23 11:10:01,968 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the Email Link.
+INFO  2016-11-23 11:10:07,025 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Url Page
+INFO  2016-11-23 11:10:07,025 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-23 11:10:48,036 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-23 11:11:44,196 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-23 11:11:46,259 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-23 11:12:28,729 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-23 11:13:06,972 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-23 11:13:08,976 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

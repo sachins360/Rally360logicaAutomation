@@ -1,0 +1,9 @@
+[START]
+INFO  2016-12-28 15:09:22,864 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-28 15:09:37,658 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-28 15:09:42,322 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2016-12-28 15:09:44,213 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2016-12-28 15:09:49,311 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2016-12-28 15:09:51,819 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2016-12-28 15:09:57,926 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,24 @@
+[START]
+INFO  2016-12-08 10:44:04,698 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-08 10:44:35,110 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-12-08 10:44:37,279 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-12-08 10:44:39,447 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-12-08 10:44:41,707 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-12-08 10:44:45,867 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-12-08 10:44:51,413 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-12-08 10:44:53,600 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-12-08 10:44:55,747 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-12-08 10:45:13,225 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2016-12-08 10:45:18,388 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2016-12-08 10:45:23,496 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Go button.
+INFO  2016-12-08 10:45:28,553 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Sender.
+INFO  2016-12-08 10:45:39,933 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the Email Link.
+INFO  2016-12-08 10:45:48,221 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter registered work email.
+INFO  2016-12-08 10:45:50,399 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2016-12-08 10:45:52,546 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Let's Go button.
+INFO  2016-12-08 10:46:00,723 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Get Started button.
+INFO  2016-12-08 10:46:05,773 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the LinkeDin Confirmation message.
+INFO  2016-12-08 10:46:06,822 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Connect with LinkedIn button.
+INFO  2016-12-08 10:46:07,908 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Skip LinkedIn Option.
+INFO  2016-12-08 10:46:07,908 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

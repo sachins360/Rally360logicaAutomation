@@ -1,0 +1,20 @@
+[START]
+INFO  2016-12-30 19:45:01,576 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 19:45:10,228 [Worker#STA_NP] TestScripts.BaseTest - Verify Search menu icon
+INFO  2016-12-30 19:45:10,231 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 19:45:38,993 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 19:45:48,992 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 19:45:55,327 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search Page is displayed.
+INFO  2016-12-30 19:45:56,731 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-12-30 19:45:58,733 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 19:46:26,707 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 19:46:33,673 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 19:46:39,873 [Worker#STA_NP] TestScripts.BaseTest - Verify zero results displayed.
+INFO  2016-12-30 19:46:41,875 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 19:47:06,763 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 19:47:16,679 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 19:49:23,569 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-19-49-22.png
+ERROR 2016-12-30 19:49:23,597 [Worker#STA_NP] Util.AssertHelper - Expected element (By.Name: search) to be displayed but did not.
+INFO  2016-12-30 19:49:24,245 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_009_VerifySearchScreenDisplay_2016-12-30-19-49-23.png
+INFO  2016-12-30 19:49:24,245 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 19:50:30,613 [Worker#STA_NP] TestScripts.BaseTest - Setup test

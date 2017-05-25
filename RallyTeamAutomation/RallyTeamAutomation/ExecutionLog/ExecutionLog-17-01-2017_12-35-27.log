@@ -1,0 +1,7 @@
+[START]
+INFO  2017-01-17 12:36:40,111 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-17 12:39:35,266 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-17-12-39-34.png
+ERROR 2017-01-17 12:39:35,302 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'Private')]) to be displayed but did not.
+INFO  2017-01-17 12:39:35,885 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_012_PostANewPrivateProject_2017-01-17-12-39-35.png
+INFO  2017-01-17 12:39:35,885 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

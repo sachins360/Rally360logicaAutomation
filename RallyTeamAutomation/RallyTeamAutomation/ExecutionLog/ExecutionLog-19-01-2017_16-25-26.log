@@ -1,0 +1,9 @@
+[START]
+INFO  2017-01-19 16:25:33,618 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-19 16:26:08,496 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-01-19 16:26:14,210 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-19 16:26:25,550 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-19 16:26:27,976 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-01-19 16:26:34,114 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-19 16:26:47,883 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

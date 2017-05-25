@@ -1,0 +1,8 @@
+[START]
+INFO  2016-12-19 12:16:05,430 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-19 12:16:14,473 [Worker#STA_NP] TestScripts.BaseTestES - Verify Messages icon
+INFO  2016-12-19 12:16:15,684 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-19 12:18:21,544 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-19-12-18-18.png
+ERROR 2016-12-19 12:18:21,578 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-sub-navbar__nav-title') and text()='Messages']) to be displayed but did not.
+INFO  2016-12-19 12:18:22,594 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_001_VerifyMessagesPage_2016-12-19-12-18-22.png
+INFO  2016-12-19 12:18:22,595 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test

@@ -1,0 +1,7 @@
+[START]
+INFO  2017-04-25 11:26:27,875 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 11:26:35,071 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-04-25 11:26:39,441 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-04-25 11:26:40,969 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-04-25 11:26:46,222 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.PeopleES_009_EndorseUserAndVerifyIncreasedCount_2017-04-25-11-26-46.png
+INFO  2017-04-25 11:26:46,225 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test

@@ -1,0 +1,83 @@
+[START]
+INFO  2017-02-07 16:54:56,618 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-07 16:55:06,422 [Worker#STA_NP] TestScripts.BaseTest - Verify People menu icon
+INFO  2017-02-07 16:55:06,425 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-07 16:55:32,058 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-07 16:55:42,095 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-02-07 16:55:45,279 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search text.
+INFO  2017-02-07 16:55:47,324 [Worker#STA_NP] TestScripts.BaseTest - Verify the Advance Search Link.
+INFO  2017-02-07 16:55:50,565 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-02-07 16:55:54,805 [Worker#STA_NP] TestScripts.BaseTest - Verify User Container is displayed.
+INFO  2017-02-07 16:55:56,844 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-02-07 16:55:58,882 [Worker#STA_NP] TestScripts.BaseTest - Verify Message button is displayed.
+INFO  2017-02-07 16:56:00,933 [Worker#STA_NP] TestScripts.BaseTest - Verify View Profile button is displayed.
+INFO  2017-02-07 16:56:02,946 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-07 16:56:27,358 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-07 16:56:37,193 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-02-07 16:56:41,375 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-02-07 16:56:49,469 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-02-07 16:56:51,785 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-02-07 16:56:56,826 [Worker#STA_NP] TestScripts.BaseTest - Verify New Message Window.
+INFO  2017-02-07 16:56:58,841 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-07 16:57:35,477 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-07 16:57:45,433 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-02-07 16:57:49,654 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-02-07 16:57:53,761 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-02-07 16:57:55,995 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-02-07 16:57:59,214 [Worker#STA_NP] TestScripts.BaseTest - Enter New Message in the text area.
+INFO  2017-02-07 16:58:01,416 [Worker#STA_NP] TestScripts.BaseTest - Click on Send button.
+INFO  2017-02-07 16:58:04,421 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-07 16:58:29,351 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-07 16:58:42,440 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-02-07 16:58:46,837 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-02-07 16:58:51,007 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-02-07 16:58:53,346 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-02-07 16:58:56,389 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile User Name.
+INFO  2017-02-07 16:58:58,455 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Message button.
+INFO  2017-02-07 16:59:00,506 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile About Me.
+INFO  2017-02-07 16:59:02,580 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Skills & Endorsements.
+INFO  2017-02-07 16:59:04,620 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Industry/Domain Expertise.
+INFO  2017-02-07 16:59:06,667 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Languages.
+INFO  2017-02-07 16:59:08,717 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Interests.
+INFO  2017-02-07 16:59:10,769 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Projects.
+INFO  2017-02-07 16:59:12,779 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-07 16:59:34,579 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-07 16:59:44,488 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-02-07 16:59:47,746 [Worker#STA_NP] TestScripts.BaseTest - Clickthe Advance Search hyperlink.
+INFO  2017-02-07 16:59:49,796 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Name.
+INFO  2017-02-07 16:59:50,832 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Skills Needed.
+INFO  2017-02-07 16:59:51,895 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Job Function.
+INFO  2017-02-07 16:59:52,956 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Location.
+INFO  2017-02-07 16:59:54,009 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Industry/Domain Expertise.
+INFO  2017-02-07 16:59:55,067 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Endorsed By.
+INFO  2017-02-07 16:59:56,112 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Availability.
+INFO  2017-02-07 16:59:57,160 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Type.
+INFO  2017-02-07 16:59:58,170 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-07 17:00:29,109 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-07 17:00:39,742 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-02-07 17:00:42,743 [Worker#STA_NP] TestScripts.BaseTest - User name: ammar khan
+INFO  2017-02-07 17:00:45,977 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-02-07 17:00:52,429 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-02-07 17:02:54,594 [Worker#STA_NP] TestScripts.BaseTest - Verify Message button is not displayed.
+INFO  2017-02-07 17:02:56,660 [Worker#STA_NP] TestScripts.BaseTest - Verify View Profile button.
+INFO  2017-02-07 17:02:59,219 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-02-07 17:03:02,266 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile User Name.
+INFO  2017-02-07 17:03:04,280 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-07 17:03:36,169 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-07 17:03:46,438 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-02-07 17:03:50,630 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-02-07 17:03:54,743 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-02-07 17:03:57,061 [Worker#STA_NP] TestScripts.BaseTest - Click on View Profile button.
+INFO  2017-02-07 17:04:00,281 [Worker#STA_NP] TestScripts.BaseTest - Click on User Profile Message button.
+INFO  2017-02-07 17:04:03,321 [Worker#STA_NP] TestScripts.BaseTest - Verify New Message Window.
+INFO  2017-02-07 17:04:05,335 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-07 17:04:34,220 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-07 17:04:44,140 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-02-07 17:04:48,362 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-02-07 17:04:52,497 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-02-07 17:04:54,857 [Worker#STA_NP] TestScripts.BaseTest - Click on View Profile button.
+INFO  2017-02-07 17:04:58,067 [Worker#STA_NP] TestScripts.BaseTest - Click on User Profile Message button.
+INFO  2017-02-07 17:05:01,266 [Worker#STA_NP] TestScripts.BaseTest - Enter New Message in the text area.
+INFO  2017-02-07 17:05:03,409 [Worker#STA_NP] TestScripts.BaseTest - Click on Send button.
+INFO  2017-02-07 17:05:06,417 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

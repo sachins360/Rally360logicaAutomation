@@ -1,0 +1,13 @@
+[START]
+INFO  2017-04-20 16:40:59,085 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 16:41:18,621 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 16:41:30,021 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 16:41:30,166 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 16:41:40,379 [Worker#STA_NP] TestScripts.BaseTestES - Click on Private Radio option.
+INFO  2017-04-20 16:41:44,574 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 16:41:51,659 [Worker#STA_NP] TestScripts.BaseTestES - Assert Private Icon.
+INFO  2017-04-20 16:41:52,844 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 16:41:56,067 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-04-20 16:41:59,297 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-04-20 16:41:59,298 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

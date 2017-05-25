@@ -1,0 +1,19 @@
+[START]
+INFO  2017-02-09 15:47:04,922 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-09 15:47:42,660 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-02-09 15:47:51,137 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-02-09 15:47:54,270 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-02-09 15:48:04,990 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2017-02-09 15:48:09,187 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2017-02-09 15:48:12,397 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2017-02-09 15:48:24,780 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-02-09 15:48:28,454 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-02-09 15:48:33,526 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-09 15:48:35,901 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Profile'.
+INFO  2017-02-09 15:48:38,128 [Worker#STA_NP] TestScripts.BaseTestES - Click on Request Feedback button.
+INFO  2017-02-09 15:48:43,321 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2017-02-09 15:48:48,824 [Worker#STA_NP] TestScripts.BaseTestES - Enter Feedback From.
+INFO  2017-02-09 15:48:50,156 [Worker#STA_NP] TestScripts.BaseTestES - Enter Optional Message.
+INFO  2017-02-09 15:48:51,295 [Worker#STA_NP] TestScripts.BaseTestES - Click on Send button.
+INFO  2017-02-09 15:48:56,298 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

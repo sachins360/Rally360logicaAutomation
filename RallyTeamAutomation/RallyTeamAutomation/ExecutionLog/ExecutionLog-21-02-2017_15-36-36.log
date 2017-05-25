@@ -1,0 +1,29 @@
+[START]
+INFO  2017-02-21 15:36:45,062 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 15:37:00,544 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-02-21 15:37:08,030 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-02-21 15:37:10,284 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-02-21 15:37:15,646 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2017-02-21 15:37:19,112 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2017-02-21 15:37:25,823 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-02-21 15:37:31,997 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Title.
+INFO  2017-02-21 15:37:33,997 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Description.
+INFO  2017-02-21 15:37:37,075 [Worker#STA_NP] TestScripts.BaseTestES - Click the Good rating.
+INFO  2017-02-21 15:37:40,493 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2017-02-21 15:37:42,932 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-02-21 15:37:47,936 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-02-21 15:37:55,352 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 15:38:07,401 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-02-21 15:38:12,330 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-02-21 15:38:15,019 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-02-21 15:38:20,456 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2017-02-21 15:38:24,269 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2017-02-21 15:38:31,095 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-02-21 15:40:37,008 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-21-15-40-36.png
+ERROR 2017-02-21 15:40:37,039 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@placeholder= 'Select or type in your project title']"}
+INFO  2017-02-21 15:40:37,774 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_008_EndorseUserNotGoodRating_2017-02-21-15-40-37.png
+INFO  2017-02-21 15:40:37,774 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-02-21 15:40:48,108 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 15:41:00,687 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-02-21 15:41:05,977 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+[END]

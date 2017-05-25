@@ -1,0 +1,30 @@
+[START]
+INFO  2017-02-15 16:54:32,581 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-15 16:54:41,696 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-15 16:54:44,016 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-15 16:54:49,653 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-15 16:54:54,909 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-02-15 16:55:00,330 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-02-15 16:55:02,661 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-15 16:55:07,783 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-02-15 16:55:20,328 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-02-15 16:55:27,684 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-02-15 16:55:39,702 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-02-15 16:55:47,721 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-02-15 16:55:47,956 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-02-15 16:55:50,153 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-02-15 16:55:53,265 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-02-15 16:55:58,599 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-02-15 16:56:00,845 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-02-15 16:56:02,992 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-02-15 16:56:10,037 [Worker#STA_NP] TestScripts.BaseTestES - Verify Get Started button.
+INFO  2017-02-15 16:56:11,256 [Worker#STA_NP] TestScripts.BaseTestES - Click Get Staerted button.
+INFO  2017-02-15 16:56:16,469 [Worker#STA_NP] TestScripts.BaseTestES - Click Next button on LinkedIn Page.
+INFO  2017-02-15 16:56:21,688 [Worker#STA_NP] TestScripts.BaseTestES - Select Expertise.
+INFO  2017-02-15 16:56:23,987 [Worker#STA_NP] TestScripts.BaseTestES - Click Expertise Continue button.
+INFO  2017-02-15 16:56:37,576 [Worker#STA_NP] TestScripts.BaseTestES - Click View My Profile button.
+INFO  2017-02-15 16:56:42,782 [Worker#STA_NP] TestScripts.BaseTestES - Assert Skill One.
+INFO  2017-02-15 16:56:43,982 [Worker#STA_NP] TestScripts.BaseTestES - Assert Skill Two.
+INFO  2017-02-15 16:56:47,092 [Worker#STA_NP] TestScripts.BaseTestES - Click Done button.
+INFO  2017-02-15 16:56:52,096 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

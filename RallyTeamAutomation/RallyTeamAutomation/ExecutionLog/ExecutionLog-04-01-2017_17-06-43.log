@@ -1,0 +1,14 @@
+[START]
+INFO  2017-01-04 17:07:07,896 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 17:07:18,688 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 17:07:23,875 [Worker#STA_NP] TestScripts.BaseTestES - Click Send Announcement button.
+INFO  2017-01-04 17:07:29,068 [Worker#STA_NP] TestScripts.BaseTestES - Select a Group.
+INFO  2017-01-04 17:07:29,329 [Worker#STA_NP] TestScripts.BaseTestES - Enter the announcement.
+INFO  2017-01-04 17:07:31,478 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 17:07:43,735 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 17:07:45,294 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-04 17:09:54,774 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-17-09-52.png
+ERROR 2017-01-04 17:09:54,803 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'New AnnouncementXRGH')]) to be displayed but did not.
+INFO  2017-01-04 17:09:55,861 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_009_VerifyAnnouncementNotReceived_2017-01-04-17-09-55.png
+INFO  2017-01-04 17:09:55,861 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

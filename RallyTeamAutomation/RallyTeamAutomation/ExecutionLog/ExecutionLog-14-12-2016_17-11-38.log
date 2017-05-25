@@ -1,0 +1,5 @@
+[START]
+INFO  2016-12-14 17:12:14,212 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-14 17:12:50,303 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'In Progress'
+INFO  2016-12-14 17:13:05,869 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

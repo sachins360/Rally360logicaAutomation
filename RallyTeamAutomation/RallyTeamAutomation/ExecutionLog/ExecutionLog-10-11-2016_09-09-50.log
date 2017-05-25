@@ -1,0 +1,196 @@
+[START]
+INFO  2016-11-10 09:10:30,209 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:10:41,843 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:10:41,883 [Worker#STA_NP] TestScripts.BaseTest - Verify Activity Feed Page is displayed.
+INFO  2016-11-10 09:10:43,885 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:11:23,464 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:11:41,213 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 09:12:02,329 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:12:05,400 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-11-10 09:12:07,545 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-11-10 09:12:15,207 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-10 09:12:21,446 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-10 09:12:24,519 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-10 09:12:27,001 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-10 09:12:37,343 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:13:32,293 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:13:49,637 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 09:14:10,624 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:14:14,212 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-11-10 09:14:16,342 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-11-10 09:14:30,245 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-10 09:14:36,406 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-10 09:14:40,498 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-10 09:14:43,066 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-10 09:14:53,439 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:15:21,479 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:15:38,925 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 09:15:59,972 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:16:03,025 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-11-10 09:16:05,153 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-11-10 09:16:17,373 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-10 09:16:23,516 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-10 09:16:26,589 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-10 09:16:29,001 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-10 09:16:39,299 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:17:07,106 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:17:21,977 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-10 09:17:28,268 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-10 09:17:34,611 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-11-10 09:17:38,855 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-11-10 09:17:42,059 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-11-10 09:17:45,215 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-11-10 09:17:50,550 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:17:53,613 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2016-11-10 09:19:56,520 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-09-19-55.png
+ERROR 2016-11-10 09:19:56,533 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class='chat-activity-list']//div[2]//a[text()='Event for Activity']) to be displayed but did not.
+INFO  2016-11-10 09:19:56,947 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_009_VerifyEventCreateActivity_2016-11-10-09-19-56.png
+INFO  2016-11-10 09:19:56,947 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:20:21,843 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:20:31,441 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-10 09:20:37,737 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-10 09:20:44,042 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-11-10 09:20:48,245 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-11-10 09:20:51,417 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-11-10 09:20:54,547 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-11-10 09:21:02,901 [Worker#STA_NP] TestScripts.BaseTest - Click Settings option value: 'Add Participants'
+INFO  2016-11-10 09:21:06,126 [Worker#STA_NP] TestScripts.BaseTest - Entered Zafar A into Add Member Text field 
+INFO  2016-11-10 09:21:13,346 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-11-10 09:21:16,734 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:21:19,778 [Worker#STA_NP] TestScripts.BaseTest - Verify Join Event Activity is displayed.
+INFO  2016-11-10 09:23:22,443 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-09-23-22.png
+ERROR 2016-11-10 09:23:22,443 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class='chat-activity-list']//div[2]//a[text()='Event for Activity']) to be displayed but did not.
+INFO  2016-11-10 09:23:22,702 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_010_VerifyEventAddMemberActivity_2016-11-10-09-23-22.png
+INFO  2016-11-10 09:23:22,703 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:23:51,902 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:24:01,636 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-10 09:24:07,917 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-10 09:24:14,298 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-11-10 09:24:18,550 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-11-10 09:24:21,772 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-11-10 09:24:24,938 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-11-10 09:24:36,412 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-11-10 09:24:40,095 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-11-10 09:24:42,348 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-10 09:26:51,177 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-09-26-50.png
+ERROR 2016-11-10 09:26:51,239 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 373
+INFO  2016-11-10 09:26:51,512 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_011_VerifyEventJoinActivity_2016-11-10-09-26-51.png
+INFO  2016-11-10 09:26:51,512 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:27:20,528 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:27:30,688 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-10 09:27:36,841 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-11-10 09:27:43,084 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-11-10 09:27:56,136 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:30:01,525 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-09-30-01.png
+ERROR 2016-11-10 09:30:01,525 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class='chat-activity-list']//div[2]//span[text()='created a new group: ']) to be displayed but did not.
+INFO  2016-11-10 09:30:01,796 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_013_VerifyGroupCreateActivity_2016-11-10-09-30-01.png
+INFO  2016-11-10 09:30:01,796 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:30:31,462 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:30:41,062 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-10 09:30:47,214 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-11-10 09:30:53,455 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-11-10 09:31:08,501 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-11-10 09:31:17,979 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-11-10 09:31:21,278 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:31:24,324 [Worker#STA_NP] TestScripts.BaseTest - Verify Join Group Activity is displayed.
+INFO  2016-11-10 09:31:26,378 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Group Activity is displayed.
+INFO  2016-11-10 09:31:28,420 [Worker#STA_NP] TestScripts.BaseTest - Verify User Name Activity is displayed.
+INFO  2016-11-10 09:31:31,673 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-11-10 09:31:35,997 [Worker#STA_NP] TestScripts.BaseTest - Click the All Groups dropdown.
+INFO  2016-11-10 09:31:39,126 [Worker#STA_NP] TestScripts.BaseTest - Click the My Groups dropdown option.
+INFO  2016-11-10 09:31:42,527 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-11-10 09:31:47,845 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-11-10 09:31:48,992 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-11-10 09:31:51,138 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-11-10 09:31:53,139 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:32:26,431 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:32:40,141 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-10 09:32:46,290 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-11-10 09:32:52,582 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-11-10 09:33:11,573 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-11-10 09:33:15,024 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-11-10 09:33:16,712 [Worker#STA_NP] TestScripts.BaseTest - Click the Groups menu option.
+INFO  2016-11-10 09:33:25,160 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-11-10 09:33:27,356 [Worker#STA_NP] TestScripts.BaseTest - Click the Join button on Dashboard.
+INFO  2016-11-10 09:33:30,624 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:33:33,669 [Worker#STA_NP] TestScripts.BaseTest - Verify Join Group Activity is displayed.
+INFO  2016-11-10 09:33:35,713 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Group Activity is displayed.
+INFO  2016-11-10 09:33:45,145 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-11-10 09:33:49,106 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-11-10 09:33:53,274 [Worker#STA_NP] TestScripts.BaseTest - Click the All Groups dropdown.
+INFO  2016-11-10 09:33:57,424 [Worker#STA_NP] TestScripts.BaseTest - Click the My Groups dropdown option.
+INFO  2016-11-10 09:34:00,781 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-11-10 09:34:05,989 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-11-10 09:34:07,159 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-11-10 09:34:09,292 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-11-10 09:34:11,294 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:34:38,977 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:34:56,105 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 09:35:12,146 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:35:15,192 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-11-10 09:35:17,234 [Worker#STA_NP] TestScripts.BaseTest - Verify Project Name Activity is displayed.
+INFO  2016-11-10 09:35:20,557 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-10 09:35:26,687 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-10 09:35:29,738 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-10 09:35:32,199 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-10 09:35:42,778 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:36:13,437 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:36:30,852 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 09:36:50,294 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-10 09:37:00,720 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-10 09:37:07,247 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:39:11,234 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-09-39-10.png
+ERROR 2016-11-10 09:39:11,234 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class='chat-activity-list']//div[2]//span[text()='joined the project: ']) to be displayed but did not.
+INFO  2016-11-10 09:39:11,554 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_018_VerifyProjectAddMemberActivity_2016-11-10-09-39-11.png
+INFO  2016-11-10 09:39:11,554 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:39:53,370 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:40:13,886 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 09:40:36,514 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-11-10 09:40:40,063 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-11-10 09:40:43,163 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-10 09:40:49,321 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-10 09:40:52,382 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2016-11-10 09:40:54,922 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-10 09:40:59,193 [Worker#STA_NP] TestScripts.BaseTest - Click Request To Join button doisplayed on screen.
+INFO  2016-11-10 09:41:09,535 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-11-10 09:41:13,590 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-10 09:41:20,715 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-10 09:41:23,774 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2016-11-10 09:41:27,280 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-10 09:41:31,596 [Worker#STA_NP] TestScripts.BaseTest - Click the Requested Member of the Project.
+INFO  2016-11-10 09:41:37,742 [Worker#STA_NP] TestScripts.BaseTest - Accept the Requested member.
+INFO  2016-11-10 09:43:44,603 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-09-43-42.png
+ERROR 2016-11-10 09:43:44,603 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 373
+INFO  2016-11-10 09:43:45,382 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_019_VerifyProjectJoinActivity_2016-11-10-09-43-45.png
+INFO  2016-11-10 09:43:45,382 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:45:10,320 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:45:27,588 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 09:45:49,851 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Completed'
+INFO  2016-11-10 09:45:52,957 [Worker#STA_NP] TestScripts.BaseTest - Click Mark Complete button.
+INFO  2016-11-10 09:48:02,511 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-09-47-58.png
+ERROR 2016-11-10 09:48:02,512 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 373
+INFO  2016-11-10 09:48:02,972 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_020_VerifyProjectCompleteActivity_2016-11-10-09-48-02.png
+INFO  2016-11-10 09:48:02,972 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:49:14,545 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:51:21,395 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-09-51-19.png
+ERROR 2016-11-10 09:51:21,396 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[text()='RallyNow']) to be displayed but did not.
+INFO  2016-11-10 09:51:21,995 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_023_ClickEditMessageAndPost_2016-11-10-09-51-21.png
+INFO  2016-11-10 09:51:21,995 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 09:52:20,967 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 09:52:42,063 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 09:53:03,881 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 09:53:06,931 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-11-10 09:53:09,077 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-11-10 09:53:15,214 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-09-53-13.png
+INFO  2016-11-10 09:53:16,052 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_024_ClickDeleteMessage_2016-11-10-09-53-15.png
+INFO  2016-11-10 09:53:16,052 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

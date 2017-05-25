@@ -1,0 +1,24 @@
+[START]
+INFO  2017-04-04 14:36:49,689 [14] TestScripts.BaseTestES - Setup test
+INFO  2017-04-04 14:37:12,601 [14] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-04 14:37:14,749 [14] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-04 14:37:16,895 [14] TestScripts.BaseTestES - Click Start Date Field.
+INFO  2017-04-04 14:37:17,963 [14] TestScripts.BaseTestES - Select today's date.
+INFO  2017-04-04 14:37:20,090 [14] TestScripts.BaseTestES - Select Ongoing check-box.
+INFO  2017-04-04 14:37:22,439 [14] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-04 14:37:33,781 [14] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-04 14:37:36,129 [14] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-04 14:37:37,298 [14] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-04 14:37:39,412 [14] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-04 14:37:42,561 [14] TestScripts.BaseTestES - Select Staff.
+INFO  2017-04-04 14:37:44,734 [14] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-04 14:37:47,027 [14] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-04 14:37:52,590 [14] TestScripts.BaseTestES - Enter members email id.
+INFO  2017-04-04 14:37:53,762 [14] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-04 14:37:56,958 [14] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-04 14:39:48,409 [14] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-04 14:41:56,646 [14] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-04-14-41-55.png
+ERROR 2017-04-04 14:41:56,650 [14] Util.AssertHelper - Expected element (By.XPath: //a[text()= 'About']) to be displayed but did not.
+INFO  2017-04-04 14:42:28,656 [14] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_002_PostANewProject_2017-04-04-14-42-28.png
+INFO  2017-04-04 14:42:28,657 [14] TestScripts.BaseTestES - Teardown test
+[END]

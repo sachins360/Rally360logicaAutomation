@@ -1,0 +1,29 @@
+[START]
+INFO  2016-12-26 16:31:48,847 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-26 16:32:23,144 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-26 16:32:31,846 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-26 16:32:34,975 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-26 16:32:45,877 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-26 16:32:50,083 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-26 16:32:53,327 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-26 16:33:06,663 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-26 16:33:10,293 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-26 16:33:17,817 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2016-12-26 16:33:22,932 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2016-12-26 16:33:28,154 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2016-12-26 16:33:29,272 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2016-12-26 16:33:30,355 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2016-12-26 16:33:32,511 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2016-12-26 16:33:33,750 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2016-12-26 16:33:36,052 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2016-12-26 16:33:38,233 [Worker#STA_NP] TestScripts.BaseTestES - Click Submit button.
+INFO  2016-12-26 16:33:43,328 [Worker#STA_NP] TestScripts.BaseTestES - Verify Invoice is displayed.
+INFO  2016-12-26 16:33:44,395 [Worker#STA_NP] TestScripts.BaseTestES - Verify Invoice Title is Pending Approval.
+INFO  2016-12-26 16:33:51,592 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-26 16:34:03,324 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2016-12-26 16:34:08,622 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2016-12-26 16:34:18,852 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2016-12-26 16:34:20,177 [Worker#STA_NP] TestScripts.BaseTestES - Select Completed Projects from the drop-down.
+INFO  2016-12-26 16:34:25,922 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_002_SubmitInvoiceAndVerifyStatus_2016-12-26-16-34-25.png
+INFO  2016-12-26 16:34:25,949 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,21 @@
+[START]
+INFO  2017-05-04 14:54:41,408 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 14:55:01,472 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 14:55:12,876 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 14:55:21,530 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 14:55:32,947 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 14:55:36,173 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 14:55:48,371 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 14:55:55,587 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Discussions tab.
+INFO  2017-05-04 14:56:05,016 [Worker#STA_NP] TestScripts.BaseTestES - Enter message in Discussion.
+INFO  2017-05-04 14:56:13,334 [Worker#STA_NP] TestScripts.BaseTestES - Click the Post button for the message.
+INFO  2017-05-04 14:56:22,728 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 14:56:36,611 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 14:56:41,717 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Mentioned In Project WIth All short notification on the Notification Window.
+INFO  2017-05-04 14:56:43,001 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 14:56:50,137 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Mentioned In Project WIth All Notification on Notifications Page.
+INFO  2017-05-04 14:58:51,455 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-04-14-58-51.png
+ERROR 2017-05-04 14:58:51,458 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'mail-box')]//a[contains(text(), 'Ammar Khan said: Hi @all')]) to be displayed but did not.
+INFO  2017-05-04 14:58:51,666 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_013_UserMentionedInProject_2017-05-04-14-58-51.png
+INFO  2017-05-04 14:58:51,666 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,10 @@
+[START]
+INFO  2016-12-12 15:01:17,402 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-12 15:01:38,921 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-12 15:02:01,576 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-12 15:02:04,643 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-12-12 15:02:06,809 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-12-12 15:02:11,664 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-12-15-02-11.png
+INFO  2016-12-12 15:02:14,853 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_024_ClickDeleteMessage_2016-12-12-15-02-14.png
+INFO  2016-12-12 15:02:14,853 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

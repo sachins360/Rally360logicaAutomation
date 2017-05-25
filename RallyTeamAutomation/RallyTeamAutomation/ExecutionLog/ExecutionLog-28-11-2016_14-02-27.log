@@ -1,0 +1,38 @@
+[START]
+INFO  2016-11-28 14:03:13,186 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-28 14:03:51,454 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-28 14:04:20,032 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-28 14:04:42,040 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-28 14:06:47,159 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-28-14-06-46.png
+ERROR 2016-11-28 14:06:47,336 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[1]/a/div/i"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-11-28 14:06:47,851 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_080_ViewProjectsTeamStatus_2016-11-28-14-06-47.png
+INFO  2016-11-28 14:06:47,851 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-28 14:07:26,590 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-28 14:07:46,857 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-28 14:08:03,545 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 14:08:09,698 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 14:08:12,798 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-28 14:08:18,248 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-28 14:08:24,576 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Closed'
+INFO  2016-11-28 14:08:29,050 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 14:08:35,111 [Worker#STA_NP] TestScripts.BaseTest - Select 'Closed' option from the All Projects dropdown.
+INFO  2016-11-28 14:10:40,723 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-28-14-10-40.png
+ERROR 2016-11-28 14:10:40,723 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'Test Public ProjectXIGE')]) to be displayed but did not.
+INFO  2016-11-28 14:10:40,970 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_083_VerifyClosedIvePostedProjects_2016-11-28-14-10-40.png
+INFO  2016-11-28 14:10:40,970 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

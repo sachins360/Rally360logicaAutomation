@@ -1,0 +1,7 @@
+[START]
+INFO  2017-02-21 15:52:34,122 [14] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 15:52:48,811 [14] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-02-21 15:52:53,642 [14] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-02-21 15:53:03,267 [14] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-02-21 15:53:11,276 [14] TestScripts.BaseTestES - Move to user container.
+INFO  2017-02-21 15:53:21,683 [14] TestScripts.BaseTestES - Click on Message button.

@@ -1,0 +1,99 @@
+[START]
+INFO  2017-01-02 12:06:49,408 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:07:15,398 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:07:37,695 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:07:41,278 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 12:07:43,106 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:07:49,245 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:07:52,321 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-02 12:07:54,808 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:07:58,946 [Worker#STA_NP] TestScripts.BaseTest - Click Request To Join button doisplayed on screen.
+INFO  2017-01-02 12:08:09,139 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:08:22,889 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:08:29,000 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:08:32,054 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-02 12:08:37,703 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:08:47,918 [Worker#STA_NP] TestScripts.BaseTest - Click the Requested Member of the Project.
+INFO  2017-01-02 12:08:54,083 [Worker#STA_NP] TestScripts.BaseTest - Accept the Requested member.
+INFO  2017-01-02 12:08:58,694 [Worker#STA_NP] TestScripts.BaseTest - Close the Pending member window.
+INFO  2017-01-02 12:09:08,952 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:09:15,786 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 12:09:22,056 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:09:28,253 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:09:31,390 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-02 12:09:34,308 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:09:38,436 [Worker#STA_NP] TestScripts.BaseTest - Verify Leave Project icon displayed on screen.
+INFO  2017-01-02 12:09:48,885 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:09:53,694 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:09:59,984 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:10:03,117 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-02 12:10:06,810 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:10:20,604 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:11:01,152 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:11:22,216 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:11:38,149 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Created successful message.
+INFO  2017-01-02 12:11:50,235 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:12:38,384 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:13:04,417 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:13:20,356 [Worker#STA_NP] TestScripts.BaseTest - Verify About tab on the created Project page.
+INFO  2017-01-02 12:13:23,546 [Worker#STA_NP] TestScripts.BaseTest - Verify Discussion tab on the created Project page.
+INFO  2017-01-02 12:13:26,643 [Worker#STA_NP] TestScripts.BaseTest - Verify Tasks tab on the created Project page.
+INFO  2017-01-02 12:15:30,288 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-12-15-29.png
+ERROR 2017-01-02 12:15:30,317 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //ul[contains(@class, 'nav nav-tabs')]//a[contains(text(), 'Files')]) to be displayed but did not.
+INFO  2017-01-02 12:15:30,759 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_032_VerifyProjectCreatedFieldsDisplayed_2017-01-02-12-15-30.png
+INFO  2017-01-02 12:15:30,759 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:16:09,886 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:16:31,243 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:16:53,418 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:16:57,014 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 12:17:00,445 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:17:06,602 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:17:09,687 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-02 12:17:15,248 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:17:21,290 [Worker#STA_NP] TestScripts.BaseTest - Verify Request To Join button doisplayed on screen.
+INFO  2017-01-02 12:17:30,678 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:17:35,339 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:17:41,548 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:17:44,598 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-02 12:17:48,073 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:18:01,098 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:18:42,448 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:19:03,273 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:19:25,406 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:19:29,073 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 12:19:30,793 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:19:37,026 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:19:40,164 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-02 12:19:42,701 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:19:46,824 [Worker#STA_NP] TestScripts.BaseTest - Click Request To Join button doisplayed on screen.
+INFO  2017-01-02 12:19:56,926 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:20:01,101 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:20:08,232 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:20:11,283 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-02 12:20:14,866 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:20:25,067 [Worker#STA_NP] TestScripts.BaseTest - Click the Requested Member of the Project.
+INFO  2017-01-02 12:20:31,229 [Worker#STA_NP] TestScripts.BaseTest - Accept the Requested member.
+INFO  2017-01-02 12:20:46,779 [Worker#STA_NP] TestScripts.BaseTest - Close the Pending member window.
+INFO  2017-01-02 12:20:54,251 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:21:02,034 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 12:21:05,121 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:21:11,229 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:21:14,302 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-02 12:21:17,455 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:21:21,511 [Worker#STA_NP] TestScripts.BaseTest - Verify Share Project icon displayed on screen.
+INFO  2017-01-02 12:21:25,555 [Worker#STA_NP] TestScripts.BaseTest - Verify Leave Project icon displayed on screen.
+INFO  2017-01-02 12:21:35,981 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:21:40,334 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:21:46,498 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:21:49,566 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-02 12:21:53,196 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:22:05,558 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:22:48,031 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:23:19,534 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:23:38,971 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 12:23:47,152 [Worker#STA_NP] TestScripts.BaseTest - Verify the Add Project Member window fields.
+INFO  2017-01-02 12:23:50,814 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window close icon.
+INFO  2017-01-02 12:24:00,384 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:24:30,830 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:24:51,254 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:25:10,650 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.

@@ -1,0 +1,17 @@
+[START]
+INFO  2017-04-24 14:55:05,674 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 14:55:25,714 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 14:55:37,111 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-24 14:55:45,759 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 14:55:57,529 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 14:56:00,857 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 14:56:14,119 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-24 14:56:21,374 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-24 14:56:25,000 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-24 14:56:30,651 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-24-14-56-30.png
+ERROR 2017-04-24 14:56:30,668 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: Cannot locate element with text: anupk@360logica.com
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 74
+INFO  2017-04-24 14:56:30,961 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_001_ProjectAssignment_2017-04-24-14-56-30.png
+INFO  2017-04-24 14:56:30,961 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

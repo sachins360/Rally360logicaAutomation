@@ -1,0 +1,8 @@
+[START]
+INFO  2017-03-06 16:57:46,069 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-06 16:58:27,964 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-06 17:00:33,824 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-06-17-00-33.png
+ERROR 2017-03-06 17:00:33,855 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@placeholder= 'Enter user's name']"}
+INFO  2017-03-06 17:00:34,277 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_004_UserAddedToProject_2017-03-06-17-00-34.png
+INFO  2017-03-06 17:00:34,279 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,28 @@
+[START]
+INFO  2016-12-28 14:07:39,499 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-28 14:07:52,719 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-28 14:07:57,529 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2016-12-28 14:08:01,419 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2016-12-28 14:08:06,481 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2016-12-28 14:08:08,948 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2016-12-28 14:08:14,220 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2016-12-28 14:08:19,685 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Title.
+INFO  2016-12-28 14:08:21,039 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Description.
+INFO  2016-12-28 14:08:22,248 [Worker#STA_NP] TestScripts.BaseTestES - Click the Good rating.
+INFO  2016-12-28 14:08:24,478 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2016-12-28 14:08:25,742 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2016-12-28 14:08:30,744 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2016-12-28 14:09:23,583 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-28 14:09:44,238 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-28 14:09:48,565 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2016-12-28 14:09:53,255 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2016-12-28 14:09:58,288 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2016-12-28 14:10:13,111 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2016-12-28 14:10:18,381 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2016-12-28 14:10:23,735 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Title.
+INFO  2016-12-28 14:10:24,961 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Description.
+INFO  2016-12-28 14:10:26,142 [Worker#STA_NP] TestScripts.BaseTestES - Click the Not Good rating.
+INFO  2016-12-28 14:10:28,306 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2016-12-28 14:10:31,594 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2016-12-28 14:10:36,595 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,27 @@
+[START]
+INFO  2017-01-19 16:46:23,790 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-19 16:46:58,540 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'In Progress'
+INFO  2017-01-19 16:47:05,259 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-01-19 16:47:11,023 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-19 16:47:22,535 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-19 16:47:26,351 [Worker#STA_NP] TestScripts.BaseTestES - Select In Progress from the drop-down.
+INFO  2017-01-19 16:47:32,538 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-19 16:47:51,847 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-19 16:48:07,094 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-19 16:48:41,324 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2017-01-19 16:48:47,071 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2017-01-19 16:48:52,981 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-01-19 16:48:58,813 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-19 16:51:09,503 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-19-16-51-09.png
+ERROR 2017-01-19 16:51:09,532 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[contains(@placeholder, 'What kind of project are you looking for?')]"}
+INFO  2017-01-19 16:51:10,000 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.MarketplaceTest.Marketplace_008_VerifyCompletedProjectsSearch_2017-01-19-16-51-09.png
+INFO  2017-01-19 16:51:10,000 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-19 16:51:23,453 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-19 16:51:58,870 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Closed'
+INFO  2017-01-19 16:52:05,555 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-01-19 16:52:11,316 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-19 16:52:24,999 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-19 16:52:28,661 [Worker#STA_NP] TestScripts.BaseTestES - Select Closed Projects from the drop-down.
+INFO  2017-01-19 16:52:34,824 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-19 16:52:48,963 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

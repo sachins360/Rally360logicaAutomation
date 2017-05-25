@@ -1,0 +1,25 @@
+[START]
+INFO  2016-11-23 12:28:37,228 [16] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-23 12:30:24,314 [16] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-23 12:30:27,969 [16] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-23 12:30:30,152 [16] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-23 12:30:33,527 [16] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-23 12:30:37,688 [16] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-23 12:30:47,608 [16] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-23 12:30:49,844 [16] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-23 12:30:51,991 [16] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-23 12:31:43,134 [16] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2016-11-23 12:31:48,538 [16] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2016-11-23 12:31:57,676 [16] TestScripts.BaseTestWithoutLogin - Click Go button.
+INFO  2016-11-23 12:32:08,350 [16] TestScripts.BaseTestWithoutLogin - Click the Email Sender.
+INFO  2016-11-23 12:32:20,895 [16] TestScripts.BaseTestWithoutLogin - Navigate to the Email Link.
+INFO  2016-11-23 12:32:29,241 [16] TestScripts.BaseTestWithoutLogin - Enter registered work email.
+INFO  2016-11-23 12:32:31,395 [16] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2016-11-23 12:35:40,807 [16] TestScripts.BaseTestWithoutLogin - Click Let's Go button.
+INFO  2016-11-23 12:36:32,635 [16] TestScripts.BaseTestWithoutLogin - Click Get Started button.
+INFO  2016-11-23 12:36:37,783 [16] TestScripts.BaseTestWithoutLogin - Verify the LinkeDin Confirmation message.
+INFO  2016-11-23 12:36:38,883 [16] TestScripts.BaseTestWithoutLogin - Verify the Connect with LinkedIn button.
+INFO  2016-11-23 12:38:45,007 [16] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-23-12-38-41.png
+ERROR 2016-11-23 12:38:45,100 [16] Util.AssertHelper - Expected element (By.XPath: //button[contains(text(), 'SKIP')]) to be displayed but did not.
+INFO  2016-11-23 12:39:26,969 [16] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

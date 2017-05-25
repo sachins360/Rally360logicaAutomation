@@ -1,0 +1,15 @@
+[START]
+INFO  2017-05-08 17:19:24,635 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-08 17:19:44,455 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 17:19:55,836 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-08 17:20:04,440 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-08 17:20:15,795 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-08 17:20:19,025 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 17:20:31,235 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-08 17:20:39,491 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-08 17:20:42,864 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-05-08 17:20:48,069 [Worker#STA_NP] TestScripts.BaseTestES - Click Member Remove icon
+INFO  2017-05-08 17:20:51,162 [Worker#STA_NP] TestScripts.BaseTestES - Click Member Remove icon
+INFO  2017-05-08 17:20:54,727 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-05-08 17:21:02,133 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-08 17:21:30,345 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.

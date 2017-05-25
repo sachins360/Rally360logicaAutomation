@@ -1,0 +1,13 @@
+[START]
+INFO  2017-01-31 15:35:56,413 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-31 15:36:41,727 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-31 15:36:45,332 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-31 15:36:50,627 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-31 15:36:52,056 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-01-31 15:37:07,705 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-31 15:37:22,178 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-01-31 15:39:28,992 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-31-15-39-28.png
+ERROR 2017-01-31 15:39:29,032 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(),'Request Sent')]) to be displayed but did not.
+INFO  2017-01-31 15:39:29,755 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_011_RequestToJoinProject_2017-01-31-15-39-29.png
+INFO  2017-01-31 15:39:29,755 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

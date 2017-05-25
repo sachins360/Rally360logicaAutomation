@@ -1,0 +1,16 @@
+[START]
+INFO  2017-03-14 12:12:08,256 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-14 12:12:19,914 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-03-14 12:12:22,275 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-14 12:12:27,576 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-03-14 12:12:32,773 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-03-14 12:12:39,240 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-03-14 12:12:42,151 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-03-14 12:12:47,438 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-03-14 12:12:59,126 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-03-14 12:13:06,480 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-03-14 12:15:18,380 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-14-12-15-15.png
+ERROR 2017-03-14 12:15:18,396 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'noreply@rallyteam.com')]) to be displayed but did not.
+INFO  2017-03-14 12:15:19,662 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_002_SendAndVerifyInviteEmail_2017-03-14-12-15-18.png
+INFO  2017-03-14 12:15:19,662 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

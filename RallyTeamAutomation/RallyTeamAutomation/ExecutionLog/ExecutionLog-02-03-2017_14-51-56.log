@@ -1,0 +1,25 @@
+[START]
+INFO  2017-03-02 14:52:50,604 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-02 14:53:05,483 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-03-02 14:53:08,020 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-02 14:53:14,120 [Worker#STA_NP] TestScripts.BaseTestES - Click Vendors tab.
+INFO  2017-03-02 14:53:19,570 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Vendors button.
+INFO  2017-03-02 14:53:24,751 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Name.
+INFO  2017-03-02 14:53:26,935 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Description.
+INFO  2017-03-02 14:53:29,094 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:53:31,425 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:53:33,551 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:53:35,644 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:53:37,739 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:53:41,317 [Worker#STA_NP] TestScripts.BaseTestES - Select Vendor Owner.
+INFO  2017-03-02 14:53:43,535 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Location.
+INFO  2017-03-02 14:53:45,726 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Phone.
+INFO  2017-03-02 14:53:47,967 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Website.
+INFO  2017-03-02 14:53:50,124 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-03-02 14:53:54,384 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Facebook.
+INFO  2017-03-02 14:53:56,615 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Twitter.
+INFO  2017-03-02 14:53:59,951 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company LinkedIn.
+INFO  2017-03-02 14:54:02,133 [Worker#STA_NP] TestScripts.BaseTestES - Click Create Profile button.
+INFO  2017-03-02 14:54:06,252 [Worker#STA_NP] TestScripts.BaseTestES - Verify Vendor Created Message.
+INFO  2017-03-02 14:54:06,254 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

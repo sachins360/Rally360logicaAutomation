@@ -1,0 +1,26 @@
+[START]
+INFO  2017-04-26 15:50:10,422 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-26 15:50:20,526 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-26 15:50:23,137 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-26 15:50:28,569 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-26 15:50:34,215 [Worker#STA_NP] TestScripts.BaseTestES - Click Create a Profile button.
+INFO  2017-04-26 15:50:39,542 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name.
+INFO  2017-04-26 15:50:41,873 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name.
+INFO  2017-04-26 15:50:44,738 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email.
+INFO  2017-04-26 15:50:47,417 [Worker#STA_NP] TestScripts.BaseTestES - Enter Title.
+INFO  2017-04-26 15:50:49,912 [Worker#STA_NP] TestScripts.BaseTestES - Enter About Me.
+INFO  2017-04-26 15:50:52,573 [Worker#STA_NP] TestScripts.BaseTestES - Enter My Top Skills.
+INFO  2017-04-26 15:50:56,902 [Worker#STA_NP] TestScripts.BaseTestES - Enter Other Skills.
+INFO  2017-04-26 15:51:01,361 [Worker#STA_NP] TestScripts.BaseTestES - Enter Languages.
+INFO  2017-04-26 15:51:05,777 [Worker#STA_NP] TestScripts.BaseTestES - Enter Interested In.
+INFO  2017-04-26 15:51:10,401 [Worker#STA_NP] TestScripts.BaseTestES - Enter LinkedIn Url.
+INFO  2017-04-26 15:51:12,940 [Worker#STA_NP] TestScripts.BaseTestES - Enter Phone.
+INFO  2017-04-26 15:51:16,288 [Worker#STA_NP] TestScripts.BaseTestES - Enter Address.
+INFO  2017-04-26 15:51:18,710 [Worker#STA_NP] TestScripts.BaseTestES - Enter City.
+INFO  2017-04-26 15:51:20,986 [Worker#STA_NP] TestScripts.BaseTestES - Enter State/Province.
+INFO  2017-04-26 15:51:23,411 [Worker#STA_NP] TestScripts.BaseTestES - Enter Postal Code.
+INFO  2017-04-26 15:51:25,759 [Worker#STA_NP] TestScripts.BaseTestES - Enter Country.
+INFO  2017-04-26 15:51:29,996 [Worker#STA_NP] TestScripts.BaseTestES - Click on Create Button
+INFO  2017-04-26 15:51:37,079 [Worker#STA_NP] TestScripts.BaseTestES - Verify the added user Full Name.
+INFO  2017-04-26 15:51:38,080 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

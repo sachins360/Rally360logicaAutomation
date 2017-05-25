@@ -1,0 +1,9 @@
+[START]
+INFO  2017-03-24 15:13:31,095 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-24 15:14:31,307 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-03-24 15:14:33,767 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-24 15:16:52,602 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-24-15-16-41.png
+ERROR 2017-03-24 15:16:53,225 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@name= 'title']"}
+INFO  2017-03-24 15:16:56,163 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_001_CreateEmployeeGroup_2017-03-24-15-16-55.png
+INFO  2017-03-24 15:16:56,163 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,31 @@
+[START]
+INFO  2017-03-10 12:04:05,077 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-10 12:04:35,876 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-10 12:04:46,124 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-10 12:04:50,252 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-10 12:05:02,621 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-10 12:05:18,915 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-03-10 12:05:29,071 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2017-03-10 12:05:35,363 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2017-03-10 12:05:36,554 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2017-03-10 12:05:37,672 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-03-10 12:05:39,828 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2017-03-10 12:05:41,167 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2017-03-10 12:05:43,550 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2017-03-10 12:05:45,722 [Worker#STA_NP] TestScripts.BaseTestES - Click Submit button.
+INFO  2017-03-10 12:05:52,979 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-10 12:06:07,004 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-03-10 12:06:09,541 [Worker#STA_NP] TestScripts.BaseTestES - Click Invoice displayed.
+INFO  2017-03-10 12:06:14,713 [Worker#STA_NP] TestScripts.BaseTestES - Click the Approve button.
+INFO  2017-03-10 12:06:21,861 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-10 12:06:35,713 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-10 12:06:42,008 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Approved short notification on the Notification Window.
+INFO  2017-03-10 12:06:43,434 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-03-10 12:06:50,533 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Approved Notification on Notifications Page.
+INFO  2017-03-10 12:06:51,624 [Worker#STA_NP] TestScripts.BaseTestES - Verify Invoice Approved notification subject on the Notifications Page.
+INFO  2017-03-10 12:06:55,851 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-10 12:07:07,947 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-03-10 12:07:10,235 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-03-10 12:07:25,708 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-03-10 12:07:43,081 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

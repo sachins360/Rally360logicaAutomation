@@ -1,0 +1,10 @@
+[START]
+INFO  2017-01-04 15:28:04,542 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 15:28:15,677 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 15:28:20,850 [Worker#STA_NP] TestScripts.BaseTestES - Click Send Announcement button.
+INFO  2017-01-04 15:28:26,126 [Worker#STA_NP] TestScripts.BaseTestES - Select a Group.
+INFO  2017-01-04 15:28:26,474 [Worker#STA_NP] TestScripts.BaseTestES - Enter the announcement.
+INFO  2017-01-04 15:28:28,596 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 15:28:33,678 [Worker#STA_NP] TestScripts.BaseTestES - Verify announcement is successfully posted.
+INFO  2017-01-04 15:28:33,680 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

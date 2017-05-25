@@ -1,0 +1,11 @@
+[START]
+INFO  2017-05-04 17:20:36,932 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 17:20:56,960 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 17:21:08,338 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 17:21:17,112 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 17:21:28,662 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 17:21:31,878 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 17:22:00,637 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 17:22:07,952 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_002_ProjectOwnerPendingJoinRequest_2017-05-04-17-22-07.png
+INFO  2017-05-04 17:22:07,956 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

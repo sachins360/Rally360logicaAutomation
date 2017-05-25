@@ -1,0 +1,12 @@
+[START]
+INFO  2017-02-01 12:54:08,261 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-01 12:54:26,077 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-02-01 12:54:33,249 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-02-01 12:54:40,356 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-02-01 12:54:46,465 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-02-01 12:54:49,655 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-02-01 12:56:56,029 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-01-12-56-54.png
+ERROR 2017-02-01 12:56:56,338 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'modal-content']//textarea[@name= 'body']) to be displayed but did not.
+INFO  2017-02-01 12:56:59,394 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_003_SendNewMessageAndVerify_2017-02-01-12-56-57.png
+INFO  2017-02-01 12:56:59,394 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

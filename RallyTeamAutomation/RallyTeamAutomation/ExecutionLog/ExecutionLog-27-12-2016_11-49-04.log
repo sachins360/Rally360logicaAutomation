@@ -1,0 +1,30 @@
+[START]
+INFO  2016-12-27 11:50:06,343 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-27 11:50:38,818 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-27 11:50:47,184 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-27 11:50:50,341 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-27 11:51:00,912 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-27 11:51:05,295 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-27 11:51:09,470 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-27 11:51:21,850 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-27 11:51:25,391 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-27 11:51:32,789 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2016-12-27 11:51:37,905 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2016-12-27 11:51:43,260 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2016-12-27 11:51:44,339 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2016-12-27 11:51:45,449 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2016-12-27 11:51:47,596 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2016-12-27 11:51:48,723 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2016-12-27 11:51:50,891 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2016-12-27 11:51:53,029 [Worker#STA_NP] TestScripts.BaseTestES - Click Save Draft button.
+INFO  2016-12-27 11:51:58,529 [Worker#STA_NP] TestScripts.BaseTestES - Click Invoice displayed.
+INFO  2016-12-27 11:52:03,718 [Worker#STA_NP] TestScripts.BaseTestES - Edit the Invoice Title.
+INFO  2016-12-27 11:52:04,863 [Worker#STA_NP] TestScripts.BaseTestES - Click Save Draft button.
+INFO  2016-12-27 11:52:12,161 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-27 11:52:23,858 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2016-12-27 11:52:29,215 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2016-12-27 11:52:39,579 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2016-12-27 11:52:40,965 [Worker#STA_NP] TestScripts.BaseTestES - Select Completed Projects from the drop-down.
+INFO  2016-12-27 11:52:46,612 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2016-12-27 11:52:59,330 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,10 @@
+[START]
+INFO  2017-01-03 14:41:43,899 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 14:41:57,005 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 14:41:59,798 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-03 14:42:02,795 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Users tab.
+INFO  2017-01-03 14:44:09,290 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-14-44-05.png
+ERROR 2017-01-03 14:44:09,693 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //table[@class='table table-hover']//thead/tr//strong[text()= 'Group']) to be displayed but did not.
+INFO  2017-01-03 14:44:19,599 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2177_002_VerifyAdminColumn_2017-01-03-14-44-19.png
+INFO  2017-01-03 14:44:19,599 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

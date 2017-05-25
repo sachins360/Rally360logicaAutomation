@@ -1,0 +1,7 @@
+[START]
+INFO  2017-01-04 12:59:13,755 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:59:31,546 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-01-04 12:59:34,094 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-01-04 13:01:40,993 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 13:01:50,083 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-01-04 13:01:53,483 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.

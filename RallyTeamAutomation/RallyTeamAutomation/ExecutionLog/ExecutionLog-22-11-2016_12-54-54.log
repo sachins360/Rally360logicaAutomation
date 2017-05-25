@@ -1,0 +1,20 @@
+[START]
+INFO  2016-11-22 12:55:30,073 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-22 12:55:57,023 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-22 12:55:59,443 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-22 12:56:01,668 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-22 12:56:03,943 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-22 12:56:08,095 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-22 12:56:10,314 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-22 12:56:12,493 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-22 12:56:14,672 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-22 12:56:30,792 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2016-11-22 12:56:35,966 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2016-11-22 12:56:39,921 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Go button.
+INFO  2016-11-22 12:56:45,609 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Email Sender.
+INFO  2016-11-22 12:56:47,632 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Email Subject.
+INFO  2016-11-22 12:56:49,854 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Sender.
+INFO  2016-11-22 12:58:55,751 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-22-12-58-55.png
+ERROR 2016-11-22 12:58:55,776 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: html/body/table/tbody/tr[2]/td/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[1]/center/a) to be displayed but did not.
+INFO  2016-11-22 12:58:55,931 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

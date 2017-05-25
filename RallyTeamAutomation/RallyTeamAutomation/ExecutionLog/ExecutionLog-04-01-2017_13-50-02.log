@@ -1,0 +1,9 @@
+[START]
+INFO  2017-01-04 13:50:56,539 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 13:51:07,733 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-01-04 13:51:10,056 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-01-04 13:51:16,034 [Worker#STA_NP] TestScripts.BaseTestES - Verify Notes column is displayed.
+INFO  2017-01-04 13:53:17,844 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-13-53-17.png
+ERROR 2017-01-04 13:53:17,863 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //table[@class='table table-hover']//tbody/tr[1]/td[6]//a) to be displayed but did not.
+INFO  2017-01-04 13:53:18,221 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.ENG2248_001_VerifyAddNotesViewNotes_2017-01-04-13-53-18.png
+INFO  2017-01-04 13:53:18,221 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test

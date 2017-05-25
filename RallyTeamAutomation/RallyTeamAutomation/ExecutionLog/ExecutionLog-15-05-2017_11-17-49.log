@@ -1,0 +1,19 @@
+[START]
+INFO  2017-05-15 11:18:28,654 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 11:18:46,781 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 11:18:49,153 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 11:18:54,459 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 11:18:59,757 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-15 11:19:05,463 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-15 11:19:07,746 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 11:19:13,006 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-15 11:19:20,996 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 11:19:28,421 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 11:19:36,281 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-05-15 11:19:38,363 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-05-15 11:19:41,245 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 11:21:47,346 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-15-11-21-46.png
+ERROR 2017-05-15 11:21:47,351 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //button[contains(text(), 'Get Started')]) to be displayed but did not.
+INFO  2017-05-15 11:21:47,957 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_002_SendAndVerifyInviteEmail_2017-05-15-11-21-47.png
+INFO  2017-05-15 11:21:47,957 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

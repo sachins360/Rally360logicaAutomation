@@ -1,0 +1,17 @@
+[START]
+INFO  2016-11-28 11:28:17,437 [14] TestScripts.BaseTest - Setup test
+INFO  2016-11-28 11:28:46,013 [14] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-28 11:29:04,825 [14] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 11:29:11,024 [14] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 11:29:14,123 [14] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-28 11:29:19,690 [14] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-28 11:29:26,062 [14] TestScripts.BaseTest - Select Project status as 'Completed'
+INFO  2016-11-28 11:29:31,242 [14] TestScripts.BaseTest - Click Mark Complete button.
+INFO  2016-11-28 11:29:37,655 [14] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 11:29:44,813 [14] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 11:29:47,936 [14] TestScripts.BaseTest - Select 'Completed' option from the All Projects dropdown.
+INFO  2016-11-28 11:31:55,673 [14] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-28-11-31-53.png
+ERROR 2016-11-28 11:31:55,697 [14] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-project-tile')]//span[contains(text(), 'Test Public ProjectCELZ')]) to be displayed but did not.
+INFO  2016-11-28 11:32:15,456 [14] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_009_VerifyCompletedProjects_2016-11-28-11-32-15.png
+INFO  2016-11-28 11:32:15,456 [14] TestScripts.BaseTest - Teardown test
+[END]

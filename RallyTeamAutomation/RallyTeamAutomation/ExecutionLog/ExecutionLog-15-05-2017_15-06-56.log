@@ -1,0 +1,57 @@
+[START]
+INFO  2017-05-15 15:07:39,983 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 15:07:57,972 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-05-15 15:08:00,432 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 15:08:05,647 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-05-15 15:08:08,884 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-05-15 15:08:14,106 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-05-15 15:08:15,219 [Worker#STA_NP] TestScripts.BaseTestES - Select Group Type as Employee
+INFO  2017-05-15 15:08:17,447 [Worker#STA_NP] TestScripts.BaseTestES - Click Create button
+INFO  2017-05-15 15:08:22,449 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 15:09:12,718 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 15:09:30,148 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-05-15 15:09:32,494 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 15:09:37,687 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-05-15 15:09:40,965 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-05-15 15:09:46,194 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-05-15 15:09:47,365 [Worker#STA_NP] TestScripts.BaseTestES - Select Group Type as External User
+INFO  2017-05-15 15:09:49,544 [Worker#STA_NP] TestScripts.BaseTestES - Click Create button
+INFO  2017-05-15 15:09:54,544 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 15:10:45,691 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 15:11:02,976 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-05-15 15:11:05,383 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 15:11:10,683 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-05-15 15:11:13,899 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-05-15 15:11:18,900 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-05-15 15:11:20,072 [Worker#STA_NP] TestScripts.BaseTestES - Select Group Type as Vendor
+INFO  2017-05-15 15:11:22,301 [Worker#STA_NP] TestScripts.BaseTestES - Click Create button
+INFO  2017-05-15 15:11:27,302 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 15:12:12,541 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 15:12:30,221 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-05-15 15:12:32,409 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 15:12:37,597 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-05-15 15:12:40,833 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-05-15 15:12:45,835 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-05-15 15:12:47,059 [Worker#STA_NP] TestScripts.BaseTestES - Click Add member icon
+INFO  2017-05-15 15:14:49,305 [Worker#STA_NP] TestScripts.BaseTestES - Enter a user email address
+INFO  2017-05-15 15:14:55,563 [Worker#STA_NP] TestScripts.BaseTestES - Click Done button
+INFO  2017-05-15 15:17:01,553 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-15-15-17-01.png
+ERROR 2017-05-15 15:17:01,560 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-05-15 15:17:01,731 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_004_AddMemberToGroup_2017-05-15-15-17-01.png
+INFO  2017-05-15 15:17:01,731 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 15:17:48,445 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 15:18:06,507 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-05-15 15:18:08,869 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 15:18:14,061 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-05-15 15:18:17,286 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-05-15 15:18:22,286 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-05-15 15:18:23,525 [Worker#STA_NP] TestScripts.BaseTestES - Click Add member icon
+INFO  2017-05-15 15:18:26,923 [Worker#STA_NP] TestScripts.BaseTestES - Enter a user email address
+INFO  2017-05-15 15:18:33,190 [Worker#STA_NP] TestScripts.BaseTestES - Click Done button
+INFO  2017-05-15 15:18:39,260 [Worker#STA_NP] TestScripts.BaseTestES - Click group member added remove icon.
+INFO  2017-05-15 15:18:41,481 [Worker#STA_NP] TestScripts.BaseTestES - Click Create button
+INFO  2017-05-15 15:18:46,482 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

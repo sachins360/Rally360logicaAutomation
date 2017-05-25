@@ -1,0 +1,11 @@
+[START]
+INFO  2017-02-15 14:47:50,156 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-15 14:48:09,874 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-15 14:48:12,505 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-15 14:48:18,332 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-15 14:48:28,403 [Worker#STA_NP] TestScripts.BaseTestES - Verify Close Icon.
+INFO  2017-02-15 14:50:37,745 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-15-14-50-30.png
+ERROR 2017-02-15 14:50:37,836 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Let's build your marketplace!')]) to be displayed but did not.
+INFO  2017-02-15 14:50:51,072 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InviteUsersTest.InviteUser_001_VerifyInviteUserWindow_2017-02-15-14-50-49.png
+INFO  2017-02-15 14:50:51,072 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

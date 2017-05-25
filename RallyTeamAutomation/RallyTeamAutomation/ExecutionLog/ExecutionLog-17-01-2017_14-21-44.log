@@ -1,0 +1,12 @@
+[START]
+INFO  2017-01-17 14:22:43,369 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-17 14:23:07,179 [Worker#STA_NP] TestScripts.BaseTestES - Select the Private Project check-box.
+INFO  2017-01-17 14:23:22,550 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-17 14:23:30,564 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-17 14:23:40,875 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-17 14:23:42,214 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-01-17 14:25:55,702 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-17-14-25-54.png
+ERROR 2017-01-17 14:25:55,795 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'PrivateProject OIIW')]) to be displayed but did not.
+INFO  2017-01-17 14:26:00,516 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_015_VerifyAdminCanAccessPrivateProject_2017-01-17-14-26-00.png
+INFO  2017-01-17 14:26:00,516 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

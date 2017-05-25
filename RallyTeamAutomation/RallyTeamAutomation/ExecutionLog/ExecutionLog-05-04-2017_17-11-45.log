@@ -1,0 +1,21 @@
+[START]
+INFO  2017-04-05 17:12:14,178 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-05 17:12:36,506 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-05 17:12:38,636 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-05 17:12:39,787 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-05 17:12:51,091 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-05 17:12:55,477 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-05 17:12:56,621 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-05 17:12:58,752 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-05 17:13:01,882 [Worker#STA_NP] TestScripts.BaseTestES - Select Staff.
+INFO  2017-04-05 17:13:04,021 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-05 17:13:06,281 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-05 17:13:11,569 [Worker#STA_NP] TestScripts.BaseTestES - Enter members email id.
+INFO  2017-04-05 17:13:12,739 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-05 17:13:15,896 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-05 17:13:28,068 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-05 17:15:35,770 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-05-17-15-35.png
+ERROR 2017-04-05 17:15:35,773 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'RandomProjectRFBYVL')]) to be displayed but did not.
+INFO  2017-04-05 17:15:35,955 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_004_VerifyDataAboutPage_2017-04-05-17-15-35.png
+INFO  2017-04-05 17:15:35,955 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

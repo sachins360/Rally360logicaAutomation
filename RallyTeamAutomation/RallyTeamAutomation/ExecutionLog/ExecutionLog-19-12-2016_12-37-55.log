@@ -1,0 +1,13 @@
+[START]
+INFO  2016-12-19 12:39:07,517 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-19 12:39:31,232 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-19 12:39:36,489 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2016-12-19 12:39:41,826 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2016-12-19 12:39:46,236 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2016-12-19 12:39:48,414 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2016-12-19 12:39:49,478 [Worker#STA_NP] TestScripts.BaseTestES - Verify attachment icon is displayed.
+INFO  2016-12-19 12:41:51,085 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-19-12-41-50.png
+ERROR 2016-12-19 12:41:51,095 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Add a new messageZLAK')]) to be displayed but did not.
+INFO  2016-12-19 12:41:51,431 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_003_SendNewMessageAndVerify_2016-12-19-12-41-51.png
+INFO  2016-12-19 12:41:51,431 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,87 @@
+[START]
+INFO  2017-01-04 11:30:33,220 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:30:43,288 [Worker#STA_NP] TestScripts.BaseTestES - Verify Messages icon
+INFO  2017-01-04 11:30:44,503 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:30:47,597 [Worker#STA_NP] TestScripts.BaseTestES - Verify All Messages drop-down is displayed.
+INFO  2017-01-04 11:30:48,639 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Btn is displayed.
+INFO  2017-01-04 11:30:48,641 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 11:31:28,115 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:31:42,034 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:31:47,460 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-01-04 11:33:54,153 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-11-33-52.png
+ERROR 2017-01-04 11:33:54,279 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'modal-content']//div[contains(@class, 'rt-modal__title') and contains(text(), 'New Message')]) to be displayed but did not.
+INFO  2017-01-04 11:33:55,281 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_002_VerifyNewMessageWindow_2017-01-04-11-33-55.png
+INFO  2017-01-04 11:33:55,281 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 11:34:27,772 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:34:39,301 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:34:44,491 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-01-04 11:34:49,819 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-01-04 11:34:54,133 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-01-04 11:36:57,007 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-11-36-56.png
+ERROR 2017-01-04 11:36:57,162 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class= 'modal-content']//button[contains(@class, 'btn-sm')]//strong[text()= 'Send']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-04 11:36:57,400 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_003_SendNewMessageAndVerify_2017-01-04-11-36-57.png
+INFO  2017-01-04 11:36:57,400 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 11:37:37,149 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:37:48,249 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:37:53,463 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-01-04 11:37:58,800 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-01-04 11:38:03,114 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-01-04 11:40:05,713 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-11-40-05.png
+ERROR 2017-01-04 11:40:05,714 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class= 'modal-content']//button[contains(@class, 'btn-sm')]//strong[text()= 'Send']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-04 11:40:06,220 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_004_ReplyMessage_2017-01-04-11-40-05.png
+INFO  2017-01-04 11:40:06,221 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 11:40:35,667 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:40:47,417 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:40:52,639 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-01-04 11:40:58,003 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-01-04 11:41:02,690 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-01-04 11:43:05,282 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-11-43-04.png
+ERROR 2017-01-04 11:43:05,283 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class= 'modal-content']//button[contains(@class, 'btn-sm')]//strong[text()= 'Send']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-04 11:43:05,482 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_005_VerifyMessageReceivedCounter_2017-01-04-11-43-05.png
+INFO  2017-01-04 11:43:05,482 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

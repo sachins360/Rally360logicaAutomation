@@ -1,0 +1,10 @@
+[START]
+INFO  2017-05-08 15:12:55,755 [14] TestScripts.BaseTestES - Setup test
+INFO  2017-05-08 15:13:16,633 [14] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 15:13:28,056 [14] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-08 15:13:36,818 [14] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-08 15:13:48,278 [14] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-08 15:13:51,517 [14] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 15:14:03,763 [14] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-08 15:14:12,315 [14] TestScripts.BaseTestES - Click on the Discussions tab.
+INFO  2017-05-08 15:14:28,993 [14] TestScripts.BaseTestES - Enter message in Discussion.

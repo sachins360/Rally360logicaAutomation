@@ -1,0 +1,12 @@
+[START]
+INFO  2017-03-06 15:11:55,693 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-06 15:12:56,643 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-06 15:13:11,587 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-06 15:13:16,675 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Recruited to Project short notification on the Notification Window.
+INFO  2017-03-06 15:13:17,923 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-03-06 15:13:24,986 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Recruited to Project Notification on Notifications Page.
+INFO  2017-03-06 15:15:30,697 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-06-15-15-26.png
+ERROR 2017-03-06 15:15:31,302 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'Ammar Khan invites you to check out the NotificationsProjectGZZDTV Java')]) to be displayed but did not.
+INFO  2017-03-06 15:15:44,453 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_003_UserRecruitedToProject_2017-03-06-15-15-44.png
+INFO  2017-03-06 15:15:44,453 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

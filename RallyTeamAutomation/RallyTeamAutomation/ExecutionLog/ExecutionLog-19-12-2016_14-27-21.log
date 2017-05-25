@@ -1,0 +1,12 @@
+[START]
+INFO  2016-12-19 14:28:29,644 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-19 14:28:46,067 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-19 14:28:50,448 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-19 14:28:53,582 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-19 14:28:57,584 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-19 14:29:00,750 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-12-19 14:31:08,042 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-19-14-31-03.png
+ERROR 2016-12-19 14:31:08,080 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'rt-kanban-row rt-kanban-row--body']//div[1]//li[contains(@class, 'rt-kanban-task-item')]//span[text()='']) to be displayed but did not.
+INFO  2016-12-19 14:31:08,526 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_006_CreateTaskAndVerify_2016-12-19-14-31-08.png
+INFO  2016-12-19 14:31:08,526 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

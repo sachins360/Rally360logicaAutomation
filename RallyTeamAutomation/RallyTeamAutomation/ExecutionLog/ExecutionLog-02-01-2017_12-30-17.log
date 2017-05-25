@@ -1,0 +1,22 @@
+[START]
+INFO  2017-01-02 12:30:52,998 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:31:18,433 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:31:34,388 [Worker#STA_NP] TestScripts.BaseTest - Verify About tab on the created Project page.
+INFO  2017-01-02 12:31:37,482 [Worker#STA_NP] TestScripts.BaseTest - Verify Discussion tab on the created Project page.
+INFO  2017-01-02 12:31:40,536 [Worker#STA_NP] TestScripts.BaseTest - Verify Tasks tab on the created Project page.
+INFO  2017-01-02 12:31:43,597 [Worker#STA_NP] TestScripts.BaseTest - Verify Add member icon on the created Project page.
+INFO  2017-01-02 12:31:46,660 [Worker#STA_NP] TestScripts.BaseTest - Verify Share project icon on the created Project page.
+INFO  2017-01-02 12:31:49,706 [Worker#STA_NP] TestScripts.BaseTest - Verify Delete project icon on the created Project page.
+INFO  2017-01-02 12:31:52,757 [Worker#STA_NP] TestScripts.BaseTest - Verify Start Date field on the created Project page.
+INFO  2017-01-02 12:31:55,844 [Worker#STA_NP] TestScripts.BaseTest - Verify Due Date field on the created Project page.
+INFO  2017-01-02 12:31:58,902 [Worker#STA_NP] TestScripts.BaseTest - Verify Status field on the created Project page.
+INFO  2017-01-02 12:32:01,975 [Worker#STA_NP] TestScripts.BaseTest - Verify Location field on the created Project page.
+INFO  2017-01-02 12:32:05,029 [Worker#STA_NP] TestScripts.BaseTest - Verify Group field on the created Project page.
+INFO  2017-01-02 12:32:08,075 [Worker#STA_NP] TestScripts.BaseTest - Verify Event field on the created Project page.
+INFO  2017-01-02 12:32:11,124 [Worker#STA_NP] TestScripts.BaseTest - Verify Reward field on the created Project page.
+INFO  2017-01-02 12:32:14,176 [Worker#STA_NP] TestScripts.BaseTest - Verify Owner field on the created Project page.
+INFO  2017-01-02 12:34:17,826 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-12-34-17.png
+ERROR 2017-01-02 12:34:17,861 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-github-repo')]/select) to be displayed but did not.
+INFO  2017-01-02 12:34:23,758 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_032_VerifyProjectCreatedFieldsDisplayed_2017-01-02-12-34-22.png
+INFO  2017-01-02 12:34:23,758 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

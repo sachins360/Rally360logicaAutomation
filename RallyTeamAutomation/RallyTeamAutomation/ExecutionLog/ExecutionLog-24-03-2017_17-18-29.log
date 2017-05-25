@@ -1,0 +1,17 @@
+[START]
+INFO  2017-03-24 17:18:56,611 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-24 17:19:06,555 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-03-24 17:19:08,830 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-24 17:19:13,996 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-03-24 17:19:17,164 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-03-24 17:19:22,165 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-03-24 17:19:23,340 [Worker#STA_NP] TestScripts.BaseTestES - Click Add member icon
+INFO  2017-03-24 17:19:26,632 [Worker#STA_NP] TestScripts.BaseTestES - Enter a user email address
+INFO  2017-03-24 17:21:33,181 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-24-17-21-32.png
+ERROR 2017-03-24 17:21:33,188 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-03-24 17:21:33,352 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_004_AddMemberToGroup_2017-03-24-17-21-33.png
+INFO  2017-03-24 17:21:33,353 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

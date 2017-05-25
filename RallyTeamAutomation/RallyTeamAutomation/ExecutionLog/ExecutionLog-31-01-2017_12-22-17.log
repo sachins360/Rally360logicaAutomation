@@ -1,0 +1,12 @@
+[START]
+INFO  2017-01-31 12:23:05,446 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-31 12:23:13,217 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-31 12:23:15,713 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-31 12:23:18,286 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-31 12:23:20,470 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Profile Builder button.
+INFO  2017-01-31 12:23:25,520 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Window is displayed.
+INFO  2017-01-31 12:25:27,230 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-31-12-25-26.png
+ERROR 2017-01-31 12:25:27,252 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //button[@class= 'btn btn-block linkedinsso']) to be displayed but did not.
+INFO  2017-01-31 12:25:27,724 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.UserProfile_028_VerifyProfileBuilderFields_2017-01-31-12-25-27.png
+INFO  2017-01-31 12:25:27,724 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

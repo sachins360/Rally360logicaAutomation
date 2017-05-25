@@ -1,0 +1,12 @@
+[START]
+INFO  2016-11-25 11:38:38,007 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-25 11:39:30,675 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2016-11-25 11:39:32,916 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2016-11-25 11:39:38,027 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Users tab.
+INFO  2016-11-25 11:39:40,214 [Worker#STA_NP] TestScripts.BaseTest - Click Invite Users button.
+INFO  2016-11-25 11:39:45,344 [Worker#STA_NP] TestScripts.BaseTest - Click Email button.
+INFO  2016-11-25 11:41:50,796 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-25-11-41-50.png
+ERROR 2016-11-25 11:41:50,799 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//div[@class= 'rt-round-modal__body')]//textarea"}
+INFO  2016-11-25 11:41:51,098 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InviteUsersTest.InviteUser_002_SendInvitationViaEmail_2016-11-25-11-41-50.png
+INFO  2016-11-25 11:41:51,098 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

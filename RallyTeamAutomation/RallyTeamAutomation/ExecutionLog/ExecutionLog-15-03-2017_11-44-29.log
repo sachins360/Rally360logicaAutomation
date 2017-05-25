@@ -1,0 +1,8 @@
+[START]
+INFO  2017-03-15 11:45:23,305 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-15 11:46:15,889 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-15 11:46:24,253 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-15 11:46:27,400 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-15 11:46:38,842 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2017-03-15 11:46:43,460 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+[END]

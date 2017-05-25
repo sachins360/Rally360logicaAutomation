@@ -1,0 +1,62 @@
+[START]
+INFO  2017-05-15 13:54:13,241 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 13:54:17,106 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Url Page
+INFO  2017-05-15 13:54:17,108 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 13:55:10,966 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 13:55:15,221 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Work Email
+INFO  2017-05-15 13:55:17,293 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Password
+INFO  2017-05-15 13:55:18,391 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Button
+INFO  2017-05-15 13:55:19,491 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Forgot Password
+INFO  2017-05-15 13:55:20,580 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify SignUp
+INFO  2017-05-15 13:55:20,581 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 13:56:11,048 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 13:56:15,356 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-05-15 13:56:17,427 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message for empty fields.
+INFO  2017-05-15 13:56:17,427 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 13:57:01,108 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 13:57:06,203 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter invalid work email.
+INFO  2017-05-15 13:57:07,419 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter invalid password.
+INFO  2017-05-15 13:57:09,676 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-05-15 13:57:14,754 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message for empty fields.
+INFO  2017-05-15 13:57:16,755 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 13:58:03,396 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 13:58:07,202 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2017-05-15 13:58:08,506 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2017-05-15 13:58:10,745 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-05-15 13:58:16,044 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the login success by asserting user icon.
+INFO  2017-05-15 13:58:18,046 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 13:59:10,905 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 13:59:15,056 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2017-05-15 13:59:16,265 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2017-05-15 13:59:18,648 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-05-15 13:59:26,927 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Signout of the application.
+INFO  2017-05-15 13:59:31,993 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Url Page
+INFO  2017-05-15 13:59:31,993 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 14:00:35,250 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 14:00:38,876 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2017-05-15 14:00:43,939 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Forgot Password Page is displayed.
+INFO  2017-05-15 14:00:43,939 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 14:01:37,875 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 14:01:42,099 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2017-05-15 14:01:47,165 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Work Email.
+INFO  2017-05-15 14:01:48,225 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Submit button.
+INFO  2017-05-15 14:01:49,287 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Go Back Link.
+INFO  2017-05-15 14:01:49,287 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 14:02:36,141 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 14:02:40,794 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2017-05-15 14:02:45,981 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Submit button.
+INFO  2017-05-15 14:02:51,051 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message displayed.
+INFO  2017-05-15 14:02:51,051 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 14:03:44,932 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 14:03:49,337 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter invalid work email.
+INFO  2017-05-15 14:03:51,566 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2017-05-15 14:03:56,745 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Submit button.
+INFO  2017-05-15 14:04:01,816 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message displayed.
+INFO  2017-05-15 14:04:01,816 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-05-15 14:04:50,579 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-05-15 14:04:54,283 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2017-05-15 14:04:59,639 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2017-05-15 14:05:00,846 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Submit button.
+INFO  2017-05-15 14:05:05,906 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Resend Email button is displayed.
+INFO  2017-05-15 14:05:05,906 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

@@ -1,0 +1,10 @@
+[START]
+INFO  2017-03-14 12:39:07,843 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-14 12:39:19,045 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-03-14 12:39:24,417 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-03-14 12:39:30,092 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-03-14 12:39:34,653 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-03-14 12:39:36,908 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-03-14 12:39:41,988 [Worker#STA_NP] TestScripts.BaseTestES - Verify message is successfully posted.
+INFO  2017-03-14 12:39:41,990 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

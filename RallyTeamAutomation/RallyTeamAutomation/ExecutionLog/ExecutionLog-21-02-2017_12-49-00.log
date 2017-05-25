@@ -1,0 +1,21 @@
+[START]
+INFO  2017-02-21 12:50:02,182 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 12:50:14,077 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-21 12:50:16,518 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-21 12:50:21,895 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-21 12:50:27,098 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-02-21 12:50:32,588 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-02-21 12:50:34,972 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-21 12:50:40,195 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-02-21 12:50:57,042 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-02-21 12:51:05,502 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-02-21 12:51:18,027 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-02-21 12:51:26,040 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-02-21 12:51:26,315 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-02-21 12:51:28,447 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-02-21 12:51:30,580 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-02-21 12:51:35,875 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-02-21 12:51:38,055 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-02-21 12:51:40,215 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-02-21 12:51:48,405 [Worker#STA_NP] TestScripts.BaseTestES - Click Get Staerted button.
+INFO  2017-02-21 12:51:53,686 [Worker#STA_NP] TestScripts.BaseTestES - Click LinkedIn button.

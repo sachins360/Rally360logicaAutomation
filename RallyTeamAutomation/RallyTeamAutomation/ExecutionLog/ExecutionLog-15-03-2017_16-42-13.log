@@ -1,0 +1,13 @@
+[START]
+INFO  2017-03-15 16:42:53,590 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-15 16:43:27,341 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-15 16:43:35,643 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-15 16:43:39,000 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-15 16:45:49,876 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-15-16-45-49.png
+ERROR 2017-03-15 16:45:50,029 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-03-15 16:45:50,373 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.PeopleES_006_EndorseUserAwesomeRating_2017-03-15-16-45-50.png
+INFO  2017-03-15 16:45:50,373 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

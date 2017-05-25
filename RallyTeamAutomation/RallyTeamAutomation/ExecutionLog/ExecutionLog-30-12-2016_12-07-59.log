@@ -1,0 +1,9 @@
+[START]
+INFO  2016-12-30 12:09:06,607 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 12:09:27,977 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-30 12:09:49,978 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-30 12:09:53,516 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-30 12:09:55,254 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-30 12:10:02,372 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-30 12:10:05,429 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+[END]

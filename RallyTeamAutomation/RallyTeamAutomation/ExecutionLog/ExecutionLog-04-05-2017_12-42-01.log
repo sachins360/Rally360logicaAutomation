@@ -1,0 +1,23 @@
+[START]
+INFO  2017-05-04 12:42:54,350 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 12:43:14,282 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 12:43:25,723 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 12:43:34,574 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 12:43:46,186 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 12:43:49,547 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 12:44:02,736 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 12:44:12,138 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 12:44:28,570 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-05-04 12:44:30,938 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-05-04 12:44:46,530 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-05-04 12:44:51,622 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-05-04 12:45:04,189 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 12:45:18,383 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 12:45:23,546 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Join Request short notification on the Notification Window.
+INFO  2017-05-04 12:45:24,858 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 12:45:32,034 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Join Request  Notification.
+INFO  2017-05-04 12:47:33,853 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-04-12-47-33.png
+ERROR 2017-05-04 12:47:33,859 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'mail-box')]//a[contains(text(), 'shivani singh requests to join your project RandomProjectULIGAJ')]) to be displayed but did not.
+INFO  2017-05-04 12:47:34,093 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_002_ProjectOwnerPendingJoinRequest_2017-05-04-12-47-33.png
+INFO  2017-05-04 12:47:34,093 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

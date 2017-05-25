@@ -1,0 +1,11 @@
+[START]
+INFO  2017-02-16 13:02:20,036 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-16 13:02:34,191 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-16 13:02:36,771 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-16 13:02:42,626 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-16 13:02:47,790 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-02-16 13:02:53,263 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-02-16 13:02:55,476 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-16 13:03:00,673 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-02-16 13:03:16,735 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-02-16 13:03:23,990 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.

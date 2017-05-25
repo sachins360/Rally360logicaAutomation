@@ -1,0 +1,17 @@
+[START]
+INFO  2016-11-10 15:55:18,445 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:55:37,544 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 15:55:55,436 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:56:02,805 [Worker#STA_NP] TestScripts.BaseTest - Select Projects Radio button.
+INFO  2016-11-10 15:56:04,864 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-11-10 15:56:14,278 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-10 15:56:17,347 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-10 15:56:19,804 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-10 15:56:31,251 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:57:11,930 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:57:26,585 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 15:57:52,684 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:57:59,920 [Worker#STA_NP] TestScripts.BaseTest - Select Projects Radio button.
+INFO  2016-11-10 16:00:02,118 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted resultis not displayed.
+INFO  2016-11-10 16:00:04,120 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

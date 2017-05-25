@@ -1,0 +1,6 @@
+[START]
+INFO  2017-02-21 16:57:52,449 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 16:58:17,937 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-02-21 16:58:23,422 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-02-21 16:58:28,584 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-02-21 16:58:33,858 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.

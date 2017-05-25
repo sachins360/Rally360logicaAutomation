@@ -1,0 +1,6 @@
+[START]
+INFO  2017-02-10 14:59:44,676 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-10 15:00:50,861 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Closed'
+INFO  2017-02-10 15:00:56,632 [Worker#STA_NP] TestScripts.BaseTestES - Verify Update Metrics button.
+INFO  2017-02-10 15:01:11,266 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

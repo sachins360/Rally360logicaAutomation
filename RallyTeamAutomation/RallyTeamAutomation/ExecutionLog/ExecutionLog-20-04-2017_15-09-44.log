@@ -1,0 +1,12 @@
+[START]
+INFO  2017-04-20 15:10:33,027 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 15:10:53,471 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 15:11:04,850 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 15:11:13,498 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 15:11:25,134 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 15:11:28,351 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 15:11:40,667 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 15:11:49,014 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 15:11:52,709 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-20 15:11:57,888 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Closed'
+INFO  2017-04-20 15:12:00,378 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.

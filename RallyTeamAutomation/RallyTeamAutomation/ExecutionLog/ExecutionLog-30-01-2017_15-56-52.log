@@ -1,0 +1,44 @@
+[START]
+INFO  2017-01-30 15:57:56,445 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-01-30 15:58:27,728 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2017-01-30 15:58:30,940 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2017-01-30 15:58:33,080 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2017-01-30 15:58:35,333 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2017-01-30 15:58:39,490 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2017-01-30 15:58:44,782 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2017-01-30 15:58:46,935 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2017-01-30 15:58:49,061 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2017-01-30 15:59:02,206 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Welcome RallyTeam message.
+INFO  2017-01-30 15:59:03,287 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Get Started button.
+INFO  2017-01-30 15:59:04,563 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Get Staerted button.
+INFO  2017-01-30 15:59:09,834 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on LinkedIn Page.
+INFO  2017-01-30 15:59:15,021 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Select Expertise.
+INFO  2017-01-30 15:59:17,221 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Expertise Continue button.
+INFO  2017-01-30 15:59:30,831 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click View My Profile button.
+INFO  2017-01-30 15:59:36,156 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Assert Skill One.
+INFO  2017-01-30 15:59:37,393 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Assert Skill Two.
+INFO  2017-01-30 15:59:40,504 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Done button.
+INFO  2017-01-30 15:59:52,719 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2017-01-30 15:59:58,034 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2017-01-30 16:00:10,150 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Subject.
+INFO  2017-01-30 16:00:17,239 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Get Confirmation Code.
+INFO  2017-01-30 16:02:43,957 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-30-16-02-42.png
+ERROR 2017-01-30 16:02:44,192 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[text(), 'Let's Rally'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[text(), 'Let's Rally']' is not a valid XPath expression.
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 420
+INFO  2017-01-30 16:02:44,229 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

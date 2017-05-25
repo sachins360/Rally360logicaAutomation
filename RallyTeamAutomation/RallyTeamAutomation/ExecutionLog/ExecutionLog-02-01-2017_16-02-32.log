@@ -1,0 +1,21 @@
+[START]
+INFO  2017-01-02 16:03:01,864 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 16:03:26,674 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 16:03:46,157 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-02 16:03:53,557 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2017-01-02 16:03:56,812 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-02 16:04:05,184 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 16:04:08,706 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 16:04:11,260 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 16:04:17,413 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 16:04:20,502 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-02 16:04:23,077 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 16:04:26,222 [Worker#STA_NP] TestScripts.BaseTest - Click Leave Project icon displayed on screen.
+INFO  2017-01-02 16:04:28,339 [Worker#STA_NP] TestScripts.BaseTest - Click Leave Project window Yes button.
+INFO  2017-01-02 16:04:35,936 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 16:04:40,319 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 16:04:46,446 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 16:04:49,504 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-02 16:04:53,108 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 16:05:07,403 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

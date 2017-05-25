@@ -1,0 +1,23 @@
+[START]
+INFO  2017-05-23 10:22:01,055 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-23 10:22:17,562 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-23 10:22:19,926 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-23 10:22:25,191 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-23 10:22:30,422 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-23 10:22:36,021 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-23 10:22:38,240 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-23 10:22:43,550 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-23 10:22:55,305 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-23 10:23:02,625 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-23 10:23:12,633 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-23 10:23:20,645 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Get Started Button.
+INFO  2017-05-23 10:23:21,183 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-05-23 10:23:23,471 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-05-23 10:23:25,691 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-05-23 10:23:30,967 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-05-23 10:23:33,318 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-05-23 10:23:35,574 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-05-23 10:23:42,840 [Worker#STA_NP] TestScripts.BaseTestES - Click Get Staerted button.
+INFO  2017-05-23 10:24:02,686 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Confirm Tickmark.
+INFO  2017-05-23 10:24:02,688 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

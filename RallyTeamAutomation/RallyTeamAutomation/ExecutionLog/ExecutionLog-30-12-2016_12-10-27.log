@@ -1,0 +1,21 @@
+[START]
+INFO  2016-12-30 12:11:01,934 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 12:11:43,048 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-30 12:12:05,415 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-30 12:12:09,334 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-30 12:12:11,829 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-30 12:12:18,038 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-30 12:12:21,193 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2016-12-30 12:12:23,740 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-30 12:12:27,926 [Worker#STA_NP] TestScripts.BaseTest - Click Request To Join button doisplayed on screen.
+INFO  2016-12-30 12:12:39,185 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-30 12:12:44,121 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-30 12:12:50,264 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-30 12:12:53,398 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2016-12-30 12:12:56,910 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-30 12:13:02,339 [Worker#STA_NP] TestScripts.BaseTest - Click the Requested Member of the Project.
+INFO  2016-12-30 12:13:08,490 [Worker#STA_NP] TestScripts.BaseTest - Accept the Requested member.
+INFO  2016-12-30 12:13:18,625 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-30 12:13:25,418 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_034_VerifyShareLeaveProjectForMember_2016-12-30-12-13-25.png
+INFO  2016-12-30 12:13:25,439 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

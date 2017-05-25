@@ -1,0 +1,13 @@
+[START]
+INFO  2016-12-08 10:36:22,823 [14] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-08 10:36:34,199 [14] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-12-08 10:36:36,380 [14] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-12-08 10:36:38,576 [14] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-12-08 10:36:40,831 [14] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-12-08 10:36:45,022 [14] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-12-08 10:36:55,749 [14] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-12-08 10:36:57,990 [14] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-12-08 10:37:00,495 [14] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-12-08 10:37:28,054 [14] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2016-12-08 10:37:33,246 [14] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2016-12-08 10:38:06,585 [14] TestScripts.BaseTestWithoutLogin - Click Go button.

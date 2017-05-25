@@ -1,0 +1,34 @@
+[START]
+INFO  2017-04-25 11:19:34,247 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 11:19:54,306 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-25 11:20:05,704 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-25 11:20:14,386 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-25 11:20:17,624 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-25 11:20:29,789 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-25 11:20:36,889 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-04-25 11:20:39,373 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 11:20:42,024 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-04-25 11:20:47,535 [Worker#STA_NP] TestScripts.BaseTestES - Click the searched user.
+INFO  2017-04-25 11:20:52,803 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-04-25 11:20:58,020 [Worker#STA_NP] TestScripts.BaseTestES - Select Project DropDown.
+INFO  2017-04-25 11:21:00,290 [Worker#STA_NP] TestScripts.BaseTestES - Click the Good rating.
+INFO  2017-04-25 11:21:02,623 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2017-04-25 11:21:03,886 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-04-25 11:21:08,888 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-25 11:21:57,146 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 11:22:17,045 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-25 11:22:28,414 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-25 11:22:37,047 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-25 11:22:40,252 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-25 11:22:52,600 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-25 11:22:59,807 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-04-25 11:23:02,428 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 11:23:05,203 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-04-25 11:23:11,028 [Worker#STA_NP] TestScripts.BaseTestES - Click the searched user.
+INFO  2017-04-25 11:23:16,447 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-04-25 11:23:21,717 [Worker#STA_NP] TestScripts.BaseTestES - Select Project DropDown.
+INFO  2017-04-25 11:23:23,957 [Worker#STA_NP] TestScripts.BaseTestES - Click the Not Good rating.
+INFO  2017-04-25 11:23:26,294 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2017-04-25 11:23:29,517 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-04-25 11:23:34,531 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

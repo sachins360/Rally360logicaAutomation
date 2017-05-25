@@ -1,0 +1,7 @@
+[START]
+INFO  2016-12-19 12:34:58,236 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-19 12:35:19,285 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-19 12:35:25,186 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2016-12-19 12:35:31,106 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_003_SendNewMessageAndVerify_2016-12-19-12-35-30.png
+INFO  2016-12-19 12:35:31,142 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

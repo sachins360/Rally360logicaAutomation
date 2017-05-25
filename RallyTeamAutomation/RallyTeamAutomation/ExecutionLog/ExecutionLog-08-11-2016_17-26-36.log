@@ -1,0 +1,16 @@
+[START]
+INFO  2016-11-08 17:27:23,120 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-08 17:28:06,633 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-08 17:28:27,500 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-08 17:30:29,517 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-08-17-30-28.png
+ERROR 2016-11-08 17:30:29,542 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@placeholder='Enter user name or email']"}
+INFO  2016-11-08 17:30:30,597 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_080_ViewProjectsTeamStatus_2016-11-08-17-30-30.png
+INFO  2016-11-08 17:30:30,597 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-08 17:31:10,114 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-08 17:31:39,069 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-08 17:31:58,582 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-08 17:33:59,867 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-08-17-33-59.png
+ERROR 2016-11-08 17:33:59,868 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@placeholder='Enter user name or email']"}
+INFO  2016-11-08 17:34:00,085 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_081_VerifyProjectsTeamStatusDisplay_2016-11-08-17-33-59.png
+INFO  2016-11-08 17:34:00,085 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-08 17:34:42,777 [Worker#STA_NP] TestScripts.BaseTest - Setup test

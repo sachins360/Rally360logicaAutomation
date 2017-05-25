@@ -1,0 +1,11 @@
+[START]
+INFO  2016-12-23 15:43:45,992 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-23 15:43:52,947 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-23 15:43:56,405 [Worker#STA_NP] TestScripts.BaseTestES - Clickthe Advance Search hyperlink.
+INFO  2016-12-23 15:43:58,905 [Worker#STA_NP] TestScripts.BaseTestES - Enter Advance Search Name.
+INFO  2016-12-23 15:44:00,205 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the Advance Search page.
+INFO  2016-12-23 15:46:05,989 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-23-15-46-05.png
+ERROR 2016-12-23 15:46:06,012 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class='rt-user-container']//strong[contains(text(), 'shivani singh')]) to be displayed but did not.
+INFO  2016-12-23 15:46:06,386 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_005_NameSearchViaAdvanceSearch_2016-12-23-15-46-06.png
+INFO  2016-12-23 15:46:06,386 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

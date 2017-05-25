@@ -1,0 +1,62 @@
+[START]
+INFO  2017-01-04 11:46:38,948 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:46:50,092 [Worker#STA_NP] TestScripts.BaseTestES - Verify Messages icon
+INFO  2017-01-04 11:46:51,274 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:46:54,364 [Worker#STA_NP] TestScripts.BaseTestES - Verify All Messages drop-down is displayed.
+INFO  2017-01-04 11:46:55,404 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Btn is displayed.
+INFO  2017-01-04 11:46:55,406 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 11:47:11,117 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:47:22,104 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:47:27,292 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-01-04 11:47:32,336 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Window is displayed.
+INFO  2017-01-04 11:47:33,388 [Worker#STA_NP] TestScripts.BaseTestES - Verify To label is displayed.
+INFO  2017-01-04 11:47:34,441 [Worker#STA_NP] TestScripts.BaseTestES - Verify To text input is displayed.
+INFO  2017-01-04 11:47:36,659 [Worker#STA_NP] TestScripts.BaseTestES - Verify Text Area is displayed.
+INFO  2017-01-04 11:47:37,697 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send button is displayed.
+INFO  2017-01-04 11:47:38,720 [Worker#STA_NP] TestScripts.BaseTestES - Verify attachment icon is displayed.
+INFO  2017-01-04 11:47:39,743 [Worker#STA_NP] TestScripts.BaseTestES - Verify close icon is displayed.
+INFO  2017-01-04 11:47:39,743 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 11:48:14,850 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:48:25,883 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:48:31,077 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-01-04 11:48:36,407 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-01-04 11:48:40,694 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-01-04 11:48:42,817 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 11:48:43,840 [Worker#STA_NP] TestScripts.BaseTestES - Verify attachment icon is displayed.
+INFO  2017-01-04 11:48:47,057 [Worker#STA_NP] TestScripts.BaseTestES - Verify message is successfully posted.
+INFO  2017-01-04 11:48:47,058 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 11:49:25,989 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:49:38,121 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:49:43,354 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-01-04 11:49:48,653 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-01-04 11:49:53,170 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-01-04 11:49:55,312 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 11:50:03,548 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 11:50:07,257 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-04 11:50:13,429 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:50:18,618 [Worker#STA_NP] TestScripts.BaseTestES - Click on the message received by the user
+INFO  2017-01-04 11:50:23,859 [Worker#STA_NP] TestScripts.BaseTestES - Enter the reply message.
+INFO  2017-01-04 11:50:27,006 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 11:50:27,006 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 11:50:59,671 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:51:11,521 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:51:16,720 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-01-04 11:51:21,977 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-01-04 11:51:26,233 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-01-04 11:51:28,400 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 11:51:37,624 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 11:51:44,062 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-04 11:51:53,394 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 11:51:59,817 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-04 11:52:12,995 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 11:52:18,151 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-01-04 11:52:23,407 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-01-04 11:52:27,646 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-01-04 11:52:30,786 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 11:52:40,034 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 11:52:46,563 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-04 11:54:54,673 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-11-54-53.png
+ERROR 2017-01-04 11:54:54,696 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(@class, 'rt-top-navbar__messages-count')] and text()= '3']) to be displayed but did not.
+INFO  2017-01-04 11:54:55,930 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_005_VerifyMessageReceivedCounter_2017-01-04-11-54-54.png
+INFO  2017-01-04 11:54:55,931 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

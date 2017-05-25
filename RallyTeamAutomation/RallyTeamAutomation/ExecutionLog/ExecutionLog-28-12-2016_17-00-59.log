@@ -1,0 +1,6 @@
+[START]
+INFO  2016-12-28 17:01:39,286 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-28 17:02:17,172 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-28 17:02:22,256 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_010_RequestFeedback_2016-12-28-17-02-21.png
+INFO  2016-12-28 17:02:22,297 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,288 @@
+[START]
+INFO  2016-12-05 16:10:05,563 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:10:12,484 [Worker#STA_NP] TestScripts.BaseTest - Verify Tasks menu icon
+INFO  2016-12-05 16:10:12,486 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:10:28,666 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:10:35,192 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:10:38,229 [Worker#STA_NP] TestScripts.BaseTest - Verify Tasks Page get displayed.
+INFO  2016-12-05 16:10:39,276 [Worker#STA_NP] TestScripts.BaseTest - Verify Add Task Text field get displayed.
+INFO  2016-12-05 16:10:40,323 [Worker#STA_NP] TestScripts.BaseTest - Verify Add Text Plus Icon get displayed.
+INFO  2016-12-05 16:10:41,367 [Worker#STA_NP] TestScripts.BaseTest - Verify To-Do section gets displayed.
+INFO  2016-12-05 16:10:42,407 [Worker#STA_NP] TestScripts.BaseTest - Verify In Progress section gets displayed.
+INFO  2016-12-05 16:10:43,451 [Worker#STA_NP] TestScripts.BaseTest - Verify Completed section gets displayed.
+INFO  2016-12-05 16:10:43,451 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:10:59,772 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:11:05,997 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:11:10,262 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:11:13,396 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:11:17,397 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:11:20,441 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-12-05 16:11:25,718 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:11:28,897 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-05 16:13:31,567 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-13-31.png
+ERROR 2016-12-05 16:13:31,589 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-dialog')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 16:13:31,816 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_003_CreateNewTask_2016-12-05-16-13-31.png
+INFO  2016-12-05 16:13:31,816 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:13:54,130 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:14:00,428 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:14:04,897 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:14:08,148 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:14:12,150 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:14:14,448 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to In Progress section.
+INFO  2016-12-05 16:14:17,800 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed in In Progress section.
+INFO  2016-12-05 16:14:20,067 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to To-Do section.
+INFO  2016-12-05 16:14:25,425 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:14:28,657 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-05 16:16:31,020 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-16-30.png
+ERROR 2016-12-05 16:16:31,020 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-dialog')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 16:16:31,232 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_004_VerifyInProgressTasks_2016-12-05-16-16-31.png
+INFO  2016-12-05 16:16:31,232 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:16:51,028 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:16:58,170 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:17:02,413 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:17:05,571 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:17:09,572 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:17:11,855 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to In Progress section.
+INFO  2016-12-05 16:17:13,905 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed in In Progress section.
+INFO  2016-12-05 16:17:16,161 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to To-Do section.
+INFO  2016-12-05 16:17:21,823 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:17:25,123 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-05 16:19:27,629 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-19-27.png
+ERROR 2016-12-05 16:19:27,630 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-dialog')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 16:19:27,787 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_005_VerifyCompletedTasks_2016-12-05-16-19-27.png
+INFO  2016-12-05 16:19:27,787 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:19:44,898 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:19:51,471 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:19:55,761 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:19:58,921 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:20:02,922 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:20:05,967 [Worker#STA_NP] TestScripts.BaseTest - Verify Task get displayed.
+INFO  2016-12-05 16:20:08,013 [Worker#STA_NP] TestScripts.BaseTest - Verify Task User Name gets displayed.
+INFO  2016-12-05 16:20:13,305 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:20:16,548 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-05 16:22:18,991 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-22-18.png
+ERROR 2016-12-05 16:22:18,992 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-dialog')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 16:22:19,195 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_006_CreateTaskAndVerify_2016-12-05-16-22-18.png
+INFO  2016-12-05 16:22:19,195 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:22:35,545 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:22:41,888 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:22:46,150 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:22:49,317 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:22:53,319 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:22:58,601 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:23:01,654 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Delete This Task Link.
+INFO  2016-12-05 16:23:02,698 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Add Due Date.
+INFO  2016-12-05 16:23:03,743 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Add Comment Div.
+INFO  2016-12-05 16:23:04,787 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Files Plus Icon.
+INFO  2016-12-05 16:23:05,837 [Worker#STA_NP] TestScripts.BaseTest - Verify the Task Window Attachment Icon.
+INFO  2016-12-05 16:23:06,882 [Worker#STA_NP] TestScripts.BaseTest - Verify Task Window Close Icon.
+INFO  2016-12-05 16:23:08,052 [Worker#STA_NP] TestScripts.BaseTest - Click Task Window Close Icon.
+INFO  2016-12-05 16:23:13,220 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:23:16,389 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-05 16:25:19,116 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-25-18.png
+ERROR 2016-12-05 16:25:19,117 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-dialog')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 16:25:19,280 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_007_VerifyTaskWindow_2016-12-05-16-25-19.png
+INFO  2016-12-05 16:25:19,280 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:25:35,652 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:25:41,871 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:25:46,116 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:25:49,274 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:25:53,275 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:25:58,559 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:26:01,682 [Worker#STA_NP] TestScripts.BaseTest - Click add comment area.
+INFO  2016-12-05 16:26:03,984 [Worker#STA_NP] TestScripts.BaseTest - Enter comment in Text Area.
+INFO  2016-12-05 16:26:07,190 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-12-05 16:26:10,238 [Worker#STA_NP] TestScripts.BaseTest - Verify the Add Comment Reply button.
+INFO  2016-12-05 16:26:14,432 [Worker#STA_NP] TestScripts.BaseTest - Click Task Window Close Icon.
+INFO  2016-12-05 16:26:19,616 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:26:22,831 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-05 16:28:25,257 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-28-25.png
+ERROR 2016-12-05 16:28:25,258 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-dialog')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 16:28:25,413 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_016_PostCommentAndVerify_2016-12-05-16-28-25.png
+INFO  2016-12-05 16:28:25,413 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:28:44,648 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:28:51,078 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:28:55,329 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:28:58,468 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:29:02,470 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:29:07,891 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:29:12,021 [Worker#STA_NP] TestScripts.BaseTest - Click attachment icon under task window.
+INFO  2016-12-05 16:31:22,786 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-31-22.png
+ERROR 2016-12-05 16:31:22,787 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 16:31:22,959 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_017_UploadAttachmentFileAndVerify_2016-12-05-16-31-22.png
+INFO  2016-12-05 16:31:22,959 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:31:40,809 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:31:47,017 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:31:51,268 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:31:54,428 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:31:58,429 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:32:03,725 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:32:06,852 [Worker#STA_NP] TestScripts.BaseTest - Click add comment area.
+INFO  2016-12-05 16:32:09,276 [Worker#STA_NP] TestScripts.BaseTest - Enter comment in Text Area.
+INFO  2016-12-05 16:32:12,479 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-12-05 16:32:15,696 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Comment Message Reply button.
+INFO  2016-12-05 16:32:25,131 [Worker#STA_NP] TestScripts.BaseTest - Enter the Reply Comment Text Area
+INFO  2016-12-05 16:32:32,414 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-12-05 16:34:35,267 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-34-35.png
+ERROR 2016-12-05 16:34:35,268 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 389
+INFO  2016-12-05 16:34:35,434 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_019_ReplyAddCommentAndVerify_2016-12-05-16-34-35.png
+INFO  2016-12-05 16:34:35,434 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:34:51,289 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:34:57,503 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:35:01,761 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:35:04,920 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:35:08,920 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:35:14,201 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:35:17,416 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-05 16:37:21,020 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-37-20.png
+ERROR 2016-12-05 16:37:21,020 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'modal-dialog')]//h1[contains(text(),'Are you sure you want to delete this task?')]) to be displayed but did not.
+INFO  2016-12-05 16:37:21,193 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_020_DeleteTaskAndVerify_2016-12-05-16-37-21.png
+INFO  2016-12-05 16:37:21,194 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:37:36,967 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:37:43,148 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:37:47,413 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:37:50,596 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:37:54,597 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:37:59,907 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:38:03,123 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-05 16:40:05,399 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-40-05.png
+ERROR 2016-12-05 16:40:05,399 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-dialog')]//button[contains(text(),'No')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 16:40:05,579 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_021_DeleteTaskNoBtn_2016-12-05-16-40-05.png
+INFO  2016-12-05 16:40:05,579 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 16:40:29,161 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 16:40:35,580 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-05 16:40:39,832 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-05 16:40:42,974 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-05 16:40:46,975 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-05 16:40:52,261 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-05 16:40:55,457 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-12-05 16:42:58,041 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-16-42-57.png
+ERROR 2016-12-05 16:42:58,042 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-dialog')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 16:42:58,207 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_022_DeleteTaskYesBtn_2016-12-05-16-42-58.png
+INFO  2016-12-05 16:42:58,207 [Worker#STA_NP] TestScripts.BaseTest - Teardown test

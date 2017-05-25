@@ -1,0 +1,16 @@
+[START]
+INFO  2017-04-28 16:15:14,208 [14] TestScripts.BaseTestES - Setup test
+INFO  2017-04-28 16:15:33,833 [14] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-28 16:15:45,206 [14] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-28 16:15:53,877 [14] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-28 16:16:05,358 [14] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-28 16:16:08,563 [14] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-28 16:16:20,770 [14] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-28 16:17:30,541 [14] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-28 16:17:39,774 [14] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-28 16:17:55,076 [14] TestScripts.BaseTestES - Change Project Owner.
+INFO  2017-04-28 16:18:12,469 [14] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-28 16:18:23,183 [14] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-28 16:18:41,114 [14] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-04-28 16:20:47,116 [14] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-28-16-20-46.png
+ERROR 2017-04-28 16:20:47,119 [14] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'been assigned')]) to be displayed but did not.

@@ -1,0 +1,8 @@
+[START]
+INFO  2016-11-11 12:09:17,733 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-11 12:09:22,578 [Worker#STA_NP] TestScripts.BaseTest - Verify Projects menu icon
+INFO  2016-11-11 12:09:22,581 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-11 12:09:53,916 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-11 12:10:15,174 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-11 12:11:20,753 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-11 12:11:27,896 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.

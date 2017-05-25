@@ -1,0 +1,5 @@
+[START]
+INFO  2017-04-21 15:40:17,637 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-21 15:40:23,750 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_001_CreateAndVerifyDraftInvoice_2017-04-21-15-40-23.png
+INFO  2017-04-21 15:40:23,754 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

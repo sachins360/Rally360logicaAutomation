@@ -1,0 +1,10 @@
+[START]
+INFO  2017-01-31 14:09:02,555 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-31 14:09:16,567 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-31 14:09:22,293 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-31 14:09:26,580 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-31 14:09:28,825 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-01-31 14:09:32,073 [Worker#STA_NP] TestScripts.BaseTest - Enter New Message in the text area.
+INFO  2017-01-31 14:09:34,240 [Worker#STA_NP] TestScripts.BaseTest - Click on Send button.
+INFO  2017-01-31 14:09:37,242 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

@@ -1,0 +1,26 @@
+[START]
+INFO  2017-04-10 12:13:14,469 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-10 12:13:37,999 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-10 12:13:40,323 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-10 12:13:41,610 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 12:13:55,105 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-10 12:14:01,717 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-10 12:14:03,012 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-10 12:14:05,217 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-10 12:14:08,578 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-10 12:14:10,904 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-10 12:14:16,755 [Worker#STA_NP] TestScripts.BaseTestES - Enter members email id.
+INFO  2017-04-10 12:14:18,191 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 12:14:21,635 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 12:14:35,013 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-10 12:14:42,204 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Description on About page
+INFO  2017-04-10 12:14:43,352 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Deliverables on About page
+INFO  2017-04-10 12:14:44,508 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Skills on About page
+INFO  2017-04-10 12:14:45,662 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Type on About page
+INFO  2017-04-10 12:14:46,742 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Location on About page
+INFO  2017-04-10 12:14:47,883 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Staff Onsite on About page
+INFO  2017-04-10 12:14:49,055 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Staff Remote on About page
+INFO  2017-04-10 12:14:50,214 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Category on About page
+INFO  2017-04-10 12:14:51,385 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Hours on About page
+INFO  2017-04-10 12:14:52,388 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

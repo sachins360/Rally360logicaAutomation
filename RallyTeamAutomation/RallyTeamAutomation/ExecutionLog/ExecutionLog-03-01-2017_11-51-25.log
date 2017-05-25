@@ -1,0 +1,9 @@
+[START]
+INFO  2017-01-03 11:52:12,871 [14] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-01-03 11:52:18,474 [14] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2017-01-03 11:52:34,129 [14] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2017-01-03 11:52:54,792 [14] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-01-03 11:53:35,314 [14] TestScripts.BaseTestWithoutLogin - Signout of the application.
+INFO  2017-01-03 11:53:41,415 [14] TestScripts.BaseTestWithoutLogin - Verify Login Url Page
+INFO  2017-01-03 11:53:41,416 [14] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

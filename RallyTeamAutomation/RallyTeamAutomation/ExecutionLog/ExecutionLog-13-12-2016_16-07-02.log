@@ -1,0 +1,32 @@
+[START]
+INFO  2016-12-13 16:07:47,694 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-13 16:08:01,818 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-13 16:08:23,603 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-13 16:08:32,610 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-13 16:09:08,496 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-13 16:09:13,436 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-13 16:09:16,613 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-12-13 16:09:18,831 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to In Progress section.
+INFO  2016-12-13 16:09:22,245 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-13 16:11:25,613 [Worker#STA_NP] TestScripts.BaseTest - Verify Task not displayed.
+INFO  2016-12-13 16:11:29,055 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-13 16:11:35,223 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-13 16:11:38,370 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-13 16:11:43,980 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-13 16:11:51,896 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-13 16:12:33,858 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-13 16:12:46,287 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-13 16:13:05,893 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-13 16:13:14,636 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-13 16:13:19,230 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-13 16:13:24,151 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-13 16:13:27,399 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-12-13 16:13:29,657 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to Complete section.
+INFO  2016-12-13 16:13:33,209 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-13 16:15:36,603 [Worker#STA_NP] TestScripts.BaseTest - Verify Task not displayed.
+INFO  2016-12-13 16:15:40,084 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-13 16:15:46,351 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-13 16:15:49,749 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-13 16:15:55,357 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-13 16:16:03,868 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

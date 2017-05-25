@@ -1,0 +1,13 @@
+[START]
+INFO  2016-12-12 17:04:42,043 [14] TestScripts.BaseTest - Setup test
+INFO  2016-12-12 17:04:56,754 [14] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-12-12 17:05:01,050 [14] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-12-12 17:05:04,223 [14] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-12-12 17:05:08,224 [14] TestScripts.BaseTest - Create new Task.
+INFO  2016-12-12 17:05:23,945 [14] TestScripts.BaseTest - Click the Task.
+INFO  2016-12-12 17:05:32,043 [14] TestScripts.BaseTest - Click add comment area.
+INFO  2016-12-12 17:05:39,600 [14] TestScripts.BaseTest - Enter comment in Text Area.
+INFO  2016-12-12 17:05:45,478 [14] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-12-12 17:05:59,670 [14] TestScripts.BaseTest - Click the Add Comment Message Reply button.
+INFO  2016-12-12 17:06:20,984 [14] TestScripts.BaseTest - Enter the Reply Comment Text Area
+INFO  2016-12-12 17:06:35,038 [14] TestScripts.BaseTest - Click the Post button for the comment.

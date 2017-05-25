@@ -1,0 +1,12 @@
+[START]
+INFO  2017-01-06 16:47:18,583 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-06 16:47:43,214 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-06 16:47:46,572 [Worker#STA_NP] TestScripts.BaseTest - User name: ammar khan
+INFO  2017-01-06 16:47:50,196 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-06 16:47:56,394 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-06 16:49:58,785 [Worker#STA_NP] TestScripts.BaseTest - Verify Message button is not displayed.
+INFO  2017-01-06 16:50:00,865 [Worker#STA_NP] TestScripts.BaseTest - Verify View Profile button.
+INFO  2017-01-06 16:50:03,359 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-01-06 16:50:06,425 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile User Name.
+INFO  2017-01-06 16:50:08,427 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

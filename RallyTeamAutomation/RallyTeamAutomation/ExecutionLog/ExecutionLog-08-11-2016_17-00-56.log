@@ -1,0 +1,7 @@
+[START]
+INFO  2016-11-08 17:02:09,678 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-08 17:02:42,074 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-08 17:03:00,568 [Worker#STA_NP] TestScripts.BaseTest - Click on Project's Discussion tab.
+INFO  2016-11-08 17:03:04,736 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2016-11-08 17:03:31,856 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

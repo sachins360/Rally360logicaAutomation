@@ -1,0 +1,5 @@
+[START]
+INFO  2017-02-10 14:38:56,856 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-10 14:38:58,888 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_002_ClickMessageAndVerify_2017-02-10-14-38-57.png
+INFO  2017-02-10 14:38:58,913 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

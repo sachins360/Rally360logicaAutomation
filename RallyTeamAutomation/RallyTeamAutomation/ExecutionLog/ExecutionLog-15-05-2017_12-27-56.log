@@ -1,0 +1,70 @@
+[START]
+INFO  2017-05-15 12:28:48,274 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 12:29:05,924 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 12:29:08,305 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 12:29:13,874 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:29:19,296 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-15 12:29:24,978 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-15 12:29:25,768 [Worker#STA_NP] TestScripts.BaseTestES - Enter Second Email Address.
+INFO  2017-05-15 12:29:28,196 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:29:33,663 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-15 12:29:48,298 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 12:29:55,674 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 12:30:05,059 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-05-15 12:30:07,205 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-05-15 12:30:10,580 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 12:30:15,744 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Get Started Button.
+INFO  2017-05-15 12:30:18,437 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 12:30:26,182 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 12:30:34,026 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-05-15 12:30:36,180 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-05-15 12:30:38,898 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 12:30:44,048 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Get Started Button.
+INFO  2017-05-15 12:30:44,052 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 12:31:38,962 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 12:31:58,372 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 12:32:00,751 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 12:32:06,266 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:32:11,564 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-15 12:32:17,886 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-15 12:32:20,365 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:32:25,622 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-15 12:32:34,030 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 12:32:41,355 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 12:32:51,399 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 12:32:59,822 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Get Started Button.
+INFO  2017-05-15 12:33:00,397 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-05-15 12:33:02,930 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-05-15 12:33:05,317 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-05-15 12:33:10,889 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-05-15 12:33:13,353 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-05-15 12:33:15,778 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-05-15 12:33:23,214 [Worker#STA_NP] TestScripts.BaseTestES - Click Get Staerted button.
+INFO  2017-05-15 12:33:43,053 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Confirm Tickmark.
+INFO  2017-05-15 12:33:43,054 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 12:34:29,314 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 12:34:47,081 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 12:34:49,714 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 12:34:55,182 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:35:00,444 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-15 12:35:06,103 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-15 12:35:08,542 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:35:13,745 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-15 12:35:24,192 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 12:35:31,668 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 12:35:40,621 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 12:35:49,339 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Get Started Button.
+INFO  2017-05-15 12:35:50,230 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-05-15 12:35:52,855 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-05-15 12:35:55,230 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-05-15 12:36:00,694 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-05-15 12:36:03,242 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-05-15 12:36:05,605 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-05-15 12:36:13,085 [Worker#STA_NP] TestScripts.BaseTestES - Click Get Staerted button.
+INFO  2017-05-15 12:36:18,545 [Worker#STA_NP] TestScripts.BaseTestES - Click LinkedIn button.
+INFO  2017-05-15 12:36:29,994 [Worker#STA_NP] TestScripts.BaseTestES - Enter LinkedIn User Id.
+INFO  2017-05-15 12:36:32,444 [Worker#STA_NP] TestScripts.BaseTestES - Enter LinkedIn Password.
+INFO  2017-05-15 12:36:34,882 [Worker#STA_NP] TestScripts.BaseTestES - Enter LinkedIn SignIn button.
+INFO  2017-05-15 12:36:48,059 [Worker#STA_NP] TestScripts.BaseTestES - Verify the LinkedIn button disabled.
+INFO  2017-05-15 12:36:48,059 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

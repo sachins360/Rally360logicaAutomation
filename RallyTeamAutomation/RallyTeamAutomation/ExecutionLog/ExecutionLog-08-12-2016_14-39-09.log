@@ -1,0 +1,9 @@
+[START]
+INFO  2016-12-08 14:39:44,318 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-08 14:39:55,156 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-08 14:40:01,511 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-08 14:40:07,654 [Worker#STA_NP] TestScripts.BaseTest - Verify the add new group form window
+INFO  2016-12-08 14:40:28,777 [Worker#STA_NP] TestScripts.BaseTest - Verify the error message for not entering Group Description.
+INFO  2016-12-08 14:40:32,072 [Worker#STA_NP] TestScripts.BaseTest - Click on Cancel button.
+INFO  2016-12-08 14:40:32,074 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

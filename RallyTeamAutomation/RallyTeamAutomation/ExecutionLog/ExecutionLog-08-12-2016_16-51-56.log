@@ -1,0 +1,30 @@
+[START]
+INFO  2016-12-08 16:52:36,078 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-08 16:52:43,182 [Worker#STA_NP] TestScripts.BaseTest - Verify Messages icon
+INFO  2016-12-08 16:52:43,183 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-08 16:53:11,465 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-08 16:53:17,378 [Worker#STA_NP] TestScripts.BaseTest - Click Messages menu icon.
+INFO  2016-12-08 16:53:20,418 [Worker#STA_NP] TestScripts.BaseTest - Verify Messages Page gets displayed.
+INFO  2016-12-08 16:53:21,420 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-08 16:53:49,345 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-08 16:53:55,338 [Worker#STA_NP] TestScripts.BaseTest - Click Messages menu icon.
+INFO  2016-12-08 16:53:58,396 [Worker#STA_NP] TestScripts.BaseTest - Verify All Messages drop-down is displayed.
+INFO  2016-12-08 16:53:59,461 [Worker#STA_NP] TestScripts.BaseTest - Verify New Message Btn is displayed.
+INFO  2016-12-08 16:53:59,462 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-08 16:54:25,613 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-08 16:54:32,645 [Worker#STA_NP] TestScripts.BaseTest - Click Messages menu icon.
+INFO  2016-12-08 16:54:35,874 [Worker#STA_NP] TestScripts.BaseTest - Click New Message button.
+INFO  2016-12-08 16:54:38,919 [Worker#STA_NP] TestScripts.BaseTest - Verify New Message Window is displayed.
+INFO  2016-12-08 16:54:39,963 [Worker#STA_NP] TestScripts.BaseTest - Verify To label is displayed.
+INFO  2016-12-08 16:54:41,008 [Worker#STA_NP] TestScripts.BaseTest - Verify To text input is displayed.
+INFO  2016-12-08 16:54:42,051 [Worker#STA_NP] TestScripts.BaseTest - Verify Text Area is displayed.
+INFO  2016-12-08 16:54:43,099 [Worker#STA_NP] TestScripts.BaseTest - Verify Send button is displayed.
+INFO  2016-12-08 16:54:44,120 [Worker#STA_NP] TestScripts.BaseTest - Verify attachment icon is displayed.
+INFO  2016-12-08 16:54:45,143 [Worker#STA_NP] TestScripts.BaseTest - Verify close icon is displayed.
+INFO  2016-12-08 16:54:45,143 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-08 16:55:19,088 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-08 16:55:28,624 [Worker#STA_NP] TestScripts.BaseTest - Click Messages menu icon.
+INFO  2016-12-08 16:55:31,871 [Worker#STA_NP] TestScripts.BaseTest - Click New Message button.
+INFO  2016-12-08 16:55:35,160 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.MessagesTest.Messages_005_SendNewMessageAndVerify_2016-12-08-16-55-34.png
+INFO  2016-12-08 16:55:35,164 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

@@ -1,0 +1,21 @@
+[START]
+INFO  2017-03-15 12:43:44,866 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-15 12:44:29,980 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-15 12:44:41,823 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-15 12:44:45,971 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-15 12:44:56,702 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-03-15 12:44:59,203 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-15 12:45:02,668 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-03-15 12:45:07,156 [Worker#STA_NP] TestScripts.BaseTestES - Click the searched user.
+INFO  2017-03-15 12:45:13,059 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-03-15 12:45:18,896 [Worker#STA_NP] TestScripts.BaseTestES - Select Project DropDown.
+INFO  2017-03-15 12:45:21,078 [Worker#STA_NP] TestScripts.BaseTestES - Click the Awesome rating.
+INFO  2017-03-15 12:45:23,525 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2017-03-15 12:45:24,698 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-03-15 12:45:31,911 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-15 12:45:45,603 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-15 12:47:56,455 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-15-12-47-51.png
+ERROR 2017-03-15 12:47:57,031 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You have received feedback')]) to be displayed but did not.
+INFO  2017-03-15 12:48:00,989 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_011_UserReceivesFeedback_2017-03-15-12-48-00.png
+INFO  2017-03-15 12:48:00,989 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

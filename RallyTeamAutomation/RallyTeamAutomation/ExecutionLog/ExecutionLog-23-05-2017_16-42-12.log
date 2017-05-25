@@ -1,0 +1,12 @@
+[START]
+INFO  2017-05-23 16:43:10,979 [15] TestScripts.BaseTestES - Setup test
+INFO  2017-05-23 16:43:41,947 [15] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-23 16:43:56,518 [15] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-23 16:44:06,511 [15] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-23 16:44:20,430 [15] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-23 16:44:24,720 [15] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-23 16:44:37,329 [15] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-23 16:44:45,242 [15] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-23 16:44:49,448 [15] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-05-23 16:44:54,632 [15] TestScripts.BaseTestES - Verify General Tab on Edit Page
+INFO  2017-05-23 16:44:55,732 [15] TestScripts.BaseTestES - Verify Staffing Info Tab on Edit Page

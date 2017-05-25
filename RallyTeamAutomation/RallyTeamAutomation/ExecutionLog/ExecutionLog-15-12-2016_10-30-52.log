@@ -1,0 +1,8 @@
+[START]
+INFO  2016-12-15 10:32:09,757 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-15 10:33:10,432 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2016-12-15 10:34:07,840 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-15 10:34:48,256 [Worker#STA_NP] TestScripts.BaseTestES - Edit the Project Name.
+INFO  2016-12-15 10:34:51,711 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProject.PostProject_008_EditProject_2016-12-15-10-34-50.png
+INFO  2016-12-15 10:34:51,747 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

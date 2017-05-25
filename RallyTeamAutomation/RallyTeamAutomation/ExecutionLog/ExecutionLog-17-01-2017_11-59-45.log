@@ -1,0 +1,5 @@
+[START]
+INFO  2017-01-17 12:00:50,513 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-17 12:00:53,185 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.EventsTest.Event_026_LeaveEventAndVerify_2017-01-17-12-00-52.png
+INFO  2017-01-17 12:00:53,212 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

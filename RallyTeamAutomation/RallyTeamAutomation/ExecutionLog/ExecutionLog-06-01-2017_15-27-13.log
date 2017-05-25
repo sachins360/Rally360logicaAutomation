@@ -1,0 +1,8 @@
+[START]
+INFO  2017-01-06 15:27:53,282 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-06 15:28:05,620 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-06 15:28:08,074 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-06 15:28:10,899 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Users tab.
+INFO  2017-01-06 15:28:14,940 [Worker#STA_NP] TestScripts.BaseTest - Verify Admin column is displayed.
+INFO  2017-01-06 15:28:14,942 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

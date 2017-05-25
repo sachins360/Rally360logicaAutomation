@@ -1,0 +1,14 @@
+[START]
+INFO  2017-05-04 17:11:29,473 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 17:12:26,423 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 17:12:37,828 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 17:12:46,519 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 17:12:58,003 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 17:13:01,261 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 17:13:13,483 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 17:13:22,902 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 17:13:39,040 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-05-04 17:13:41,432 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-05-04 17:13:56,782 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-05-04 17:14:01,901 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-05-04 17:14:15,252 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.

@@ -1,0 +1,52 @@
+[START]
+INFO  2017-04-20 15:49:12,963 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 15:49:33,645 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 15:49:45,095 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 15:49:53,871 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 15:50:05,362 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 15:50:08,644 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 15:50:20,858 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 15:50:36,205 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-20 15:50:42,995 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-04-20 15:50:48,364 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-20 15:50:49,812 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-20 15:51:05,185 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-20 15:51:15,430 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-04-20 15:51:27,802 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-20 15:51:34,910 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-20 15:51:36,258 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-04-20 15:51:51,492 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-20 15:51:56,706 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 15:52:00,075 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-20 15:52:08,254 [Worker#STA_NP] TestScripts.BaseTestES - Click Requested User Accept Icon
+INFO  2017-04-20 15:52:10,448 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-20 15:52:17,738 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 15:52:20,958 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-04-20 15:52:24,136 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-04-20 15:52:24,138 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-20 15:53:12,552 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 15:53:32,393 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 15:53:43,721 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 15:53:52,368 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 15:54:03,774 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 15:54:06,963 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 15:54:19,143 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 15:54:34,485 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-20 15:54:41,215 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-04-20 15:54:46,533 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-20 15:54:47,889 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-20 15:55:03,175 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-20 15:55:13,295 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-04-20 15:55:25,553 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-20 15:55:32,659 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-20 15:55:34,110 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-04-20 15:55:49,573 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-20 15:55:54,797 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 15:55:58,106 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-20 15:56:06,295 [Worker#STA_NP] TestScripts.BaseTestES - Click Requested User Accept Icon
+INFO  2017-04-20 15:56:08,466 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-20 15:58:14,217 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-20-15-58-13.png
+ERROR 2017-04-20 15:58:14,220 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'rt-project-member__about']//a[contains(@tooltip, 'shivani singh')]) to be displayed but did not.
+INFO  2017-04-20 15:58:14,405 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_013_RejectRequestToJoinProject_2017-04-20-15-58-14.png
+INFO  2017-04-20 15:58:14,405 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

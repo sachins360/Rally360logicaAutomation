@@ -1,0 +1,24 @@
+[START]
+INFO  2017-02-21 12:28:41,175 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 12:28:55,552 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-21 12:28:57,984 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-21 12:29:03,227 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-21 12:29:08,473 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-02-21 12:29:13,931 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-02-21 12:29:16,210 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-21 12:29:22,485 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-02-21 12:29:36,725 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-02-21 12:29:44,066 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-02-21 12:29:57,011 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-02-21 12:30:07,553 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-02-21 12:30:07,739 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-02-21 12:30:10,180 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-02-21 12:30:12,331 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-02-21 12:30:17,677 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-02-21 12:30:19,872 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-02-21 12:30:22,005 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-02-21 12:30:30,245 [Worker#STA_NP] TestScripts.BaseTestES - Click Get Staerted button.
+INFO  2017-02-21 12:30:35,440 [Worker#STA_NP] TestScripts.BaseTestES - Click LinkedIn button.
+INFO  2017-02-21 12:30:46,671 [Worker#STA_NP] TestScripts.BaseTestES - Enter LinkedIn User Id.
+INFO  2017-02-21 12:30:49,853 [Worker#STA_NP] TestScripts.BaseTestES - Enter LinkedIn Password.
+INFO  2017-02-21 12:30:52,124 [Worker#STA_NP] TestScripts.BaseTestES - Enter LinkedIn SignIn button.

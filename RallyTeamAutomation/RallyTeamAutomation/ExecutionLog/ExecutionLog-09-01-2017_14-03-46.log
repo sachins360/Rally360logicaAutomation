@@ -1,0 +1,7 @@
+[START]
+INFO  2017-01-09 14:04:57,201 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-09 14:05:08,150 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-09 14:05:12,436 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-09 14:05:19,577 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2177_006_EditOtherUserProfileByAdminUser_2017-01-09-14-05-19.png
+INFO  2017-01-09 14:05:19,619 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

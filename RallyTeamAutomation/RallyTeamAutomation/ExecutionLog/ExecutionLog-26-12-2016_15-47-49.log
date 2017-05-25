@@ -1,0 +1,31 @@
+[START]
+INFO  2016-12-26 15:49:02,917 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-26 15:49:37,785 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-26 15:49:46,158 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-26 15:49:49,333 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-26 15:49:56,595 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-26 15:50:00,825 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-26 15:50:03,976 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-26 15:50:16,472 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-26 15:50:20,172 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-26 15:50:27,544 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2016-12-26 15:50:32,668 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2016-12-26 15:50:38,049 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2016-12-26 15:50:39,121 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2016-12-26 15:50:40,212 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2016-12-26 15:50:42,492 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2016-12-26 15:50:44,217 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-26-15-50-43.png
+ERROR 2016-12-26 15:50:44,319 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()= 'Search']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 63
+INFO  2016-12-26 15:50:44,521 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_001_CreateDraftInvoice_2016-12-26-15-50-44.png
+INFO  2016-12-26 15:50:44,521 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

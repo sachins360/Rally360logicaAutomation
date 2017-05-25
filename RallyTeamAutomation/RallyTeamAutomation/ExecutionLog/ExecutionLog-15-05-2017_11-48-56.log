@@ -1,0 +1,169 @@
+[START]
+INFO  2017-05-15 11:49:44,437 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 11:50:00,759 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 11:50:03,192 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 11:50:08,497 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 11:50:18,578 [Worker#STA_NP] TestScripts.BaseTestES - Verify Close Icon.
+INFO  2017-05-15 11:50:19,609 [Worker#STA_NP] TestScripts.BaseTestES - Verify Maybe Later Option.
+INFO  2017-05-15 11:50:20,675 [Worker#STA_NP] TestScripts.BaseTestES - Verify CSV button.
+INFO  2017-05-15 11:50:21,739 [Worker#STA_NP] TestScripts.BaseTestES - Verify Email button.
+INFO  2017-05-15 11:50:22,805 [Worker#STA_NP] TestScripts.BaseTestES - Verify Create Profile button.
+INFO  2017-05-15 11:50:22,806 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 11:51:19,849 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 11:51:38,468 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 11:51:40,848 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 11:51:46,114 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 11:51:51,341 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-15 11:51:57,151 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-15 11:51:59,398 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 11:52:04,621 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-15 11:52:13,668 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 11:52:21,064 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 11:52:29,992 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-05-15 11:52:32,061 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-05-15 11:52:35,237 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 11:52:40,383 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Get Started Button.
+INFO  2017-05-15 11:52:40,384 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 11:53:34,514 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 11:53:50,993 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 11:53:53,554 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 11:53:59,161 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 11:54:04,535 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-15 11:54:10,499 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-15 11:54:12,905 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 11:54:18,281 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-15 11:54:28,124 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 11:54:35,499 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 11:54:45,515 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 11:54:53,909 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-05-15 11:54:59,358 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-05-15 11:55:01,798 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-05-15 11:55:04,183 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-05-15 11:55:09,696 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-05-15 11:55:12,144 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-05-15 11:55:14,569 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-05-15 11:57:22,386 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-15-11-57-21.png
+ERROR 2017-05-15 11:57:22,393 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'Get Started')]) to be displayed but did not.
+INFO  2017-05-15 11:57:22,776 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_003_OnboardWithInvitedUser_2017-05-15-11-57-22.png
+INFO  2017-05-15 11:57:22,776 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 11:58:14,990 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 11:58:32,578 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 11:58:35,048 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 11:58:40,452 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 11:58:45,899 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-15 11:58:51,630 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-15 11:58:52,369 [Worker#STA_NP] TestScripts.BaseTestES - Enter Second Email Address.
+INFO  2017-05-15 11:58:54,575 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 11:58:59,981 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-15 11:59:10,205 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 11:59:17,703 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 11:59:26,770 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-05-15 11:59:28,927 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-05-15 11:59:32,097 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 11:59:37,257 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Get Started Button.
+INFO  2017-05-15 11:59:39,942 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 11:59:47,637 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 11:59:55,864 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-05-15 11:59:58,013 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-05-15 12:00:00,943 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 12:00:06,090 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Get Started Button.
+INFO  2017-05-15 12:00:06,091 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 12:00:49,884 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 12:01:07,863 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 12:01:10,470 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 12:01:15,770 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:01:21,178 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-15 12:01:27,050 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-15 12:01:29,480 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:01:34,731 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-15 12:01:44,080 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 12:01:51,449 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 12:02:00,529 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 12:02:09,569 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Get Started Button.
+INFO  2017-05-15 12:02:09,792 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-05-15 12:02:12,125 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-05-15 12:02:14,453 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-05-15 12:02:19,978 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-05-15 12:02:22,518 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-05-15 12:02:24,944 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-05-15 12:04:32,583 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-15-12-04-32.png
+ERROR 2017-05-15 12:04:32,587 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Get Started')]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-05-15 12:04:32,767 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_005_UploadResume_2017-05-15-12-04-32.png
+INFO  2017-05-15 12:04:32,767 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 12:05:15,117 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 12:05:34,357 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 12:05:36,739 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 12:05:42,070 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:05:47,357 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-05-15 12:05:52,985 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-05-15 12:05:55,421 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:06:00,736 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-05-15 12:06:10,618 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-05-15 12:06:18,003 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-05-15 12:06:27,199 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-05-15 12:06:36,444 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Get Started Button.
+INFO  2017-05-15 12:06:36,654 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-05-15 12:06:39,003 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-05-15 12:06:41,370 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-05-15 12:06:46,868 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-05-15 12:06:49,445 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-05-15 12:06:51,788 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-05-15 12:08:59,176 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-15-12-08-58.png
+ERROR 2017-05-15 12:08:59,177 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Get Started')]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-05-15 12:08:59,327 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_006_UploadLinkedIn_2017-05-15-12-08-59.png
+INFO  2017-05-15 12:08:59,327 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 12:09:50,298 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 12:10:08,208 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 12:10:10,756 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 12:10:16,324 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 12:10:22,063 [Worker#STA_NP] TestScripts.BaseTestES - Click Create a Profile button.
+INFO  2017-05-15 12:10:27,656 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name.
+INFO  2017-05-15 12:10:30,061 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name.
+INFO  2017-05-15 12:10:32,580 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email.
+INFO  2017-05-15 12:10:35,258 [Worker#STA_NP] TestScripts.BaseTestES - Enter Title.
+INFO  2017-05-15 12:10:37,717 [Worker#STA_NP] TestScripts.BaseTestES - Enter About Me.
+INFO  2017-05-15 12:10:40,279 [Worker#STA_NP] TestScripts.BaseTestES - Enter My Top Skills.
+INFO  2017-05-15 12:10:44,817 [Worker#STA_NP] TestScripts.BaseTestES - Enter Other Skills.
+INFO  2017-05-15 12:10:49,223 [Worker#STA_NP] TestScripts.BaseTestES - Enter Languages.
+INFO  2017-05-15 12:10:53,913 [Worker#STA_NP] TestScripts.BaseTestES - Enter Interested In.
+INFO  2017-05-15 12:10:58,722 [Worker#STA_NP] TestScripts.BaseTestES - Enter LinkedIn Url.
+INFO  2017-05-15 12:11:02,370 [Worker#STA_NP] TestScripts.BaseTestES - Enter Phone.
+INFO  2017-05-15 12:11:04,953 [Worker#STA_NP] TestScripts.BaseTestES - Enter Address.
+INFO  2017-05-15 12:11:07,463 [Worker#STA_NP] TestScripts.BaseTestES - Enter City.
+INFO  2017-05-15 12:11:09,914 [Worker#STA_NP] TestScripts.BaseTestES - Enter State/Province.
+INFO  2017-05-15 12:11:12,462 [Worker#STA_NP] TestScripts.BaseTestES - Enter Postal Code.
+INFO  2017-05-15 12:11:14,975 [Worker#STA_NP] TestScripts.BaseTestES - Enter Country.
+INFO  2017-05-15 12:11:19,384 [Worker#STA_NP] TestScripts.BaseTestES - Click on Create Button
+INFO  2017-05-15 12:11:26,528 [Worker#STA_NP] TestScripts.BaseTestES - Verify the added user Full Name.
+INFO  2017-05-15 12:11:27,529 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

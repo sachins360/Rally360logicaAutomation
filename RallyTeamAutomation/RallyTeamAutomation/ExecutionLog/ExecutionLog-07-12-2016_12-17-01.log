@@ -1,0 +1,24 @@
+[START]
+INFO  2016-12-07 12:17:31,263 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-07 12:17:41,529 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-07 12:17:47,907 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-07 12:17:59,550 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-07 12:18:03,759 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-07 12:18:10,068 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-12-07 12:18:14,345 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-12-07 12:18:17,541 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-12-07 12:18:22,738 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Location.
+INFO  2016-12-07 12:18:25,943 [Worker#STA_NP] TestScripts.BaseTest - Select Event Group.
+INFO  2016-12-07 12:18:32,226 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-12-07 12:18:39,456 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-12-07 12:18:40,654 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-12-07 12:18:42,825 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-12-07 12:18:47,981 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-07 12:18:52,109 [Worker#STA_NP] TestScripts.BaseTest - Click the All Groups dropdown.
+INFO  2016-12-07 12:18:55,246 [Worker#STA_NP] TestScripts.BaseTest - Click the My Groups dropdown option.
+INFO  2016-12-07 12:18:58,657 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-12-07 12:19:04,831 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-07 12:19:05,994 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-07 12:19:08,289 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-07 12:19:10,290 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

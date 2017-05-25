@@ -1,0 +1,20 @@
+[START]
+INFO  2017-04-25 11:54:44,046 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 11:55:04,568 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-25 11:55:15,958 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-25 11:55:24,641 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-25 11:55:27,772 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-25 11:55:40,024 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-25 11:55:49,594 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-04-25 11:55:53,968 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-04-25 11:55:55,291 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-04-25 11:56:06,391 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2017-04-25 11:56:08,827 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2017-04-25 11:56:14,301 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-04-25 11:56:19,555 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Name.
+INFO  2017-04-25 11:56:21,785 [Worker#STA_NP] TestScripts.BaseTestES - Click the Awesome rating.
+INFO  2017-04-25 11:56:27,202 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skill Name.
+INFO  2017-04-25 11:56:29,410 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-04-25 11:56:50,832 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Top Skill count has increased.
+INFO  2017-04-25 11:56:50,835 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

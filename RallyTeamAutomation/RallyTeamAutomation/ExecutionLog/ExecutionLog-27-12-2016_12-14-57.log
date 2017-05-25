@@ -1,0 +1,30 @@
+[START]
+INFO  2016-12-27 12:15:40,997 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-27 12:16:21,091 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-27 12:16:29,476 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-27 12:16:32,642 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-27 12:16:42,882 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-27 12:16:47,268 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-27 12:16:50,417 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-27 12:17:03,851 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-27 12:17:07,447 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-27 12:17:14,731 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2016-12-27 12:17:19,846 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2016-12-27 12:17:25,123 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2016-12-27 12:17:26,330 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2016-12-27 12:17:27,451 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2016-12-27 12:17:29,615 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2016-12-27 12:17:30,798 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2016-12-27 12:17:33,044 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2016-12-27 12:17:35,269 [Worker#STA_NP] TestScripts.BaseTestES - Click Save Draft button.
+INFO  2016-12-27 12:17:40,934 [Worker#STA_NP] TestScripts.BaseTestES - Click Invoice displayed.
+INFO  2016-12-27 12:17:46,121 [Worker#STA_NP] TestScripts.BaseTestES - Delete the Invoice.
+INFO  2016-12-27 12:17:49,242 [Worker#STA_NP] TestScripts.BaseTestES - Delete the Delete Window Yes button.
+INFO  2016-12-27 12:17:56,483 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-27 12:18:08,707 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2016-12-27 12:18:14,007 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2016-12-27 12:18:24,461 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2016-12-27 12:18:25,801 [Worker#STA_NP] TestScripts.BaseTestES - Select Completed Projects from the drop-down.
+INFO  2016-12-27 12:18:31,464 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_007_DeleteDraftInvoice_2016-12-27-12-18-31.png
+INFO  2016-12-27 12:18:31,491 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

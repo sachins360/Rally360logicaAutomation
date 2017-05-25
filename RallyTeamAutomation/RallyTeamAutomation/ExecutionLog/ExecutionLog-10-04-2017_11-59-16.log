@@ -1,0 +1,26 @@
+[START]
+INFO  2017-04-10 12:00:21,033 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-10 12:01:01,724 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-10 12:01:04,056 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-10 12:01:05,512 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 12:01:19,311 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-10 12:01:26,097 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-10 12:01:27,434 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-10 12:01:29,790 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-10 12:01:33,089 [Worker#STA_NP] TestScripts.BaseTestES - Select Staff.
+INFO  2017-04-10 12:01:35,442 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-10 12:01:37,737 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-10 12:01:43,292 [Worker#STA_NP] TestScripts.BaseTestES - Enter members email id.
+INFO  2017-04-10 12:02:04,796 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 12:02:08,023 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 12:02:20,357 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-10 12:02:33,481 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Description on About page
+INFO  2017-04-10 12:02:34,695 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Deliverables on About page
+INFO  2017-04-10 12:02:36,031 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Skills on About page
+INFO  2017-04-10 12:02:37,192 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Type on About page
+INFO  2017-04-10 12:02:38,334 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Location on About page
+INFO  2017-04-10 12:04:40,036 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-10-12-04-39.png
+ERROR 2017-04-10 12:04:40,039 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Employees')]) to be displayed but did not.
+INFO  2017-04-10 12:04:40,216 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_004_VerifyDataAboutPage_2017-04-10-12-04-40.png
+INFO  2017-04-10 12:04:40,216 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

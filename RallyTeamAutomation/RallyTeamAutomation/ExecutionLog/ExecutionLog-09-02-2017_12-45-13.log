@@ -1,0 +1,125 @@
+[START]
+INFO  2017-02-09 12:46:21,870 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:47:15,979 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:47:19,046 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Admin'.
+INFO  2017-02-09 12:47:20,451 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-02-09 12:47:26,342 [Worker#STA_NP] TestScripts.BaseTest - Verify Features tab is displayed.
+INFO  2017-02-09 12:47:27,398 [Worker#STA_NP] TestScripts.BaseTest - Verify Manage Users tab is displayed.
+INFO  2017-02-09 12:47:28,470 [Worker#STA_NP] TestScripts.BaseTest - Verify Groups tab is displayed.
+INFO  2017-02-09 12:47:28,473 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:48:38,550 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:48:45,332 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:48:47,725 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-02-09 12:48:49,868 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Users tab.
+INFO  2017-02-09 12:48:53,919 [Worker#STA_NP] TestScripts.BaseTest - Verify Admin column is displayed.
+INFO  2017-02-09 12:48:53,919 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:49:12,959 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:49:23,146 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-02-09 12:49:27,481 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-02-09 12:49:35,599 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-02-09 12:49:37,894 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-02-09 12:49:43,067 [Worker#STA_NP] TestScripts.BaseTest - Click the User Settings Profile button.
+INFO  2017-02-09 12:49:45,585 [Worker#STA_NP] TestScripts.BaseTest - Select 'Edit Profile' from the Settings Profile options.
+INFO  2017-02-09 12:49:48,735 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window Title.
+INFO  2017-02-09 12:49:49,960 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window About Me.
+INFO  2017-02-09 12:49:51,116 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Save button.
+INFO  2017-02-09 12:49:54,163 [Worker#STA_NP] TestScripts.BaseTest - Verify update About Me is displayed.
+INFO  2017-02-09 12:49:55,211 [Worker#STA_NP] TestScripts.BaseTest - Verify update Title is displayed.
+INFO  2017-02-09 12:49:55,211 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:50:18,501 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:50:25,287 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile icon
+INFO  2017-02-09 12:50:27,288 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:50:51,785 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:50:58,710 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:51:00,771 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Profile'.
+INFO  2017-02-09 12:51:01,836 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Support'.
+INFO  2017-02-09 12:51:02,883 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Sign out'.
+INFO  2017-02-09 12:51:03,885 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:51:26,256 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:51:33,265 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:51:35,677 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-02-09 12:51:37,728 [Worker#STA_NP] TestScripts.BaseTest - Verify User Details Window displayed.
+INFO  2017-02-09 12:51:38,728 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:52:00,575 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:52:07,503 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:52:09,808 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-02-09 12:52:11,851 [Worker#STA_NP] TestScripts.BaseTest - Verify User Details Window displayed.
+INFO  2017-02-09 12:52:12,896 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile User Name.
+INFO  2017-02-09 12:52:14,963 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Skills & Endorsements.
+INFO  2017-02-09 12:52:17,031 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Industry/Domain Expertise.
+INFO  2017-02-09 12:52:19,110 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Languages.
+INFO  2017-02-09 12:52:21,168 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Interests.
+INFO  2017-02-09 12:52:23,215 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Projects.
+INFO  2017-02-09 12:52:25,217 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:52:38,426 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:52:45,465 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:52:47,810 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-02-09 12:52:50,262 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-02-09 12:52:52,307 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window displayed.
+INFO  2017-02-09 12:52:52,307 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:53:03,887 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:53:10,905 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:53:13,222 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-02-09 12:53:15,753 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-02-09 12:53:17,802 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Profile Builder button is displayed.
+INFO  2017-02-09 12:53:18,865 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Save button is displayed.
+INFO  2017-02-09 12:53:19,917 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Cancel button is displayed.
+INFO  2017-02-09 12:53:20,966 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window First Name is displayed.
+INFO  2017-02-09 12:53:22,010 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Last Name is displayed.
+INFO  2017-02-09 12:53:23,045 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Email is displayed.
+INFO  2017-02-09 12:53:24,098 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Title is displayed.
+INFO  2017-02-09 12:53:25,141 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Email is displayed.
+INFO  2017-02-09 12:53:26,191 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window About Me is displayed.
+INFO  2017-02-09 12:53:27,238 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window My Top Skills is displayed.
+INFO  2017-02-09 12:53:28,290 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Other Skills is displayed.
+INFO  2017-02-09 12:53:29,337 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Industry/Domain Expertise is displayed.
+INFO  2017-02-09 12:53:30,381 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Languages is displayed.
+INFO  2017-02-09 12:53:31,430 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Interested In is displayed.
+INFO  2017-02-09 12:53:32,484 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window LinkedIn Url is displayed.
+INFO  2017-02-09 12:53:33,533 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Phone is displayed.
+INFO  2017-02-09 12:53:34,599 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Address is displayed.
+INFO  2017-02-09 12:53:35,661 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window City is displayed.
+INFO  2017-02-09 12:53:36,713 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Email is displayed.
+INFO  2017-02-09 12:53:37,760 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Postal Code is displayed.
+INFO  2017-02-09 12:53:38,824 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window Country is displayed.
+INFO  2017-02-09 12:55:47,167 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-09-12-55-42.png
+ERROR 2017-02-09 12:55:47,185 [Worker#STA_NP] Util.AssertHelper - Expected element (By.Id: oldPassword) to be displayed but did not.
+INFO  2017-02-09 12:55:48,685 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.UserProfile_007_VerifyEditProfileFields_2017-02-09-12-55-48.png
+INFO  2017-02-09 12:55:48,686 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:56:17,071 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:56:24,017 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:56:26,323 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-02-09 12:56:28,817 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-02-09 12:56:31,025 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window First Name.
+INFO  2017-02-09 12:56:32,146 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Save button.
+INFO  2017-02-09 12:56:34,195 [Worker#STA_NP] TestScripts.BaseTest - Verify Mandatory Field error message is displayed.
+INFO  2017-02-09 12:56:35,195 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:57:09,261 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:57:15,976 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:57:18,406 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-02-09 12:57:20,940 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-02-09 12:57:23,087 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window Last Name.
+INFO  2017-02-09 12:57:28,255 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Save button.
+INFO  2017-02-09 12:57:30,305 [Worker#STA_NP] TestScripts.BaseTest - Verify Mandatory Field error message is displayed.
+INFO  2017-02-09 12:57:31,306 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:58:18,824 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:58:25,597 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:58:27,920 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-02-09 12:58:30,457 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-02-09 12:58:32,603 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window Title.
+INFO  2017-02-09 12:58:33,758 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window About Me.
+INFO  2017-02-09 12:58:36,898 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Save button.
+INFO  2017-02-09 12:58:42,605 [Worker#STA_NP] TestScripts.BaseTest - Verify update About Me is displayed.
+INFO  2017-02-09 12:58:43,655 [Worker#STA_NP] TestScripts.BaseTest - Verify update Title is displayed.
+INFO  2017-02-09 12:58:43,655 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-02-09 12:59:29,804 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-09 12:59:36,741 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-02-09 12:59:39,091 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-02-09 12:59:41,658 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-02-09 12:59:43,844 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Profile Builder button.
+INFO  2017-02-09 12:59:48,899 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Window is displayed.
+INFO  2017-02-09 12:59:49,941 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Connect With LinkedIn button is displayed.
+INFO  2017-02-09 12:59:51,002 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Upload Resume button is displayed.
+INFO  2017-02-09 12:59:52,049 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Close button is displayed.
+INFO  2017-02-09 12:59:52,049 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

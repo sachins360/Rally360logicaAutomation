@@ -1,0 +1,59 @@
+[START]
+INFO  2017-04-24 15:27:08,638 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 15:27:29,586 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 15:27:41,032 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-24 15:27:49,728 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 15:28:01,335 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 15:28:04,675 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 15:28:16,933 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-24 15:28:25,180 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-24 15:28:29,152 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-24 15:28:34,152 [Worker#STA_NP] TestScripts.BaseTestES - Change Project Owner.
+INFO  2017-04-24 15:28:37,578 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-24 15:28:45,189 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 15:28:59,231 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-04-24 15:29:04,411 [Worker#STA_NP] TestScripts.BaseTestES - Verify the short notification on the Notification Window.
+INFO  2017-04-24 15:29:05,642 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-04-24 15:29:12,781 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Assigned Notification.
+INFO  2017-04-24 15:31:14,481 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-24-15-31-14.png
+ERROR 2017-04-24 15:31:14,483 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'Ammar Khan assigned RandomProjectBFESJA to you.')]) to be displayed but did not.
+INFO  2017-04-24 15:31:14,705 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_001_ProjectAssignment_2017-04-24-15-31-14.png
+INFO  2017-04-24 15:31:14,705 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-24 15:31:56,317 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 15:32:16,291 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 15:32:27,874 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-24 15:32:36,810 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 15:32:48,572 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 15:32:51,929 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 15:33:04,395 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-24 15:33:13,909 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 15:33:31,516 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-24 15:33:34,144 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-04-24 15:33:49,451 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-24 15:33:54,674 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-04-24 15:34:07,090 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 15:34:21,623 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-04-24 15:34:26,763 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Join Request short notification on the Notification Window.
+INFO  2017-04-24 15:34:28,279 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-04-24 15:34:35,411 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Join Request  Notification.
+INFO  2017-04-24 15:36:37,538 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-24-15-36-36.png
+ERROR 2017-04-24 15:36:37,538 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'shivanis1@360logica.com requests to join your project RandomProjectPHWPBS')]) to be displayed but did not.
+INFO  2017-04-24 15:36:37,776 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_002_ProjectOwnerPendingJoinRequest_2017-04-24-15-36-37.png
+INFO  2017-04-24 15:36:37,777 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-24 15:37:25,996 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 15:37:46,200 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 15:37:57,855 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-24 15:38:06,566 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 15:38:18,221 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 15:38:21,415 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 15:38:33,784 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-24 15:38:44,143 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 15:38:58,455 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-04-24 15:39:03,596 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Recruited to Project short notification on the Notification Window.
+INFO  2017-04-24 15:39:05,176 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-04-24 15:39:12,322 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Recruited to Project Notification on Notifications Page.
+INFO  2017-04-24 15:41:13,903 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-24-15-41-13.png
+ERROR 2017-04-24 15:41:13,903 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'Ammar Khan invites you to check out the project RandomProjectPTHDAH')]) to be displayed but did not.
+INFO  2017-04-24 15:41:14,186 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_003_UserRecruitedToProject_2017-04-24-15-41-13.png
+INFO  2017-04-24 15:41:14,186 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

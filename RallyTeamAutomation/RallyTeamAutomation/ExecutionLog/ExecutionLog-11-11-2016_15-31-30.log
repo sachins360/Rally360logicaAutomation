@@ -1,0 +1,8 @@
+[START]
+INFO  2016-11-11 15:32:19,250 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-11 15:32:22,120 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2016-11-11 15:32:25,004 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2016-11-11 15:32:27,188 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Submit button.
+INFO  2016-11-11 15:32:31,861 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Resend Email button is displayed.
+INFO  2016-11-11 15:32:33,864 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

@@ -1,0 +1,15 @@
+[START]
+INFO  2017-01-31 14:11:15,263 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-31 14:11:29,119 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-31 14:11:36,075 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-31 14:11:40,513 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-31 14:11:42,898 [Worker#STA_NP] TestScripts.BaseTest - Click on View Profile button.
+INFO  2017-01-31 14:11:46,231 [Worker#STA_NP] TestScripts.BaseTest - Click on User Profile Message button.
+INFO  2017-01-31 14:11:49,287 [Worker#STA_NP] TestScripts.BaseTest - Verify New Message Window.
+INFO  2017-01-31 14:11:51,291 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-31 14:12:29,196 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-31 14:14:36,368 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-31-14-14-35.png
+ERROR 2017-01-31 14:14:36,391 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[text()='RallyNow']) to be displayed but did not.
+INFO  2017-01-31 14:14:38,511 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.People_019_SendUserProfileMessageAndVerify_2017-01-31-14-14-37.png
+INFO  2017-01-31 14:14:38,511 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

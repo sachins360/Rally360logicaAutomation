@@ -1,0 +1,16 @@
+[START]
+INFO  2017-01-02 16:45:54,367 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 16:46:31,625 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 16:46:49,973 [Worker#STA_NP] TestScripts.BaseTest - Edit the Project Name.
+INFO  2017-01-02 16:46:50,349 [Worker#STA_NP] TestScripts.BaseTest - Click Due Date Field.
+INFO  2017-01-02 16:46:51,528 [Worker#STA_NP] TestScripts.BaseTest - Select today's date.
+INFO  2017-01-02 16:46:56,991 [Worker#STA_NP] TestScripts.BaseTest - Edit the Due Date.
+INFO  2017-01-02 16:47:00,274 [Worker#STA_NP] TestScripts.BaseTest - Edit the Project Owner.
+INFO  2017-01-02 16:47:09,009 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 16:47:13,388 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 16:47:16,927 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 16:47:23,089 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 16:47:26,143 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-02 16:47:28,746 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 16:47:41,119 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

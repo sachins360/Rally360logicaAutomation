@@ -1,0 +1,21 @@
+[START]
+INFO  2017-05-04 13:54:25,896 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 13:54:50,725 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 13:55:02,126 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 13:55:02,294 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 13:55:14,517 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 13:55:23,903 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 13:55:37,890 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 13:55:43,002 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Recruited to Project short notification on the Notification Window.
+INFO  2017-05-04 13:55:44,256 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 13:55:51,375 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Recruited to Project Notification on Notifications Page.
+INFO  2017-05-04 13:55:52,377 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Recruited to Project notification subject on the Notifications Page.
+INFO  2017-05-04 13:55:57,635 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 13:56:14,860 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-05-04 13:56:17,225 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-05-04 13:56:32,581 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-05-04 13:56:40,828 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-04 13:56:44,125 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-05-04 13:56:47,326 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-05-04 13:56:47,328 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

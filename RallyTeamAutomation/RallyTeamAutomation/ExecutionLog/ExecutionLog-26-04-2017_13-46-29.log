@@ -1,0 +1,24 @@
+[START]
+INFO  2017-04-26 13:47:19,145 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-26 13:47:29,759 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-26 13:47:32,119 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-26 13:47:37,392 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-26 13:47:42,649 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-26 13:47:48,310 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-26 13:47:49,068 [Worker#STA_NP] TestScripts.BaseTestES - Enter Second Email Address.
+INFO  2017-04-26 13:47:51,276 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-26 13:47:56,586 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-26 13:48:08,272 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-26 13:48:15,639 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-26 13:48:23,592 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-04-26 13:48:25,676 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-04-26 13:48:28,673 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-04-26 13:48:34,804 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Get Started Button.
+INFO  2017-04-26 13:48:37,365 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-26 13:48:44,703 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-26 13:48:52,385 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-04-26 13:48:54,480 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-04-26 13:48:57,164 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-04-26 13:49:02,261 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Get Started Button.
+INFO  2017-04-26 13:49:02,263 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

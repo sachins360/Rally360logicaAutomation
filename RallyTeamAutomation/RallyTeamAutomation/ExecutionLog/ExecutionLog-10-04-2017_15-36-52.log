@@ -1,0 +1,10 @@
+[START]
+INFO  2017-04-10 15:37:44,350 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-10 15:38:04,606 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 15:38:16,033 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-10 15:38:24,833 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 15:38:36,500 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 15:38:39,984 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 15:38:52,435 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-10 15:39:06,000 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

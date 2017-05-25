@@ -1,0 +1,18 @@
+[START]
+INFO  2017-04-04 12:56:36,954 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-04 12:57:01,574 [Worker#STA_NP] TestScripts.BaseTestES - Click Start Date Field.
+INFO  2017-04-04 12:57:02,661 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-04-04 12:57:04,774 [Worker#STA_NP] TestScripts.BaseTestES - Select Ongoing check-box.
+INFO  2017-04-04 12:57:06,934 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-04 12:57:18,251 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-04 12:57:20,541 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-04 12:57:21,678 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-04 12:57:23,806 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-04 12:57:26,939 [Worker#STA_NP] TestScripts.BaseTestES - Select Staff.
+INFO  2017-04-04 12:57:29,251 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-04-12-57-29.png
+ERROR 2017-04-04 12:57:29,258 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: Cannot locate element with text: 30-40 hrs/wk
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 74
+INFO  2017-04-04 12:57:29,425 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_002_PostANewProject_2017-04-04-12-57-29.png
+INFO  2017-04-04 12:57:29,425 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,5 @@
+[START]
+INFO  2016-12-14 16:41:21,588 [14] TestScripts.BaseTestES - Setup test
+INFO  2016-12-14 16:42:15,724 [14] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-14 16:42:20,849 [14] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-14 16:42:25,984 [14] TestScripts.BaseTestES - Verify Update Metrics button.

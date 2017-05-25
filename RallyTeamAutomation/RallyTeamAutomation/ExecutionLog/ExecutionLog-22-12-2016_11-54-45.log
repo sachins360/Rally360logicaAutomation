@@ -1,0 +1,13 @@
+[START]
+INFO  2016-12-22 11:55:40,341 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-22 11:55:52,510 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-22 11:55:57,752 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2016-12-22 11:56:03,032 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2016-12-22 11:56:07,479 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2016-12-22 11:56:09,604 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2016-12-22 11:56:21,155 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-22 11:56:27,813 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-22 11:56:39,408 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-22 11:56:45,021 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_005_VerifyMessageReceivedCounter_2016-12-22-11-56-44.png
+INFO  2016-12-22 11:56:45,033 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

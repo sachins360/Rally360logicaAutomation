@@ -1,0 +1,13 @@
+[START]
+INFO  2017-01-31 12:33:40,514 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-31 12:33:48,864 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-31 12:33:51,207 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-31 12:33:54,230 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-31 12:33:56,423 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Profile Builder button.
+INFO  2017-01-31 12:34:01,469 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Window is displayed.
+INFO  2017-01-31 12:34:02,514 [Worker#STA_NP] TestScripts.BaseTest - Verify Profile Builder Connect With LinkedIn button is displayed.
+INFO  2017-01-31 12:36:03,928 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-31-12-36-03.png
+ERROR 2017-01-31 12:36:03,954 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //button[contains(@class= 'rt-btn--primary')]) to be displayed but did not.
+INFO  2017-01-31 12:36:04,322 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.UserProfile_028_VerifyProfileBuilderFields_2017-01-31-12-36-04.png
+INFO  2017-01-31 12:36:04,323 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

@@ -1,0 +1,7 @@
+[START]
+INFO  2017-02-01 15:54:20,472 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-01 15:55:05,747 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2017-02-01 15:55:17,118 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2017-02-01 15:55:23,766 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-02-01 15:55:29,305 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+[END]

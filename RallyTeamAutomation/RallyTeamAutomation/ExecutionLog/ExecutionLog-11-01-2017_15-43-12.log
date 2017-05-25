@@ -1,0 +1,9 @@
+[START]
+INFO  2017-01-11 15:43:37,526 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-11 15:43:54,117 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-11 15:44:11,962 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-11 15:46:19,081 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-11-15-46-18.png
+ERROR 2017-01-11 15:46:19,093 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'PrjQPQWF') and @class='highlightedText']) to be displayed but did not.
+INFO  2017-01-11 15:46:19,384 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_016_VerifyProjectsRadio_2017-01-11-15-46-19.png
+INFO  2017-01-11 15:46:19,384 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

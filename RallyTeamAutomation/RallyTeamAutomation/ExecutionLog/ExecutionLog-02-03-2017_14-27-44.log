@@ -1,0 +1,27 @@
+[START]
+INFO  2017-03-02 14:28:23,602 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-02 14:28:45,116 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-03-02 14:28:47,675 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-02 14:28:52,974 [Worker#STA_NP] TestScripts.BaseTestES - Click Vendors tab.
+INFO  2017-03-02 14:28:58,306 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Vendors button.
+INFO  2017-03-02 14:29:03,474 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Name.
+INFO  2017-03-02 14:29:05,709 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Description.
+INFO  2017-03-02 14:29:07,894 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:29:10,191 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:29:12,287 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:29:14,414 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:29:16,504 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Services.
+INFO  2017-03-02 14:29:18,787 [Worker#STA_NP] TestScripts.BaseTestES - Select Vendor Owner.
+INFO  2017-03-02 14:29:21,106 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Location.
+INFO  2017-03-02 14:29:23,307 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Phone.
+INFO  2017-03-02 14:29:25,613 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Website.
+INFO  2017-03-02 14:29:27,856 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-03-02 14:29:32,108 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Facebook.
+INFO  2017-03-02 14:29:34,404 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company Twitter.
+INFO  2017-03-02 14:29:36,601 [Worker#STA_NP] TestScripts.BaseTestES - Enter Vendor Company LinkedIn.
+INFO  2017-03-02 14:29:38,869 [Worker#STA_NP] TestScripts.BaseTestES - Click Create Profile button.
+INFO  2017-03-02 14:31:47,300 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-02-14-31-46.png
+ERROR 2017-03-02 14:31:47,315 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[text()= 'YHCLIF']) to be displayed but did not.
+INFO  2017-03-02 14:31:50,077 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.VendorTest.Vendor_001_AdminAddsVendorProfile_2017-03-02-14-31-48.png
+INFO  2017-03-02 14:31:50,078 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

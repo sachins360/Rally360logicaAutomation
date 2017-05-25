@@ -1,0 +1,18 @@
+[START]
+INFO  2017-04-24 12:53:20,537 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 12:53:40,367 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 12:53:51,840 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-24 12:54:00,682 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 12:54:12,253 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 12:54:15,625 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 12:54:27,997 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-24 12:54:36,318 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-04-24 12:54:41,815 [Worker#STA_NP] TestScripts.BaseTestES - Click Browse button.
+INFO  2017-04-24 12:54:47,166 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-24 12:54:49,589 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-24 12:55:03,314 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-24 12:55:08,782 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-24 12:55:12,296 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-04-24 12:55:15,684 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-04-24 12:55:15,690 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

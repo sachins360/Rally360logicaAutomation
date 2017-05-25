@@ -1,0 +1,23 @@
+[START]
+INFO  2017-01-04 12:21:57,183 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:22:34,564 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-01-04 12:22:43,278 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-01-04 12:22:46,478 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-01-04 12:22:52,797 [Worker#STA_NP] TestScripts.BaseTestES - Click Project member added remove icon.
+INFO  2017-01-04 12:22:55,927 [Worker#STA_NP] TestScripts.BaseTestES - Click the Remove Project Member window No button.
+INFO  2017-01-04 12:24:59,233 [Worker#STA_NP] TestScripts.BaseTestES - Verified Project member is deleted.
+INFO  2017-01-04 12:25:12,957 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:25:40,047 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:26:14,944 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 12:26:18,548 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-04 12:26:23,767 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-04 12:26:25,169 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-01-04 12:26:30,603 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-04 12:26:36,730 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button doisplayed on screen.
+INFO  2017-01-04 12:26:43,245 [Worker#STA_NP] TestScripts.BaseTestES - Verify Request Sent button doisplayed on screen.
+INFO  2017-01-04 12:26:53,368 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 12:27:00,589 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-04 12:27:02,037 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-01-04 12:27:07,528 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-04 12:27:24,016 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

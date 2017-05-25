@@ -1,0 +1,67 @@
+[START]
+INFO  2016-12-05 15:47:59,984 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:48:02,086 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Url Page
+INFO  2016-12-05 15:48:02,087 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:48:21,796 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:48:23,859 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Work Email
+INFO  2016-12-05 15:48:25,907 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Password
+INFO  2016-12-05 15:48:27,971 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Button
+INFO  2016-12-05 15:48:30,022 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Forgot Password
+INFO  2016-12-05 15:48:32,093 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify SignUp
+INFO  2016-12-05 15:48:34,095 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:49:15,653 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:49:18,944 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2016-12-05 15:49:22,165 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Login Button on Registration page.
+INFO  2016-12-05 15:49:24,225 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Url Page
+INFO  2016-12-05 15:49:26,226 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:49:57,499 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:50:00,655 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2016-12-05 15:50:02,697 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message for empty fields.
+INFO  2016-12-05 15:50:04,698 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:50:35,849 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:50:38,094 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter invalid work email.
+INFO  2016-12-05 15:50:40,358 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter invalid password.
+INFO  2016-12-05 15:50:43,582 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2016-12-05 15:50:45,630 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message for empty fields.
+INFO  2016-12-05 15:50:47,632 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:51:16,393 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:51:18,661 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2016-12-05 15:51:20,817 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2016-12-05 15:51:23,955 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2016-12-05 15:51:26,532 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the login success.
+INFO  2016-12-05 15:51:28,533 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:51:49,809 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:51:52,043 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2016-12-05 15:51:54,175 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2016-12-05 15:51:57,296 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2016-12-05 15:52:08,524 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Signout of the application.
+INFO  2016-12-05 15:52:10,567 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Url Page
+INFO  2016-12-05 15:52:12,568 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:52:39,202 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:52:41,362 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2016-12-05 15:52:43,407 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Forgot Password Page is displayed.
+INFO  2016-12-05 15:52:45,409 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:53:01,264 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:53:03,434 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2016-12-05 15:53:05,477 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Work Email.
+INFO  2016-12-05 15:53:07,520 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Submit button.
+INFO  2016-12-05 15:53:09,562 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Go Back Link.
+INFO  2016-12-05 15:53:11,563 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:53:37,080 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:53:39,266 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2016-12-05 15:53:41,414 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Submit button.
+INFO  2016-12-05 15:53:43,461 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message displayed.
+INFO  2016-12-05 15:53:45,463 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:54:01,967 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:54:04,205 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter invalid work email.
+INFO  2016-12-05 15:54:06,403 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2016-12-05 15:54:08,530 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Submit button.
+INFO  2016-12-05 15:54:10,570 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message displayed.
+INFO  2016-12-05 15:54:12,571 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-12-05 15:54:29,599 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-12-05 15:54:31,813 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2016-12-05 15:54:34,042 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2016-12-05 15:54:36,236 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Submit button.
+INFO  2016-12-05 15:54:38,279 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Resend Email button is displayed.
+INFO  2016-12-05 15:54:40,281 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

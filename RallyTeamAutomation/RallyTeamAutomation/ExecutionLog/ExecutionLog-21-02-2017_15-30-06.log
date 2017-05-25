@@ -1,0 +1,13 @@
+[START]
+INFO  2017-02-21 15:31:01,185 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 15:31:13,094 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-02-21 15:31:18,107 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-02-21 15:31:20,653 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-02-21 15:31:26,015 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2017-02-21 15:31:30,283 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2017-02-21 15:31:37,084 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-02-21 15:33:45,343 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-21-15-33-42.png
+ERROR 2017-02-21 15:33:45,609 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@placeholder= 'Select or type in your project title']"}
+INFO  2017-02-21 15:33:50,506 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_006_EndorseUserAwesomeRating_2017-02-21-15-33-49.png
+INFO  2017-02-21 15:33:50,506 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

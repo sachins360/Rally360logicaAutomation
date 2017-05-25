@@ -1,0 +1,23 @@
+[START]
+INFO  2017-02-21 14:22:15,601 [14] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 14:22:26,757 [14] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-21 14:22:29,165 [14] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-21 14:22:35,088 [14] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-21 14:22:41,683 [14] TestScripts.BaseTestES - Click Create a Profile button.
+INFO  2017-02-21 14:22:46,827 [14] TestScripts.BaseTestES - Enter First Name.
+INFO  2017-02-21 14:22:49,038 [14] TestScripts.BaseTestES - Enter Last Name.
+INFO  2017-02-21 14:22:51,347 [14] TestScripts.BaseTestES - Enter Email.
+INFO  2017-02-21 14:22:53,566 [14] TestScripts.BaseTestES - Enter Title.
+INFO  2017-02-21 14:22:55,850 [14] TestScripts.BaseTestES - Enter About Me.
+INFO  2017-02-21 14:22:58,236 [14] TestScripts.BaseTestES - Enter My Top Skills.
+INFO  2017-02-21 14:23:02,492 [14] TestScripts.BaseTestES - Enter Other Skills.
+INFO  2017-02-21 14:23:06,866 [14] TestScripts.BaseTestES - Enter Industry / Domain Expertise.
+INFO  2017-02-21 14:23:11,074 [14] TestScripts.BaseTestES - Enter Languages.
+INFO  2017-02-21 14:23:15,212 [14] TestScripts.BaseTestES - Enter Interested In.
+INFO  2017-02-21 14:23:19,571 [14] TestScripts.BaseTestES - Enter LinkedIn Url.
+INFO  2017-02-21 14:23:21,786 [14] TestScripts.BaseTestES - Enter Phone.
+INFO  2017-02-21 14:23:23,985 [14] TestScripts.BaseTestES - Enter Address.
+INFO  2017-02-21 14:23:26,155 [14] TestScripts.BaseTestES - Enter City.
+INFO  2017-02-21 14:23:28,327 [14] TestScripts.BaseTestES - Enter State/Province.
+INFO  2017-02-21 14:23:30,477 [14] TestScripts.BaseTestES - Enter Postal Code.
+INFO  2017-02-21 14:23:50,212 [14] TestScripts.BaseTestES - Enter Country.

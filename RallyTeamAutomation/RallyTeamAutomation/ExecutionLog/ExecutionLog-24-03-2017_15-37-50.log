@@ -1,0 +1,29 @@
+[START]
+INFO  2017-03-24 15:39:18,203 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-24 15:39:38,637 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-03-24 15:39:41,301 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-24 15:39:46,650 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-03-24 15:39:49,936 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-03-24 15:39:55,169 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-03-24 15:39:57,301 [Worker#STA_NP] TestScripts.BaseTestES - Select Group Type as Employee
+INFO  2017-03-24 15:39:59,469 [Worker#STA_NP] TestScripts.BaseTestES - Click Create button
+INFO  2017-03-24 15:40:04,471 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-03-24 15:40:39,691 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-24 15:40:51,574 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-03-24 15:40:54,020 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-24 15:41:01,881 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-03-24 15:41:05,879 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-03-24 15:41:11,196 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-03-24 15:41:14,948 [Worker#STA_NP] TestScripts.BaseTestES - Select Group Type as External User
+INFO  2017-03-24 15:41:17,342 [Worker#STA_NP] TestScripts.BaseTestES - Click Create button
+INFO  2017-03-24 15:41:22,343 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-03-24 15:42:35,536 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-24 15:43:15,691 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-03-24 15:43:18,193 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-03-24 15:43:23,407 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-03-24 15:43:26,818 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-03-24 15:43:32,046 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-03-24 15:43:34,133 [Worker#STA_NP] TestScripts.BaseTestES - Select Group Type as Vendor
+INFO  2017-03-24 15:43:36,489 [Worker#STA_NP] TestScripts.BaseTestES - Click Create button
+INFO  2017-03-24 15:43:41,491 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

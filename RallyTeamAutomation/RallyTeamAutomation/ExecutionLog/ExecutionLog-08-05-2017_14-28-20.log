@@ -1,0 +1,20 @@
+[START]
+INFO  2017-05-08 14:29:12,359 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-08 14:29:32,453 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 14:29:44,118 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-08 14:29:52,878 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-08 14:30:04,608 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-08 14:30:07,899 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 14:30:20,311 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-08 14:30:28,537 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-08 14:30:31,180 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-08 14:30:33,648 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-05-08 14:30:38,157 [Worker#STA_NP] TestScripts.BaseTestES - Click the searched user.
+INFO  2017-05-08 14:30:43,738 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-05-08 14:30:49,328 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-08-14-30-49.png
+ERROR 2017-05-08 14:30:49,338 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: Cannot locate element with text: Endorse Project MIIS
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 74
+INFO  2017-05-08 14:30:49,607 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_011_UserReceivesFeedback_2017-05-08-14-30-49.png
+INFO  2017-05-08 14:30:49,607 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

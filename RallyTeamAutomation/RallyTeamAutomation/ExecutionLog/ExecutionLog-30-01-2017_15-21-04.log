@@ -1,0 +1,26 @@
+[START]
+INFO  2017-01-30 15:22:24,244 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-01-30 15:22:56,640 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2017-01-30 15:22:58,935 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2017-01-30 15:23:01,109 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2017-01-30 15:23:03,416 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2017-01-30 15:23:07,549 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2017-01-30 15:23:13,751 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2017-01-30 15:23:15,935 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2017-01-30 15:23:18,068 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2017-01-30 15:23:30,145 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Welcome RallyTeam message.
+INFO  2017-01-30 15:23:31,232 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Get Started button.
+INFO  2017-01-30 15:23:32,439 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Get Staerted button.
+INFO  2017-01-30 15:23:37,696 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on LinkedIn Page.
+INFO  2017-01-30 15:23:43,023 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Select Expertise.
+INFO  2017-01-30 15:23:45,390 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Expertise Continue button.
+INFO  2017-01-30 15:23:59,300 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click View My Profile button.
+INFO  2017-01-30 15:24:04,587 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Assert Skill One.
+INFO  2017-01-30 15:24:05,903 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Assert Skill Two.
+INFO  2017-01-30 15:24:09,095 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Done button.
+INFO  2017-01-30 15:24:19,366 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2017-01-30 15:24:24,609 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2017-01-30 15:24:37,908 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Subject.
+INFO  2017-01-30 15:24:45,077 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Get Confirmation Code.
+INFO  2017-01-30 15:24:59,246 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

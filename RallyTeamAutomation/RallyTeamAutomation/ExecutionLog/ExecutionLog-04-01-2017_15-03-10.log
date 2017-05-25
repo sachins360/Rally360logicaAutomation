@@ -1,0 +1,12 @@
+[START]
+INFO  2017-01-04 15:03:45,527 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 15:03:59,541 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 15:04:05,195 [Worker#STA_NP] TestScripts.BaseTestES - Click Send Announcement button.
+INFO  2017-01-04 15:04:10,806 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send Announcement Window is displayed.
+INFO  2017-01-04 15:04:11,847 [Worker#STA_NP] TestScripts.BaseTestES - Verify Group Drop-Down is displayed.
+INFO  2017-01-04 15:04:12,912 [Worker#STA_NP] TestScripts.BaseTestES - Verify Text Area is displayed.
+INFO  2017-01-04 15:04:13,971 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send button is displayed.
+INFO  2017-01-04 15:04:15,011 [Worker#STA_NP] TestScripts.BaseTestES - Verify attachment icon is displayed.
+INFO  2017-01-04 15:04:16,040 [Worker#STA_NP] TestScripts.BaseTestES - Verify close icon is displayed.
+INFO  2017-01-04 15:04:16,042 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

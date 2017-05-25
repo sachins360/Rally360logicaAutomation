@@ -1,0 +1,8 @@
+[START]
+INFO  2017-01-13 14:57:51,431 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-13 14:58:14,617 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-13 14:58:34,011 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-13 14:58:53,677 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-13 14:59:00,194 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-13 14:59:02,335 [Worker#STA_NP] TestScripts.BaseTest - Click on the View Team Status hyperlink.
+[END]

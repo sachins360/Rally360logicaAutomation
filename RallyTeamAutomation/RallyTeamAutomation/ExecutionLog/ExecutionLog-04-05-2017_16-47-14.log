@@ -1,0 +1,24 @@
+[START]
+INFO  2017-05-04 16:47:52,628 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 16:48:12,459 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 16:48:23,848 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 16:48:32,487 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 16:48:43,902 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 16:48:47,113 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 16:48:59,333 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 16:49:08,708 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 16:49:23,558 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-04 16:49:25,878 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Profile'.
+INFO  2017-05-04 16:49:28,220 [Worker#STA_NP] TestScripts.BaseTestES - Click on Request Feedback button.
+INFO  2017-05-04 16:49:33,395 [Worker#STA_NP] TestScripts.BaseTestES - Select Project DropDown.
+INFO  2017-05-04 16:49:36,601 [Worker#STA_NP] TestScripts.BaseTestES - Click Request Feedback Send button.
+INFO  2017-05-04 16:49:43,797 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 16:49:55,717 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 16:50:00,790 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Requests Feedback short notification on the Notification Window.
+INFO  2017-05-04 16:50:02,071 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 16:50:09,142 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Requests Feedback Notification on Notifications Page.
+INFO  2017-05-04 16:52:13,771 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-04-16-52-13.png
+ERROR 2017-05-04 16:52:13,774 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'mail-box')]//a[contains(text(), 'Ammar Khan has requested feedback from you on Endorse Project EFBD')]) to be displayed but did not.
+INFO  2017-05-04 16:52:13,976 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_012_UserRequestsFeedback_2017-05-04-16-52-13.png
+INFO  2017-05-04 16:52:13,976 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

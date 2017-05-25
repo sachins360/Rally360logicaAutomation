@@ -1,0 +1,81 @@
+[START]
+INFO  2017-04-25 12:30:17,483 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:32:20,262 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-25-12-32-20.png
+ERROR 2017-04-25 12:32:20,264 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Log in with')]) to be displayed but did not.
+INFO  2017-04-25 12:32:20,421 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AuthenticationTest.Authentication_Login_001_VerifyLoginUrl_2017-04-25-12-32-20.png
+INFO  2017-04-25 12:32:20,421 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:33:05,958 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:33:08,048 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Work Email
+INFO  2017-04-25 12:33:10,125 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Password
+INFO  2017-04-25 12:33:11,222 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Login Button
+INFO  2017-04-25 12:33:12,293 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Forgot Password
+INFO  2017-04-25 12:33:13,380 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify SignUp
+INFO  2017-04-25 12:33:13,380 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:34:11,486 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:34:14,715 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-04-25 12:34:16,778 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message for empty fields.
+INFO  2017-04-25 12:34:16,778 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:35:10,294 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:35:12,653 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter invalid work email.
+INFO  2017-04-25 12:35:13,848 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter invalid password.
+INFO  2017-04-25 12:35:16,056 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-04-25 12:35:21,103 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message for empty fields.
+INFO  2017-04-25 12:35:23,122 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:36:09,001 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:36:11,440 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2017-04-25 12:36:12,650 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2017-04-25 12:36:14,840 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-04-25 12:36:19,935 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the login success by asserting user icon.
+INFO  2017-04-25 12:36:21,942 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:37:13,628 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:37:16,035 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2017-04-25 12:37:17,244 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2017-04-25 12:37:19,431 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-04-25 12:37:27,730 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Signout of the application.
+INFO  2017-04-25 12:39:33,382 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-25-12-39-33.png
+ERROR 2017-04-25 12:39:33,382 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Log in with')]) to be displayed but did not.
+INFO  2017-04-25 12:39:33,546 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AuthenticationTest.Authentication_Login_008_SuccessfulSignOut_2017-04-25-12-39-33.png
+INFO  2017-04-25 12:39:33,546 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:40:18,207 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:40:20,457 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2017-04-25 12:40:25,527 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Forgot Password Page is displayed.
+INFO  2017-04-25 12:40:25,527 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:41:14,626 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:41:16,845 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2017-04-25 12:41:21,919 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Work Email.
+INFO  2017-04-25 12:41:22,981 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Submit button.
+INFO  2017-04-25 12:41:24,043 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Go Back Link.
+INFO  2017-04-25 12:41:24,043 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:42:27,987 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:44:24,684 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-25-12-43-29.png
+ERROR 2017-04-25 12:44:24,684 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50710/session/ea5c7461387ca26a5bbba196131158ae/element timed out after 60 seconds. ---> System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-04-25 12:44:24,856 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AuthenticationTest.Authentication_Login_012_ClickSubmitWithoutEmail_2017-04-25-12-44-24.png
+INFO  2017-04-25 12:44:24,856 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:45:11,036 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:45:13,397 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter invalid work email.
+INFO  2017-04-25 12:45:15,639 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2017-04-25 12:45:20,813 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Submit button.
+INFO  2017-04-25 12:45:25,899 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the error message displayed.
+INFO  2017-04-25 12:45:25,899 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2017-04-25 12:46:10,630 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-04-25 12:46:12,925 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Forgot Password link.
+INFO  2017-04-25 12:46:18,312 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2017-04-25 12:46:19,503 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Submit button.
+INFO  2017-04-25 12:46:24,561 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Resend Email button is displayed.
+INFO  2017-04-25 12:46:24,561 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

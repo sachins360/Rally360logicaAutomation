@@ -1,0 +1,20 @@
+[START]
+INFO  2016-12-16 15:29:50,615 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-16 15:30:22,124 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2016-12-16 15:30:27,490 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2016-12-16 15:30:37,747 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2016-12-16 15:30:45,012 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-16-15-30-41.png
+ERROR 2016-12-16 15:30:47,002 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[contains(text(), 'marketplace__search-filter')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 63
+INFO  2016-12-16 15:30:47,303 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.MarketplaceTest.Marketplace_003_VerifyMyProjectsSearch_2016-12-16-15-30-47.png
+INFO  2016-12-16 15:30:47,303 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

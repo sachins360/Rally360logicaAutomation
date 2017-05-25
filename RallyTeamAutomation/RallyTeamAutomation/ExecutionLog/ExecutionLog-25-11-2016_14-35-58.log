@@ -1,0 +1,25 @@
+[START]
+INFO  2016-11-25 14:36:33,381 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-25 14:37:23,491 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2016-11-25 14:37:25,779 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2016-11-25 14:37:30,892 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Users tab.
+INFO  2016-11-25 14:37:33,168 [Worker#STA_NP] TestScripts.BaseTest - Click Invite Users button.
+INFO  2016-11-25 14:37:38,306 [Worker#STA_NP] TestScripts.BaseTest - Click Email button.
+INFO  2016-11-25 14:37:43,564 [Worker#STA_NP] TestScripts.BaseTest - Enter Email Address.
+INFO  2016-11-25 14:37:45,769 [Worker#STA_NP] TestScripts.BaseTest - Click Send Invites button.
+INFO  2016-11-25 14:37:50,934 [Worker#STA_NP] TestScripts.BaseTest - Click Finish button.
+INFO  2016-11-25 14:38:05,394 [Worker#STA_NP] TestScripts.BaseTest - Navigate to the mailinator site.
+INFO  2016-11-25 14:38:11,589 [Worker#STA_NP] TestScripts.BaseTest - Enter email address.
+INFO  2016-11-25 14:38:15,605 [Worker#STA_NP] TestScripts.BaseTest - Click Go button.
+INFO  2016-11-25 14:38:20,668 [Worker#STA_NP] TestScripts.BaseTest - Click the Email Sender.
+INFO  2016-11-25 14:38:31,455 [Worker#STA_NP] TestScripts.BaseTest - Navigate to the Email Link.
+INFO  2016-11-25 14:38:36,606 [Worker#STA_NP] TestScripts.BaseTest - Enter First Name on the screen.
+INFO  2016-11-25 14:38:38,787 [Worker#STA_NP] TestScripts.BaseTest - Enter Last Name on the screen.
+INFO  2016-11-25 14:38:40,922 [Worker#STA_NP] TestScripts.BaseTest - Click SignUp button on the screen.
+INFO  2016-11-25 14:38:46,234 [Worker#STA_NP] TestScripts.BaseTest - Enter Create a Password field on the screen.
+INFO  2016-11-25 14:38:48,409 [Worker#STA_NP] TestScripts.BaseTest - Enter Confirm Password field on the screen.
+INFO  2016-11-25 14:38:50,571 [Worker#STA_NP] TestScripts.BaseTest - Click Next button on the screen.
+INFO  2016-11-25 14:38:55,656 [Worker#STA_NP] TestScripts.BaseTest - Verify the We Just Sent You An Email message.
+INFO  2016-11-25 14:38:56,732 [Worker#STA_NP] TestScripts.BaseTest - Verify Resend Email button.
+INFO  2016-11-25 14:38:58,735 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

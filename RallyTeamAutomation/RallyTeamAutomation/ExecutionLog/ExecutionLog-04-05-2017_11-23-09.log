@@ -1,0 +1,22 @@
+[START]
+INFO  2017-05-04 11:24:02,848 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 11:24:22,666 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 11:24:34,025 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 11:24:42,712 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 11:24:54,216 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 11:24:57,442 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 11:25:09,669 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 11:25:17,967 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-04 11:25:21,529 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-05-04 11:25:26,754 [Worker#STA_NP] TestScripts.BaseTestES - Change Project Owner.
+INFO  2017-05-04 11:25:29,990 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-05-04 11:25:37,360 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 11:25:51,256 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 11:25:56,365 [Worker#STA_NP] TestScripts.BaseTestES - Verify the short notification on the Notification Window.
+INFO  2017-05-04 11:25:57,676 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 11:26:04,790 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Assigned Notification.
+INFO  2017-05-04 11:28:07,143 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-04-11-28-06.png
+ERROR 2017-05-04 11:28:07,146 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'Ammar Khan assigned RandomProjectHAIUVB to you.')]) to be displayed but did not.
+INFO  2017-05-04 11:28:07,382 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_001_ProjectAssignment_2017-05-04-11-28-07.png
+INFO  2017-05-04 11:28:07,383 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

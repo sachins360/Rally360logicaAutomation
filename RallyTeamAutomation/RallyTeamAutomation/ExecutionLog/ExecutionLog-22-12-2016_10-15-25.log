@@ -1,0 +1,20 @@
+[START]
+INFO  2016-12-22 10:16:34,832 [14] TestScripts.BaseTestES - Setup test
+INFO  2016-12-22 10:16:46,033 [14] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-22 10:16:51,346 [14] TestScripts.BaseTestES - Click New Message button.
+INFO  2016-12-22 10:16:56,694 [14] TestScripts.BaseTestES - Enter the user email.
+INFO  2016-12-22 10:17:00,996 [14] TestScripts.BaseTestES - Enter the message.
+INFO  2016-12-22 10:17:03,161 [14] TestScripts.BaseTestES - Click Send button.
+INFO  2016-12-22 10:17:12,647 [14] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-22 10:17:34,655 [14] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-22 10:18:43,065 [14] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-22 10:19:03,592 [14] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-22 10:19:11,640 [14] TestScripts.BaseTestES - Click New Message button.
+INFO  2016-12-22 10:19:24,140 [14] TestScripts.BaseTestES - Enter the user email.
+INFO  2016-12-22 10:19:35,330 [14] TestScripts.BaseTestES - Enter the message.
+INFO  2016-12-22 10:19:41,969 [14] TestScripts.BaseTestES - Click Send button.
+INFO  2016-12-22 10:20:32,714 [14] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-22 10:20:41,338 [14] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-22 10:28:44,372 [14] TestScripts.BaseTestES - //Verify the Message Counter has increased
+INFO  2016-12-22 10:28:49,239 [14] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,7 @@
+[START]
+INFO  2017-05-23 11:29:13,424 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-23 11:31:40,728 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-23-11-31-40.png
+ERROR 2017-05-23 11:31:40,731 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//form[@name= 'projectWizard1']//div[3]//span[contains(text(), 'fr-placeholder')]"}
+INFO  2017-05-23 11:31:40,917 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_002_PostANewProject_2017-05-23-11-31-40.png
+INFO  2017-05-23 11:31:40,917 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,25 @@
+[START]
+INFO  2017-04-20 12:09:35,230 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 12:09:58,784 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-20 12:10:00,945 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-20 12:10:03,140 [Worker#STA_NP] TestScripts.BaseTestES - Click Start Date Field.
+INFO  2017-04-20 12:10:04,245 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-04-20 12:10:06,419 [Worker#STA_NP] TestScripts.BaseTestES - Select Ongoing check-box.
+INFO  2017-04-20 12:10:08,668 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 12:10:20,150 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 12:10:20,316 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-20 12:10:22,543 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-20 12:10:25,778 [Worker#STA_NP] TestScripts.BaseTestES - Select Staff.
+INFO  2017-04-20 12:10:27,977 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-20 12:10:29,206 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 12:10:41,620 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 12:10:49,789 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-20 12:11:35,642 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 12:11:55,096 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 12:12:06,422 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 12:12:15,068 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 12:12:26,741 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 12:12:30,064 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 12:12:42,404 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 12:12:55,729 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

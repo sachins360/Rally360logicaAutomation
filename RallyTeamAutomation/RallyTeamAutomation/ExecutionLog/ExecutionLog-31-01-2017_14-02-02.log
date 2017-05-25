@@ -1,0 +1,13 @@
+[START]
+INFO  2017-01-31 14:02:46,782 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-31 14:03:02,732 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-31 14:03:08,689 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-31 14:03:12,849 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-31 14:03:15,108 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-01-31 14:03:18,314 [Worker#STA_NP] TestScripts.BaseTest - Enter New Message in the text area.
+INFO  2017-01-31 14:03:20,575 [Worker#STA_NP] TestScripts.BaseTest - Click on Send button.
+INFO  2017-01-31 14:05:24,449 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-31-14-05-23.png
+ERROR 2017-01-31 14:05:24,475 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[text() ='Message Conversation']) to be displayed but did not.
+INFO  2017-01-31 14:05:25,075 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.People_004_SendMessageAndVerify_2017-01-31-14-05-24.png
+INFO  2017-01-31 14:05:25,075 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

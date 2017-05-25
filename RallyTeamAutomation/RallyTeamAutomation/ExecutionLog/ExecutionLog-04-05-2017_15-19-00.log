@@ -1,0 +1,33 @@
+[START]
+INFO  2017-05-04 15:19:42,612 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 15:20:02,450 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 15:20:13,979 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 15:20:22,648 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 15:20:34,134 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 15:20:37,366 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 15:20:49,698 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 15:20:59,244 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 15:21:16,946 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-05-04 15:21:27,325 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2017-05-04 15:21:33,334 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2017-05-04 15:21:34,570 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2017-05-04 15:21:35,785 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-05-04 15:21:38,168 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2017-05-04 15:21:39,611 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2017-05-04 15:21:42,270 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2017-05-04 15:21:44,873 [Worker#STA_NP] TestScripts.BaseTestES - Click Submit button.
+INFO  2017-05-04 15:21:52,366 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 15:22:04,732 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 15:22:09,925 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Requires Approval short notification on the Notification Window.
+INFO  2017-05-04 15:22:11,306 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 15:22:18,460 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Invoice Requires Approval Notification on Notifications Page.
+INFO  2017-05-04 15:22:19,628 [Worker#STA_NP] TestScripts.BaseTestES - Verify Invoice Requires Approval notification subject on the Notifications Page.
+INFO  2017-05-04 15:22:22,312 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-05-04 15:22:33,028 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-05-04 15:22:35,782 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-05-04 15:22:51,476 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-05-04 15:22:59,731 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-04 15:23:03,296 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-05-04 15:23:07,711 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-05-04 15:23:07,714 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

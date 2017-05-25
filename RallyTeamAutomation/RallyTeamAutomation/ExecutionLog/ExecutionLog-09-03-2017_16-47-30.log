@@ -1,0 +1,20 @@
+[START]
+INFO  2017-03-09 16:48:38,406 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-09 16:49:39,076 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-09 16:49:46,476 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-09 16:49:50,614 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-09 16:50:08,007 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-09-16-50-00.png
+ERROR 2017-03-09 16:50:16,042 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@title= 'opp-status']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 74
+INFO  2017-03-09 16:50:16,936 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_007_InvoiceRequiresApproval_2017-03-09-16-50-16.png
+INFO  2017-03-09 16:50:16,936 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

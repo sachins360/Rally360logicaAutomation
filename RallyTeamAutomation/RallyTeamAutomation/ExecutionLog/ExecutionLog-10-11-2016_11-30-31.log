@@ -1,0 +1,15 @@
+[START]
+INFO  2016-11-10 11:31:39,092 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 11:31:49,556 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-10 11:31:55,980 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-10 11:32:02,571 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-11-10 11:32:06,791 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-11-10 11:32:10,135 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-11-10 11:32:13,306 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-11-10 11:32:18,724 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-10 11:32:24,779 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2016-11-10 11:34:27,786 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-11-34-27.png
+ERROR 2016-11-10 11:34:27,811 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class='chat-activity-list']//div[2]//a[contains(text(), 'Event for Activity'])) to be displayed but did not.
+INFO  2016-11-10 11:34:28,314 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_009_VerifyEventCreateActivity_2016-11-10-11-34-28.png
+INFO  2016-11-10 11:34:28,314 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

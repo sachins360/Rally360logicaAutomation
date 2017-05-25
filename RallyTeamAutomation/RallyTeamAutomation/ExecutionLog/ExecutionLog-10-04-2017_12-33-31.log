@@ -1,0 +1,14 @@
+[START]
+INFO  2017-04-10 12:34:35,569 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-10 12:35:17,525 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-10 12:35:19,835 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-10 12:35:21,078 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 12:35:48,422 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-10 12:35:54,888 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-10 12:35:56,332 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-10 12:35:58,716 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-10 12:36:02,081 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-10 12:36:04,579 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-10 12:36:10,163 [Worker#STA_NP] TestScripts.BaseTestES - Enter members email id.
+INFO  2017-04-10 12:36:11,588 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-10 12:36:14,963 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.

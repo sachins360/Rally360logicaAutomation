@@ -1,0 +1,29 @@
+[START]
+INFO  2017-02-17 17:35:13,854 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-17 17:35:27,448 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-17 17:35:30,121 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-17 17:35:35,699 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-17 17:35:41,772 [Worker#STA_NP] TestScripts.BaseTestES - Click Create a Profile button.
+INFO  2017-02-17 17:35:46,958 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name.
+INFO  2017-02-17 17:35:49,167 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name.
+INFO  2017-02-17 17:35:51,610 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email.
+INFO  2017-02-17 17:35:53,876 [Worker#STA_NP] TestScripts.BaseTestES - Enter Title.
+INFO  2017-02-17 17:35:56,169 [Worker#STA_NP] TestScripts.BaseTestES - Enter About Me.
+INFO  2017-02-17 17:35:58,598 [Worker#STA_NP] TestScripts.BaseTestES - Enter My Top Skills.
+INFO  2017-02-17 17:36:02,976 [Worker#STA_NP] TestScripts.BaseTestES - Enter Other Skills.
+INFO  2017-02-17 17:36:08,552 [Worker#STA_NP] TestScripts.BaseTestES - Enter Industry / Domain Expertise.
+INFO  2017-02-17 17:36:12,788 [Worker#STA_NP] TestScripts.BaseTestES - Enter Languages.
+INFO  2017-02-17 17:36:16,952 [Worker#STA_NP] TestScripts.BaseTestES - Enter Interested In.
+INFO  2017-02-17 17:36:21,283 [Worker#STA_NP] TestScripts.BaseTestES - Enter LinkedIn Url.
+INFO  2017-02-17 17:36:23,657 [Worker#STA_NP] TestScripts.BaseTestES - Enter Phone.
+INFO  2017-02-17 17:36:26,024 [Worker#STA_NP] TestScripts.BaseTestES - Enter Address.
+INFO  2017-02-17 17:36:28,313 [Worker#STA_NP] TestScripts.BaseTestES - Enter City.
+INFO  2017-02-17 17:36:30,489 [Worker#STA_NP] TestScripts.BaseTestES - Enter State/Province.
+INFO  2017-02-17 17:36:32,789 [Worker#STA_NP] TestScripts.BaseTestES - Enter Postal Code.
+INFO  2017-02-17 17:36:35,133 [Worker#STA_NP] TestScripts.BaseTestES - Enter Country.
+INFO  2017-02-17 17:37:20,219 [Worker#STA_NP] TestScripts.BaseTestES - Click on Create Button
+INFO  2017-02-17 17:39:29,981 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-17-17-39-27.png
+ERROR 2017-02-17 17:39:30,062 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'WCSHUG WCSHUG')]) to be displayed but did not.
+INFO  2017-02-17 17:39:33,865 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_007_CreateProfile_2017-02-17-17-39-33.png
+INFO  2017-02-17 17:39:33,865 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

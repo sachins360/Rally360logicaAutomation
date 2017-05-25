@@ -1,0 +1,9 @@
+[START]
+INFO  2017-03-03 15:34:17,923 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-03 15:34:50,920 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-03-15-34-45.png
+ERROR 2017-03-03 15:34:57,609 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: Cannot locate element with text: Anup Kunmar (anupk@360logica)
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 74
+INFO  2017-03-03 15:35:01,177 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_001_ProjectAssignment_2017-03-03-15-35-00.png
+INFO  2017-03-03 15:35:01,177 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

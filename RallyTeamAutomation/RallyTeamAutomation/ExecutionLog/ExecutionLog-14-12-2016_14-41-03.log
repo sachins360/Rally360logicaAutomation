@@ -1,0 +1,4 @@
+[START]
+INFO  2016-12-14 14:41:53,766 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-14 14:42:17,282 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

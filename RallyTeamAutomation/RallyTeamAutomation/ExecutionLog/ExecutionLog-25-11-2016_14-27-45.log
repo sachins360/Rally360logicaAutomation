@@ -1,0 +1,19 @@
+[START]
+INFO  2016-11-25 14:28:28,996 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-25 14:29:12,010 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2016-11-25 14:29:14,299 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2016-11-25 14:29:19,608 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Users tab.
+INFO  2016-11-25 14:29:21,835 [Worker#STA_NP] TestScripts.BaseTest - Click Invite Users button.
+INFO  2016-11-25 14:29:26,978 [Worker#STA_NP] TestScripts.BaseTest - Click Email button.
+INFO  2016-11-25 14:29:32,340 [Worker#STA_NP] TestScripts.BaseTest - Enter Email Address.
+INFO  2016-11-25 14:29:34,471 [Worker#STA_NP] TestScripts.BaseTest - Click Send Invites button.
+INFO  2016-11-25 14:29:39,597 [Worker#STA_NP] TestScripts.BaseTest - Click Finish button.
+INFO  2016-11-25 14:29:53,153 [Worker#STA_NP] TestScripts.BaseTest - Navigate to the mailinator site.
+INFO  2016-11-25 14:29:59,346 [Worker#STA_NP] TestScripts.BaseTest - Enter email address.
+INFO  2016-11-25 14:30:03,576 [Worker#STA_NP] TestScripts.BaseTest - Click Go button.
+INFO  2016-11-25 14:30:08,638 [Worker#STA_NP] TestScripts.BaseTest - Verify the Email Sender.
+INFO  2016-11-25 14:30:10,662 [Worker#STA_NP] TestScripts.BaseTest - Verify the Email Subject.
+INFO  2016-11-25 14:30:12,723 [Worker#STA_NP] TestScripts.BaseTest - Click the Email Sender.
+INFO  2016-11-25 14:30:19,931 [Worker#STA_NP] TestScripts.BaseTest - Click the Let's Rally Button.
+INFO  2016-11-25 14:30:19,933 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

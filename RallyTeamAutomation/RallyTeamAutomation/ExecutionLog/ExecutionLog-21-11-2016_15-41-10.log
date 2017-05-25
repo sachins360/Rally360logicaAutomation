@@ -1,0 +1,7 @@
+[START]
+INFO  2016-11-21 15:42:52,986 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-21 15:45:12,416 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-21-15-45-03.png
+ERROR 2016-11-21 15:45:12,822 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[text()='RallyNow']) to be displayed but did not.
+INFO  2016-11-21 15:45:14,799 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_001_VerifyGroupsOption_2016-11-21-15-45-14.png
+INFO  2016-11-21 15:45:14,799 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

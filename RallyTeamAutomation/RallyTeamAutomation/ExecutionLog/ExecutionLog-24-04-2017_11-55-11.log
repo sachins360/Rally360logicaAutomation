@@ -1,0 +1,15 @@
+[START]
+INFO  2017-04-24 11:55:59,435 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 11:56:11,111 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-04-24 11:56:17,484 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-04-24 11:56:23,379 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-04-24 11:56:28,322 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-04-24 11:56:30,601 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-04-24 11:56:38,894 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 11:56:42,641 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-04-24 11:56:48,859 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-04-24 11:56:54,176 [Worker#STA_NP] TestScripts.BaseTestES - Click on the message received by the user
+INFO  2017-04-24 11:56:59,684 [Worker#STA_NP] TestScripts.BaseTestES - Enter the reply message.
+INFO  2017-04-24 11:57:02,919 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-04-24 11:57:07,920 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

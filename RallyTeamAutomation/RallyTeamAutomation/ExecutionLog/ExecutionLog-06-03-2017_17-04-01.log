@@ -1,0 +1,17 @@
+[START]
+INFO  2017-03-06 17:05:09,415 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-06 17:05:53,620 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-06 17:06:02,504 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-06 17:06:06,749 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-06 17:06:16,813 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-06 17:06:30,701 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-06 17:06:35,839 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Added to Project short notification on the Notification Window.
+INFO  2017-03-06 17:06:37,200 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-03-06 17:06:44,299 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Added to Project Notification on Notifications Page.
+INFO  2017-03-06 17:06:45,405 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Added to Project notification subject on the Notifications Page.
+INFO  2017-03-06 17:06:49,750 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-06 17:07:07,043 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-03-06 17:07:09,974 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-03-06 17:07:25,512 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-03-06 17:07:41,924 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

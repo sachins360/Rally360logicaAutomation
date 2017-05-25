@@ -1,0 +1,9 @@
+[START]
+INFO  2016-12-19 17:16:11,446 [14] TestScripts.BaseTestES - Setup test
+INFO  2016-12-19 17:16:34,041 [14] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2016-12-19 17:16:39,290 [14] TestScripts.BaseTestES - Click New Message button.
+INFO  2016-12-19 17:16:44,680 [14] TestScripts.BaseTestES - Enter the user email.
+INFO  2016-12-19 17:16:49,020 [14] TestScripts.BaseTestES - Enter the message.
+INFO  2016-12-19 17:16:51,194 [14] TestScripts.BaseTestES - Click Send button.
+INFO  2016-12-19 17:17:01,676 [14] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-19 17:17:17,476 [14] TestScripts.BaseTestES - Sign in with different user.

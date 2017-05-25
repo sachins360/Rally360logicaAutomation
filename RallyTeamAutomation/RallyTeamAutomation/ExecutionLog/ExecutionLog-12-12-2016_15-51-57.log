@@ -1,0 +1,31 @@
+[START]
+INFO  2016-12-12 15:52:30,383 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-12 15:52:43,334 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-12 15:53:02,821 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-12 15:53:11,475 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-12 15:53:25,542 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-12 15:53:30,701 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-12 15:53:33,831 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-12-12 15:55:37,461 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-12-15-55-36.png
+ERROR 2016-12-12 15:55:37,487 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'rt-kanban-row rt-kanban-row--body']//div[1]//li[contains(@class, 'rt-kanban-task-item')]//span[text()='Task for UserRYRI']) to be displayed but did not.
+INFO  2016-12-12 15:55:37,874 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_037_AddTaskUnderProjectAndAssignToSelf_2016-12-12-15-55-37.png
+INFO  2016-12-12 15:55:37,875 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-12 15:56:10,788 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-12 15:56:35,223 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-12 15:56:55,082 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-12 15:57:03,540 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-12 15:57:10,201 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-12 15:57:15,150 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-12 15:57:18,362 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-12-12 15:57:20,794 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_039_AddTaskUnderProjectAndAssignToSelfInProgress_2016-12-12-15-57-20.png
+INFO  2016-12-12 15:57:20,794 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-12 15:57:48,440 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-12 15:58:00,928 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-12 15:58:20,581 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-12 15:58:29,266 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-12 15:58:36,418 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-12 15:58:41,567 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-12 15:58:44,766 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-12-12 15:58:47,107 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.TasksTest.Tasks_041_AddTaskUnderProjectAndAssignToSelfComplete_2016-12-12-15-58-46.png
+INFO  2016-12-12 15:58:47,107 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

@@ -1,0 +1,8 @@
+[START]
+INFO  2016-11-11 11:51:01,533 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-11 11:51:07,078 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2016-11-11 11:51:09,502 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2016-11-11 11:51:12,217 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2016-11-11 11:51:14,291 [Worker#STA_NP] TestScripts.BaseTest - Verify Edit Profile Window displayed.
+INFO  2016-11-11 11:51:14,295 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

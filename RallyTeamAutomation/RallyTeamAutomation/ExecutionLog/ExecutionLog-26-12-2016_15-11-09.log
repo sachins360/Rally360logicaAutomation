@@ -1,0 +1,21 @@
+[START]
+INFO  2016-12-26 15:11:48,081 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-26 15:12:33,347 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-26 15:12:41,823 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-26 15:12:44,998 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-26 15:12:51,192 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-26 15:12:55,424 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-26 15:12:58,692 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-26 15:13:12,225 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-26 15:13:15,873 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-26 15:13:23,229 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2016-12-26 15:13:28,338 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2016-12-26 15:13:33,580 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2016-12-26 15:13:34,651 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2016-12-26 15:13:35,725 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2016-12-26 15:13:37,878 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2016-12-26 15:15:39,393 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-26-15-15-38.png
+ERROR 2016-12-26 15:15:39,426 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//placeholder[@= 'Enter notes for this invoice']"}
+INFO  2016-12-26 15:15:40,254 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_001_CreateDraftInvoice_2016-12-26-15-15-40.png
+INFO  2016-12-26 15:15:40,254 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

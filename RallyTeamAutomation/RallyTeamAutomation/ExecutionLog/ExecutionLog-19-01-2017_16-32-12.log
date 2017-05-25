@@ -1,0 +1,12 @@
+[START]
+INFO  2017-01-19 16:32:22,005 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-19 16:33:07,172 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-19 16:33:13,229 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-19 16:33:16,922 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-01-19 16:33:22,921 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-19 16:33:35,754 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-19 16:33:39,488 [Worker#STA_NP] TestScripts.BaseTestES - Select Recommended Projects from the drop-down.
+INFO  2017-01-19 16:33:52,174 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-19 16:33:53,189 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.MarketplaceTest.Marketplace_006_VerifyRecommendedProjectsSearch_2017-01-19-16-33-52.png
+INFO  2017-01-19 16:33:53,213 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

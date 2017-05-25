@@ -1,0 +1,16 @@
+[START]
+INFO  2017-02-09 17:19:57,561 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-09 17:20:16,532 [Worker#STA_NP] TestScripts.BaseTestES - Select the Private Project check-box.
+INFO  2017-02-09 17:20:24,869 [Worker#STA_NP] TestScripts.BaseTestES - Click the private icon of the project.
+INFO  2017-02-09 17:20:34,886 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-02-09 17:20:42,970 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-02-09 17:20:50,313 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-02-09 17:20:51,605 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-02-09 17:20:59,300 [Worker#STA_NP] TestScripts.BaseTestES - Click Project displayed.
+INFO  2017-02-09 17:21:07,466 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-02-09 17:21:19,844 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-02-09 17:21:27,153 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-02-09 17:21:28,578 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-02-09 17:21:37,213 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-02-09 17:21:53,703 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

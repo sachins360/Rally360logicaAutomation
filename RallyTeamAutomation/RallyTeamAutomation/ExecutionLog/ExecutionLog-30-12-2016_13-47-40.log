@@ -1,0 +1,68 @@
+[START]
+INFO  2016-12-30 13:48:34,971 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 13:48:46,971 [Worker#STA_NP] TestScripts.BaseTest - Verify Search menu icon
+INFO  2016-12-30 13:48:46,973 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 13:49:33,680 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 13:51:44,391 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-13-51-43.png
+ERROR 2016-12-30 13:51:44,420 [Worker#STA_NP] Util.DriverExtender - Unable to send text to element: {"method":"Name","selector":"searchTerm"}
+INFO  2016-12-30 13:51:44,865 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_002_SearchLoggedInUser_2016-12-30-13-51-44.png
+INFO  2016-12-30 13:51:44,865 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 13:52:17,390 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 13:52:31,280 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 13:54:39,230 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-13-54-38.png
+ERROR 2016-12-30 13:54:39,924 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"optionsRadios1"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<Id>c__AnonStorey0.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2016-12-30 13:54:40,672 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_008_VerifyForZeroResult_2016-12-30-13-54-40.png
+INFO  2016-12-30 13:54:40,672 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 13:55:16,803 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 13:57:25,977 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-13-57-25.png
+ERROR 2016-12-30 13:57:25,977 [Worker#STA_NP] Util.DriverExtender - Unable to send text to element: {"method":"Name","selector":"searchTerm"}
+INFO  2016-12-30 13:57:26,309 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_009_VerifySearchScreenDisplay_2016-12-30-13-57-26.png
+INFO  2016-12-30 13:57:26,310 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 13:58:05,064 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 14:00:14,320 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-14-00-14.png
+ERROR 2016-12-30 14:00:14,320 [Worker#STA_NP] Util.DriverExtender - Unable to send text to element: {"method":"Name","selector":"searchTerm"}
+INFO  2016-12-30 14:00:14,550 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_012_VerifyAllRadio_2016-12-30-14-00-14.png
+INFO  2016-12-30 14:00:14,551 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 14:00:47,661 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 14:00:56,056 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-30 14:01:02,446 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-30 14:01:17,362 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 14:03:25,102 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-14-03-24.png
+ERROR 2016-12-30 14:03:25,102 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"optionsRadios3"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<Id>c__AnonStorey0.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2016-12-30 14:03:25,317 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_013_VerifyGroupRadio_2016-12-30-14-03-25.png
+INFO  2016-12-30 14:03:25,317 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 14:03:56,236 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 14:06:09,837 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-14-06-09.png
+ERROR 2016-12-30 14:06:09,837 [Worker#STA_NP] Util.DriverExtender - Unable to send text to element: {"method":"Name","selector":"searchTerm"}
+INFO  2016-12-30 14:06:10,043 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_014_VerifyUserRadio_2016-12-30-14-06-09.png
+INFO  2016-12-30 14:06:10,043 [Worker#STA_NP] TestScripts.BaseTest - Teardown test

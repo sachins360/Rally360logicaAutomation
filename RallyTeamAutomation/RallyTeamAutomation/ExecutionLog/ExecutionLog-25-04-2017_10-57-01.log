@@ -1,0 +1,12 @@
+[START]
+INFO  2017-04-25 10:57:50,425 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 10:58:10,369 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-25 10:58:21,925 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-25 10:58:30,884 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-25 10:58:34,161 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-25 10:58:46,509 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-25 10:58:53,711 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-04-25 10:58:56,562 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 10:58:58,966 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.PeopleES_006_EndorseUserAwesomeRating_2017-04-25-10-58-58.png
+INFO  2017-04-25 10:58:58,970 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

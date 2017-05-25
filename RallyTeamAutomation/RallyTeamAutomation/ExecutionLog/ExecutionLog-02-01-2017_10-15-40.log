@@ -1,0 +1,64 @@
+[START]
+INFO  2017-01-02 10:16:39,311 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:16:46,831 [Worker#STA_NP] TestScripts.BaseTest - Verify Search menu icon
+INFO  2017-01-02 10:16:46,833 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 10:17:42,924 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:17:53,616 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-02 10:17:59,763 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search Page is displayed.
+INFO  2017-01-02 10:18:00,810 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2017-01-02 10:18:02,812 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 10:18:33,288 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:18:40,162 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-02 10:18:46,283 [Worker#STA_NP] TestScripts.BaseTest - Verify zero results displayed.
+INFO  2017-01-02 10:18:48,283 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 10:19:30,808 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:19:40,933 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-02 10:21:47,616 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-10-21-47.png
+ERROR 2017-01-02 10:21:47,645 [Worker#STA_NP] Util.AssertHelper - Expected element (By.Name: search) to be displayed but did not.
+INFO  2017-01-02 10:21:48,411 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_009_VerifySearchScreenDisplay_2017-01-02-10-21-47.png
+INFO  2017-01-02 10:21:48,411 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 10:22:27,353 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:22:35,221 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2017-01-02 10:22:41,561 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2017-01-02 10:22:56,515 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-02 10:25:03,454 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-10-25-03.png
+ERROR 2017-01-02 10:25:03,454 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'GrpXEYBA') and @class='highlightedText']) to be displayed but did not.
+INFO  2017-01-02 10:25:03,630 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_013_VerifyGroupRadio_2017-01-02-10-25-03.png
+INFO  2017-01-02 10:25:03,630 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 10:25:40,419 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:25:50,193 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-02 10:25:56,277 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 10:26:42,033 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:26:50,476 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2017-01-02 10:26:54,825 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2017-01-02 10:26:58,977 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2017-01-02 10:27:02,159 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2017-01-02 10:27:05,289 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2017-01-02 10:27:09,438 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-02 10:27:15,578 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2017-01-02 10:27:18,780 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Events'
+INFO  2017-01-02 10:27:22,908 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2017-01-02 10:27:26,035 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2017-01-02 10:27:29,437 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2017-01-02 10:27:34,579 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2017-01-02 10:27:35,761 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2017-01-02 10:27:37,884 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2017-01-02 10:27:39,884 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 10:28:18,699 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:28:33,230 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 10:28:51,224 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-02 10:28:57,400 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2017-01-02 10:29:06,708 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 10:29:09,774 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2017-01-02 10:29:13,122 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 10:29:23,502 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 10:30:18,067 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:30:24,801 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-02 10:30:30,905 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search Page is displayed.
+INFO  2017-01-02 10:32:32,605 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-02-10-32-32.png
+ERROR 2017-01-02 10:32:32,605 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //h2[contains(text(), 'What can we help you find?')]) to be displayed but did not.
+INFO  2017-01-02 10:32:33,480 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_022_SearchEmptyData_2017-01-02-10-32-32.png
+INFO  2017-01-02 10:32:33,480 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 10:33:10,927 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 10:33:25,277 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 10:33:40,170 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.

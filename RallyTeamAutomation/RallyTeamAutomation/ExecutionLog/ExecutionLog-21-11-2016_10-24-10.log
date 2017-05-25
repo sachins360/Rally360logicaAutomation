@@ -1,0 +1,53 @@
+[START]
+INFO  2016-11-21 10:25:39,933 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-21 10:26:16,326 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-21 10:26:16,373 [Worker#STA_NP] TestScripts.BaseTest - Verify Activity Feed Page is displayed.
+INFO  2016-11-21 10:26:18,376 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-21 10:26:58,932 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-21 10:27:17,312 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-21 10:27:38,619 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-21 10:27:41,680 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-11-21 10:27:43,882 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-11-21 10:27:51,492 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-21 10:27:57,650 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-21 10:28:00,743 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-21 10:28:03,311 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-21 10:28:14,557 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-21 10:28:45,674 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-21 10:29:02,887 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-21 10:29:24,062 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-21 10:29:27,110 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-11-21 10:29:29,286 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-11-21 10:29:43,238 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-21 10:29:49,401 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-21 10:29:52,490 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-21 10:29:55,013 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-21 10:30:05,813 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-21 10:30:43,537 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-21 10:31:00,984 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-21 10:31:22,142 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-21 10:31:25,206 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-11-21 10:31:27,358 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-11-21 10:31:39,697 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-21 10:31:45,858 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-21 10:31:48,933 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-21 10:31:51,420 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-21 10:32:01,965 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-21 10:32:42,576 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-21 10:32:56,241 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-11-21 10:33:02,530 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-21 10:33:08,879 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-11-21 10:33:13,116 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-11-21 10:33:16,402 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-11-21 10:33:19,577 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-11-21 10:33:24,948 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-11-21 10:33:31,012 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2016-11-21 10:33:33,056 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2016-11-21 10:33:36,390 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-21 10:33:42,531 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2016-11-21 10:33:45,664 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2016-11-21 10:33:49,064 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-11-21 10:33:54,246 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-11-21 10:33:55,390 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-11-21 10:33:57,507 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-11-21 10:33:59,508 [Worker#STA_NP] TestScripts.BaseTest - Teardown test

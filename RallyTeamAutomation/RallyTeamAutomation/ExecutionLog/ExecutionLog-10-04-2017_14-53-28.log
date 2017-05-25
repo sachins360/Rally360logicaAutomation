@@ -1,0 +1,18 @@
+[START]
+INFO  2017-04-10 14:54:19,027 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-10 14:54:39,613 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 14:54:51,127 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-10 14:54:51,354 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-10 14:55:03,535 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-10 14:55:28,287 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-10 14:55:33,261 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-10 14:55:38,397 [Worker#STA_NP] TestScripts.BaseTestES - Verify General Tab on Edit Page
+INFO  2017-04-10 14:55:39,574 [Worker#STA_NP] TestScripts.BaseTestES - Verify Staffing Info Tab on Edit Page
+INFO  2017-04-10 14:55:46,197 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Staffing Info Tab.
+INFO  2017-04-10 14:55:57,742 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-10 14:55:58,099 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-10 14:56:03,397 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Name on About page
+INFO  2017-04-10 14:56:04,531 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Description on About page
+INFO  2017-04-10 14:56:05,679 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Skills on About page
+INFO  2017-04-10 14:56:06,681 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

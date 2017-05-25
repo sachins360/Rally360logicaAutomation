@@ -1,0 +1,15 @@
+[START]
+INFO  2016-11-28 11:51:41,077 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-28 11:52:01,268 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-28 11:52:19,230 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 11:52:25,356 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 11:52:31,441 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-28 11:52:36,889 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-28 11:52:43,031 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Closed'
+INFO  2016-11-28 11:52:46,319 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 11:52:52,447 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 11:52:55,512 [Worker#STA_NP] TestScripts.BaseTest - Select 'Closed' option from the All Projects dropdown.
+INFO  2016-11-28 11:53:00,546 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2016-11-28 11:53:02,981 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-28 11:53:16,379 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

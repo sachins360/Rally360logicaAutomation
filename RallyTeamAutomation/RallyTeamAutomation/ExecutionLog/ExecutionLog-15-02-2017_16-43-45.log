@@ -1,0 +1,12 @@
+[START]
+INFO  2017-02-15 16:45:13,907 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-02-15 16:45:34,483 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2017-02-15 16:45:40,995 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2017-02-15 16:45:56,907 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-02-15 16:46:03,183 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2017-02-15 16:46:06,428 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2017-02-15 16:46:17,134 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2017-02-15 16:46:18,315 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2017-02-15 16:46:20,479 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2017-02-15 16:46:22,482 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

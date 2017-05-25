@@ -1,0 +1,8 @@
+[START]
+INFO  2017-01-06 16:22:52,401 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-06 16:23:03,765 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-06 16:25:11,125 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-06-16-25-08.png
+ERROR 2017-01-06 16:25:11,716 [Worker#STA_NP] Util.DriverExtender - Unable to send text to element: {"method":"XPath","selector":"//form[contains(@class, 'rt-user-search')]//input[contains(@class, 'rt-user-search')]"}
+INFO  2017-01-06 16:25:13,234 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.People_012_VerifyLoggedInUser_2017-01-06-16-25-12.png
+INFO  2017-01-06 16:25:13,235 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

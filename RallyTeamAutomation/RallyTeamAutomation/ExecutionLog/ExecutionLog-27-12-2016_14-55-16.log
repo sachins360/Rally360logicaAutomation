@@ -1,0 +1,201 @@
+[START]
+INFO  2016-12-27 14:56:15,012 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 14:56:25,212 [Worker#STA_NP] TestScripts.BaseTest - Verify Projects menu icon
+INFO  2016-12-27 14:56:25,214 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 14:57:05,219 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 14:57:32,745 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 14:57:49,710 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 14:57:55,919 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 14:57:59,031 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-27 15:00:02,087 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-27-15-00-01.png
+ERROR 2016-12-27 15:00:02,090 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'Test Public ProjectXJFS')]) to be displayed but did not.
+INFO  2016-12-27 15:00:02,908 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_005_VerifyIHavePostedProjects_2016-12-27-15-00-02.png
+INFO  2016-12-27 15:00:02,908 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:00:31,542 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:00:52,960 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:01:09,907 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:01:16,098 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:01:19,164 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2016-12-27 15:01:21,215 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2016-12-27 15:01:24,281 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:01:36,744 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:02:12,302 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:02:33,220 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:02:51,557 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:02:57,790 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:03:00,880 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-27 15:03:06,704 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:03:12,905 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'In Progress'
+INFO  2016-12-27 15:03:19,404 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:03:25,621 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:03:28,726 [Worker#STA_NP] TestScripts.BaseTest - Select 'In Progress' option from the All Projects dropdown.
+INFO  2016-12-27 15:03:33,781 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2016-12-27 15:03:36,412 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:03:51,787 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:04:25,146 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:04:45,983 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:05:03,449 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:05:09,694 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:05:12,839 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-27 15:05:18,568 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:05:24,823 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Completed'
+INFO  2016-12-27 15:05:29,984 [Worker#STA_NP] TestScripts.BaseTest - Click Mark Complete button.
+INFO  2016-12-27 15:05:36,377 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:05:42,551 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:05:45,629 [Worker#STA_NP] TestScripts.BaseTest - Select 'Completed' option from the All Projects dropdown.
+INFO  2016-12-27 15:05:50,675 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2016-12-27 15:05:54,788 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:06:09,366 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:06:37,887 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:06:58,846 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:07:15,807 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:07:21,998 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:07:28,152 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-27 15:07:34,138 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:07:40,385 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Closed'
+INFO  2016-12-27 15:07:43,697 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:07:49,848 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:07:52,926 [Worker#STA_NP] TestScripts.BaseTest - Select 'Closed' option from the All Projects dropdown.
+INFO  2016-12-27 15:07:57,964 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2016-12-27 15:08:00,949 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:08:13,408 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:08:40,772 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:09:01,424 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:09:24,249 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-27 15:09:28,104 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-27 15:11:29,984 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-27-15-11-29.png
+ERROR 2016-12-27 15:11:30,001 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav']//span[text()= 'Projects']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 395
+INFO  2016-12-27 15:11:30,308 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_011_VerifyJoiningOptionForRecruitingProject_2016-12-27-15-11-30.png
+INFO  2016-12-27 15:11:30,308 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:12:01,389 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:12:22,702 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:12:39,336 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:12:45,613 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:12:48,733 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-27 15:12:51,359 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:12:55,538 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'In Progress'
+INFO  2016-12-27 15:13:04,924 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-27 15:13:08,670 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-27 15:15:10,453 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-27-15-15-10.png
+ERROR 2016-12-27 15:15:10,454 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav']//span[text()= 'Projects']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 395
+INFO  2016-12-27 15:15:10,727 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_012_VerifyJoiningOptionForInProgressProject_2016-12-27-15-15-10.png
+INFO  2016-12-27 15:15:10,727 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:15:46,744 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:16:14,281 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:16:31,517 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:16:37,689 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:16:40,801 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-27 15:16:43,577 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:16:47,760 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Completed'
+INFO  2016-12-27 15:16:50,906 [Worker#STA_NP] TestScripts.BaseTest - Click Mark Complete button.
+INFO  2016-12-27 15:17:01,106 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-27 15:17:04,829 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-27 15:19:06,627 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-27-15-19-06.png
+ERROR 2016-12-27 15:19:06,628 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav']//span[text()= 'Projects']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 395
+INFO  2016-12-27 15:19:06,980 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_013_VerifyJoiningOptionForCompletedProject_2016-12-27-15-19-06.png
+INFO  2016-12-27 15:19:06,980 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:19:44,614 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:20:05,320 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:20:22,355 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:20:28,511 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:20:31,575 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-27 15:22:03,863 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:22:08,343 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Closed'
+INFO  2016-12-27 15:22:17,847 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-27 15:22:21,798 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-27 15:24:23,298 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-27-15-24-23.png
+ERROR 2016-12-27 15:24:23,299 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav']//span[text()= 'Projects']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 395
+INFO  2016-12-27 15:24:24,255 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_014_VerifyJoiningOptionForClosedProject_2016-12-27-15-24-23.png
+INFO  2016-12-27 15:24:24,255 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:25:11,360 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:25:33,135 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:25:55,539 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-27 15:25:59,095 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-27 15:28:01,015 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-27-15-28-00.png
+ERROR 2016-12-27 15:28:01,016 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav']//span[text()= 'Projects']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 395
+INFO  2016-12-27 15:28:01,307 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_015_VerifyNoJoiningOptionForRecruitingProject_2016-12-27-15-28-01.png
+INFO  2016-12-27 15:28:01,307 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-27 15:28:30,463 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-27 15:28:51,614 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-27 15:29:07,682 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-27 15:29:13,971 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-27 15:29:17,146 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-27 15:29:19,861 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-27 15:29:24,064 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'In Progress'
+INFO  2016-12-27 15:29:33,531 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-27 15:29:37,409 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.

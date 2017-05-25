@@ -1,0 +1,14 @@
+[START]
+INFO  2016-12-22 16:04:43,082 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-22 16:04:50,975 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-22 16:04:54,270 [Worker#STA_NP] TestScripts.BaseTestES - Clickthe Advance Search hyperlink.
+INFO  2016-12-22 16:04:56,349 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Name.
+INFO  2016-12-22 16:04:57,405 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Skills Needed.
+INFO  2016-12-22 16:04:58,446 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Job Function.
+INFO  2016-12-22 16:04:59,527 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Location.
+INFO  2016-12-22 16:05:00,568 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Industry/Domain Expertise.
+INFO  2016-12-22 16:05:01,611 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Endorsed By.
+INFO  2016-12-22 16:05:02,654 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Availability.
+INFO  2016-12-22 16:05:03,737 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Type.
+INFO  2016-12-22 16:05:04,740 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

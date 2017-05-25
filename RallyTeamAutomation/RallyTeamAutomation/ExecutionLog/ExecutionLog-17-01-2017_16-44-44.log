@@ -1,0 +1,19 @@
+[START]
+INFO  2017-01-17 16:46:04,053 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-01-17 16:46:37,532 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2017-01-17 16:46:40,958 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2017-01-17 16:46:43,375 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2017-01-17 16:46:46,085 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2017-01-17 16:46:50,297 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2017-01-17 16:46:56,793 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2017-01-17 16:47:01,055 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2017-01-17 16:47:03,203 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2017-01-17 16:47:25,240 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2017-01-17 16:47:30,646 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2017-01-17 16:47:42,448 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Sender.
+INFO  2017-01-17 16:47:57,176 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the Email Link.
+INFO  2017-01-17 16:48:04,641 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter registered work email.
+INFO  2017-01-17 16:48:06,853 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2017-01-17 16:48:09,337 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Let's Go button.
+INFO  2017-01-17 16:48:16,341 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

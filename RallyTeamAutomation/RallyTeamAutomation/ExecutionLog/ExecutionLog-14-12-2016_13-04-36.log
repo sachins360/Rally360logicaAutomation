@@ -1,0 +1,7 @@
+[START]
+INFO  2016-12-14 13:05:36,181 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-14 13:08:00,468 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-14-13-08-00.png
+ERROR 2016-12-14 13:08:00,492 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@name='description']"}
+INFO  2016-12-14 13:08:00,878 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProject.PostProject_002_PostANewProject_2016-12-14-13-08-00.png
+INFO  2016-12-14 13:08:00,878 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

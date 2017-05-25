@@ -1,0 +1,117 @@
+[START]
+INFO  2017-01-03 12:09:27,991 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:09:39,238 [Worker#STA_NP] TestScripts.BaseTest - Verify People menu icon
+INFO  2017-01-03 12:09:39,240 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:10:02,884 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:10:10,966 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 12:10:14,311 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search text.
+INFO  2017-01-03 12:10:16,357 [Worker#STA_NP] TestScripts.BaseTest - Verify the Advance Search Link.
+INFO  2017-01-03 12:10:19,575 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-03 12:10:24,009 [Worker#STA_NP] TestScripts.BaseTest - Verify User Container is displayed.
+INFO  2017-01-03 12:10:26,059 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-03 12:10:28,100 [Worker#STA_NP] TestScripts.BaseTest - Verify Message button is displayed.
+INFO  2017-01-03 12:10:30,153 [Worker#STA_NP] TestScripts.BaseTest - Verify View Profile button is displayed.
+INFO  2017-01-03 12:10:32,154 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:10:50,671 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:10:58,557 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 12:11:02,914 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-03 12:11:06,997 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-03 12:11:09,436 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-01-03 12:13:13,278 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-13-12.png
+ERROR 2017-01-03 12:13:13,297 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'modal-content']//div[contains(text(), 'New Message')]) to be displayed but did not.
+INFO  2017-01-03 12:13:13,640 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.People_003_ClickMessageAndVerify_2017-01-03-12-13-13.png
+INFO  2017-01-03 12:13:13,640 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:13:33,138 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:13:41,286 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 12:13:45,473 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-03 12:13:49,608 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-03 12:13:51,935 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-01-03 12:13:55,132 [Worker#STA_NP] TestScripts.BaseTest - Enter New Message in the text area.
+INFO  2017-01-03 12:15:57,742 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-15-57.png
+ERROR 2017-01-03 12:15:57,821 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[text() ='Send']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-03 12:15:58,158 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.People_004_SendMessageAndVerify_2017-01-03-12-15-57.png
+INFO  2017-01-03 12:15:58,159 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:16:35,800 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:16:43,745 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 12:16:47,898 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-03 12:16:52,035 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-03 12:16:54,458 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-01-03 12:16:57,513 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile User Name.
+INFO  2017-01-03 12:16:59,611 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Message button.
+INFO  2017-01-03 12:17:01,690 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile About Me.
+INFO  2017-01-03 12:17:03,794 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Skills & Endorsements.
+INFO  2017-01-03 12:17:05,871 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Industry/Domain Expertise.
+INFO  2017-01-03 12:17:07,939 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Languages.
+INFO  2017-01-03 12:17:10,036 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Interests.
+INFO  2017-01-03 12:17:12,141 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile Projects.
+INFO  2017-01-03 12:17:14,143 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:17:51,874 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:18:04,913 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 12:18:08,385 [Worker#STA_NP] TestScripts.BaseTest - Clickthe Advance Search hyperlink.
+INFO  2017-01-03 12:18:10,441 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Name.
+INFO  2017-01-03 12:18:11,484 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Skills Needed.
+INFO  2017-01-03 12:18:12,571 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Job Function.
+INFO  2017-01-03 12:18:13,652 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Location.
+INFO  2017-01-03 12:18:14,737 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Industry/Domain Expertise.
+INFO  2017-01-03 12:18:15,822 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Endorsed By.
+INFO  2017-01-03 12:18:16,899 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Availability.
+INFO  2017-01-03 12:18:17,984 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Type.
+INFO  2017-01-03 12:18:18,985 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:18:50,875 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:18:58,772 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 12:21:03,580 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-21-03.png
+ERROR 2017-01-03 12:21:03,581 [Worker#STA_NP] Util.DriverExtender - Unable to send text to element: {"method":"XPath","selector":"//form[contains(@class, 'rt-user-search')]//input[contains(@class, 'rt-user-search')]"}
+INFO  2017-01-03 12:21:03,884 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.People_012_VerifyLoggedInUser_2017-01-03-12-21-03.png
+INFO  2017-01-03 12:21:03,884 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:21:30,727 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:21:38,925 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 12:21:43,102 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-03 12:21:47,268 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-03 12:21:49,692 [Worker#STA_NP] TestScripts.BaseTest - Click on View Profile button.
+INFO  2017-01-03 12:21:52,880 [Worker#STA_NP] TestScripts.BaseTest - Click on User Profile Message button.
+INFO  2017-01-03 12:23:56,498 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-23-56.png
+ERROR 2017-01-03 12:23:56,498 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'modal-content']//div[contains(text(), 'New Message')]) to be displayed but did not.
+INFO  2017-01-03 12:23:56,732 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.People_018_ClickUserProfileMessageAndVerify_2017-01-03-12-23-56.png
+INFO  2017-01-03 12:23:56,732 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 12:24:23,516 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 12:24:32,462 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 12:24:36,640 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-03 12:24:40,825 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-03 12:24:43,405 [Worker#STA_NP] TestScripts.BaseTest - Click on View Profile button.
+INFO  2017-01-03 12:24:46,613 [Worker#STA_NP] TestScripts.BaseTest - Click on User Profile Message button.
+INFO  2017-01-03 12:24:50,459 [Worker#STA_NP] TestScripts.BaseTest - Enter New Message in the text area.
+INFO  2017-01-03 12:26:53,299 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-12-26-52.png
+ERROR 2017-01-03 12:26:53,300 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[text() ='Send']"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-03 12:26:53,544 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.People_019_SendUserProfileMessageAndVerify_2017-01-03-12-26-53.png
+INFO  2017-01-03 12:26:53,544 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

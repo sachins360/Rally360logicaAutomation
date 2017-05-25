@@ -1,0 +1,11 @@
+[START]
+INFO  2017-03-06 14:21:18,431 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-06 14:21:54,481 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-06 14:22:10,922 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-03-06 14:22:13,240 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-03-06 14:22:28,836 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-03-06 14:22:33,999 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-03-06 14:22:47,223 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-06 14:23:01,937 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_002_ProjectOwnerPendingJoinRequest_2017-03-06-14-23-01.png
+INFO  2017-03-06 14:23:02,006 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

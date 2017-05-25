@@ -1,0 +1,20 @@
+[START]
+INFO  2017-05-15 10:55:55,823 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 10:56:09,684 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 10:56:12,087 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 10:56:17,406 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-05-15 10:56:27,515 [Worker#STA_NP] TestScripts.BaseTestES - Verify Close Icon.
+INFO  2017-05-15 10:56:28,566 [Worker#STA_NP] TestScripts.BaseTestES - Verify Maybe Later Option.
+INFO  2017-05-15 10:56:29,633 [Worker#STA_NP] TestScripts.BaseTestES - Verify CSV button.
+INFO  2017-05-15 10:56:30,703 [Worker#STA_NP] TestScripts.BaseTestES - Verify Email button.
+INFO  2017-05-15 10:56:31,768 [Worker#STA_NP] TestScripts.BaseTestES - Verify Create Profile button.
+INFO  2017-05-15 10:56:31,769 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 10:57:07,070 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 10:57:20,627 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_002_SendAndVerifyInviteEmail_2017-05-15-10-57-20.png
+INFO  2017-05-15 10:57:20,631 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 10:57:59,263 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 10:58:14,359 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_003_OnboardWithInvitedUser_2017-05-15-10-58-14.png
+INFO  2017-05-15 10:58:14,359 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 10:58:49,381 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 10:59:02,865 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_004_SendAndVerifyInviteEmailMultipleUsers_2017-05-15-10-59-02.png
+INFO  2017-05-15 10:59:02,865 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test

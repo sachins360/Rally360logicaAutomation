@@ -1,0 +1,13 @@
+[START]
+INFO  2016-12-28 17:05:27,278 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-28 17:05:59,099 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-28 17:06:07,410 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-28 17:06:10,544 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-28 17:06:20,726 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-28 17:06:24,935 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-28 17:06:28,066 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-28 17:06:40,308 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-28 17:06:43,842 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-28 17:06:45,891 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_010_RequestFeedback_2016-12-28-17-06-44.png
+INFO  2016-12-28 17:06:45,923 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,14 @@
+[START]
+INFO  2016-12-29 11:33:25,122 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-29 11:33:53,652 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-29 11:34:15,840 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-29 11:34:19,438 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-29 11:34:22,206 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-29 11:34:28,346 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-29 11:34:31,435 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2016-12-29 11:34:33,888 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-29 11:34:38,147 [Worker#STA_NP] TestScripts.BaseTest - Click Request To Join button doisplayed on screen.
+INFO  2016-12-29 11:34:48,228 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-29 11:34:48,771 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_020_VerifyLeaveProjectOption_2016-12-29-11-34-48.png
+INFO  2016-12-29 11:34:48,811 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

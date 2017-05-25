@@ -1,0 +1,18 @@
+[START]
+INFO  2017-04-24 16:52:59,387 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 16:53:19,599 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 16:53:31,024 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-24 16:53:39,760 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 16:53:51,213 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 16:53:54,432 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 16:54:06,651 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-24 16:54:15,973 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 16:54:33,165 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-24 16:54:35,513 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-04-24 16:54:50,858 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-24 16:54:56,008 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-04-24 16:55:08,240 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 16:55:22,047 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-04-24 16:55:27,134 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Join Request short notification on the Notification Window.
+INFO  2017-04-24 16:55:28,413 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-04-24 16:55:35,515 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Join Request  Notification.

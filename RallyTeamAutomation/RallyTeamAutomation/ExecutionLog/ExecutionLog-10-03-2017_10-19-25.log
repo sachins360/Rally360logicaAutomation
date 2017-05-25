@@ -1,0 +1,19 @@
+[START]
+INFO  2017-03-10 10:20:22,369 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-10 10:21:02,097 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-10 10:21:09,411 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-10 10:21:13,941 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-10 10:21:26,234 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-10 10:21:43,125 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-03-10 10:21:53,275 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2017-03-10 10:21:58,542 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2017-03-10 10:21:59,729 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2017-03-10 10:22:00,830 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-03-10 10:22:02,995 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2017-03-10 10:22:04,893 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-10-10-22-04.png
+ERROR 2017-03-10 10:22:06,028 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: Cannot locate element with text: NotificationsProjectIEHTJD
+   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 74
+INFO  2017-03-10 10:22:06,312 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_007_InvoiceRequiresApproval_2017-03-10-10-22-06.png
+INFO  2017-03-10 10:22:06,312 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

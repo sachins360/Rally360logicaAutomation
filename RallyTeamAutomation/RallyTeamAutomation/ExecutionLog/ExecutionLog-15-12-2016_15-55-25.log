@@ -1,0 +1,9 @@
+[START]
+INFO  2016-12-15 15:55:47,445 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-15 15:56:23,352 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-15 15:56:26,815 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-15 15:58:33,132 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-15-15-58-32.png
+ERROR 2016-12-15 15:58:33,159 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[contains(text(), 'What kind of project are you looking for?')]"}
+INFO  2016-12-15 15:58:33,920 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProject.PostProject_011_RequestToJoinProject_2016-12-15-15-58-33.png
+INFO  2016-12-15 15:58:33,920 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

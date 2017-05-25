@@ -1,0 +1,70 @@
+[START]
+INFO  2017-01-02 11:54:40,108 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 11:55:12,144 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 11:55:29,304 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 11:55:35,464 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 11:55:38,540 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2017-01-02 11:55:44,128 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 11:55:50,404 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Completed'
+INFO  2017-01-02 11:55:55,537 [Worker#STA_NP] TestScripts.BaseTest - Click Mark Complete button.
+INFO  2017-01-02 11:56:01,865 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 11:56:07,997 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 11:56:11,128 [Worker#STA_NP] TestScripts.BaseTest - Select 'Completed' option from the All Projects dropdown.
+INFO  2017-01-02 11:56:16,173 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2017-01-02 11:56:18,713 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 11:56:33,160 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 11:57:45,757 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 11:58:10,265 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 11:58:26,590 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 11:58:32,763 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 11:58:35,903 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2017-01-02 11:58:41,410 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 11:58:48,825 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'In Progress'
+INFO  2017-01-02 11:58:58,314 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 11:59:02,102 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 11:59:04,940 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 11:59:11,082 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 11:59:14,242 [Worker#STA_NP] TestScripts.BaseTest - Select In Progress option from the All Projects dropdown.
+INFO  2017-01-02 11:59:19,863 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 11:59:23,985 [Worker#STA_NP] TestScripts.BaseTest - Verify Request To Join button doisplayed on screen.
+INFO  2017-01-02 11:59:33,351 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 11:59:38,147 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 11:59:44,390 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 11:59:47,486 [Worker#STA_NP] TestScripts.BaseTest - Select 'In Progress' option from the All Projects dropdown.
+INFO  2017-01-02 11:59:51,048 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:00:03,661 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:00:47,060 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:01:20,005 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:01:36,576 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:01:42,722 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:01:45,863 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2017-01-02 12:01:48,583 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:01:53,282 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'In Progress'
+INFO  2017-01-02 12:02:02,801 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:02:07,448 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-02 12:02:08,682 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:02:14,797 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:02:17,899 [Worker#STA_NP] TestScripts.BaseTest - Select In Progress option from the All Projects dropdown.
+INFO  2017-01-02 12:02:21,003 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:02:25,128 [Worker#STA_NP] TestScripts.BaseTest - Click Request To Join button doisplayed on screen.
+INFO  2017-01-02 12:02:31,259 [Worker#STA_NP] TestScripts.BaseTest - Verify Request Sent button doisplayed on screen.
+INFO  2017-01-02 12:02:41,396 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-02 12:02:46,165 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:02:52,300 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:02:55,348 [Worker#STA_NP] TestScripts.BaseTest - Select 'In Progress' option from the All Projects dropdown.
+INFO  2017-01-02 12:02:58,863 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:03:11,635 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-02 12:04:06,883 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 12:04:27,454 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-02 12:04:44,746 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:04:50,907 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:04:54,039 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2017-01-02 12:04:56,671 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:05:00,858 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'In Progress'
+INFO  2017-01-02 12:05:04,091 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-02 12:05:10,232 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-02 12:05:13,326 [Worker#STA_NP] TestScripts.BaseTest - Select 'In Progress' option from the All Projects dropdown.
+INFO  2017-01-02 12:05:15,357 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2017-01-02 12:05:17,745 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-02 12:05:31,524 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

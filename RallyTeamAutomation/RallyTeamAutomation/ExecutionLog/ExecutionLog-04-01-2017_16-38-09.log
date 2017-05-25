@@ -1,0 +1,18 @@
+[START]
+INFO  2017-01-04 16:38:35,571 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 16:38:46,848 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 16:38:52,116 [Worker#STA_NP] TestScripts.BaseTestES - Click Send Announcement button.
+INFO  2017-01-04 16:38:57,199 [Worker#STA_NP] TestScripts.BaseTestES - Select a Group.
+INFO  2017-01-04 16:38:57,455 [Worker#STA_NP] TestScripts.BaseTestES - Enter the announcement.
+INFO  2017-01-04 16:38:59,601 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 16:39:11,910 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 16:39:15,442 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-04 16:39:20,511 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Received Modal is displayed.
+INFO  2017-01-04 16:39:21,570 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Received Header is displayed.
+INFO  2017-01-04 16:39:22,623 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Received is displayed.
+INFO  2017-01-04 16:39:23,676 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Modal Close button is displayed.
+INFO  2017-01-04 16:39:24,717 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Modal Close icon is displayed.
+INFO  2017-01-04 16:39:25,758 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Modal Contact Sender is displayed.
+INFO  2017-01-04 16:39:26,867 [Worker#STA_NP] TestScripts.BaseTestES - Click Announcement Modal Close button is displayed.
+INFO  2017-01-04 16:39:26,869 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

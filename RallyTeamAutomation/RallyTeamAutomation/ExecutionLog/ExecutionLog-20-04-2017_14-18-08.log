@@ -1,0 +1,19 @@
+[START]
+INFO  2017-04-20 14:18:56,790 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 14:19:17,159 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 14:19:28,540 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 14:19:37,281 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 14:19:48,752 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 14:19:51,956 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 14:20:04,179 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 14:20:12,365 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2017-04-20 14:20:17,574 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating for user1
+INFO  2017-04-20 14:20:19,832 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating for user2
+INFO  2017-04-20 14:20:22,059 [Worker#STA_NP] TestScripts.BaseTestES - Click Complete Project button.
+INFO  2017-04-20 14:20:29,155 [Worker#STA_NP] TestScripts.BaseTestES - Verify Update Metrics button on About Page.
+INFO  2017-04-20 14:20:30,231 [Worker#STA_NP] TestScripts.BaseTestES - Verify Completed Status on About Page.
+INFO  2017-04-20 14:20:34,429 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 14:20:37,638 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-04-20 14:20:40,817 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-04-20 14:20:40,820 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

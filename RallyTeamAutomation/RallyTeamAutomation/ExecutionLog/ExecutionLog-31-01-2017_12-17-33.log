@@ -1,0 +1,11 @@
+[START]
+INFO  2017-01-31 12:18:15,970 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-31 12:18:23,521 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-31 12:18:25,942 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-31 12:18:28,773 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-31 12:18:30,966 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Profile Builder button.
+INFO  2017-01-31 12:20:36,702 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-31-12-20-36.png
+ERROR 2017-01-31 12:20:36,803 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'Profile Builder')]) to be displayed but did not.
+INFO  2017-01-31 12:20:37,312 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.UserProfile_028_VerifyProfileBuilderFields_2017-01-31-12-20-37.png
+INFO  2017-01-31 12:20:37,312 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

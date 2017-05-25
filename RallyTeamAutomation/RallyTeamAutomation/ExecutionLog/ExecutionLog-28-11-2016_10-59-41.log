@@ -1,0 +1,5 @@
+[START]
+INFO  2016-11-28 11:01:33,197 [14] TestScripts.BaseTest - Setup test
+INFO  2016-11-28 11:02:13,454 [14] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-28 11:04:23,973 [14] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-28-11-04-17.png
+ERROR 2016-11-28 11:04:24,584 [14] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//*[contains(@class, 'form-control') and @name='abstract']"}

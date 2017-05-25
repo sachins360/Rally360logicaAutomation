@@ -1,0 +1,12 @@
+[START]
+INFO  2017-03-15 14:41:28,566 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-15 14:42:07,091 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-03-15 14:42:17,365 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-03-15 14:42:22,010 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-03-15 14:42:35,449 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-15 14:42:49,118 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-03-15 14:42:51,492 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Profile'.
+INFO  2017-03-15 14:42:54,069 [Worker#STA_NP] TestScripts.BaseTestES - Click on Request Feedback button.
+INFO  2017-03-15 14:43:11,026 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_012_UserRequestsFeedback_2017-03-15-14-43-07.png
+INFO  2017-03-15 14:43:11,103 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

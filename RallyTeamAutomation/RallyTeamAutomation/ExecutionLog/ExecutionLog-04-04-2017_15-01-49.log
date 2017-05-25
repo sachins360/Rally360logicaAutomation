@@ -1,0 +1,24 @@
+[START]
+INFO  2017-04-04 15:02:16,534 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-04 15:02:39,011 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-04 15:02:41,140 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-04 15:02:43,308 [Worker#STA_NP] TestScripts.BaseTestES - Click Start Date Field.
+INFO  2017-04-04 15:02:44,382 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-04-04 15:02:46,560 [Worker#STA_NP] TestScripts.BaseTestES - Select Ongoing check-box.
+INFO  2017-04-04 15:02:48,764 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-04 15:03:00,033 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-04 15:03:02,264 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-04 15:03:03,471 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-04 15:03:05,658 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-04 15:03:08,813 [Worker#STA_NP] TestScripts.BaseTestES - Select Staff.
+INFO  2017-04-04 15:03:10,956 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-04 15:03:13,157 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-04 15:03:18,464 [Worker#STA_NP] TestScripts.BaseTestES - Enter members email id.
+INFO  2017-04-04 15:03:19,680 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-04 15:03:22,853 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-04 15:03:32,975 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-04 15:05:40,419 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-04-15-05-40.png
+ERROR 2017-04-04 15:05:40,423 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[text()= 'About']) to be displayed but did not.
+INFO  2017-04-04 15:05:40,831 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_002_PostANewProject_2017-04-04-15-05-40.png
+INFO  2017-04-04 15:05:40,831 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

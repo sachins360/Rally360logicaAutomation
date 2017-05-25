@@ -1,0 +1,6 @@
+[START]
+INFO  2017-02-01 16:22:52,388 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-01 16:23:31,891 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-02-01 16:23:42,134 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-02-01 16:23:45,965 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-02-01 16:23:56,773 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'

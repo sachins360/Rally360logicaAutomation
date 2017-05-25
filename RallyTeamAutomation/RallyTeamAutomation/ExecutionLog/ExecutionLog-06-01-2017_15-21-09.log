@@ -1,0 +1,10 @@
+[START]
+INFO  2017-01-06 15:21:55,915 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-06 15:22:14,433 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-06 15:22:16,476 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Admin'.
+INFO  2017-01-06 15:22:17,784 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-06 15:22:19,985 [Worker#STA_NP] TestScripts.BaseTest - Verify Features tab is displayed.
+INFO  2017-01-06 15:22:21,027 [Worker#STA_NP] TestScripts.BaseTest - Verify Manage Users tab is displayed.
+INFO  2017-01-06 15:22:22,085 [Worker#STA_NP] TestScripts.BaseTest - Verify Groups tab is displayed.
+INFO  2017-01-06 15:22:22,088 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

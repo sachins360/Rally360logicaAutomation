@@ -1,0 +1,17 @@
+[START]
+INFO  2016-11-25 14:31:13,189 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-25 14:31:54,426 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2016-11-25 14:31:56,647 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2016-11-25 14:32:01,800 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Users tab.
+INFO  2016-11-25 14:32:04,026 [Worker#STA_NP] TestScripts.BaseTest - Click Invite Users button.
+INFO  2016-11-25 14:32:09,194 [Worker#STA_NP] TestScripts.BaseTest - Click Email button.
+INFO  2016-11-25 14:32:14,442 [Worker#STA_NP] TestScripts.BaseTest - Enter Email Address.
+INFO  2016-11-25 14:32:16,569 [Worker#STA_NP] TestScripts.BaseTest - Click Send Invites button.
+INFO  2016-11-25 14:32:21,710 [Worker#STA_NP] TestScripts.BaseTest - Click Finish button.
+INFO  2016-11-25 14:32:31,768 [Worker#STA_NP] TestScripts.BaseTest - Navigate to the mailinator site.
+INFO  2016-11-25 14:32:36,934 [Worker#STA_NP] TestScripts.BaseTest - Enter email address.
+INFO  2016-11-25 14:33:11,445 [Worker#STA_NP] TestScripts.BaseTest - Click Go button.
+INFO  2016-11-25 14:33:16,582 [Worker#STA_NP] TestScripts.BaseTest - Click the Email Sender.
+INFO  2016-11-25 14:35:24,556 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InviteUsersTest.InviteUser_003_VerifyInvitationViaEmail_2016-11-25-14-35-24.png
+INFO  2016-11-25 14:35:24,582 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

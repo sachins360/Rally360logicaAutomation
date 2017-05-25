@@ -1,0 +1,29 @@
+[START]
+INFO  2017-01-03 14:17:43,035 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 14:18:16,165 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 14:18:19,323 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Admin'.
+INFO  2017-01-03 14:18:20,761 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-03 14:18:22,982 [Worker#STA_NP] TestScripts.BaseTest - Verify Features tab is displayed.
+INFO  2017-01-03 14:18:24,063 [Worker#STA_NP] TestScripts.BaseTest - Verify Manage Users tab is displayed.
+INFO  2017-01-03 14:18:25,135 [Worker#STA_NP] TestScripts.BaseTest - Verify Groups tab is displayed.
+INFO  2017-01-03 14:18:25,137 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 14:19:53,217 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 14:20:20,811 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-03 14:20:23,583 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Admin'.
+INFO  2017-01-03 14:20:26,102 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Users tab.
+INFO  2017-01-03 14:22:58,586 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-14-22-29.png
+ERROR 2017-01-03 14:22:59,020 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //table[@class='table table-hover']//thead/tr//strong[text()= 'Admin']) to be displayed but did not.
+INFO  2017-01-03 14:23:04,340 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2177_002_VerifyAdminColumn_2017-01-03-14-23-03.png
+INFO  2017-01-03 14:23:04,340 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2017-01-03 14:24:51,183 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-03 14:25:09,836 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2017-01-03 14:25:14,693 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2017-01-03 14:25:21,339 [Worker#STA_NP] TestScripts.BaseTest - Move to user container.
+INFO  2017-01-03 14:25:24,516 [Worker#STA_NP] TestScripts.BaseTest - Click on Message button.
+INFO  2017-01-03 14:25:29,857 [Worker#STA_NP] TestScripts.BaseTest - Click the User Settings Profile button.
+INFO  2017-01-03 14:25:33,180 [Worker#STA_NP] TestScripts.BaseTest - Select 'Edit Profile' from the Settings Profile options.
+INFO  2017-01-03 14:27:36,715 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-03-14-27-36.png
+ERROR 2017-01-03 14:27:36,715 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"Name","selector":"title"}
+INFO  2017-01-03 14:27:37,070 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.UserProfileTest.ENG2177_006_EditOtherUserProfileByAdminUser_2017-01-03-14-27-36.png
+INFO  2017-01-03 14:27:37,070 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

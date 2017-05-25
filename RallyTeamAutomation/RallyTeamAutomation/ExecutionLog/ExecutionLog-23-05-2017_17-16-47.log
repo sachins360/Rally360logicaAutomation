@@ -1,0 +1,14 @@
+[START]
+INFO  2017-05-23 17:17:46,214 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-23 17:18:14,122 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-23 17:18:25,654 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-23 17:18:34,651 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-23 17:18:46,348 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-23 17:18:50,767 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-23 17:19:03,012 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-23 17:19:10,414 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Discussions tab.
+INFO  2017-05-23 17:21:19,109 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-23-17-21-18.png
+ERROR 2017-05-23 17:21:19,113 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//form[@name= 'activityForm']//div[contains(@id, 'taTextElement')]"}
+INFO  2017-05-23 17:21:19,366 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_013_UserMentionedInProject_2017-05-23-17-21-19.png
+INFO  2017-05-23 17:21:19,366 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

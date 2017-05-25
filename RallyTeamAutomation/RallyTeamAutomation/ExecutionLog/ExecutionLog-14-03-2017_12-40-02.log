@@ -1,0 +1,11 @@
+[START]
+INFO  2017-03-14 12:40:37,133 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-14 12:40:58,093 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-03-14 12:41:04,727 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-03-14 12:41:10,309 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-03-14 12:41:14,869 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-03-14 12:41:17,296 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-03-14 12:41:25,609 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-14 12:41:29,176 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-03-14 12:42:14,495 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+[END]

@@ -1,0 +1,7 @@
+[START]
+INFO  2017-03-14 15:09:57,484 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-14 15:10:21,872 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-03-14 15:10:24,903 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Profile'.
+INFO  2017-03-14 15:12:28,245 [Worker#STA_NP] TestScripts.BaseTestES - Verify error message not displayed on opening profile page.
+INFO  2017-03-14 15:12:30,249 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

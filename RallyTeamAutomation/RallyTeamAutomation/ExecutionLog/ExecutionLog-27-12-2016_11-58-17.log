@@ -1,0 +1,29 @@
+[START]
+INFO  2016-12-27 11:59:37,950 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-27 12:00:22,024 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-27 12:00:31,389 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-27 12:00:34,532 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-27 12:00:44,726 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2016-12-27 12:00:48,942 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2016-12-27 12:00:52,086 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2016-12-27 12:01:04,292 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2016-12-27 12:01:08,197 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2016-12-27 12:01:15,497 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2016-12-27 12:01:20,737 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2016-12-27 12:01:26,079 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2016-12-27 12:01:27,189 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2016-12-27 12:01:28,337 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2016-12-27 12:01:30,460 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2016-12-27 12:01:31,685 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2016-12-27 12:01:33,937 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2016-12-27 12:01:36,245 [Worker#STA_NP] TestScripts.BaseTestES - Click Save Draft button.
+INFO  2016-12-27 12:01:41,779 [Worker#STA_NP] TestScripts.BaseTestES - Click Invoice displayed.
+INFO  2016-12-27 12:01:47,058 [Worker#STA_NP] TestScripts.BaseTestES - Delete the Invoice.
+INFO  2016-12-27 12:03:54,640 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-27-12-03-52.png
+ERROR 2016-12-27 12:03:55,072 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 396
+INFO  2016-12-27 12:03:55,327 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.InvoicingTest.Invoicing_007_DeleteDraftInvoice_2016-12-27-12-03-55.png
+INFO  2016-12-27 12:03:55,327 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,8 @@
+[START]
+INFO  2017-04-25 10:11:57,292 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 10:12:07,441 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 10:12:09,834 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 10:12:15,004 [Worker#STA_NP] TestScripts.BaseTestES - Verify Notes column is displayed.
+INFO  2017-04-25 10:12:16,096 [Worker#STA_NP] TestScripts.BaseTestES - Verify View Notes link is displayed.
+INFO  2017-04-25 10:12:16,099 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

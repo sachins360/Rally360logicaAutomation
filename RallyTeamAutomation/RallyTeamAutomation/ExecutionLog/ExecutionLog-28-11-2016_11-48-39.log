@@ -1,0 +1,16 @@
+[START]
+INFO  2016-11-28 11:49:21,522 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-28 11:49:42,100 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-28 11:49:58,046 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 11:50:04,187 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 11:50:07,261 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-28 11:50:12,801 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-28 11:50:19,012 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Completed'
+INFO  2016-11-28 11:50:24,157 [Worker#STA_NP] TestScripts.BaseTest - Click Mark Complete button.
+INFO  2016-11-28 11:50:30,421 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-28 11:50:36,534 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-28 11:50:39,622 [Worker#STA_NP] TestScripts.BaseTest - Select 'Completed' option from the All Projects dropdown.
+INFO  2016-11-28 11:50:45,673 [Worker#STA_NP] TestScripts.BaseTest - Verify the Project Name on the Projects Page.
+INFO  2016-11-28 11:50:48,042 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-28 11:51:02,459 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

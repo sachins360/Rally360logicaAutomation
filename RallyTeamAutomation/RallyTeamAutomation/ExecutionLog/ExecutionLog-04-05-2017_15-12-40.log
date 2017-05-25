@@ -1,0 +1,26 @@
+[START]
+INFO  2017-05-04 15:13:21,532 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 15:13:42,117 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 15:13:53,605 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 15:14:02,425 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 15:14:13,954 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 15:14:17,169 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 15:14:29,610 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 15:14:37,012 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Discussions tab.
+INFO  2017-05-04 15:14:46,561 [Worker#STA_NP] TestScripts.BaseTestES - Enter message in Discussion.
+INFO  2017-05-04 15:14:55,078 [Worker#STA_NP] TestScripts.BaseTestES - Click the Post button for the message.
+INFO  2017-05-04 15:15:04,578 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 15:15:19,044 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 15:15:24,196 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Mentioned In Project WIth All short notification on the Notification Window.
+INFO  2017-05-04 15:15:25,721 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 15:15:32,878 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Mentioned In Project WIth All Notification on Notifications Page.
+INFO  2017-05-04 15:15:34,024 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Mentioned In Project WIth All notification subject on the Notifications Page.
+INFO  2017-05-04 15:15:38,421 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 15:15:55,820 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-05-04 15:15:58,642 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-05-04 15:16:14,203 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-05-04 15:16:22,504 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-04 15:16:25,742 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-05-04 15:16:29,192 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-05-04 15:16:29,197 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

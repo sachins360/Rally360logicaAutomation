@@ -1,0 +1,14 @@
+[START]
+INFO  2016-12-07 17:18:28,955 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-07 17:18:40,742 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-07 17:18:40,791 [Worker#STA_NP] TestScripts.BaseTest - Verify Activity Feed Page is displayed.
+INFO  2016-12-07 17:18:42,794 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-07 17:19:04,280 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-07 17:19:22,550 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-07 17:19:43,904 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-07 17:19:46,979 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-12-07 17:19:49,187 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-12-07 17:19:56,662 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-07 17:20:02,797 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-07 17:20:05,868 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-07 17:20:08,393 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.

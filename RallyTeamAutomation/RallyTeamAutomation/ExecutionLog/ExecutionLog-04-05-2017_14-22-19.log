@@ -1,0 +1,23 @@
+[START]
+INFO  2017-05-04 14:22:57,334 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 14:23:17,776 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 14:23:29,164 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 14:23:37,789 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 14:23:49,199 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 14:23:52,415 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 14:24:04,668 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 14:24:14,087 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 14:24:28,932 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 14:24:34,026 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Added to Project short notification on the Notification Window.
+INFO  2017-05-04 14:24:35,278 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 14:24:42,364 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Added to Project Notification on Notifications Page.
+INFO  2017-05-04 14:24:43,433 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Added to Project notification subject on the Notifications Page.
+INFO  2017-05-04 14:24:47,712 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 14:25:04,853 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-05-04 14:25:07,284 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-05-04 14:25:22,588 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-05-04 14:25:30,817 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-04 14:25:34,033 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-05-04 14:25:37,262 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-05-04 14:25:37,265 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

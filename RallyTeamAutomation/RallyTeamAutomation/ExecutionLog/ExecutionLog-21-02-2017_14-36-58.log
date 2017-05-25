@@ -1,0 +1,20 @@
+[START]
+INFO  2017-02-21 14:37:24,670 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-21 14:37:34,765 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-21 14:37:37,178 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-21 14:37:42,439 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-21 14:37:48,196 [Worker#STA_NP] TestScripts.BaseTestES - Click Create a Profile button.
+INFO  2017-02-21 14:37:53,334 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name.
+INFO  2017-02-21 14:37:55,542 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name.
+INFO  2017-02-21 14:37:57,827 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email.
+INFO  2017-02-21 14:38:00,061 [Worker#STA_NP] TestScripts.BaseTestES - Enter Title.
+INFO  2017-02-21 14:38:02,287 [Worker#STA_NP] TestScripts.BaseTestES - Enter About Me.
+INFO  2017-02-21 14:38:04,666 [Worker#STA_NP] TestScripts.BaseTestES - Enter My Top Skills.
+INFO  2017-02-21 14:38:08,859 [Worker#STA_NP] TestScripts.BaseTestES - Enter Other Skills.
+INFO  2017-02-21 14:38:13,216 [Worker#STA_NP] TestScripts.BaseTestES - Enter Industry / Domain Expertise.
+INFO  2017-02-21 14:38:17,616 [Worker#STA_NP] TestScripts.BaseTestES - Enter Languages.
+INFO  2017-02-21 14:40:22,298 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-02-21-14-40-21.png
+ERROR 2017-02-21 14:40:22,319 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@type='text'])[11]"}
+INFO  2017-02-21 14:40:22,695 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_007_CreateProfile_2017-02-21-14-40-22.png
+INFO  2017-02-21 14:40:22,695 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

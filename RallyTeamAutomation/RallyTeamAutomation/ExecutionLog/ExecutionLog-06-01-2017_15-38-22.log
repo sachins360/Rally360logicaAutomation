@@ -1,0 +1,10 @@
+[START]
+INFO  2017-01-06 15:39:09,184 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-06 15:39:16,201 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-06 15:39:18,664 [Worker#STA_NP] TestScripts.BaseTest - Click User Profile option 'Profile'.
+INFO  2017-01-06 15:39:21,987 [Worker#STA_NP] TestScripts.BaseTest - Click on the Edit Profile Icon.
+INFO  2017-01-06 15:39:24,143 [Worker#STA_NP] TestScripts.BaseTest - Enter empty Edit Profile Window Last Name.
+INFO  2017-01-06 15:39:25,294 [Worker#STA_NP] TestScripts.BaseTest - Click Edit Profile Window Save button.
+INFO  2017-01-06 15:39:27,338 [Worker#STA_NP] TestScripts.BaseTest - Verify Mandatory Field error message is displayed.
+INFO  2017-01-06 15:39:28,339 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

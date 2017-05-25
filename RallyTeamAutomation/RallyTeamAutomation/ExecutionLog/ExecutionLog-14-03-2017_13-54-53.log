@@ -1,0 +1,13 @@
+[START]
+INFO  2017-03-14 13:55:44,755 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-14 13:55:57,811 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-03-14 13:56:03,452 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-03-14 13:56:04,854 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-03-14 13:56:10,179 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2017-03-14 13:56:12,531 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2017-03-14 13:56:16,152 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Message button.
+INFO  2017-03-14 13:58:25,687 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-14-13-58-19.png
+ERROR 2017-03-14 13:58:25,771 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[text() ='About Me']) to be displayed but did not.
+INFO  2017-03-14 13:58:29,395 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.PeopleES_003_ClickViewProfileAndVerify_2017-03-14-13-58-29.png
+INFO  2017-03-14 13:58:29,395 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

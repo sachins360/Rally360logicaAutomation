@@ -1,0 +1,16 @@
+[START]
+INFO  2017-04-24 15:19:44,622 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 15:20:05,157 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 15:20:16,636 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-24 15:20:25,461 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 15:20:37,488 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 15:20:40,926 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 15:20:54,313 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-24 15:21:01,566 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-24 15:21:05,253 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-24 15:21:10,613 [Worker#STA_NP] TestScripts.BaseTestES - Change Project Owner.
+INFO  2017-04-24 15:21:13,911 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-24 15:21:21,484 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 15:21:35,640 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_001_ProjectAssignment_2017-04-24-15-21-35.png
+INFO  2017-04-24 15:21:35,645 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

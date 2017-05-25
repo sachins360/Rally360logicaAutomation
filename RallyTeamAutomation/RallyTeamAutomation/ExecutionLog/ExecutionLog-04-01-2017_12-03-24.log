@@ -1,0 +1,60 @@
+[START]
+INFO  2017-01-04 12:03:55,406 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:04:00,176 [Worker#STA_NP] TestScripts.BaseTestES - Verify Post A Project tab
+INFO  2017-01-04 12:04:00,178 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:04:13,936 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:05:06,856 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:05:31,229 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:05:52,641 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:06:15,015 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:06:36,500 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:06:56,211 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:07:23,609 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2017-01-04 12:07:28,933 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2017-01-04 12:07:34,004 [Worker#STA_NP] TestScripts.BaseTestES - Verify Update Metrics button.
+INFO  2017-01-04 12:07:45,303 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:08:02,466 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:08:31,508 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'In Progress'
+INFO  2017-01-04 12:08:46,859 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:09:21,374 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:09:49,108 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Closed'
+INFO  2017-01-04 12:09:54,149 [Worker#STA_NP] TestScripts.BaseTestES - Verify Update Metrics button.
+INFO  2017-01-04 12:10:05,527 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:10:32,323 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:11:07,195 [Worker#STA_NP] TestScripts.BaseTestES - Edit the Project Name.
+INFO  2017-01-04 12:11:10,371 [Worker#STA_NP] TestScripts.BaseTestES - Edit the Project Location.
+INFO  2017-01-04 12:11:13,598 [Worker#STA_NP] TestScripts.BaseTestES - Edit the Project Owner.
+INFO  2017-01-04 12:11:16,600 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:11:41,812 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:12:18,501 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-01-04 12:12:26,903 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-01-04 12:12:30,178 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-01-04 12:12:34,887 [Worker#STA_NP] TestScripts.BaseTestES - Verified Project member added confirmation message.
+INFO  2017-01-04 12:12:46,264 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:13:26,279 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:14:02,910 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-01-04 12:14:11,520 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-01-04 12:14:14,747 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-01-04 12:16:20,536 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-12-16-19.png
+ERROR 2017-01-04 12:16:20,778 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[2]/div/i"}
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-04 12:16:21,021 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_010_RemoveMemberFromProject_2017-01-04-12-16-20.png
+INFO  2017-01-04 12:16:21,021 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 12:17:01,571 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 12:17:01,881 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_011_RequestToJoinProject_2017-01-04-12-17-01.png
+INFO  2017-01-04 12:17:01,881 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

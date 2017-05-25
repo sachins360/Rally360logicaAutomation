@@ -1,0 +1,16 @@
+[START]
+INFO  2016-11-08 17:04:34,381 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-08 17:04:56,468 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-08 17:05:16,529 [Worker#STA_NP] TestScripts.BaseTest - Click on Project's Discussion tab.
+INFO  2016-11-08 17:05:21,614 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2016-11-08 17:05:25,023 [Worker#STA_NP] TestScripts.BaseTest - Enter message in Discussion.
+INFO  2016-11-08 17:05:30,467 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the message.
+INFO  2016-11-08 17:05:39,852 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-08 17:06:17,311 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-08 17:06:36,987 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-08 17:06:58,221 [Worker#STA_NP] TestScripts.BaseTest - Click on Project's Discussion tab.
+INFO  2016-11-08 17:07:03,296 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2016-11-08 17:07:06,548 [Worker#STA_NP] TestScripts.BaseTest - Enter message in Discussion.
+INFO  2016-11-08 17:07:11,739 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the message.
+INFO  2016-11-08 17:07:21,162 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

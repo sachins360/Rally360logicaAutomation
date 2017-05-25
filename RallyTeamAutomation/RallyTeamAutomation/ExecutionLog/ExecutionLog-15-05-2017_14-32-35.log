@@ -1,0 +1,51 @@
+[START]
+INFO  2017-05-15 14:33:26,237 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 14:33:44,549 [Worker#STA_NP] TestScripts.BaseTestES - Verify Messages icon
+INFO  2017-05-15 14:33:45,780 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-05-15 14:33:48,858 [Worker#STA_NP] TestScripts.BaseTestES - Verify All Messages drop-down is displayed.
+INFO  2017-05-15 14:33:49,928 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Btn is displayed.
+INFO  2017-05-15 14:33:50,999 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send Announcemnet Btn is displayed.
+INFO  2017-05-15 14:33:51,000 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 14:34:48,483 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 14:35:07,376 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-05-15 14:35:13,413 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-05-15 14:35:18,516 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Window is displayed.
+INFO  2017-05-15 14:35:19,591 [Worker#STA_NP] TestScripts.BaseTestES - Verify To label is displayed.
+INFO  2017-05-15 14:35:20,674 [Worker#STA_NP] TestScripts.BaseTestES - Verify To text input is displayed.
+INFO  2017-05-15 14:35:21,753 [Worker#STA_NP] TestScripts.BaseTestES - Verify Text Area is displayed.
+INFO  2017-05-15 14:35:22,861 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send button is displayed.
+INFO  2017-05-15 14:35:23,898 [Worker#STA_NP] TestScripts.BaseTestES - Verify attachment icon is displayed.
+INFO  2017-05-15 14:35:24,936 [Worker#STA_NP] TestScripts.BaseTestES - Verify close icon is displayed.
+INFO  2017-05-15 14:35:24,936 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 14:36:12,521 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 14:36:31,396 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-05-15 14:36:37,172 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-05-15 14:36:43,145 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-05-15 14:36:47,871 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-05-15 14:36:50,120 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-05-15 14:36:55,189 [Worker#STA_NP] TestScripts.BaseTestES - Verify message is successfully posted.
+INFO  2017-05-15 14:36:55,189 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 14:37:38,648 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 14:37:57,369 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-05-15 14:38:03,718 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-05-15 14:38:09,739 [Worker#STA_NP] TestScripts.BaseTestES - Enter the user email.
+INFO  2017-05-15 14:38:14,502 [Worker#STA_NP] TestScripts.BaseTestES - Enter the message.
+INFO  2017-05-15 14:38:16,778 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-05-15 14:38:25,032 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-15 14:38:28,753 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-05-15 14:38:35,122 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-05-15 14:38:40,586 [Worker#STA_NP] TestScripts.BaseTestES - Click on the message received by the user
+INFO  2017-05-15 14:38:46,039 [Worker#STA_NP] TestScripts.BaseTestES - Enter the reply message.
+INFO  2017-05-15 14:38:49,245 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-05-15 14:38:54,247 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 14:39:45,571 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 14:40:04,308 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-05-15 14:40:10,176 [Worker#STA_NP] TestScripts.BaseTestES - Click Send Announcement button.
+INFO  2017-05-15 14:40:15,252 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send Announcement Window is displayed.
+INFO  2017-05-15 14:40:16,343 [Worker#STA_NP] TestScripts.BaseTestES - Verify Group Drop-Down is displayed.
+INFO  2017-05-15 14:40:17,411 [Worker#STA_NP] TestScripts.BaseTestES - Verify Text Area is displayed.
+INFO  2017-05-15 14:40:18,485 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send button is displayed.
+INFO  2017-05-15 14:40:19,517 [Worker#STA_NP] TestScripts.BaseTestES - Verify attachment icon is displayed.
+INFO  2017-05-15 14:40:20,550 [Worker#STA_NP] TestScripts.BaseTestES - Verify close icon is displayed.
+INFO  2017-05-15 14:40:20,550 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

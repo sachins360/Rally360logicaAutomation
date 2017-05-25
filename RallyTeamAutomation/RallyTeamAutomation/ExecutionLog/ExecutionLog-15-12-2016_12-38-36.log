@@ -1,0 +1,16 @@
+[START]
+INFO  2016-12-15 12:39:07,665 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-15 12:39:43,810 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2016-12-15 12:39:52,195 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2016-12-15 12:39:55,352 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2016-12-15 12:40:01,358 [Worker#STA_NP] TestScripts.BaseTestES - Click Project member added remove icon.
+INFO  2016-12-15 12:40:04,493 [Worker#STA_NP] TestScripts.BaseTestES - Click the Remove Project Member window No button.
+INFO  2016-12-15 12:42:07,734 [Worker#STA_NP] TestScripts.BaseTestES - Verified Project member is deleted.
+INFO  2016-12-15 12:44:14,210 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-15-12-44-13.png
+ERROR 2016-12-15 12:44:16,220 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 389
+INFO  2016-12-15 12:44:16,651 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProject.PostProject_010_RemoveMemberFromProject_2016-12-15-12-44-16.png
+INFO  2016-12-15 12:44:16,651 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

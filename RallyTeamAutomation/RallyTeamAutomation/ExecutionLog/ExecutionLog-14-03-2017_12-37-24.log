@@ -1,0 +1,13 @@
+[START]
+INFO  2017-03-14 12:37:51,070 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-14 12:38:02,090 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-03-14 12:38:07,727 [Worker#STA_NP] TestScripts.BaseTestES - Click New Message button.
+INFO  2017-03-14 12:38:12,821 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Window is displayed.
+INFO  2017-03-14 12:38:13,895 [Worker#STA_NP] TestScripts.BaseTestES - Verify To label is displayed.
+INFO  2017-03-14 12:38:14,957 [Worker#STA_NP] TestScripts.BaseTestES - Verify To text input is displayed.
+INFO  2017-03-14 12:38:16,015 [Worker#STA_NP] TestScripts.BaseTestES - Verify Text Area is displayed.
+INFO  2017-03-14 12:38:17,071 [Worker#STA_NP] TestScripts.BaseTestES - Verify Send button is displayed.
+INFO  2017-03-14 12:38:18,104 [Worker#STA_NP] TestScripts.BaseTestES - Verify attachment icon is displayed.
+INFO  2017-03-14 12:38:19,138 [Worker#STA_NP] TestScripts.BaseTestES - Verify close icon is displayed.
+INFO  2017-03-14 12:38:19,142 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

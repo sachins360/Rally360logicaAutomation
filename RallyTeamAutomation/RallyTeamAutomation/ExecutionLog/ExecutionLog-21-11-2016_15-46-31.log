@@ -1,0 +1,5 @@
+[START]
+INFO  2016-11-21 15:47:15,766 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-21 15:47:25,830 [Worker#STA_NP] TestScripts.GroupsTest - Verify group menu icon
+INFO  2016-11-21 15:47:25,834 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

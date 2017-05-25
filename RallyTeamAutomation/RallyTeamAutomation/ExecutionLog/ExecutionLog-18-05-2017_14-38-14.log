@@ -1,0 +1,90 @@
+[START]
+INFO  2017-05-18 14:39:09,233 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:39:27,935 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-18 14:39:30,276 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-18 14:39:35,343 [Worker#STA_NP] TestScripts.BaseTestES - Verify Notes column is displayed.
+INFO  2017-05-18 14:39:36,415 [Worker#STA_NP] TestScripts.BaseTestES - Verify View Notes link is displayed.
+INFO  2017-05-18 14:39:36,418 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:40:33,517 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:40:48,888 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-18 14:40:51,224 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-18 14:40:53,959 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-05-18 14:41:01,330 [Worker#STA_NP] TestScripts.BaseTestES - Click View Notes link.
+INFO  2017-05-18 14:41:05,013 [Worker#STA_NP] TestScripts.BaseTestES - Verify View Notes Window.
+INFO  2017-05-18 14:41:05,013 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:41:55,194 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:42:12,790 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-18 14:42:16,115 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-18 14:42:18,762 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-05-18 14:42:23,098 [Worker#STA_NP] TestScripts.BaseTestES - Click View Notes link.
+INFO  2017-05-18 14:42:26,816 [Worker#STA_NP] TestScripts.BaseTestES - Enter View Notes TextArea.
+INFO  2017-05-18 14:42:29,024 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Note button.
+INFO  2017-05-18 14:42:32,133 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:43:34,364 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:43:51,918 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-05-18 14:43:56,249 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-05-18 14:43:57,520 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-05-18 14:44:07,588 [Worker#STA_NP] TestScripts.BaseTestES - Verify searched user is displayed.
+INFO  2017-05-18 14:44:09,841 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text.
+INFO  2017-05-18 14:44:15,943 [Worker#STA_NP] TestScripts.BaseTestES - Verify searched user is displayed.
+INFO  2017-05-18 14:44:15,944 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:45:20,041 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:45:39,983 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-05-18 14:45:44,302 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-05-18 14:45:45,604 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-05-18 14:45:55,696 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2017-05-18 14:45:57,943 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2017-05-18 14:46:01,039 [Worker#STA_NP] TestScripts.BaseTestES - Verify New Message Window.
+INFO  2017-05-18 14:46:03,040 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:46:55,110 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:47:10,689 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-05-18 14:47:14,979 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2017-05-18 14:47:16,256 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2017-05-18 14:47:26,321 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2017-05-18 14:47:28,643 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2017-05-18 14:47:31,713 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Message button.
+INFO  2017-05-18 14:47:33,782 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Skills & Endorsements.
+INFO  2017-05-18 14:47:35,853 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Languages.
+INFO  2017-05-18 14:47:37,913 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Development Skills.
+INFO  2017-05-18 14:47:39,982 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Projects.
+INFO  2017-05-18 14:47:41,983 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:48:29,593 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:48:44,371 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-05-18 14:48:47,658 [Worker#STA_NP] TestScripts.BaseTestES - Clickthe Advance Search hyperlink.
+INFO  2017-05-18 14:48:49,723 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Name.
+INFO  2017-05-18 14:48:50,787 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Skills Needed.
+INFO  2017-05-18 14:48:51,849 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Job Function.
+INFO  2017-05-18 14:48:52,913 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Location.
+INFO  2017-05-18 14:48:53,978 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Endorsed By.
+INFO  2017-05-18 14:48:55,044 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Availability.
+INFO  2017-05-18 14:48:56,109 [Worker#STA_NP] TestScripts.BaseTestES - Verify Advance Search Type.
+INFO  2017-05-18 14:48:57,110 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:50:01,400 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:50:15,679 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2017-05-18 14:50:18,968 [Worker#STA_NP] TestScripts.BaseTestES - Clickthe Advance Search hyperlink.
+INFO  2017-05-18 14:50:21,226 [Worker#STA_NP] TestScripts.BaseTestES - Enter Advance Search Name.
+INFO  2017-05-18 14:50:22,553 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the Advance Search page.
+INFO  2017-05-18 14:50:27,619 [Worker#STA_NP] TestScripts.BaseTestES - Verify searched user is displayed.
+INFO  2017-05-18 14:50:28,620 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:51:27,192 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:53:54,469 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-18-14-53-54.png
+ERROR 2017-05-18 14:53:54,472 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//div[@placeholder='This project is about...']"}
+INFO  2017-05-18 14:53:54,691 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.PeopleES_006_EndorseUserAwesomeRating_2017-05-18-14-53-54.png
+INFO  2017-05-18 14:53:54,692 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:54:47,208 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 14:57:13,870 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-18-14-57-13.png
+ERROR 2017-05-18 14:57:13,870 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//div[@placeholder='This project is about...']"}
+INFO  2017-05-18 14:57:14,050 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.PeopleES_007_EndorseUserGoodRating_2017-05-18-14-57-13.png
+INFO  2017-05-18 14:57:14,050 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 14:58:26,395 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 15:00:53,058 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-18-15-00-52.png
+ERROR 2017-05-18 15:00:53,058 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//div[@placeholder='This project is about...']"}
+INFO  2017-05-18 15:00:53,253 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.PeopleES_008_EndorseUserNotGoodRating_2017-05-18-15-00-53.png
+INFO  2017-05-18 15:00:53,253 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-18 15:01:50,229 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 15:04:29,313 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-18 15:06:55,635 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-18-15-06-55.png
+ERROR 2017-05-18 15:06:55,635 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//div[@placeholder='This project is about...']"}
+INFO  2017-05-18 15:06:55,799 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.PeopleES_010_RequestFeedback_2017-05-18-15-06-55.png
+INFO  2017-05-18 15:06:55,799 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

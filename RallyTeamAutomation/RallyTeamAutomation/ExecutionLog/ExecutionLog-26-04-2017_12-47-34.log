@@ -1,0 +1,29 @@
+[START]
+INFO  2017-04-26 12:48:24,675 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-26 12:48:35,299 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-26 12:48:37,699 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-26 12:48:43,024 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-26 12:48:48,265 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-26 12:48:53,997 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-26 12:48:56,267 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-26 12:49:02,011 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-26 12:49:11,818 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-26 12:49:19,137 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-26 12:49:28,283 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-04-26 12:49:37,038 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-04-26 12:49:42,403 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-04-26 12:49:44,636 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-04-26 12:49:46,832 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-04-26 12:49:52,119 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-04-26 12:49:54,381 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-04-26 12:49:56,600 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-04-26 12:50:03,743 [Worker#STA_NP] TestScripts.BaseTestES - Verify Get Started button.
+INFO  2017-04-26 12:50:03,934 [Worker#STA_NP] TestScripts.BaseTestES - Click Get Staerted button.
+INFO  2017-04-26 12:50:09,145 [Worker#STA_NP] TestScripts.BaseTestES - Click Next button on LinkedIn Page.
+INFO  2017-04-26 12:50:14,393 [Worker#STA_NP] TestScripts.BaseTestES - Select Expertise.
+INFO  2017-04-26 12:50:16,741 [Worker#STA_NP] TestScripts.BaseTestES - Click Expertise Continue button.
+INFO  2017-04-26 12:52:22,003 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-26-12-52-21.png
+ERROR 2017-04-26 12:52:22,007 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[contains(@placeholder, 'Type in a skill or click on a skill below')]"}
+INFO  2017-04-26 12:52:22,192 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_003_OnboardWithInvitedUser_2017-04-26-12-52-22.png
+INFO  2017-04-26 12:52:22,192 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,24 @@
+[START]
+INFO  2017-02-16 13:05:48,026 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-16 13:06:00,256 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-16 13:06:02,755 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-16 13:06:08,066 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-16 13:06:13,254 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-02-16 13:06:18,650 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-02-16 13:06:19,432 [Worker#STA_NP] TestScripts.BaseTestES - Enter Second Email Address.
+INFO  2017-02-16 13:06:21,993 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-02-16 13:06:27,197 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-02-16 13:06:58,822 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-02-16 13:07:06,244 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-02-16 13:07:17,336 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-02-16 13:07:19,415 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-02-16 13:07:24,427 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-02-16 13:07:29,477 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Get Started Button.
+INFO  2017-02-16 13:07:32,972 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-02-16 13:07:40,255 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-02-16 13:07:49,728 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-02-16 13:07:51,777 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-02-16 13:07:56,357 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-02-16 13:08:01,416 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Get Started Button.
+INFO  2017-02-16 13:08:01,418 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

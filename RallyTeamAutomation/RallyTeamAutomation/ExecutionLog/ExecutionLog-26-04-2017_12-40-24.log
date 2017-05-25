@@ -1,0 +1,32 @@
+[START]
+INFO  2017-04-26 12:41:12,527 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-26 12:41:22,711 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-26 12:41:25,118 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-26 12:41:30,417 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-26 12:41:35,644 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-26 12:41:41,328 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-26 12:41:43,644 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-26 12:41:49,535 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-26 12:42:03,107 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-26 12:42:10,430 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-26 12:42:19,662 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-04-26 12:44:25,564 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-26-12-44-25.png
+ERROR 2017-04-26 12:44:25,589 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'Get Started')]"}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-04-26 12:44:27,031 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_003_OnboardWithInvitedUser_2017-04-26-12-44-25.png
+INFO  2017-04-26 12:44:27,031 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

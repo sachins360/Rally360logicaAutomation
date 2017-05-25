@@ -1,0 +1,19 @@
+[START]
+INFO  2017-01-04 16:33:38,858 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 16:33:49,667 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 16:33:55,028 [Worker#STA_NP] TestScripts.BaseTestES - Click Send Announcement button.
+INFO  2017-01-04 16:34:00,124 [Worker#STA_NP] TestScripts.BaseTestES - Select a Group.
+INFO  2017-01-04 16:34:00,447 [Worker#STA_NP] TestScripts.BaseTestES - Enter the announcement.
+INFO  2017-01-04 16:34:02,567 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 16:34:14,835 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 16:34:18,283 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-04 16:34:23,387 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Received Modal is displayed.
+INFO  2017-01-04 16:34:24,488 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Received Header is displayed.
+INFO  2017-01-04 16:34:25,529 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Received is displayed.
+INFO  2017-01-04 16:34:26,613 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Modal Close button is displayed.
+INFO  2017-01-04 16:34:27,696 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Modal Close icon is displayed.
+INFO  2017-01-04 16:36:29,573 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-16-36-29.png
+ERROR 2017-01-04 16:36:29,593 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'modal-content']//a[contains(text(), 'Contact']) to be displayed but did not.
+INFO  2017-01-04 16:36:29,920 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_007_VerifyAnnouncementReceived_2017-01-04-16-36-29.png
+INFO  2017-01-04 16:36:29,920 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

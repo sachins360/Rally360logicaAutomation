@@ -1,0 +1,8 @@
+[START]
+INFO  2016-11-10 17:03:44,217 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 17:03:55,024 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'.
+INFO  2016-11-10 17:03:59,323 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page.
+INFO  2016-11-10 17:04:04,366 [Worker#STA_NP] TestScripts.BaseTest - Verify the Group Upload Photo option.
+INFO  2016-11-10 17:04:07,589 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Upload Photo option.
+INFO  2016-11-10 17:04:24,522 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

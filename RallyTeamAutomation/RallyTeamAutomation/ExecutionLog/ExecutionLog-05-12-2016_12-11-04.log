@@ -1,0 +1,447 @@
+[START]
+INFO  2016-12-05 12:11:52,782 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:11:58,174 [Worker#STA_NP] TestScripts.GroupsTest - Verify group menu icon
+INFO  2016-12-05 12:11:58,176 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:12:32,828 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:12:51,803 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:12:58,217 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:13:04,488 [Worker#STA_NP] TestScripts.BaseTest - Verify the add new group form window
+INFO  2016-12-05 12:13:13,020 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:13:47,034 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:14:05,048 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'.
+INFO  2016-12-05 12:14:09,317 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page.
+INFO  2016-12-05 12:14:14,361 [Worker#STA_NP] TestScripts.BaseTest - Verify the Group Upload Photo option.
+INFO  2016-12-05 12:14:17,525 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Upload Photo option.
+INFO  2016-12-05 12:16:32,186 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-12-16-30.png
+ERROR 2016-12-05 12:16:32,699 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, 'modal-content')]//a[contains(text(), 'Save')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 12:16:33,027 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_006_VerifyUploadPhoto_2016-12-05-12-16-32.png
+INFO  2016-12-05 12:16:33,028 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:16:59,249 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:17:19,649 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:17:26,008 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:17:32,144 [Worker#STA_NP] TestScripts.BaseTest - Verify the add new group form window
+INFO  2016-12-05 12:18:00,840 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:18:02,064 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:18:04,181 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:18:08,182 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:18:30,668 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:18:41,519 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:18:47,928 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:18:54,040 [Worker#STA_NP] TestScripts.BaseTest - Verify the add new group form window
+INFO  2016-12-05 12:19:22,621 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:19:23,823 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:19:25,948 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:19:29,949 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:19:53,799 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:20:04,630 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:20:10,989 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:20:33,518 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:20:39,672 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:20:40,740 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Add Members'
+INFO  2016-12-05 12:20:43,805 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Manage Member'
+INFO  2016-12-05 12:20:46,862 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Edit Group'
+INFO  2016-12-05 12:20:49,912 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:20:58,034 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:21:01,119 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:21:02,280 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:21:04,446 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:21:08,447 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:21:30,212 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:21:41,177 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:21:47,611 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:22:10,006 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:22:12,856 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-12-05 12:22:18,901 [Worker#STA_NP] TestScripts.BaseTest - Verify the Add Group Member Window.
+INFO  2016-12-05 12:22:21,943 [Worker#STA_NP] TestScripts.BaseTest - Verify the Add Window Add button.
+INFO  2016-12-05 12:22:24,120 [Worker#STA_NP] TestScripts.BaseTest - Close icon clicked successfully.
+INFO  2016-12-05 12:22:30,265 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:22:31,443 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:22:33,565 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:22:37,566 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:23:00,000 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:23:11,389 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:23:17,657 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:23:39,855 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:23:42,532 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-12-05 12:23:49,019 [Worker#STA_NP] TestScripts.BaseTest - Entered zafara@360logica.com into Add Member Text field 
+INFO  2016-12-05 12:23:55,220 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2016-12-05 12:24:00,347 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-12-05 12:24:03,400 [Worker#STA_NP] TestScripts.BaseTest - Verified group member added confirmation message.
+INFO  2016-12-05 12:24:11,610 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:24:12,816 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:24:14,962 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:24:18,963 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:24:34,157 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:24:45,359 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:24:51,648 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:25:13,917 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:25:16,591 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-12-05 12:25:38,853 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-12-05 12:25:41,894 [Worker#STA_NP] TestScripts.BaseTest - Verified group member added confirmation message.
+INFO  2016-12-05 12:25:48,039 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:25:49,201 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:25:51,333 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:25:55,335 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:26:17,981 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:26:29,397 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:26:35,652 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:26:57,926 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:27:00,587 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-12-05 12:27:06,692 [Worker#STA_NP] TestScripts.BaseTest - Verify the Add Group Member Window.
+INFO  2016-12-05 12:27:10,170 [Worker#STA_NP] TestScripts.BaseTest - Entered huan.ho@rallyteam.com into Add Member Text field 
+INFO  2016-12-05 12:27:16,372 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2016-12-05 12:27:18,500 [Worker#STA_NP] TestScripts.BaseTest - Close icon clicked successfully.
+INFO  2016-12-05 12:27:24,676 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:27:25,857 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:27:27,982 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:27:31,983 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:27:44,751 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:27:55,948 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:28:02,191 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:28:24,366 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:28:27,529 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:28:28,884 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Manage Members'
+INFO  2016-12-05 12:28:31,932 [Worker#STA_NP] TestScripts.BaseTest - Verify the Manage Group Member Window.
+INFO  2016-12-05 12:28:34,063 [Worker#STA_NP] TestScripts.BaseTest - Close icon clicked successfully.
+INFO  2016-12-05 12:28:39,163 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:28:40,352 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:28:42,475 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:28:46,476 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:29:10,370 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:29:25,193 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:29:31,451 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:29:53,776 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:29:56,515 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-12-05 12:30:02,967 [Worker#STA_NP] TestScripts.BaseTest - Entered zafara@360logica.com into Add Member Text field 
+INFO  2016-12-05 12:30:09,127 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2016-12-05 12:30:14,354 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-12-05 12:30:20,477 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:30:21,666 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Manage Members'
+INFO  2016-12-05 12:30:27,828 [Worker#STA_NP] TestScripts.BaseTest - Click on Cross icon of the second member
+INFO  2016-12-05 12:30:30,873 [Worker#STA_NP] TestScripts.BaseTest - Verify the Manage Group Member Remove Button.
+INFO  2016-12-05 12:30:33,917 [Worker#STA_NP] TestScripts.BaseTest - Verify the Manage Group Member Cancel Button.
+INFO  2016-12-05 12:30:36,053 [Worker#STA_NP] TestScripts.BaseTest - Close icon clicked successfully.
+INFO  2016-12-05 12:30:42,146 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:30:43,301 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:30:45,409 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:30:49,412 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:31:14,015 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:31:24,778 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:31:31,146 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:31:53,312 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:31:56,044 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-12-05 12:32:02,499 [Worker#STA_NP] TestScripts.BaseTest - Entered zafara@360logica.com into Add Member Text field 
+INFO  2016-12-05 12:32:08,681 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2016-12-05 12:32:13,943 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-12-05 12:32:20,078 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:32:21,272 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Manage Members'
+INFO  2016-12-05 12:32:27,432 [Worker#STA_NP] TestScripts.BaseTest - Click on Cross icon of the second member
+INFO  2016-12-05 12:32:30,585 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Group Member Remove Button.
+INFO  2016-12-05 12:32:32,696 [Worker#STA_NP] TestScripts.BaseTest - Close icon clicked successfully.
+INFO  2016-12-05 12:32:37,793 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:32:38,950 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:32:41,073 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:32:45,074 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:33:07,336 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:33:18,774 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:33:25,050 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:33:47,432 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:33:50,164 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-12-05 12:33:56,625 [Worker#STA_NP] TestScripts.BaseTest - Entered zafara@360logica.com into Add Member Text field 
+INFO  2016-12-05 12:34:02,784 [Worker#STA_NP] TestScripts.BaseTest - User selected successfully.
+INFO  2016-12-05 12:34:07,971 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-12-05 12:34:14,125 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:34:15,329 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Manage Members'
+INFO  2016-12-05 12:34:21,456 [Worker#STA_NP] TestScripts.BaseTest - Click on Cross icon of the second member
+INFO  2016-12-05 12:34:24,578 [Worker#STA_NP] TestScripts.BaseTest - Click Manage Group Member Cancel Button.
+INFO  2016-12-05 12:36:26,732 [Worker#STA_NP] TestScripts.BaseTest - Verify the Manage Group Member Remove Button.
+INFO  2016-12-05 12:38:28,742 [Worker#STA_NP] TestScripts.BaseTest - Verify the Manage Group Member Cancel Button.
+INFO  2016-12-05 12:38:33,950 [Worker#STA_NP] TestScripts.BaseTest - Close icon clicked successfully.
+INFO  2016-12-05 12:38:39,130 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:38:40,297 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:38:42,433 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:38:46,436 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:39:23,326 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:39:43,233 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:39:49,572 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:40:11,802 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:40:14,959 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:40:16,262 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Manage Members'
+INFO  2016-12-05 12:40:21,420 [Worker#STA_NP] TestScripts.BaseTest - Close icon clicked successfully.
+INFO  2016-12-05 12:40:27,543 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:40:28,708 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:40:30,851 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:40:34,853 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:41:32,728 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:41:43,767 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:41:50,053 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:42:12,344 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:42:15,554 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:42:17,182 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Edit Group'
+INFO  2016-12-05 12:42:20,261 [Worker#STA_NP] TestScripts.BaseTest - Verify the Edit Group Member Window.
+INFO  2016-12-05 12:42:23,329 [Worker#STA_NP] TestScripts.BaseTest - Verify the Group Name field.
+INFO  2016-12-05 12:42:26,402 [Worker#STA_NP] TestScripts.BaseTest - Verify the Group Snippet field.
+INFO  2016-12-05 12:42:29,471 [Worker#STA_NP] TestScripts.BaseTest - Verify the Group Description field.
+INFO  2016-12-05 12:42:32,532 [Worker#STA_NP] TestScripts.BaseTest - Verify the Group Leader field.
+INFO  2016-12-05 12:42:36,654 [Worker#STA_NP] TestScripts.BaseTest - Verify the Group Visibility field.
+INFO  2016-12-05 12:42:39,171 [Worker#STA_NP] TestScripts.BaseTest - Close icon clicked successfully.
+INFO  2016-12-05 12:42:44,172 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:43:11,455 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:43:24,042 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:43:30,380 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:43:53,034 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:43:56,257 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:43:57,771 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Edit Group'
+INFO  2016-12-05 12:44:00,843 [Worker#STA_NP] TestScripts.BaseTest - Verify the Edit Group Member Window.
+INFO  2016-12-05 12:44:06,348 [Worker#STA_NP] TestScripts.BaseTest - Save clicked successfully.
+INFO  2016-12-05 12:44:12,415 [Worker#STA_NP] TestScripts.BaseTest - Verified edited group Name
+INFO  2016-12-05 12:44:18,731 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:44:19,953 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:44:22,163 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:44:26,166 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:44:52,936 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:45:09,986 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:45:16,339 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:45:39,071 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:45:42,228 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:45:43,486 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Edit Group'
+INFO  2016-12-05 12:45:46,531 [Worker#STA_NP] TestScripts.BaseTest - Verify the Edit Group Member Window.
+INFO  2016-12-05 12:45:51,943 [Worker#STA_NP] TestScripts.BaseTest - Save clicked successfully.
+INFO  2016-12-05 12:45:58,000 [Worker#STA_NP] TestScripts.BaseTest - Verified edited group Snippet
+INFO  2016-12-05 12:46:04,156 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:46:05,320 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:46:07,477 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:46:11,479 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:46:56,086 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:46:57,493 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_026_EditGroupDescription_2016-12-05-12-46-57.png
+INFO  2016-12-05 12:46:57,493 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:47:03,360 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:47:03,712 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_027_EditGroupLeader_2016-12-05-12-47-03.png
+INFO  2016-12-05 12:47:03,712 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:47:34,973 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:47:46,249 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:47:52,590 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:48:14,873 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:48:20,060 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:48:21,332 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Edit Group'
+INFO  2016-12-05 12:48:24,394 [Worker#STA_NP] TestScripts.BaseTest - Verify the Edit Group Member Window.
+INFO  2016-12-05 12:48:26,745 [Worker#STA_NP] TestScripts.BaseTest - Save clicked successfully.
+INFO  2016-12-05 12:48:35,952 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:48:37,213 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:48:39,404 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:48:43,406 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:49:10,584 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:49:23,306 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:49:29,609 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:49:51,764 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:49:56,923 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:49:58,210 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Edit Group'
+INFO  2016-12-05 12:50:01,269 [Worker#STA_NP] TestScripts.BaseTest - Verify the Edit Group Member Window.
+INFO  2016-12-05 12:50:08,533 [Worker#STA_NP] TestScripts.BaseTest - Save clicked successfully.
+INFO  2016-12-05 12:50:17,656 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:50:18,840 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:50:20,960 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:50:24,961 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:50:50,203 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:51:01,035 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:51:07,381 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:51:29,607 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:51:32,753 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:51:33,918 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:51:37,085 [Worker#STA_NP] TestScripts.BaseTest - Verify the Delete Group Member Window.
+INFO  2016-12-05 12:51:40,130 [Worker#STA_NP] TestScripts.BaseTest - Verify the Delete Group Member Window No Button.
+INFO  2016-12-05 12:51:43,174 [Worker#STA_NP] TestScripts.BaseTest - Verify the Delete Group Member Window.
+INFO  2016-12-05 12:51:45,326 [Worker#STA_NP] TestScripts.BaseTest - Close the Delete Group Member Window.
+INFO  2016-12-05 12:51:51,458 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:51:52,591 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:51:54,721 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:51:58,722 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:52:26,205 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:52:37,583 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:52:43,890 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:53:06,225 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:53:11,161 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:53:12,446 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:53:14,559 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window No Button.
+INFO  2016-12-05 12:53:17,603 [Worker#STA_NP] TestScripts.BaseTest - Verified the group Name
+INFO  2016-12-05 12:53:23,710 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:53:24,817 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:53:26,973 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:53:30,974 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:53:54,636 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:54:05,580 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:54:11,906 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:54:34,121 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:54:37,283 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:54:38,465 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 12:54:40,669 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 12:54:43,744 [Worker#STA_NP] TestScripts.BaseTest - Verify the deleted group confirmation message.
+INFO  2016-12-05 12:54:45,745 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:55:09,937 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:55:20,830 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:55:27,156 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:55:33,310 [Worker#STA_NP] TestScripts.BaseTest - Verify the add new group form window
+INFO  2016-12-05 12:55:54,409 [Worker#STA_NP] TestScripts.BaseTest - Verify the error message for not entering Group Name.
+INFO  2016-12-05 12:55:57,733 [Worker#STA_NP] TestScripts.BaseTest - Click on Cancel button.
+INFO  2016-12-05 12:55:57,733 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:56:25,952 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:56:36,847 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:56:43,225 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:56:49,352 [Worker#STA_NP] TestScripts.BaseTest - Verify the add new group form window
+INFO  2016-12-05 12:57:10,886 [Worker#STA_NP] TestScripts.BaseTest - Verify the error message for not entering Group Description.
+INFO  2016-12-05 12:57:14,330 [Worker#STA_NP] TestScripts.BaseTest - Click on Cancel button.
+INFO  2016-12-05 12:57:14,331 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 12:58:19,596 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 12:58:40,691 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 12:58:47,084 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 12:59:09,895 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 12:59:24,077 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 12:59:25,339 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Edit Group'
+INFO  2016-12-05 12:59:28,388 [Worker#STA_NP] TestScripts.BaseTest - Verify the Edit Group Member Window.
+INFO  2016-12-05 12:59:34,916 [Worker#STA_NP] TestScripts.BaseTest - Save clicked successfully.
+INFO  2016-12-05 12:59:44,347 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Leave Group'
+INFO  2016-12-05 12:59:46,503 [Worker#STA_NP] TestScripts.BaseTest - Click on Yes button from Leave Group window.
+INFO  2016-12-05 12:59:51,606 [Worker#STA_NP] TestScripts.BaseTest - Verify the join button on the screen
+INFO  2016-12-05 12:59:51,607 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:00:45,946 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:01:00,045 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:01:06,469 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:01:29,106 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:01:37,383 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 13:01:38,668 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Edit Group'
+INFO  2016-12-05 13:01:41,713 [Worker#STA_NP] TestScripts.BaseTest - Verify the Edit Group Member Window.
+INFO  2016-12-05 13:01:50,220 [Worker#STA_NP] TestScripts.BaseTest - Save clicked successfully.
+INFO  2016-12-05 13:02:00,582 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Leave Group'
+INFO  2016-12-05 13:02:02,805 [Worker#STA_NP] TestScripts.BaseTest - Click on Yes button from Leave Group window.
+INFO  2016-12-05 13:02:04,964 [Worker#STA_NP] TestScripts.BaseTest - Click on Join button to join the Group
+INFO  2016-12-05 13:04:10,861 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-13-04-10.png
+ERROR 2016-12-05 13:04:10,861 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //button[contains(text(), 'Joined')]) to be displayed but did not.
+INFO  2016-12-05 13:04:11,325 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.GroupsTest.Groups_040_ClickJoinAndVerify_2016-12-05-13-04-11.png
+INFO  2016-12-05 13:04:11,325 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:04:33,898 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:04:44,925 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:04:51,384 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:05:13,727 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:05:19,152 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 13:05:20,411 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Edit Group'
+INFO  2016-12-05 13:05:23,477 [Worker#STA_NP] TestScripts.BaseTest - Verify the Edit Group Member Window.
+INFO  2016-12-05 13:05:30,035 [Worker#STA_NP] TestScripts.BaseTest - Save clicked successfully.
+INFO  2016-12-05 13:05:39,469 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Leave Group'
+INFO  2016-12-05 13:05:41,727 [Worker#STA_NP] TestScripts.BaseTest - Click on Yes button from Leave Group window.
+INFO  2016-12-05 13:05:44,124 [Worker#STA_NP] TestScripts.BaseTest - Click on Join button to join the Group
+INFO  2016-12-05 13:05:50,396 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Leave Group'
+INFO  2016-12-05 13:05:52,559 [Worker#STA_NP] TestScripts.BaseTest - Click on Yes button from Leave Group window.
+INFO  2016-12-05 13:05:57,603 [Worker#STA_NP] TestScripts.BaseTest - Verify the join button on the screen
+INFO  2016-12-05 13:05:57,603 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:06:30,891 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:06:41,937 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:06:48,336 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:07:10,952 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:07:17,659 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's Discussion tab.
+INFO  2016-12-05 13:07:23,753 [Worker#STA_NP] TestScripts.BaseTest - Verify the Discussion message div.
+INFO  2016-12-05 13:07:26,877 [Worker#STA_NP] TestScripts.BaseTest - Verify the Discussion Type Text Area.
+INFO  2016-12-05 13:07:32,145 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's About tab.
+INFO  2016-12-05 13:07:37,367 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 13:07:38,612 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 13:07:40,859 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 13:07:44,860 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:08:11,059 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:08:25,173 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:08:31,474 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:08:53,698 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:08:58,088 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's Discussion tab.
+INFO  2016-12-05 13:09:04,210 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2016-12-05 13:09:07,783 [Worker#STA_NP] TestScripts.BaseTest - Enter message in Discussion.
+INFO  2016-12-05 13:09:10,950 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the message.
+INFO  2016-12-05 13:09:14,044 [Worker#STA_NP] TestScripts.BaseTest - Verify the Discussion Message Reply button.
+INFO  2016-12-05 13:09:19,219 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's About tab.
+INFO  2016-12-05 13:09:24,440 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 13:09:25,648 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 13:09:27,890 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 13:09:31,890 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:09:59,146 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:10:11,246 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:10:17,647 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:10:40,455 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:10:46,029 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's Discussion tab.
+INFO  2016-12-05 13:10:52,264 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2016-12-05 13:11:02,961 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's About tab.
+INFO  2016-12-05 13:11:08,255 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 13:11:09,461 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 13:11:11,674 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 13:11:15,675 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:11:41,919 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:12:09,260 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:12:15,564 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:12:38,249 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:12:45,427 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's Discussion tab.
+INFO  2016-12-05 13:12:50,589 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2016-12-05 13:12:53,978 [Worker#STA_NP] TestScripts.BaseTest - Enter message in Discussion.
+INFO  2016-12-05 13:12:57,190 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the message.
+INFO  2016-12-05 13:13:00,373 [Worker#STA_NP] TestScripts.BaseTest - Click the Discussion Message Reply button.
+INFO  2016-12-05 13:13:09,916 [Worker#STA_NP] TestScripts.BaseTest - Click the Reply Message Text Area
+INFO  2016-12-05 13:13:13,189 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's About tab.
+INFO  2016-12-05 13:13:19,371 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 13:13:20,578 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 13:13:22,715 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 13:13:26,716 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:13:57,450 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:14:08,299 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:14:14,668 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:14:37,365 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:14:42,899 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's Discussion tab.
+INFO  2016-12-05 13:14:48,015 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2016-12-05 13:14:51,179 [Worker#STA_NP] TestScripts.BaseTest - Enter message in Discussion.
+INFO  2016-12-05 13:14:56,370 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the message.
+INFO  2016-12-05 13:15:01,517 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's About tab.
+INFO  2016-12-05 13:15:06,705 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 13:15:07,882 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 13:15:10,121 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 13:15:14,122 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:15:48,045 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:15:59,184 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:16:05,459 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:16:28,157 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:16:33,196 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's Discussion tab.
+INFO  2016-12-05 13:16:38,311 [Worker#STA_NP] TestScripts.BaseTest - Click message in Discussion.
+INFO  2016-12-05 13:16:41,563 [Worker#STA_NP] TestScripts.BaseTest - Enter message in Discussion.
+INFO  2016-12-05 13:16:46,767 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the message.
+INFO  2016-12-05 13:16:52,008 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's About tab.
+INFO  2016-12-05 13:16:57,244 [Worker#STA_NP] TestScripts.GroupsTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 13:16:58,477 [Worker#STA_NP] TestScripts.GroupsTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 13:17:00,677 [Worker#STA_NP] TestScripts.GroupsTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 13:17:04,679 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:17:31,590 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:17:44,105 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:17:50,581 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:18:13,619 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:18:18,894 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's Project tab.
+INFO  2016-12-05 13:18:25,365 [Worker#STA_NP] TestScripts.BaseTest - Click on Projects add new button under Groups.
+INFO  2016-12-05 13:18:29,687 [Worker#STA_NP] TestScripts.BaseTest - Enter Project Name under Group.
+INFO  2016-12-05 13:18:32,982 [Worker#STA_NP] TestScripts.BaseTest - Enter Project Description under Group.
+INFO  2016-12-05 13:18:38,130 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:19:22,796 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:19:34,737 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 13:19:41,115 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 13:20:03,923 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:20:08,491 [Worker#STA_NP] TestScripts.BaseTest - Click on Group's Events tab.
+INFO  2016-12-05 13:20:14,975 [Worker#STA_NP] TestScripts.BaseTest - Click on Event add new button under Groups.
+INFO  2016-12-05 13:20:19,335 [Worker#STA_NP] TestScripts.BaseTest - Enter Event Name under Group.
+INFO  2016-12-05 13:20:22,568 [Worker#STA_NP] TestScripts.BaseTest - Enter Event Description under Group.
+INFO  2016-12-05 13:20:27,803 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

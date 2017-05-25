@@ -1,0 +1,10 @@
+[START]
+INFO  2016-12-12 16:35:32,266 [14] TestScripts.BaseTest - Setup test
+INFO  2016-12-12 16:35:49,082 [14] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-12 16:36:08,620 [14] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-12 16:36:17,176 [14] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-12 16:36:23,123 [14] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-12-12 16:36:28,098 [14] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-12-12 16:37:00,603 [14] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-12-12 16:37:24,864 [14] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-12-16-37-20.png
+ERROR 2016-12-12 16:37:24,888 [14] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'rt-kanban-row rt-kanban-row--body']//div[1]//li[contains(@class, 'rt-kanban-task-item')]//span[text()='Task for UserYRXF']) to be displayed but did not.

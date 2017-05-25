@@ -1,0 +1,17 @@
+[START]
+INFO  2016-12-22 15:12:22,866 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-22 15:12:35,928 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-22 15:12:43,560 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2016-12-22 15:12:44,757 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2016-12-22 15:12:49,811 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2016-12-22 15:12:52,170 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2016-12-22 15:12:55,431 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile User Name.
+INFO  2016-12-22 15:12:57,477 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Message button.
+INFO  2016-12-22 15:12:59,524 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile About Me.
+INFO  2016-12-22 15:13:01,568 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Skills & Endorsements.
+INFO  2016-12-22 15:13:03,627 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Industry/Domain Expertise.
+INFO  2016-12-22 15:13:05,677 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Languages.
+INFO  2016-12-22 15:13:07,740 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Interests.
+INFO  2016-12-22 15:13:09,784 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Profile Projects.
+INFO  2016-12-22 15:13:11,787 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

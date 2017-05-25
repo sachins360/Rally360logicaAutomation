@@ -1,0 +1,33 @@
+[START]
+INFO  2016-11-23 12:58:17,804 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-23 12:58:50,598 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-23 12:58:52,770 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-23 12:58:54,995 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-23 12:58:57,409 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-23 12:59:01,552 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-23 12:59:04,283 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-23 12:59:06,553 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-23 12:59:08,697 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-23 12:59:26,932 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2016-11-23 12:59:33,103 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2016-11-23 12:59:37,711 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Go button.
+INFO  2016-11-23 12:59:48,612 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Sender.
+INFO  2016-11-23 12:59:59,095 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the Email Link.
+INFO  2016-11-23 13:00:06,367 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter registered work email.
+INFO  2016-11-23 13:00:08,562 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2016-11-23 13:00:10,723 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Let's Go button.
+INFO  2016-11-23 13:00:16,896 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Get Started button.
+INFO  2016-11-23 13:00:22,024 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the LinkeDin Confirmation message.
+INFO  2016-11-23 13:00:23,069 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Connect with LinkedIn button.
+INFO  2016-11-23 13:00:24,156 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Skip LinkedIn Option.
+INFO  2016-11-23 13:00:24,157 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+INFO  2016-11-23 13:00:55,207 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-23 13:01:25,575 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-23 13:01:27,735 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-23 13:01:29,900 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-23 13:01:32,134 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-23 13:01:36,256 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-23 13:03:39,274 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-23-13-03-38.png
+ERROR 2016-11-23 13:03:39,294 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//form[contains(@class, 'form-horizontal')]//input[@name='password']"}
+INFO  2016-11-23 13:03:39,442 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

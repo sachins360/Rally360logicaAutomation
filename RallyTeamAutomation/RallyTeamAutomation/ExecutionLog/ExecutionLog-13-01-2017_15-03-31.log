@@ -1,0 +1,14 @@
+[START]
+INFO  2017-01-13 15:04:18,489 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-13 15:04:43,428 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-13 15:05:02,813 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-13 15:05:23,410 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-13 15:05:31,915 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2017-01-13 15:05:38,085 [Worker#STA_NP] TestScripts.BaseTest - Click on the View Team Status hyperlink.
+INFO  2017-01-13 15:05:42,845 [Worker#STA_NP] TestScripts.BaseTest - Verify the Team Member Type.
+INFO  2017-01-13 15:05:44,934 [Worker#STA_NP] TestScripts.BaseTest - Verify the Team Member Project Role.
+INFO  2017-01-13 15:05:47,038 [Worker#STA_NP] TestScripts.BaseTest - Verify the Team Member Status.
+INFO  2017-01-13 15:05:47,165 [Worker#STA_NP] TestScripts.BaseTest - Click on Team Status window Close icon.
+INFO  2017-01-13 15:05:50,781 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2017-01-13 15:06:00,075 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

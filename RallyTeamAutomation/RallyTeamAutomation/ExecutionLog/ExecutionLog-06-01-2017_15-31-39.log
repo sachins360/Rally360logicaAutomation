@@ -1,0 +1,9 @@
+[START]
+INFO  2017-01-06 15:32:08,780 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-06 15:32:15,971 [Worker#STA_NP] TestScripts.BaseTest - Verify the USer Profile icon tooltip.
+INFO  2017-01-06 15:32:18,060 [Worker#STA_NP] TestScripts.BaseTest - Click the User Profile Icon.
+INFO  2017-01-06 15:32:20,113 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Profile'.
+INFO  2017-01-06 15:32:21,152 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Support'.
+INFO  2017-01-06 15:32:22,200 [Worker#STA_NP] TestScripts.BaseTest - Verify User Profile option 'Sign out'.
+INFO  2017-01-06 15:32:23,202 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

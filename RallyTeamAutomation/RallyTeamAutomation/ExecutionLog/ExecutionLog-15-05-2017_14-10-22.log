@@ -1,0 +1,13 @@
+[START]
+INFO  2017-05-15 14:11:13,570 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 14:11:34,170 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-15 14:13:46,574 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-15-14-13-46.png
+ERROR 2017-05-15 14:13:46,577 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(),'Could not log in. Forbidden. Oops! Your account has been deactivated. Please contact your administrator.')]) to be displayed but did not.
+INFO  2017-05-15 14:13:46,773 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.CommonIssuesTest.CommonIssues_001_VerifyDeactivatedUserLogin_2017-05-15-14-13-46.png
+INFO  2017-05-15 14:13:46,773 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-05-15 14:14:36,439 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 14:14:54,385 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-15 14:14:56,795 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Profile'.
+INFO  2017-05-15 14:16:57,074 [Worker#STA_NP] TestScripts.BaseTestES - Verify error message not displayed on opening profile page.
+INFO  2017-05-15 14:16:59,076 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

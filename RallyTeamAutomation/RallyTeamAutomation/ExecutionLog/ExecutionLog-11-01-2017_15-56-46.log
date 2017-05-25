@@ -1,0 +1,4 @@
+[START]
+INFO  2017-01-11 15:57:24,864 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-11 15:57:41,601 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-11 15:57:59,601 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.

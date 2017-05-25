@@ -1,0 +1,6 @@
+[START]
+INFO  2017-01-17 12:43:16,193 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-17 12:43:42,374 [Worker#STA_NP] TestScripts.BaseTestES - Select the Private Project check-box.
+INFO  2017-01-17 12:44:06,376 [Worker#STA_NP] TestScripts.BaseTestES - Assert Private Icon.
+INFO  2017-01-17 12:44:18,012 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

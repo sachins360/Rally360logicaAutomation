@@ -1,0 +1,35 @@
+[START]
+INFO  2017-04-05 17:04:01,823 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-05 17:04:24,521 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-05 17:04:26,655 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-05 17:04:27,811 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-05 17:04:39,137 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-05 17:04:43,578 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-05 17:04:44,874 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-05 17:04:47,262 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-05 17:04:50,715 [Worker#STA_NP] TestScripts.BaseTestES - Select Staff.
+INFO  2017-04-05 17:04:53,129 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-05 17:04:55,561 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-05 17:05:00,933 [Worker#STA_NP] TestScripts.BaseTestES - Enter members email id.
+INFO  2017-04-05 17:05:02,170 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-05 17:05:05,328 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-05 17:07:18,046 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-05-17-07-17.png
+ERROR 2017-04-05 17:07:18,056 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Publish')]"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-04-05 17:07:18,227 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_004_VerifyDataAboutPage_2017-04-05-17-07-18.png
+INFO  2017-04-05 17:07:18,227 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

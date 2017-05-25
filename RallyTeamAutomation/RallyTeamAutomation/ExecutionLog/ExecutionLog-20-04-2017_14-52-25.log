@@ -1,0 +1,26 @@
+[START]
+INFO  2017-04-20 14:53:15,656 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 14:53:37,250 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 14:53:48,908 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 14:53:58,035 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 14:54:09,757 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 14:54:12,977 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 14:54:25,307 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 14:54:33,679 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 14:54:38,278 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-20 14:54:43,521 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-20-14-54-43.png
+ERROR 2017-04-20 14:54:43,534 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression ////div[5]//select because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '////div[5]//select' is not a valid XPath expression.
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 74
+INFO  2017-04-20 14:54:43,702 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_009_MarkProjectInProgress_2017-04-20-14-54-43.png
+INFO  2017-04-20 14:54:43,702 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

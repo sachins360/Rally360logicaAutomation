@@ -1,0 +1,331 @@
+[START]
+INFO  2016-12-05 13:43:58,211 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:44:20,422 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 13:44:20,484 [Worker#STA_NP] TestScripts.BaseTest - Verify Activity Feed Page is displayed.
+INFO  2016-12-05 13:44:22,486 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:44:42,880 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:45:00,516 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-05 13:45:23,259 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 13:45:26,331 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-12-05 13:45:28,518 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-12-05 13:45:36,003 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-05 13:45:42,452 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-05 13:45:45,531 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-05 13:45:48,218 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-05 13:47:58,050 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-13-47-57.png
+ERROR 2016-12-05 13:47:58,327 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-content')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 13:47:58,823 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_002_VerifyEditDeleteOptions_2016-12-05-13-47-58.png
+INFO  2016-12-05 13:47:58,824 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:48:40,724 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:49:13,871 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-05 13:49:36,021 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 13:49:41,267 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-12-05 13:49:43,444 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-12-05 13:49:57,526 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-05 13:50:04,822 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-05 13:50:07,980 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-05 13:50:10,702 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-05 13:52:20,414 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-13-52-20.png
+ERROR 2016-12-05 13:52:20,414 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-content')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 13:52:20,652 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_003_ClickEditMessageAndVerify_2016-12-05-13-52-20.png
+INFO  2016-12-05 13:52:20,652 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:52:46,703 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:53:07,256 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-05 13:53:28,710 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 13:53:31,803 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-12-05 13:53:34,019 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-12-05 13:53:46,858 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-05 13:53:53,109 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-05 13:53:56,224 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-05 13:53:58,812 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-05 13:56:08,531 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-13-56-08.png
+ERROR 2016-12-05 13:56:08,531 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-content')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 13:56:08,782 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_004_ClickEditMessageAndPost_2016-12-05-13-56-08.png
+INFO  2016-12-05 13:56:08,782 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:56:26,738 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:56:36,415 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:56:42,712 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-05 13:56:49,137 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-12-05 13:56:53,515 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-12-05 13:56:56,856 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-12-05 13:57:00,019 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-12-05 13:57:05,410 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 13:57:11,524 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2016-12-05 13:57:13,626 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2016-12-05 13:57:16,945 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-05 13:57:23,080 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2016-12-05 13:57:26,226 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2016-12-05 13:57:29,663 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-12-05 13:57:34,946 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-12-05 13:57:36,103 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-12-05 13:57:38,264 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-12-05 13:57:40,266 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 13:58:06,859 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 13:58:21,684 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 13:58:27,987 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-05 13:58:34,302 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-12-05 13:58:38,523 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-12-05 13:58:41,716 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-12-05 13:58:44,868 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-12-05 13:58:53,386 [Worker#STA_NP] TestScripts.BaseTest - Click Settings option value: 'Add Participants'
+INFO  2016-12-05 13:58:56,624 [Worker#STA_NP] TestScripts.BaseTest - Entered zafar a into Add Member Text field 
+INFO  2016-12-05 13:59:04,379 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-12-05 13:59:10,746 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 13:59:15,810 [Worker#STA_NP] TestScripts.BaseTest - Verify Join Event Activity is displayed.
+INFO  2016-12-05 13:59:17,865 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2016-12-05 13:59:19,924 [Worker#STA_NP] TestScripts.BaseTest - Verify User Name Activity is displayed.
+INFO  2016-12-05 13:59:23,207 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-05 13:59:29,364 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2016-12-05 13:59:32,488 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2016-12-05 13:59:35,884 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-12-05 13:59:42,035 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-12-05 13:59:43,189 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-12-05 13:59:45,309 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-12-05 13:59:47,310 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:00:15,965 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:00:25,777 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 14:00:32,086 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-05 14:00:38,405 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-12-05 14:00:42,638 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-12-05 14:00:45,839 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-12-05 14:00:48,984 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-12-05 14:01:02,414 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-05 14:01:08,972 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-05 14:01:10,151 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-05 14:01:16,554 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-12-05 14:01:18,748 [Worker#STA_NP] TestScripts.BaseTest - Click the Join button on Dashboard.
+INFO  2016-12-05 14:01:22,072 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 14:01:25,118 [Worker#STA_NP] TestScripts.BaseTest - Verify Join Event Activity is displayed.
+INFO  2016-12-05 14:01:27,172 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2016-12-05 14:01:38,653 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-05 14:01:42,793 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-05 14:01:48,945 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2016-12-05 14:01:53,089 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2016-12-05 14:01:56,469 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-12-05 14:02:01,783 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-12-05 14:02:02,969 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-12-05 14:02:05,109 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-12-05 14:02:07,110 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:02:25,316 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:02:35,064 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 14:02:41,245 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 14:02:47,578 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 14:03:05,639 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 14:03:10,709 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Event Activity is displayed.
+INFO  2016-12-05 14:03:12,752 [Worker#STA_NP] TestScripts.BaseTest - Verify Group Name Activity is displayed.
+INFO  2016-12-05 14:03:16,093 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 14:03:20,237 [Worker#STA_NP] TestScripts.BaseTest - Click the All Groups dropdown.
+INFO  2016-12-05 14:03:23,426 [Worker#STA_NP] TestScripts.BaseTest - Click the My Groups dropdown option.
+INFO  2016-12-05 14:03:26,955 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-12-05 14:03:32,092 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 14:03:33,233 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 14:03:35,345 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 14:03:37,347 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:03:54,413 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:04:04,086 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 14:04:10,271 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 14:04:16,536 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 14:04:30,801 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Member Icon after Group is created.
+INFO  2016-12-05 14:04:40,224 [Worker#STA_NP] TestScripts.BaseTest - Click on Add Window Add button.
+INFO  2016-12-05 14:04:46,529 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 14:04:51,574 [Worker#STA_NP] TestScripts.BaseTest - Verify Join Group Activity is displayed.
+INFO  2016-12-05 14:04:53,616 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Group Activity is displayed.
+INFO  2016-12-05 14:04:55,665 [Worker#STA_NP] TestScripts.BaseTest - Verify User Name Activity is displayed.
+INFO  2016-12-05 14:04:58,957 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 14:05:03,249 [Worker#STA_NP] TestScripts.BaseTest - Click the All Groups dropdown.
+INFO  2016-12-05 14:05:06,378 [Worker#STA_NP] TestScripts.BaseTest - Click the My Groups dropdown option.
+INFO  2016-12-05 14:05:09,786 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-12-05 14:05:14,935 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 14:05:16,088 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 14:05:18,219 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 14:05:20,221 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:05:38,942 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:05:48,707 [Worker#STA_NP] TestScripts.BaseTest - Create a new Group
+INFO  2016-12-05 14:05:54,888 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 14:06:01,259 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-05 14:06:22,347 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-05 14:06:25,805 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-05 14:06:27,026 [Worker#STA_NP] TestScripts.BaseTest - Click the Groups menu option.
+INFO  2016-12-05 14:06:35,422 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-12-05 14:06:37,703 [Worker#STA_NP] TestScripts.BaseTest - Click the Join button on Dashboard.
+INFO  2016-12-05 14:06:40,944 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 14:06:43,996 [Worker#STA_NP] TestScripts.BaseTest - Verify Join Group Activity is displayed.
+INFO  2016-12-05 14:06:46,039 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Group Activity is displayed.
+INFO  2016-12-05 14:06:57,439 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-05 14:07:01,438 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-05 14:07:05,581 [Worker#STA_NP] TestScripts.BaseTest - Click the All Groups dropdown.
+INFO  2016-12-05 14:07:08,726 [Worker#STA_NP] TestScripts.BaseTest - Click the My Groups dropdown option.
+INFO  2016-12-05 14:07:12,124 [Worker#STA_NP] TestScripts.BaseTest - Click the Group Name on Groups Page.
+INFO  2016-12-05 14:07:17,299 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Group is created.
+INFO  2016-12-05 14:07:18,578 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Group'
+INFO  2016-12-05 14:07:21,702 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Group Member Window Yes Button.
+INFO  2016-12-05 14:07:23,703 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:07:40,302 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:07:58,292 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-05 14:08:15,553 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 14:08:18,623 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-12-05 14:08:20,680 [Worker#STA_NP] TestScripts.BaseTest - Verify Project Name Activity is displayed.
+INFO  2016-12-05 14:08:23,981 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-05 14:08:30,117 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-05 14:08:33,179 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-05 14:08:35,655 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-05 14:10:44,327 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-14-10-44.png
+ERROR 2016-12-05 14:10:44,327 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-content')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 14:10:44,528 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_017_VerifyProjectCreateActivity_2016-12-05-14-10-44.png
+INFO  2016-12-05 14:10:44,528 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:11:04,187 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:11:21,377 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-05 14:11:40,642 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-12-05 14:11:50,954 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-12-05 14:11:56,304 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 14:14:00,077 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-14-13-59.png
+ERROR 2016-12-05 14:14:00,077 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class='chat-activity-list']//div[2]//span[text()='joined the project: ']) to be displayed but did not.
+INFO  2016-12-05 14:14:00,325 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_018_VerifyProjectAddMemberActivity_2016-12-05-14-14-00.png
+INFO  2016-12-05 14:14:00,325 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:14:16,998 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:14:34,405 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-05 14:14:58,664 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-05 14:15:02,203 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2016-12-05 14:15:03,426 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-05 14:15:09,550 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-05 14:15:12,618 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2016-12-05 14:15:15,068 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-05 14:15:19,177 [Worker#STA_NP] TestScripts.BaseTest - Click Request To Join button doisplayed on screen.
+INFO  2016-12-05 14:15:31,466 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2016-12-05 14:15:35,305 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-05 14:15:41,422 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-05 14:15:44,471 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2016-12-05 14:15:47,884 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-05 14:15:52,258 [Worker#STA_NP] TestScripts.BaseTest - Click the Requested Member of the Project.
+INFO  2016-12-05 14:15:58,443 [Worker#STA_NP] TestScripts.BaseTest - Accept the Requested member.
+INFO  2016-12-05 14:18:03,979 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-14-18-03.png
+ERROR 2016-12-05 14:18:03,980 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 389
+INFO  2016-12-05 14:18:04,151 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_019_VerifyProjectJoinActivity_2016-12-05-14-18-03.png
+INFO  2016-12-05 14:18:04,151 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:18:20,742 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:18:38,344 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-05 14:18:59,500 [Worker#STA_NP] TestScripts.BaseTest - Select Project status as 'Completed'
+INFO  2016-12-05 14:19:05,684 [Worker#STA_NP] TestScripts.BaseTest - Click Mark Complete button.
+INFO  2016-12-05 14:19:10,014 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 14:19:15,073 [Worker#STA_NP] TestScripts.BaseTest - Verify Complete Project Activity is displayed.
+INFO  2016-12-05 14:19:17,173 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-12-05 14:19:20,507 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-05 14:19:26,646 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-05 14:19:29,712 [Worker#STA_NP] TestScripts.BaseTest - Select Completed option from the All Projects dropdown.
+INFO  2016-12-05 14:19:32,194 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-05 14:21:41,404 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-14-21-40.png
+ERROR 2016-12-05 14:21:41,405 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-content')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 14:21:41,717 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_020_VerifyProjectCompleteActivity_2016-12-05-14-21-41.png
+INFO  2016-12-05 14:21:41,717 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:22:03,111 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:22:20,582 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-05 14:22:42,200 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 14:22:45,361 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-12-05 14:22:47,580 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+INFO  2016-12-05 14:23:00,307 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-12-05 14:23:06,464 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-12-05 14:23:09,535 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-12-05 14:23:12,115 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-12-05 14:25:21,118 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-05-14-25-20.png
+ERROR 2016-12-05 14:25:21,119 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-content')]//button[contains(text(),'Yes')]"}
+  (Session info: chrome=54.0.2840.99)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 388
+INFO  2016-12-05 14:25:21,304 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ActivitiesTest.Activities_023_ClickEditMessageAndPost_2016-12-05-14-25-21.png
+INFO  2016-12-05 14:25:21,304 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-05 14:25:40,452 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-05 14:25:57,870 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-05 14:26:19,050 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Activities'
+INFO  2016-12-05 14:26:22,153 [Worker#STA_NP] TestScripts.BaseTest - Verify Create Project Activity is displayed.
+INFO  2016-12-05 14:26:24,325 [Worker#STA_NP] TestScripts.BaseTest - Click the Edit Activity Icon
+[END]

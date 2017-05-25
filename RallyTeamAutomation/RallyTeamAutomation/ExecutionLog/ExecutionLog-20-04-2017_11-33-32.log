@@ -1,0 +1,86 @@
+[START]
+INFO  2017-04-20 11:34:29,174 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 11:34:34,399 [Worker#STA_NP] TestScripts.BaseTestES - Verify Post A Project tab
+INFO  2017-04-20 11:34:34,400 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-20 11:35:22,846 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 11:35:45,692 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-20 11:35:47,859 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-20 11:35:50,046 [Worker#STA_NP] TestScripts.BaseTestES - Click Start Date Field.
+INFO  2017-04-20 11:35:51,211 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-04-20 11:35:53,365 [Worker#STA_NP] TestScripts.BaseTestES - Select Ongoing check-box.
+INFO  2017-04-20 11:35:55,578 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 11:36:06,958 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 11:36:07,118 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-20 11:36:09,303 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-20 11:36:12,629 [Worker#STA_NP] TestScripts.BaseTestES - Select Staff.
+INFO  2017-04-20 11:36:14,794 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-20 11:36:17,043 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-20 11:36:22,733 [Worker#STA_NP] TestScripts.BaseTestES - Enter members email id.
+INFO  2017-04-20 11:36:23,926 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 11:36:27,059 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 11:36:40,390 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 11:38:56,078 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-20-11-38-55.png
+ERROR 2017-04-20 11:38:56,152 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'modal-content')]//a[contains(text(),'Yes')]"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-04-20 11:38:56,387 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_002_PostANewProject_2017-04-20-11-38-56.png
+INFO  2017-04-20 11:38:56,387 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-20 11:40:00,642 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 11:40:26,720 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 11:40:38,244 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 11:40:38,513 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Back button.
+INFO  2017-04-20 11:40:41,786 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save Draft button.
+INFO  2017-04-20 11:40:52,161 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-20 11:40:53,521 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-20 11:41:09,881 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-20 11:41:20,179 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 11:41:23,408 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save Draft button.
+INFO  2017-04-20 11:41:33,825 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-20 11:41:35,147 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-20 11:41:50,846 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-20 11:42:01,163 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 11:42:04,383 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 11:42:07,745 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save Draft button.
+INFO  2017-04-20 11:42:18,138 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-20 11:42:19,465 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-20 11:42:34,612 [Worker#STA_NP] TestScripts.BaseTestES - Verify Draft status of Project.
+INFO  2017-04-20 11:42:36,627 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-20 11:43:22,962 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 11:43:45,727 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Category.
+INFO  2017-04-20 11:43:47,894 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Type.
+INFO  2017-04-20 11:43:49,091 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 11:44:02,405 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 11:44:08,799 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-20 11:44:09,966 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-20 11:44:12,229 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-20 11:44:15,458 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-20 11:44:17,674 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-20 11:44:23,337 [Worker#STA_NP] TestScripts.BaseTestES - Enter members email id.
+INFO  2017-04-20 11:44:24,568 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 11:44:27,858 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 11:44:41,140 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 11:44:48,296 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Name on About page
+INFO  2017-04-20 11:44:49,403 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Description on About page
+INFO  2017-04-20 11:44:50,514 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Deliverables on About page
+INFO  2017-04-20 11:44:51,643 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Skills on About page
+INFO  2017-04-20 11:44:52,733 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Type on About page
+INFO  2017-04-20 11:44:53,871 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Location on About page
+INFO  2017-04-20 11:44:55,013 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Staff Onsite on About page
+INFO  2017-04-20 11:44:56,107 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Staff Remote on About page
+INFO  2017-04-20 11:44:57,214 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Category on About page
+INFO  2017-04-20 11:44:58,290 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Hours on About page
+INFO  2017-04-20 11:44:59,307 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

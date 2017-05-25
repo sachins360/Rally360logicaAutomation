@@ -1,0 +1,23 @@
+[START]
+INFO  2017-02-01 16:19:17,608 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-01 16:19:30,748 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-01 16:19:34,323 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-01 16:19:39,661 [Worker#STA_NP] TestScripts.BaseTestES - Verify Notes column is displayed.
+INFO  2017-02-01 16:19:40,935 [Worker#STA_NP] TestScripts.BaseTestES - Verify View Notes link is displayed.
+INFO  2017-02-01 16:19:40,936 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-02-01 16:19:48,310 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-01 16:19:59,202 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-01 16:20:02,602 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-01 16:20:05,610 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-02-01 16:20:13,665 [Worker#STA_NP] TestScripts.BaseTestES - Click View Notes link.
+INFO  2017-02-01 16:20:16,970 [Worker#STA_NP] TestScripts.BaseTestES - Verify View Notes Window.
+INFO  2017-02-01 16:20:16,970 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-02-01 16:20:28,496 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-01 16:20:41,208 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-01 16:20:45,706 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-01 16:20:48,684 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-02-01 16:20:53,813 [Worker#STA_NP] TestScripts.BaseTestES - Click View Notes link.
+INFO  2017-02-01 16:20:57,795 [Worker#STA_NP] TestScripts.BaseTestES - Enter View Notes TextArea.
+INFO  2017-02-01 16:21:00,687 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Note button.
+INFO  2017-02-01 16:21:04,069 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

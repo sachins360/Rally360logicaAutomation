@@ -1,0 +1,33 @@
+[START]
+INFO  2017-01-11 13:55:35,362 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-11 13:56:07,463 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-01-11 13:56:15,928 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-01-11 13:56:19,114 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-01-11 13:56:29,313 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2017-01-11 13:56:33,610 [Worker#STA_NP] TestScripts.BaseTestES - Select Awesome rating.
+INFO  2017-01-11 13:56:37,821 [Worker#STA_NP] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2017-01-11 13:56:50,229 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-11 13:56:53,783 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-11 13:57:01,045 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-01-11 13:57:06,162 [Worker#STA_NP] TestScripts.BaseTestES - Click the New Invoice button.
+INFO  2017-01-11 13:57:11,478 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Title.
+INFO  2017-01-11 13:57:12,572 [Worker#STA_NP] TestScripts.BaseTestES - Click Due Date Field.
+INFO  2017-01-11 13:57:13,674 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-01-11 13:57:15,867 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Invoice Total Amount
+INFO  2017-01-11 13:57:17,039 [Worker#STA_NP] TestScripts.BaseTestES - Select Project.
+INFO  2017-01-11 13:57:19,298 [Worker#STA_NP] TestScripts.BaseTestES - Enter Invoice Notes
+INFO  2017-01-11 13:57:21,622 [Worker#STA_NP] TestScripts.BaseTestES - Click Submit button.
+INFO  2017-01-11 13:57:30,940 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-11 13:57:45,172 [Worker#STA_NP] TestScripts.BaseTestES - Click the Invoicing menu.
+INFO  2017-01-11 13:57:46,772 [Worker#STA_NP] TestScripts.BaseTestES - Click Invoice displayed.
+INFO  2017-01-11 13:57:52,036 [Worker#STA_NP] TestScripts.BaseTestES - Click the Comments Div.
+INFO  2017-01-11 13:57:53,404 [Worker#STA_NP] TestScripts.BaseTestES - Invoice Approved.
+INFO  2017-01-11 13:57:54,705 [Worker#STA_NP] TestScripts.BaseTestES - Click the Deny button.
+INFO  2017-01-11 13:57:59,855 [Worker#STA_NP] TestScripts.BaseTestES - Verify Invoice Title is Denied.
+INFO  2017-01-11 13:58:06,271 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-01-11 13:58:11,856 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-11 13:58:22,231 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-11 13:58:23,739 [Worker#STA_NP] TestScripts.BaseTestES - Select Completed Projects from the drop-down.
+INFO  2017-01-11 13:58:34,334 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-11 13:58:52,948 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

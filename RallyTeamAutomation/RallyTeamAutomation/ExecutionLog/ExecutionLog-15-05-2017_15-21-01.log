@@ -1,0 +1,13 @@
+[START]
+INFO  2017-05-15 15:21:47,010 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-15 15:22:04,893 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile Icon.
+INFO  2017-05-15 15:22:07,322 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-15 15:22:12,553 [Worker#STA_NP] TestScripts.BaseTestES - Click Groups Tab
+INFO  2017-05-15 15:22:15,817 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Group Button
+INFO  2017-05-15 15:22:20,818 [Worker#STA_NP] TestScripts.BaseTestES - Enter Group Name
+INFO  2017-05-15 15:22:22,080 [Worker#STA_NP] TestScripts.BaseTestES - Click Add member icon
+INFO  2017-05-15 15:22:25,483 [Worker#STA_NP] TestScripts.BaseTestES - Enter a user email address
+INFO  2017-05-15 15:22:31,733 [Worker#STA_NP] TestScripts.BaseTestES - Click Done button
+INFO  2017-05-15 15:22:36,913 [Worker#STA_NP] TestScripts.BaseTestES - Click Create button
+INFO  2017-05-15 15:22:41,916 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,30 @@
+[START]
+INFO  2016-11-17 14:36:20,135 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 14:36:40,231 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-11-17 14:36:45,146 [Worker#STA_NP] TestScripts.BaseTest - Enter the Task Name.
+INFO  2016-11-17 14:36:48,318 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Task Plus icon.
+INFO  2016-11-17 14:36:52,320 [Worker#STA_NP] TestScripts.BaseTest - Create new Task.
+INFO  2016-11-17 14:36:57,709 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-11-17 14:37:02,136 [Worker#STA_NP] TestScripts.BaseTest - Click attachment icon under task window.
+INFO  2016-11-17 14:37:14,048 [Worker#STA_NP] TestScripts.BaseTest - Click the Post button for the comment.
+INFO  2016-11-17 14:37:16,369 [Worker#STA_NP] TestScripts.BaseTest - Click Task Window Close Icon.
+INFO  2016-11-17 14:37:22,652 [Worker#STA_NP] TestScripts.BaseTest - Click the Task.
+INFO  2016-11-17 14:37:25,899 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete This Task link.
+INFO  2016-11-17 14:37:28,125 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Task Window Yes Button.
+INFO  2016-11-17 14:37:32,129 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-17 14:38:23,772 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-17 14:38:53,372 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-17 14:39:14,101 [Worker#STA_NP] TestScripts.BaseTest - Click the Add member icon for the Project.
+INFO  2016-11-17 14:39:22,734 [Worker#STA_NP] TestScripts.BaseTest - Click the Add Project Member window Done button.
+INFO  2016-11-17 14:39:28,766 [Worker#STA_NP] TestScripts.BaseTest - Click Tasks tab on the created Project page.
+INFO  2016-11-17 14:39:33,975 [Worker#STA_NP] TestScripts.BaseTest - Enter Add Text field get under Projects Task.
+INFO  2016-11-17 14:39:37,151 [Worker#STA_NP] TestScripts.BaseTest - Click Add Task Plus Icon.
+INFO  2016-11-17 14:39:40,383 [Worker#STA_NP] TestScripts.BaseTest - Drag and Drop the task to Complete section.
+INFO  2016-11-17 14:39:43,898 [Worker#STA_NP] TestScripts.BaseTest - Click the Tasks menu option.
+INFO  2016-11-17 14:41:47,068 [Worker#STA_NP] TestScripts.BaseTest - Verify Task not displayed.
+INFO  2016-11-17 14:41:50,922 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2016-11-17 14:41:57,231 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-17 14:42:00,429 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-17 14:42:07,308 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-17 14:42:15,816 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

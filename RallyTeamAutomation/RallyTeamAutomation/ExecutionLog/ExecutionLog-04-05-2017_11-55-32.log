@@ -1,0 +1,22 @@
+[START]
+INFO  2017-05-04 11:56:21,278 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-04 11:56:41,629 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 11:56:52,984 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-04 11:57:01,683 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 11:57:13,209 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-04 11:57:16,511 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-04 11:57:28,800 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-04 11:57:37,180 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-04 11:57:40,742 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-05-04 11:57:46,129 [Worker#STA_NP] TestScripts.BaseTestES - Change Project Owner.
+INFO  2017-05-04 11:57:49,515 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-05-04 11:57:57,083 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-04 11:58:11,783 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-04 11:58:16,943 [Worker#STA_NP] TestScripts.BaseTestES - Verify the short notification on the Notification Window.
+INFO  2017-05-04 11:58:18,462 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-04 11:58:25,634 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Assigned Notification.
+INFO  2017-05-04 12:00:28,404 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-04-12-00-27.png
+ERROR 2017-05-04 12:00:28,411 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-notification__body')]//a[contains(text(), 'Ammar Khan assigned RandomProjectAGUQXZ to you.')]) to be displayed but did not.
+INFO  2017-05-04 12:00:28,902 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_001_ProjectAssignment_2017-05-04-12-00-28.png
+INFO  2017-05-04 12:00:28,902 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

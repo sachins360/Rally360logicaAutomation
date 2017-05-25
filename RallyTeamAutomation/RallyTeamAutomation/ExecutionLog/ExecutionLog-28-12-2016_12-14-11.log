@@ -1,0 +1,14 @@
+[START]
+INFO  2016-12-28 12:14:56,700 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-28 12:15:05,723 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-28 12:15:11,564 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2016-12-28 12:15:12,859 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2016-12-28 12:15:17,897 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2016-12-28 12:15:20,233 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+ERROR 2016-12-28 12:17:25,754 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.GetElementText(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 190
+INFO  2016-12-28 12:17:26,393 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_006_ClickViewProfileAndVerify_2016-12-28-12-17-25.png
+INFO  2016-12-28 12:17:26,418 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

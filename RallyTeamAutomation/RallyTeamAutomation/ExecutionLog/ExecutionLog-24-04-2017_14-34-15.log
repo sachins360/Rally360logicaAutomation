@@ -1,0 +1,22 @@
+[START]
+INFO  2017-04-24 14:34:57,965 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 14:35:18,317 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 14:35:29,670 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-24 14:35:38,328 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 14:35:50,004 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 14:35:53,338 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 14:36:05,520 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-24 14:36:12,742 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-24 14:36:17,335 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-24 14:36:22,506 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'Closed'
+INFO  2017-04-24 14:36:24,723 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-24 14:36:30,128 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-04-24 14:36:35,496 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-04-24 14:36:45,941 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-24 14:36:47,174 [Worker#STA_NP] TestScripts.BaseTestES - Select Closed Projects from the drop-down.
+INFO  2017-04-24 14:36:52,447 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-24 14:36:57,621 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-24 14:37:00,912 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-04-24 14:37:04,171 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-04-24 14:37:04,174 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

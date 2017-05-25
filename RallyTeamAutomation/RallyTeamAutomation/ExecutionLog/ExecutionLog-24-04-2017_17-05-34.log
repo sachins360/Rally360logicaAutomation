@@ -1,0 +1,23 @@
+[START]
+INFO  2017-04-24 17:06:19,557 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-24 17:06:39,483 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 17:06:50,822 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-24 17:06:59,456 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 17:07:11,001 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-24 17:07:14,222 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-24 17:07:26,448 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-24 17:07:36,879 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 17:07:53,171 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-24 17:07:55,566 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-04-24 17:08:10,900 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-24 17:08:16,026 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-04-24 17:08:28,349 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-24 17:08:42,235 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-04-24 17:08:47,298 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Join Request short notification on the Notification Window.
+INFO  2017-04-24 17:08:48,521 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-04-24 17:08:55,638 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Join Request  Notification.
+INFO  2017-04-24 17:10:57,422 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-24-17-10-56.png
+ERROR 2017-04-24 17:10:57,425 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'shivani singh requests to join your project RandomProjectHMNYQB')]) to be displayed but did not.
+INFO  2017-04-24 17:10:57,622 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_002_ProjectOwnerPendingJoinRequest_2017-04-24-17-10-57.png
+INFO  2017-04-24 17:10:57,622 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

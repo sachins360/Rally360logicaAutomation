@@ -1,0 +1,11 @@
+[START]
+INFO  2016-12-13 12:47:49,490 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-13 12:47:58,090 [Worker#STA_NP] TestScripts.BaseTest - Verify People menu icon
+INFO  2016-12-13 12:47:58,092 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-13 12:48:21,289 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-13 12:48:34,587 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-12-13 12:48:37,667 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search text.
+INFO  2016-12-13 12:48:39,746 [Worker#STA_NP] TestScripts.BaseTest - Verify the Advance Search Link.
+INFO  2016-12-13 12:48:42,286 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTest.People_002_VerifyPeopleDashboard_2016-12-13-12-48-41.png
+INFO  2016-12-13 12:48:42,320 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

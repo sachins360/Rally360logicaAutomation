@@ -1,0 +1,9 @@
+[START]
+INFO  2017-04-04 12:34:32,956 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-04 12:34:55,650 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-04-12-34-55.png
+ERROR 2017-04-04 12:34:55,657 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.Support.UI.UnexpectedTagNameException: Element should have been select but was input
+   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 74
+INFO  2017-04-04 12:34:55,851 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_002_PostANewProject_2017-04-04-12-34-55.png
+INFO  2017-04-04 12:34:55,851 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

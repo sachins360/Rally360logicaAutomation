@@ -1,0 +1,27 @@
+[START]
+INFO  2017-04-20 16:15:11,027 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-20 16:15:31,375 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 16:15:42,724 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-20 16:15:51,564 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 16:16:03,016 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-04-20 16:16:06,180 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-20 16:16:18,360 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-04-20 16:16:33,669 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-20 16:16:40,382 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-04-20 16:16:45,781 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-20 16:16:47,191 [Worker#STA_NP] TestScripts.BaseTestES - Click the Search button.
+INFO  2017-04-20 16:17:02,627 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-20 16:17:12,771 [Worker#STA_NP] TestScripts.BaseTestES - Click Request To Join button displayed on screen.
+INFO  2017-04-20 16:17:25,070 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-04-20 16:17:32,081 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-04-20 16:17:33,374 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-04-20 16:17:48,660 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-04-20 16:17:53,885 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 16:17:57,198 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-04-20 16:18:05,363 [Worker#STA_NP] TestScripts.BaseTestES - Click Requested User Accept Icon
+INFO  2017-04-20 16:18:07,540 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-04-20 16:20:14,934 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-04-20 16:20:18,191 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-04-20 16:20:21,379 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-04-20 16:20:21,381 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,110 @@
+[START]
+INFO  2016-12-30 22:13:30,879 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:13:40,914 [Worker#STA_NP] TestScripts.BaseTest - Verify Search menu icon
+INFO  2016-12-30 22:13:40,915 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:14:11,041 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:14:21,404 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:14:27,574 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search Page is displayed.
+INFO  2016-12-30 22:14:28,619 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-12-30 22:14:30,620 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:14:56,331 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:15:09,976 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:15:16,112 [Worker#STA_NP] TestScripts.BaseTest - Verify zero results displayed.
+INFO  2016-12-30 22:15:18,113 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:15:47,124 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:15:57,343 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:18:03,915 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-22-18-03.png
+ERROR 2016-12-30 22:18:03,946 [Worker#STA_NP] Util.AssertHelper - Expected element (By.Name: search) to be displayed but did not.
+INFO  2016-12-30 22:18:04,418 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_009_VerifySearchScreenDisplay_2016-12-30-22-18-04.png
+INFO  2016-12-30 22:18:04,418 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:18:31,929 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:18:39,853 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-12-30 22:18:46,252 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-12-30 22:19:00,969 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:21:07,710 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-22-21-07.png
+ERROR 2016-12-30 22:21:07,710 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'GrpHBPHJ') and @class='highlightedText']) to be displayed but did not.
+INFO  2016-12-30 22:21:07,990 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_013_VerifyGroupRadio_2016-12-30-22-21-07.png
+INFO  2016-12-30 22:21:07,990 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:21:37,451 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:21:47,460 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:21:53,541 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:22:27,408 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:22:35,296 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-12-30 22:22:39,635 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-12-30 22:22:43,774 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-12-30 22:22:46,925 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-12-30 22:22:50,059 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-12-30 22:22:54,198 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:23:00,326 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-12-30 22:23:03,482 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Events'
+INFO  2016-12-30 22:23:07,601 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2016-12-30 22:23:10,728 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2016-12-30 22:23:14,235 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-12-30 22:23:19,390 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-12-30 22:23:20,605 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-12-30 22:23:22,717 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-12-30 22:23:24,718 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:23:49,644 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:24:04,181 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-30 22:24:22,032 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:26:28,788 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-22-26-28.png
+ERROR 2016-12-30 22:26:28,788 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'PrjMPHYV') and @class='highlightedText']) to be displayed but did not.
+INFO  2016-12-30 22:26:28,961 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_016_VerifyProjectsRadio_2016-12-30-22-26-28.png
+INFO  2016-12-30 22:26:28,961 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:26:58,486 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:27:05,585 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:27:11,711 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search Page is displayed.
+INFO  2016-12-30 22:29:13,025 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-22-29-12.png
+ERROR 2016-12-30 22:29:13,025 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //h2[contains(text(), 'What can we help you find?')]) to be displayed but did not.
+INFO  2016-12-30 22:29:13,189 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_022_SearchEmptyData_2016-12-30-22-29-13.png
+INFO  2016-12-30 22:29:13,190 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:29:40,030 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:29:54,735 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-30 22:30:09,655 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:32:17,377 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-22-32-17.png
+ERROR 2016-12-30 22:32:17,377 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), '12345') and @class='highlightedText']) to be displayed but did not.
+INFO  2016-12-30 22:32:17,541 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_023_VerifyNumberSearch_2016-12-30-22-32-17.png
+INFO  2016-12-30 22:32:17,541 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:32:45,370 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:32:59,697 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-12-30 22:33:25,752 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-12-30 22:35:31,911 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted resultis not displayed.
+INFO  2016-12-30 22:35:33,912 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:36:02,039 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:36:09,991 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-12-30 22:36:13,035 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search text.
+INFO  2016-12-30 22:36:15,037 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:36:40,129 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:36:48,222 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-12-30 22:36:54,380 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2016-12-30 22:37:00,463 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:37:26,527 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:37:34,942 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-12-30 22:37:41,089 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2016-12-30 22:37:46,206 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2016-12-30 22:37:52,259 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:38:19,393 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:38:27,474 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-12-30 22:38:30,516 [Worker#STA_NP] TestScripts.BaseTest - Verify the Advance Search Link.
+INFO  2016-12-30 22:38:32,517 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:38:56,538 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:39:04,379 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-12-30 22:39:07,709 [Worker#STA_NP] TestScripts.BaseTest - Clickthe Advance Search hyperlink.
+INFO  2016-12-30 22:39:09,773 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Name.
+INFO  2016-12-30 22:39:10,818 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Skills Needed.
+INFO  2016-12-30 22:39:11,861 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Job Function.
+INFO  2016-12-30 22:39:12,903 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Location.
+INFO  2016-12-30 22:39:13,944 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Industry/Domain Expertise.
+INFO  2016-12-30 22:39:14,986 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Endorsed By.
+INFO  2016-12-30 22:39:16,029 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Availability.
+INFO  2016-12-30 22:39:17,070 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Type.
+INFO  2016-12-30 22:39:18,072 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-12-30 22:39:44,761 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-12-30 22:39:57,324 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-12-30 22:40:02,628 [Worker#STA_NP] TestScripts.BaseTest - Clickthe Advance Search hyperlink.
+INFO  2016-12-30 22:40:04,819 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Name.
+INFO  2016-12-30 22:42:09,738 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-30-22-42-09.png
+ERROR 2016-12-30 22:42:09,738 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class='rt-user-container']//strong[contains(text(), 'ammar khan')]) to be displayed but did not.
+INFO  2016-12-30 22:42:09,960 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_032_VerifyPeoplePageAdvanceSearch_2016-12-30-22-42-09.png
+INFO  2016-12-30 22:42:09,960 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

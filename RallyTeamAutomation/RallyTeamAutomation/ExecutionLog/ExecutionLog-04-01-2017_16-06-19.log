@@ -1,0 +1,15 @@
+[START]
+INFO  2017-01-04 16:06:46,487 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 16:06:58,024 [Worker#STA_NP] TestScripts.BaseTestES - Click Messages menu icon.
+INFO  2017-01-04 16:07:03,545 [Worker#STA_NP] TestScripts.BaseTestES - Click Send Announcement button.
+INFO  2017-01-04 16:07:09,087 [Worker#STA_NP] TestScripts.BaseTestES - Select a Group.
+INFO  2017-01-04 16:07:09,413 [Worker#STA_NP] TestScripts.BaseTestES - Enter the announcement.
+INFO  2017-01-04 16:07:11,523 [Worker#STA_NP] TestScripts.BaseTestES - Click Send button.
+INFO  2017-01-04 16:07:23,799 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-01-04 16:07:27,362 [Worker#STA_NP] TestScripts.BaseTestES - Sign in with different user.
+INFO  2017-01-04 16:07:32,442 [Worker#STA_NP] TestScripts.BaseTestES - Verify Announcement Received Modal is displayed.
+INFO  2017-01-04 16:09:34,850 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-16-09-33.png
+ERROR 2017-01-04 16:09:34,874 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class= 'modal-content']//div[contains(text(), 'There is a new message from Ammar Khan)]) to be displayed but did not.
+INFO  2017-01-04 16:09:35,564 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.DirectMessagingTest.DirectMessaging_007_VerifyAnnouncementReceived_2017-01-04-16-09-35.png
+INFO  2017-01-04 16:09:35,564 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,25 @@
+[START]
+INFO  2016-11-23 13:59:04,159 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-23 13:59:40,255 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-23 13:59:42,411 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-23 13:59:44,551 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-23 13:59:46,772 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-23 13:59:50,886 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-23 13:59:56,232 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-23 13:59:58,440 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-23 14:00:00,560 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-23 14:00:15,028 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2016-11-23 14:00:20,193 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2016-11-23 14:00:26,398 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Go button.
+INFO  2016-11-23 14:00:37,703 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Sender.
+INFO  2016-11-23 14:00:48,125 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the Email Link.
+INFO  2016-11-23 14:00:55,372 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter registered work email.
+INFO  2016-11-23 14:00:57,532 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2016-11-23 14:00:59,680 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Let's Go button.
+INFO  2016-11-23 14:01:25,202 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Get Started button.
+INFO  2016-11-23 14:01:44,845 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Skip LinkedIn option.
+INFO  2016-11-23 14:01:49,947 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Upload Your Resume message.
+INFO  2016-11-23 14:01:51,023 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Upload Your Resume button.
+INFO  2016-11-23 14:01:52,060 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify Skip Upload Resume Option.
+INFO  2016-11-23 14:01:52,061 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

@@ -1,0 +1,156 @@
+[START]
+INFO  2016-11-10 15:21:12,620 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:21:23,651 [Worker#STA_NP] TestScripts.BaseTest - Verify Search menu icon
+INFO  2016-11-10 15:21:23,654 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:21:58,307 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:22:05,499 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:22:12,593 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search Page is displayed.
+INFO  2016-11-10 15:22:13,641 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-11-10 15:22:15,642 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:22:51,489 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:22:58,415 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:23:05,725 [Worker#STA_NP] TestScripts.BaseTest - Select All Radio button.
+INFO  2016-11-10 15:23:07,776 [Worker#STA_NP] TestScripts.BaseTest - Verify zero results displayed.
+INFO  2016-11-10 15:23:09,777 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:23:42,702 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:23:49,697 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:23:55,922 [Worker#STA_NP] TestScripts.BaseTest - Verify Search Text Field is displayed.
+INFO  2016-11-10 15:23:57,966 [Worker#STA_NP] TestScripts.BaseTest - Verify Search button Field is displayed.
+INFO  2016-11-10 15:23:59,014 [Worker#STA_NP] TestScripts.BaseTest - Verify All Radio button is displayed.
+INFO  2016-11-10 15:24:00,057 [Worker#STA_NP] TestScripts.BaseTest - Verify Users Radio button is displayed.
+INFO  2016-11-10 15:24:01,134 [Worker#STA_NP] TestScripts.BaseTest - Verify Groups Radio button is displayed.
+INFO  2016-11-10 15:24:02,228 [Worker#STA_NP] TestScripts.BaseTest - Verify Events Radio button is displayed.
+INFO  2016-11-10 15:24:03,330 [Worker#STA_NP] TestScripts.BaseTest - Verify Projects Radio button is displayed.
+INFO  2016-11-10 15:24:04,331 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:24:46,833 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:24:53,939 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:25:01,207 [Worker#STA_NP] TestScripts.BaseTest - Select All Radio button.
+INFO  2016-11-10 15:25:03,252 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-11-10 15:25:05,254 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:25:33,641 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:25:41,611 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Groups'
+INFO  2016-11-10 15:25:48,020 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add New Group button at Groups page
+INFO  2016-11-10 15:26:02,993 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:26:10,412 [Worker#STA_NP] TestScripts.BaseTest - Select Group Radio button.
+INFO  2016-11-10 15:28:13,188 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-15-28-12.png
+ERROR 2016-11-10 15:28:13,218 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //span[contains(text(), 'GrpBWEQG') and @class='highlightedText']) to be displayed but did not.
+INFO  2016-11-10 15:28:13,776 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_013_VerifyGroupRadio_2016-11-10-15-28-13.png
+INFO  2016-11-10 15:28:13,776 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:28:52,440 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:29:08,443 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:29:15,683 [Worker#STA_NP] TestScripts.BaseTest - Select Users Radio button.
+INFO  2016-11-10 15:29:17,793 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-11-10 15:29:19,794 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:29:53,419 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:30:01,502 [Worker#STA_NP] TestScripts.BaseTest - Click the Events menu option.
+INFO  2016-11-10 15:30:06,008 [Worker#STA_NP] TestScripts.BaseTest - Click on New Event button.
+INFO  2016-11-10 15:30:10,330 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Name.
+INFO  2016-11-10 15:30:13,634 [Worker#STA_NP] TestScripts.BaseTest - Enter the Event Description.
+INFO  2016-11-10 15:30:16,849 [Worker#STA_NP] TestScripts.BaseTest - Verify Create New Event Page.
+INFO  2016-11-10 15:30:21,035 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:30:28,524 [Worker#STA_NP] TestScripts.BaseTest - Select Events Radio button.
+INFO  2016-11-10 15:30:30,594 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-11-10 15:30:33,879 [Worker#STA_NP] TestScripts.BaseTest - Click on the side navigation link 'Events'
+INFO  2016-11-10 15:30:38,015 [Worker#STA_NP] TestScripts.BaseTest - Click the All Events dropdown.
+INFO  2016-11-10 15:30:41,220 [Worker#STA_NP] TestScripts.BaseTest - Click the My Events dropdown option.
+INFO  2016-11-10 15:30:44,753 [Worker#STA_NP] TestScripts.BaseTest - Click the Event Name on Events Page.
+INFO  2016-11-10 15:30:50,096 [Worker#STA_NP] TestScripts.BaseTest - Click on the Settings option after Event is created.
+INFO  2016-11-10 15:30:51,396 [Worker#STA_NP] TestScripts.BaseTest - Verified Settings option value: 'Delete Event'
+INFO  2016-11-10 15:30:53,664 [Worker#STA_NP] TestScripts.BaseTest - Click the Delete Event Window Yes Button.
+INFO  2016-11-10 15:30:55,664 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:31:30,176 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:31:44,503 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 15:31:59,669 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:34:07,331 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-15-34-06.png
+ERROR 2016-11-10 15:34:07,378 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"optionsRadios5"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<Id>c__AnonStorey0.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 372
+INFO  2016-11-10 15:34:07,677 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_016_VerifyProjectsRadio_2016-11-10-15-34-07.png
+INFO  2016-11-10 15:34:07,677 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:34:54,758 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:35:01,538 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:35:07,650 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search Page is displayed.
+INFO  2016-11-10 15:35:08,749 [Worker#STA_NP] TestScripts.BaseTest - Verify the empty result message.
+INFO  2016-11-10 15:35:10,751 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:35:46,201 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:36:00,440 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 15:36:15,611 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:36:23,797 [Worker#STA_NP] TestScripts.BaseTest - Select Projects Radio button.
+INFO  2016-11-10 15:36:25,868 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search highlighted result.
+INFO  2016-11-10 15:36:35,474 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2016-11-10 15:36:38,607 [Worker#STA_NP] TestScripts.BaseTest - Select I've Posted option from the All Projects dropdown.
+INFO  2016-11-10 15:36:41,255 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2016-11-10 15:36:51,859 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:37:38,534 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:37:54,380 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2016-11-10 15:38:18,810 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2016-11-10 15:40:26,417 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-15-40-26.png
+ERROR 2016-11-10 15:40:26,417 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"optionsRadios5"}
+  (Session info: chrome=54.0.2840.71)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<Id>c__AnonStorey0.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 372
+INFO  2016-11-10 15:40:26,655 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_024_VerifySearchForNonExistingItem_2016-11-10-15-40-26.png
+INFO  2016-11-10 15:40:26,655 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:40:57,439 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:41:05,381 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-11-10 15:41:08,428 [Worker#STA_NP] TestScripts.BaseTest - Verify the Search text.
+INFO  2016-11-10 15:41:10,429 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:41:55,019 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:42:03,197 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-11-10 15:42:07,614 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2016-11-10 15:42:13,697 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:42:42,343 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:42:50,329 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-11-10 15:42:54,733 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2016-11-10 15:42:59,904 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search text.
+INFO  2016-11-10 15:43:05,986 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:43:52,676 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:44:00,696 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-11-10 15:44:03,753 [Worker#STA_NP] TestScripts.BaseTest - Verify the Advance Search Link.
+INFO  2016-11-10 15:44:05,754 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:45:13,581 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:45:27,408 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-11-10 15:45:30,696 [Worker#STA_NP] TestScripts.BaseTest - Clickthe Advance Search hyperlink.
+INFO  2016-11-10 15:45:32,754 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Name.
+INFO  2016-11-10 15:45:33,812 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Skills Needed.
+INFO  2016-11-10 15:45:34,861 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Job Function.
+INFO  2016-11-10 15:45:35,902 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Location.
+INFO  2016-11-10 15:45:36,944 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Industry/Domain Expertise.
+INFO  2016-11-10 15:45:37,986 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Endorsed By.
+INFO  2016-11-10 15:45:39,029 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Availability.
+INFO  2016-11-10 15:45:40,077 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Type.
+INFO  2016-11-10 15:45:41,079 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+INFO  2016-11-10 15:46:46,652 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2016-11-10 15:47:15,951 [Worker#STA_NP] TestScripts.BaseTest - Click the People menu option.
+INFO  2016-11-10 15:47:19,323 [Worker#STA_NP] TestScripts.BaseTest - Clickthe Advance Search hyperlink.
+INFO  2016-11-10 15:47:21,494 [Worker#STA_NP] TestScripts.BaseTest - Verify Advance Search Name.
+INFO  2016-11-10 15:49:26,164 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-10-15-49-25.png
+ERROR 2016-11-10 15:49:26,164 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[@class='rt-user-container']//strong[contains(text(), 'ammar khan')]) to be displayed but did not.
+INFO  2016-11-10 15:49:26,369 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.SearchTest.Search_032_VerifyPeoplePageAdvanceSearch_2016-11-10-15-49-26.png
+INFO  2016-11-10 15:49:26,369 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

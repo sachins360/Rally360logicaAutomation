@@ -1,0 +1,29 @@
+[START]
+INFO  2016-11-23 16:38:09,006 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2016-11-23 16:38:39,958 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp option given to the user.
+INFO  2016-11-23 16:38:42,116 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter First Name on the screen.
+INFO  2016-11-23 16:38:44,273 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Last Name on the screen.
+INFO  2016-11-23 16:38:46,518 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Work Email on the screen.
+INFO  2016-11-23 16:38:50,644 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp button on the screen.
+INFO  2016-11-23 16:39:00,775 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Create a Password field on the screen.
+INFO  2016-11-23 16:39:02,954 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter Confirm Password field on the screen.
+INFO  2016-11-23 16:39:05,082 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Next button on the screen.
+INFO  2016-11-23 16:39:23,573 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the mailinator site.
+INFO  2016-11-23 16:39:28,745 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter email address.
+INFO  2016-11-23 16:39:33,669 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Go button.
+INFO  2016-11-23 16:40:14,817 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click the Email Sender.
+INFO  2016-11-23 16:40:25,710 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Navigate to the Email Link.
+INFO  2016-11-23 16:40:33,022 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter registered work email.
+INFO  2016-11-23 16:40:35,195 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2016-11-23 16:40:37,318 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Let's Go button.
+INFO  2016-11-23 16:40:45,464 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Get Started button.
+INFO  2016-11-23 16:40:51,647 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Skip LinkedIn option.
+INFO  2016-11-23 16:40:57,837 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Skip Upload Resume option.
+INFO  2016-11-23 16:41:04,130 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Continue button.
+INFO  2016-11-23 16:41:08,309 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click Continue Skills button.
+INFO  2016-11-23 16:41:11,354 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the What are you interested in? message.
+INFO  2016-11-23 16:41:12,445 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the Interests Div.
+INFO  2016-11-23 16:43:15,249 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-11-23-16-43-13.png
+ERROR 2016-11-23 16:43:15,306 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //button[contains(text(), 'Let's Get You Matched!')]) to be displayed but did not.
+INFO  2016-11-23 16:43:15,521 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

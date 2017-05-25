@@ -1,0 +1,10 @@
+[START]
+INFO  2017-02-09 16:48:07,537 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-09 16:48:54,453 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add member icon for the Project.
+INFO  2017-02-09 16:49:08,021 [Worker#STA_NP] TestScripts.BaseTestES - User selected successfully.
+INFO  2017-02-09 16:49:11,141 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Project Member window Done button.
+INFO  2017-02-09 16:49:17,821 [Worker#STA_NP] TestScripts.BaseTestES - Click Project member added remove icon.
+INFO  2017-02-09 16:49:20,968 [Worker#STA_NP] TestScripts.BaseTestES - Click the Remove Project Member window Yes button.
+INFO  2017-02-09 16:51:26,412 [Worker#STA_NP] TestScripts.BaseTestES - Verified Project member is deleted.
+INFO  2017-02-09 16:51:40,725 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

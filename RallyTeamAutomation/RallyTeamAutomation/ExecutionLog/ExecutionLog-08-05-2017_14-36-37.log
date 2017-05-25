@@ -1,0 +1,32 @@
+[START]
+INFO  2017-05-08 14:37:25,188 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-08 14:37:45,446 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 14:37:56,837 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-08 14:38:05,634 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-08 14:38:17,261 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-08 14:38:20,463 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-08 14:38:32,910 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-08 14:38:41,116 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-05-08 14:38:43,507 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-05-08 14:38:46,697 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-05-08 14:38:51,520 [Worker#STA_NP] TestScripts.BaseTestES - Click the searched user.
+INFO  2017-05-08 14:38:57,124 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-05-08 14:39:07,574 [Worker#STA_NP] TestScripts.BaseTestES - Select Project DropDown.
+INFO  2017-05-08 14:39:10,077 [Worker#STA_NP] TestScripts.BaseTestES - Click the Awesome rating.
+INFO  2017-05-08 14:39:12,823 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2017-05-08 14:39:14,169 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2017-05-08 14:39:21,746 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-08 14:39:36,383 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-05-08 14:39:41,494 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Receives Feedback short notification on the Notification Window.
+INFO  2017-05-08 14:39:43,062 [Worker#STA_NP] TestScripts.BaseTestES - Click See All link.
+INFO  2017-05-08 14:39:50,215 [Worker#STA_NP] TestScripts.BaseTestES - Verify the User Receives Feedback Notification on Notifications Page.
+INFO  2017-05-08 14:39:51,369 [Worker#STA_NP] TestScripts.BaseTestES - Verify User Receives Feedback notification subject on the Notifications Page.
+INFO  2017-05-08 14:39:55,710 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-05-08 14:40:08,520 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-05-08 14:40:11,242 [Worker#STA_NP] TestScripts.BaseTestES - Click the prSearch button.
+INFO  2017-05-08 14:40:26,719 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-05-08 14:40:35,209 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-08 14:40:38,525 [Worker#STA_NP] TestScripts.BaseTestES - Select Delete Project option.
+INFO  2017-05-08 14:40:42,717 [Worker#STA_NP] TestScripts.BaseTestES - Press Delete Project Window Yes button.
+INFO  2017-05-08 14:40:42,719 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

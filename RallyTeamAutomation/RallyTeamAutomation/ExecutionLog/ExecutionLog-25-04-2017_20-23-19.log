@@ -1,0 +1,17 @@
+[START]
+INFO  2017-04-25 20:23:58,260 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 20:24:09,036 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 20:24:11,628 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 20:24:17,259 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:24:22,577 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-25 20:24:28,581 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-25 20:24:30,949 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:24:36,207 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-25 20:24:44,922 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-25 20:24:52,302 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-25 20:25:01,814 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Sender.
+INFO  2017-04-25 20:25:03,895 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Email Subject.
+INFO  2017-04-25 20:25:08,577 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-04-25 20:25:13,688 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Get Started Button.
+INFO  2017-04-25 20:25:13,691 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

@@ -1,0 +1,17 @@
+[START]
+INFO  2017-01-19 17:16:48,027 [15] TestScripts.BaseTestES - Setup test
+INFO  2017-01-19 17:20:13,406 [15] TestScripts.BaseTestES - Select Project status as 'Completed'
+INFO  2017-01-19 17:20:22,070 [15] TestScripts.BaseTestES - Click Mark Complete button.
+INFO  2017-01-19 17:20:50,269 [15] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-01-19 17:20:55,885 [15] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-19 17:21:19,160 [15] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-19 17:21:21,531 [15] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-19-17-21-20.png
+ERROR 2017-01-19 17:21:21,621 [15] Util.DriverExtender - OpenQA.Selenium.NoSuchElementException: Unable to find element with xpath == //select[contains(@class, 'marketplace__search-filter')]
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<XPath>c__AnonStorey3.<>m__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at RallyTeam.Util.DriverExtender.SelectDropDownOption(IWebDriver _driver, String option, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 65

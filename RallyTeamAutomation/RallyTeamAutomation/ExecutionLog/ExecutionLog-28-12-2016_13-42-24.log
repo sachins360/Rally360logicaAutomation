@@ -1,0 +1,38 @@
+[START]
+INFO  2016-12-28 13:43:25,339 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-28 13:43:50,085 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-28 13:43:57,266 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2016-12-28 13:44:02,062 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2016-12-28 13:44:09,261 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2016-12-28 13:44:11,934 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2016-12-28 13:44:17,189 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2016-12-28 13:44:22,514 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Title.
+INFO  2016-12-28 13:44:23,713 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Description.
+INFO  2016-12-28 13:44:24,909 [Worker#STA_NP] TestScripts.BaseTestES - Click the Good rating.
+INFO  2016-12-28 13:44:27,135 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2016-12-28 13:46:30,350 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-28-13-46-29.png
+ERROR 2016-12-28 13:46:30,620 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 400
+INFO  2016-12-28 13:46:30,837 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_007_EndorseUserGoodRating_2016-12-28-13-46-30.png
+INFO  2016-12-28 13:46:30,837 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2016-12-28 13:47:48,030 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2016-12-28 13:48:00,923 [Worker#STA_NP] TestScripts.BaseTestES - Click the People tab.
+INFO  2016-12-28 13:48:05,163 [Worker#STA_NP] TestScripts.BaseTestES - Enter the Search text on the main search page.
+INFO  2016-12-28 13:48:06,364 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Search button on the main page
+INFO  2016-12-28 13:48:11,402 [Worker#STA_NP] TestScripts.BaseTestES - Move to user container.
+INFO  2016-12-28 13:48:13,811 [Worker#STA_NP] TestScripts.BaseTestES - Click on Message button.
+INFO  2016-12-28 13:48:19,136 [Worker#STA_NP] TestScripts.BaseTestES - Click on Endorse button.
+INFO  2016-12-28 13:48:24,625 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Title.
+INFO  2016-12-28 13:48:25,809 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Description.
+INFO  2016-12-28 13:48:27,103 [Worker#STA_NP] TestScripts.BaseTestES - Click the Not Good rating.
+INFO  2016-12-28 13:48:29,299 [Worker#STA_NP] TestScripts.BaseTestES - Enter Project Feedback.
+INFO  2016-12-28 13:50:31,198 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2016-12-28-13-50-30.png
+ERROR 2016-12-28 13:50:31,199 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 400
+INFO  2016-12-28 13:50:31,409 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.PeopleES_008_EndorseUserNotGoodRating_2016-12-28-13-50-31.png
+INFO  2016-12-28 13:50:31,409 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

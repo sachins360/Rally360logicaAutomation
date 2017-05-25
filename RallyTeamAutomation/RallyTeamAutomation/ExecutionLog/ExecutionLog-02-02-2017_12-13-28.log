@@ -1,0 +1,8 @@
+[START]
+INFO  2017-02-02 12:14:24,092 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-02-02 12:14:44,856 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-02-02 12:14:48,222 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-02-02 12:14:53,414 [Worker#STA_NP] TestScripts.BaseTestES - Click Users Tab.
+INFO  2017-02-02 12:14:56,690 [Worker#STA_NP] TestScripts.BaseTestES - Search a user.
+INFO  2017-02-02 12:17:03,191 [Worker#STA_NP] TestScripts.BaseTestES - Deactivate the user, if not already deactivated.
+INFO  2017-02-02 12:17:10,643 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.

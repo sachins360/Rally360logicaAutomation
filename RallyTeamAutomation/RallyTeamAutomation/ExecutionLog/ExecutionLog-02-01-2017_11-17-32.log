@@ -1,0 +1,7 @@
+[START]
+INFO  2017-01-02 11:18:21,617 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-02 11:18:33,500 [Worker#STA_NP] TestScripts.BaseTest - Enter the Search option.
+INFO  2017-01-02 11:18:39,689 [Worker#STA_NP] TestScripts.BaseTest - Verify Search Text Field is displayed.
+INFO  2017-01-02 11:18:41,746 [Worker#STA_NP] TestScripts.BaseTest - Verify Search button Field is displayed.
+INFO  2017-01-02 11:18:42,748 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]

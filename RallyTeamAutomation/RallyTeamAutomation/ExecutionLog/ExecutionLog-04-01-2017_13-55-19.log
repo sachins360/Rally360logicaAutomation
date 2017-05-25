@@ -1,0 +1,20 @@
+[START]
+INFO  2017-01-04 13:55:49,708 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 13:56:03,550 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PeopleTestES.ENG2248_001_VerifyAddNotesViewNotes_2017-01-04-13-56-03.png
+INFO  2017-01-04 13:56:04,115 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 13:56:43,905 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 13:56:52,209 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-01-04 13:56:54,600 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-01-04 13:56:57,027 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-01-04 13:57:04,408 [Worker#STA_NP] TestScripts.BaseTestES - Click View Notes link.
+INFO  2017-01-04 13:57:07,480 [Worker#STA_NP] TestScripts.BaseTestES - Verify View Notes Window.
+INFO  2017-01-04 13:57:07,480 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 13:57:32,310 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 13:57:42,076 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-01-04 13:57:45,528 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-01-04 13:57:49,221 [Worker#STA_NP] TestScripts.BaseTestES - Enter search user email id.
+INFO  2017-01-04 13:57:53,493 [Worker#STA_NP] TestScripts.BaseTestES - Click View Notes link.
+INFO  2017-01-04 13:57:56,669 [Worker#STA_NP] TestScripts.BaseTestES - Enter View Notes TextArea.
+INFO  2017-01-04 13:57:58,940 [Worker#STA_NP] TestScripts.BaseTestES - Click the Add Note button.
+INFO  2017-01-04 13:58:02,073 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

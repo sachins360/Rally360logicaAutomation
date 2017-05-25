@@ -1,0 +1,9 @@
+[START]
+INFO  2017-03-06 15:04:23,615 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-03-06 15:05:04,819 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Signout button.
+INFO  2017-03-06 15:05:19,847 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Notifications Icon at top.
+INFO  2017-03-06 15:07:33,811 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-03-06-15-07-25.png
+ERROR 2017-03-06 15:07:33,872 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You have a new reque')]) to be displayed but did not.
+INFO  2017-03-06 15:07:36,261 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.NotificationsTest.Notifications_003_UserRecruitedToProject_2017-03-06-15-07-35.png
+INFO  2017-03-06 15:07:36,261 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

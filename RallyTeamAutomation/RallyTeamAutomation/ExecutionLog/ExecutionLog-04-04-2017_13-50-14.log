@@ -1,0 +1,18 @@
+[START]
+INFO  2017-04-04 13:50:54,037 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-04 13:51:21,487 [Worker#STA_NP] TestScripts.BaseTestES - Click Start Date Field.
+INFO  2017-04-04 13:51:22,627 [Worker#STA_NP] TestScripts.BaseTestES - Select today's date.
+INFO  2017-04-04 13:51:24,809 [Worker#STA_NP] TestScripts.BaseTestES - Select Ongoing check-box.
+INFO  2017-04-04 13:51:27,057 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-04-04 13:51:39,015 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-04-04 13:51:41,712 [Worker#STA_NP] TestScripts.BaseTestES - Select Project Location.
+INFO  2017-04-04 13:51:42,914 [Worker#STA_NP] TestScripts.BaseTestES - Select Remote check-box.
+INFO  2017-04-04 13:51:45,115 [Worker#STA_NP] TestScripts.BaseTestES - Select Onsite check-box.
+INFO  2017-04-04 13:51:48,309 [Worker#STA_NP] TestScripts.BaseTestES - Select Staff.
+INFO  2017-04-04 13:51:50,825 [Worker#STA_NP] TestScripts.BaseTestES - Select Expected Time Commitment.
+INFO  2017-04-04 13:51:53,209 [Worker#STA_NP] TestScripts.BaseTestES - Enter Number of Members needed
+INFO  2017-04-04 13:53:56,215 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-04-13-53-55.png
+ERROR 2017-04-04 13:53:56,223 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@placeholder='Type a name or email']"}
+INFO  2017-04-04 13:53:56,617 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_002_PostANewProject_2017-04-04-13-53-56.png
+INFO  2017-04-04 13:53:56,617 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

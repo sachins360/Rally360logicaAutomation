@@ -1,0 +1,153 @@
+[START]
+INFO  2017-04-25 19:56:38,932 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 19:56:49,678 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 19:56:52,140 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 19:56:57,430 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 19:57:07,505 [Worker#STA_NP] TestScripts.BaseTestES - Verify Close Icon.
+INFO  2017-04-25 19:57:08,535 [Worker#STA_NP] TestScripts.BaseTestES - Verify Maybe Later Option.
+INFO  2017-04-25 19:57:09,605 [Worker#STA_NP] TestScripts.BaseTestES - Verify CSV button.
+INFO  2017-04-25 19:57:10,675 [Worker#STA_NP] TestScripts.BaseTestES - Verify Email button.
+INFO  2017-04-25 19:57:11,744 [Worker#STA_NP] TestScripts.BaseTestES - Verify Create Profile button.
+INFO  2017-04-25 19:57:11,746 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-25 19:58:01,038 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 19:58:11,105 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 19:58:13,494 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 19:58:18,791 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 19:58:24,154 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-25 19:58:30,075 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-25 19:58:32,401 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 19:58:37,644 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-25 19:58:46,570 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-25 19:58:53,916 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-25 20:01:04,072 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-25-20-01-03.png
+ERROR 2017-04-25 20:01:04,075 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'noreply@rallyteam.com')]) to be displayed but did not.
+INFO  2017-04-25 20:01:04,844 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_002_SendAndVerifyInviteEmail_2017-04-25-20-01-04.png
+INFO  2017-04-25 20:01:04,844 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-25 20:01:46,416 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 20:01:56,763 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 20:01:59,174 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 20:02:04,452 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:02:09,733 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-25 20:02:15,670 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-25 20:02:17,909 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:02:23,149 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-25 20:02:32,289 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-25 20:02:39,696 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-25 20:02:52,273 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-04-25 20:03:00,554 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-04-25 20:03:01,224 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-04-25 20:03:03,485 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-04-25 20:03:06,693 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-04-25 20:03:12,151 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-04-25 20:03:14,424 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-04-25 20:03:16,616 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-04-25 20:05:24,393 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-25-20-05-24.png
+ERROR 2017-04-25 20:05:24,393 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //a[contains(text(), 'Get Started')]) to be displayed but did not.
+INFO  2017-04-25 20:05:24,577 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_003_OnboardWithInvitedUser_2017-04-25-20-05-24.png
+INFO  2017-04-25 20:05:24,577 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-25 20:06:11,689 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 20:06:21,789 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 20:06:24,303 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 20:06:29,759 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:06:35,158 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-25 20:06:41,027 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-25 20:06:42,178 [Worker#STA_NP] TestScripts.BaseTestES - Enter Second Email Address.
+INFO  2017-04-25 20:06:44,492 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:06:49,769 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-25 20:06:58,007 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-25 20:07:05,500 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-25 20:09:15,660 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-25-20-09-14.png
+ERROR 2017-04-25 20:09:15,661 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(text(), 'noreply@rallyteam.com')]) to be displayed but did not.
+INFO  2017-04-25 20:09:16,314 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_004_SendAndVerifyInviteEmailMultipleUsers_2017-04-25-20-09-15.png
+INFO  2017-04-25 20:09:16,314 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-25 20:09:53,496 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 20:10:03,983 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 20:10:06,474 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 20:10:11,780 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:10:17,264 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-25 20:10:23,253 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-25 20:10:25,634 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:10:31,072 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-25 20:10:39,653 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-25 20:10:47,088 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-25 20:10:59,531 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-04-25 20:11:08,366 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-04-25 20:11:09,011 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-04-25 20:11:11,278 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-04-25 20:11:13,496 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-04-25 20:11:19,918 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-04-25 20:11:22,286 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-04-25 20:11:24,582 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-04-25 20:13:32,237 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-25-20-13-31.png
+ERROR 2017-04-25 20:13:32,242 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Get Started')]"}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-04-25 20:13:32,414 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_005_UploadResume_2017-04-25-20-13-32.png
+INFO  2017-04-25 20:13:32,414 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-25 20:14:11,392 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 20:14:22,227 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 20:14:24,731 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 20:14:29,980 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:14:35,246 [Worker#STA_NP] TestScripts.BaseTestES - Click Email button.
+INFO  2017-04-25 20:14:41,133 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email Address.
+INFO  2017-04-25 20:14:43,509 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:14:48,748 [Worker#STA_NP] TestScripts.BaseTestES - Click Finish button.
+INFO  2017-04-25 20:14:56,966 [Worker#STA_NP] TestScripts.BaseTestES - Navigate to the mailinator site.
+INFO  2017-04-25 20:15:04,345 [Worker#STA_NP] TestScripts.BaseTestES - Enter email address.
+INFO  2017-04-25 20:15:16,383 [Worker#STA_NP] TestScripts.BaseTestES - Click the Email Subject.
+INFO  2017-04-25 20:15:24,658 [Worker#STA_NP] TestScripts.BaseTestES - Click the Get Started Button.
+INFO  2017-04-25 20:15:24,980 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name on the screen.
+INFO  2017-04-25 20:15:27,271 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name on the screen.
+INFO  2017-04-25 20:15:29,488 [Worker#STA_NP] TestScripts.BaseTestES - Click SignUp button on the screen.
+INFO  2017-04-25 20:15:35,933 [Worker#STA_NP] TestScripts.BaseTestES - Enter Create a Password field on the screen.
+INFO  2017-04-25 20:15:38,296 [Worker#STA_NP] TestScripts.BaseTestES - Enter Confirm Password field on the screen.
+INFO  2017-04-25 20:15:40,511 [Worker#STA_NP] TestScripts.BaseTestES - Click All Done button on the screen.
+INFO  2017-04-25 20:17:48,156 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-25-20-17-47.png
+ERROR 2017-04-25 20:17:48,157 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(), 'Get Started')]"}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.3.9600 x86_64)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)
+   at OpenQA.Selenium.By.<>c__DisplayClasse.<XPath>b__c(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.ExpectedConditions.<>c__DisplayClass13.<ElementIsVisible>b__12(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 461
+INFO  2017-04-25 20:17:48,358 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_006_UploadLinkedIn_2017-04-25-20-17-48.png
+INFO  2017-04-25 20:17:48,358 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-04-25 20:18:38,076 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-04-25 20:18:48,592 [Worker#STA_NP] TestScripts.BaseTestES - Click the User Profile Icon.
+INFO  2017-04-25 20:18:51,252 [Worker#STA_NP] TestScripts.BaseTestES - Click User Profile option 'Admin'.
+INFO  2017-04-25 20:18:56,524 [Worker#STA_NP] TestScripts.BaseTestES - Click Add Users button.
+INFO  2017-04-25 20:19:02,254 [Worker#STA_NP] TestScripts.BaseTestES - Click Create a Profile button.
+INFO  2017-04-25 20:19:07,570 [Worker#STA_NP] TestScripts.BaseTestES - Enter First Name.
+INFO  2017-04-25 20:19:10,046 [Worker#STA_NP] TestScripts.BaseTestES - Enter Last Name.
+INFO  2017-04-25 20:19:12,585 [Worker#STA_NP] TestScripts.BaseTestES - Enter Email.
+INFO  2017-04-25 20:19:15,366 [Worker#STA_NP] TestScripts.BaseTestES - Enter Title.
+INFO  2017-04-25 20:19:18,038 [Worker#STA_NP] TestScripts.BaseTestES - Enter About Me.
+INFO  2017-04-25 20:19:21,433 [Worker#STA_NP] TestScripts.BaseTestES - Enter My Top Skills.
+INFO  2017-04-25 20:19:25,776 [Worker#STA_NP] TestScripts.BaseTestES - Enter Other Skills.
+INFO  2017-04-25 20:21:30,544 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-04-25-20-21-30.png
+ERROR 2017-04-25 20:21:30,544 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//input[@placeholder= 'Add up to 3 tags']"}
+INFO  2017-04-25 20:21:30,857 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.AddUsersTest.AddUser_007_CreateProfile_2017-04-25-20-21-30.png
+INFO  2017-04-25 20:21:30,857 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

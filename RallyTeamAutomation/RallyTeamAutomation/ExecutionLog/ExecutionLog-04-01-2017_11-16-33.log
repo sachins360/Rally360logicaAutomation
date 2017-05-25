@@ -1,0 +1,15 @@
+[START]
+INFO  2017-01-04 11:17:18,153 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:19:52,225 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-04-11-19-51.png
+ERROR 2017-01-04 11:19:52,252 [Worker#STA_NP] Util.DriverExtender - Unable to locate element: {"method":"XPath","selector":"//textarea[@name='description']"}
+INFO  2017-01-04 11:19:52,729 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.MarketplaceTest.Marketplace_006_VerifyRecommendedProjectsSearch_2017-01-04-11-19-52.png
+INFO  2017-01-04 11:19:52,729 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+INFO  2017-01-04 11:20:27,820 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-01-04 11:20:54,719 [Worker#STA_NP] TestScripts.BaseTestES - Select Project status as 'In Progress'
+INFO  2017-01-04 11:21:00,145 [Worker#STA_NP] TestScripts.BaseTestES - Click the Marketplace tab.
+INFO  2017-01-04 11:21:05,421 [Worker#STA_NP] TestScripts.BaseTestES - Click the Browse button.
+INFO  2017-01-04 11:21:15,843 [Worker#STA_NP] TestScripts.BaseTestES - Enter the project name.
+INFO  2017-01-04 11:21:17,125 [Worker#STA_NP] TestScripts.BaseTestES - Select In Progress from the drop-down.
+INFO  2017-01-04 11:21:22,427 [Worker#STA_NP] TestScripts.BaseTestES - Click the Project Name on the Projects Page.
+INFO  2017-01-04 11:21:34,789 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

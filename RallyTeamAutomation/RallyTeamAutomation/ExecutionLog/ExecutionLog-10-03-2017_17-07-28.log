@@ -1,0 +1,8 @@
+[START]
+INFO  2017-03-10 17:08:07,771 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Setup test
+INFO  2017-03-10 17:08:12,550 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid work email.
+INFO  2017-03-10 17:08:14,113 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Enter valid password.
+INFO  2017-03-10 17:08:17,339 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Click SignUp link.
+INFO  2017-03-10 17:08:25,614 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Verify the login success by asserting user icon.
+INFO  2017-03-10 17:08:27,617 [Worker#STA_NP] TestScripts.BaseTestWithoutLogin - Teardown test
+[END]

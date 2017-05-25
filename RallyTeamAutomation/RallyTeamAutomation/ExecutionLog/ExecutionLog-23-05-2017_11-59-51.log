@@ -1,0 +1,21 @@
+[START]
+INFO  2017-05-23 12:00:51,591 [Worker#STA_NP] TestScripts.BaseTestES - Setup test
+INFO  2017-05-23 12:01:17,871 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-23 12:01:31,467 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-23 12:01:40,779 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-23 12:01:53,647 [Worker#STA_NP] TestScripts.BaseTestES - Click Add button.
+INFO  2017-05-23 12:01:57,089 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Continue button.
+INFO  2017-05-23 12:02:09,510 [Worker#STA_NP] TestScripts.BaseTestES - Click Publish Button
+INFO  2017-05-23 12:02:17,175 [Worker#STA_NP] TestScripts.BaseTestES - Click Settings Icon
+INFO  2017-05-23 12:02:21,434 [Worker#STA_NP] TestScripts.BaseTestES - Select Edit Project option.
+INFO  2017-05-23 12:02:26,586 [Worker#STA_NP] TestScripts.BaseTestES - Verify General Tab on Edit Page
+INFO  2017-05-23 12:02:27,769 [Worker#STA_NP] TestScripts.BaseTestES - Verify Staffing Info Tab on Edit Page
+INFO  2017-05-23 12:02:34,452 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Staffing Info Tab.
+INFO  2017-05-23 12:02:45,939 [Worker#STA_NP] TestScripts.BaseTestES - Enter Skills.
+INFO  2017-05-23 12:02:46,331 [Worker#STA_NP] TestScripts.BaseTestES - Click on the Save button.
+INFO  2017-05-23 12:02:51,510 [Worker#STA_NP] TestScripts.BaseTestES - Verify the Project Name on About page
+INFO  2017-05-23 12:04:53,117 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-05-23-12-04-52.png
+ERROR 2017-05-23 12:04:53,120 [Worker#STA_NP] Util.AssertHelper - Expected element (By.XPath: //div[contains(@class, 'rt-section-content')]//p[contains(text(), 'Description Edited')]) to be displayed but did not.
+INFO  2017-05-23 12:04:53,328 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.PostProjectTest.PostProject_006_EditProjectAndVerify_2017-05-23-12-04-53.png
+INFO  2017-05-23 12:04:53,328 [Worker#STA_NP] TestScripts.BaseTestES - Teardown test
+[END]

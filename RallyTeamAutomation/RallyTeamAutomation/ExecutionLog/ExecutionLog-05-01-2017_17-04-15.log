@@ -1,0 +1,37 @@
+[START]
+INFO  2017-01-05 17:05:02,929 [Worker#STA_NP] TestScripts.BaseTest - Setup test
+INFO  2017-01-05 17:05:28,509 [Worker#STA_NP] TestScripts.BaseTest - Click on the Add Project button at Projects page
+INFO  2017-01-05 17:05:50,581 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-05 17:05:54,282 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-05 17:06:00,465 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-05 17:06:06,593 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-05 17:06:09,670 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-05 17:06:12,133 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-05 17:06:18,304 [Worker#STA_NP] TestScripts.BaseTest - Click Request To Join button doisplayed on screen.
+INFO  2017-01-05 17:06:29,471 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-05 17:06:42,195 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-05 17:06:48,325 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-05 17:06:51,403 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-05 17:06:56,901 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-05 17:07:04,792 [Worker#STA_NP] TestScripts.BaseTest - Click the Requested Member of the Project.
+INFO  2017-01-05 17:07:10,943 [Worker#STA_NP] TestScripts.BaseTest - Accept the Requested member.
+INFO  2017-01-05 17:07:15,448 [Worker#STA_NP] TestScripts.BaseTest - Close the Pending member window.
+INFO  2017-01-05 17:07:25,691 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-05 17:07:32,256 [Worker#STA_NP] TestScripts.BaseTest - Sign in with different user.
+INFO  2017-01-05 17:07:38,529 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-05 17:07:44,715 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-05 17:07:47,807 [Worker#STA_NP] TestScripts.BaseTest - Select Recruiting option from the All Projects dropdown.
+INFO  2017-01-05 17:07:50,321 [Worker#STA_NP] TestScripts.BaseTest - Click the Project Name on the Projects Page.
+INFO  2017-01-05 17:07:54,369 [Worker#STA_NP] TestScripts.BaseTest - Verify Leave Project icon displayed on screen.
+INFO  2017-01-05 17:08:04,618 [Worker#STA_NP] TestScripts.BaseTest - Click on the Signout button.
+INFO  2017-01-05 17:08:09,593 [Worker#STA_NP] TestScripts.BaseTest - Click the Projects menu option.
+INFO  2017-01-05 17:08:15,758 [Worker#STA_NP] TestScripts.BaseTest - Click the All Projects dropdown.
+INFO  2017-01-05 17:08:18,810 [Worker#STA_NP] TestScripts.BaseTest - Select 'Recruiting' option from the All Projects dropdown.
+INFO  2017-01-05 17:10:22,996 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\AutomationScreenShot_2017-01-05-17-10-22.png
+ERROR 2017-01-05 17:10:23,273 [Worker#STA_NP] Util.DriverExtender - OpenQA.Selenium.WebDriverTimeoutException: Timed out after 120 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at RallyTeam.Util.DriverExtender.SafeClick(IWebDriver driver, By locator) in F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\Util\DriverExtender.cs:line 399
+INFO  2017-01-05 17:10:23,507 [Worker#STA_NP] Util.UtilityHelper - Screenshot saved at: Screenshots\RallyTeam.TestScripts.ProjectsTest.Projects_020_VerifyLeaveProjectOption_2017-01-05-17-10-23.png
+INFO  2017-01-05 17:10:23,507 [Worker#STA_NP] TestScripts.BaseTest - Teardown test
+[END]
