@@ -77,7 +77,6 @@ namespace RallyTeam.Util
                 IWebElement element = driver.SafeFindElement(locator);
                 try
                 {
-                    element.Click();
                     element.Clear();
                     element.SendKeys(text);
                     return true;

@@ -37,9 +37,7 @@ namespace RallyTeam.Util
 
         public String GetValue(String type, String key)
         {
-            string path = "D:\\Rally\\RallyTeamAutomation";
-            //string path= System.IO.Directory.GetCurrentDirectory();
-            IniFile ini = new IniFile(path + "\\TestData\\" + fileName + ".ini");
+            IniFile ini = new IniFile(System.IO.Directory.GetCurrentDirectory()+"\\TestData\\" + fileName + ".ini");
             Console.WriteLine("current directory path: "+System.IO.Directory.GetCurrentDirectory());
             Console.WriteLine("actual path: " + System.IO.Directory.GetCurrentDirectory() + "\\TestData\\" + fileName + ".ini");
             Value = ini.IniReadValue(type, key);
