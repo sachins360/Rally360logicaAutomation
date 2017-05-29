@@ -129,9 +129,9 @@ namespace RallyTeam.UIPages
         }
 
         //Verify User Mentioned In Project WIth All Notification
-        public void VerifyUserMentionedInProjectWIthAll()
+        public void VerifyUserMentionedInProjectWIthAll(string projectName=null)
         {
-            _assertHelper.AssertElementDisplayed(NotificationsUI.userMentionedInProjectWithAll);
+            _assertHelper.AssertElementDisplayed(NotificationsUI.userMentionedInProjectWithAl(projectName));
         }
 
         //Verify User Mentioned In Project WIth All Notification Subject
