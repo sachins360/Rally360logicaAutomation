@@ -56,11 +56,11 @@ namespace RallyTeam.UILocators
         }
         public static By aboutProjectDesc(string variable)
         {
-            return By.XPath("//div[contains(@class, 'rt-section-content')]//p[contains(text(), '" + variable + "')]");
+            return By.XPath("//div[contains(@class, 'fr-view')]//p[contains(text(), '" + variable + "')]");
         }
         public static By aboutProjectDelv(string variable)
         {
-            return By.XPath("//div[contains(@class, 'rt-section-content')]//p[contains(text(), '" + variable + "')]");
+            return By.XPath("//div[contains(@class, 'fr-view')]//p[contains(text(), '" + variable + "')]");
         }
         public static By aboutProjectSkills(string variable)
         {
