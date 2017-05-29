@@ -64,10 +64,8 @@ F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\b
 F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.exe
 F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.pdb
 F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\People.ini
-D:\Rally\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe.config
-D:\Rally\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.exe
-D:\Rally\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.pdb
 D:\Rally\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\chromedriver.exe
+D:\Rally\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe.config
 D:\Rally\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\Authentication.ini
 D:\Rally\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\DirectMessaging.ini
 D:\Rally\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\Invoicing.ini
@@ -99,3 +97,5 @@ D:\Rally\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\nunit.framework.xml
 D:\Rally\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\WebDriver.xml
 D:\Rally\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\WebDriver.Support.xml
 D:\Rally\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.csprojResolveAssemblyReference.cache
+D:\Rally\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.exe
+D:\Rally\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.pdb

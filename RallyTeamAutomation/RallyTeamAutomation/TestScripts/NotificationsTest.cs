@@ -678,8 +678,9 @@ namespace RallyTeam.TestScripts
             commonPage.PressTabKey();
             Thread.Sleep(1000);
             commonPage.PressTabKey();
-            Thread.Sleep(1000);            
-
+            Thread.Sleep(1000);
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
             //Enter the Message in Text Area
             postProjectPage.EnterMessageTextArea("Hi @all");
             log.Info("Enter message in Discussion.");
