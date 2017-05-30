@@ -25,7 +25,7 @@ namespace RallyTeam.TestScripts
         public void GoToAddUser()
         {
             builder = new StringBuilder();
-            builder.Append(RandomString(6));
+            builder.Append(RandomString(10));
             
             //Click User Profile Icon
             userProfilePage.ClickUserProfileIcon();
