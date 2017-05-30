@@ -53,7 +53,7 @@ namespace RallyTeam.TestScripts
             //Click Post Project tab
             Thread.Sleep(3000);
             postProjectPage.ClickPostProject();
-            Thread.Sleep(5000);
+            Thread.Sleep(6000);
 
             //Enter the Project Name
             postProjectPage.EnterProjectName(projectName);
@@ -709,9 +709,9 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Verify the User Mentioned In Project WIth All on the Notification Window
-            notificationsPage.VerifyUserMentionedInProjectWIthAllNotificationWindow();
-            log.Info("Verify the User Mentioned In Project WIth All short notification on the Notification Window.");
-            Thread.Sleep(1000);
+            //notificationsPage.VerifyUserMentionedInProjectWIthAllNotificationWindow();
+            //log.Info("Verify the User Mentioned In Project WIth All short notification on the Notification Window.");
+            //Thread.Sleep(1000);
 
             //Click See All link
             notificationsPage.ClickSeeAll();
@@ -719,7 +719,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(7000);
 
             //Verify the User Mentioned In Project WIth All on Notifications Page
-            notificationsPage.VerifyUserMentionedInProjectWIthAll();
+            notificationsPage.VerifyUserMentionedInProjectWIthAll(projectName);
             log.Info("Verify the User Mentioned In Project WIth All Notification on Notifications Page.");
             Thread.Sleep(1000);
 
@@ -785,13 +785,16 @@ namespace RallyTeam.TestScripts
             commonPage.PressTabKey();
             Thread.Sleep(1000);
 
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
+
             //Enter the Message in Text Area
-            postProjectPage.EnterMessageTextArea("Hi @anup");
+            postProjectPage.EnterMessageTextArea("Hi @Anup");
             log.Info("Enter message in Discussion.");
             Thread.Sleep(6000);
             commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
+            Thread.Sleep(5000);
+            commonPage.PressEnterKey();
             //Click the Post button for the message
             postProjectPage.ClickMessagePostBtn();
             log.Info("Click the Post button for the message.");
@@ -814,9 +817,9 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Verify the User Mentioned In Project WIth All on the Notification Window
-            notificationsPage.VerifyUserMentionedInProjectWIthAllNotificationWindow();
-            log.Info("Verify the User Mentioned In Project WIth All short notification on the Notification Window.");
-            Thread.Sleep(1000);
+           // notificationsPage.VerifyUserMentionedInProjectWIthAllNotificationWindow();
+            //log.Info("Verify the User Mentioned In Project WIth All short notification on the Notification Window.");
+            //Thread.Sleep(1000);
 
             //Click See All link
             notificationsPage.ClickSeeAll();
@@ -824,7 +827,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(7000);
 
             //Verify the User Mentioned In Project WIth All on Notifications Page
-            notificationsPage.VerifyUserMentionedInProjectWIthAll();
+            notificationsPage.VerifyUserMentionedInProjectWIthAll(projectName);
             log.Info("Verify the User Mentioned In Project WIth All Notification on Notifications Page.");
             Thread.Sleep(1000);
 

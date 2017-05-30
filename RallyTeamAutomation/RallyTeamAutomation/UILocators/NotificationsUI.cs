@@ -10,7 +10,7 @@ namespace RallyTeam.UILocators
     public static class NotificationsUI
     {
         public readonly static By notificationsIcon = By.XPath("//i[contains(@class, 'fa-bell-o')]");
-        public readonly static By notificationsSeeAll = By.XPath("//a[contains(text(), 'See All')]");
+        public readonly static By notificationsSeeAll = By.XPath("//div[contains(@class,'text-center rt-notification')]/a[contains(text(),'See All')]");
 
         //Project Assigned
         public readonly static By notificationsWindowProjectAssigned = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'been assigned')]");
@@ -53,8 +53,16 @@ namespace RallyTeam.UILocators
         }
 
         //User was mentioned in a Project with @all
-        public readonly static By notificationsWindowUserMentionedInProjectWithAll = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You were mentioned i')]");
+        //public readonly static By notificationsWindowUserMentionedInProjectWithAll = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You were mentioned i')]");
+
+        public readonly static By notificationsWindowUserMentionedInProjectWithAll = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'Congrats! You have just joined')]");
+
         public readonly static By userMentionedInProjectWithAll = By.XPath("//a[contains(text(), 'You were mentioned in Project')]");
+
+        public static By userMentionedInProjectWithAl(string projectName)
+        {
+            return By.XPath("//div[contains(@class, 'mail-box ng-scope')]//a[contains(text(), '" + projectName + "')]");
+        }
         public static By userMentionedInProjectWithAllSubject(string variable1, string variable2)
         {
             return By.XPath("//div[contains(@class, 'mail-box')]//a[contains(text(), '"+variable2+"')]");
