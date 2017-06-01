@@ -80,9 +80,7 @@ namespace RallyTeam.UILocators
         public readonly static By filesTab = By.XPath("//ul[contains(@class, 'nav nav-tabs')]//a[contains(text(), 'Files')]");
 
         public readonly static By discussionMessageDiv = By.XPath("//form[@name='activityForm']//div[contains(@class, 'ta-scroll-window')]");
-        // public readonly static By discussionTypeMessageArea = By.XPath("//form[@name= 'activityForm']//div[contains(@id, 'taTextElement')]");
-         public readonly static By discussionTypeMessageArea = By.XPath("//div[@class='fr-element fr-view']");
-
+        public readonly static By discussionTypeMessageArea = By.XPath("//form[@name= 'activityForm']//div[contains(@id, 'taTextElement')]");
         public readonly static By discussionPostBtn = By.XPath("//button[contains(@class, 'btn')]");
         public readonly static By discussionReplyBtn = By.XPath("//div[contains(@class, 'chat-activity-list')]//div[2]//a[contains(text(), 'Reply')]");
         public readonly static By discussionAttachIcon = By.XPath("//form[@name= 'activityForm']//i[contains(@class, 'fa fa-paperclip')]");

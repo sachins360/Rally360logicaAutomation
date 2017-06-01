@@ -19,10 +19,8 @@ namespace RallyTeam.TestScripts
         static ReadData readPostProject = new ReadData("PostProject");
 
         //SignIn
-        private void SignInDifferentUser()
+        private void SignInDifferentUser(String userName, String password)
         {
-            String userName = readPostProject.GetValue("SignInDifferentUser", "userName");
-            String password = readPostProject.GetValue("SignInDifferentUser", "password");
             authenticationPage.SetUserName(userName);
             authenticationPage.SetPassword(password);
             authenticationPage.ClickOnLoginButton();
@@ -892,7 +890,9 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(5000);
-            SignInDifferentUser();
+            String userName = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "userName");
+            String password = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Enter the Project Name
@@ -971,7 +971,9 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(5000);
-            SignInDifferentUser();
+            String userName = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "userName");
+            String password = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Enter the Project Name
@@ -1069,7 +1071,9 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(5000);
-            SignInDifferentUser();
+            String userName = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "userName");
+            String password = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Enter the Project Name
@@ -1186,8 +1190,8 @@ namespace RallyTeam.TestScripts
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
 
-            //Sign in with Bob Lewis
-            authenticationPage.SetUserName("bobl@mailinator.com");
+            //Sign in with Steve Smith
+            authenticationPage.SetUserName("smith@mailinator.com");
             authenticationPage.SetPassword("Logica360");
             authenticationPage.ClickOnLoginButton();
             Thread.Sleep(5000);
@@ -1345,9 +1349,12 @@ namespace RallyTeam.TestScripts
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
 
-            //Sign in with different user
-            SignInDifferentUser();
+            //Sign in with a different user
             Thread.Sleep(5000);
+            String userName = readPostProject.GetValue("SignInDifferentUser", "userName");
+            String password = readPostProject.GetValue("SignInDifferentUser", "password");
+            SignInDifferentUser(userName, password);
+            log.Info("Sign in with different user.");
 
             //Click the Browse button
             marketplacePage.ClickBrowseBtn();
