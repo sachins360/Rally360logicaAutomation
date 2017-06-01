@@ -51,7 +51,7 @@ namespace RallyTeam.TestScripts
             authenticationPage.ClickOnLoginButton();
         }
 
-        [Test]
+        /*[Test]
         public void Vendor_001_AdminAddsVendorProfile()
         {
             Global.MethodName = "Vendor_001_AdminAddsVendorProfile";
@@ -400,6 +400,6 @@ namespace RallyTeam.TestScripts
             //Verify Vendor Created Message
             vendorPage.VerifyVendorCreatedMsg();
             log.Info("Verify Vendor Created Message.");
-        }
+        }*/
     }
 }

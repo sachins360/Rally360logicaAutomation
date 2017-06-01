@@ -653,17 +653,11 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(PostProjectUI.privateProjectCheckbox);
         }
 
-        
-
-        
-
         //Verify Project is not displayed message
         public void AssertProjectNotDisplayedMsg()
         {
             _assertHelper.AssertElementDisplayed(PostProjectUI.noProjectDisplayedMsg);
-        }
-
-       
+        }       
 
         //Press on Project's Discussion tab
         public void ClickDiscussionTab()

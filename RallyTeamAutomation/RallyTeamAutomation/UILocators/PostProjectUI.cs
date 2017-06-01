@@ -56,11 +56,11 @@ namespace RallyTeam.UILocators
         }
         public static By aboutProjectDesc(string variable)
         {
-            return By.XPath("//div[contains(@class, 'rt-section-content')]//p[contains(text(), '" + variable + "')]");
+            return By.XPath("//div[contains(@class, 'fr-view')]//p[contains(text(), '" + variable + "')]");
         }
         public static By aboutProjectDelv(string variable)
         {
-            return By.XPath("//div[contains(@class, 'rt-section-content')]//p[contains(text(), '" + variable + "')]");
+            return By.XPath("//div[contains(@class, 'fr-view')]//p[contains(text(), '" + variable + "')]");
         }
         public static By aboutProjectSkills(string variable)
         {
@@ -202,7 +202,7 @@ namespace RallyTeam.UILocators
         public readonly static By privateProjectCheckbox = By.XPath("//span[contains(@class, 'rt-checkbox')]");
         
         public readonly static By publicProjectIcon = By.XPath("//a[contains(text(), 'Public')]");
-        public readonly static By noProjectDisplayedMsg = By.XPath("//span[text()= 'No projects match the search criteria. Please try refining your search.']");
+        public readonly static By noProjectDisplayedMsg = By.XPath("//p[text()= 'No projects match the search criteria. Please try refining your search.']");
 
         public readonly static By discussionPostBtn = By.XPath("//div[contains(@class, 'text-right')]//button[contains(@class, 'btn')]//strong[text()= 'Post']");
                 
