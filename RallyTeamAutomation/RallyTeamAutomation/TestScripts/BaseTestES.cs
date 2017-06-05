@@ -93,7 +93,7 @@ namespace RallyTeam.TestScripts
             Log.Info("Setup test");            
 
             Global.MethodName = "TestSetup";
-            commonPage.RefreshPage();
+            //commonPage.RefreshPage();
             Thread.Sleep(5000);
             authenticationPage.SetUserName(_workEmail);
             authenticationPage.SetPassword(_password);
