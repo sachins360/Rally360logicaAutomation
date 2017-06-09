@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Interactions;
 using System.Collections;
+using System.Threading;
 
 namespace RallyTeam.UIPages
 {
@@ -56,11 +57,23 @@ namespace RallyTeam.UIPages
         {
             _assertHelper.AssertElementDisplayed(AddUsersUI.closeIcon);
         }
+        public void ClickCloseIcon()
+        {
+            _driver.SafeClick(AddUsersUI.closeIcon);
+        }
+        public void ClickDownloadCSV()
+        {
+            _driver.SafeClick(AddUsersUI.downloadCSVTemp);
+        }
 
-        //Assert Maybe Later option
         public void VerifyMayBeLaterOption()
         {
             _assertHelper.AssertElementDisplayed(AddUsersUI.mayBeLater);
+        }
+        //Assert Maybe Later option
+        public void VerifyDownloadCSV()
+        {
+            _assertHelper.AssertElementDisplayed(AddUsersUI.downloadCSVTemp);
         }
 
         //Assert Google button
@@ -97,6 +110,17 @@ namespace RallyTeam.UIPages
         public void ClickEmailBtn()
         {
             _driver.SafeClick(AddUsersUI.emailBtn);
+           // _driver.ClickElementUsingJS(AddUsersUI.emailBtn);
+        }
+
+        //Tab to Email Button
+        public void PressEmailBtn()
+        {
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
+            commonPage.PressEnterKey();
         }
 
         //Enter Email Addresses
@@ -223,6 +247,18 @@ namespace RallyTeam.UIPages
         public void ClickCreateProfileBtn()
         {
             _driver.SafeClick(AddUsersUI.createProfileBtn);
+        }
+        
+        //Tab and Press Create a Profile Icon
+        public void PressCreateProfileBtn()
+        {
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
+            commonPage.PressEnterKey();
         }
 
         //Enter First Name

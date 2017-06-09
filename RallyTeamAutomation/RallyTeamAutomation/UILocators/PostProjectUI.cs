@@ -112,7 +112,8 @@ namespace RallyTeam.UILocators
         public readonly static By markCompleteAwesomeMember1 = By.XPath("//rt-project-complete-user[@id='project-complete-user-0']//div[@tooltip= 'Awesome']");
         public readonly static By markCompleteAwesomeMember2 = By.XPath("//rt-project-complete-user[@id='project-complete-user-1']//div[@tooltip= 'Awesome']");
         public readonly static By CompleteProjectBtn = By.XPath("//button[contains(text(), 'Complete Project')]");
-
+        public readonly static By CompleteProjectPointBtn = By.XPath("//div[@class='rt-modal__ellipsis-container--inner']//a[@class='rt-modal__ellipsis']//i[@class='fa fa-check-circle-o']");
+        
         /*Projects Edit Page*/
         public readonly static By generalTab = By.XPath("//a[contains(text(), 'GENERAL')]");
         public readonly static By staffingInfoTab = By.XPath("//a[contains(text(), 'STAFFING INFO')]");

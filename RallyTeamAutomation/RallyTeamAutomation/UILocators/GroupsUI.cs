@@ -19,5 +19,9 @@ namespace RallyTeam.UILocators
         public readonly static By createBtn = By.XPath("//a[text()= 'Create']");
         public readonly static By cancelBtn = By.XPath("//a[text()= 'Cancel']");
         public readonly static By removeMemberIcon = By.XPath("//div[@class= 'rt-member__remove-container']//i[@tooltip= 'Remove User']");
+
+        public readonly static By userAddedToGroup = By.XPath("//div[contains(@class,'rt-member ng-scope')]//a[contains(@class,'rt-member')]");
+
+
     }
 }

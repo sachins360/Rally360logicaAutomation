@@ -119,6 +119,8 @@ namespace RallyTeam.Util
             }
         }
 
+
+
         public void AssertHiddenElementTextContains(By locator, string containedText)
         {
             DefaultWait<IWebDriver> wait = new DefaultWait<IWebDriver>(_driver);

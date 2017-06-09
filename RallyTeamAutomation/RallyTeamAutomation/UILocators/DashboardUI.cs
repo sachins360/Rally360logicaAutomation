@@ -37,7 +37,9 @@ namespace RallyTeam.UILocators
             return By.XPath("//ul[contains(@class, 'dropdown-menu')]//a[contains(text(), '"+variable+"')]");
         }
         public readonly static By searchText = By.Name("searchTerm");
-        public readonly static By messageIcon = By.XPath("//i[contains(@class, 'fa fa-envelope-o')]");
+        //public readonly static By messageIcon = By.XPath("//i[contains(@class, 'fa fa-envelope-o')]");
+        //public readonly static By messageIcon = By.XPath("//li[@class='rt-top-navbar__messages rt-top-navbar__icon ng-scope']//a//i[contains(@class, 'fa fa-envelope-o')]");
+        public readonly static By messageIcon = By.XPath("//li[@class='rt-top-navbar__messages rt-top-navbar__icon ng-scope']//a");
         public readonly static By messageCounter = By.XPath("//span[contains(@class, 'rt-top-navbar__messages-count')]");
         public static By increasedMessageCounter(string variable)
         {

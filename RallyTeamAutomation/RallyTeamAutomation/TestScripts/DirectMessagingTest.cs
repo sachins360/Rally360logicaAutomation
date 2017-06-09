@@ -30,7 +30,6 @@ namespace RallyTeam.TestScripts
             authenticationPage.SetPassword(password);
             authenticationPage.ClickOnLoginButton();
         }
-
         
         [Test]
         public void DirectMessaging_001_VerifyMessagesPage()

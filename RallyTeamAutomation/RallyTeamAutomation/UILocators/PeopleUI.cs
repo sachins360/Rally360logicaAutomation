@@ -12,8 +12,13 @@ namespace RallyTeam.UILocators
         public readonly static By peopleTab = By.XPath("//a[text()= 'DIRECTORY']");
         public readonly static By spanSearchBtn = By.XPath("//span[text()= 'Search']");
         public readonly static By browseAdvanceLink = By.XPath("//a[text()='Advanced Search']");
-        public readonly static By browseSearch = By.XPath("//form[contains(@class, 'ng-pristine')]//input[contains(@class, 'rt-search-people')]");
-        public readonly static By searchBox = By.XPath("//form[contains(@class, 'rt-user-search')]//input[contains(@class, 'rt-user-search')]");
+        //public readonly static By browseSearch = By.XPath("//form[contains(@class, 'ng-pristine')]//input[contains(@class, 'rt-search-people')]");
+        public readonly static By browseSearch = By.XPath("//form[contains(@class, 'ng-pristine')]//input[contains(@placeholder, 'Search for people by name, skills or expertise...')]");
+
+        //        public readonly static By searchBox = By.XPath("//form[contains(@class, 'rt-user-search')]//input[contains(@class, 'rt-user-search')]");
+        public readonly static By searchBox = By.XPath("//div[@class='white-bg rt-user-search-container']//form[@class='rt-user-search-container-form ng-pristine ng-valid']//input[@ng-model='vm.searchTerm']");
+        
+
         public readonly static By advanceLink = By.XPath("//a[text()='advanced']");
         public readonly static By userContainer = By.XPath("//div[@class='rt-user-container']");
         public static By userContainerUserName(String variable)
@@ -67,14 +72,18 @@ namespace RallyTeam.UILocators
         public readonly static By endorseBtn = By.XPath("//button[@type= 'button' and text()= 'Endorse']");
         public readonly static By projectTitle = By.XPath("//input[@placeholder= 'Select or type in your project title']");
         public readonly static By projectDesc = By.XPath("//textarea[@placeholder= 'Enter a description of the project']");
-        public readonly static By awesome = By.XPath("//div[contains(@class, 'awesome')]");
-        public readonly static By good = By.XPath("//div[contains(@class, 'good')]");
-        public readonly static By notGood = By.XPath("//div[contains(@class, 'not-good')]");
+        //public readonly static By awesome = By.XPath("//div[contains(@class, 'awesome')]");
+        public readonly static By awesome = By.XPath("//div[contains(@class, 'text-center')]//div[@tooltip='Awesome']");
+        public readonly static By good = By.XPath("//div[@class='text-center']//div[@tooltip='Good']");
+        public readonly static By notGood = By.XPath("//div[@class='text-center']//div[@tooltip='Not good']");
+        //public readonly static By notGood = By.XPath("//div[contains(@class, 'not-good')]");
         public readonly static By projectFeedback = By.XPath("//textarea[@name= 'feedback']");
         public readonly static By skills = By.XPath("//input[@placeholder= '+ add skills']");
         public readonly static By endorsementCount = By.XPath("//div[@class= 'ng-hide']//div[@class= 'row m-t-xs ng-scope']//div[2]");
         public readonly static By endorseUserBtn = By.XPath("//div[3]/button");
-        public readonly static By projectDropDown = By.XPath("//select[@id= 'rt-selectedProject']");
+        //public readonly static By projectDropDown = By.XPath("//select[@id= 'rt-selectedProject']");
+        public readonly static By projectDropDown = By.XPath("//div[@class='row no-gutter']//div[@class='col-lg-6']//select[@id='rt-selectedProject']");
+        
 
         //Request feedback fields
         public readonly static By requestFeedbackBtn = By.XPath("//button[text()= 'Request Feedback']");

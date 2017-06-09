@@ -375,6 +375,11 @@ namespace RallyTeam.UIPages
             _driver.SafeEnterText(UserProfileUI.searchUser, searchUser);
         }
 
+        public void ClickSearchButton()
+        {
+            _driver.SafeClick(UserProfileUI.userSearchButton);
+        }
+
         //Click the Searched User
         public void ClickSearchedUser()
         {

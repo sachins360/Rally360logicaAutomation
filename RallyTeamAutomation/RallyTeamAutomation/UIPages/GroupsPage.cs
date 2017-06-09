@@ -81,5 +81,12 @@ namespace RallyTeam.UIPages
             _driver.ClickElementUsingJS(GroupsUI.removeMemberIcon);
         }
 
+        public void VerifyUserAddedToGroup(string memberName)
+        {
+            _assertHelper.AssertElementTextContains(GroupsUI.userAddedToGroup, memberName);
+        }
+
+      
+
     }
 }

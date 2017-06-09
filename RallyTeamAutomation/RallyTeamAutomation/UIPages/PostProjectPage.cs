@@ -332,7 +332,11 @@ namespace RallyTeam.UIPages
         {
             _driver.SafeClick(PostProjectUI.CompleteProjectBtn);
         }
-
+        public void ClickSidePointonCompleteProjectBtn()
+        {
+            _driver.SafeClick(PostProjectUI.CompleteProjectPointBtn);
+        }
+        
         //Verify the Update Metrics Button
         public void VerifyUpdateMetricsBtn()
         {
@@ -674,6 +678,7 @@ namespace RallyTeam.UIPages
         //Enter the Message in the Text Area
         public void EnterMessageTextArea(String message)
         {
+           // _driver.SafeClick(ProjectsUI.discussionTypeMessageArea);
             _driver.SafeEnterText(ProjectsUI.discussionTypeMessageArea, message);
         }
 

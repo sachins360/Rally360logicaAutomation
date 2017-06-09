@@ -14,7 +14,8 @@ namespace RallyTeam.UILocators
         public readonly static By searchText = By.XPath("//input[contains(@placeholder, 'What kind of project are you looking for?')]");
         public readonly static By searchBtn = By.XPath("//span[contains(text(), 'Search')]");
         public readonly static By searchProjBtn = By.XPath("//a[text()= 'Search']"); 
-        public readonly static By allProjectsDropDown = By.XPath("//select[contains(@class, 'marketplace__search-filter')]");
+        public readonly static By allProjectsDropDown = By.XPath("//div[@class='rt-marketplace__search-field--align']//select[@ng-model='vm.filter']");
+        //public readonly static By allProjectsDropDown = By.XPath("//select[contains(@class, 'marketplace__search-filter')]");
         public readonly static By projectDraftStatus = By.XPath("//div[text()= 'Draft']");
 
         public static By ProjectNameOnPage(String variable)
