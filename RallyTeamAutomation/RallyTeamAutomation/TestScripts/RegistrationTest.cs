@@ -94,7 +94,7 @@ namespace RallyTeam.TestScripts
             //Enter Work Email on the screen
             Thread.Sleep(5000);
             StringBuilder builder = new StringBuilder();
-            builder.Append(RandomString(4));
+            builder.Append(RandomString(6));
             String validWorkEmail = readRegistration.GetValue("Credentials", "validWorkEmail");
             String workEmail = builder + validWorkEmail;         
             registrationPage.EnterWorkEmail(workEmail);
@@ -284,7 +284,7 @@ namespace RallyTeam.TestScripts
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(4));
             String validWorkEmail = readRegistration.GetValue("Credentials", "validWorkEmail");
-            String workEmail = builder + validWorkEmail;
+            String workEmail = (Convert.ToString(builder)).ToLower() + validWorkEmail;
             registrationPage.EnterWorkEmail(workEmail);
             log.Info("Enter Work Email on the screen.");
             Thread.Sleep(2000);
@@ -296,6 +296,7 @@ namespace RallyTeam.TestScripts
 
             //Enter Confirm Password field on the screen
             String confirmPwd = readRegistration.GetValue("Credentials", "confirmPwd");
+            registrationPage.EnterCreatePwdFields("");
             registrationPage.EnterConfirmPwdFields(confirmPwd);
             log.Info("Enter Confirm Password field on the screen.");
             Thread.Sleep(2000);
@@ -337,7 +338,8 @@ namespace RallyTeam.TestScripts
             String validWorkEmail = readRegistration.GetValue("Credentials", "validWorkEmail");
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(4));
-            validWorkEmail = builder + validWorkEmail;
+            
+            validWorkEmail = (Convert.ToString(builder)).ToLower() + validWorkEmail;
             registrationPage.EnterWorkEmail(validWorkEmail);
             log.Info("Enter Work Email on the screen.");
             Thread.Sleep(2000);
@@ -350,6 +352,7 @@ namespace RallyTeam.TestScripts
             //Enter Create a Password field on the screen
             String createPwd = readRegistration.GetValue("Credentials", "createPwd");
             registrationPage.EnterCreatePwdFields(createPwd);
+            registrationPage.EnterConfirmPwdFields("");
             log.Info("Enter Create a Password field on the screen.");
             Thread.Sleep(2000);
 
@@ -390,7 +393,7 @@ namespace RallyTeam.TestScripts
             String validWorkEmail = readRegistration.GetValue("Credentials", "validWorkEmail");
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(4));
-            validWorkEmail = builder + validWorkEmail;
+            validWorkEmail = (Convert.ToString(builder)).ToLower() + validWorkEmail;
             registrationPage.EnterWorkEmail(validWorkEmail);
             log.Info("Enter Work Email on the screen.");
             Thread.Sleep(2000);
@@ -448,7 +451,7 @@ namespace RallyTeam.TestScripts
             String validWorkEmail = readRegistration.GetValue("Credentials", "validWorkEmail");
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(4));
-            validWorkEmail = builder + validWorkEmail;
+            validWorkEmail = (Convert.ToString(builder)).ToLower() + validWorkEmail;
             registrationPage.EnterWorkEmail(validWorkEmail);
             log.Info("Enter Work Email on the screen.");
             Thread.Sleep(2000);

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using log4net;
 using System.Reflection;
+using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
@@ -18,6 +19,7 @@ namespace RallyTeam.TestScripts
     public class AddUsersTest : BaseTestES
     {
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+        public string _browser = ConfigurationSettings.AppSettings["Browser"].ToLower();
         static ReadData readInviteUser = new ReadData("AddUser");
         StringBuilder builder;
         String email;
@@ -26,7 +28,7 @@ namespace RallyTeam.TestScripts
         {
             builder = new StringBuilder();
             builder.Append(RandomString(10));
-            
+
             //Click User Profile Icon
             userProfilePage.ClickUserProfileIcon();
             log.Info("Click the User Profile Icon.");
@@ -36,7 +38,7 @@ namespace RallyTeam.TestScripts
             userProfilePage.ClickUserProfileOptions("Admin");
             log.Info("Click User Profile option 'Admin'.");
             Thread.Sleep(5000);
-                      
+
             //Click Add Users button
             addUsersPage.ClickAddUsersBtn();
             log.Info("Click Add Users button.");
@@ -104,6 +106,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
             GoToAddUser();
 
+
             //Verify Close Icon
             Thread.Sleep(5000);
             addUsersPage.VerifyCloseIcon();
@@ -113,26 +116,33 @@ namespace RallyTeam.TestScripts
             /*//Verify Let's build your marketplace! message
             addUsersPage.VerifyLetsBuildYourMarketplaceMsg();
             log.Info("Verify Let's build your marketplace! message.");
-            Thread.Sleep(1000);  */                        
+            Thread.Sleep(1000);  */
+
 
             //Verify Maybe Later Option
             addUsersPage.VerifyCloseIcon();
             log.Info("Verify Maybe Later Option.");
             Thread.Sleep(1000);
-                        
-            //Verify CSV button
-            addUsersPage.VerifyCsvBtn();
-            log.Info("Verify CSV button.");
+
+            //Verify Download CSV link
+            Thread.Sleep(5000);
+            addUsersPage.VerifyDownloadCSV();
+            log.Info("Verify Download CSV Option.");
             Thread.Sleep(1000);
 
-            //Verify Email button
-            addUsersPage.VerifyEmailBtn();
-            log.Info("Verify Email button.");
-            Thread.Sleep(1000);
+            ////Verify CSV button
+            //addUsersPage.VerifyCsvBtn();
+            //log.Info("Verify CSV button.");
+            //Thread.Sleep(1000);
 
-            //Verify Create Profile button
-            addUsersPage.VerifyCreateProfileBtn();
-            log.Info("Verify Create Profile button.");
+            ////Verify Email button
+            //addUsersPage.VerifyEmailBtn();
+            //log.Info("Verify Email button.");
+            //Thread.Sleep(1000);
+
+            ////Verify Create Profile button
+            //addUsersPage.VerifyCreateProfileBtn();
+            //log.Info("Verify Create Profile button.");
         }
 
         [Test]
@@ -141,9 +151,12 @@ namespace RallyTeam.TestScripts
             Global.MethodName = "AddUser_002_SendAndVerifyInviteEmail";
             Thread.Sleep(5000);
             GoToAddUser();
-                        
+
             //Click Email button
-            addUsersPage.ClickEmailBtn();
+            if (_browser == "edge")
+                addUsersPage.PressEmailBtn();
+            else
+                addUsersPage.ClickEmailBtn();
             log.Info("Click Email button.");
             Thread.Sleep(5000);
 
@@ -176,7 +189,7 @@ namespace RallyTeam.TestScripts
 
             //Press Enter key
             commonPage.PressEnterKey();
-            Thread.Sleep(5000);                       
+            Thread.Sleep(5000);
 
             //Verify the Email Sender
             addUsersPage.VerifyEmailSender();
@@ -192,7 +205,7 @@ namespace RallyTeam.TestScripts
             addUsersPage.ClickEmailSubject();
             log.Info("Click the Email Subject.");
             Thread.Sleep(5000);
-                        
+
             //Verify the Email Get Started Button
             addUsersPage.VerifyEmailGetStartedBtn();
             log.Info("Verify the Email Get Started Button.");
@@ -206,7 +219,10 @@ namespace RallyTeam.TestScripts
             GoToAddUser();
 
             //Click Email button
-            addUsersPage.ClickEmailBtn();
+            if (_browser == "edge")
+                addUsersPage.PressEmailBtn();
+            else
+                addUsersPage.ClickEmailBtn();
             log.Info("Click Email button.");
             Thread.Sleep(5000);
 
@@ -239,7 +255,7 @@ namespace RallyTeam.TestScripts
 
             //Press Enter key
             commonPage.PressEnterKey();
-            Thread.Sleep(5000);               
+            Thread.Sleep(5000);
 
             //Click the Email Subject
             addUsersPage.ClickEmailSubject();
@@ -344,7 +360,10 @@ namespace RallyTeam.TestScripts
             GoToAddUser();
 
             //Click Email button
-            addUsersPage.ClickEmailBtn();
+            if (_browser == "edge")
+                addUsersPage.PressEmailBtn();
+            else
+                addUsersPage.ClickEmailBtn();
             log.Info("Click Email button.");
             Thread.Sleep(5000);
 
@@ -446,7 +465,10 @@ namespace RallyTeam.TestScripts
             GoToAddUser();
 
             //Click Email button
-            addUsersPage.ClickEmailBtn();
+            if (_browser == "edge")
+                addUsersPage.PressEmailBtn();
+            else
+                addUsersPage.ClickEmailBtn();
             log.Info("Click Email button.");
             Thread.Sleep(5000);
 
@@ -479,7 +501,7 @@ namespace RallyTeam.TestScripts
 
             //Press Enter key
             commonPage.PressEnterKey();
-            Thread.Sleep(5000);            
+            Thread.Sleep(5000);
 
             //Click the Email Subject
             addUsersPage.ClickEmailSubject();
@@ -518,7 +540,7 @@ namespace RallyTeam.TestScripts
             //Click All Done Button on the screen
             registrationPage.ClickAllDoneBtn();
             log.Info("Click All Done button on the screen.");
-            Thread.Sleep(7000);           
+            Thread.Sleep(7000);
 
             //Click Get Started button
             addUsersPage.ClickGetStartedBtn();
@@ -549,7 +571,10 @@ namespace RallyTeam.TestScripts
             GoToAddUser();
 
             //Click Email button
-            addUsersPage.ClickEmailBtn();
+            if (_browser == "edge")
+                addUsersPage.PressEmailBtn();
+            else
+                addUsersPage.ClickEmailBtn();
             log.Info("Click Email button.");
             Thread.Sleep(5000);
 
@@ -667,7 +692,11 @@ namespace RallyTeam.TestScripts
             GoToAddUser();
 
             //Click Create a Profile button
-            addUsersPage.ClickCreateProfileBtn();
+            if (_browser == "edge")
+                addUsersPage.PressCreateProfileBtn();
+            else
+                addUsersPage.ClickCreateProfileBtn();
+
             log.Info("Click Create a Profile button.");
             Thread.Sleep(5000);
 
@@ -775,9 +804,9 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(7000);
 
             //Verify the added user
-            addUsersPage.VerifyAddedUserName(builder.ToString()+" "+builder.ToString());
+            addUsersPage.VerifyAddedUserName(builder.ToString() + " " + builder.ToString());
             log.Info("Verify the added user Full Name.");
-            Thread.Sleep(1000);    
+            Thread.Sleep(1000);
         }
 
     }

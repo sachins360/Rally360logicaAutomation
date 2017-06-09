@@ -13,10 +13,16 @@ namespace RallyTeam.UILocators
         public readonly static By letsBuildYourMarketplaceMsg = By.XPath("//div[contains(text(), 'Let's build your marketplace!')]");
         public readonly static By uploadMsg = By.XPath("//div[contains(text(), 'Upload your employees, external contractors, or contacts')]");
         public readonly static By closeIcon = By.XPath("//i[@class= 'fa fa-times']");
+
+        public readonly static By downloadCSVTemp = By.XPath("//div[@class='m-t-lg']//a[@href='/app/assets/download/import_user_list.csv']");
+     
         public readonly static By mayBeLater = By.XPath("//div[contains(text(), 'MAYBE LATER')]");
         public readonly static By googleBtn = By.XPath("//a[contains(@class, 'google-btn')]");
-        public readonly static By outlookBtn = By.XPath("//a[contains(@class, 'outlook-btn')]"); 
-        public readonly static By csvBtn = By.XPath("//a[contains(@class, 'csv-btn')]");        
+        public readonly static By outlookBtn = By.XPath("//a[contains(@class, 'outlook-btn')]");
+        
+        //public readonly static By csvBtn = By.XPath("//a[contains(@class, 'csv-btn')]");        
+        public readonly static By csvBtn = By.XPath("html/body/div[11]/div/div/div[1]/div[2]/div[2]/a");
+
         public readonly static By emailBtn = By.XPath("//a[contains(@class, 'email-btn')]");
         public readonly static By createProfileBtn = By.XPath("//a[contains(@class, 'create-btn')]");
         public readonly static By emailAddressesInput = By.XPath("//input[contains(@placeholder, '@domain.com')]");
@@ -28,7 +34,7 @@ namespace RallyTeam.UILocators
 
         public readonly static By skipLinedIn = By.XPath("//a[contains(text(), 'SKIP')]");
         public readonly static By rightTick = By.XPath("//span[@class= 'fa-stack']");
-        public readonly static By linkedInBtn = By.XPath("//button[contains(@class, 'linkedin')]");
+        public readonly static By linkedInBtn = By.XPath("//button[@class='btn btn-block rt-btn--linkedin rt-btn--md']//img");////button[contains(@class, 'linkedin')]");
         public readonly static By linkedInBtnDisabled = By.XPath("//button[contains(@class, 'linkedin') and @disabled= 'disabled']");
         public readonly static By linkedInUserId = By.XPath("//input[@name= 'session_key']");
         public readonly static By linkedInPwd = By.XPath("//input[@name= 'session_password']");

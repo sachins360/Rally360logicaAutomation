@@ -113,6 +113,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter Skills
+            commonPage.ScrollUp();
             String skills = readPostProject.GetValue("AddProjectDetails", "skills");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);

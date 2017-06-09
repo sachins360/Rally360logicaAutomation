@@ -15,8 +15,7 @@ namespace RallyTeam.TestScripts
     [TestFixture]
     [Category("Groups")]
     public class GroupsTest : BaseTestES
-    {    
-                
+    {                
         [Test]
         public void Groups_001_CreateEmployeeGroup()
         {
@@ -143,6 +142,7 @@ namespace RallyTeam.TestScripts
             builder = new StringBuilder();
             builder.Append(RandomString(4));
             groupName = builder.ToString();
+            groupsPage.EnterGroupName(groupName);
             log.Info("Enter Group Name");
             Thread.Sleep(1000);
 
@@ -189,6 +189,7 @@ namespace RallyTeam.TestScripts
             builder = new StringBuilder();
             builder.Append(RandomString(4));
             groupName = builder.ToString();
+            groupsPage.EnterGroupName(groupName);
             log.Info("Enter Group Name");
             Thread.Sleep(1000);
 
@@ -204,15 +205,25 @@ namespace RallyTeam.TestScripts
             commonPage.PressEnterKey();
             Thread.Sleep(3000);
 
-            //click Done Button
+            //click Done Button for add member
             groupsPage.ClickDoneBtn();
             log.Info("Click Done button");
             Thread.Sleep(5000);
 
-            //Click Create button
+            //Verify member exist in group
+           // groupsPage.VerifyUserAddedToGroup("Steve");
+            //log.Info("Verify member in group");
+            //Thread.Sleep(5000);
+
+            //Click Create button for add group
             groupsPage.ClickCreateBtn();
             log.Info("Click Create button");
             Thread.Sleep(5000);
+
+           
+            
+
+
         }
 
         [Test]
@@ -247,6 +258,7 @@ namespace RallyTeam.TestScripts
             builder = new StringBuilder();
             builder.Append(RandomString(4));
             groupName = builder.ToString();
+            groupsPage.EnterGroupName(groupName);
             log.Info("Enter Group Name");
             Thread.Sleep(1000);
 
@@ -268,7 +280,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Click the added member remove icon
-            postProjectPage.ClickAddedMemberRemoveIcon();
+            groupsPage.ClickAddedMemberRemoveIcon();
             log.Info("Click group member added remove icon.");
             Thread.Sleep(2000);
 

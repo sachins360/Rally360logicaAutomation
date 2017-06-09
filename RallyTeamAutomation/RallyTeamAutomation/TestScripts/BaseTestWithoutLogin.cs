@@ -19,6 +19,7 @@ using OpenQA.Selenium.PhantomJS;
 using RallyTeam.UIPages;
 using NUnit.Framework.Interfaces;
 using System.Diagnostics;
+using OpenQA.Selenium.Edge;
 
 namespace RallyTeam.TestScripts
 {
@@ -105,6 +106,9 @@ namespace RallyTeam.TestScripts
                     return new PhantomJSDriver();
                 case "safari":
                     return new SafariDriver();
+                case "edge":
+                    System.Environment.SetEnvironmentVariable("webdriver.edge.driver", "MicrosoftWebDriver.exe");
+                    return new EdgeDriver();
                 default:
                     return null;
             }

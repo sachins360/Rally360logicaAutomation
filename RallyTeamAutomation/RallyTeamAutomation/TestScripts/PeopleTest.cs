@@ -72,6 +72,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter Skills
+            commonPage.ScrollUp();
             String skills = readPeople.GetValue("AddProjectDetails", "skills");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);
@@ -374,11 +375,13 @@ namespace RallyTeam.TestScripts
             String searchUser = readPeople.GetValue("AddProjectDetails", "memberEmail");
             userProfilePage.EnterSearchUser(searchUser);
             log.Info("Enter search user email id.");
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
 
-            //Press Enter Key
-            userProfilePage.PressEnterKey();
-            Thread.Sleep(2000);
+
+            //Click search button            
+            userProfilePage.ClickSearchButton();
+            log.Info("Click on search button.");        
+            Thread.Sleep(5000);
             
             //Click the searched user
             userProfilePage.ClickSearchedUser();
@@ -438,9 +441,14 @@ namespace RallyTeam.TestScripts
             log.Info("Enter search user email id.");
             Thread.Sleep(2000);
 
-            //Press Enter Key
-            userProfilePage.PressEnterKey();
-            Thread.Sleep(2000);
+            //Click search button            
+            userProfilePage.ClickSearchButton();
+            log.Info("Click on search button.");
+            Thread.Sleep(5000);
+
+            ////Press Enter Key
+            //userProfilePage.PressEnterKey();
+            //Thread.Sleep(2000);
 
             //Click the searched user
             userProfilePage.ClickSearchedUser();
@@ -500,9 +508,14 @@ namespace RallyTeam.TestScripts
             log.Info("Enter search user email id.");
             Thread.Sleep(2000);
 
-            //Press Enter Key
-            userProfilePage.PressEnterKey();
-            Thread.Sleep(2000);
+            //Click search button            
+            userProfilePage.ClickSearchButton();
+            log.Info("Click on search button.");
+            Thread.Sleep(5000);
+
+            ////Press Enter Key
+            //userProfilePage.PressEnterKey();
+            //Thread.Sleep(2000);
 
             //Click the searched user
             userProfilePage.ClickSearchedUser();
@@ -848,20 +861,15 @@ namespace RallyTeam.TestScripts
             //Click on Add Note button
             userProfilePage.ClickViewNotesAddNoteBtn();
             log.Info("Click the Add Note button.");
-            Thread.Sleep(3000);
+            Thread.Sleep(5000);
 
-            /*//Verify the added note displayed
-            userProfilePage.VerifyViewNotesAddedNote(note);
-            log.Info("Verify the added note is displayed.");*/
+            //Verify the added note displayed
+            //userProfilePage.VerifyViewNotesAddedNote(note);
+            //log.Info("Verify the added note is displayed.");
 
             String b = userProfilePage.letsDoIt();
             Console.WriteLine("Value of b: " + b);
         }
-
-
-
-
-
 
 
 

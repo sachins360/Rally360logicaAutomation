@@ -25,6 +25,8 @@ namespace RallyTeam.UILocators
         {
             return By.XPath("//div[text()= '" + variable + "']");
         }
+
+        public readonly static By userSearchButton = By.XPath("//div[@class='input-group-btn']//button[@class='btn btn-white rt-btn--primary']//i[@class='fa fa-search']");
         public readonly static By skillsANdEndorsements = By.XPath("//div[contains(text(), 'Skills')]");
         public readonly static By industryDomain = By.XPath("//div[text() ='Industry/Domain Expertise']");
         public readonly static By languages = By.XPath("//div[text() ='Languages']");
@@ -91,7 +93,7 @@ namespace RallyTeam.UILocators
         public readonly static By searchUser = By.XPath("//input[@placeholder= 'Search']");
         public readonly static By viewNotesWindow = By.XPath("//div[contains(text(), 'Notes on')]");
         public readonly static By addNoteTextArea = By.XPath("//textarea[@name= 'body']");
-        public readonly static By addNoteBtn = By.XPath("//button//strong[contains(text(), 'Add note')]");
+        public readonly static By addNoteBtn = By.XPath("//button[@class='btn btn-sm rt-btn--primary pull-right']//strong[contains(text(), 'Add note')]");
         public readonly static By viewNoteCloseIcon = By.XPath("//div[@class= 'modal-content']//i[@class= 'fa fa-times']");
         public static By viewAddedNote(String variable)
         {

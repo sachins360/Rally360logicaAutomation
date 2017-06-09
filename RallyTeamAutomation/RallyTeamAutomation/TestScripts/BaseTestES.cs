@@ -8,7 +8,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Safari;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Remote;
-//using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Edge;
 using System.Drawing;
 using System.Reflection;
 using System.Text;
@@ -93,7 +93,7 @@ namespace RallyTeam.TestScripts
             Log.Info("Setup test");            
 
             Global.MethodName = "TestSetup";
-            //commonPage.RefreshPage();
+            commonPage.RefreshPage();
             Thread.Sleep(5000);
             authenticationPage.SetUserName(_workEmail);
             authenticationPage.SetPassword(_password);
@@ -146,9 +146,9 @@ namespace RallyTeam.TestScripts
                     InternetExplorerOptions ieoptions = new InternetExplorerOptions { EnableNativeEvents = false, RequireWindowFocus = true };
                     ieoptions.AddAdditionalCapability("disable-popup-blocking", true);
                     return new InternetExplorerDriver(AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["IDEServerPath"], ieoptions, TimeSpan.FromSeconds(90));
-                /*case "edge":
+                case "edge":
                     System.Environment.SetEnvironmentVariable("webdriver.edge.driver", "MicrosoftWebDriver.exe");
-                    return new EdgeDriver();*/
+                    return new EdgeDriver();
 
                 case "phantomjs":
                     System.Environment.SetEnvironmentVariable("phantomjs.binary.path", "phantomjs.exe");

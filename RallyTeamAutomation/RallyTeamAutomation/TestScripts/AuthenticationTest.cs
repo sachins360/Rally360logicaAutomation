@@ -13,8 +13,7 @@ namespace RallyTeam.TestScripts
 {
     [TestFixture]
     [Category("Authentication")]
-    public class AuthenticationTest : 
-        BaseTestWithoutLogin
+    public class AuthenticationTest : BaseTestWithoutLogin
     {
         static ReadData readAuthentication = new ReadData("Authentication");
 
@@ -254,16 +253,18 @@ namespace RallyTeam.TestScripts
         {
             Global.MethodName = "Authentication_Login_013_ClickSubmitWithInvalidEmail";
 
-            // Enter invalid Work Email
-            Thread.Sleep(2000);
-            authenticationPage.SetUserName("InvalidWorkEmail.com");
-            log.Info("Enter invalid work email.");
-            Thread.Sleep(2000);
-
             //Click the Forgot Password       
             authenticationPage.ClickForgotPwd();
             log.Info("Click Forgot Password link.");
             Thread.Sleep(5000);
+
+            // Enter invalid Work Email
+           // Thread.Sleep(2000);
+            authenticationPage.SetUserName("InvalidWorkEmail.com");
+            log.Info("Enter invalid work email.");
+            Thread.Sleep(5000);
+
+         
 
             //Click the Submit button
             authenticationPage.ClickForgotPwdSubmitBtn();

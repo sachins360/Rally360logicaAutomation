@@ -62,12 +62,46 @@ namespace RallyTeam.TestScripts
             postProjectPage.EnterProjectDescription(projectDesc);
             Thread.Sleep(1000);
 
+            //Enter the Project Deliverables
+            String projectDelv = readPostProject.GetValue("AddProjectDetails", "projectDelv");
+            postProjectPage.EnterProjectDeliverables(projectDelv);
+            Thread.Sleep(1000);         
+
+            //Select the Project Category
+            String projectCategory = readPostProject.GetValue("AddProjectDetails", "projectCategory");
+            postProjectPage.SelectProjectCategory(projectCategory);
+            log.Info("Enter Project Category.");
+            Thread.Sleep(1000);
+
+            //Select Project Type
+            String projectType = readPostProject.GetValue("AddProjectDetails", "projectType");
+            postProjectPage.SelectProjectType(projectType);
+            log.Info("Enter Project Type.");
+            Thread.Sleep(1000);
+
+            //Click the Start Date Field
+            postProjectPage.ClickStartDateField();
+            log.Info("Click Start Date Field.");
+            Thread.Sleep(1000);
+
+            //Select today's date
+            postProjectPage.ClickTodaysDate();
+            log.Info("Select today's date.");
+            Thread.Sleep(2000);
+
+            //Select Ongoing check-box
+            postProjectPage.ClickOngoingCheckbox();
+            log.Info("Select Ongoing check-box.");
+            Thread.Sleep(2000);
+
             //Click Continue Button
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(5000);
 
             //Enter Skills
+            commonPage.ScrollUp();
+            Thread.Sleep(2000);
             String skills = readPostProject.GetValue("AddProjectDetails", "skills");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);
@@ -207,11 +241,10 @@ namespace RallyTeam.TestScripts
             log.Info("Click the Browse button.");
             Thread.Sleep(5000);
 
-            //Enter the Project Name
-            Thread.Sleep(5000);
+            //Enter the Project Name          
             marketplacePage.EnterSearchField(projectName);
             log.Info("Enter the project name.");
-            Thread.Sleep(1000);
+            Thread.Sleep(7000);
 
             //Select Projects I've Joined from the All Projects drop-down
             marketplacePage.SelectAllProjectsDropDown("Projects I've Joined");
