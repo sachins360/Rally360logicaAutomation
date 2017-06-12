@@ -518,6 +518,9 @@ namespace RallyTeam.TestScripts
             log.Info("Select Awesome rating for user2");
             Thread.Sleep(2000);
 
+            commonPage.ScrollDown();
+            postProjectPage.ClickSidePointonCompleteProjectBtn();
+
             //Click on Complete Project button
             postProjectPage.ClickCompleteProjectBtn();
             log.Info("Click Complete Project button.");

@@ -105,16 +105,20 @@ namespace RallyTeam.TestScripts
         [TearDown]
         public void TearDown()
         {
-            var currentContext = TestContext.CurrentContext;
-            if (currentContext.Result.Outcome != ResultState.Success)
+            try
             {
-                var testName = currentContext.Test.Name;
-                String filename = "Screenshots\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
-                Console.WriteLine("filename: " + filename);
-                UtilityHelper.TakeScreenshot(_driver, filename);
+                var currentContext = TestContext.CurrentContext;
+                if (currentContext.Result.Outcome != ResultState.Success)
+                {
+                    var testName = currentContext.Test.Name;
+                    String filename = "Screenshots\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
+                    Console.WriteLine("filename: " + filename);
+                    UtilityHelper.TakeScreenshot(_driver, filename);
+                }
+                Log.Info("Teardown test");
+                _driver.Quit();
             }
-            Log.Info("Teardown test");
-            _driver.Quit();
+            catch {_driver.Dispose(); }
         }
 
 
@@ -185,7 +189,7 @@ namespace RallyTeam.TestScripts
                 ch = Convert.ToChar(Convert.ToInt32(Math.Floor(26 * random.NextDouble() + 65)));
                 builder.Append(ch);
             }
-            return builder.ToString();
+            return builder.ToString().ToLower();
         }
 
         // Generate random number
