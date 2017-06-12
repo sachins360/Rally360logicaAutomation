@@ -382,6 +382,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter Skills
+            commonPage.ScrollUp();
             String skills = readPostProject.GetValue("AddProjectDetails", "skills");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);
@@ -1379,6 +1380,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Click the searched user
+            userProfilePage.ClickSearchButton();
             userProfilePage.ClickSearchedUser();
             log.Info("Click the searched user.");
             Thread.Sleep(5000);
