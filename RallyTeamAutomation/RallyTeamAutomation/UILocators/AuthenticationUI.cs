@@ -24,5 +24,8 @@ namespace RallyTeam.UILocators
         public readonly static By resendEmailBtn = By.XPath("//button[text()='Resend Email']");
         public readonly static By deactivatedMsg = By.XPath("//div[contains(text(),'Your account was deactivated. Please contact your admin for more information.')]");
 
+        public readonly static By announcementPopup = By.XPath("//div[@class='rt-round-modal__header text-center ng-scope']");
+        public readonly static By announcementCloseButton = By.XPath("//div[@class='text-center m-t-lg m-b-sm']//button");
+
     }
 }
