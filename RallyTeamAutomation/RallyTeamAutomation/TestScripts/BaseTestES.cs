@@ -33,6 +33,8 @@ namespace RallyTeam.TestScripts
         protected string _password = ConfigurationSettings.AppSettings["password"];
 
         protected int _pageLoadTimeout = Convert.ToInt32(ConfigurationSettings.AppSettings["PageLoadTimeout"]);
+
+        protected int _announcementPopupTimeout = Convert.ToInt32(ConfigurationSettings.AppSettings["AnnouncementPopupTimeout"]);
         protected int _loginConfirmTimeout = Convert.ToInt32(ConfigurationSettings.AppSettings["LoginConfirmTimeout"]);
 
         public string _browser = ConfigurationSettings.AppSettings["Browser"].ToLower();
@@ -84,13 +86,11 @@ namespace RallyTeam.TestScripts
             _driver.Url = _externalStormURL;
             _driver.setTimeOut(_pageLoadTimeout);
 
-
-
             if (_browser == "phantomjs")
             {
                 _driver.Manage().Window.Size = new Size(_browserWidth, _browserHeight);
             }
-            Log.Info("Setup test");            
+            Log.Info("Setup test");
 
             Global.MethodName = "TestSetup";
             commonPage.RefreshPage();
@@ -99,9 +99,13 @@ namespace RallyTeam.TestScripts
             authenticationPage.SetPassword(_password);
             authenticationPage.ClickOnLoginButton();
             Thread.Sleep(3000);
-            
+            authenticationPage.CloseAnnouncementPopup(_announcementPopupTimeout);           
+            Thread.Sleep(2000);
+
+
+
         }
-       
+
         [TearDown]
         public void TearDown()
         {
@@ -118,14 +122,12 @@ namespace RallyTeam.TestScripts
                 Log.Info("Teardown test");
                 _driver.Quit();
             }
-            catch {_driver.Dispose(); }
+            catch { _driver.Dispose(); }
         }
-
-
-
 
         public IWebDriver GetDriver()
         {
+            string path = System.IO.Directory.GetCurrentDirectory();
             switch (_browser)
             {
                 case "chrome":
@@ -151,6 +153,8 @@ namespace RallyTeam.TestScripts
                     ieoptions.AddAdditionalCapability("disable-popup-blocking", true);
                     return new InternetExplorerDriver(AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["IDEServerPath"], ieoptions, TimeSpan.FromSeconds(90));
                 case "edge":
+                    Console.WriteLine("path: " + path);
+                    //System.setProperty("webdriver.edge.driver", "C:\\Program Files (x86)\\Microsoft Web Driver\\MicrosoftWebDriver.exe");
                     System.Environment.SetEnvironmentVariable("webdriver.edge.driver", "MicrosoftWebDriver.exe");
                     return new EdgeDriver();
 

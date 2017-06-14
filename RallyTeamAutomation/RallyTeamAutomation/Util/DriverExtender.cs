@@ -104,8 +104,11 @@ namespace RallyTeam.Util
         public static void ClickElementUsingAction(this IWebDriver _driver, By locator)
         {
             IWebElement element = _driver.FindElement(locator);
-            Actions action = new Actions(_driver);
-            action.MoveToElement(element).Click().Perform();
+            if (element != null)
+            {
+                Actions action = new Actions(_driver);
+                action.MoveToElement(element).Click().Perform();
+            }
         }
 
         //Drag and drop a particular element using Action Class
@@ -175,7 +178,7 @@ namespace RallyTeam.Util
         }
 
         //Attempts to find an element but does not throw an exception if the element can not be found.
-        public static IWebElement FindElementFlexible(this IWebDriver driver, By locator)
+        public static IWebElement FindElementFlexible(this IWebDriver driver, By locator,int timeout=120)
         {
             DefaultWait<IWebDriver> wait = new DefaultWait<IWebDriver>(driver);
             wait.Timeout = TimeSpan.FromSeconds(timeout);

@@ -25,8 +25,8 @@ namespace RallyTeam.UIPages
         {
             _driver.Navigate().GoToUrl(_URL);
             return this;
-        }    
-        
+        }
+
         //Assert Login Page    
         public void VerifyLoginPage()
         {
@@ -114,7 +114,7 @@ namespace RallyTeam.UIPages
         //Click on the User Icon at the top
         public void ClickUserIcon()
         {
-              _driver.SafeClick(DashboardUI.userIcon);
+            _driver.SafeClick(DashboardUI.userIcon);
         }
 
         //Assert on the User Icon at the top
@@ -135,7 +135,7 @@ namespace RallyTeam.UIPages
         //Assert the error message
         public void ErrorMessage()
         {
-            _assertHelper.AssertElementDisplayed(AuthenticationUI.errorMessage);        
+            _assertHelper.AssertElementDisplayed(AuthenticationUI.errorMessage);
         }
 
         //Assert Forgot Password Page
@@ -166,6 +166,34 @@ namespace RallyTeam.UIPages
         public void VerifyResendEmailBtn()
         {
             _assertHelper.AssertElementDisplayed(AuthenticationUI.resendEmailBtn);
-        }        
+        }
+
+        //public void CloseAnnouncementPopup()
+        //{
+        //    _driver.SafeClick(AuthenticationUI.announcementCloseButton);
+        //}
+
+        public void CloseAnnouncementPopup(int _announcementPopupTimeout)
+        {
+            try
+            {
+          
+                //_driver.SafeClick(AuthenticationUI.announcementCloseButton);
+                IWebElement popup = _driver.FindElementFlexible(AuthenticationUI.announcementCloseButton, _announcementPopupTimeout);
+                while (popup != null)
+                {                  
+                        if (popup.Displayed)
+                        {
+                            //Thread.Sleep(2000);
+                            //commonPage.RefreshPage();
+                            Thread.Sleep(5000);
+                            _driver.ClickElementUsingAction(AuthenticationUI.announcementCloseButton);
+                        }                    
+                    Thread.Sleep(3000);
+                    popup = _driver.FindElementFlexible(AuthenticationUI.announcementPopup, _announcementPopupTimeout);
+                } 
+            }
+            catch { }
+        }
     }
 }
