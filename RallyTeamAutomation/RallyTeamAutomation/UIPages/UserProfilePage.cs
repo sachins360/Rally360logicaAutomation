@@ -463,7 +463,11 @@ namespace RallyTeam.UIPages
             String a = _driver.GetElementText(UserProfileUI.abcd);
             return a;
         }
+        public void ClickSearchedUserResendInviteLink()
+        {
+            _driver.SafeClick(UserProfileUI.resendInvite);
 
+        }
 
 
     }

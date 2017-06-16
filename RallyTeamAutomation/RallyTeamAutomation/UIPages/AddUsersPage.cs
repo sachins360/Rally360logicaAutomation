@@ -21,37 +21,31 @@ namespace RallyTeam.UIPages
         {
             commonPage = new CommonMethods(_driver, pageLoadTimeout);
         }
-
         //Press Enter Key
         public void PressEnterKey()
         {
             _driver.PressKeyBoardEnter();
         }
-
         //Press Tab Key
         public void PressTabKey()
         {
             _driver.PressKeyBoardTab();
         }
-
         //Click Add Users button
         public void ClickAddUsersBtn()
         {
             _driver.SafeClick(AddUsersUI.addUserBtn);
         }
-
         //Assert Let's build your marketplace! message
         public void VerifyLetsBuildYourMarketplaceMsg()
         {
             _assertHelper.AssertElementDisplayed(AddUsersUI.letsBuildYourMarketplaceMsg);
         }
-
         //Assert Upload your employees, external contractors, or contacts message
         public void VerifyUploadkMsg()
         {
             _assertHelper.AssertElementDisplayed(AddUsersUI.uploadMsg);
-        }        
-
+        }
         //Assert Close icon
         public void VerifyCloseIcon()
         {
@@ -70,6 +64,7 @@ namespace RallyTeam.UIPages
         {
             _assertHelper.AssertElementDisplayed(AddUsersUI.mayBeLater);
         }
+        
         //Assert Maybe Later option
         public void VerifyDownloadCSV()
         {
@@ -100,6 +95,12 @@ namespace RallyTeam.UIPages
             _assertHelper.AssertElementDisplayed(AddUsersUI.emailBtn);
         }
 
+        //Assert Rallyteam logo
+        public void VerifyRallyteamLogo()
+        {
+            _assertHelper.AssertElementDisplayed(AddUsersUI.rallyTeamLogo);
+        }
+
         //Assert Create Profile button
         public void VerifyCreateProfileBtn()
         {
@@ -110,7 +111,7 @@ namespace RallyTeam.UIPages
         public void ClickEmailBtn()
         {
             _driver.SafeClick(AddUsersUI.emailBtn);
-           // _driver.ClickElementUsingJS(AddUsersUI.emailBtn);
+            // _driver.ClickElementUsingJS(AddUsersUI.emailBtn);
         }
 
         //Tab to Email Button
@@ -135,6 +136,13 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(AddUsersUI.emailAddUsersBtn);
         }
 
+
+        //Click Mailinator Email Get Started Button
+        public void ClickEmailGetStartedBtn()
+        {
+            _driver.SafeClick(AddUsersUI.emailAddUsersBtn);
+        }
+
         //Click Finish button
         public void ClickFinishBtn()
         {
@@ -145,6 +153,12 @@ namespace RallyTeam.UIPages
         public void VerifyEmailSender()
         {
             _assertHelper.AssertElementDisplayed(AddUsersUI.harakiriEmailSender);
+        }
+
+        //Assert the email sender
+        public void VerifyEmailSenderDoesnnotExist()
+        {
+            _assertHelper.AssertElementNotDisplayed(AddUsersUI.harakiriEmailSender);
         }
 
         //Click the email sender
@@ -178,7 +192,7 @@ namespace RallyTeam.UIPages
         }
 
         //Click the Email Get Started Button
-        public void ClickEmailGetStartedBtn()
+        public void ClickMailinatorEmailGetStartedBtn()
         {
             _driver.SafeClick(AddUsersUI.emailGetStartedBtn);
         }
@@ -248,7 +262,7 @@ namespace RallyTeam.UIPages
         {
             _driver.SafeClick(AddUsersUI.createProfileBtn);
         }
-        
+
         //Tab and Press Create a Profile Icon
         public void PressCreateProfileBtn()
         {
@@ -453,6 +467,12 @@ namespace RallyTeam.UIPages
             _driver.ClickElementUsingAction(OnboardingUI.doneBtn);
         }
 
+        //Click sign-up button
+        public void ClickSignUpBtn()
+        {
+            _driver.SafeClick(AddUsersUI.signUpBtn);
+        }
+
         //Assert SkillTwo
         public void AssertSkillTwo(string skill)
         {
@@ -464,5 +484,12 @@ namespace RallyTeam.UIPages
         {
             _driver.ClickElementUsingAction(OnboardingUI.harakiriInviteUserSubject);
         }
+
+        public void VerifyUploadedUser()
+        {
+           _assertHelper.AssertElementTextContains(AddUsersUI.uploadedUserMessageDiv, "You've just uploaded 0 users!");
+        }
+
+
     }
 }

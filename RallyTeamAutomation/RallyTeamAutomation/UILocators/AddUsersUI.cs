@@ -24,6 +24,8 @@ namespace RallyTeam.UILocators
         public readonly static By csvBtn = By.XPath("html/body/div[11]/div/div/div[1]/div[2]/div[2]/a");
 
         public readonly static By emailBtn = By.XPath("//a[contains(@class, 'email-btn')]");
+        public readonly static By rallyTeamLogo = By.XPath("//div[@class='rt-poweredby']//img");
+
         public readonly static By createProfileBtn = By.XPath("//a[contains(@class, 'create-btn')]");
         public readonly static By emailAddressesInput = By.XPath("//input[contains(@placeholder, '@domain.com')]");
         public readonly static By emailAddUsersBtn = By.XPath("//a[contains(text(), 'Add Users')]");
@@ -39,6 +41,8 @@ namespace RallyTeam.UILocators
         public readonly static By linkedInUserId = By.XPath("//input[@name= 'session_key']");
         public readonly static By linkedInPwd = By.XPath("//input[@name= 'session_password']");
         public readonly static By linkedInSignIn = By.XPath("//input[@name= 'signin']");
+
+        public readonly static By signUpBtn = By.XPath("//div[@class='form-group']//div[@class='col-lg-12']//button[contains(@class,'btn btn-block m-t-xs rt-btn--md rt-btn')]");
         public readonly static By uploadResumeBtn = By.XPath("//button[contains(text(), 'Upload Your Resume')]");
         public readonly static By skipUploadResume = By.XPath("//a[contains(text(), 'SKIP')]");
         public readonly static By workDropDown = By.XPath("//select[@name= 'jobfunction']");
@@ -48,6 +52,10 @@ namespace RallyTeam.UILocators
         public readonly static By continueSkillsBtn = By.XPath("//button[contains(text(), 'Continue')]");
         public readonly static By letsGetYouMatchedBtn = By.XPath("//button[@type='submit']");
         public readonly static By marketplace = By.XPath("//a[text()= 'MARKETPLACE']");
+
+        public readonly static By uploadedUserMessageDiv = By.XPath("//div[@class='rt-import-users-modal__three ng-scope']//div[@class='rt-round-modal__header text-center ng-binding']");
+
+
 
 
         /*-----For onboarding purpose-----*/

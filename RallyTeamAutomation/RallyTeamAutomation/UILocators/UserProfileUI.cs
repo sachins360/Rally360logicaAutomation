@@ -102,6 +102,8 @@ namespace RallyTeam.UILocators
 
         public readonly static By abcd = By.XPath("//div[@class= 'modal-content']//div[2]//div//div[1]//div");
 
+        public readonly static By resendInvite = By.XPath("//div[@class='ng-scope']//a[@ng-click='userVm.resendInvite(user)']");
+
 
     }
     
