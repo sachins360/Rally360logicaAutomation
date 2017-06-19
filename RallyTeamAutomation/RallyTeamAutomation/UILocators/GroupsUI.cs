@@ -9,6 +9,10 @@ namespace RallyTeam.UILocators
 {
     public static class GroupsUI
     {
+
+        public readonly static By checkboxEmployee = By.XPath("//div[@class='rt-checkbox fa m-r-sm col-sm-2 ng-scope fa-check-square-o']");
+        public readonly static By groupsSaveButton = By.XPath("//div[@class='text-right']//a[@class='btn rt-btn--l rt-btn--primary m-r-md ng-binding']");
+        public readonly static By groupsDeleteIcon = By.XPath("//div[@class='ng-scope ng-isolate-scope']/div");
         public readonly static By groupsTab = By.XPath("//a[text()= 'Groups']");
         public readonly static By addGroupBtn = By.XPath("//button[contains(text(), 'Add Group')]");
         public readonly static By addGroupName = By.XPath("//input[@name= 'title']");
@@ -22,6 +26,14 @@ namespace RallyTeam.UILocators
 
         public readonly static By userAddedToGroup = By.XPath("//div[contains(@class,'rt-member ng-scope')]//a[contains(@class,'rt-member')]");
 
-
+        public static By getGroupsDeleteIcon(string variable)
+        {
+            
+            return By.XPath("//div[@class ='ng-scope ng-isolate-scope']//div[" + variable + "]//div//i[contains(@ng-if,'role.isCustom')]");
+        }
+        public static By getGroupsEditIcon(string variable)
+        {
+            return By.XPath("//div[@class ='ng-scope ng-isolate-scope']//div[" + variable + "]//div//i[1]");
+        }
     }
 }

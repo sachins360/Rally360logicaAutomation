@@ -21,7 +21,7 @@ namespace RallyTeam.TestScripts
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         public string _browser = ConfigurationSettings.AppSettings["Browser"].ToLower();
         static ReadData readInviteUser = new ReadData("AddUser");
-        public string _password = ConfigurationSettings.AppSettings["password"].ToLower();
+        public string _password = ConfigurationSettings.AppSettings["password"].ToString();
         public string _workEmail = ConfigurationSettings.AppSettings["workEmail"].ToLower();
         
 
@@ -1231,7 +1231,7 @@ namespace RallyTeam.TestScripts
 
             userProfilePage.EnterSearchUser(email);
             log.Info("Enter search user email id.");
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
 
             //Click search button            
             userProfilePage.ClickSearchButton();
@@ -1256,9 +1256,9 @@ namespace RallyTeam.TestScripts
             commonPage.PressEnterKey();
             Thread.Sleep(5000);
 
-            //Verify user doesn't reccived invitation email
+            //Verify user doesn't reccived any invitation email
             addUsersPage.VerifyEmailSenderDoesnnotExist();
-            log.Info("Verify user doesn't reccived invitation email.");
+            log.Info("Verify user doesn't reccived any invitation email.");
             Thread.Sleep(2000);
 
         }
