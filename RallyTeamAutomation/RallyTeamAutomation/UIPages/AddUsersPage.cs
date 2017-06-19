@@ -140,7 +140,7 @@ namespace RallyTeam.UIPages
         //Click Mailinator Email Get Started Button
         public void ClickEmailGetStartedBtn()
         {
-            _driver.SafeClick(AddUsersUI.emailAddUsersBtn);
+            _driver.SafeClick(AddUsersUI.emailGetStartedBtn);
         }
 
         //Click Finish button
