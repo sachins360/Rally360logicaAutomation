@@ -98,12 +98,9 @@ namespace RallyTeam.TestScripts
             authenticationPage.SetUserName(_workEmail);
             authenticationPage.SetPassword(_password);
             authenticationPage.ClickOnLoginButton();
-            Thread.Sleep(3000);
-            authenticationPage.CloseAnnouncementPopup(_announcementPopupTimeout);           
-            Thread.Sleep(2000);
-
-
-
+            //Thread.Sleep(3000);
+            //authenticationPage.CloseAnnouncementPopup(_announcementPopupTimeout);           
+            //Thread.Sleep(2000);
         }
 
         [TearDown]
@@ -124,7 +121,6 @@ namespace RallyTeam.TestScripts
             }
             catch { _driver.Dispose(); }
         }
-
         public IWebDriver GetDriver()
         {
             string path = System.IO.Directory.GetCurrentDirectory();
@@ -167,13 +163,11 @@ namespace RallyTeam.TestScripts
                     return null;
             }
         }
-
         public void Dispose()
         {
             Dispose(true);
             GC.SuppressFinalize(this);
         }
-
         protected virtual void Dispose(bool disposing)
         {
             if (disposing)
@@ -204,7 +198,6 @@ namespace RallyTeam.TestScripts
             return new string(Enumerable.Repeat(chars, length)
               .Select(s => s[random.Next(s.Length)]).ToArray());
         }
-
         protected void acceptAlertMultipleTime(int count)
         {
             for (int i = 0; i < count; i++)
@@ -245,7 +238,6 @@ namespace RallyTeam.TestScripts
                 }
             }
         }
-
         ~BaseTestES()
         {
             Dispose(false);

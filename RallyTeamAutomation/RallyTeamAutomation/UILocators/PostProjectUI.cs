@@ -10,7 +10,9 @@ namespace RallyTeam.UILocators
     public static class PostProjectUI
     {
         public readonly static By postAProjectTab = By.XPath("//div[contains(@class, 'pull-left')]//a[text()= 'POST A PROJECT']");
-
+        public readonly static By removeProjectButton = By.XPath("//div[@class='col-md-12 m-t-sm text-center']//a[@class='btn btn-block rt-btn--white rt-btn--l m-t-sm col-lg-12 ng-scope']");
+        public readonly static By joinProjectButton = By.XPath("//div[@class='row ng-scope']//div[@class='col-md-12 m-t-sm text-center']//a[contains(@ng-if,'!vm.opportunity.isOwner')]//span[@ng-if='!vm.currentSession.features.isAdminAccessOn']");
+        
         /*Create Project elements*/
         public readonly static By projectName = By.XPath("//input[@name='abstract']");
         public readonly static By projectDesc = By.XPath("//form[@name= 'projectWizard1']//div[2]//span[@class= 'fr-placeholder']");
@@ -41,6 +43,8 @@ namespace RallyTeam.UILocators
 
         /*Publish Project elements*/
         public readonly static By publishBtn = By.XPath("//a[contains(text(),'Publish')]");
+        public readonly static By privateRdoBtn = By.XPath("//div[@class='radio']//label//input[@ng-value='true']");
+
         public readonly static By publicRadio = By.XPath("//div[1]/label/input");
         public readonly static By privateRadio = By.XPath("//div[2]/label/input");
 
@@ -96,6 +100,13 @@ namespace RallyTeam.UILocators
         {
             return By.XPath("//div[@class= 'rt-project-member__about']//a[contains(@tooltip, '" + variable + "')]");
         }
+        public static By projectTabName(int variable,string tabName)
+        {
+           // return By.XPath("//div[@class= 'rt-project-member__about']//a[contains(@tooltip, '" + variable + "')]");
+            return By.XPath("//ul[@class='nav nav-tabs']//li["+ variable + "]/a[contains(text(), '"+ tabName + "')]");
+            
+        }
+
         public readonly static By aboutProjectMarkCompleteBtn = By.XPath("//a[contains(text(), 'Mark Complete')]");
         public readonly static By aboutProjectUpdateMetricsBtn = By.XPath("//a[contains(text(), 'Update Metrics')]");
         public readonly static By aboutProjectCompletedStatus = By.XPath("//span[text()= 'Completed']");
@@ -210,5 +221,17 @@ namespace RallyTeam.UILocators
         
         /*Project About Page elements*/
         public readonly static By projectOwner = By.XPath("//select[contains(@title, 'opp-user-id')]");
+
+        //marketplace
+        public readonly static By marketPlaceMenu = By.XPath("//div[@class='pull-left rt-top-navbar__links']//a[contains(text(),'MARKETPLACE')]");
+
+        public readonly static By goRallyButton = By.XPath("//td[@class='content-pad center']//center//a[@class='rt-button']");
+
+
+        public static By RecProjectNameOnPage(String variable)
+        {
+            return By.XPath("//div[@class='col-md-10 col-sm-12 col-xs-12 m-b-lg']/div[contains( text(), '" + variable + "')]");
+            //return By.XPath("//span[contains(text(), '" + variable + "')]");
+        }
     }
 }

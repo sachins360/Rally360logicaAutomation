@@ -86,9 +86,9 @@ namespace RallyTeam.UIPages
         {
             String userName = _driver.GetUserNameTooltipValue(DashboardUI.userIconToolTip);
             return userName;
-        }       
+        }
 
-
+       
 
     }
 }

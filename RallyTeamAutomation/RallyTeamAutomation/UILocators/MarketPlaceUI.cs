@@ -23,6 +23,12 @@ namespace RallyTeam.UILocators
             return By.XPath("//span[contains(text(), '" + variable + "')]");
         }
 
+        public static By RecProjectNameOnPage(String variable)
+        {
+            return By.XPath("//div[@class='col-md-10 col-sm-12 col-xs-12 m-b-lg']/div[contains( text(), '" + variable + "')]");
+            //return By.XPath("//span[contains(text(), '" + variable + "')]");
+        }
+        
 
 
 

@@ -21,7 +21,7 @@ namespace RallyTeam.TestScripts
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         public string _browser = ConfigurationSettings.AppSettings["Browser"].ToLower();
         static ReadData readInviteUser = new ReadData("AddUser");
-        public string _password = ConfigurationSettings.AppSettings["password"].ToLower();
+        public string _password = ConfigurationSettings.AppSettings["password"].ToString();
         public string _workEmail = ConfigurationSettings.AppSettings["workEmail"].ToLower();
         
 
