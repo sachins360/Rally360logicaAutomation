@@ -727,5 +727,50 @@ namespace RallyTeam.TestScripts
             directMessagingPage.VerifyReplyTextAreaNotDisplayed();
             log.Info("Verify reply text area is not present.");
         }*/
+
+        [Test]
+        public void DirectMessaging_007_CannotSendNewMessageWithoutPermissionAndVerify()
+        {
+            Global.MethodName = "DirectMessaging_007_CannotSendNewMessageWithoutPermissionAndVerify";
+
+            //Click Messages menu icon
+            Thread.Sleep(5000);
+            directMessagingPage.ClickMessagesMenu();
+            log.Info("Click Messages menu icon.");
+            Thread.Sleep(5000);
+
+            //Click New Message button
+            directMessagingPage.ClickNewMessageBtn();
+            log.Info("Click New Message button.");
+            Thread.Sleep(5000);
+
+            //Enter To text input
+            String userEmail = readMessages.GetValue("Messages", "userEmail");
+            directMessagingPage.EnterToTextInput(userEmail);
+            log.Info("Enter the user email.");
+            Thread.Sleep(3000);
+
+            //Press enter key
+            directMessagingPage.PressEnterKey();
+            Thread.Sleep(1000);
+
+            //Enter message in the text area
+            String message = readMessages.GetValue("Messages", "message");
+            StringBuilder builder = new StringBuilder();
+            builder.Append(RandomString(4));
+            message = message + builder;
+            directMessagingPage.EnterTextArea(message);
+            log.Info("Enter the message.");
+            Thread.Sleep(2000);
+
+            //Click Send button
+            directMessagingPage.ClickSendBtn();
+            log.Info("Click Send button.");
+            Thread.Sleep(5000);
+
+            //Verify New message posted successfully
+            directMessagingPage.VerifyNewMessagePosted(message);
+            log.Info("Verify message is successfully posted.");
+        }
     }
 }

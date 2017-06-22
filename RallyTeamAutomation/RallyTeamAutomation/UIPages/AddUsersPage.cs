@@ -485,6 +485,14 @@ namespace RallyTeam.UIPages
             _driver.ClickElementUsingAction(OnboardingUI.harakiriInviteUserSubject);
         }
 
+        //Click the email Subject
+        public void ClickRecruitedEmailSubject()
+        {
+            _driver.ClickElementUsingAction(OnboardingUI.harakiriRecruitedUserSubject);
+        }
+
+        
+
         public void VerifyUploadedUser()
         {
            _assertHelper.AssertElementTextContains(AddUsersUI.uploadedUserMessageDiv, "You've just uploaded 0 users!");

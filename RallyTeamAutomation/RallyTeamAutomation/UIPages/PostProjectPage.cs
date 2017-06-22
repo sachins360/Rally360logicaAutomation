@@ -112,6 +112,12 @@ namespace RallyTeam.UIPages
             _driver.SafeEnterText(PostProjectUI.skillsNeeded, skillsNeeded);
         }
 
+
+        public void ClickMarketPlaceMenu()
+        {
+            _driver.SafeClick(PostProjectUI.marketPlaceMenu);
+        }
+
         //Enter Project Location
         public void EnterProjectLocation(String projectLocation)
         {
@@ -150,7 +156,7 @@ namespace RallyTeam.UIPages
         {
             _driver.WaitForElementAvailableAtDOM(PostProjectUI.membersNeeded, 1);
             _driver.SafeEnterText(PostProjectUI.membersNeeded, noOfMembers);
-        }        
+        }
 
         //Enter Member Name
         public void EnterMemberName(String memberName)
@@ -169,6 +175,11 @@ namespace RallyTeam.UIPages
         public void ClickPublishBtn()
         {
             _driver.SafeClick(PostProjectUI.publishBtn);
+        }
+        //Click Private project radio button
+        public void ClickPrivateProjectRdoBtn()
+        {
+            _driver.SafeClick(PostProjectUI.privateRdoBtn);
         }
 
         //Verify the About tab on Projects Page
@@ -248,6 +259,8 @@ namespace RallyTeam.UIPages
         {
             _assertHelper.AssertElementDisplayed(PostProjectUI.aboutMemberName(memberName));
         }
+
+       
 
         //Verify Member Name on About Page
         public void VerifyMemberNameNotDisplayed(String memberName)
@@ -336,7 +349,7 @@ namespace RallyTeam.UIPages
         {
             _driver.SafeClick(PostProjectUI.CompleteProjectPointBtn);
         }
-        
+
         //Verify the Update Metrics Button
         public void VerifyUpdateMetricsBtn()
         {
@@ -397,6 +410,16 @@ namespace RallyTeam.UIPages
             _driver.ClickElementUsingJS(MarketPlaceUI.ProjectNameOnPage(projectName));
         }
 
+        public void ClickRecProjectNameOnPage(String projectName)
+        {
+            _driver.ClickElementUsingJS(MarketPlaceUI.ProjectNameOnPage(projectName));
+        }
+        //Click the Project on Projects Page
+        public void ClickRemoveFromProject()
+        {
+            _driver.SafeClick(PostProjectUI.removeProjectButton);
+        }
+
         //Press Request To Join button
         public void ClickRequestToJoinBtn()
         {
@@ -449,6 +472,40 @@ namespace RallyTeam.UIPages
         public void VerifyPromoteProjectSuccessMsg()
         {
             _assertHelper.AssertElementDisplayed(PostProjectUI.promoteSuccessMsg);
+        }
+
+        //Click the Go Rally Button
+        public void ClickGORallyButton()
+        {
+            _driver.SafeClick(PostProjectUI.goRallyButton);
+        }
+
+        //Verify join project button
+        public void VerifyJoinProjectButton()
+        {
+            _assertHelper.AssertElementDisplayed(PostProjectUI.joinProjectButton);
+        }
+
+        //Verify Project tabs
+        public void VerifyProjectTabs(String tabName)
+        {
+            int count = getTabIndex(tabName);
+            _assertHelper.AssertElementDisplayed(PostProjectUI.projectTabName(count, tabName));
+        }
+
+        public int getTabIndex(string tabName)
+        {
+            switch (tabName)
+            {
+                case "Discussions":
+                    return 2;
+                case "Tasks":
+                    return 3;
+                case "Files":
+                    return 4;
+                default:
+                    return 0;
+            }
         }
 
 
@@ -542,7 +599,7 @@ namespace RallyTeam.UIPages
             _assertHelper.AssertElementDisplayed(PostProjectUI.suggestedMemberName(suggestedMemberName));
         }
 
-        
+
 
         //Press Complete Project window
         public void ClickCompleteProjectWindow()
@@ -550,7 +607,7 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(ProjectsUI.completeProjectWindow);
         }
 
-        
+
 
         //Select Closed option from All Projects Dropdown
         public void SelectAllProjectsClosed()
@@ -558,14 +615,14 @@ namespace RallyTeam.UIPages
             _driver.WaitForElementAvailableAtDOM(ProjectsUI.ProjTypeClosed, 1);
             _driver.ClickElementUsingAction(ProjectsUI.ProjTypeClosed);
         }
-        
+
         //Click on Delete Project Icon
         public void ClickDeleteProjectIcon()
         {
             _driver.ClickElementUsingJS(PostProjectUI.deleteProjectIcon);
         }
 
-        
+
 
         //Select a value from Stratus dropdown
         public void SelectStatusDropDown(String option)
@@ -650,7 +707,7 @@ namespace RallyTeam.UIPages
             _assertHelper.AssertElementNotDisplayed(ProjectsUI.VerifyProjectMemberName(memberName));
         }
 
-        
+
         //Click Private Project checkbox
         public void ClickPrivateProjectCheckBox()
         {
@@ -661,7 +718,7 @@ namespace RallyTeam.UIPages
         public void AssertProjectNotDisplayedMsg()
         {
             _assertHelper.AssertElementDisplayed(PostProjectUI.noProjectDisplayedMsg);
-        }       
+        }
 
         //Press on Project's Discussion tab
         public void ClickDiscussionTab()
@@ -678,7 +735,7 @@ namespace RallyTeam.UIPages
         //Enter the Message in the Text Area
         public void EnterMessageTextArea(String message)
         {
-           // _driver.SafeClick(ProjectsUI.discussionTypeMessageArea);
+            // _driver.SafeClick(ProjectsUI.discussionTypeMessageArea);
             _driver.SafeEnterText(ProjectsUI.discussionTypeMessageArea, message);
         }
 
