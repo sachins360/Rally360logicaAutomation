@@ -76,6 +76,12 @@ namespace RallyTeam.UIPages
             _assertHelper.AssertElementDisplayed(DirectMessagingUI.newMessageWindow);
         }
 
+        //Assert New Message Window doesn't displayed
+        public void VerifyNewMessageWindowDoesntDisplayed()
+        {
+            _assertHelper.AssertElementNotDisplayed(DirectMessagingUI.newMessageWindowIcon);
+        }
+
         //Assert New Message Window To Label displayed
         public void VerifyToLabel()
         {
@@ -177,12 +183,20 @@ namespace RallyTeam.UIPages
         {
             _assertHelper.AssertElementDisplayed(DirectMessagingUI.sendAnnouncementBtn);
         }
-        
+
+        //Assert Send Announcement button not displayed
+        public void VerifySendAnnouncementBtnNotDisplayed()
+        {
+            _assertHelper.AssertElementNotDisplayed(DirectMessagingUI.sendAnnouncementBtn);
+        }
+
         //Click Send Announcement button
         public void ClickSendAnnouncementBtn()
         {
             _driver.SafeClick(DirectMessagingUI.sendAnnouncementBtn);
         }
+
+
 
         //Assert Send Announcement Window displayed
         public void VerifySendAnnouncementWindow()

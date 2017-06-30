@@ -142,7 +142,7 @@ namespace RallyTeam.Util
         }
 
         //Attempts to find an element until the timeout is reached and only throws an exception if the element is not visible before timing out.
-        public static IWebElement SafeFindElement(this IWebDriver driver, By locator)
+        public static IWebElement SafeFindElement(this IWebDriver driver, By locator,int timeout=120)
         {
             DefaultWait<IWebDriver> wait = new DefaultWait<IWebDriver>(driver);
             wait.Timeout = TimeSpan.FromSeconds(timeout);
