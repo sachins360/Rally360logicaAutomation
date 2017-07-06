@@ -77,8 +77,13 @@ namespace RallyTeam.Util
                 IWebElement element = driver.SafeFindElement(locator);
                 try
                 {
+                    
                     element.Click();
                     element.Clear();
+                    element.SendKeys(Keys.Delete);
+                    element.SendKeys(Keys.Clear);
+                    element.SendKeys(Keys.Backspace);
+                    element.SendKeys(Keys.Backspace);
                     element.SendKeys(text);
                     return true;
                 }

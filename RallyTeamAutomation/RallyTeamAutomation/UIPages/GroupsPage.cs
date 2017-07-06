@@ -21,6 +21,13 @@ namespace RallyTeam.UIPages
         {
             commonPage = new CommonMethods(_driver, pageLoadTimeout);
         }
+
+        //Click Feature Tab
+        public void ClickFeaturesTab()
+        {
+            _driver.SafeClick(GroupsUI.FeaturesTab);
+        }
+
         //Click Groups Tab
         public void ClickGroupsTab()
         {
