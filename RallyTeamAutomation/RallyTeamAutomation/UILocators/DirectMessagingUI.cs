@@ -16,9 +16,11 @@ namespace RallyTeam.UILocators
             return By.XPath("//ul[@class ='dropdown-menu']//a[text()= '"+variable+"']");
         }
         public readonly static By newMessageBtn = By.XPath("//button[contains(text(), 'New Message')]");
-        public readonly static By sendAnnouncementBtn = By.XPath("//button[contains(text(), 'Send Announcement')]");
+        public readonly static By sendAnnouncementBtn = By.XPath("//button[contains(text(), 'Send Announcement')]//i[@class='fa fa-bolt']");
 
         /*New Message Window*/
+        
+        public readonly static By newMessageWindowIcon = By.XPath("//div[@class='pull-right title-action ng-scope']//button[@class='btn rt-btn--sm rt-btn--primary ng-scope']//i[@Class='fa fa-plus']");
         public readonly static By newMessageWindow = By.XPath("//div[@class= 'modal-content']//div[contains(@class, 'rt-round-modal__header') and contains(text(), 'New Message')]");
         public readonly static By toLabel = By.XPath("//div[@class= 'modal-content']//label[text()= 'To:']");
         public readonly static By toTextInput = By.XPath("//div[@class= 'modal-content']//input[@placeholder= 'Add user']");
