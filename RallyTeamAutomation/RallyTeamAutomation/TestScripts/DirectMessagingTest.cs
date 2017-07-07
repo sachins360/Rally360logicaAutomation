@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using RallyTeam.UILocators;
 using RallyTeam.Util;
 using System;
@@ -20,15 +20,57 @@ namespace RallyTeam.TestScripts
     {
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         static ReadData readMessages = new ReadData("DirectMessaging");
-
-        //SignIn
-        private void SignInDifferentUser()
+        
+        private void SignInDifferentUser(string _userType=null,bool _announcementSwitch=false)
         {
-            String userName = readMessages.GetValue("SignInDifferentUser", "userName");
+            String UserType = (_userType != null) ? _userType : "userName";
+            String userName = readMessages.GetValue("SignInDifferentUser", UserType);
             String password = readMessages.GetValue("SignInDifferentUser", "password");
             authenticationPage.SetUserName(userName);
             authenticationPage.SetPassword(password);
-            authenticationPage.ClickOnLoginButton();
+            authenticationPage.ClickOnLoginButton(25,_announcementSwitch);
+        }
+
+        private void OpenGroupTab()
+        {
+            //Click User Profile Icon
+            Thread.Sleep(2000);
+            userProfilePage.ClickUserProfileIcon();
+            log.Info("Click User Profile Icon.");
+            Thread.Sleep(2000);
+
+            //Click Admin from the User Profile Options
+            userProfilePage.ClickUserProfileOptions("Admin");
+            log.Info("Click User Profile option 'Admin'.");
+            Thread.Sleep(5000);
+
+            //Click Groups Tab
+            groupsPage.ClickGroupsTab();
+            log.Info("Click Groups Tab");
+
+        }
+
+        private void NewMessageSendPermission(string _permission)
+        { 
+            //Click group Edit button
+            Thread.Sleep(2000);
+            groupsPage.ClickSystemGroupEditIcon();
+            log.Info("Click on System edit button");
+
+            //Uncheck the direct message checkbox
+            Thread.Sleep(2000);
+            if (_permission.ToLower().Contains("Uncheck".ToLower()))
+                groupsPage.UnCheckedDirectMessageCheckbox();
+            else
+                groupsPage.CheckedDirectMessageCheckbox();
+            log.Info(_permission+" direct message checkbox");
+            commonPage.ScrollDown();
+
+            //Click on save button
+            Thread.Sleep(2000);
+            groupsPage.ClickGroupSaveButton();
+            log.Info("Click on save button");
+
         }
         
         [Test]
@@ -495,7 +537,7 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            SignInDifferentUser();
+            SignInDifferentUser(null,true);
             log.Info("Sign in with different user.");
             Thread.Sleep(5000);
 
@@ -531,11 +573,11 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Click Announcement Modal Close Button
-            directMessagingPage.ClickAnnouncementCloseBtn();
-            log.Info("Click Announcement Modal Close button is displayed.");
+            //directMessagingPage.ClickAnnouncementCloseBtn();
+            //log.Info("Click Announcement Modal Close button is displayed.");
         }
 
-        [Test]
+        /*[Test]
         public void DirectMessaging_008_SendMessageAnnouncementReceived()
         {
             Global.MethodName = "DirectMessaging_008_SendMessageAnnouncementReceived";
@@ -730,9 +772,38 @@ namespace RallyTeam.TestScripts
         }*/
 
         [Test]
+
         public void DirectMessaging_008_CannotSendNewMessageWithoutPermissionAndVerify()
+
         {
-            Global.MethodName = "DirectMessaging_007_CannotSendNewMessageWithoutPermissionAndVerify";
+            Global.MethodName = "DirectMessaging_011_CannotSendNewMessageWithoutPermissionAndVerify";
+            //Open Grop
+            OpenGroupTab();
+
+            //Uncheck direct message send checkbox
+            NewMessageSendPermission("Uncheck");
+
+            //Click Messages menu icon
+            Thread.Sleep(10000);
+            directMessagingPage.ClickMessagesMenu();
+            log.Info("Click Messages menu icon.");       
+
+            //Verify New Message button
+            directMessagingPage.VerifyNewMessageWindowDoesntDisplayed();
+            log.Info("Verify New Message button doesn't displayed.");            
+
+            //Open Grop
+            OpenGroupTab();
+
+            //check direct message send checkbox
+            NewMessageSendPermission("check");
+
+        }
+
+        [Test]
+        public void DirectMessaging_012_VerifyNonAdminCannotSendAnnouncement()
+        {
+            Global.MethodName = "DirectMessaging_012_VerifyNonAdminCannotSendAnnouncement";
 
             //Click Messages menu icon
             Thread.Sleep(5000);
@@ -740,38 +811,31 @@ namespace RallyTeam.TestScripts
             log.Info("Click Messages menu icon.");
             Thread.Sleep(5000);
 
-            //Click New Message button
-            directMessagingPage.ClickNewMessageBtn();
-            log.Info("Click New Message button.");
-            Thread.Sleep(5000);
-
-            //Enter To text input
-            String userEmail = readMessages.GetValue("Messages", "userEmail");
-            directMessagingPage.EnterToTextInput(userEmail);
-            log.Info("Enter the user email.");
-            Thread.Sleep(3000);
-
-            //Press enter key
-            directMessagingPage.PressEnterKey();
+            //Verify admin can Send Announcement
+            directMessagingPage.VerifySendAnnouncementBtn();
+            log.Info("Verify admin can Send Announcement.");
             Thread.Sleep(1000);
 
-            //Enter message in the text area
-            String message = readMessages.GetValue("Messages", "message");
-            StringBuilder builder = new StringBuilder();
-            builder.Append(RandomString(4));
-            message = message + builder;
-            directMessagingPage.EnterTextArea(message);
-            log.Info("Enter the message.");
+            //Signout of the application
             Thread.Sleep(2000);
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
 
-            //Click Send button
-            directMessagingPage.ClickSendBtn();
-            log.Info("Click Send button.");
+            //Sign in with a different user
+            Thread.Sleep(2000);
+            SignInDifferentUser("differentUserName");
+            log.Info("Sign in with non admin user.");
             Thread.Sleep(5000);
 
-            //Verify New message posted successfully
-            directMessagingPage.VerifyNewMessagePosted(message);
-            log.Info("Verify message is successfully posted.");
+            //Click Messages menu icon
+            directMessagingPage.ClickMessagesMenu();
+            log.Info("Click Messages menu icon.");
+            Thread.Sleep(5000);
+
+            //Verify non admin can't Send Announcement
+            directMessagingPage.VerifySendAnnouncementBtnNotDisplayed();
+            log.Info("Verify non admin user can't send Send Announcement.");
+            Thread.Sleep(1000);            
         }
     }
 }

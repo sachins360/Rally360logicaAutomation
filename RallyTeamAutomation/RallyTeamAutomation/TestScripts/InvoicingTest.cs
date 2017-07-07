@@ -40,7 +40,7 @@ namespace RallyTeam.TestScripts
             log.Info("Click the New Invoice button.");
 
             //Create New Invoice
-            Thread.Sleep(5000);            
+            Thread.Sleep(5000);
             invoicingPage.EnterInvoiceTitle(invoiceTitle);
             log.Info("Enter the Invoice Title.");
             Thread.Sleep(1000);
@@ -88,6 +88,37 @@ namespace RallyTeam.TestScripts
             //Press Delete Project Window Yes button
             postProjectPage.PressDeleteProjectWindowYesBtn();
             log.Info("Press Delete Project Window Yes button.");
+        }
+
+        public void openFeatureTab()
+        {
+            //Click User Profile Icon
+            Thread.Sleep(5000);
+            userProfilePage.ClickUserProfileIcon();
+            log.Info("Click User Profile Icon.");
+            Thread.Sleep(2000);
+
+            //Click Admin from the User Profile Options
+            userProfilePage.ClickUserProfileOptions("Admin");
+            log.Info("Click User Profile option 'Admin'.");
+            Thread.Sleep(5000);
+
+            //Click Features Tab
+            groupsPage.ClickFeaturesTab();
+            log.Info("Click Features Tab");
+            Thread.Sleep(3000);
+
+        }
+
+        public void setPayorName(string _payorName)
+        {
+
+            commonPage.ScrollDown();
+            //Set Designated Payor
+            commonIssuePage.EnterInvoiceDesignatedPayor(_payorName);
+
+            //click on save button
+            _driver.SafeClick(DashboardUI.btnSave);
         }
 
         //Post a Project
@@ -158,7 +189,7 @@ namespace RallyTeam.TestScripts
             builder.Append(RandomString(6));
             String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
-            PostNewProject(projectName);                     
+            PostNewProject(projectName);
 
             //Signout of the application
             Thread.Sleep(5000);
@@ -354,8 +385,8 @@ namespace RallyTeam.TestScripts
             //Click Submit button
             invoicingPage.ClickSubmitBtn();
             log.Info("Click Submit button.");
-            Thread.Sleep(5000);            
-                        
+            Thread.Sleep(5000);
+
             //Signout of the application
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
@@ -374,7 +405,7 @@ namespace RallyTeam.TestScripts
             //Click Invoice Displayed
             invoicingPage.ClickInvoiceDisplayed(invoiceTitle);
             log.Info("Click Invoice displayed.");
-            Thread.Sleep(5000);            
+            Thread.Sleep(5000);
 
             //Enter Comments
             invoicingPage.EnterComments("Invoice Approved");
@@ -473,7 +504,7 @@ namespace RallyTeam.TestScripts
             invoicingPage.ClickInvoiceDisplayed(invoiceTitle);
             log.Info("Click Invoice displayed.");
             Thread.Sleep(5000);
-            
+
             //Enter Comments
             invoicingPage.EnterComments("Invoice Approved");
             log.Info("Invoice Approved.");
@@ -515,17 +546,26 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        /*[Test]
+        [Test]
         public void Invoicing_005_MarkPaidInvoiceAndVerifyStatus()
         {
             Global.MethodName = "Invoicing_005_MarkPaidInvoiceAndVerifyStatus";
 
-            //Post a new project
+            ////Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(4));
             String projectName = readInvoicing.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
             PostNewProject(projectName);
+
+            //Set Feature Tab
+            openFeatureTab();
+            log.Info("OPen Feature Tab.");
+
+            //Set payor name
+            setPayorName(_workEmail);
+            log.Info("Enter payor name.");
+
 
             //Signout of the application
             Thread.Sleep(5000);
@@ -573,14 +613,14 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Click the Comments Div
-            invoicingPage.ClickCommentsDiv();
-            log.Info("Click the Comments Div.");
-            Thread.Sleep(1000);
+            //invoicingPage.ClickCommentsDiv();
+            //log.Info("Click the Comments Div.");
+            //Thread.Sleep(1000);
 
-            //Enter Comments
-            invoicingPage.EnterComments("Invoice Approved");
-            log.Info("Invoice Approved.");
-            Thread.Sleep(1000);
+            ////Enter Comments
+            //invoicingPage.EnterComments("Invoice Approved");
+            //log.Info("Invoice Approved.");
+            //Thread.Sleep(1000);
 
             //Click Approve button
             invoicingPage.ClickApproveBtn();
@@ -612,7 +652,7 @@ namespace RallyTeam.TestScripts
             marketplacePage.ClickBrowseBtn();
             log.Info("Click the Browse button.");
             Thread.Sleep(5000);
-
+           
             //Enter the Project Name
             Thread.Sleep(5000);
             marketplacePage.EnterSearchField(projectName);
@@ -620,9 +660,9 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Select Completed Projects from the All Projects drop-down
-            marketplacePage.SelectAllProjectsDropDown("Completed Projects");
-            log.Info("Select Completed Projects from the drop-down.");
-            Thread.Sleep(10000);
+           // marketplacePage.SelectAllProjectsDropDown("Completed Projects");
+           // log.Info("Select Completed Projects from the drop-down.");
+           // Thread.Sleep(10000);
 
             //Click the created Project
             invoicingPage.ClickProjectNameOnPage(projectName);
@@ -631,95 +671,95 @@ namespace RallyTeam.TestScripts
 
             //Delete Project
             DeleteProject();
-        }*/
-
-        [Test]
-        public void Invoicing_006_EditDraftInvoice()
-        {
-            Global.MethodName = "Invoicing_006_EditDraftInvoice";
-
-            //Post a new project
-            StringBuilder builder = new StringBuilder();
-            builder.Append(RandomString(6));
-            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
-            projectName = projectName + builder;
-            PostNewProject(projectName);
-
-            //Signout of the application
-            Thread.Sleep(5000);
-            authenticationPage.SignOut();
-            log.Info("Click on the Signout button.");
-
-            //Sign in with a different user
-            Thread.Sleep(2000);
-            SignInDifferentUser();
-            log.Info("Sign in with different user.");
-
-            //Click Invoicing menu option
-            Thread.Sleep(5000);
-            invoicingPage.ClickInvoicingMenu();
-            log.Info("Click the Invoicing menu.");
-
-            //Create Invoice
-            String invoiceTitle = readInvoicing.GetValue("InvoiceDetails", "invoiceTitle");
-            invoiceTitle = invoiceTitle + builder;
-            CreateInvoice(invoiceTitle, projectName);
-
-            //Click Save Draft button
-            invoicingPage.ClickSafeDraft();
-            log.Info("Click Save Draft button.");
-            Thread.Sleep(5000);
-
-            //Click Invoice Displayed
-            invoicingPage.ClickInvoiceDisplayed(invoiceTitle);
-            log.Info("Click Invoice displayed.");
-            Thread.Sleep(5000);
-
-            //Edit Invoice Title
-            invoicingPage.EnterInvoiceTitle("Edited Invoice");
-            log.Info("Edit the Invoice Title.");
-            Thread.Sleep(1000);
-
-            //Click Save Draft button
-            invoicingPage.ClickSafeDraft();
-            log.Info("Click Save Draft button.");
-            Thread.Sleep(5000);
-
-            //Signout of the application
-            authenticationPage.SignOut();
-            log.Info("Click on the Signout button.");
-
-            //Login to the application
-            Thread.Sleep(5000);
-            authenticationPage.SetUserName(_workEmail);
-            authenticationPage.SetPassword(_password);
-            authenticationPage.ClickOnLoginButton();
-
-            //Click the Marketplace tab
-            Thread.Sleep(5000);
-            marketplacePage.ClickMarketplaceTab();
-            log.Info("Click the Marketplace tab.");
-            Thread.Sleep(5000);
-
-            //Enter the Project Name
-            Thread.Sleep(5000);
-            postProjectPage.SearchProjectName(projectName);
-            log.Info("Enter the project name.");
-            Thread.Sleep(1000);
-
-            //Click Search button
-            postProjectPage.ClickSearchBtn();
-            log.Info("Click the Search button.");
-            Thread.Sleep(15000);
-
-            //Click the created project
-            postProjectPage.ClickProjectNameOnPage(projectName);
-            log.Info("Click the Project Name on the Projects Page.");
-            Thread.Sleep(10000);
-
-            //Delete Project
-            DeleteProject();
         }
+
+        //[Test]
+        //public void Invoicing_006_EditDraftInvoice()
+        //{
+        //    Global.MethodName = "Invoicing_006_EditDraftInvoice";
+
+        //    //Post a new project
+        //    StringBuilder builder = new StringBuilder();
+        //    builder.Append(RandomString(6));
+        //    String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+        //    projectName = projectName + builder;
+        //    PostNewProject(projectName);
+
+        //    //Signout of the application
+        //    Thread.Sleep(5000);
+        //    authenticationPage.SignOut();
+        //    log.Info("Click on the Signout button.");
+
+        //    //Sign in with a different user
+        //    Thread.Sleep(2000);
+        //    SignInDifferentUser();
+        //    log.Info("Sign in with different user.");
+
+        //    //Click Invoicing menu option
+        //    Thread.Sleep(5000);
+        //    invoicingPage.ClickInvoicingMenu();
+        //    log.Info("Click the Invoicing menu.");
+
+        //    //Create Invoice
+        //    String invoiceTitle = readInvoicing.GetValue("InvoiceDetails", "invoiceTitle");
+        //    invoiceTitle = invoiceTitle + builder;
+        //    CreateInvoice(invoiceTitle, projectName);
+
+        //    //Click Save Draft button
+        //    invoicingPage.ClickSafeDraft();
+        //    log.Info("Click Save Draft button.");
+        //    Thread.Sleep(5000);
+
+        //    //Click Invoice Displayed
+        //    invoicingPage.ClickInvoiceDisplayed(invoiceTitle);
+        //    log.Info("Click Invoice displayed.");
+        //    Thread.Sleep(5000);
+
+        //    //Edit Invoice Title
+        //    invoicingPage.EnterInvoiceTitle("Edited Invoice");
+        //    log.Info("Edit the Invoice Title.");
+        //    Thread.Sleep(1000);
+
+        //    //Click Save Draft button
+        //    invoicingPage.ClickSafeDraft();
+        //    log.Info("Click Save Draft button.");
+        //    Thread.Sleep(5000);
+
+        //    //Signout of the application
+        //    authenticationPage.SignOut();
+        //    log.Info("Click on the Signout button.");
+
+        //    //Login to the application
+        //    Thread.Sleep(5000);
+        //    authenticationPage.SetUserName(_workEmail);
+        //    authenticationPage.SetPassword(_password);
+        //    authenticationPage.ClickOnLoginButton();
+
+        //    //Click the Marketplace tab
+        //    Thread.Sleep(5000);
+        //    marketplacePage.ClickMarketplaceTab();
+        //    log.Info("Click the Marketplace tab.");
+        //    Thread.Sleep(5000);
+
+        //    //Enter the Project Name
+        //    Thread.Sleep(5000);
+        //    postProjectPage.SearchProjectName(projectName);
+        //    log.Info("Enter the project name.");
+        //    Thread.Sleep(1000);
+
+        //    //Click Search button
+        //    postProjectPage.ClickSearchBtn();
+        //    log.Info("Click the Search button.");
+        //    Thread.Sleep(15000);
+
+        //    //Click the created project
+        //    postProjectPage.ClickProjectNameOnPage(projectName);
+        //    log.Info("Click the Project Name on the Projects Page.");
+        //    Thread.Sleep(10000);
+
+        //    //Delete Project
+        //    DeleteProject();
+        //}
 
         [Test]
         public void Invoicing_007_DeleteDraftInvoice()
@@ -807,6 +847,9 @@ namespace RallyTeam.TestScripts
 
             //Delete Project
             DeleteProject();
-        }        
+        }
+
+
+
     }
 }

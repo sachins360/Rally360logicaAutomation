@@ -21,6 +21,13 @@ namespace RallyTeam.UIPages
         {
             commonPage = new CommonMethods(_driver, pageLoadTimeout);
         }
+
+        //Click Feature Tab
+        public void ClickFeaturesTab()
+        {
+            _driver.SafeClick(GroupsUI.FeaturesTab);
+        }
+
         //Click Groups Tab
         public void ClickGroupsTab()
         {
@@ -116,6 +123,36 @@ namespace RallyTeam.UIPages
             {
                 int count = lstGroup.Count;
                 _driver.SafeClick(GroupsUI.getGroupsEditIcon(Convert.ToString(count)));
+            }
+        }
+
+        public void ClickSystemGroupEditIcon()
+        {
+            //ReadOnlyCollection<IWebElement> lstGroup = _driver.SafeFindElements(GroupsUI.groupsDeleteIcon);
+           // if (lstGroup != null)
+            {
+                int count = 3;
+                _driver.SafeClick(GroupsUI.getGroupsEditIcon(Convert.ToString(count)));
+            }
+        }
+        public void CheckedDirectMessageCheckbox()
+        {
+            bool chkDirectMsgChecked = _driver.IsElementVisible(GroupsUI.chkDirectMessageChecked);
+            bool chkDirectMsgUnChecked = _driver.IsElementVisible(GroupsUI.chkDirectMessageUnchecked);
+            if (chkDirectMsgUnChecked)
+            {
+                _driver.SafeClick(GroupsUI.chkDirectMessageUnchecked);
+            }
+        }
+        public void UnCheckedDirectMessageCheckbox()
+        {
+            bool flagDirectMsgChecked = _driver.IsElementVisible(GroupsUI.chkDirectMessageChecked);
+          //  bool flagDirectMsgUnChecked = _driver.IsElementVisible(GroupsUI.chkDirectMessageUnchecked);
+
+
+            if (flagDirectMsgChecked)
+            {
+                _driver.SafeClick(GroupsUI.chkDirectMessageChecked);
             }
         }
 

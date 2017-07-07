@@ -77,12 +77,12 @@ namespace RallyTeam.UIPages
         }
 
         // Click on Login button
-        public void ClickOnLoginButton(int _announcementPopupTimeout=25)
+        public void ClickOnLoginButton(int _announcementPopupTimeout=25,bool _switch=false)
         {
             _driver.WaitForElementAvailableAtDOM(AuthenticationUI.logInBtn, 1);
             IWebElement button = _driver.FindElement(AuthenticationUI.logInBtn);
             _driver.SafeClick(AuthenticationUI.logInBtn);
-            CloseAnnouncementPopup(_announcementPopupTimeout);
+            CloseAnnouncementPopup(_announcementPopupTimeout, _switch);
         }
 
         // Click on SignUp link
@@ -174,10 +174,11 @@ namespace RallyTeam.UIPages
         //    _driver.SafeClick(AuthenticationUI.announcementCloseButton);
         //}
 
-        public void CloseAnnouncementPopup(int _announcementPopupTimeout)
+        public void CloseAnnouncementPopup(int _announcementPopupTimeout,bool _switch=false)
         {
             try
             {
+                if (_switch) return;
                 Thread.Sleep(3000);
                 //_driver.SafeClick(AuthenticationUI.announcementCloseButton);
                 IWebElement popup = _driver.FindElementFlexible(AuthenticationUI.announcementCloseButton, _announcementPopupTimeout);
