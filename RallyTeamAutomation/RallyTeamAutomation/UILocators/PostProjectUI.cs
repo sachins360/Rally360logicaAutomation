@@ -11,7 +11,7 @@ namespace RallyTeam.UILocators
     {
         public readonly static By postAProjectTab = By.XPath("//div[contains(@class, 'pull-left')]//a[text()= 'POST A PROJECT']");
         public readonly static By removeProjectButton = By.XPath("//div[@class='col-md-12 m-t-sm text-center']//a[@class='btn btn-block rt-btn--white rt-btn--l m-t-sm col-lg-12 ng-scope']");
-        public readonly static By joinProjectButton = By.XPath("//div[@class='row ng-scope']//div[@class='col-md-12 m-t-sm text-center']//a[contains(@ng-if,'!vm.opportunity.isOwner')]//span[@ng-if='!vm.currentSession.features.isAdminAccessOn']");
+        public readonly static By joinProjectButton = By.XPath("//div[@class='row ng-scope']//div[@class='col-md-12 m-t-sm text-center']//a[contains(@ng-if,'!vm.opportunity.isOwner')]//span[@ng-if='!vm.currentSession.features.isAdminAccessOn' and (@class='ng-scope')]");
         
         /*Create Project elements*/
         public readonly static By projectName = By.XPath("//input[@name='abstract']");

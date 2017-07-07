@@ -156,9 +156,9 @@ namespace RallyTeam.UIPages
         }
 
         //Assert the email sender
-        public void VerifyEmailSenderDoesnnotExist()
+        public void VerifyEmailSenderDoesExist()
         {
-            _assertHelper.AssertElementNotDisplayed(AddUsersUI.harakiriEmailSender);
+            _assertHelper.AssertElementDisplayed(AddUsersUI.harakiriEmailSender);
         }
 
         //Click the email sender

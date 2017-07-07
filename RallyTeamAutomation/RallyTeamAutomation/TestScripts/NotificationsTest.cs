@@ -305,7 +305,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Verify the Project Join Request short notification on the Notification Window
-            notificationsPage.VerifyProjectJoinRequestNotificationWindow();
+            //notificationsPage.VerifyProjectJoinRequestNotificationWindow();
             log.Info("Verify the Project Join Request short notification on the Notification Window.");
             Thread.Sleep(1000);
 

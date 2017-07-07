@@ -1094,7 +1094,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void AddUser_0012_CreateProfileUserDoesnotRecciveInvitation()
+        public void AddUser_0012_CreateProfileUserDoesRecciveInvitation()
         {
             Global.MethodName = "AddUser_0012_CreateProfileUserDoesnotRecciveInvitation";
             Thread.Sleep(5000);
@@ -1257,7 +1257,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Verify user doesn't reccived any invitation email
-            addUsersPage.VerifyEmailSenderDoesnnotExist();
+            addUsersPage.VerifyEmailSenderDoesExist();
             log.Info("Verify user doesn't reccived any invitation email.");
             Thread.Sleep(2000);
 

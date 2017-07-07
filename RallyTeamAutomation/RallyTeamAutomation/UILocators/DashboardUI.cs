@@ -68,7 +68,7 @@ namespace RallyTeam.UILocators
         public readonly static By messageCounter = By.XPath("//span[contains(@class, 'rt-top-navbar__messages-count')]");
         public static By increasedMessageCounter(string variable)
         {
-            return By.XPath("//span[contains(@class, 'rt-top-navbar__messages-count')] and text()= '" + variable+"']");
+            return By.XPath("//span[contains(@class, 'rt-top-navbar__messages-count') and text()= '" + variable+"']");
         }
 
 

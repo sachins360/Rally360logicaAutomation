@@ -282,8 +282,7 @@ namespace RallyTeam.TestScripts
             log.Info("Click the Browse button.");
             Thread.Sleep(5000);
 
-            //Enter the Project Name
-            Thread.Sleep(5000);
+            //Enter the Project Name            
             marketplacePage.EnterSearchField(projectName);
             log.Info("Enter the project name.");
             Thread.Sleep(1000);
