@@ -66,7 +66,7 @@ namespace RallyTeam.UILocators
         public readonly static By harakiriEmailSender = By.XPath("//tbody[@id= 'mail_list_body']/tr[1]/td[contains(text(), '<noreply@rallyteam.com>')]");
         public readonly static By harakiriConfirmEmailSubject = By.XPath("//div[contains(text(), 'Confirm your email address on Rallyteam')]");
        
-        public readonly static By harakiriRecruitedUserSubject = By.XPath(" //div[contains(text(), 'great project for you in Rallyteam')]");
+        public readonly static By harakiriRecruitedUserSubject = By.XPath("//div[contains(text(), 'great project for you in Rallyteam')]");
         public readonly static By harakiriInviteUserSubject = By.XPath("//div[contains(text(), 'welcomes you to our private talent marketplace')]");
         public readonly static By harakiriVerifyYourEmailBtn = By.XPath("//a[contains(text(),'Verify Your Email')]");
         //public readonly static By emailLink = By.XPath("//table[@class= 'twelve columns']//a[@class= 'need-a-link']");

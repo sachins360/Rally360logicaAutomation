@@ -228,7 +228,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
-        /*[Test]
+        [Test]
         public void DirectMessaging_005_VerifyMessageReceivedCounter()
         {
             Global.MethodName = "DirectMessaging_005_VerifyMessageReceivedCounter";
@@ -339,6 +339,7 @@ namespace RallyTeam.TestScripts
             log.Info("Sign in with different user.");
             Thread.Sleep(7000);
 
+            //string finalCounterString = "2";
             //Verify the Message Counter has increased
             directMessagingPage.VerifyIncreasedMessageCounterValue(finalCounterString);
             log.Info("Verify the Message Counter has increased");
@@ -364,10 +365,10 @@ namespace RallyTeam.TestScripts
             directMessagingPage.ClickMessageReceived("Message by Bob");
             log.Info("Click on the message received by the user");
             Thread.Sleep(5000);
-        }*/
+        }
 
         [Test]
-        public void DirectMessaging_005_VerifySendAnnouncementWindow()
+        public void DirectMessaging_006_VerifySendAnnouncementWindow()
         {
             Global.MethodName = "DirectMessaging_005_VerifySendAnnouncementWindow";
 
@@ -413,7 +414,7 @@ namespace RallyTeam.TestScripts
         }
 
         /*[Test]
-        public void DirectMessaging_006_SendNewAnnouncementAndVerify()
+        public void DirectMessaging_007_SendNewAnnouncementAndVerify()
         {
             Global.MethodName = "DirectMessaging_006_SendNewAnnouncementAndVerify";
 
@@ -729,7 +730,7 @@ namespace RallyTeam.TestScripts
         }*/
 
         [Test]
-        public void DirectMessaging_007_CannotSendNewMessageWithoutPermissionAndVerify()
+        public void DirectMessaging_008_CannotSendNewMessageWithoutPermissionAndVerify()
         {
             Global.MethodName = "DirectMessaging_007_CannotSendNewMessageWithoutPermissionAndVerify";
 

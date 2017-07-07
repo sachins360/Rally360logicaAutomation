@@ -14,7 +14,7 @@ namespace RallyTeam.UILocators
         public readonly static By uploadMsg = By.XPath("//div[contains(text(), 'Upload your employees, external contractors, or contacts')]");
         public readonly static By closeIcon = By.XPath("//i[@class= 'fa fa-times']");
 
-        public readonly static By downloadCSVTemp = By.XPath("//div[@class='m-t-lg']//a[@href='/app/assets/download/import_user_list.csv']");
+        public readonly static By downloadCSVTemp = By.XPath("//div[@class='m-t-lg text-center']//a[contains(text(),'Download a .csv template')]");
      
         public readonly static By mayBeLater = By.XPath("//div[contains(text(), 'MAYBE LATER')]");
         public readonly static By googleBtn = By.XPath("//a[contains(@class, 'google-btn')]");
