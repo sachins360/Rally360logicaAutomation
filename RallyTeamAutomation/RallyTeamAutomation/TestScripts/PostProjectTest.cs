@@ -736,7 +736,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Verify the Project Deliverables on About page
-            postProjectPage.VerifyProjectDelv(projectDelv);
+           // postProjectPage.VerifyProjectDelv(projectDelv);
             log.Info("Verify the Project Deliverables on About page");
             Thread.Sleep(1000);
 
@@ -1885,7 +1885,7 @@ namespace RallyTeam.TestScripts
             //Enter the Project Name
             Thread.Sleep(5000);
             postProjectPage.SearchProjectName(projectName);
-            log.Info("Enter the project name.");
+            log.Info("Enter the project name. "+ projectName);
             Thread.Sleep(1000);
 
             //Click Search button
@@ -1947,7 +1947,7 @@ namespace RallyTeam.TestScripts
 
             //click on remove from project button
             postProjectPage.ClickRemoveFromProject();
-            log.Info("click on remove from project button.");
+            log.Info("click on remove button.");
             Thread.Sleep(5000);
 
             //Verify user successfully remove from project
@@ -2240,17 +2240,17 @@ namespace RallyTeam.TestScripts
             Global.MethodName = "PostProject_025_VerifyPrivatePromoteProject";
 
             ////Onboard a new User
-            //onBoardNewUser();
+            onBoardNewUser();
 
-            ////Click on the Signout button.
-            //Thread.Sleep(5000);
-            //authenticationPage.SignOut();
-            //log.Info("Click on the Signout button.");
+            //Click on the Signout button.
+            Thread.Sleep(5000);
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
 
-            ////Login to the application
-            //authenticationPage.SetUserName(_workEmail);
-            //authenticationPage.SetPassword(_password);
-            //authenticationPage.ClickOnLoginButton();
+            //Login to the application
+            authenticationPage.SetUserName(_workEmail);
+            authenticationPage.SetPassword(_password);
+            authenticationPage.ClickOnLoginButton();
 
             //Post a new project
             StringBuilder builder = new StringBuilder();
@@ -2326,6 +2326,7 @@ namespace RallyTeam.TestScripts
 
             //Press Enter key
             commonPage.PressEnterKey();
+            log.Info("press enter for open email.");
             Thread.Sleep(5000);
 
             //Click the Email Subject

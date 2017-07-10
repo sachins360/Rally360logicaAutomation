@@ -228,7 +228,7 @@ namespace RallyTeam.TestScripts
 
             //Click View Profile button
             peoplePage.ClickViewProfileBtn();
-            log.Info("Click on Message button.");
+            log.Info("Click on view profile button.");
             Thread.Sleep(3000);           
 
             //Assert the User Profile Message button

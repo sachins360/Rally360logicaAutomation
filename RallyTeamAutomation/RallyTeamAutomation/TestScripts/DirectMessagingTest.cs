@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using RallyTeam.UILocators;
 using RallyTeam.Util;
 using System;
@@ -270,7 +270,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
-        /*[Test]
+        [Test]
         public void DirectMessaging_005_VerifyMessageReceivedCounter()
         {
             Global.MethodName = "DirectMessaging_005_VerifyMessageReceivedCounter";
@@ -381,6 +381,7 @@ namespace RallyTeam.TestScripts
             log.Info("Sign in with different user.");
             Thread.Sleep(7000);
 
+            //string finalCounterString = "2";
             //Verify the Message Counter has increased
             directMessagingPage.VerifyIncreasedMessageCounterValue(finalCounterString);
             log.Info("Verify the Message Counter has increased");
@@ -406,10 +407,10 @@ namespace RallyTeam.TestScripts
             directMessagingPage.ClickMessageReceived("Message by Bob");
             log.Info("Click on the message received by the user");
             Thread.Sleep(5000);
-        }*/
+        }
 
         [Test]
-        public void DirectMessaging_005_VerifySendAnnouncementWindow()
+        public void DirectMessaging_006_VerifySendAnnouncementWindow()
         {
             Global.MethodName = "DirectMessaging_005_VerifySendAnnouncementWindow";
 
@@ -454,45 +455,45 @@ namespace RallyTeam.TestScripts
             log.Info("Verify close icon is displayed.");
         }
 
-        //[Test]
-        //public void DirectMessaging_006_SendNewAnnouncementAndVerify()
-        //{
-        //    Global.MethodName = "DirectMessaging_006_SendNewAnnouncementAndVerify";
+        /*[Test]
+        public void DirectMessaging_007_SendNewAnnouncementAndVerify()
+        {
+            Global.MethodName = "DirectMessaging_006_SendNewAnnouncementAndVerify";
 
-        //    //Click Messages menu icon
-        //    Thread.Sleep(5000);
-        //    directMessagingPage.ClickMessagesMenu();
-        //    log.Info("Click Messages menu icon.");
-        //    Thread.Sleep(5000);
+            //Click Messages menu icon
+            Thread.Sleep(5000);
+            directMessagingPage.ClickMessagesMenu();
+            log.Info("Click Messages menu icon.");
+            Thread.Sleep(5000);
 
-        //    //Click Send Announcement button
-        //    directMessagingPage.ClickSendAnnouncementBtn();
-        //    log.Info("Click Send Announcement button.");
-        //    Thread.Sleep(5000);
+            //Click Send Announcement button
+            directMessagingPage.ClickSendAnnouncementBtn();
+            log.Info("Click Send Announcement button.");
+            Thread.Sleep(5000);
 
-        //    //Select Group
-        //    String group = readMessages.GetValue("Announcements", "group");
-        //    directMessagingPage.SelectGroup(group);
-        //    log.Info("Select a Group.");
+            //Select Group
+            String group = readMessages.GetValue("Announcements", "group");
+            directMessagingPage.SelectGroup(group);
+            log.Info("Select a Group.");
 
-        //    //Enter announcement in the text area
-        //    String announcement = readMessages.GetValue("Announcements", "announcement");
-        //    StringBuilder builder = new StringBuilder();
-        //    builder.Append(RandomString(4));
-        //    announcement = announcement + builder;
-        //    directMessagingPage.EnterTextArea(announcement);
-        //    log.Info("Enter the announcement.");
-        //    Thread.Sleep(2000);
+            //Enter announcement in the text area
+            String announcement = readMessages.GetValue("Announcements", "announcement");
+            StringBuilder builder = new StringBuilder();
+            builder.Append(RandomString(4));
+            announcement = announcement + builder;
+            directMessagingPage.EnterTextArea(announcement);
+            log.Info("Enter the announcement.");
+            Thread.Sleep(2000);
 
-        //    //Click Send button
-        //    directMessagingPage.ClickSendBtn();
-        //    log.Info("Click Send button.");
-        //    Thread.Sleep(5000);
+            //Click Send button
+            directMessagingPage.ClickSendBtn();
+            log.Info("Click Send button.");
+            Thread.Sleep(5000);
 
-        //    //Verify announcement posted successfully
-        //    directMessagingPage.VerifyNewMessagePosted(announcement);
-        //    log.Info("Verify announcement is successfully posted.");
-        //}
+            //Verify announcement posted successfully
+            directMessagingPage.VerifyNewMessagePosted(announcement);
+            log.Info("Verify announcement is successfully posted.");
+        }
 
         [Test]
         public void DirectMessaging_007_VerifyAnnouncementReceived()
@@ -771,7 +772,9 @@ namespace RallyTeam.TestScripts
         }*/
 
         [Test]
-        public void DirectMessaging_011_CannotSendNewMessageWithoutPermissionAndVerify()
+
+        public void DirectMessaging_008_CannotSendNewMessageWithoutPermissionAndVerify()
+
         {
             Global.MethodName = "DirectMessaging_011_CannotSendNewMessageWithoutPermissionAndVerify";
             //Open Grop
