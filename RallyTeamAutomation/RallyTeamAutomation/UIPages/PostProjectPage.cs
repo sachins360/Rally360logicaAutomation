@@ -105,6 +105,13 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(PostProjectUI.continueBtn);
         }
 
+        //Click Submit for  appraval button
+        public void ClickSubmitForApprovalButton()
+        {
+            _driver.SafeClick(PostProjectUI.submitForApprovalBtn);
+        }
+
+
         //Enter Skills Needed
         public void EnterSkillsNeeded(String skillsNeeded)
         {
@@ -187,6 +194,43 @@ namespace RallyTeam.UIPages
         {
             _assertHelper.AssertElementDisplayed(PostProjectUI.aboutTab);
         }
+
+        //Verify Recruit Tag on about page for admin
+        public void VerifyRecruitLinkOnAboutPage()
+        {
+            _assertHelper.AssertElementDisplayed(PostProjectUI.Recruiting);
+        }
+        //Verify Pending tag on about page for admin
+        public void VerifyPendingTagOnAboutPage()
+        {
+            _assertHelper.AssertElementDisplayed(PostProjectUI.Pending);
+        }
+
+
+        //Click Approve button on about page for admin
+        public void clickApproveButtonOnAboutPage()
+        {
+            _driver.SafeClick(PostProjectUI.approveBtn);            
+        }
+
+        //Verify Deny button on about page for admin
+        public void ClickDenyButtonOnAboutPage()
+        {
+            _driver.SafeClick(PostProjectUI.denyButton);
+        }
+
+        //Verify Approve button on about page for admin
+        public void VerifyApproveButtonOnAboutPage()
+        {
+            _assertHelper.AssertElementDisplayed(PostProjectUI.approveBtn);
+        }
+
+        //Verify Deny button on about page for admin
+        public void VerifyDenyButtonOnAboutPage()
+        {
+            _assertHelper.AssertElementDisplayed(PostProjectUI.denyButton);
+        }
+
 
         //Verify the Project Draft Status in the Marketplace
         public void VerifyProjectDraftStatusMarketplace()

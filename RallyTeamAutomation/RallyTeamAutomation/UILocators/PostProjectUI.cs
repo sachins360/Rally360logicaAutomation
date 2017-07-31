@@ -26,8 +26,10 @@ namespace RallyTeam.UILocators
         public readonly static By uploadImageBtn = By.XPath("//label[contains(text(), 'Upload Image')]");
         public readonly static By saveDraftBtn = By.XPath("//a[contains(text(), 'Save Draft')]");
         public readonly static By continueBtn = By.XPath("//a[contains(text(), 'Continue')]");
+        public readonly static By submitForApprovalBtn = By.XPath("//div[@class='rt-standalone-page__footer text-right m-t-md ng-scope']//a[contains(text(),'Submit for Approval')]");
         
-        
+
+
         /*Staff Project elements*/
         public readonly static By skillsNeeded = By.XPath("//input[@placeholder='+ Add skills']");
         public readonly static By projectLocation = By.XPath("//input[@name='location']");
@@ -152,6 +154,14 @@ namespace RallyTeam.UILocators
         public readonly static By specificallyAddMemberPlusIcon = By.XPath("//div[@class= 'rt-add-button']");
         public readonly static By createBtn = By.XPath("//a[text()= 'Create Project']");
         public readonly static By aboutTab = By.XPath("//a[text()= 'About']");
+     
+        public readonly static By Pending = By.XPath("//div[@class='text-center']//span[contains(text(),'Pending')]");
+
+        public readonly static By approveBtn = By.XPath("//div[@class='ng-scope']//a[@class='btn rt-btn--primary rt-btn--l m-t-sm rt-project-approve-deny-buttons' and contains(text(),'Approve')]");
+        public readonly static By denyButton = By.XPath("//div[@class='ng-scope']//a[@class='btn rt-btn--white rt-btn--l m-t-sm rt-project-approve-deny-buttons' and contains(text(),'Deny')]");
+
+
+        public readonly static By Recruiting = By.XPath("//div[@class='text-center']//span[contains(text(),'Recruiting')]");
         public readonly static By updateMetricsBtn = By.XPath("//a[text()= 'Update Metrics']");
         public readonly static By addedMemberRemoveIcon = By.XPath("//div[contains(@class, 'rt-projects-members')]//i[contains(@class, 'rt-member__remove-btn')]");
 
