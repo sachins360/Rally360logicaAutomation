@@ -21,7 +21,6 @@ namespace RallyTeam.UIPages
             commonPage = new CommonMethods(_driver, pageLoadTimeout);
         }
 
-
         //Click on Marketplace tab
         public void DeaactivateUser()
         {
@@ -84,5 +83,22 @@ namespace RallyTeam.UIPages
             EnterPayerName(_payerName);     
 
         }
+
+        public void setProjectApproval()
+        {          
+            ReadOnlyCollection<IWebElement> lstAdminDiv = _driver.FindElements(DashboardUI.allAdminDiv);
+            for (int i = 1; i < lstAdminDiv.Count; i++)
+            {
+                bool projectApprovalDivFlag = _driver.IsElementVisible(DashboardUI.projectApprovalDiv(i));
+                if (projectApprovalDivFlag)
+                {
+                    _driver.SafeClick(DashboardUI.projectApprovalSwitch(i));
+                    break;
+                }
+            }
+            //_driver.SafeClick(DashboardUI.configureLink);
+
+        }
+
     }
 }

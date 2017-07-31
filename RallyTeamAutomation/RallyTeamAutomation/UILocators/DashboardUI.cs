@@ -29,7 +29,13 @@ namespace RallyTeam.UILocators
         public readonly static By payerNametxt = By.XPath("//input[@placeholder='Enter a user to be designated payor']");
         public readonly static By payerNameCrossIcon = By.XPath("//a[contains(text(),'×')]");
 
-        
+
+        //div[@class='settings-item row ng-scope'][6]//div[contains(text(),'Projects: Approval Required')]
+
+        public static By projectApprovalDiv(int variable)
+        {
+            return By.XPath("//div[@class='settings-item row ng-scope'][" + variable + "]//div[contains(text(),'Projects: Approval Required')]");
+        }
 
         public static By invoiceAndPaymentDiv(int variable)
         {
@@ -39,8 +45,11 @@ namespace RallyTeam.UILocators
         public static By invoiceAndPaymentSwitch(int variable)
         {
             return By.XPath("//div[@class='settings-item row ng-scope']["+ variable + "]//label");
-        }    
-
+        }
+        public static By projectApprovalSwitch(int variable)
+        {
+            return By.XPath("//div[@class='settings-item row ng-scope'][" + variable + "]//label");
+        }
 
 
         public readonly static By userIcon = By.XPath("//li[contains(@class, 'rt-top-navbar__profile')]//span[contains(@class, 'rt-avatar-container')]//*[contains(@class, 'rt-avatar')]");

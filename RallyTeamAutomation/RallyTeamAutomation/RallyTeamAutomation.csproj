@@ -101,6 +101,7 @@
     <Compile Include="TestScripts\DirectMessagingTest.cs" />
     <Compile Include="TestScripts\NotificationsTest.cs" />
     <Compile Include="TestScripts\PeopleTest.cs" />
+    <Compile Include="TestScripts\ProjectApprovalTest.cs" />
     <Compile Include="TestScripts\PostProjectTest.cs" />
     <Compile Include="TestScripts\RegistrationTest.cs" />
     <Compile Include="TestScripts\VendorTest.cs" />
@@ -164,6 +165,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="TestData\People.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TestData\ProjectApproval.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="TestData\PostProject.ini">
