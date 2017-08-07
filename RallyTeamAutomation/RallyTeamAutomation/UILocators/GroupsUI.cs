@@ -23,7 +23,7 @@ namespace RallyTeam.UILocators
         
         public readonly static By featuresTab = By.XPath("//ul[@class='nav nav-tabs']//li[@class='ng-scope active']//a[text()='Features']");
         public readonly static By addGroupBtn = By.XPath("//button[contains(text(), 'Add Group')]");
-        public readonly static By addGroupName = By.XPath("//input[@name= 'title']");
+        public readonly static By addGroupName = By.XPath("//input[@name= 'groupName']");
         public readonly static By addGroupType = By.XPath("//select[@name= 'userType']");
         public readonly static By addGroupUserIcon = By.XPath("//i[contains(@class, 'fa-user-plus')]");
         public readonly static By addGroupUserEmail = By.XPath("//input[@placeholder= 'Enter a name or email address to add']");

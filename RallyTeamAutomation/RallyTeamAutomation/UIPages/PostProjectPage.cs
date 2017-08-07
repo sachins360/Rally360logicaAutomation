@@ -470,6 +470,12 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(PostProjectUI.requestToJoinBtn);
         }
 
+        //Verify Request To Join button
+        public void AssertRequestToJoinBtn()
+        {
+            _assertHelper.AssertElementDisplayed(PostProjectUI.requestToJoinBtn);
+        }
+
         //Verify Requested button
         public void AsssertRequestSentBtn()
         {
@@ -536,6 +542,7 @@ namespace RallyTeam.UIPages
             int count = getTabIndex(tabName);
             _assertHelper.AssertElementDisplayed(PostProjectUI.projectTabName(count, tabName));
         }
+
 
         public int getTabIndex(string tabName)
         {
@@ -789,6 +796,10 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(PostProjectUI.discussionPostBtn);
         }
 
-
+        //Click the Project on Projects Page
+        public void ClickAboutPageLeaveProjectBtn()
+        {
+            _driver.SafeClick(PostProjectUI.aboutProjectleaveProjectBtn);
+        }
     }
 }

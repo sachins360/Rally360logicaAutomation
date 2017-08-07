@@ -558,13 +558,13 @@ namespace RallyTeam.TestScripts
             projectName = projectName + builder;
             PostNewProject(projectName);
 
-            //Set Feature Tab
+            /*//Set Feature Tab
             openFeatureTab();
             log.Info("OPen Feature Tab.");
 
             //Set payor name
             setPayorName(_workEmail);
-            log.Info("Enter payor name.");
+            log.Info("Enter payor name.");*/
 
 
             //Signout of the application

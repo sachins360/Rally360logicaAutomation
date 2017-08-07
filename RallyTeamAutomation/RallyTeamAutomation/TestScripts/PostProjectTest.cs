@@ -1846,8 +1846,8 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(5000);
-            String userName = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "userName");
-            String password = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            String userName = readPostProject.GetValue("AddProjectDetails", "leftMemberEmail");
+            String password = readPostProject.GetValue("SignInDifferentUser", "password");
             SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
@@ -1867,10 +1867,14 @@ namespace RallyTeam.TestScripts
             log.Info("Click the Project Name on the Projects Page.");
             Thread.Sleep(10000);
 
-            //Click Request to Join button displayed on the screen
-            postProjectPage.ClickRequestToJoinBtn();
-            log.Info("Click Request To Join button displayed on screen.");
+            //Click Leave Project button on Project About Page
+            postProjectPage.ClickAboutPageLeaveProjectBtn();
+            log.Info("Click Leave Project button on Project About Page.");
             Thread.Sleep(5000);
+
+            //Verify user successfully remove from project
+            postProjectPage.AssertRequestToJoinBtn();
+            log.Info("Verify user successfully remove from project");
 
             //Signout of the application
             Thread.Sleep(5000);
@@ -1881,54 +1885,7 @@ namespace RallyTeam.TestScripts
             authenticationPage.SetUserName(_workEmail);
             authenticationPage.SetPassword(_password);
             authenticationPage.ClickOnLoginButton();
-
-            //Enter the Project Name
-            Thread.Sleep(5000);
-            postProjectPage.SearchProjectName(projectName);
-            log.Info("Enter the project name. "+ projectName);
-            Thread.Sleep(1000);
-
-            //Click Search button
-            postProjectPage.ClickSearchBtn();
-            log.Info("Click the prSearch button.");
-            Thread.Sleep(15000);
-
-            //Click the created project
-            postProjectPage.ClickProjectNameOnPage(projectName);
-            log.Info("Click the Project Name on the Projects Page.");
-            Thread.Sleep(5000);
-
-            //Click Settings Icon
-            postProjectPage.ClickSettingsIcon();
-            log.Info("Click Settings Icon");
-            Thread.Sleep(3000);
-
-            //Select Project Settings Option
-            postProjectPage.SelectProjectOption("Manage Team");
-            log.Info("Select Edit Project option.");
-            Thread.Sleep(8000);
-
-            //Click Requested User Reject Icon
-            postProjectPage.RequestedUserAcceptIcon();
-            log.Info("Click Requested User Accept Icon");
-            Thread.Sleep(3000);
-
-            //Click Save Button
-            postProjectPage.ClickManageTeamSaveBtn();
-            log.Info("Click on the Save button.");                     
-
-            //Signout of the application
-            Thread.Sleep(5000);
-            authenticationPage.SignOut();
-            log.Info("Click on the Signout button.");
-
-            //Sign in with a different user
-            Thread.Sleep(5000);
-             userName = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "userName");
-             password = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "password");
-            SignInDifferentUser(userName, password);
-            log.Info("Sign in with different user.");
-
+          
             //Enter the Project Name
             Thread.Sleep(5000);
             postProjectPage.SearchProjectName(projectName);
@@ -1944,16 +1901,6 @@ namespace RallyTeam.TestScripts
             postProjectPage.ClickProjectNameOnPage(projectName);
             log.Info("Click the Project Name on the Projects Page.");
             Thread.Sleep(10000);
-
-            //click on remove from project button
-            postProjectPage.ClickRemoveFromProject();
-            log.Info("click on remove button.");
-            Thread.Sleep(5000);
-
-            //Verify user successfully remove from project
-            postProjectPage.VerifyJoinProjectButton();
-            log.Info("Verify user successfully remove from project");
-            Thread.Sleep(3000);
 
             //Delete Project
             DeleteProject();

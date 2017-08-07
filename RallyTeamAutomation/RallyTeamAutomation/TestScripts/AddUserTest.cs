@@ -849,11 +849,11 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter Email Address
-            email = builder + "@harakirimail.com";
+            email = builder + "@harakirimail.com,";
             addUsersPage.EnterEmailAddresses(email);
             log.Info("Enter first Email Address.");
-            commonPage.PressEnterKey();
-            Thread.Sleep(1000);
+            //commonPage.PressEnterKey();
+            Thread.Sleep(5000);
             email2 = builder2 + "@harakirimail.com";
             addUsersPage.EnterEmailAddresses(email2);
             log.Info("Enter Second Email Address.");

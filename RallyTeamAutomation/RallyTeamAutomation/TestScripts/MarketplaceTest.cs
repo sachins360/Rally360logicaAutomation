@@ -313,6 +313,26 @@ namespace RallyTeam.TestScripts
             projectName = projectName + builder;
             PostNewProject(projectName);
 
+            //Click Settings Icon
+            postProjectPage.ClickSettingsIcon();
+            log.Info("Click Settings Icon");
+            Thread.Sleep(3000);
+
+            //Select Project Settings Option
+            postProjectPage.SelectProjectOption("Edit Project");
+            log.Info("Select Edit Project option.");
+            Thread.Sleep(5000);
+
+            //Select Project status as Recruiting
+            postProjectPage.SelectProjectStatus("Recruiting");
+            log.Info("Select Project status as 'Recruiting'");
+            Thread.Sleep(3000);
+
+            //Click Save Button
+            postProjectPage.ClickSaveBtn();
+            log.Info("Click on the Save button.");
+            Thread.Sleep(5000);
+
             //Click the Marketplace tab
             marketplacePage.ClickMarketplaceTab();
             log.Info("Click the Marketplace tab.");

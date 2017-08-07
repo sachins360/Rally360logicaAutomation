@@ -412,7 +412,7 @@ namespace RallyTeam.TestScripts
         [Test]
         public void DirectMessaging_006_VerifySendAnnouncementWindow()
         {
-            Global.MethodName = "DirectMessaging_005_VerifySendAnnouncementWindow";
+            //Global.MethodName = "DirectMessaging_005_VerifySendAnnouncementWindow";
 
             //Click Messages menu icon
             Thread.Sleep(5000);

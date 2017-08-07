@@ -48,7 +48,7 @@ namespace RallyTeam.UILocators
         //Invoice details for Approver
         public readonly static By denyBtn = By.XPath("//a[text()= 'Deny']");
         public readonly static By approveBtn = By.XPath("//a[text()= 'Approve']");
-        public readonly static By comments = By.XPath("//span[contains(@class, 'fr-placeholder')And (text()='Add a comment...')]");
+        public readonly static By comments = By.XPath("//span[contains(@class, 'fr-placeholder') and (text()='Add a comment...')]");
         //public readonly static By comments = By.XPath("//form[contains(@class, 'chat-form')]//span[contains(@class, 'fr-placeholder')]");
 
 

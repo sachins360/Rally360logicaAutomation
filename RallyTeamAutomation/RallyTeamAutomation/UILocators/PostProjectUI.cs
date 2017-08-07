@@ -108,7 +108,7 @@ namespace RallyTeam.UILocators
             return By.XPath("//ul[@class='nav nav-tabs']//li["+ variable + "]/a[contains(text(), '"+ tabName + "')]");
             
         }
-
+        public readonly static By aboutProjectleaveProjectBtn = By.XPath("//a[contains(text(), 'Leave Project')]");
         public readonly static By aboutProjectMarkCompleteBtn = By.XPath("//a[contains(text(), 'Mark Complete')]");
         public readonly static By aboutProjectUpdateMetricsBtn = By.XPath("//a[contains(text(), 'Update Metrics')]");
         public readonly static By aboutProjectCompletedStatus = By.XPath("//span[text()= 'Completed']");
