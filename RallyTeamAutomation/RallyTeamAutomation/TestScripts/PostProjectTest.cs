@@ -180,6 +180,7 @@ namespace RallyTeam.TestScripts
             log.Info("Click Done button.");
             Thread.Sleep(5000);
         }
+
         //SignIn
         private void SignInDifferentUser(String userName, String password)
         {
@@ -207,8 +208,83 @@ namespace RallyTeam.TestScripts
         }
 
         //Post a Project
-        public void PostNewProject(String projectName,bool publicProject=false)
-        {                        
+        public void PostNewProject(String projectName, Boolean publicProject=false)
+        {
+            //Click Post Project option
+            Thread.Sleep(3000);
+            postProjectPage.ClickCreateProjectJobBtn();
+            Thread.Sleep(1000);
+            postProjectPage.ClickNewProject();
+            Thread.Sleep(5000);
+
+            //Enter the Project Name
+            postProjectPage.EnterProjectName(projectName);
+            Thread.Sleep(1000);
+
+            //Enter the Project Description
+            String projectDesc = readPostProject.GetValue("AddProjectDetails", "projectDesc");
+            postProjectPage.EnterProjectDescription(projectDesc);
+            Thread.Sleep(1000);
+
+            //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.ClickContinueBtn();
+            log.Info("Click on the Continue button.");
+            Thread.Sleep(5000);
+
+            //Enter Skills
+            commonPage.ScrollUp();
+            Thread.Sleep(2000);
+            String skills = readPostProject.GetValue("AddProjectDetails", "skills");
+            postProjectPage.EnterSkillsNeeded(skills);
+            Thread.Sleep(3000);
+            commonPage.PressEnterKey();
+            Thread.Sleep(2000);
+            log.Info("Enter Skills.");
+
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
+            List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
+            int noOfMember = addMembersEmailList.Count;
+            foreach (String value in addMembersEmailList)
+            {
+                postProjectPage.EnterMemberName(value);
+                Thread.Sleep(2000);
+                commonPage.PressEnterKey();
+                Thread.Sleep(5000);
+                postProjectPage.ClickAddBtn();
+                log.Info("Click Add button.");
+                Thread.Sleep(3000);
+            }
+
+            //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.ClickContinueBtn();
+            log.Info("Click on the Continue button.");
+            Thread.Sleep(10000);
+
+            //Select private project
+            if (publicProject)
+            {
+                Thread.Sleep(2000);
+                postProjectPage.ClickPrivateProjectRdoBtn();
+                log.Info("Click Publish Button");
+            }
+
+            //Click Publish button
+            commonPage.ScrollDown();
+            Thread.Sleep(2000);
+            postProjectPage.ClickPublishBtn();
+            log.Info("Click Publish Button");
+            Thread.Sleep(7000);
+        }
+
+        //Post a Vendor Staffed Project
+        public void PostVendorStaffedProject(String projectName)
+        {
             //Click Post Project tab
             Thread.Sleep(3000);
             postProjectPage.ClickPostProject();
@@ -238,33 +314,25 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
             log.Info("Enter Skills.");
 
-            String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
-            List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
-            int noOfMember = addMembersEmailList.Count;
-            foreach (String value in addMembersEmailList)
-            {
-                postProjectPage.EnterMemberName(value);
-                Thread.Sleep(2000);
-                commonPage.PressEnterKey();
-                Thread.Sleep(5000);
-                postProjectPage.ClickAddBtn();
-                log.Info("Click Add button.");
-                Thread.Sleep(3000);
-            }
+            //Select Vendors
+            postProjectPage.SelectStaff("Vendors");
+            log.Info("Select Staffing.");
+            Thread.Sleep(1000);
+
+            //Enter Vendor Name
+            postProjectPage.EnterVendorName("LKO");
+            Thread.Sleep(2000);
+            commonPage.PressEnterKey();
+            Thread.Sleep(5000);
+            postProjectPage.ClickAddBtn();
+            log.Info("Click Add button.");
+            Thread.Sleep(3000);
 
             //Click Continue Button
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(10000);
-
-            //Select private project
-            if (publicProject)
-            {
-                Thread.Sleep(2000);
-                postProjectPage.ClickPrivateProjectRdoBtn();
-                log.Info("Click Publish Button");
-            }
-
+                        
             //Click Publish button
             commonPage.ScrollDown();
             Thread.Sleep(2000);
@@ -368,28 +436,19 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void PostProject_001_VerifyPostProjectOption()
-        {//done
-            Global.MethodName = "PostProject_001_VerifyPostProjectOption";
-
-            postProjectPage.VerifyPostProjectOption();
-            log.Info("Verify Post A Project tab");
-        }
-
-        [Test]
-        public void PostProject_002_PostANewProject()
-        {//done
-            Global.MethodName = "PostProject_002_PostANewProject";
-
+        public void PostProject_001_PostNewEmployeeProject()
+        {
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));            
             String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
 
-            //Click Post Project tab
+            //Click Post Project option
             Thread.Sleep(3000);
-            postProjectPage.ClickPostProject();
+            postProjectPage.ClickCreateProjectJobBtn();
+            Thread.Sleep(1000);
+            postProjectPage.ClickNewProject();
             Thread.Sleep(5000);
 
             //Enter the Project Name
@@ -434,6 +493,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(5000);
@@ -458,9 +519,8 @@ namespace RallyTeam.TestScripts
             log.Info("Select Onsite check-box.");
             Thread.Sleep(2000);
 
-            //Select Staff
-            String staff = readPostProject.GetValue("AddProjectDetails", "staff");
-            postProjectPage.SelectStaff(staff);
+            //Select Employees from Staff
+            postProjectPage.SelectStaff("Employees");
             log.Info("Select Staff.");
             Thread.Sleep(1000);
 
@@ -469,8 +529,10 @@ namespace RallyTeam.TestScripts
             postProjectPage.SelectExpectedTimeCommt(expectedTimeCommt);
             log.Info("Select Expected Time Commitment.");
             Thread.Sleep(1000);
-            
+
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(10000);
@@ -488,143 +550,22 @@ namespace RallyTeam.TestScripts
             //Delete Project
             Thread.Sleep(3000);
             DeleteProject();
-        }
+        }        
 
         [Test]
-        public void PostProject_003_VerifyDraftProject()
+        public void PostProject_002_VerifyDataOnAboutPage()
         {
-            Global.MethodName = "PostProject_003_VerifyDraftProject";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
             String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
 
-            //Click Post Project tab
+            //Click Post Project option
             Thread.Sleep(3000);
-            postProjectPage.ClickPostProject();
-            Thread.Sleep(5000);
-
-            //Enter the Project Name
-            postProjectPage.EnterProjectName(projectName);
+            postProjectPage.ClickCreateProjectJobBtn();
             Thread.Sleep(1000);
-
-            //Enter the Project Description
-            String projectDesc = readPostProject.GetValue("AddProjectDetails", "projectDesc");
-            postProjectPage.EnterProjectDescription(projectDesc);
-            Thread.Sleep(1000);
-            
-            //Click Continue Button
-            postProjectPage.ClickContinueBtn();
-            log.Info("Click on the Continue button.");
-            Thread.Sleep(5000);
-
-            //Enter Skills
-            commonPage.ScrollUp();
-            Thread.Sleep(2000);
-            String skills = readPostProject.GetValue("AddProjectDetails", "skills");
-            postProjectPage.EnterSkillsNeeded(skills);
-            Thread.Sleep(3000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-            log.Info("Enter Skills.");
-
-            //Click Back button
-            postProjectPage.ClickBackBtn();
-            log.Info("Click on the Back button.");
-            Thread.Sleep(3000);
-
-            //Click Save Draft button
-            postProjectPage.ClickSaveDraftBtn();
-            log.Info("Click on the Save Draft button.");
-            Thread.Sleep(10000);
-
-            //Enter the Project Name
-            postProjectPage.SearchProjectName(projectName);
-            log.Info("Enter the project name.");
-            Thread.Sleep(1000);
-
-            //Click Search button
-            postProjectPage.ClickSearchBtn();
-            log.Info("Click the Search button.");
-            Thread.Sleep(15000);
-
-            //Click the created project
-            postProjectPage.ClickProjectNameOnPage(projectName);
-            log.Info("Click the Project Name on the Projects Page.");
-            Thread.Sleep(10000);
-            
-            //Click Continue Button
-            postProjectPage.ClickContinueBtn();
-            log.Info("Click on the Continue button.");
-            Thread.Sleep(3000);
-
-            //Click Save Draft button
-            postProjectPage.ClickSaveDraftBtn();
-            log.Info("Click on the Save Draft button.");
-            Thread.Sleep(10000);
-
-            //Enter the Project Name
-            postProjectPage.SearchProjectName(projectName);
-            log.Info("Enter the project name.");
-            Thread.Sleep(1000);
-
-            //Click Search button
-            postProjectPage.ClickSearchBtn();
-            log.Info("Click the Search button.");
-            Thread.Sleep(15000);
-
-            //Click the created project
-            postProjectPage.ClickProjectNameOnPage(projectName);
-            log.Info("Click the Project Name on the Projects Page.");
-            Thread.Sleep(10000);
-
-            //Click Continue Button
-            postProjectPage.ClickContinueBtn();
-            log.Info("Click on the Continue button.");
-            Thread.Sleep(3000);
-
-            //Click Continue Button
-            postProjectPage.ClickContinueBtn();
-            log.Info("Click on the Continue button.");
-            Thread.Sleep(3000);
-
-            //Click Save Draft button
-            postProjectPage.ClickSaveDraftBtn();
-            log.Info("Click on the Save Draft button.");
-            Thread.Sleep(10000);
-
-            //Enter the Project Name
-            postProjectPage.SearchProjectName(projectName);
-            log.Info("Enter the project name.");
-            Thread.Sleep(1000);
-
-            //Click Search button
-            postProjectPage.ClickSearchBtn();
-            log.Info("Click the Search button.");
-            Thread.Sleep(15000);
-
-            //Verify Draft status of Project
-            postProjectPage.VerifyProjectDraftStatusMarketplace();
-            log.Info("Verify Draft status of Project.");
-            Thread.Sleep(2000);            
-        }
-
-        [Test]
-        public void PostProject_004_VerifyDataAboutPage()
-        {
-            Global.MethodName = "PostProject_004_VerifyDataAboutPage";
-
-            //Post a new project
-            StringBuilder builder = new StringBuilder();
-            builder.Append(RandomString(6));
-            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
-            projectName = projectName + builder;
-
-            //Click Post Project tab
-            Thread.Sleep(3000);
-            postProjectPage.ClickPostProject();
+            postProjectPage.ClickNewProject();
             Thread.Sleep(5000);
 
             //Enter the Project Name
@@ -652,8 +593,10 @@ namespace RallyTeam.TestScripts
             postProjectPage.SelectProjectType(projectType);
             log.Info("Enter Project Type.");
             Thread.Sleep(1000);
-     
+
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(6000);
@@ -694,7 +637,7 @@ namespace RallyTeam.TestScripts
             log.Info("Select Expected Time Commitment.");
             Thread.Sleep(1000);
 
-            //Enter No Of Members Needed
+            /*//Enter No Of Members Needed
             String noOfMembers = readPostProject.GetValue("AddProjectDetails", "noOfMembers");
             postProjectPage.EnterMembersNeeded(noOfMembers);
             log.Info("Enter Number of Members needed");
@@ -711,9 +654,11 @@ namespace RallyTeam.TestScripts
             //Click Add button
             postProjectPage.ClickAddBtn();
             log.Info("Click Add button.");
-            Thread.Sleep(3000);
+            Thread.Sleep(3000);*/
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(10000);
@@ -736,7 +681,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Verify the Project Deliverables on About page
-           // postProjectPage.VerifyProjectDelv(projectDelv);
+            postProjectPage.VerifyProjectDelv(projectDelv);
             log.Info("Verify the Project Deliverables on About page");
             Thread.Sleep(1000);
 
@@ -781,10 +726,8 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void PostProject_005_AddMembersAndVerify()
+        public void PostProject_003_AddMembersAndVerify()
         {
-            Global.MethodName = "PostProject_005_AddMembersAndVerify";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -818,6 +761,7 @@ namespace RallyTeam.TestScripts
             projectName = projectName + builder;
             PostNewProjectWithoutMember(projectName);
             Thread.Sleep(5000);
+
             //Verify About tab of the project after creation
             postProjectPage.VerifyAboutTabOnPage();
             Thread.Sleep(1000);
@@ -862,10 +806,8 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void PostProject_006_EditProjectAndVerify()
+        public void PostProject_004_EditProjectAndVerify()
         {
-            Global.MethodName = "PostProject_006_EditProjectAndVerify";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -916,6 +858,8 @@ namespace RallyTeam.TestScripts
             log.Info("Enter Skills.");
 
             //Click Save Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickSaveBtn();
             log.Info("Click on the Save button.");
             Thread.Sleep(5000);
@@ -941,10 +885,8 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void PostProject_007_ManageProjectTeam()
-        {//done
-            Global.MethodName = "PostProject_007_ManageProjectTeam";
-
+        public void PostProject_005_ManageProjectTeam()
+        {
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -1007,7 +949,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void PostProject_008_CompleteProject()
+        public void PostProject_006_CompleteProject()
         {
             Global.MethodName = "PostProject_008_CompleteProject";
 
@@ -1030,6 +972,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Select Awesome rating for user2
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.SelectAwesomeRatingUserTwo();
             log.Info("Select Awesome rating for user2");
             Thread.Sleep(2000);       
@@ -1040,11 +984,15 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(7000);
 
             //Click on Complete Project button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickCompleteProjectBtn();
             log.Info("Click Complete Project button.");
             Thread.Sleep(7000);
 
             //Verify Update Metrics button on About Page
+            commonPage.ScrollUp();
+            Thread.Sleep(1000);
             postProjectPage.VerifyUpdateMetricsBtn();
             log.Info("Verify Update Metrics button on About Page.");
             Thread.Sleep(1000);
@@ -1059,7 +1007,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void PostProject_009_MarkProjectInProgress()
+        public void PostProject_007_MarkProjectInProgress()
         {
             Global.MethodName = "PostProject_009_MarkProjectInProgress";
 
@@ -2327,6 +2275,110 @@ namespace RallyTeam.TestScripts
             //Delete Project
             DeleteProject();
         }
+
+        [Test]
+        public void PostProject_026_VendorStaffedProjectVisibleToAddedVendorOnly()
+        {
+            Global.MethodName = "PostProject_026_VendorStaffedProjectVisibleToAddedVendorOnly";
+
+            //Post a new project
+            StringBuilder builder = new StringBuilder();
+            builder.Append(RandomString(6));
+            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+            projectName = projectName + builder;
+            PostVendorStaffedProject(projectName);
+
+            //Signout of the application
+            Thread.Sleep(5000);
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            //Sign in with a different user
+            Thread.Sleep(5000);
+            String userName = readPostProject.GetValue("VendorStaffing", "vendorOwner");
+            String password = readPostProject.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            SignInDifferentUser(userName, password);
+            log.Info("Sign in with different user.");
+
+            //Enter the Project Name
+            Thread.Sleep(5000);
+            postProjectPage.SearchProjectName(projectName);
+            log.Info("Enter the project name.");
+            Thread.Sleep(1000);
+
+            //Click Search button
+            postProjectPage.ClickSearchBtn();
+            log.Info("Click the Search button.");
+            Thread.Sleep(15000);
+
+            //Click the created project
+            postProjectPage.ClickProjectNameOnPage(projectName);
+            log.Info("Click the Project Name on the Projects Page.");
+            Thread.Sleep(10000);
+
+            //Signout of the application
+            Thread.Sleep(5000);
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            //Sign in with a different user
+            Thread.Sleep(5000);
+            userName = readPostProject.GetValue("VendorStaffing", "nonVendorOwner");
+            SignInDifferentUser(userName, password);
+            log.Info("Sign in with different user.");
+
+            //Enter the Project Name
+            Thread.Sleep(5000);
+            postProjectPage.SearchProjectName(projectName);
+            log.Info("Enter the project name.");
+            Thread.Sleep(1000);
+
+            //Click Search button
+            postProjectPage.ClickSearchBtn();
+            log.Info("Click the Search button.");
+            Thread.Sleep(15000);
+
+            //Verify Project is not displayed
+            postProjectPage.AssertProjectNotDisplayedMsg();
+            log.Info("Verify Project is not displayed.");
+            Thread.Sleep(1000);
+
+            //Signout of the application
+            Thread.Sleep(5000);
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            //Login to the application
+            authenticationPage.SetUserName(_workEmail);
+            authenticationPage.SetPassword(_password);
+            authenticationPage.ClickOnLoginButton();
+
+            //Click the Browse button
+            Thread.Sleep(5000);
+            marketplacePage.ClickBrowseBtn();
+            log.Info("Click the Browse button.");
+            Thread.Sleep(7000);
+
+            //Enter the Project Name
+            marketplacePage.EnterSearchField(projectName);
+            log.Info("Enter the project name.");
+            Thread.Sleep(1000);
+
+            //Click Search button
+            marketplacePage.ClickSearchBtn();
+            log.Info("Click the Search button.");
+            Thread.Sleep(7000);
+
+            //Click the created project
+            postProjectPage.ClickProjectNameOnPage(projectName);
+            log.Info("Click the Project Name on the Projects Page.");
+            Thread.Sleep(5000);
+
+            //Delete Project
+            Thread.Sleep(3000);
+            DeleteProject();
+        }
+
 
     }
 }

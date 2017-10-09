@@ -9,6 +9,9 @@ namespace RallyTeam.UILocators
 {
     public static class PostProjectUI
     {
+        public readonly static By createProjectJobBtn = By.XPath("//nav[@class= 'rt-top-navbar']//ul[contains(@class, 'rt-top-navbar')]//button");
+        public readonly static By newProjectOption = By.XPath("//nav[@class= 'rt-top-navbar']//ul[contains(@class, 'rt-top-navbar')]//a[text()= 'New Project']");
+        public readonly static By jobPostingOption = By.XPath("//nav[@class= 'rt-top-navbar']//ul[contains(@class, 'rt-top-navbar')]//a[text()= 'Job Posting']");
         public readonly static By postAProjectTab = By.XPath("//div[contains(@class, 'pull-left')]//a[text()= 'POST A PROJECT']");
         public readonly static By removeProjectButton = By.XPath("//div[@class='col-md-12 m-t-sm text-center']//a[@class='btn btn-block rt-btn--white rt-btn--l m-t-sm col-lg-12 ng-scope']");
         public readonly static By joinProjectButton = By.XPath("//div[@class='row ng-scope']//div[@class='col-md-12 m-t-sm text-center']//a[contains(@ng-if,'!vm.opportunity.isOwner')]//span[@ng-if='!vm.currentSession.features.isAdminAccessOn' and (@class='ng-scope')]");
@@ -39,9 +42,10 @@ namespace RallyTeam.UILocators
         public readonly static By expectedTimeCommt = By.XPath("//form[@name= 'projectWizard2']//div[5]//select");
         public readonly static By membersNeeded = By.XPath("//input[@name= 'numberOfMembers']");
         public readonly static By memberName = By.XPath("//input[@placeholder= 'Enter a name...']");
-        public readonly static By addBtn = By.XPath("//div[contains(text(), 'Add')]");
+        public readonly static By vendorName = By.XPath("//input[@placeholder= 'Enter a vendor name...']");
+        public readonly static By addBtn = By.XPath("(//div[contains(text(), 'Add')])[1]");
         public readonly static By backBtn = By.XPath("//a[contains(text(), 'Back')]");
-        public readonly static By removeMemberIcon = By.XPath("//div[contains(@class, 'rt-projects-members')]/div[1]//i");
+        public readonly static By removeMemberIcon = By.XPath("//div[contains(@class, 'rt-projects-members')]/div[2]//i");
 
         /*Publish Project elements*/
         public readonly static By publishBtn = By.XPath("//a[contains(text(),'Publish')]");

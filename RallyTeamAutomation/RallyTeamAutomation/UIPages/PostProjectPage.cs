@@ -20,6 +20,27 @@ namespace RallyTeam.UIPages
             commonPage = new CommonMethods(_driver, pageLoadTimeout);
         }
 
+        //Click Create Project/Job button
+        public void ClickCreateProjectJobBtn()
+        {
+            _driver.WaitForElementAvailableAtDOM(PostProjectUI.createProjectJobBtn, 1);
+            _driver.SafeClick(PostProjectUI.createProjectJobBtn);
+        }
+
+        //Click New Project option
+        public void ClickNewProject()
+        {
+            _driver.WaitForElementAvailableAtDOM(PostProjectUI.newProjectOption, 1);
+            _driver.SafeClick(PostProjectUI.newProjectOption);
+        }
+
+        //Click Job Posting Project option
+        public void ClickJobPosting()
+        {
+            _driver.WaitForElementAvailableAtDOM(PostProjectUI.jobPostingOption, 1);
+            _driver.SafeClick(PostProjectUI.jobPostingOption);
+        }
+
         //Verify Post a Project option
         public void VerifyPostProjectOption()
         {
@@ -172,10 +193,23 @@ namespace RallyTeam.UIPages
             _driver.SafeEnterText(PostProjectUI.memberName, memberName);
         }
 
+        //Enter Vendor Name
+        public void EnterVendorName(String vendorName)
+        {
+            _driver.WaitForElementAvailableAtDOM(PostProjectUI.vendorName, 1);
+            _driver.SafeEnterText(PostProjectUI.vendorName, vendorName);
+        }
+
         //Click Add button
         public void ClickAddBtn()
         {
             _driver.SafeClick(PostProjectUI.addBtn);
+        }
+
+        //Click Add Vendor button
+        public void ClickAddVendorBtn()
+        {
+            _driver.ClickUsingSendKeys(PostProjectUI.addBtn);
         }
 
         //Click Publish button
