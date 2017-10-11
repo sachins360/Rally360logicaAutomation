@@ -19,8 +19,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Groups_001_CreateEmployeeGroup()
         {
-            Global.MethodName = "Groups_001_CreateEmployeeGroup";
-
             //Click User Profile Icon
             Thread.Sleep(5000);
             userProfilePage.ClickUserProfileIcon();
@@ -58,6 +56,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Click Create button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             groupsPage.ClickCreateBtn();
             log.Info("Click Create button");
             Thread.Sleep(5000);
@@ -66,8 +66,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Groups_002_CreateExternalUserGroup()
         {
-            Global.MethodName = "Groups_002_CreateExternalUserGroup";
-
             //Click User Profile Icon
             Thread.Sleep(5000);
             userProfilePage.ClickUserProfileIcon();
@@ -105,6 +103,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Click Create button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             groupsPage.ClickCreateBtn();
             log.Info("Click Create button");
             Thread.Sleep(5000);
@@ -113,8 +113,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Groups_003_CreateVendorGroup()
         {
-            Global.MethodName = "Groups_003_CreateVendorGroup";
-
             //Click User Profile Icon
             Thread.Sleep(5000);
             userProfilePage.ClickUserProfileIcon();
@@ -152,6 +150,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Click Create button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             groupsPage.ClickCreateBtn();
             log.Info("Click Create button");
             Thread.Sleep(5000);
@@ -160,8 +160,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Groups_004_AddMemberToGroup()
         {
-            Global.MethodName = "Groups_004_AddMemberToGroup";
-
             //Click User Profile Icon
             Thread.Sleep(5000);
             userProfilePage.ClickUserProfileIcon();
@@ -194,6 +192,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Click Add Member Icon
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             groupsPage.ClickAddMemberIcon();
             log.Info("Click Add member icon");
             Thread.Sleep(3000);
@@ -211,7 +211,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Verify member exist in group
-           // groupsPage.VerifyUserAddedToGroup("Steve");
+            // groupsPage.VerifyUserAddedToGroup("Steve");
             //log.Info("Verify member in group");
             //Thread.Sleep(5000);
 
@@ -219,18 +219,11 @@ namespace RallyTeam.TestScripts
             groupsPage.ClickCreateBtn();
             log.Info("Click Create button");
             Thread.Sleep(5000);
-
-           
-            
-
-
         }
 
         [Test]
         public void Groups_005_RemoveMemberFromGroup()
         {
-            Global.MethodName = "Groups_005_RemoveMemberFromGroup";
-
             //Click User Profile Icon
             Thread.Sleep(5000);
             userProfilePage.ClickUserProfileIcon();
@@ -263,6 +256,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Click Add Member Icon
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             groupsPage.ClickAddMemberIcon();
             log.Info("Click Add member icon");
             Thread.Sleep(3000);
@@ -293,8 +288,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Groups_006_DeleteEmployeeGroup()
         {
-            Global.MethodName = "Groups_006_DeleteEmployeeGroup";
-
             //Click User Profile Icon
             Thread.Sleep(5000);
             userProfilePage.ClickUserProfileIcon();
@@ -326,12 +319,19 @@ namespace RallyTeam.TestScripts
             log.Info("Enter Group Name");
             Thread.Sleep(1000);
 
+            //Select Role Color
+            groupsPage.SelectRoleColor("1");
+            log.Info("Select Role Color");
+            Thread.Sleep(1000);
+
             //Select Group Type Employee
             groupsPage.SelectGroupType("Employee");
             log.Info("Select Group Type as Employee");
             Thread.Sleep(2000);
 
             //Click Create button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             groupsPage.ClickCreateBtn();
             log.Info("Click Create button");
             Thread.Sleep(5000);
@@ -346,14 +346,11 @@ namespace RallyTeam.TestScripts
             groupsPage.DeleteExistingGroup();
             log.Info("Click delete icon of existing group");
             Thread.Sleep(2000);
-
         }
 
         [Test]
         public void Groups_007_VerifySytemGroupNotDeleted()
         {
-            Global.MethodName = "Groups_007_VerifySytemGroupNotDeleted";
-
             //Click User Profile Icon
             Thread.Sleep(5000);
             userProfilePage.ClickUserProfileIcon();
@@ -374,15 +371,12 @@ namespace RallyTeam.TestScripts
             commonPage.ScrollUp();
             groupsPage.VerifySystemGroupDeleteIcon();
             log.Info("Verify user not able to delet system created group");
-            Thread.Sleep(2000);        
-
+            Thread.Sleep(2000);      
         }
 
         [Test]
         public void Groups_008_VerifyUserEditGroup()
         {
-            Global.MethodName = "Groups_008_VerifyUserEditGroup";
-
             //Click User Profile Icon
             Thread.Sleep(5000);
             userProfilePage.ClickUserProfileIcon();
@@ -414,12 +408,19 @@ namespace RallyTeam.TestScripts
             log.Info("Enter Group Name");
             Thread.Sleep(1000);
 
+            //Select Role Color
+            groupsPage.SelectRoleColor("1");
+            log.Info("Select Role Color");
+            Thread.Sleep(1000);
+
             //Select Group Type Employee
             groupsPage.SelectGroupType("Employee");
             log.Info("Select Group Type as Employee");
             Thread.Sleep(2000);
 
             //Click Create button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             groupsPage.ClickCreateBtn();
             log.Info("Click Create button");
             Thread.Sleep(5000);
@@ -448,14 +449,11 @@ namespace RallyTeam.TestScripts
             groupsPage.ClickGroupSaveButton();
             log.Info("Click on save button after edit group name");
             Thread.Sleep(2000);
-
         }
 
         [Test]
         public void Groups_009_VerifyUserChangeDefaultGroup()
         {
-            Global.MethodName = "Groups_007_VerifySytemGroupNotDeleted";
-
             //Click User Profile Icon
             Thread.Sleep(5000);
             userProfilePage.ClickUserProfileIcon();
@@ -476,7 +474,6 @@ namespace RallyTeam.TestScripts
             groupsPage.ClickEmployeeCheckbox();
             log.Info("Click on employee default checkbox");
             Thread.Sleep(2000);
-
         }
     }
 

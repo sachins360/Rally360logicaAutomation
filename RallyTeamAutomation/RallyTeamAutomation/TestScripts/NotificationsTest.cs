@@ -42,18 +42,20 @@ namespace RallyTeam.TestScripts
             log.Info("Select Delete Project option.");
             Thread.Sleep(3000);
 
-            //Press Delete Project Window Yes button
+            //Press Delete Project Window Yes buttonm
             postProjectPage.PressDeleteProjectWindowYesBtn();
             log.Info("Press Delete Project Window Yes button.");
         }
 
         //Post a Project
-        public void PostNewProject(String projectName)
+        public void PostNewProject(String projectName, Boolean publicProject = false)
         {
-            //Click Post Project tab
+            //Click Post Project option
             Thread.Sleep(3000);
-            postProjectPage.ClickPostProject();
-            Thread.Sleep(6000);
+            postProjectPage.ClickCreateProjectJobBtn();
+            Thread.Sleep(1000);
+            postProjectPage.ClickNewProject();
+            Thread.Sleep(5000);
 
             //Enter the Project Name
             postProjectPage.EnterProjectName(projectName);
@@ -65,12 +67,15 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(5000);
 
             //Enter Skills
             commonPage.ScrollUp();
+            Thread.Sleep(2000);
             String skills = readPostProject.GetValue("AddProjectDetails", "skills");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);
@@ -78,6 +83,10 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
             log.Info("Enter Skills.");
 
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.EnterMembersNeeded("5");
+            Thread.Sleep(1000);
             String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
             List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
             int noOfMember = addMembersEmailList.Count;
@@ -93,9 +102,19 @@ namespace RallyTeam.TestScripts
             }
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(10000);
+
+            //Select private project
+            if (publicProject)
+            {
+                Thread.Sleep(2000);
+                postProjectPage.ClickPrivateProjectRdoBtn();
+                log.Info("Click Publish Button");
+            }
 
             //Click Publish button
             commonPage.ScrollDown();
@@ -141,6 +160,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Enter Invoice Notes
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.EnterNotes("Invoice Notes");
             log.Info("Enter Invoice Notes");
             Thread.Sleep(2000);
@@ -169,6 +190,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Change Project Owner
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             String addMembersName = readPostProject.GetValue("AddProjectDetails", "memberName");
             List<String> addMembersNameList = addMembersName.Split(',').ToList();
             postProjectPage.SelectProjectOwner(addMembersNameList[0]);
@@ -178,6 +201,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(3000);
 
             //Click Save Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickSaveBtn();
             log.Info("Click on the Save button.");
             Thread.Sleep(5000);
@@ -246,8 +271,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_002_ProjectOwnerPendingJoinRequest()
         {
-            Global.MethodName = "Notifications_002_ProjectOwnerPendingJoinRequest";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -354,53 +377,12 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_003_UserRecruitedToProject()
         {
-            Global.MethodName = "Notifications_003_UserRecruitedToProject";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
             String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
-
-            //Click Post Project tab
-            Thread.Sleep(3000);
-            postProjectPage.ClickPostProject();
-            Thread.Sleep(5000);
-
-            //Enter the Project Name
-            postProjectPage.EnterProjectName(projectName);
-            Thread.Sleep(1000);
-
-            //Enter the Project Description
-            String projectDesc = readPostProject.GetValue("AddProjectDetails", "projectDesc");
-            postProjectPage.EnterProjectDescription(projectDesc);
-            Thread.Sleep(1000);
-
-            //Click Continue Button
-            postProjectPage.ClickContinueBtn();
-            log.Info("Click on the Continue button.");
-            Thread.Sleep(5000);
-
-            //Enter Skills
-            commonPage.ScrollUp();
-            String skills = readPostProject.GetValue("AddProjectDetails", "skills");
-            postProjectPage.EnterSkillsNeeded(skills);
-            Thread.Sleep(3000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-            log.Info("Enter Skills.");            
-
-            //Click Continue Button
-            postProjectPage.ClickContinueBtn();
-            log.Info("Click on the Continue button.");
-            Thread.Sleep(10000);
-
-            //Click Publish button
-            commonPage.ScrollDown();
-            Thread.Sleep(2000);
-            postProjectPage.ClickPublishBtn();
-            log.Info("Click Publish Button");
-            Thread.Sleep(7000);
+            PostNewProject(projectName);
 
             //Signout of the application
             authenticationPage.SignOut();
@@ -474,8 +456,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_004_UserAddedToProject()
         {
-            Global.MethodName = "Notifications_004_UserAddedToProject";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -555,8 +535,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_005_UserRemovedFromProject()
         {
-            Global.MethodName = "Notifications_005_UserRemovedFromProject";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -661,8 +639,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_006_UserMentionedInProjectWithAll()
         {
-            Global.MethodName = "Notifications_006_UserMentionedInProjectWithAll";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -684,10 +660,9 @@ namespace RallyTeam.TestScripts
             commonPage.PressTabKey();
             Thread.Sleep(1000);
             //Enter the Message in Text Area
-            postProjectPage.EnterMessageTextArea("Hi @all");
-            log.Info("Enter message in Discussion.");
-            Thread.Sleep(6000);
+            postProjectPage.EnterMessageTextArea("Hi @");
             commonPage.PressEnterKey();
+            log.Info("Enter message in Discussion.");
             Thread.Sleep(2000);
 
             //Click the Post button for the message
@@ -767,8 +742,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_013_UserMentionedInProject()
         {
-            Global.MethodName = "Notifications_013_UserMentionedInProject";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -792,8 +765,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Enter the Message in Text Area
-            postProjectPage.EnterMessageTextArea("Hi @Anup");   
-            Thread.Sleep(3000);
+            postProjectPage.EnterMessageTextArea("Hi @Anup");
+            Thread.Sleep(2000);
             commonPage.PressTabKey();
             Thread.Sleep(2000);
             log.Info("Enter message in Discussion.");
@@ -836,7 +809,7 @@ namespace RallyTeam.TestScripts
 
             //Verify the User Mentioned In Project WIth All subject on the Notifications Page
             String loggedInUserName = readNotifications.GetValue("LoggedInUserName", "username");
-            notificationsPage.VerifyUserMentionedInProjectWIthAllSubject(loggedInUserName, "Hi @anupkumar");
+            notificationsPage.VerifyUserMentionedInProjectWIthAllSubject(loggedInUserName, "Hi @Anup Kumar");
             log.Info("Verify User Mentioned In Project WIth All notification subject on the Notifications Page.");
             Thread.Sleep(2000);
 
@@ -875,8 +848,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_007_InvoiceRequiresApproval()
         {
-            Global.MethodName = "Notifications_007_InvoiceRequiresApproval";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -976,8 +947,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_008_InvoiceApproved()
         {
-            Global.MethodName = "Notifications_008_InvoiceApproved";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -1030,9 +999,11 @@ namespace RallyTeam.TestScripts
             //Click Invoice Displayed
             invoicingPage.ClickInvoiceDisplayed(invoiceTitle);
             log.Info("Click Invoice displayed.");
-            Thread.Sleep(5000);           
+            Thread.Sleep(5000);
 
             //Click Approve button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.ClickApproveBtn();
             log.Info("Click the Approve button.");
             Thread.Sleep(5000);
@@ -1106,8 +1077,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_009_InvoiceDenied()
         {
-            Global.MethodName = "Notifications_009_InvoiceDenied";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -1163,6 +1132,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Click Deny button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.ClickDenyBtn();
             log.Info("Click the Deny button.");
             Thread.Sleep(5000);
@@ -1234,10 +1205,8 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void Notifications_010_InvoiceApproved()
+        public void Notifications_010_InvoiceRequiresPayment()
         {
-            Global.MethodName = "Notifications_010_InvoiceApproved";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -1293,6 +1262,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Click Approve button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.ClickApproveBtn();
             log.Info("Click the Approve button.");
             Thread.Sleep(5000);            
@@ -1351,8 +1322,7 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_011_UserReceivesFeedback()
         {
-            Global.MethodName = "Notifications_011_UserReceivesFeedback";
-
+            //Post a New Project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(4));
             String projectName = "Endorse Project ";
@@ -1406,6 +1376,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Click Endorse button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             peoplePage.ClickEndorseUserBtn();
             log.Info("Click on Endorse button.");
             Thread.Sleep(5000);
@@ -1481,8 +1453,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Notifications_012_UserRequestsFeedback()
         {
-            Global.MethodName = "Notifications_012_UserRequestsFeedback";
-
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(4));
             String projectName = "Endorse Project ";

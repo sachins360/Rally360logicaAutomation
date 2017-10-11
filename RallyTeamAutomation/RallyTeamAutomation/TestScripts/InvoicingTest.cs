@@ -67,6 +67,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Enter Invoice Notes
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.EnterNotes("Invoice Notes");
             log.Info("Enter Invoice Notes");
             Thread.Sleep(2000);
@@ -122,11 +124,13 @@ namespace RallyTeam.TestScripts
         }
 
         //Post a Project
-        public void PostNewProject(String projectName)
+        public void PostNewProject(String projectName, Boolean publicProject = false)
         {
-            //Click Post Project tab
+            //Click Post Project option
             Thread.Sleep(3000);
-            postProjectPage.ClickPostProject();
+            postProjectPage.ClickCreateProjectJobBtn();
+            Thread.Sleep(1000);
+            postProjectPage.ClickNewProject();
             Thread.Sleep(5000);
 
             //Enter the Project Name
@@ -139,12 +143,15 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(5000);
 
             //Enter Skills
             commonPage.ScrollUp();
+            Thread.Sleep(2000);
             String skills = readPostProject.GetValue("AddProjectDetails", "skills");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);
@@ -152,6 +159,10 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
             log.Info("Enter Skills.");
 
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.EnterMembersNeeded("5");
+            Thread.Sleep(1000);
             String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
             List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
             int noOfMember = addMembersEmailList.Count;
@@ -167,9 +178,19 @@ namespace RallyTeam.TestScripts
             }
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(10000);
+
+            //Select private project
+            if (publicProject)
+            {
+                Thread.Sleep(2000);
+                postProjectPage.ClickPrivateProjectRdoBtn();
+                log.Info("Click Publish Button");
+            }
 
             //Click Publish button
             commonPage.ScrollDown();
@@ -182,8 +203,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Invoicing_001_CreateAndVerifyDraftInvoice()
         {
-            Global.MethodName = "Invoicing_001_CreateAndVerifyDraftInvoice";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -270,8 +289,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Invoicing_002_SubmitInvoiceAndVerifyStatus()
         {
-            Global.MethodName = "Invoicing_002_SubmitInvoiceAndVerifyStatus";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -353,8 +370,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Invoicing_003_ApproveInvoiceAndVerifyStatus()
         {
-            Global.MethodName = "Invoicing_003_ApproveInvoiceAndVerifyStatus";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -408,6 +423,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter Comments
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.EnterComments("Invoice Approved");
             log.Info("Invoice Approved.");
             Thread.Sleep(1000);
@@ -451,8 +468,6 @@ namespace RallyTeam.TestScripts
         [Test]
         public void Invoicing_004_DenyInvoiceAndVerifyStatus()
         {
-            Global.MethodName = "Invoicing_004_DenyInvoiceAndVerifyStatus";
-
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
@@ -506,6 +521,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter Comments
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.EnterComments("Invoice Approved");
             log.Info("Invoice Approved.");
             Thread.Sleep(1000);
@@ -623,6 +640,8 @@ namespace RallyTeam.TestScripts
             //Thread.Sleep(1000);
 
             //Click Approve button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.ClickApproveBtn();
             log.Info("Click the Approve button.");
             Thread.Sleep(5000);
@@ -633,6 +652,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Click Mark As Paid button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.ClickMarkAsPaidBtn();
             log.Info("Click the Mark As Paid button.");
             Thread.Sleep(5000);
@@ -804,6 +825,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Delete the Invoice
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             invoicingPage.ClickDeleteIcon();
             log.Info("Delete the Invoice.");
             Thread.Sleep(3000);

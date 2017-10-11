@@ -59,6 +59,8 @@ namespace RallyTeam.TestScripts
 
             //Uncheck the direct message checkbox
             Thread.Sleep(2000);
+            commonPage.ScrollDownVariable(100);
+            Thread.Sleep(2000);
             if (_permission.ToLower().Contains("Uncheck".ToLower()))
                 groupsPage.UnCheckedDirectMessageCheckbox();
             else
@@ -260,6 +262,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter message in the text area
+            commonPage.ScrollDown();
+            Thread.Sleep(2000);
             directMessagingPage.EnterReplyTextArea("This is the reply message.");
             log.Info("Enter the reply message.");
             Thread.Sleep(3000);

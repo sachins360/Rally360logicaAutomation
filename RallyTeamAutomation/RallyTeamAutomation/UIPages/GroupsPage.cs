@@ -43,6 +43,13 @@ namespace RallyTeam.UIPages
         {
             _driver.SafeEnterText(GroupsUI.addGroupName, groupName);
         }
+        //Select Group color
+        public void SelectRoleColor(String roleColor)
+        {
+            _driver.SafeClick(GroupsUI.colorCodeSelect);
+            Thread.Sleep(1000);
+            _driver.SafeClick(GroupsUI.selectColor(roleColor));
+        }
         //Select Group Type
         public void SelectGroupType(String groupType)
         {

@@ -802,7 +802,7 @@ namespace RallyTeam.UIPages
         //Verify Project is not displayed message
         public void AssertProjectNotDisplayedMsg()
         {
-            _assertHelper.AssertElementDisplayed(PostProjectUI.noProjectDisplayedMsg);
+            _assertHelper.AssertElementDisplayed(PostProjectUI.nothingDisplayedMsg);
         }
 
         //Press on Project's Discussion tab

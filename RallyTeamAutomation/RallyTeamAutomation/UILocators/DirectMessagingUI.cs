@@ -31,7 +31,7 @@ namespace RallyTeam.UILocators
 
         /*Send Announcement Window*/
         public readonly static By sendAnnouncementWindow = By.XPath("//div[@class= 'modal-content']//div[contains(@class, 'rt-round-modal__header') and contains(text(), 'Send Announcement')]");
-        public readonly static By groupDropDown = By.XPath("//div[@class= 'modal-content']//select[contains(@class, 'rt-select--thin')]");
+        public readonly static By groupDropDown = By.XPath("//div[@class= 'modal-content']//select[contains(@class, 'rt-select--rounded')]");
 
         public static By messagePosted(String variable)
         {

@@ -228,7 +228,7 @@ namespace RallyTeam.UILocators
         public readonly static By privateProjectCheckbox = By.XPath("//span[contains(@class, 'rt-checkbox')]");
         
         public readonly static By publicProjectIcon = By.XPath("//a[contains(text(), 'Public')]");
-        public readonly static By noProjectDisplayedMsg = By.XPath("//p[text()= 'No projects match the search criteria. Please try refining your search.']");
+        public readonly static By nothingDisplayedMsg = By.XPath("//div[text()= 'Oops... Looks like we have no results for that search!']");
 
         // public readonly static By discussionPostBtn = By.XPath("//div[contains(@class, 'text-right')]//button[contains(@class, 'btn')]//strong[text()= 'Post']");
         public readonly static By discussionPostBtn = By.XPath("//div[contains(@class, '__toolbar__buttons')]//button[contains(@class,'btn')]//strong[text()='Post']");

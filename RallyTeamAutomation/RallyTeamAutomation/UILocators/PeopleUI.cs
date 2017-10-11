@@ -82,7 +82,7 @@ namespace RallyTeam.UILocators
         public readonly static By endorsementCount = By.XPath("//div[@class= 'ng-hide']//div[@class= 'row m-t-xs ng-scope']//div[2]");
         public readonly static By endorseUserBtn = By.XPath("//div[3]/button");
         //public readonly static By projectDropDown = By.XPath("//select[@id= 'rt-selectedProject']");
-        public readonly static By projectDropDown = By.XPath("//div[@class='row no-gutter']//div[@class='col-lg-6']//select[@id='rt-selectedProject']");
+        public readonly static By projectDropDown = By.XPath("//select[@id='rt-selectedProject']");
         
 
         //Request feedback fields

@@ -18,12 +18,17 @@ namespace RallyTeam.UILocators
         public readonly static By groupsDeleteIcon = By.XPath("//div[@class='ng-scope ng-isolate-scope']/div");
         public readonly static By chkDirectMessageChecked = By.XPath("(//div[@class='m-t-md'])[4]//span[@class='rt-checkbox fa m-r-md fa-check-square-o']");
         public readonly static By chkDirectMessageUnchecked = By.XPath("(//div[@class='m-t-md'])[4]//span[@class='rt-checkbox fa m-r-md fa-square-o']");
-        public readonly static By groupsTab = By.XPath("//a[text()= 'Groups']");
+        public readonly static By groupsTab = By.XPath("//a[text()= 'Roles']");
         public readonly static By FeaturesTab = By.XPath("//a[text()= 'Features']");
         
         public readonly static By featuresTab = By.XPath("//ul[@class='nav nav-tabs']//li[@class='ng-scope active']//a[text()='Features']");
-        public readonly static By addGroupBtn = By.XPath("//button[contains(text(), 'Add Group')]");
+        public readonly static By addGroupBtn = By.XPath("//button[contains(text(), 'Add Role')]");
         public readonly static By addGroupName = By.XPath("//input[@name= 'groupName']");
+        public readonly static By colorCodeSelect = By.XPath("//button[contains(@class, 'rt-colorpicker__button')]");
+        public static By selectColor(string var)
+        {
+            return By.XPath("//ul[contains(@class, 'rt-colorpicker__dropdown')]//li["+var+"]");
+        }
         public readonly static By addGroupType = By.XPath("//select[@name= 'userType']");
         public readonly static By addGroupUserIcon = By.XPath("//i[contains(@class, 'fa-user-plus')]");
         public readonly static By addGroupUserEmail = By.XPath("//input[@placeholder= 'Enter a name or email address to add']");
