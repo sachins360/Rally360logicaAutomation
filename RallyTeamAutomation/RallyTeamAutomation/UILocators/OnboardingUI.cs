@@ -41,7 +41,16 @@ namespace RallyTeam.UILocators
         public readonly static By expertiseDropDown = By.XPath("//select[@name= 'jobfunction']");
         public readonly static By continueExpertiseBtn = By.XPath("//button[contains(text(), 'Continue')]");
         public readonly static By inputSkills = By.XPath("//input[contains(@placeholder, 'Type to add skills')]");
+
+        public readonly static By inputTopSkills = By.XPath("//input[contains(@placeholder, 'Type in a skill and we will offer some suggestions...')]");
+
+        
+
+        public readonly static By skillNextBtn = By.XPath("//a[@class='rt-onboard-indicator-button__link']");
+        public readonly static By onboardingInputSkills = By.XPath("//input[contains(@placeholder, 'Add a tag')]");
         public readonly static By viewMyProfileBtn = By.XPath("//button[text()= 'View My Profile']");
+
+        public readonly static By doneProfileBtn = By.XPath("//button[@class='btn rt-btn--seagrass ng-scope']//i");
         public static By skillOne(String variable)
         {
             return By.XPath("//ul[@class= 'tag-list']//li[1]//span[contains(text(), '" + variable + "')]");
@@ -67,11 +76,17 @@ namespace RallyTeam.UILocators
         public readonly static By harakiriConfirmEmailSubject = By.XPath("//div[contains(text(), 'Confirm your email address on Rallyteam')]");
        
         public readonly static By harakiriRecruitedUserSubject = By.XPath("//div[contains(text(), 'great project for you in Rallyteam')]");
-        public readonly static By harakiriInviteUserSubject = By.XPath("//div[contains(text(), 'welcomes you to our private talent marketplace')]");
+        //public readonly static By harakiriInviteUserSubject = By.XPath("//div[contains(text(), 'welcomes you to our private talent marketplace')]");
+        public static By harakiriInviteUserSubject(String variable)
+        {
+            return By.XPath("//div[contains(text(), '" + variable + "')]");
+        }
         public readonly static By harakiriVerifyYourEmailBtn = By.XPath("//a[contains(text(),'Verify Your Email')]");
         //public readonly static By emailLink = By.XPath("//table[@class= 'twelve columns']//a[@class= 'need-a-link']");
         public readonly static By confirmationCode = By.XPath("//table[@class= 'twelve columns']//tbody/tr//td[1]//center[4]");
-        
+        internal static By addOpportunitiType = By.XPath("//select[@name='Availability' and @ng-model='vm.user.availableForOpportunityType.id']");
+        internal static By addAvailableTime = By.XPath("//select[@name='Availability' and @ng-model='vm.user.hoursAvailable']");
+
 
     }
 }

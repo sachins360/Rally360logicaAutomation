@@ -22,8 +22,12 @@ namespace RallyTeam.TestScripts
         public string _browser = ConfigurationSettings.AppSettings["Browser"].ToLower();
         static ReadData readInviteUser = new ReadData("AddUser");
         public string _password = ConfigurationSettings.AppSettings["password"].ToString();
-        public string _workEmail = ConfigurationSettings.AppSettings["workEmail"].ToLower();
-        
+        public string _workEmail = ConfigurationSettings.AppSettings["workEmail"].ToLower(); 
+
+        String _Emailsubject = readInviteUser.GetValue("InviteEmailDetails", "emailSubject");
+        String _EmailMessage = readInviteUser.GetValue("InviteEmailDetails", "emailMessage");
+        String _opportunitiesType= readInviteUser.GetValue("InviteEmailDetails", "opportunitiesType");
+        String _availableTime = readInviteUser.GetValue("InviteEmailDetails", "availableTime");
 
         StringBuilder builder, builder2;
         String email,email2;
@@ -105,6 +109,55 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
+        public void inviteUser()
+        {
+            //Click Email button
+            if (_browser == "edge")
+                addUsersPage.PressEmailBtn();
+            else
+                addUsersPage.ClickEmailBtn();
+            log.Info("Click Email button.");
+            Thread.Sleep(5000);
+
+            //Enter Email Address
+            email = builder + "@harakirimail.com";
+            addUsersPage.EnterEmailAddresses(email);
+            log.Info("Enter Email Address.");
+            //commonPage.PressEnterKey();
+            Thread.Sleep(2000);
+            commonPage.PressEnterKey();
+            builder.Append(RandomString(6));
+            email2 = builder + "@harakirimail.com";
+            addUsersPage.AppendEmailAddresses(email2);
+            log.Info("Enter Second Email Address.");
+            //commonPage.PressTabKey();
+            commonPage.PressEnterKey();
+            commonPage.PressEnterKey();
+            Thread.Sleep(2000);
+
+            //Click Add Users button
+            addUsersPage.ClickEmailAddUsersBtn();
+            log.Info("Click Add Users button.");
+            Thread.Sleep(5000);
+
+            //Enter the invite emaail subject and message
+            addUsersPage.EnterEmailSubjectAndMessage(_Emailsubject, _EmailMessage);
+            log.Info("Enter Email Subject.");
+            commonPage.PressTabKey();
+            Thread.Sleep(2000);
+
+
+            //click on send invite button   
+            addUsersPage.ClickSendInviteBtn();
+            log.Info("Click Send Invite button.");
+            Thread.Sleep(5000);
+
+            //Click Finish button
+            addUsersPage.ClickFinishBtn();
+            log.Info("Click Finish button.");
+            Thread.Sleep(5000);
+        }
+
         public void verifyInviteMailFromMailinator(string _userEmail,string userId="User")
         {
             //Navigate to the user inbox
@@ -127,18 +180,219 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Verify the Email Subject
-            addUsersPage.VerifyEmailSubject();
+            addUsersPage.VerifyEmailSubject(_Emailsubject);
             log.Info("Verify the "+ userId + " Email Subject.");
             Thread.Sleep(2000);
 
             //Click the Email Subject
-            addUsersPage.ClickEmailSubject();
+            addUsersPage.ClickEmailSubject(_Emailsubject);
             log.Info("Click the "+ userId + " Email Subject.");
             Thread.Sleep(5000);
 
             //Verify the Email Get Started Button
             addUsersPage.VerifyEmailGetStartedBtn();
             log.Info("Verify the "+ userId + " Email Get Started Button.");
+
+        }      
+
+        public void onBoardInviteUser(bool uploadResume=false,bool uploadLinkedin=false)
+        {
+            //Click Get Started button
+            addUsersPage.ClickMailinatorEmailGetStartedBtn();
+            log.Info("Click the Get Started Button.");
+            Thread.Sleep(5000);
+
+            //Enter First Name on the screen
+            registrationPage.EnterFirstName(builder.ToString());
+            log.Info("Enter First Name on the screen.");
+            Thread.Sleep(2000);
+
+            //Enter Last Name on the screen
+            registrationPage.EnterLastName(builder.ToString());
+            log.Info("Enter Last Name on the screen.");
+            Thread.Sleep(2000);
+
+            //Click SignUp button on the screen
+            registrationPage.ClickSignUpBtn();
+            log.Info("Click SignUp button on the screen.");
+            Thread.Sleep(5000);
+
+            //Enter Create a Password field on the screen
+            registrationPage.EnterCreatePwdFields(_password);
+            log.Info("Enter Create a Password field on the screen.");
+            Thread.Sleep(2000);
+
+            //Enter Confirm Password field on the screen
+            registrationPage.EnterConfirmPwdFields(_password);
+            log.Info("Enter Confirm Password field on the screen.");
+            Thread.Sleep(2000);
+
+            //Click All Done Button on the screen
+            registrationPage.ClickAllDoneBtn();
+            log.Info("Click All Done button on the screen.");
+            Thread.Sleep(7000);
+
+
+            //Select type of opportunities are you looking for            
+            addUsersPage.SelectOpportunitiesType(_opportunitiesType);
+            log.Info("Select type of opportunities are you looking for.");
+            Thread.Sleep(7000);
+
+            //Select How many hours a week are you available
+            addUsersPage.SelectAvailableTime(_availableTime);
+            log.Info("Select type of opportunities are you looking for.");
+            Thread.Sleep(4000);
+
+            //Click on next link
+            addUsersPage.ClickNextBtn();
+            log.Info("Click on next link.");
+            Thread.Sleep(4000);
+
+            //Click on skip button    
+            addUsersPage.ClickSkipBtn();
+            log.Info("Click on skip link.");
+            Thread.Sleep(4000);
+
+            //Enter Skill and Click on next button
+            addUsersPage.EnterSkillAndClickNextBtn("Test");
+            log.Info("Click on next link.");
+            Thread.Sleep(4000);
+
+            //Enter Skills
+            commonPage.ScrollDown();
+            addUsersPage.EnterTopSkills("Android");
+            Thread.Sleep(2000);
+            commonPage.PressEnterKey();
+            Thread.Sleep(2000);        
+
+            //Click Done button on Profile
+            commonPage.ScrollUp();
+            Thread.Sleep(2000);
+            addUsersPage.ClickDoneBtn();
+            log.Info("Click Done button.");
+            Thread.Sleep(5000);
+        }
+
+        public void createUserProfile()
+        {//Click Create a Profile button
+            if (_browser == "edge")
+                addUsersPage.PressCreateProfileBtn();
+            else
+                addUsersPage.ClickCreateProfileBtn();
+
+            log.Info("Click Create a Profile button.");
+            Thread.Sleep(5000);
+
+            //Enter First Name
+            addUsersPage.EnterFirstName(builder.ToString());
+            log.Info("Enter First Name.");
+            Thread.Sleep(2000);
+
+            //Enter Last Name
+            addUsersPage.EnterLastName(builder.ToString());
+            log.Info("Enter Last Name.");
+            Thread.Sleep(2000);
+
+            //Enter Title
+            addUsersPage.EnterTitle("Automation Script");
+            log.Info("Enter Title.");
+            Thread.Sleep(2000);
+
+            //Enter About Me
+            addUsersPage.EnterAboutMe("I am an automated script");
+            log.Info("Enter About Me.");
+            Thread.Sleep(2000);
+
+            //Enter Address
+            addUsersPage.EnterAddress("Capetown");
+            log.Info("Enter Address.");
+            Thread.Sleep(2000);
+            commonPage.HalfScrollDown(500);
+            Thread.Sleep(2000);
+
+            //Enter City
+            addUsersPage.EnterCity("Noida");
+            log.Info("Enter City.");
+            Thread.Sleep(2000);
+
+            //Enter State/Province
+            addUsersPage.EnterStateProvince("UP");
+            log.Info("Enter State/Province.");
+            Thread.Sleep(2000);
+
+            //Enter Country
+            addUsersPage.EnterCountry("India");
+            log.Info("Enter Country.");
+            Thread.Sleep(2000);
+
+            //Enter Postal Code
+            addUsersPage.EnterPostalCode("201305");
+            log.Info("Enter Postal Code.");
+            Thread.Sleep(2000);
+
+            //Enter Email
+            email = builder + "@harakirimail.com";
+            addUsersPage.EnterEmail(email);
+            log.Info("Enter Email.");
+            Thread.Sleep(2000);
+
+            //Enter Phone
+            addUsersPage.EnterPhone("9811966057");
+            log.Info("Enter Phone.");
+
+            Thread.Sleep(2000);
+
+            //Enter My Top Skills
+            addUsersPage.EnterMyTopSkills("Selenium WebDriver");
+            log.Info("Enter My Top Skills.");
+            Thread.Sleep(2000);
+            commonPage.PressEnterKey();
+            Thread.Sleep(2000);
+            commonPage.HalfScrollDown(700);
+            Thread.Sleep(2000);
+
+            //Enter Other Skills
+            addUsersPage.EnterOtherSkills("C#");
+            log.Info("Enter Other Skills.");
+            Thread.Sleep(2000);
+            commonPage.PressEnterKey();
+            Thread.Sleep(2000);
+
+            /*//Enter Industry / Domain Expertise
+            addUsersPage.EnterIndustryDomainExpertise("Agricultural Chemicals");
+            log.Info("Enter Industry / Domain Expertise.");
+            Thread.Sleep(2000);
+            commonPage.PressEnterKey();
+            Thread.Sleep(2000);*/
+
+            ////Enter Development Skills
+            //addUsersPage.EnterDevelopmentSkills("Cricket");
+            //log.Info("Enter Interested In.");
+            //Thread.Sleep(2000);
+            //commonPage.PressEnterKey();
+            //Thread.Sleep(2000);
+
+            ////Enter Languages
+            //addUsersPage.EnterLanguages("English");
+            //log.Info("Enter Languages.");
+            //Thread.Sleep(2000);
+            //commonPage.PressEnterKey();
+            //Thread.Sleep(2000);
+
+
+            ////Enter LinkedIn Url
+            //addUsersPage.EnterLinkedInUrl("https://linkedDinMe.com");
+            //log.Info("Enter LinkedIn Url.");
+            //Thread.Sleep(2000);  
+
+
+            //Click Create button
+            commonPage.ScrollUp();
+            Thread.Sleep(2000);
+            addUsersPage.ClickCreate();
+            log.Info("Click on Create Button");
+            Thread.Sleep(7000);
+
 
         }
 
@@ -195,32 +449,10 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
             GoToAddUser();
 
-            //Click Email button
-            if (_browser == "edge")
-                addUsersPage.PressEmailBtn();
-            else
-                addUsersPage.ClickEmailBtn();
-            log.Info("Click Email button.");
-            Thread.Sleep(5000);
+            //Invite an user         
+            inviteUser();
 
-            //Enter Email Address
-            email = builder + "@harakirimail.com";
-            addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter Email Address.");
-            commonPage.PressTabKey();
-            Thread.Sleep(2000);
-
-            //Click Add Users button
-            addUsersPage.ClickEmailAddUsersBtn();
-            log.Info("Click Add Users button.");
-            Thread.Sleep(5000);
-
-            //Click Finish button
-            addUsersPage.ClickFinishBtn();
-            log.Info("Click Finish button.");
-            Thread.Sleep(5000);
-
-            //Verify user invite email
+            //Verify user invite email from mailinator
             verifyInviteMailFromMailinator(email);
             Thread.Sleep(2000);
 
@@ -242,52 +474,148 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
             GoToAddUser();
 
-            //Click Email button
-            if (_browser == "edge")
-                addUsersPage.PressEmailBtn();
-            else
-                addUsersPage.ClickEmailBtn();
-            log.Info("Click Email button.");
-            Thread.Sleep(5000);
+            //Invite an user         
+            inviteUser();
 
-            //Enter Email Address
+            //Verify user invite email from mailinator
+            verifyInviteMailFromMailinator(email);
+            Thread.Sleep(2000);
+
+            //Onboard invite user
+            onBoardInviteUser();
+
+        }
+
+        [Test]
+        public void AddUser_004_SendAndVerifyInviteEmailMultipleUsers()
+        {
+            Global.MethodName = "AddUser_004_SendAndVerifyInviteEmailMultipleUsers";
+            Thread.Sleep(5000);
+            GoToAddUser();
+
+            //Invite auser1
             email = builder + "@harakirimail.com";
-            addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter Email Address.");
-            commonPage.PressTabKey();
+            inviteUser();
+
+            //Verify user1 invite email from mailinator
+            verifyInviteMailFromMailinator(email);
+            Thread.Sleep(2000);          
+
+            //Verify user2 invite email from mailinator
+            verifyInviteMailFromMailinator(email2);
             Thread.Sleep(2000);
 
-            //Click Add Users button
-            addUsersPage.ClickEmailAddUsersBtn();
-            log.Info("Click Add Users button.");
+            ////Click Email button
+            //if (_browser == "edge")
+            //    addUsersPage.PressEmailBtn();
+            //else
+            //    addUsersPage.ClickEmailBtn();
+            //log.Info("Click Email button.");
+            //Thread.Sleep(5000);
+
+            ////Enter Email Address
+            //email = builder + "@harakirimail.com";
+            //addUsersPage.EnterEmailAddresses(email);
+            //log.Info("Enter Email Address.");
+            //commonPage.PressTabKey();
+            //builder.Append(RandomString(6));
+            //email2 = builder + "@harakirimail.com";
+            //addUsersPage.EnterEmailAddresses(email);
+            //log.Info("Enter Second Email Address.");
+            //commonPage.PressTabKey();
+            //Thread.Sleep(2000);
+
+            ////Click Add Users button
+            //addUsersPage.ClickEmailAddUsersBtn();
+            //log.Info("Click Add Users button.");
+            //Thread.Sleep(5000);
+
+            ////Click Finish button
+            //addUsersPage.ClickFinishBtn();
+            //log.Info("Click Finish button.");
+            //Thread.Sleep(5000);
+
+            ////Navigate to the user inbox
+            //commonPage.NavigateToUrl("https://www.harakirimail.com/");
+            //log.Info("Navigate to the mailinator site.");
+            //Thread.Sleep(7000);
+
+            ////Enter Harakirimail Email address
+            //addUsersPage.EnterHarakirimailEmail(email);
+            //log.Info("Enter email address.");
+            //Thread.Sleep(2000);
+
+            ////Press Enter key
+            //commonPage.PressEnterKey();
+            //Thread.Sleep(5000);
+
+            ////Verify the Email Sender
+            //addUsersPage.VerifyEmailSender();
+            //log.Info("Verify the Email Sender.");
+            //Thread.Sleep(2000);
+
+            ////Verify the Email Subject
+            //addUsersPage.VerifyEmailSubject();
+            //log.Info("Verify the Email Subject.");
+            //Thread.Sleep(2000);
+
+            ////Click the Email Subject
+            //addUsersPage.ClickEmailSubject();
+            //log.Info("Click the Email Subject.");
+            //Thread.Sleep(5000);
+
+            ////Verify the Email Get Started Button
+            //addUsersPage.VerifyEmailGetStartedBtn();
+            //log.Info("Verify the Email Get Started Button.");
+            //Thread.Sleep(2000);
+
+            ////Navigate to the user inbox
+            //commonPage.NavigateToUrl("https://www.harakirimail.com/");
+            //log.Info("Navigate to the mailinator site.");
+            //Thread.Sleep(7000);
+
+            ////Enter Harakirimail Email address
+            //addUsersPage.EnterHarakirimailEmail(email2);
+            //log.Info("Enter email address.");
+            //Thread.Sleep(2000);
+
+            ////Press Enter key
+            //commonPage.PressEnterKey();
+            //Thread.Sleep(5000);
+
+            ////Verify the Email Sender
+            //addUsersPage.VerifyEmailSender();
+            //log.Info("Verify the Email Sender.");
+            //Thread.Sleep(2000);
+
+            ////Verify the Email Subject
+            //addUsersPage.VerifyEmailSubject();
+            //log.Info("Verify the Email Subject.");
+            //Thread.Sleep(2000);
+
+            ////Click the Email Subject
+            //addUsersPage.ClickEmailSubject();
+            //log.Info("Click the Email Subject.");
+            //Thread.Sleep(5000);
+
+            ////Verify the Email Get Started Button
+            //addUsersPage.VerifyEmailGetStartedBtn();
+            //log.Info("Verify the Email Get Started Button.");
+        }
+
+        [Test]
+        public void AddUser_005_UploadResume()
+        {
+            Global.MethodName = "AddUser_005_UploadResume";
             Thread.Sleep(5000);
+            GoToAddUser();
 
-            //Click Finish button
-            addUsersPage.ClickFinishBtn();
-            log.Info("Click Finish button.");
-            Thread.Sleep(5000);
+            inviteUser();
 
-            //Navigate to the user inbox
-            commonPage.NavigateToUrl("https://www.harakirimail.com/");
-            log.Info("Navigate to the mailinator site.");
-            Thread.Sleep(7000);
-
-            //Enter Harakirimail Email address
-            addUsersPage.EnterHarakirimailEmail(email);
-            log.Info("Enter email address.");
-            Thread.Sleep(2000);
-
-            //Press Enter key
-            commonPage.PressEnterKey();
-            Thread.Sleep(5000);
-
-            //Click the Email Subject
-            addUsersPage.ClickEmailSubject();
-            log.Info("Click the Email Subject.");
-            Thread.Sleep(5000);
+            verifyInviteMailFromMailinator(email);
 
             //Click Get Started button
-            addUsersPage.ClickEmailGetStartedBtn();
+            addUsersPage.ClickMailinatorEmailGetStartedBtn();
             log.Info("Click the Get Started Button.");
             Thread.Sleep(5000);
 
@@ -321,260 +649,29 @@ namespace RallyTeam.TestScripts
             log.Info("Click All Done button on the screen.");
             Thread.Sleep(7000);
 
-            //Verify the Get Started button
-            addUsersPage.VerifyGetStartedBtn();
-            log.Info("Verify Get Started button.");
 
-            //Click Get Started button
-            addUsersPage.ClickGetStartedBtn();
-            log.Info("Click Get Staerted button.");
-            Thread.Sleep(5000);
-
-            //Click Linkedin Next button
-            addUsersPage.ClickNextLinkedIn();
-            log.Info("Click Next button on LinkedIn Page.");
-            Thread.Sleep(5000);
-
-            //Select Expertise
-            addUsersPage.SelectExpertiseDropDown("Information Technology");
-            log.Info("Select Expertise.");
-            Thread.Sleep(2000);
-
-            //Click Expertise Continue button
-            addUsersPage.ClickExpertiseContinueBtn();
-            log.Info("Click Expertise Continue button.");
-            Thread.Sleep(5000);
-
-            //Enter Skills
-            addUsersPage.EnterSkills("Android");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-            addUsersPage.EnterSkills("Computer science");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Click View My Profile button
-            addUsersPage.ClickViewMyProfileBtn();
-            log.Info("Click View My Profile button.");
-            Thread.Sleep(5000);
-
-            //Assert Skills entered are populated in the Profile
-            addUsersPage.AssertSkillOne("Android");
-            log.Info("Assert Skill One.");
-            Thread.Sleep(1000);
-            addUsersPage.AssertSkillTwo("Computer science");
-            log.Info("Assert Skill Two.");
-            Thread.Sleep(1000);
-
-            //Click Done button on Profile
-            commonPage.ScrollUp();
-            Thread.Sleep(2000);
-            addUsersPage.ClickDoneBtn();
-            log.Info("Click Done button.");
-            Thread.Sleep(5000);
-        }
-
-        [Test]
-        public void AddUser_004_SendAndVerifyInviteEmailMultipleUsers()
-        {
-            Global.MethodName = "AddUser_004_SendAndVerifyInviteEmailMultipleUsers";
-            Thread.Sleep(5000);
-            GoToAddUser();
-
-            //Click Email button
-            if (_browser == "edge")
-                addUsersPage.PressEmailBtn();
-            else
-                addUsersPage.ClickEmailBtn();
-            log.Info("Click Email button.");
-            Thread.Sleep(5000);
-
-            //Enter Email Address
-            email = builder + "@harakirimail.com";
-            addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter Email Address.");
-            commonPage.PressTabKey();
-            builder.Append(RandomString(6));
-            email = builder + "@harakirimail.com";
-            addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter Second Email Address.");
-            commonPage.PressTabKey();
-            Thread.Sleep(2000);
-
-            //Click Add Users button
-            addUsersPage.ClickEmailAddUsersBtn();
-            log.Info("Click Add Users button.");
-            Thread.Sleep(5000);
-
-            //Click Finish button
-            addUsersPage.ClickFinishBtn();
-            log.Info("Click Finish button.");
-            Thread.Sleep(5000);
-
-            //Navigate to the user inbox
-            commonPage.NavigateToUrl("https://www.harakirimail.com/");
-            log.Info("Navigate to the mailinator site.");
+            //Select type of opportunities are you looking for            
+            addUsersPage.SelectOpportunitiesType(_opportunitiesType);
+            log.Info("Select type of opportunities are you looking for.");
             Thread.Sleep(7000);
 
-            //Enter Harakirimail Email address
-            addUsersPage.EnterHarakirimailEmail(email);
-            log.Info("Enter email address.");
-            Thread.Sleep(2000);
+            //Select How many hours a week are you available
+            addUsersPage.SelectAvailableTime(_availableTime);
+            log.Info("Select type of opportunities are you looking for.");
+            Thread.Sleep(4000);
 
-            //Press Enter key
-            commonPage.PressEnterKey();
-            Thread.Sleep(5000);
-
-            //Verify the Email Sender
-            addUsersPage.VerifyEmailSender();
-            log.Info("Verify the Email Sender.");
-            Thread.Sleep(2000);
-
-            //Verify the Email Subject
-            addUsersPage.VerifyEmailSubject();
-            log.Info("Verify the Email Subject.");
-            Thread.Sleep(2000);
-
-            //Click the Email Subject
-            addUsersPage.ClickEmailSubject();
-            log.Info("Click the Email Subject.");
-            Thread.Sleep(5000);
-
-            //Verify the Email Get Started Button
-            addUsersPage.VerifyEmailGetStartedBtn();
-            log.Info("Verify the Email Get Started Button.");
-            Thread.Sleep(2000);
-
-            //Navigate to the user inbox
-            commonPage.NavigateToUrl("https://www.harakirimail.com/");
-            log.Info("Navigate to the mailinator site.");
-            Thread.Sleep(7000);
-
-            //Enter Harakirimail Email address
-            addUsersPage.EnterHarakirimailEmail(email);
-            log.Info("Enter email address.");
-            Thread.Sleep(2000);
-
-            //Press Enter key
-            commonPage.PressEnterKey();
-            Thread.Sleep(5000);
-
-            //Verify the Email Sender
-            addUsersPage.VerifyEmailSender();
-            log.Info("Verify the Email Sender.");
-            Thread.Sleep(2000);
-
-            //Verify the Email Subject
-            addUsersPage.VerifyEmailSubject();
-            log.Info("Verify the Email Subject.");
-            Thread.Sleep(2000);
-
-            //Click the Email Subject
-            addUsersPage.ClickEmailSubject();
-            log.Info("Click the Email Subject.");
-            Thread.Sleep(5000);
-
-            //Verify the Email Get Started Button
-            addUsersPage.VerifyEmailGetStartedBtn();
-            log.Info("Verify the Email Get Started Button.");
-        }
-
-        [Test]
-        public void AddUser_005_UploadResume()
-        {
-            Global.MethodName = "AddUser_005_UploadResume";
-            Thread.Sleep(5000);
-            GoToAddUser();
-
-            //Click Email button
-            if (_browser == "edge")
-                addUsersPage.PressEmailBtn();
-            else
-                addUsersPage.ClickEmailBtn();
-            log.Info("Click Email button.");
-            Thread.Sleep(5000);
-
-            //Enter Email Address
-            email = builder + "@harakirimail.com";
-            addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter Email Address.");
-            commonPage.PressTabKey();
-            Thread.Sleep(2000);
-
-            //Click Add Users button
-            addUsersPage.ClickEmailAddUsersBtn();
-            log.Info("Click Add Users button.");
-            Thread.Sleep(5000);
-
-            //Click Finish button
-            addUsersPage.ClickFinishBtn();
-            log.Info("Click Finish button.");
-            Thread.Sleep(5000);
-
-            //Navigate to the user inbox
-            commonPage.NavigateToUrl("https://www.harakirimail.com/");
-            log.Info("Navigate to the mailinator site.");
-            Thread.Sleep(7000);
-
-            //Enter Harakirimail Email address
-            addUsersPage.EnterHarakirimailEmail(email);
-            log.Info("Enter email address.");
-            Thread.Sleep(2000);
-
-            //Press Enter key
-            commonPage.PressEnterKey();
-            Thread.Sleep(5000);
-
-            //Click the Email Subject
-            addUsersPage.ClickEmailSubject();
-            log.Info("Click the Email Subject.");
-            Thread.Sleep(5000);
-
-            //Click Email Get Started button
-            addUsersPage.ClickEmailGetStartedBtn();
-            log.Info("Click the Email Get Started Button.");
-
-            //Enter First Name on the screen
-            registrationPage.EnterFirstName(builder.ToString());
-            log.Info("Enter First Name on the screen.");
-            Thread.Sleep(2000);
-
-            //Enter Last Name on the screen
-            registrationPage.EnterLastName(builder.ToString());
-            log.Info("Enter Last Name on the screen.");
-            Thread.Sleep(2000);
-
-            //Click SignUp button on the screen
-            registrationPage.ClickSignUpBtn();
-            log.Info("Click SignUp button on the screen.");
-            Thread.Sleep(5000);
-
-            //Enter Create a Password field on the screen
-            registrationPage.EnterCreatePwdFields("Logica360");
-            log.Info("Enter Create a Password field on the screen.");
-            Thread.Sleep(2000);
-
-            //Enter Confirm Password field on the screen
-            registrationPage.EnterConfirmPwdFields("Logica360");
-            log.Info("Enter Confirm Password field on the screen.");
-            Thread.Sleep(2000);
-
-            //Click All Done Button on the screen
-            registrationPage.ClickAllDoneBtn();
-            log.Info("Click All Done button on the screen.");
-            Thread.Sleep(7000);
-
-            //Click Get Started button
-            addUsersPage.ClickGetStartedBtn();
-            log.Info("Click Get Staerted button.");
-            Thread.Sleep(5000);
+            //Click on next link
+            addUsersPage.ClickNextBtn();
+            log.Info("Click on next link.");
+            Thread.Sleep(4000);
 
             //Click Upload Resume button
             addUsersPage.ClickUploadYourResumeBtn();
             Thread.Sleep(5000);
-            String startupPath = Environment.CurrentDirectory; ;
+           // String startupPath = Environment.CurrentDirectory; ;
+
+            //string startupPath = "D:\\Rally360logicaAutomation\\RallyTeamAutomation";
+            string startupPath = System.IO.Directory.GetCurrentDirectory();
             startupPath = startupPath + "\\AuzebManzoor.pdf";
             Console.WriteLine("Start up path: " + startupPath);
             SendKeys.SendWait(@startupPath);
@@ -594,53 +691,14 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
             GoToAddUser();
 
-            //Click Email button
-            if (_browser == "edge")
-                addUsersPage.PressEmailBtn();
-            else
-                addUsersPage.ClickEmailBtn();
-            log.Info("Click Email button.");
+            inviteUser();
+
+            verifyInviteMailFromMailinator(email);
+
+            //Click Get Started button
+            addUsersPage.ClickMailinatorEmailGetStartedBtn();
+            log.Info("Click the Get Started Button.");
             Thread.Sleep(5000);
-
-            //Enter Email Address
-            email = builder + "@harakirimail.com";
-            addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter Email Address.");
-            commonPage.PressTabKey();
-            Thread.Sleep(2000);
-
-            //Click Add Users button
-            addUsersPage.ClickEmailAddUsersBtn();
-            log.Info("Click Add Users button.");
-            Thread.Sleep(5000);
-
-            //Click Finish button
-            addUsersPage.ClickFinishBtn();
-            log.Info("Click Finish button.");
-            Thread.Sleep(5000);
-
-            //Navigate to the user inbox
-            commonPage.NavigateToUrl("https://www.harakirimail.com/");
-            log.Info("Navigate to the mailinator site.");
-            Thread.Sleep(7000);
-
-            //Enter Harakirimail Email address
-            addUsersPage.EnterHarakirimailEmail(email);
-            log.Info("Enter email address.");
-            Thread.Sleep(2000);
-
-            //Press Enter key
-            commonPage.PressEnterKey();
-            Thread.Sleep(5000);
-
-            //Click the Email Subject
-            addUsersPage.ClickEmailSubject();
-            log.Info("Click the Email Subject.");
-            Thread.Sleep(5000);
-
-            //Click Email Get Started button
-            addUsersPage.ClickEmailGetStartedBtn();
-            log.Info("Click the Email Get Started Button.");
 
             //Enter First Name on the screen
             registrationPage.EnterFirstName(builder.ToString());
@@ -658,12 +716,12 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter Create a Password field on the screen
-            registrationPage.EnterCreatePwdFields("Logica360");
+            registrationPage.EnterCreatePwdFields(_password);
             log.Info("Enter Create a Password field on the screen.");
             Thread.Sleep(2000);
 
             //Enter Confirm Password field on the screen
-            registrationPage.EnterConfirmPwdFields("Logica360");
+            registrationPage.EnterConfirmPwdFields(_password);
             log.Info("Enter Confirm Password field on the screen.");
             Thread.Sleep(2000);
 
@@ -672,11 +730,21 @@ namespace RallyTeam.TestScripts
             log.Info("Click All Done button on the screen.");
             Thread.Sleep(7000);
 
-            //Click Get Started button
-            addUsersPage.ClickGetStartedBtn();
-            log.Info("Click Get Staerted button.");
-            Thread.Sleep(5000);
 
+            //Select type of opportunities are you looking for            
+            addUsersPage.SelectOpportunitiesType(_opportunitiesType);
+            log.Info("Select type of opportunities are you looking for.");
+            Thread.Sleep(7000);
+
+            //Select How many hours a week are you available
+            addUsersPage.SelectAvailableTime(_availableTime);
+            log.Info("Select type of opportunities are you looking for.");
+            Thread.Sleep(4000);
+
+            //Click on next link
+            addUsersPage.ClickNextBtn();
+            log.Info("Click on next link.");
+            Thread.Sleep(4000);
             //Click LinkedIn button Resume button
             addUsersPage.ClickLinkedInBtn();
             log.Info("Click LinkedIn button.");
@@ -715,117 +783,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
             GoToAddUser();
 
-            //Click Create a Profile button
-            if (_browser == "edge")
-                addUsersPage.PressCreateProfileBtn();
-            else
-                addUsersPage.ClickCreateProfileBtn();
-
-            log.Info("Click Create a Profile button.");
-            Thread.Sleep(5000);
-
-            //Enter First Name
-            addUsersPage.EnterFirstName(builder.ToString());
-            log.Info("Enter First Name.");
-            Thread.Sleep(2000);
-
-            //Enter Last Name
-            addUsersPage.EnterLastName(builder.ToString());
-            log.Info("Enter Last Name.");
-            Thread.Sleep(2000);
-
-            //Enter Email
-            email = builder + "@harakirimail.com";
-            addUsersPage.EnterEmail(email);
-            log.Info("Enter Email.");
-            Thread.Sleep(2000);
-
-            //Enter Title
-            addUsersPage.EnterTitle("Automation Script");
-            log.Info("Enter Title.");
-            Thread.Sleep(2000);
-
-            //Enter About Me
-            addUsersPage.EnterAboutMe("I am an automated script");
-            log.Info("Enter About Me.");
-            Thread.Sleep(2000);
-
-            //Enter My Top Skills
-            addUsersPage.EnterMyTopSkills("Selenium WebDriver");
-            log.Info("Enter My Top Skills.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Enter Other Skills
-            addUsersPage.EnterOtherSkills("C#");
-            log.Info("Enter Other Skills.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            /*//Enter Industry / Domain Expertise
-            addUsersPage.EnterIndustryDomainExpertise("Agricultural Chemicals");
-            log.Info("Enter Industry / Domain Expertise.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);*/
-
-            //Enter Languages
-            addUsersPage.EnterLanguages("English");
-            log.Info("Enter Languages.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Enter Development Skills
-            addUsersPage.EnterDevelopmentSkills("Cricket");
-            log.Info("Enter Interested In.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Enter LinkedIn Url
-            addUsersPage.EnterLinkedInUrl("https://linkedDinMe.com");
-            log.Info("Enter LinkedIn Url.");
-            Thread.Sleep(2000);
-
-            //Enter Phone
-            addUsersPage.EnterPhone("9811966057");
-            log.Info("Enter Phone.");
-            Thread.Sleep(2000);
-
-            //Enter Address
-            addUsersPage.EnterAddress("Capetown");
-            log.Info("Enter Address.");
-            Thread.Sleep(2000);
-
-            //Enter City
-            addUsersPage.EnterCity("Noida");
-            log.Info("Enter City.");
-            Thread.Sleep(2000);
-
-            //Enter State/Province
-            addUsersPage.EnterStateProvince("UP");
-            log.Info("Enter State/Province.");
-            Thread.Sleep(2000);
-
-            //Enter Postal Code
-            addUsersPage.EnterPostalCode("201305");
-            log.Info("Enter Postal Code.");
-            Thread.Sleep(2000);
-
-            //Enter Country
-            addUsersPage.EnterCountry("India");
-            log.Info("Enter Country.");
-            Thread.Sleep(2000);
-
-            //Click Create button
-            commonPage.ScrollUp();
-            Thread.Sleep(2000);
-            addUsersPage.ClickCreate();
-            log.Info("Click on Create Button");
-            Thread.Sleep(7000);
+            //Create User Profile
+            createUserProfile();
 
             //Verify the added user
             addUsersPage.VerifyAddedUserName(builder.ToString() + " " + builder.ToString());
@@ -833,53 +792,53 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
         }
 
-        [Test]
-        public void AddUser_008_SendAndVerifyMultipleUserInviteEmail()
-        {
-            Global.MethodName = "AddUser_008_SendAndVerifyMultipleUserInviteEmail";
-            Thread.Sleep(5000);
-            GoToAddUser();
+        //[Test]
+        //public void AddUser_008_SendAndVerifyMultipleUserInviteEmail()
+        //{
+        //    Global.MethodName = "AddUser_008_SendAndVerifyMultipleUserInviteEmail";
+        //    Thread.Sleep(5000);
+        //    GoToAddUser();
 
-            //Click Email button
-            if (_browser == "edge")
-                addUsersPage.PressEmailBtn();
-            else
-                addUsersPage.ClickEmailBtn();
-            log.Info("Click Email button.");
-            Thread.Sleep(5000);
+        //    //Click Email button
+        //    if (_browser == "edge")
+        //        addUsersPage.PressEmailBtn();
+        //    else
+        //        addUsersPage.ClickEmailBtn();
+        //    log.Info("Click Email button.");
+        //    Thread.Sleep(5000);
 
-            //Enter Email Address
-            email = builder + "@harakirimail.com,";
-            addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter first Email Address.");
-            //commonPage.PressEnterKey();
-            Thread.Sleep(5000);
-            email2 = builder2 + "@harakirimail.com";
-            addUsersPage.EnterEmailAddresses(email2);
-            log.Info("Enter Second Email Address.");
-            commonPage.PressEnterKey();
-            commonPage.PressTabKey();
-            Thread.Sleep(2000);
+        //    //Enter Email Address
+        //    email = builder + "@harakirimail.com,";
+        //    addUsersPage.EnterEmailAddresses(email);
+        //    log.Info("Enter first Email Address.");
+        //    //commonPage.PressEnterKey();
+        //    Thread.Sleep(5000);
+        //    email2 = builder2 + "@harakirimail.com";
+        //    addUsersPage.EnterEmailAddresses(email2);
+        //    log.Info("Enter Second Email Address.");
+        //    commonPage.PressEnterKey();
+        //    commonPage.PressTabKey();
+        //    Thread.Sleep(2000);
 
-            //Click Add Users button
-            addUsersPage.ClickEmailAddUsersBtn();
-            log.Info("Click Add Users button.");
-            Thread.Sleep(5000);
+        //    //Click Add Users button
+        //    addUsersPage.ClickEmailAddUsersBtn();
+        //    log.Info("Click Add Users button.");
+        //    Thread.Sleep(5000);
 
-            //Click Finish button
-            addUsersPage.ClickFinishBtn();
-            log.Info("Click Finish button.");
-            Thread.Sleep(5000);
+        //    //Click Finish button
+        //    addUsersPage.ClickFinishBtn();
+        //    log.Info("Click Finish button.");
+        //    Thread.Sleep(5000);
 
-            //Verify invite email for first user
-            verifyInviteMailFromMailinator(email,"First User");
-            Thread.Sleep(3000);
+        //    //Verify invite email for first user
+        //    verifyInviteMailFromMailinator(email,"First User");
+        //    Thread.Sleep(3000);
 
-            //Verify invite email for second user
-            verifyInviteMailFromMailinator(email2, "Second User");
+        //    //Verify invite email for second user
+        //    verifyInviteMailFromMailinator(email2, "Second User");
             
 
-        }
+        //}
       
         [Test]
         public void AddUser_009_CannotInviteRegisteredUser()
@@ -888,7 +847,6 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
             GoToAddUser();
 
-            //Click Email button
             if (_browser == "edge")
                 addUsersPage.PressEmailBtn();
             else
@@ -896,15 +854,29 @@ namespace RallyTeam.TestScripts
             log.Info("Click Email button.");
             Thread.Sleep(5000);
 
-            //Enter Email Address            
-            addUsersPage.EnterEmailAddresses(_workEmail);
-            log.Info("Enter already registered Email Address.");
-            commonPage.PressTabKey();
+            //Enter Email Address
+            email = "ammark@360logica.com";
+            addUsersPage.EnterEmailAddresses(email);
+            log.Info("Enter Email Address.");          
+            commonPage.PressEnterKey();
+            commonPage.PressEnterKey();
             Thread.Sleep(2000);
 
             //Click Add Users button
             addUsersPage.ClickEmailAddUsersBtn();
             log.Info("Click Add Users button.");
+            Thread.Sleep(5000);
+
+            //Enter the invite emaail subject and message
+            addUsersPage.EnterEmailSubjectAndMessage(_Emailsubject, _EmailMessage);
+            log.Info("Enter Email Subject.");
+            commonPage.PressTabKey();
+            Thread.Sleep(2000);
+
+
+            //click on send invite button   
+            addUsersPage.ClickSendInviteBtn();
+            log.Info("Click Send Invite button.");
             Thread.Sleep(5000);
 
             //Verify no user should uploaded
@@ -939,6 +911,18 @@ namespace RallyTeam.TestScripts
             log.Info("Click Add Users button.");
             Thread.Sleep(5000);
 
+            //Enter the invite emaail subject and message
+            addUsersPage.EnterEmailSubjectAndMessage(_Emailsubject, _EmailMessage);
+            log.Info("Enter Email Subject.");
+            commonPage.PressTabKey();
+            Thread.Sleep(2000);
+
+
+            //click on send invite button   
+            addUsersPage.ClickSendInviteBtn();
+            log.Info("Click Send Invite button.");
+            Thread.Sleep(5000);
+
             //Verify no user should uploaded
             addUsersPage.VerifyUploadedUser();
             log.Info("Verify 0 user should uploaded");
@@ -952,138 +936,15 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
             GoToAddUser();
 
-            //Click Email button
-            if (_browser == "edge")
-                addUsersPage.PressEmailBtn();
-            else
-                addUsersPage.ClickEmailBtn();
-            log.Info("Click Email button.");
-            Thread.Sleep(5000);
+            //Invite an user         
+            inviteUser();
 
-            //Enter Email Address
-            email = builder + "@harakirimail.com";
-            addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter Email Address.");
-            commonPage.PressTabKey();
+            //Verify user invite email from mailinator
+            verifyInviteMailFromMailinator(email);
             Thread.Sleep(2000);
 
-            //Click Add Users button
-            addUsersPage.ClickEmailAddUsersBtn();
-            log.Info("Click Add Users button.");
-            Thread.Sleep(5000);
-
-            //Click Finish button
-            addUsersPage.ClickFinishBtn();
-            log.Info("Click Finish button.");
-            Thread.Sleep(5000);
-
-            //Navigate to the user inbox
-            commonPage.NavigateToUrl("https://www.harakirimail.com/");
-            log.Info("Navigate to the mailinator site.");
-            Thread.Sleep(7000);
-
-            //Enter Harakirimail Email address
-            addUsersPage.EnterHarakirimailEmail(email);
-            log.Info("Enter email address.");
-            Thread.Sleep(2000);
-
-            //Press Enter key
-            commonPage.PressEnterKey();
-            Thread.Sleep(5000);
-
-            //Click the Email Subject
-            addUsersPage.ClickEmailSubject();
-            log.Info("Click the Email Subject.");
-            Thread.Sleep(5000);
-
-            //Click Get Started button
-            addUsersPage.ClickEmailGetStartedBtn();
-            log.Info("Click the Get Started Button.");
-            Thread.Sleep(5000);
-
-            //Enter First Name on the screen
-            registrationPage.EnterFirstName(builder.ToString());
-            log.Info("Enter First Name on the screen.");
-            Thread.Sleep(2000);
-
-            //Enter Last Name on the screen
-            registrationPage.EnterLastName(builder.ToString());
-            log.Info("Enter Last Name on the screen.");
-            Thread.Sleep(2000);
-
-            //Click SignUp button on the screen
-            registrationPage.ClickSignUpBtn();
-            log.Info("Click SignUp button on the screen.");
-            Thread.Sleep(5000);
-
-            //Enter Create a Password field on the screen
-            registrationPage.EnterCreatePwdFields(_password);
-            log.Info("Enter Create a Password field on the screen.");
-            Thread.Sleep(2000);
-
-            //Enter Confirm Password field on the screen
-            registrationPage.EnterConfirmPwdFields(_password);
-            log.Info("Enter Confirm Password field on the screen.");
-            Thread.Sleep(2000);
-
-            //Click All Done Button on the screen
-            registrationPage.ClickAllDoneBtn();
-            log.Info("Click All Done button on the screen.");
-            Thread.Sleep(7000);
-
-            //Verify the Get Started button
-            addUsersPage.VerifyGetStartedBtn();
-            log.Info("Verify Get Started button.");
-
-            //Click Get Started button
-            addUsersPage.ClickGetStartedBtn();
-            log.Info("Click Get Staerted button.");
-            Thread.Sleep(5000);
-
-            //Click Linkedin Next button
-            addUsersPage.ClickNextLinkedIn();
-            log.Info("Click Next button on LinkedIn Page.");
-            Thread.Sleep(5000);
-
-            //Select Expertise
-            addUsersPage.SelectExpertiseDropDown("Information Technology");
-            log.Info("Select Expertise.");
-            Thread.Sleep(2000);
-
-            //Click Expertise Continue button
-            addUsersPage.ClickExpertiseContinueBtn();
-            log.Info("Click Expertise Continue button.");
-            Thread.Sleep(5000);
-
-            //Enter Skills
-            addUsersPage.EnterSkills("Android");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-            addUsersPage.EnterSkills("Computer science");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Click View My Profile button
-            addUsersPage.ClickViewMyProfileBtn();
-            log.Info("Click View My Profile button.");
-            Thread.Sleep(5000);
-
-            //Assert Skills entered are populated in the Profile
-            addUsersPage.AssertSkillOne("Android");
-            log.Info("Assert Skill One.");
-            Thread.Sleep(1000);
-            addUsersPage.AssertSkillTwo("Computer science");
-            log.Info("Assert Skill Two.");
-            Thread.Sleep(1000);
-
-            //Click Done button on Profile
-            commonPage.ScrollUp();
-            Thread.Sleep(2000);
-            addUsersPage.ClickDoneBtn();
-            log.Info("Click Done button.");
-            Thread.Sleep(5000);
+            //Onboard invite user
+            onBoardInviteUser();            
 
             //Verify verification code doesn't asking        
             authenticationPage.VerifyUserIcon();
@@ -1100,119 +961,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
             GoToAddUser();
 
-            //Click Create a Profile button
-            if (_browser == "edge")
-                addUsersPage.PressCreateProfileBtn();
-            else
-                addUsersPage.ClickCreateProfileBtn();
-
-            log.Info("Click Create a Profile button.");
-            Thread.Sleep(5000);
-
-            //Enter First Name
-            addUsersPage.EnterFirstName(builder.ToString());
-            log.Info("Enter First Name.");
-            Thread.Sleep(2000);
-
-            //Enter Last Name
-            addUsersPage.EnterLastName(builder.ToString());
-            log.Info("Enter Last Name.");
-            Thread.Sleep(2000);
-
-            //Enter Email
-            email = builder + "@harakirimail.com";
-            addUsersPage.EnterEmail(email);
-            log.Info("Enter Email.");
-            Thread.Sleep(2000);
-
-            //Enter Title
-            addUsersPage.EnterTitle("Automation Script");
-            log.Info("Enter Title.");
-            Thread.Sleep(2000);
-
-            //Enter About Me
-            addUsersPage.EnterAboutMe("I am an automated script");
-            log.Info("Enter About Me.");
-            Thread.Sleep(2000);
-
-            //Enter My Top Skills
-            addUsersPage.EnterMyTopSkills("Selenium WebDriver");
-            log.Info("Enter My Top Skills.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Enter Other Skills
-            addUsersPage.EnterOtherSkills("C#");
-            log.Info("Enter Other Skills.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            /*//Enter Industry / Domain Expertise
-            addUsersPage.EnterIndustryDomainExpertise("Agricultural Chemicals");
-            log.Info("Enter Industry / Domain Expertise.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);*/
-
-            //Enter Languages
-            addUsersPage.EnterLanguages("English");
-            log.Info("Enter Languages.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Enter Development Skills
-            addUsersPage.EnterDevelopmentSkills("Cricket");
-            log.Info("Enter Interested In.");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Enter LinkedIn Url
-            addUsersPage.EnterLinkedInUrl("https://linkedDinMe.com");
-            log.Info("Enter LinkedIn Url.");
-            Thread.Sleep(2000);
-
-            //Enter Phone
-            addUsersPage.EnterPhone("9811966057");
-            log.Info("Enter Phone.");
-            Thread.Sleep(2000);
-
-            //Enter Address
-            addUsersPage.EnterAddress("Capetown");
-            log.Info("Enter Address.");
-            Thread.Sleep(2000);
-
-            //Enter City
-            addUsersPage.EnterCity("Noida");
-            log.Info("Enter City.");
-            Thread.Sleep(2000);
-
-            //Enter State/Province
-            addUsersPage.EnterStateProvince("UP");
-            log.Info("Enter State/Province.");
-            Thread.Sleep(2000);
-
-            commonPage.ScrollDown();
-
-            //Enter Postal Code
-            addUsersPage.EnterPostalCode("201305");
-            log.Info("Enter Postal Code.");
-            Thread.Sleep(2000);
-
-            //Enter Country
-            addUsersPage.EnterCountry("India");
-            log.Info("Enter Country.");
-            Thread.Sleep(2000);
-
-            //Click Create button
-            commonPage.ScrollUp();
-            Thread.Sleep(2000);
-            addUsersPage.ClickCreate();
-            log.Info("Click on Create Button");
-            Thread.Sleep(7000);
+            createUserProfile();
 
             //Verify the added user
             addUsersPage.VerifyAddedUserName(builder.ToString() + " " + builder.ToString());
@@ -1243,6 +992,11 @@ namespace RallyTeam.TestScripts
             log.Info("Click the resend invite link of searched user.");
             Thread.Sleep(5000);
 
+            //click on send invite button   
+            addUsersPage.ClickSendInviteBtn();
+            log.Info("Click Send Invite button.");
+            Thread.Sleep(5000);
+
             commonPage.NavigateToUrl("https://www.harakirimail.com/");
             log.Info("Navigate to the mailinator site.");
             Thread.Sleep(7000);
@@ -1258,7 +1012,7 @@ namespace RallyTeam.TestScripts
 
             //Verify user doesn't reccived any invitation email
             addUsersPage.VerifyEmailSenderDoesExist();
-            log.Info("Verify user doesn't reccived any invitation email.");
+            log.Info("Verify user does reccived any invitation email.");
             Thread.Sleep(2000);
 
         }
