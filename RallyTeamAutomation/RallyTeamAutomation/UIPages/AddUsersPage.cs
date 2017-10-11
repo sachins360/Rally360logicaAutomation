@@ -130,6 +130,22 @@ namespace RallyTeam.UIPages
             _driver.SafeEnterText(AddUsersUI.emailAddressesInput, email);
         }
 
+        //Enter Email Addresses
+        public void AppendEmailAddresses(String email)
+        {
+            _driver.SafeAppendText(AddUsersUI.emailAddressesInput, email);
+        }
+
+        
+
+        //Enter Email subject and message 
+        public void EnterEmailSubjectAndMessage(String subjecct,String message)
+        {
+            _driver.SafeEnterText(AddUsersUI.emailInviteSubject, subjecct);
+            _driver.SafeEnterText(AddUsersUI.emailInviteMessage, message);
+            
+        }
+
         //Click Email Add Users button
         public void ClickEmailAddUsersBtn()
         {
@@ -149,6 +165,11 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(AddUsersUI.finishBtn);
         }
 
+        //Click Send Invite
+        public void ClickSendInviteBtn()
+        {
+            _driver.SafeClick(AddUsersUI.sendInviteBtn);
+        }
         //Assert the email sender
         public void VerifyEmailSender()
         {
@@ -168,9 +189,9 @@ namespace RallyTeam.UIPages
         }
 
         //Assert the email subject
-        public void VerifyEmailSubject()
+        public void VerifyEmailSubject(string _Emailsubject="")
         {
-            _assertHelper.AssertElementDisplayed(AddUsersUI.harakiriInviteUserSubject);
+            _assertHelper.AssertElementDisplayed(OnboardingUI.harakiriInviteUserSubject(_Emailsubject));
         }
 
         //Assert the Get Started Button
@@ -437,6 +458,13 @@ namespace RallyTeam.UIPages
             _driver.SafeEnterText(OnboardingUI.inputSkills, skill);
         }
 
+        public void EnterTopSkills(string skill)
+        {
+            _driver.SafeEnterText(OnboardingUI.inputTopSkills, skill);
+        }
+
+        
+
         //Enter Harakirimail Inout Email Address
         public void EnterHarakirimailEmail(String email)
         {
@@ -455,11 +483,28 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(OnboardingUI.viewMyProfileBtn);
         }
 
+        //Click ViewMyProfile button
+        public void ClickDoneMyProfileBtn()
+        {
+            _driver.SafeClick(OnboardingUI.doneProfileBtn);
+        }
         //Assert SkillOne
         public void AssertSkillOne(string skill)
         {
             _driver.SafeClick(OnboardingUI.skillOne(skill));
         }
+
+        //Select type of opportunities are you looking for 
+        public void SelectOpportunitiesType(String OpportunitiType)
+        {
+            _driver.SelectDropDownOption(OpportunitiType, OnboardingUI.addOpportunitiType);
+        }
+
+        public void SelectAvailableTime(String AvailableTime)
+        {
+            _driver.SelectDropDownOption(AvailableTime, OnboardingUI.addAvailableTime);
+        }
+        
 
         //Click Done button on Profile
         public void ClickDoneBtn()
@@ -480,9 +525,32 @@ namespace RallyTeam.UIPages
         }
 
         //Click the email Subject
-        public void ClickEmailSubject()
+        public void ClickEmailSubject(string _Emailsubject="Test Subject")
         {
-            _driver.ClickElementUsingAction(OnboardingUI.harakiriInviteUserSubject);
+            _driver.ClickElementUsingAction(OnboardingUI.harakiriInviteUserSubject(_Emailsubject));
+        }
+
+        //Click Next Button
+        public void ClickNextBtn()
+        {
+            _driver.SafeClick(RegistrationUI.nextButton);
+        }
+        //Enter skill and Click Next Button
+        public void EnterSkillAndClickNextBtn(string skill)
+        {
+            _driver.SafeEnterText(OnboardingUI.onboardingInputSkills, skill);
+            Thread.Sleep(2000);
+            commonPage.PressEnterKey();
+            Thread.Sleep(5000);
+            _driver.SafeClick(OnboardingUI.skillNextBtn);
+        }
+
+
+
+        //Click Skip Button
+        public void ClickSkipBtn()
+        {
+            _driver.SafeClick(RegistrationUI.skipButton);
         }
 
         //Click the email Subject

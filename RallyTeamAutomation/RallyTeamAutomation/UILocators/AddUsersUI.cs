@@ -9,6 +9,8 @@ namespace RallyTeam.UILocators
 {
     public static class AddUsersUI
     {
+
+        public readonly static By sendInviteBtn = By.XPath("//div[@class='text-center m-t-md']//a[text()='Send Invite']");
         public readonly static By addUserBtn = By.XPath("//button[contains(text(), 'Add Users')]");
         public readonly static By letsBuildYourMarketplaceMsg = By.XPath("//div[contains(text(), 'Let's build your marketplace!')]");
         public readonly static By uploadMsg = By.XPath("//div[contains(text(), 'Upload your employees, external contractors, or contacts')]");
@@ -28,6 +30,10 @@ namespace RallyTeam.UILocators
 
         public readonly static By createProfileBtn = By.XPath("//a[contains(@class, 'create-btn')]");
         public readonly static By emailAddressesInput = By.XPath("//input[contains(@placeholder, '@domain.com')]");
+
+        
+        public readonly static By emailInviteMessage = By.XPath("//div[@class='m-b-md']//textarea[@name='message']");
+        public readonly static By emailInviteSubject = By.XPath("//div[@class='m-b-md']//input[@name='subject']");
         public readonly static By emailAddUsersBtn = By.XPath("//a[contains(text(), 'Add Users')]");
         public readonly static By finishBtn = By.XPath("//a[contains(text(), 'Finish')]");
         //public readonly static By emailSender = By.XPath("//tbody[@id= 'mail_list_body']/[contains(text(), 'noreply@rallyteam.com')]");
@@ -52,6 +58,8 @@ namespace RallyTeam.UILocators
         public readonly static By continueSkillsBtn = By.XPath("//button[contains(text(), 'Continue')]");
         public readonly static By letsGetYouMatchedBtn = By.XPath("//button[@type='submit']");
         public readonly static By marketplace = By.XPath("//a[text()= 'MARKETPLACE']");
+        public readonly static By skillNextBtn = By.XPath("//a[Contains(text(),'NEXT')]");
+        //a[Contains(text(),'NEXT')]
 
         public readonly static By uploadedUserMessageDiv = By.XPath("//div[@class='rt-import-users-modal__three ng-scope']//div[@class='rt-round-modal__header text-center ng-binding']");
 
@@ -117,11 +125,11 @@ namespace RallyTeam.UILocators
         public readonly static By title = By.Name("title");
         public readonly static By department = By.Name("department");
         public readonly static By aboutMe = By.Name("bio"); ////ul[@class= 'tag-list'][1]//input[@placeholder= 'Add a tag'][4]
-        public readonly static By myTopSkills = By.XPath("(//input[@type='text'])[7]");
-        public readonly static By otherSkills = By.XPath("(//input[@type='text'])[8]");
+        public readonly static By myTopSkills = By.XPath("(//input[@class='input ng-pristine ng-untouched ng-valid'])[1]");
+        public readonly static By otherSkills = By.XPath("(//input[@class='input ng-pristine ng-untouched ng-valid'])[2]");
         //public readonly static By industryDomainExpertise = By.XPath("//input[@placeholder= 'Add up to 3 tags']");
-        public readonly static By languages = By.XPath("(//input[@type='text'])[9]");
-        public readonly static By devSkills = By.XPath("(//input[@type='text'])[10]");
+        public readonly static By languages = By.XPath("(//input[@class='input ng-pristine ng-untouched ng-valid'])[4]");
+        public readonly static By devSkills = By.XPath("(//input[@class='input ng-pristine ng-untouched ng-valid'])[3]");
         public readonly static By linkedInUrl = By.Name("linkedInUrl");
         public readonly static By phone = By.Name("phone");
         public readonly static By address = By.Name("address");

@@ -189,11 +189,13 @@ namespace RallyTeam.UIPages
             _assertHelper.AssertElementDisplayed(RegistrationUI.allDoneButton);
         }
 
-        //Click Next Button
+     
         public void ClickAllDoneBtn()
         {
             _driver.SafeClick(RegistrationUI.allDoneButton);
         }
+
+
 
         //Click Not You Link
         public void ClickNotYouLink()

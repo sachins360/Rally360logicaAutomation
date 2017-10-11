@@ -30,6 +30,11 @@ namespace RallyTeam.UILocators
         public readonly static By createPassword = By.XPath("//form[contains(@class, 'form-horizontal')]//input[@name='password']");
         public readonly static By confirmPassword = By.XPath("//form[contains(@class, 'form-horizontal')]//input[@name='confirmPassword']");
         public readonly static By allDoneButton = By.XPath("//form[contains(@class, 'form-horizontal')]//button[contains(text(), 'All Done')]");
+        public readonly static By nextButton = By.XPath("//a[@class='rt-onboard-indicator-button__link ng-scope']");
+
+
+        public readonly static By skipButton = By.XPath("//a[contains(text(),'SKIP')]");
+
         public readonly static By duplicateEmailErrorMessage = By.XPath("//div[contains(text(), 'We thought you looked familiar. This email address has already been registered. Please try another one or log-in to enter.')]");
         public readonly static By errorMessage = By.XPath("//div[contains(text(), 'Please fill out the missing info.')]");
         public readonly static By createPwdEmpty = By.XPath("//div[contains(text(), 'Password does not meet the criteria.')]");

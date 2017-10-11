@@ -95,6 +95,31 @@ namespace RallyTeam.Util
             return textEnteredInElement;
         }
 
+        public static Func<IWebDriver, bool> TextAppendInElement(By locator, string text, int timeout)
+        {
+            Func<IWebDriver, bool> textEnteredInElement = delegate (IWebDriver driver)
+            {
+                IWebElement element = driver.SafeFindElement(locator);
+                try
+                {
+
+                    element.Click();
+                   // element.Clear();
+                    //element.SendKeys(Keys.Delete);
+                    //element.SendKeys(Keys.Clear);
+                    //element.SendKeys(Keys.Backspace);
+                    //element.SendKeys(Keys.Backspace);
+                    element.SendKeys(text);
+                    return true;
+                }
+                catch
+                {
+                    return false;
+                }
+            };
+            return textEnteredInElement;
+        }
+
         //Expected condition that is fulfilled by the element with the specified locator having the expected text entered in it.
         public static Func<IWebDriver, bool> KeyEnterInElement(By locator, int timeout)
         {

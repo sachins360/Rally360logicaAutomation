@@ -387,6 +387,26 @@ namespace RallyTeam.Util
             }
         }
 
+
+        public static void SafeAppendText(this IWebDriver driver, By locator, string text)
+        {
+            DefaultWait<IWebDriver> wait = new DefaultWait<IWebDriver>(driver);
+            wait.Timeout = TimeSpan.FromSeconds(timeout);
+            try
+            {
+                wait.Until<bool>(ExpectedConditionsExtender.TextAppendInElement(locator, text, timeout));
+            }
+            catch (WebDriverTimeoutException)
+            {
+                UtilityHelper.TakeScreenshot(driver);
+                String error = "Unable to send text to element: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\"}";
+                Log.Error(error);
+                throw new Exception(error);
+
+
+            }
+        }
+
         //Attempts to enter text into an element until the timeout is reached and only throws an exception if the element is unable to be used before timing out.
         public static void EnterTextByKeyPress(this IWebDriver driver, By locator, string text)
         {

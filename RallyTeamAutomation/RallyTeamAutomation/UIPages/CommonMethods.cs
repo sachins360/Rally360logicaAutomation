@@ -74,7 +74,10 @@ namespace RallyTeam.UIPages
         {
             ((IJavaScriptExecutor)_driver).ExecuteScript("window.scrollTo(0, document.body.scrollHeight - 200)");
         }
-
+        public void HalfScrollDown(int size)
+        {
+            ((IJavaScriptExecutor)_driver).ExecuteScript("window.scrollTo(0, "+ size + ")");
+        }
         //Scrolldown Variable
         public void ScrollDownVariable(int size)
         {
