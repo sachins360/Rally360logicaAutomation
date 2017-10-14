@@ -9,7 +9,10 @@ namespace RallyTeam.UILocators
 {
     public static class MarketPlaceUI
     {
-        public readonly static By marketplaceTab = By.XPath("//div[@class='pull-left rt-top-navbar__links']//a[contains(text(),'MARKETPLACE')]");
+
+        public readonly static By marketplaceTab = By.XPath("//a[text()= 'MARKETPLACE']");
+        public readonly static By jobTab = By.XPath("//a[contains(text(), 'Jobs')]");
+
         public readonly static By browseBtn = By.XPath("//a[text()= 'Browse All Opportunities']");
         public readonly static By searchText = By.XPath("//input[contains(@placeholder, 'What kind of opportunity are you looking for?')]");
         public readonly static By searchBtn = By.XPath("//span[contains(text(), 'Search')]");
@@ -25,13 +28,19 @@ namespace RallyTeam.UILocators
             return By.XPath("//div[contains(text(), '" + variable + "')]");
         }
 
+        public static By jobTitleOnPage(String variable)
+        {
+            return By.XPath("//div[contains(text(), '" + variable + "')]");
+        }
+
         public static By RecProjectNameOnPage(String variable)
         {
             return By.XPath("//div[@class='col-md-10 col-sm-12 col-xs-12 m-b-lg']/div[contains( text(), '" + variable + "')]");
             //return By.XPath("//span[contains(text(), '" + variable + "')]");
         }
-        
 
+        //Job Filters
+        public readonly static By showMeJob = By.XPath("(//div[@class= 'rt-directory__filters']//select)[1]");
 
 
     }

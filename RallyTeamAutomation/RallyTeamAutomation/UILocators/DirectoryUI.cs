@@ -7,24 +7,82 @@ using System.Threading.Tasks;
 
 namespace RallyTeam.UILocators
 {
-    public static class PeopleUI
+    public static class DirectoryUI
     {
-        public readonly static By peopleTab = By.XPath("//a[text()= 'DIRECTORY']");
-        public readonly static By spanSearchBtn = By.XPath("//span[text()= 'Search']");
-        public readonly static By browseAdvanceLink = By.XPath("//a[text()='Advanced Search']");
-        //public readonly static By browseSearch = By.XPath("//form[contains(@class, 'ng-pristine')]//input[contains(@class, 'rt-search-people')]");
-        public readonly static By browseSearch = By.XPath("//form[contains(@class, 'ng-pristine')]//input[contains(@placeholder, 'Search for people by name, skills or expertise...')]");
+        public readonly static By directoryTab = By.XPath("//a[text()= 'DIRECTORY']");
+        public readonly static By peopleTab = By.XPath("//a[contains(text(), 'People')]");
+        public readonly static By vendorsTab = By.XPath("//a[contains(text(), 'Vendors')]");
+        public readonly static By resetBtn = By.XPath("//button[text()= 'Reset']");
+        public readonly static By searchDirectoryBox = By.XPath("//input[@placeholder='Search by name, skills or expertise...']");
+        public readonly static By searchBtn = By.XPath("//button[text()= 'Search']");
 
-        //        public readonly static By searchBox = By.XPath("//form[contains(@class, 'rt-user-search')]//input[contains(@class, 'rt-user-search')]");
-        public readonly static By searchBox = By.XPath("//div[@class='white-bg rt-user-search-container']//form[@class='rt-user-search-container-form ng-pristine ng-valid']//input[@ng-model='vm.searchTerm']");
-        
 
-        public readonly static By advanceLink = By.XPath("//a[text()='advanced']");
-        public readonly static By userContainer = By.XPath("//div[@class='rt-user-container']");
+        //Filters
+        public readonly static By talentPoolFilter = By.XPath("(//div[@class= 'rt-directory__filters']//select)[1]");
+        public readonly static By rolesFilter = By.XPath("(//div[@class= 'rt-directory__filters']//select)[2]");
+        public readonly static By availableForFilter = By.XPath("(//div[@class= 'rt-directory__filters']//select)[3]");
+        public readonly static By locationFilter = By.XPath("//input[@id= 'user-search-location']");
+        public readonly static By endorsedByFilter = By.XPath("//input[@placeholder= 'Enter a name...']");
+        public readonly static By locationVendorFilter = By.XPath("//input[@id= 'vendor-search-location']");
+
+        //Results
         public static By userContainerUserName(String variable)
         {
-            return By.XPath("//div[@class='rt-user-container']//strong[contains(text(), '" + variable + "')]");
+            return By.XPath("//div[contains(@class, 'rt-user')]//strong[contains(text(), '" + variable + "')]");
         }
+        public static By vendorContainerVendorName(String variable)
+        {
+            return By.XPath("//div[contains(@class,'rt-user-container--vendor')]//strong[contains(text(), '" + variable + "')]");
+        }
+        public static By userContainerRoleName(String variable)
+        {
+            return By.XPath("//div[@class= 'rt-user-container']//div[contains(text(), '" + variable + "')]");
+        }
+        public static By userContainerInitials(String variable)
+        {
+            return By.XPath("//div[@class= 'rt-user-container']//div[contains(text(), '" + variable + "')]");
+        }
+        public static By userContainerTitle(String variable)
+        {
+            return By.XPath("//div[@class= 'rt-user-container']//div[contains(text(), '" + variable + "')]");
+        }
+        public static By userContainerLocation(String variable)
+        {
+            return By.XPath("//div[@class= 'rt-user-container']//span[contains(text(), '" + variable + "')]");
+        }
+        public static By userContainerAvailability(String variable)
+        {
+            return By.XPath("//div[@class= 'rt-user-container']//div[contains(text(), '" + variable + "')]");
+        }
+        public static By userContainerSkills(String variable)
+        {
+            return By.XPath("//div[@class= 'rt-user-container']//span[contains(text(), '" + variable + "')]");
+        }
+        public readonly static By userContainerMessage = By.XPath("//span[text()= 'Message']");
+        public readonly static By backToSearchResults = By.XPath("//a[contains(text(), 'Back to search results')]");
+        public readonly static By emptyResult = By.XPath("//div[contains(text(), 'Oops... Looks like we have no results for that search!')]");
+        public readonly static By messageConfirmation = By.XPath("//div[contains(text(), 'Your message was sent!')]");
+
+        //Talent Pool
+        public static By talentPoolFilterOption(String var)
+        {
+            return By.XPath("(//div[@class= 'rt-directory__filters']//select)[1]//option[@label='"+var+"']");
+        }
+        public readonly static By talentPoolPlusIcon = By.XPath("//a[contains(text(), 'Talent Pool')]");
+        public readonly static By skillsTalentPool = By.XPath("//form[@name='talentPoolForm']//input[@placeholder= 'Enter skills...']");
+        public readonly static By languagesTalentPool = By.XPath("//form[@name='talentPoolForm']//input[@placeholder= 'Enter languages...']");
+        public readonly static By skillsToDevelopTalentPool = By.XPath("//form[@name='talentPoolForm']//input[@placeholder= 'Enter skills to develop...']");
+        public readonly static By locationTalentPool = By.XPath("//form[@name='talentPoolForm']//input[@id= 'location']");
+        public readonly static By departmentTalentPool = By.XPath("//form[@name='talentPoolForm']//input[@placeholder= 'Enter a department...']");
+        public readonly static By titleTalentPool = By.XPath("//form[@name='talentPoolForm']//input[@placeholder= 'Enter a title...']");
+        public readonly static By rolesTalentPool = By.XPath("(//form[@name='talentPoolForm']//select)[1]");
+        public readonly static By availableForTalentPool = By.XPath("(//form[@name='talentPoolForm']//select)[2]");
+        public readonly static By nameTalentPool = By.XPath("//form[@name='talentPoolForm']//input[@name= 'name']");
+        public readonly static By saveBtnTalentPool = By.XPath("//a[contains(text(), 'Save')]");
+        public readonly static By privateTalentPool = By.XPath("//form[@name='talentPoolForm']//div[contains(@class, 'col-xs')]/span[2]//input");
+
+
+
         public readonly static By messageBtn = By.XPath("//a[text() ='Message']");
         public readonly static By viewProfileBtn = By.XPath("//a[text() ='View Profile']");
         public readonly static By sendMsgWindowOld = By.XPath("//h4[contains(text(), 'Send a Message')]");
@@ -46,7 +104,6 @@ namespace RallyTeam.UILocators
         public readonly static By endorsedBy = By.XPath("//input[@placeholder= 'I am looking for people who were endorsed by...']");
         public readonly static By availability = By.XPath("//div[@class= 'row m-b-sm']//div[1]//select");
         public readonly static By type = By.XPath("//div[@class= 'row m-b-sm']//div[2]//select");
-        public readonly static By searchBtn = By.XPath("//a[text()= 'Search']");
 
         //User Profile
         public static By userName(String variable)

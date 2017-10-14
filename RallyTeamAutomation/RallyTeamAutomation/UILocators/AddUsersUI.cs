@@ -9,6 +9,7 @@ namespace RallyTeam.UILocators
 {
     public static class AddUsersUI
     {
+        public readonly static By mailinatorInputEmail = By.XPath("//input[@id= 'inboxfield']");
 
         public readonly static By sendInviteBtn = By.XPath("//div[@class='text-center m-t-md']//a[text()='Send Invite']");
         public readonly static By addUserBtn = By.XPath("//button[contains(text(), 'Add Users')]");
@@ -72,7 +73,6 @@ namespace RallyTeam.UILocators
             return By.XPath("//div[contains(text(), '" + variable + "')]");
         }
         public readonly static By weJustSentYouAnEmail = By.XPath("//div[contains(text(), 'We just sent you an email to the following address:')]");
-        public readonly static By mailinatorInputEmail = By.XPath("//input[@id= 'inboxfield']");
         public readonly static By goButton = By.XPath("//button[contains(text(), 'Go!')]");
         public readonly static By iframe = By.XPath("//iframe[@id= 'publicshowmaildivcontent']");
         public readonly static By verifyYourEmailBtn = By.XPath("//a[contains(text(),'Verify Your Email')]");
@@ -142,6 +142,6 @@ namespace RallyTeam.UILocators
         public static By addedUserName(string variable)
         {
             return By.XPath("//div[contains(text(), '"+variable+"')]");
-        }
+        }        
     }
 }

@@ -27,6 +27,12 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(MarketPlaceUI.marketplaceTab);
         }
 
+        //Click on Jobs tab
+        public void ClickJobsTab()
+        {
+            _driver.SafeClick(MarketPlaceUI.jobTab);
+        }
+
         //Click on Browse button
         public void ClickBrowseBtn()
         {

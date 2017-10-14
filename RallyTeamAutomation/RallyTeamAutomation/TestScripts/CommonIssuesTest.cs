@@ -80,12 +80,12 @@ namespace RallyTeam.TestScripts
             Global.MethodName = "CommonIssues_002_VerifyNoErrorOnOpeningUserProfile";
 
             Thread.Sleep(5000);
-            peoplePage.ClickUserProfileIcon();
+            directoryPage.ClickUserProfileIcon();
             log.Info("Click the User Profile Icon.");
             Thread.Sleep(2000);
 
             //Select the User Profile Option 'Profile'
-            peoplePage.ClickUserProfileOptions("Profile");
+            directoryPage.ClickUserProfileOptions("Profile");
             log.Info("Click User Profile option 'Profile'.");
 
             //Verify error message not displayed on opening profile page

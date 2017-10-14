@@ -1356,29 +1356,29 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Click Endorse button
-            peoplePage.ClickEndorseBtn();
+            directoryPage.ClickEndorseBtn();
             log.Info("Click on Endorse button.");
             Thread.Sleep(10000);
 
             //Select Project DropDown
-            peoplePage.SelectProjectDropDown(projectName);
+            directoryPage.SelectProjectDropDown(projectName);
             log.Info("Select Project DropDown.");
             Thread.Sleep(2000);
 
             //Select Awesome rating
-            peoplePage.ClickAwesomeRating();
+            directoryPage.ClickAwesomeRating();
             log.Info("Click the Awesome rating.");
             Thread.Sleep(2000);
 
             //Enter Feedback
-            peoplePage.EnterFeedback("User Feedback");
+            directoryPage.EnterFeedback("User Feedback");
             log.Info("Enter Project Feedback.");
             Thread.Sleep(1000);
 
             //Click Endorse button
             commonPage.ScrollDown();
             Thread.Sleep(1000);
-            peoplePage.ClickEndorseUserBtn();
+            directoryPage.ClickEndorseUserBtn();
             log.Info("Click on Endorse button.");
             Thread.Sleep(5000);
 
@@ -1481,17 +1481,17 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
             
             //Click Request Feedback button
-            peoplePage.ClickRequestFeedbackBtn();
+            directoryPage.ClickRequestFeedbackBtn();
             log.Info("Click on Request Feedback button.");
             Thread.Sleep(10000);
 
             //Select Request Feedback Project DropDown
-            peoplePage.SelectRequestFeedbackProject(projectName);
+            directoryPage.SelectRequestFeedbackProject(projectName);
             log.Info("Select Project DropDown.");
             Thread.Sleep(3000);
 
             //Click Request Feedback Send button
-            peoplePage.ClickSendBtnForFeedback();
+            directoryPage.ClickSendBtnForFeedback();
             log.Info("Click Request Feedback Send button.");
             Thread.Sleep(5000);
 
