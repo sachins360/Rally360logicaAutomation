@@ -16,8 +16,8 @@ namespace RallyTeam.UILocators
         public readonly static By groupsSaveButton = By.XPath("//div[@class='text-right']//a[text()='Save']");
         //public readonly static By groupsSaveButton = By.XPath("//div[@class='text-right']//a[@class='btn rt-btn--l rt-btn--primary m-r-md ng-binding']");
         public readonly static By groupsDeleteIcon = By.XPath("//div[@class='ng-scope ng-isolate-scope']/div");
-        public readonly static By chkDirectMessageChecked = By.XPath("(//div[@class='m-t-md'])[4]//span[@class='rt-checkbox fa m-r-md fa-check-square-o']");
-        public readonly static By chkDirectMessageUnchecked = By.XPath("(//div[@class='m-t-md'])[4]//span[@class='rt-checkbox fa m-r-md fa-square-o']");
+        public readonly static By chkDirectMessageChecked = By.XPath("(//div[@class='m-t-md'])[6]//span[@class='rt-checkbox fa m-r-md fa-check-square-o']");
+        public readonly static By chkDirectMessageUnchecked = By.XPath("(//div[@class='m-t-md'])[6]//span[@class='rt-checkbox fa m-r-md fa-square-o']");
         public readonly static By groupsTab = By.XPath("//a[text()= 'Roles']");
         public readonly static By FeaturesTab = By.XPath("//a[text()= 'Features']");
         

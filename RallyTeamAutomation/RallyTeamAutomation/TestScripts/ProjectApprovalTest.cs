@@ -16,6 +16,7 @@ namespace RallyTeam.TestScripts
     public class ProjectApprovalTest : BaseTestES
     {
         static ReadData readProjectApproval = new ReadData("ProjectApproval");
+        static ReadData readPostProject = new ReadData("PostProject");
         StringBuilder builder, builder2;
         String email, email2;
 
@@ -230,11 +231,13 @@ namespace RallyTeam.TestScripts
             log.Info("Press Delete Project Window Yes button.");
         }
         //Post a Project
-        public void PostNewProject(String projectName,bool publicProject=false)
-        {                        
-            //Click Post Project tab
+        public void PostNewProject(String projectName, Boolean publicProject = false)
+        {
+            //Click Post Project option
             Thread.Sleep(3000);
-            postProjectPage.ClickPostProject();
+            postProjectPage.ClickCreateProjectJobBtn();
+            Thread.Sleep(1000);
+            postProjectPage.ClickNewProject();
             Thread.Sleep(5000);
 
             //Enter the Project Name
@@ -242,11 +245,13 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Enter the Project Description
-            String projectDesc = readProjectApproval.GetValue("AddProjectDetails", "projectDesc");
+            String projectDesc = readPostProject.GetValue("AddProjectDetails", "projectDesc");
             postProjectPage.EnterProjectDescription(projectDesc);
             Thread.Sleep(1000);
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(5000);
@@ -254,14 +259,18 @@ namespace RallyTeam.TestScripts
             //Enter Skills
             commonPage.ScrollUp();
             Thread.Sleep(2000);
-            String skills = readProjectApproval.GetValue("AddProjectDetails", "skills");
+            String skills = readPostProject.GetValue("AddProjectDetails", "skills");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);
             commonPage.PressEnterKey();
             Thread.Sleep(2000);
             log.Info("Enter Skills.");
 
-            String addMembersEmail = readProjectApproval.GetValue("AddProjectDetails", "memberEmail");
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.EnterMembersNeeded("5");
+            Thread.Sleep(1000);
+            String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
             List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
             int noOfMember = addMembersEmailList.Count;
             foreach (String value in addMembersEmailList)
@@ -270,12 +279,14 @@ namespace RallyTeam.TestScripts
                 Thread.Sleep(2000);
                 commonPage.PressEnterKey();
                 Thread.Sleep(5000);
-                postProjectPage.ClickAddBtn();
+                postProjectPage.ClickProjectAddBtn();
                 log.Info("Click Add button.");
                 Thread.Sleep(3000);
             }
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(10000);
@@ -298,9 +309,12 @@ namespace RallyTeam.TestScripts
         //Post a Project
         public void PostNewProjectForApproval(String projectName, bool publicProject = false)
         {
-            //Click Post Project tab
+
+            //Click Post Project option
             Thread.Sleep(3000);
-            postProjectPage.ClickPostProject();
+            postProjectPage.ClickCreateProjectJobBtn();
+            Thread.Sleep(1000);
+            postProjectPage.ClickNewProject();
             Thread.Sleep(5000);
 
             //Enter the Project Name
@@ -308,11 +322,13 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Enter the Project Description
-            String projectDesc = readProjectApproval.GetValue("AddProjectDetails", "projectDesc");
+            String projectDesc = readPostProject.GetValue("AddProjectDetails", "projectDesc");
             postProjectPage.EnterProjectDescription(projectDesc);
             Thread.Sleep(1000);
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(5000);
@@ -320,14 +336,18 @@ namespace RallyTeam.TestScripts
             //Enter Skills
             commonPage.ScrollUp();
             Thread.Sleep(2000);
-            String skills = readProjectApproval.GetValue("AddProjectDetails", "skills");
+            String skills = readPostProject.GetValue("AddProjectDetails", "skills");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);
             commonPage.PressEnterKey();
             Thread.Sleep(2000);
             log.Info("Enter Skills.");
 
-            String addMembersEmail = readProjectApproval.GetValue("AddProjectDetails", "memberEmail");
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.EnterMembersNeeded("5");
+            Thread.Sleep(1000);
+            String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
             List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
             int noOfMember = addMembersEmailList.Count;
             foreach (String value in addMembersEmailList)
@@ -336,12 +356,14 @@ namespace RallyTeam.TestScripts
                 Thread.Sleep(2000);
                 commonPage.PressEnterKey();
                 Thread.Sleep(5000);
-                postProjectPage.ClickAddBtn();
+                postProjectPage.ClickProjectAddBtn();
                 log.Info("Click Add button.");
                 Thread.Sleep(3000);
             }
 
             //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
             postProjectPage.ClickContinueBtn();
             log.Info("Click on the Continue button.");
             Thread.Sleep(10000);
@@ -455,7 +477,7 @@ namespace RallyTeam.TestScripts
         }       
 
         [Test]
-        public void ProjectApproval_001_VerifyProjectStatusRecqruitWhenApprovalOFF()
+        public void ProjectApproval_005_VerifyProjectStatusRecqruitWhenApprovalOFF()
         {
             Global.MethodName = "ProjectApproval_001_VerifyProjectStatusRecqruitWhenApprovalOFF";
 
@@ -474,8 +496,8 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            String userName = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "userName");
-            String password = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            String userName = readProjectApproval.GetValue("SignInNonAdminUser", "userName");
+            String password = readProjectApproval.GetValue("SignInNonAdminUser", "password");
             SignInDifferentUser(userName,password);
             log.Info("Sign in with different user.");           
 
@@ -516,7 +538,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void ProjectApproval_002_VerifyProjectStatusPendingWhenApprovalON()
+        public void ProjectApproval_001_VerifyProjectStatusPendingWhenApprovalON()
         {
             Global.MethodName = "ProjectApproval_002_VerifyProjectStatusPendingWhenApprovalON";
 
@@ -535,8 +557,8 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            String userName = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "userName");
-            String password = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            String userName = readProjectApproval.GetValue("SignInNonAdminUser", "userName");
+            String password = readProjectApproval.GetValue("SignInNonAdminUser", "password");
             SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
@@ -559,7 +581,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void ProjectApproval_003_VerifyProjectAboutPageOptionForAdmin()
+        public void ProjectApproval_002_VerifyProjectAboutPageOptionForAdmin()
         {
             Global.MethodName = "ProjectApproval_003_VerifyProjectAboutPageOptionForAdmin";
 
@@ -578,8 +600,8 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            String userName = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "userName");
-            String password = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            String userName = readProjectApproval.GetValue("SignInNonAdminUser", "userName");
+            String password = readProjectApproval.GetValue("SignInNonAdminUser", "password");
             SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
@@ -649,7 +671,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void ProjectApproval_004_VerifyProjectApproveByAdmin()
+        public void ProjectApproval_003_VerifyProjectApproveByAdmin()
         {
             Global.MethodName = "ProjectApproval_003_VerifyProjectAboutPageOptionForAdmin";
 
@@ -668,8 +690,8 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            String userName = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "userName");
-            String password = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            String userName = readProjectApproval.GetValue("SignInNonAdminUser", "userName");
+            String password = readProjectApproval.GetValue("SignInNonAdminUser", "password");
             SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
@@ -739,7 +761,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        public void ProjectApproval_005_VerifyProjectDenyByAdmin()
+        public void ProjectApproval_004_VerifyProjectDenyByAdmin()
         {
             Global.MethodName = "ProjectApproval_005_VerifyProjectDenyByAdmin";
 
@@ -758,8 +780,8 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            String userName = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "userName");
-            String password = readProjectApproval.GetValue("SignInDifferentUserForRequestToJoin", "password");
+            String userName = readProjectApproval.GetValue("SignInNonAdminUser", "userName");
+            String password = readProjectApproval.GetValue("SignInNonAdminUser", "password");
             SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 

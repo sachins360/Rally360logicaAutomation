@@ -59,7 +59,7 @@ namespace RallyTeam.TestScripts
 
             //Uncheck the direct message checkbox
             Thread.Sleep(2000);
-            commonPage.ScrollDownVariable(100);
+            commonPage.HalfScrollDown(500);
             Thread.Sleep(2000);
             if (_permission.ToLower().Contains("Uncheck".ToLower()))
                 groupsPage.UnCheckedDirectMessageCheckbox();
@@ -69,10 +69,10 @@ namespace RallyTeam.TestScripts
             commonPage.ScrollDown();
 
             //Click on save button
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
             groupsPage.ClickGroupSaveButton();
             log.Info("Click on save button");
-
+            Thread.Sleep(10000);
         }
         
         [Test]

@@ -43,7 +43,8 @@ namespace RallyTeam.UILocators
         public readonly static By membersNeeded = By.XPath("//input[@name= 'numberOfMembers']");
         public readonly static By memberName = By.XPath("//input[@placeholder= 'Enter a name...']");
         public readonly static By vendorName = By.XPath("//input[@placeholder= 'Enter a vendor name...']");
-        public readonly static By addBtn = By.XPath("(//div[contains(text(), 'Add')])[1]");
+        public readonly static By addBtn = By.XPath("(//div[@class='rt-add-button'])[2]");
+        public readonly static By addProjectBtn = By.XPath("html/body/div[3]/div/div/form[2]/div[7]/div/div[1]/div[2]/div");
         public readonly static By backBtn = By.XPath("//a[contains(text(), 'Back')]");
         public readonly static By removeMemberIcon = By.XPath("//div[contains(@class, 'rt-projects-members')]/div[2]//i");
 
@@ -135,7 +136,7 @@ namespace RallyTeam.UILocators
         public readonly static By generalTab = By.XPath("//a[contains(text(), 'GENERAL')]");
         public readonly static By staffingInfoTab = By.XPath("//a[contains(text(), 'STAFFING INFO')]");
         public readonly static By saveBtn = By.XPath("//a[contains(text(), 'Save')]");
-        public readonly static By projectStatusDropDown = By.XPath("//div[5]//select");
+        public readonly static By projectStatusDropDown = By.XPath("//select[@ng-model='vm.project.status']");
         public readonly static By projectOwnerDropDown = By.XPath("//div[4]//select");
 
         /*Projects Manage Team Page*/

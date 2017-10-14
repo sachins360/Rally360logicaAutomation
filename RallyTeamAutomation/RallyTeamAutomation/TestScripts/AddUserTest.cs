@@ -195,7 +195,7 @@ namespace RallyTeam.TestScripts
 
         }      
 
-        public void onBoardInviteUser(bool uploadResume=false,bool uploadLinkedin=false)
+        public void onBoardInviteUser(string skill= "Android")
         {
             //Click Get Started button
             addUsersPage.ClickMailinatorEmailGetStartedBtn();
@@ -260,7 +260,7 @@ namespace RallyTeam.TestScripts
 
             //Enter Skills
             commonPage.ScrollDown();
-            addUsersPage.EnterTopSkills("Android");
+            addUsersPage.EnterTopSkills(skill);
             Thread.Sleep(2000);
             commonPage.PressEnterKey();
             Thread.Sleep(2000);        
