@@ -28,7 +28,7 @@ namespace RallyTeam.UILocators
 
         public static By ProjectNameOnPage(String variable)
         {
-            return By.XPath("//span[contains(text(), '" + variable+"')]");
+            return By.XPath("//div[contains(text(), '" + variable+"')]");
         }
 
         public readonly static By statusDropDown = By.XPath("//select[@title= 'opp-status']");

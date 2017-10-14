@@ -34,7 +34,9 @@ namespace RallyTeam.UILocators
 
         public static By projectApprovalDiv(int variable)
         {
-            return By.XPath("//div[@class='settings-item row ng-scope'][" + variable + "]//div[contains(text(),'Projects: Approval Required')]");
+            return By.XPath("((//div[@class='settings-item row ng-scope'])["+ variable + "])//div[contains(text(),'Projects: Approval Required')]");
+            
+           // return By.XPath("//div[@class='settings-item row ng-scope'][" + variable + "]//div[contains(text(),'Projects: Approval Required')]");
         }
 
         public static By invoiceAndPaymentDiv(int variable)

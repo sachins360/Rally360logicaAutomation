@@ -206,6 +206,12 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(PostProjectUI.addBtn);
         }
 
+        //Click Add button
+        public void ClickProjectAddBtn()
+        {
+            _driver.SafeClick(PostProjectUI.addProjectBtn);
+        }
+
         //Click Add Vendor button
         public void ClickAddVendorBtn()
         {

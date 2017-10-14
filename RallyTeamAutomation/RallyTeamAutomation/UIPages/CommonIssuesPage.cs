@@ -87,7 +87,7 @@ namespace RallyTeam.UIPages
         public void setProjectApproval()
         {          
             ReadOnlyCollection<IWebElement> lstAdminDiv = _driver.FindElements(DashboardUI.allAdminDiv);
-            for (int i = 1; i < lstAdminDiv.Count; i++)
+            for (int i = 7; i < lstAdminDiv.Count; i++)
             {
                 bool projectApprovalDivFlag = _driver.IsElementVisible(DashboardUI.projectApprovalDiv(i));
                 if (projectApprovalDivFlag)

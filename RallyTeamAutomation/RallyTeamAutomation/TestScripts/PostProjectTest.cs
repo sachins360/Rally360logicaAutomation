@@ -17,12 +17,22 @@ namespace RallyTeam.TestScripts
     public class PostProjectTest : BaseTestES
     {
         static ReadData readPostProject = new ReadData("PostProject");
+        static ReadData readInviteUser = new ReadData("AddUser");
+
+
+        String _Emailsubject = readInviteUser.GetValue("InviteEmailDetails", "emailSubject");
+        String _EmailMessage = readInviteUser.GetValue("InviteEmailDetails", "emailMessage");
+        String _opportunitiesType = readInviteUser.GetValue("InviteEmailDetails", "opportunitiesType");
+        String _availableTime = readInviteUser.GetValue("InviteEmailDetails", "availableTime");
+
         StringBuilder builder, builder2;
         String email, email2;
+        AddUsersTest addUsersTest = new AddUsersTest();
         public void GoToAddUser()
         {
             builder = new StringBuilder();
             builder2 = new StringBuilder();
+            addUsersTest = new TestScripts.AddUsersTest();
             builder.Append(RandomString(10));
             builder2.Append(RandomString(10));
 
@@ -42,11 +52,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
-        public void onBoardNewUser()
+        public void inviteUser()
         {
-            Thread.Sleep(5000);
-            GoToAddUser();
-
             //Click Email button
             if (_browser == "edge")
                 addUsersPage.PressEmailBtn();
@@ -58,8 +65,9 @@ namespace RallyTeam.TestScripts
             //Enter Email Address
             email = builder + "@harakirimail.com";
             addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter Email Address.");
-            commonPage.PressTabKey();
+            log.Info("Enter Email Address.");          
+            Thread.Sleep(2000);
+            commonPage.PressEnterKey();       
             Thread.Sleep(2000);
 
             //Click Add Users button
@@ -67,32 +75,64 @@ namespace RallyTeam.TestScripts
             log.Info("Click Add Users button.");
             Thread.Sleep(5000);
 
+            //Enter the invite emaail subject and message
+            addUsersPage.EnterEmailSubjectAndMessage(_Emailsubject, _EmailMessage);
+            log.Info("Enter Email Subject.");
+            commonPage.PressTabKey();
+            Thread.Sleep(2000);
+
+
+            //click on send invite button   
+            addUsersPage.ClickSendInviteBtn();
+            log.Info("Click Send Invite button.");
+            Thread.Sleep(5000);
+
             //Click Finish button
             addUsersPage.ClickFinishBtn();
             log.Info("Click Finish button.");
             Thread.Sleep(5000);
-
+        }
+        public void verifyInviteMailFromMailinator(string _userEmail, string userId = "User")
+        {
             //Navigate to the user inbox
             commonPage.NavigateToUrl("https://www.harakirimail.com/");
             log.Info("Navigate to the mailinator site.");
             Thread.Sleep(7000);
 
             //Enter Harakirimail Email address
-            addUsersPage.EnterHarakirimailEmail(email);
-            log.Info("Enter email address.");
+            addUsersPage.EnterHarakirimailEmail(_userEmail);
+            log.Info("Enter email" + _userEmail + " address.");
             Thread.Sleep(2000);
 
             //Press Enter key
             commonPage.PressEnterKey();
             Thread.Sleep(5000);
 
+            //Verify the Email Sender
+            addUsersPage.VerifyEmailSender();
+            log.Info("Verify the " + userId + " Email Sender.");
+            Thread.Sleep(2000);
+
+            //Verify the Email Subject
+            addUsersPage.VerifyEmailSubject(_Emailsubject);
+            log.Info("Verify the " + userId + " Email Subject.");
+            Thread.Sleep(2000);
+
             //Click the Email Subject
-            addUsersPage.ClickEmailSubject();
-            log.Info("Click the Email Subject.");
+            addUsersPage.ClickEmailSubject(_Emailsubject);
+            log.Info("Click the " + userId + " Email Subject.");
             Thread.Sleep(5000);
 
+            //Verify the Email Get Started Button
+            addUsersPage.VerifyEmailGetStartedBtn();
+            log.Info("Verify the " + userId + " Email Get Started Button.");
+
+        }
+
+        public void onBoardInviteUser(string skill = "Android")
+        {
             //Click Get Started button
-            addUsersPage.ClickEmailGetStartedBtn();
+            addUsersPage.ClickMailinatorEmailGetStartedBtn();
             log.Info("Click the Get Started Button.");
             Thread.Sleep(5000);
 
@@ -126,52 +166,38 @@ namespace RallyTeam.TestScripts
             log.Info("Click All Done button on the screen.");
             Thread.Sleep(7000);
 
-            //Verify the Get Started button
-            addUsersPage.VerifyGetStartedBtn();
-            log.Info("Verify Get Started button.");
 
-            //Click Get Started button
-            addUsersPage.ClickGetStartedBtn();
-            log.Info("Click Get Staerted button.");
-            Thread.Sleep(5000);
+            //Select type of opportunities are you looking for            
+            addUsersPage.SelectOpportunitiesType(_opportunitiesType);
+            log.Info("Select type of opportunities are you looking for.");
+            Thread.Sleep(7000);
 
-            //Click Linkedin Next button
-            addUsersPage.ClickNextLinkedIn();
-            log.Info("Click Next button on LinkedIn Page.");
-            Thread.Sleep(5000);
+            //Select How many hours a week are you available
+            addUsersPage.SelectAvailableTime(_availableTime);
+            log.Info("Select type of opportunities are you looking for.");
+            Thread.Sleep(4000);
 
-            //Select Expertise
-            addUsersPage.SelectExpertiseDropDown("Information Technology");
-            log.Info("Select Expertise.");
-            Thread.Sleep(2000);
+            //Click on next link
+            addUsersPage.ClickNextBtn();
+            log.Info("Click on next link.");
+            Thread.Sleep(4000);
 
-            //Click Expertise Continue button
-            addUsersPage.ClickExpertiseContinueBtn();
-            log.Info("Click Expertise Continue button.");
-            Thread.Sleep(5000);
+            //Click on skip button    
+            addUsersPage.ClickSkipBtn();
+            log.Info("Click on skip link.");
+            Thread.Sleep(4000);
+
+            //Enter Skill and Click on next button
+            addUsersPage.EnterSkillAndClickNextBtn("Test");
+            log.Info("Click on next link.");
+            Thread.Sleep(4000);
 
             //Enter Skills
-            addUsersPage.EnterSkills("Testing");
+            commonPage.ScrollDown();
+            addUsersPage.EnterTopSkills(skill);
             Thread.Sleep(2000);
             commonPage.PressEnterKey();
             Thread.Sleep(2000);
-            addUsersPage.EnterSkills("JIRA");
-            Thread.Sleep(2000);
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Click View My Profile button
-            addUsersPage.ClickViewMyProfileBtn();
-            log.Info("Click View My Profile button.");
-            Thread.Sleep(5000);
-
-            //Assert Skills entered are populated in the Profile
-            addUsersPage.AssertSkillOne("Testing");
-            log.Info("Assert Skill One.");
-            Thread.Sleep(1000);
-            addUsersPage.AssertSkillTwo("JIRA");
-            log.Info("Assert Skill Two.");
-            Thread.Sleep(1000);
 
             //Click Done button on Profile
             commonPage.ScrollUp();
@@ -256,7 +282,7 @@ namespace RallyTeam.TestScripts
                 Thread.Sleep(2000);
                 commonPage.PressEnterKey();
                 Thread.Sleep(5000);
-                postProjectPage.ClickAddBtn();
+                postProjectPage.ClickProjectAddBtn();
                 log.Info("Click Add button.");
                 Thread.Sleep(3000);
             }
@@ -894,7 +920,7 @@ namespace RallyTeam.TestScripts
             postProjectPage.ClickManageTeamSaveBtn();
             log.Info("Click on the Save button.");
             Thread.Sleep(5000);
-
+            commonPage.ScrollDown();
             //Verify removed members not displayed on Project About Page            
             String addMembersName = readPostProject.GetValue("AddProjectDetails", "memberName");
             List<String> addMembersNameList = addMembersName.Split(',').ToList();
@@ -1914,7 +1940,13 @@ namespace RallyTeam.TestScripts
         public void PostProject_023_VerifyPrivatePromoteProject()
         {
             //Onboard a new User
-            onBoardNewUser();
+            Global.MethodName = "PostProject_023_VerifyPrivatePromoteProject";
+            Thread.Sleep(5000);
+            GoToAddUser();
+            inviteUser();
+            verifyInviteMailFromMailinator(email);
+            onBoardInviteUser("GAP");
+           
 
             //Click on the Signout button.
             Thread.Sleep(5000);
@@ -1944,7 +1976,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter New Skills
-            postProjectPage.EnterSkillsNeeded("JIRA");
+            postProjectPage.EnterSkillsNeeded("GAP");
             Thread.Sleep(3000);
             commonPage.PressEnterKey();
             Thread.Sleep(2000);
