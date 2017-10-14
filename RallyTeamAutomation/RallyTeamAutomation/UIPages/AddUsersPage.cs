@@ -463,9 +463,13 @@ namespace RallyTeam.UIPages
             _driver.SafeEnterText(OnboardingUI.inputTopSkills, skill);
         }
 
-        
+        //Enter Mailinator Input Email Address
+        public void EnterMailinatorEmail(String email)
+        {
+            _driver.SafeEnterText(OnboardingUI.mailinatorInputEmail, email);
+        }
 
-        //Enter Harakirimail Inout Email Address
+        //Enter Harakirimail Input Email Address
         public void EnterHarakirimailEmail(String email)
         {
             _driver.SafeEnterText(OnboardingUI.harakiriInputEmail, email);

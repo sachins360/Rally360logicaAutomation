@@ -52,7 +52,7 @@ namespace RallyTeam.TestScripts
         protected PostProjectPage postProjectPage;
         protected MarketplacePage marketplacePage;
         protected DirectMessagingPage directMessagingPage;
-        protected PeoplePage peoplePage;
+        protected DirectoryPage directoryPage;
         protected InvoicingPage invoicingPage;
         protected AddUsersPage addUsersPage;
         protected VendorPage vendorPage;
@@ -60,6 +60,7 @@ namespace RallyTeam.TestScripts
         protected RegistrationPage registrationPage;
         protected GroupsPage groupsPage;
         protected CommonIssuesPage commonIssuePage;
+        protected JobsPage jobsPage;
 
         [SetUp]
         public void TestSetUp()
@@ -71,7 +72,7 @@ namespace RallyTeam.TestScripts
             postProjectPage = new PostProjectPage(_driver, _pageLoadTimeout);
             marketplacePage = new MarketplacePage(_driver, _pageLoadTimeout);
             directMessagingPage = new DirectMessagingPage(_driver, _pageLoadTimeout);
-            peoplePage = new PeoplePage(_driver, _pageLoadTimeout);
+            directoryPage = new DirectoryPage(_driver, _pageLoadTimeout);
             invoicingPage = new InvoicingPage(_driver, _pageLoadTimeout);
             addUsersPage = new AddUsersPage(_driver, _pageLoadTimeout);
             registrationPage = new RegistrationPage(_driver, _pageLoadTimeout);
@@ -80,6 +81,7 @@ namespace RallyTeam.TestScripts
             vendorPage = new VendorPage(_driver, _pageLoadTimeout);
             notificationsPage = new NotificationsPage(_driver, _pageLoadTimeout);
             groupsPage = new GroupsPage(_driver, _pageLoadTimeout);
+            jobsPage = new JobsPage(_driver, _pageLoadTimeout);
 
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
             _driver.Manage().Window.Maximize();
