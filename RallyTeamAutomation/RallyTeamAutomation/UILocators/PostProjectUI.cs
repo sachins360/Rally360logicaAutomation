@@ -43,6 +43,7 @@ namespace RallyTeam.UILocators
         public readonly static By membersNeeded = By.XPath("//input[@name= 'numberOfMembers']");
         public readonly static By memberName = By.XPath("//input[@placeholder= 'Enter a name...']");
         public readonly static By vendorName = By.XPath("//input[@placeholder= 'Enter a vendor name...']");
+        public readonly static By addBtnNew = By.XPath("(//div[@class='rt-add-button'])[1]");
         public readonly static By addBtn = By.XPath("(//div[@class='rt-add-button'])[2]");
         public readonly static By addProjectBtn = By.XPath("html/body/div[3]/div/div/form[2]/div[7]/div/div[1]/div[2]/div");
         public readonly static By backBtn = By.XPath("//a[contains(text(), 'Back')]");

@@ -96,7 +96,7 @@ namespace RallyTeam.TestScripts
                 Thread.Sleep(2000);
                 commonPage.PressEnterKey();
                 Thread.Sleep(5000);
-                postProjectPage.ClickAddBtn();
+                postProjectPage.ClickProjectAddBtn();
                 log.Info("Click Add button.");
                 Thread.Sleep(3000);
             }

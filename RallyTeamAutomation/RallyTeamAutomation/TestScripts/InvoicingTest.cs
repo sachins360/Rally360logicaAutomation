@@ -172,7 +172,7 @@ namespace RallyTeam.TestScripts
                 Thread.Sleep(2000);
                 commonPage.PressEnterKey();
                 Thread.Sleep(5000);
-                postProjectPage.ClickAddBtn();
+                postProjectPage.ClickProjectAddBtn();
                 log.Info("Click Add button.");
                 Thread.Sleep(3000);
             }
@@ -669,21 +669,21 @@ namespace RallyTeam.TestScripts
             log.Info("Click the Marketplace tab.");
             Thread.Sleep(5000);
 
-            //Click the Browse button
-            marketplacePage.ClickBrowseBtn();
-            log.Info("Click the Browse button.");
-            Thread.Sleep(5000);
-           
             //Enter the Project Name
             Thread.Sleep(5000);
-            marketplacePage.EnterSearchField(projectName);
+            postProjectPage.SearchProjectName(projectName);
             log.Info("Enter the project name.");
             Thread.Sleep(1000);
 
+            //Click Search button
+            postProjectPage.ClickSearchBtn();
+            log.Info("Click the Search button.");
+            Thread.Sleep(15000);
+
             //Select Completed Projects from the All Projects drop-down
-           // marketplacePage.SelectAllProjectsDropDown("Completed Projects");
-           // log.Info("Select Completed Projects from the drop-down.");
-           // Thread.Sleep(10000);
+            // marketplacePage.SelectAllProjectsDropDown("Completed Projects");
+            // log.Info("Select Completed Projects from the drop-down.");
+            // Thread.Sleep(10000);
 
             //Click the created Project
             invoicingPage.ClickProjectNameOnPage(projectName);

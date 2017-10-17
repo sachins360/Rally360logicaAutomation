@@ -199,7 +199,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(3000);
 
             //Enter User Email Address
-            groupsPage.EnterGroupMemberEmail("smith@mailinator.com");
+            groupsPage.EnterGroupMemberEmail("ajun@mailinator.com");
             log.Info("Enter a user email address");
             Thread.Sleep(3000);
             commonPage.PressEnterKey();
