@@ -100,7 +100,6 @@
     <Compile Include="TestScripts\MarketplaceTest.cs" />
     <Compile Include="TestScripts\DirectMessagingTest.cs" />
     <Compile Include="TestScripts\NotificationsTest.cs" />
-    <Compile Include="TestScripts\PeopleTest.cs" />
     <Compile Include="TestScripts\ProjectApprovalTest.cs" />
     <Compile Include="TestScripts\PostProjectTest.cs" />
     <Compile Include="TestScripts\RegistrationTest.cs" />
@@ -115,7 +114,6 @@
     <Compile Include="UILocators\DirectMessagingUI.cs" />
     <Compile Include="UILocators\NotificationsUI.cs" />
     <Compile Include="UILocators\OnboardingUI.cs" />
-    <Compile Include="UILocators\PeopleUI.cs" />
     <Compile Include="UILocators\PostProjectUI.cs" />
     <Compile Include="UILocators\ProjectsUI.cs" />
     <Compile Include="UILocators\RegistrationUI.cs" />
@@ -134,7 +132,6 @@
     <Compile Include="UIPages\MarketplacePage.cs" />
     <Compile Include="UIPages\DirectMessagingPage.cs" />
     <Compile Include="UIPages\NotificationsPage.cs" />
-    <Compile Include="UIPages\PeoplePage.cs" />
     <Compile Include="UIPages\PostProjectPage.cs" />
     <Compile Include="UIPages\RegistrationPage.cs" />
     <Compile Include="UIPages\SearchPage.cs" />
