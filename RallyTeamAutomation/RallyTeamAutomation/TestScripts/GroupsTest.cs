@@ -15,8 +15,8 @@ using OpenQA.Selenium;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL"), Category("GroupsPreprod")]
-    [TestFixture("Production"), Category("GroupsProd")]
+    [TestFixture("ExternalStormURL", Category= "GroupsPreprod")]
+    [TestFixture("Production", Category= "GroupsProd")]
     public class GroupsTest : BaseTestES
     {
         String BaseUrl;
