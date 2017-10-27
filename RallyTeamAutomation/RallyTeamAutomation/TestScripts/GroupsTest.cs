@@ -17,7 +17,6 @@ namespace RallyTeam.TestScripts
 {
     [TestFixture("ExternalStormURL"), Category("GroupsPreprod")]
     [TestFixture("Production"), Category("GroupsProd")]
-    [Category("Groups")]
     public class GroupsTest : BaseTestES
     {
         String BaseUrl;
