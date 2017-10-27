@@ -15,6 +15,11 @@ namespace RallyTeam.TestScripts
     [Category("ProjectApproval")]
     public class ProjectApprovalTest : BaseTestES
     {
+        protected ProjectApprovalTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         static ReadData readProjectApproval = new ReadData("ProjectApproval");
         static ReadData readPostProject = new ReadData("PostProject");
         StringBuilder builder, builder2;

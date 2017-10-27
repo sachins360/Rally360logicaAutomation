@@ -15,6 +15,11 @@ namespace RallyTeam.TestScripts
     [Category("PostProject")]
     public class JobsTest : BaseTestES
     {
+        protected JobsTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         static ReadData readJob = new ReadData("Jobs");
         StringBuilder builder, builder2;
 

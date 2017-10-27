@@ -16,9 +16,14 @@ namespace RallyTeam.TestScripts
     [Category("Directory")]
     public class DirectoryTest : BaseTestES
     {
+        protected DirectoryTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         static ReadData readDirectory = new ReadData("Directory");
         static ReadData readUserProfile = new ReadData("UserProfile");
-
+        
         //SignIn
         private void SignInDifferentUser(String userName, String password)
         {

@@ -8,14 +8,31 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Configuration;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.IE;
+using OpenQA.Selenium;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
+    [TestFixture("ExternalStormURL"), Category("GroupsPreprod")]
+    [TestFixture("Production"), Category("GroupsProd")]
     [Category("Groups")]
     public class GroupsTest : BaseTestES
-    {                
+    {
+        String BaseUrl;
+
+        public GroupsTest(string urlKey) : base(urlKey)
+        {
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+        }
+
+        /*public GroupsTest(String urlKey): base(String urlKey)
+{
+   BaseUrl = ConfigurationManager.AppSettings[urlKey];
+   //Environment = environment;
+}*/
+
         [Test]
         public void Groups_001_CreateEmployeeGroup()
         {
@@ -109,7 +126,7 @@ namespace RallyTeam.TestScripts
             log.Info("Click Create button");
             Thread.Sleep(5000);
         }
-
+        /*
         [Test]
         public void Groups_003_CreateVendorGroup()
         {
@@ -474,7 +491,7 @@ namespace RallyTeam.TestScripts
             groupsPage.ClickEmployeeCheckbox();
             log.Info("Click on employee default checkbox");
             Thread.Sleep(2000);
-        }
+        }*/
     }
 
 }

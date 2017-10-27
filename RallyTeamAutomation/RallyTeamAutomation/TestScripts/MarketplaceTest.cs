@@ -16,6 +16,11 @@ namespace RallyTeam.TestScripts
     [Category("Marketplace")]
     public class MarketplaceTest : BaseTestES
     {
+        protected MarketplaceTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         static ReadData readPostProject = new ReadData("PostProject");
         static ReadData readProjectApproval = new ReadData("ProjectApproval");
         protected string _workEmail = ConfigurationSettings.AppSettings["workEmail"];

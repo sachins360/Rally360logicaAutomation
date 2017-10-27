@@ -97,10 +97,11 @@
     <Compile Include="TestScripts\AddUserTest.cs" />
     <Compile Include="TestScripts\GroupsTest.cs" />
     <Compile Include="TestScripts\InvoicingTest.cs" />
+    <Compile Include="TestScripts\JobsTest.cs" />
     <Compile Include="TestScripts\MarketplaceTest.cs" />
     <Compile Include="TestScripts\DirectMessagingTest.cs" />
     <Compile Include="TestScripts\NotificationsTest.cs" />
-    <Compile Include="TestScripts\PeopleTest.cs" />
+    <Compile Include="TestScripts\DirectoryTest.cs" />
     <Compile Include="TestScripts\ProjectApprovalTest.cs" />
     <Compile Include="TestScripts\PostProjectTest.cs" />
     <Compile Include="TestScripts\RegistrationTest.cs" />
@@ -111,11 +112,12 @@
     <Compile Include="UILocators\AddUsersUI.cs" />
     <Compile Include="UILocators\GroupsUI.cs" />
     <Compile Include="UILocators\InvoicingUI.cs" />
+    <Compile Include="UILocators\JobsUI.cs" />
     <Compile Include="UILocators\MarketPlaceUI.cs" />
     <Compile Include="UILocators\DirectMessagingUI.cs" />
     <Compile Include="UILocators\NotificationsUI.cs" />
     <Compile Include="UILocators\OnboardingUI.cs" />
-    <Compile Include="UILocators\PeopleUI.cs" />
+    <Compile Include="UILocators\DirectoryUI.cs" />
     <Compile Include="UILocators\PostProjectUI.cs" />
     <Compile Include="UILocators\ProjectsUI.cs" />
     <Compile Include="UILocators\RegistrationUI.cs" />
@@ -131,10 +133,11 @@
     <Compile Include="UIPages\AddUsersPage.cs" />
     <Compile Include="UIPages\GroupsPage.cs" />
     <Compile Include="UIPages\InvoicingPage.cs" />
+    <Compile Include="UIPages\JobsPage.cs" />
     <Compile Include="UIPages\MarketplacePage.cs" />
     <Compile Include="UIPages\DirectMessagingPage.cs" />
     <Compile Include="UIPages\NotificationsPage.cs" />
-    <Compile Include="UIPages\PeoplePage.cs" />
+    <Compile Include="UIPages\DirectoryPage.cs" />
     <Compile Include="UIPages\PostProjectPage.cs" />
     <Compile Include="UIPages\RegistrationPage.cs" />
     <Compile Include="UIPages\SearchPage.cs" />
@@ -161,13 +164,16 @@
     <None Include="TestData\Invoicing.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="TestData\Jobs.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="TestData\Notifications.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="TestData\AddUser.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="TestData\People.ini">
+    <None Include="TestData\Directory.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="TestData\ProjectApproval.ini">

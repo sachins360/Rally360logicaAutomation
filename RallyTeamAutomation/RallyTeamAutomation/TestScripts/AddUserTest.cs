@@ -18,6 +18,11 @@ namespace RallyTeam.TestScripts
     [Category("AddUsers")]
     public class AddUsersTest : BaseTestES
     {
+        protected AddUsersTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         public string _browser = ConfigurationSettings.AppSettings["Browser"].ToLower();
         static ReadData readInviteUser = new ReadData("AddUser");

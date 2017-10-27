@@ -17,6 +17,11 @@ namespace RallyTeam.TestScripts
     [Category("Notifications")]
     public class NotificationsTest : BaseTestES
     {
+        protected NotificationsTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         static ReadData readNotifications = new ReadData("Notifications");
         static ReadData readPostProject = new ReadData("PostProject");

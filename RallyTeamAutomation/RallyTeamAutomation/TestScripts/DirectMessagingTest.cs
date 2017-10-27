@@ -18,6 +18,11 @@ namespace RallyTeam.TestScripts
     [Category("DirectMessaging")]
     public class DirectMessagingTest : BaseTestES
     {
+        protected DirectMessagingTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         static ReadData readMessages = new ReadData("DirectMessaging");
         

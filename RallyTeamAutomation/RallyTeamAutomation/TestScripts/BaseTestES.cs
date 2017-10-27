@@ -19,9 +19,11 @@ using OpenQA.Selenium.PhantomJS;
 using RallyTeam.UIPages;
 using NUnit.Framework.Interfaces;
 using System.Diagnostics;
+using System.Collections.Generic;
 
 namespace RallyTeam.TestScripts
 {
+    
     public class BaseTestES : IDisposable
     {
         protected IWebDriver _driver;
@@ -42,6 +44,7 @@ namespace RallyTeam.TestScripts
         protected int _browserHeight = Convert.ToInt32(ConfigurationSettings.AppSettings["BrowserHeight"]);
         private string _testURL = ConfigurationSettings.AppSettings["URL"];
         public string _externalStormURL = ConfigurationSettings.AppSettings["ExternalStormURL"];
+        public string _productionURL = ConfigurationSettings.AppSettings["Production"];
 
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
@@ -61,6 +64,63 @@ namespace RallyTeam.TestScripts
         protected GroupsPage groupsPage;
         protected CommonIssuesPage commonIssuePage;
         protected JobsPage jobsPage;
+
+        String BaseUrl;
+        public BaseTestES(string urlKey)
+        {
+            //BaseUrl = urlKey;
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            //Environment = environment;
+        }
+
+        /*public enum Environment
+        {
+            Preprod,
+            Production,
+            Hotfix,
+            Development
+        }
+
+        public class Settings
+        {
+            public static string PreprodUrl { get { return "some url"; } }
+            public static string ProductionUrl { get { return "some url"; } }
+        }
+
+        public Dictionary<Environment, string> PossibleEnvironments
+        {
+            get
+            {
+                return new Dictionary<Environment, string>()
+                {
+                    { Environment.Preprod, Settings.PreprodUrl },
+                    { Environment.Production, Settings.ProductionUrl },
+                };
+            }
+        }
+
+        public Environment CurrentEnvironment { get; set; }
+
+        protected string CurrentEnvironmentURL
+        {
+            get
+            {
+                string url;
+                if (PossibleEnvironments.TryGetValue(CurrentEnvironment, out url))
+                {
+                    return url;
+                }
+
+                throw new InvalidOperationException(string.Format("The current environment ({0}) is not valid or does not have a mapped URL!", CurrentEnvironment));
+            }
+        }
+
+        public BaseTestES(Environment environment)
+        {
+            CurrentEnvironment = environment;
+        }*/
+
+
 
         [SetUp]
         public void TestSetUp()
@@ -85,7 +145,7 @@ namespace RallyTeam.TestScripts
 
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
             _driver.Manage().Window.Maximize();
-            _driver.Url = _externalStormURL;
+            _driver.Url = BaseUrl;
             _driver.setTimeOut(_pageLoadTimeout);
 
             if (_browser == "phantomjs")

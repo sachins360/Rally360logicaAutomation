@@ -16,6 +16,12 @@ namespace RallyTeam.TestScripts
     [Category("PostProject")]
     public class PostProjectTest : BaseTestES
     {
+
+        protected PostProjectTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         static ReadData readPostProject = new ReadData("PostProject");
         static ReadData readInviteUser = new ReadData("AddUser");
 
@@ -27,12 +33,12 @@ namespace RallyTeam.TestScripts
 
         StringBuilder builder, builder2;
         String email, email2;
-        AddUsersTest addUsersTest = new AddUsersTest();
+        //AddUsersTest addUsersTest = new AddUsersTest();
         public void GoToAddUser()
         {
             builder = new StringBuilder();
             builder2 = new StringBuilder();
-            addUsersTest = new TestScripts.AddUsersTest();
+            //addUsersTest = new TestScripts.AddUsersTest();
             builder.Append(RandomString(10));
             builder2.Append(RandomString(10));
 

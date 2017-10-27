@@ -17,6 +17,11 @@ namespace RallyTeam.TestScripts
     [Category("Invoicing")]
     public class InvoicingTest : BaseTestES
     {
+        protected InvoicingTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         static ReadData readInvoicing = new ReadData("Invoicing");
         static ReadData readPostProject = new ReadData("PostProject");

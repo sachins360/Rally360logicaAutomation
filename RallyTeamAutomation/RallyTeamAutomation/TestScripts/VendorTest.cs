@@ -17,8 +17,13 @@ namespace RallyTeam.TestScripts
     [Category("Vendors")]
     public class VendorTest : BaseTestES
     {
+        protected VendorTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
-        AddUsersTest addUsersTest = new AddUsersTest();
+        //AddUsersTest addUsersTest = new AddUsersTest();
         StringBuilder builder;
         String email;
 

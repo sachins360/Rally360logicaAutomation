@@ -15,6 +15,11 @@ namespace RallyTeam.TestScripts
     [Category("CommonIssues")]
     public class CommonIssuesTest : BaseTestES
     {
+        protected CommonIssuesTest(string urlKey) : base(urlKey)
+        {
+            String url = urlKey;
+            //Environment = environment;
+        }
         static ReadData commonIssues = new ReadData("CommonIssues");
 
         //SignIn
