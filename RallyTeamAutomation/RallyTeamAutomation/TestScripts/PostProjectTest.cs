@@ -17,23 +17,20 @@ namespace RallyTeam.TestScripts
     [TestFixture("Production", Category = "PostProjectProd")]
     public class PostProjectTest : BaseTestES
     {
-        String BaseUrl;
-        public PostProjectTest(string urlKey) : base(urlKey)
-        {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
-        }
-
+        #region Variable
+        String BaseUrl;       
         static ReadData readPostProject = new ReadData("PostProject");
         static ReadData readInviteUser = new ReadData("AddUser");
-
         String _Emailsubject = readInviteUser.GetValue("InviteEmailDetails", "emailSubject");
         String _EmailMessage = readInviteUser.GetValue("InviteEmailDetails", "emailMessage");
         String _opportunitiesType = readInviteUser.GetValue("InviteEmailDetails", "opportunitiesType");
         String _availableTime = readInviteUser.GetValue("InviteEmailDetails", "availableTime");
-
         StringBuilder builder, builder2;
         String email, email2;
         //AddUsersTest addUsersTest = new AddUsersTest();
+        #endregion
+
+        #region SupportMethod
         public void GoToAddUser()
         {
             builder = new StringBuilder();
@@ -57,7 +54,6 @@ namespace RallyTeam.TestScripts
             log.Info("Click Add Users button.");
             Thread.Sleep(5000);
         }
-
         public void inviteUser()
         {
             //Click Email button
@@ -134,7 +130,6 @@ namespace RallyTeam.TestScripts
             log.Info("Verify the " + userId + " Email Get Started Button.");
 
         }
-
         public void onBoardInviteUser(string skill = "Android")
         {
             //Click Get Started button
@@ -212,7 +207,6 @@ namespace RallyTeam.TestScripts
             log.Info("Click Done button.");
             Thread.Sleep(5000);
         }
-
         //SignIn
         private void SignInDifferentUser(String userName, String password)
         {
@@ -220,7 +214,6 @@ namespace RallyTeam.TestScripts
             authenticationPage.SetPassword(password);
             authenticationPage.ClickOnLoginButton();        
         }
-
         //Delete Project
         public void DeleteProject()
         {
@@ -238,7 +231,6 @@ namespace RallyTeam.TestScripts
             postProjectPage.PressDeleteProjectWindowYesBtn();
             log.Info("Press Delete Project Window Yes button.");
         }
-
         //Post a Project
         public void PostNewProject(String projectName, Boolean publicProject=false)
         {
@@ -315,7 +307,6 @@ namespace RallyTeam.TestScripts
             log.Info("Click Publish Button");
             Thread.Sleep(7000);
         }
-
         //Post a Vendor Staffed Project
         public void PostVendorStaffedProject(String projectName)
         {
@@ -382,7 +373,6 @@ namespace RallyTeam.TestScripts
             log.Info("Click Publish Button");
             Thread.Sleep(7000);
         }
-
         public void PostNewProjectWithoutMember(String projectName)
         {
             //Click Post Project option
@@ -432,7 +422,6 @@ namespace RallyTeam.TestScripts
             log.Info("Click Publish Button");
             Thread.Sleep(7000);
         }
-
         //Post a Private Project
         public void PostNewPrivateProject(String projectName)
         {
@@ -487,6 +476,12 @@ namespace RallyTeam.TestScripts
             postProjectPage.ClickPublishBtn();
             log.Info("Click Publish Button");
             Thread.Sleep(7000);
+        }
+        #endregion
+
+        public PostProjectTest(string urlKey) : base(urlKey)
+        {
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
         }
 
         [Test]

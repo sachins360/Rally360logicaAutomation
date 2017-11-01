@@ -14,11 +14,11 @@ using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("AddUsers")]
+    [TestFixture("ExternalStormURL", Category = "PostProjectPreprod")]
+    [TestFixture("Production", Category = "PostProjectProd")]
     public class AddUsersTest : BaseTestES
-    {
-        protected AddUsersTest(string urlKey) : base(urlKey)
+    {  
+        public AddUsersTest(string urlKey) : base(urlKey)
         {
             String url = urlKey;
             //Environment = environment;
@@ -187,7 +187,7 @@ namespace RallyTeam.TestScripts
             //Verify the Email Subject
             addUsersPage.VerifyEmailSubject(_Emailsubject);
             log.Info("Verify the "+ userId + " Email Subject.");
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
 
             //Click the Email Subject
             addUsersPage.ClickEmailSubject(_Emailsubject);
@@ -307,12 +307,13 @@ namespace RallyTeam.TestScripts
             addUsersPage.EnterAboutMe("I am an automated script");
             log.Info("Enter About Me.");
             Thread.Sleep(2000);
-
+            Thread.Sleep(2000);
+            commonPage.HalfScrollDown(500);
             //Enter Address
             addUsersPage.EnterAddress("Capetown");
             log.Info("Enter Address.");
             Thread.Sleep(2000);
-            commonPage.HalfScrollDown(500);
+            commonPage.HalfScrollDown(700);
             Thread.Sleep(2000);
 
             //Enter City
