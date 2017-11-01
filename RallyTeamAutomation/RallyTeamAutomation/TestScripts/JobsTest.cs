@@ -8,18 +8,20 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("PostProject")]
+    [TestFixture("ExternalStormURL", Category = "JobsPreprod")]
+    [TestFixture("Production", Category = "JobsProd")]
     public class JobsTest : BaseTestES
     {
-        protected JobsTest(string urlKey) : base(urlKey)
+        String BaseUrl;
+        public JobsTest(string urlKey) : base(urlKey)
         {
-            String url = urlKey;
-            //Environment = environment;
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
         }
+
         static ReadData readJob = new ReadData("Jobs");
         StringBuilder builder, builder2;
 
@@ -753,7 +755,7 @@ namespace RallyTeam.TestScripts
             log.Info("Click the Job Title on the Jobs Tab.");
             Thread.Sleep(5000);
 
-            //Delete Project
+            //Delete Job
             DeleteJob();
         }
     }

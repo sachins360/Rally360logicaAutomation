@@ -11,18 +11,21 @@ using System.Windows.Forms;
 using RallyTeam;
 using log4net;
 using System.Reflection;
+using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("DirectMessaging")]
+    [TestFixture("ExternalStormURL", Category = "DirectMessagingPreprod")]
+    [TestFixture("Production", Category = "DirectMessagingProd")]
     public class DirectMessagingTest : BaseTestES
     {
-        protected DirectMessagingTest(string urlKey) : base(urlKey)
+        String BaseUrl;
+
+        public DirectMessagingTest(string urlKey) : base(urlKey)
         {
-            String url = urlKey;
-            //Environment = environment;
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
         }
+
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         static ReadData readMessages = new ReadData("DirectMessaging");
         

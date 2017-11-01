@@ -12,20 +12,20 @@ using System.Windows.Forms;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("Marketplace")]
+    [TestFixture("ExternalStormURL", Category = "MarketplacePreprod")]
+    [TestFixture("Production", Category = "MarketplaceProd")]
     public class MarketplaceTest : BaseTestES
     {
-        protected MarketplaceTest(string urlKey) : base(urlKey)
+        String BaseUrl;
+        public MarketplaceTest(string urlKey) : base(urlKey)
         {
-            String url = urlKey;
-            //Environment = environment;
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
         }
+
         static ReadData readPostProject = new ReadData("PostProject");
         static ReadData readProjectApproval = new ReadData("ProjectApproval");
         protected string _workEmail = ConfigurationSettings.AppSettings["workEmail"];
         protected string _password = ConfigurationSettings.AppSettings["password"];
-
 
         //SignIn
         private void SignInDifferentUser()

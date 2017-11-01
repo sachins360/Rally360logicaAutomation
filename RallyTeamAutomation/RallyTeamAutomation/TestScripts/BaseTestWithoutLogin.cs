@@ -41,6 +41,7 @@ namespace RallyTeam.TestScripts
         protected int _browserHeight = Convert.ToInt32(ConfigurationSettings.AppSettings["BrowserHeight"]);
         private string _testURL = ConfigurationSettings.AppSettings["URL"];
         public string _externalStormURL = ConfigurationSettings.AppSettings["ExternalStormURL"];
+        public string _productionURL = ConfigurationSettings.AppSettings["Production"];
 
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
@@ -48,6 +49,12 @@ namespace RallyTeam.TestScripts
         protected RegistrationPage registrationPage;
         protected DashboardPage dashboardPage;
         protected CommonMethods commonPage;
+
+        String BaseUrl;
+        public BaseTestWithoutLogin(string urlKey)
+        {
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+        }
 
         [SetUp]
         public void TestSetUp()

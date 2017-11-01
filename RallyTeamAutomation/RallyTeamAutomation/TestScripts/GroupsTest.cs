@@ -15,9 +15,8 @@ using OpenQA.Selenium;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL"), Category("GroupsPreprod")]
-    [TestFixture("Production"), Category("GroupsProd")]
-    [Category("Groups")]
+    [TestFixture("ExternalStormURL", Category= "GroupsPreprod")]
+    [TestFixture("Production", Category= "GroupsProd")]
     public class GroupsTest : BaseTestES
     {
         String BaseUrl;
@@ -26,13 +25,7 @@ namespace RallyTeam.TestScripts
         {
             BaseUrl = ConfigurationManager.AppSettings[urlKey];
         }
-
-        /*public GroupsTest(String urlKey): base(String urlKey)
-{
-   BaseUrl = ConfigurationManager.AppSettings[urlKey];
-   //Environment = environment;
-}*/
-
+        
         [Test]
         public void Groups_001_CreateEmployeeGroup()
         {
@@ -126,7 +119,7 @@ namespace RallyTeam.TestScripts
             log.Info("Click Create button");
             Thread.Sleep(5000);
         }
-        /*
+        
         [Test]
         public void Groups_003_CreateVendorGroup()
         {
@@ -491,7 +484,7 @@ namespace RallyTeam.TestScripts
             groupsPage.ClickEmployeeCheckbox();
             log.Info("Click on employee default checkbox");
             Thread.Sleep(2000);
-        }*/
+        }
     }
 
 }

@@ -10,18 +10,20 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("Notifications")]
+    [TestFixture("ExternalStormURL", Category = "NotificationsPreprod")]
+    [TestFixture("Production", Category = "NotificationsProd")]
     public class NotificationsTest : BaseTestES
     {
-        protected NotificationsTest(string urlKey) : base(urlKey)
+        String BaseUrl;
+        public NotificationsTest(string urlKey) : base(urlKey)
         {
-            String url = urlKey;
-            //Environment = environment;
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
         }
+
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         static ReadData readNotifications = new ReadData("Notifications");
         static ReadData readPostProject = new ReadData("PostProject");
@@ -1334,6 +1336,46 @@ namespace RallyTeam.TestScripts
             projectName = projectName + builder;
             PostNewProject(projectName);
 
+            //Click on Mark Complete button
+            postProjectPage.ClickMarkCompleteBtn();
+            log.Info("Click Mark Complete button.");
+            Thread.Sleep(5000);
+
+            //Select Awesome rating for user1
+            postProjectPage.SelectAwesomeRatingUserOne();
+            log.Info("Select Awesome rating for user1");
+            Thread.Sleep(2000);
+
+            //Select Awesome rating for user2
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.SelectAwesomeRatingUserTwo();
+            log.Info("Select Awesome rating for user2");
+            Thread.Sleep(2000);
+
+            //Click on side point on  Project complete window
+            postProjectPage.ClickSidePointonCompleteProjectBtn();
+            log.Info("Click Complete Project side button.");
+            Thread.Sleep(2000);
+
+            //Click on Complete Project button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.ClickCompleteProjectBtn();
+            log.Info("Click Complete Project button.");
+            Thread.Sleep(5000);
+
+            //Signout of the application
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+            Thread.Sleep(5000);
+
+            //Sign in with different user
+            String userName = readNotifications.GetValue("ReceivesFeedback", "endorsingUser");
+            String password = readNotifications.GetValue("ReceivesFeedback", "password");
+            SignInDifferentUser(userName, password);
+            Thread.Sleep(3000);
+
             //Click User Icon
             userProfilePage.ClickUserProfileIcon();
             log.Info("Click the User Profile Icon.");
@@ -1345,10 +1387,10 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Enter Search User Email Id
-            String memberName = readNotifications.GetValue("AddProjectMember", "addMemberEmail");
+            String memberName = readNotifications.GetValue("ReceivesFeedback", "endorsedUser");
             userProfilePage.EnterSearchUser(memberName);
             log.Info("Enter search user email id.");
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
 
             //Press Enter Key
             userProfilePage.PressEnterKey();
@@ -1392,11 +1434,11 @@ namespace RallyTeam.TestScripts
             log.Info("Click on the Signout button.");
             Thread.Sleep(5000);
 
-            //Sign in with different user
-            String userName = readNotifications.GetValue("AddProjectMember", "addMemberEmail");
-            String password = readNotifications.GetValue("AddProjectMember", "password");
+            //Sign in with endorsed user
+            userName = readNotifications.GetValue("ReceivesFeedback", "endorsedUser");
+            password = readNotifications.GetValue("ReceivesFeedback", "password");
             SignInDifferentUser(userName, password);
-            Thread.Sleep(7000);
+            Thread.Sleep(3000);
 
             //Click Notifications Icon
             notificationsPage.ClickNotificationsIcon();
@@ -1427,7 +1469,7 @@ namespace RallyTeam.TestScripts
             //Signout of the application
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
 
             //Login to the application
             authenticationPage.SetUserName(_workEmail);
@@ -1443,7 +1485,7 @@ namespace RallyTeam.TestScripts
             //Click Search button
             postProjectPage.ClickSearchBtn();
             log.Info("Click the prSearch button.");
-            Thread.Sleep(15000);
+            Thread.Sleep(10000);
 
             //Click the created project
             postProjectPage.ClickProjectNameOnPage(projectName);
@@ -1463,6 +1505,35 @@ namespace RallyTeam.TestScripts
             String projectName = "Endorse Project ";
             projectName = projectName + builder;
             PostNewProject(projectName);
+
+            //Click on Mark Complete button
+            postProjectPage.ClickMarkCompleteBtn();
+            log.Info("Click Mark Complete button.");
+            Thread.Sleep(5000);
+
+            //Select Awesome rating for user1
+            postProjectPage.SelectAwesomeRatingUserOne();
+            log.Info("Select Awesome rating for user1");
+            Thread.Sleep(2000);
+
+            //Select Awesome rating for user2
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.SelectAwesomeRatingUserTwo();
+            log.Info("Select Awesome rating for user2");
+            Thread.Sleep(2000);
+
+            //Click on side point on  Project complete window
+            postProjectPage.ClickSidePointonCompleteProjectBtn();
+            log.Info("Click Complete Project side button.");
+            Thread.Sleep(2000);
+
+            //Click on Complete Project button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.ClickCompleteProjectBtn();
+            log.Info("Click Complete Project button.");
+            Thread.Sleep(5000);
 
             //Signout of the application
             authenticationPage.SignOut();

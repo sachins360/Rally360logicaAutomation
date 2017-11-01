@@ -9,18 +9,20 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("Directory")]
+    [TestFixture("ExternalStormURL", Category = "DirectoryPreprod")]
+    [TestFixture("Production", Category = "DirectoryProd")]
     public class DirectoryTest : BaseTestES
     {
-        protected DirectoryTest(string urlKey) : base(urlKey)
+        String BaseUrl;
+        public DirectoryTest(string urlKey) : base(urlKey)
         {
-            String url = urlKey;
-            //Environment = environment;
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
         }
+
         static ReadData readDirectory = new ReadData("Directory");
         static ReadData readUserProfile = new ReadData("UserProfile");
         
@@ -669,7 +671,7 @@ namespace RallyTeam.TestScripts
 
         
         [Test]
-        public void Directory_013__SendMessageAndVerify()
+        public void Directory_013_SendMessageAndVerify()
         {
             //Click Directory Tab
             Thread.Sleep(2000);

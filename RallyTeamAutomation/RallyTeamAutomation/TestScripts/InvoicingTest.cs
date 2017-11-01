@@ -10,18 +10,20 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("Invoicing")]
+    [TestFixture("ExternalStormURL", Category = "InvoicingPreprod")]
+    [TestFixture("Production", Category = "InvoicingProd")]
     public class InvoicingTest : BaseTestES
     {
-        protected InvoicingTest(string urlKey) : base(urlKey)
+        String BaseUrl;
+        public InvoicingTest(string urlKey) : base(urlKey)
         {
-            String url = urlKey;
-            //Environment = environment;
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
         }
+
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         static ReadData readInvoicing = new ReadData("Invoicing");
         static ReadData readPostProject = new ReadData("PostProject");

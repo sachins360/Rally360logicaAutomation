@@ -8,13 +8,20 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("Authentication")]
+    [TestFixture("ExternalStormURL", Category = "AuthenticationPreprod")]
+    [TestFixture("Production", Category = "AuthenticationProd")]
     public class AuthenticationTest : BaseTestWithoutLogin
     {
+        String BaseUrl;
+        public AuthenticationTest(string urlKey) : base(urlKey)
+        {
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+        }
+
         static ReadData readAuthentication = new ReadData("Authentication");
 
         [Test]

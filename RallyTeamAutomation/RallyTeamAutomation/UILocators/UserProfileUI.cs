@@ -26,7 +26,7 @@ namespace RallyTeam.UILocators
             return By.XPath("//div[text()= '" + variable + "']");
         }
 
-        public readonly static By userSearchButton = By.XPath("//div[@class='input-group-btn']//button[@class='btn btn-white rt-btn--primary']//i[@class='fa fa-search']");
+        public readonly static By userSearchButton = By.XPath("//div[@class='input-group-btn']//button[@type= 'submit']//i[@class='fa fa-search']");
         public readonly static By skillsANdEndorsements = By.XPath("//div[contains(text(), 'Skills')]");
         public readonly static By industryDomain = By.XPath("//div[text() ='Industry/Domain Expertise']");
         public readonly static By languages = By.XPath("//div[text() ='Languages']");

@@ -8,23 +8,23 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("PostProject")]
+    [TestFixture("ExternalStormURL", Category = "PostProjectPreprod")]
+    [TestFixture("Production", Category = "PostProjectProd")]
     public class PostProjectTest : BaseTestES
     {
-
-        protected PostProjectTest(string urlKey) : base(urlKey)
+        String BaseUrl;
+        public PostProjectTest(string urlKey) : base(urlKey)
         {
-            String url = urlKey;
-            //Environment = environment;
+            BaseUrl = ConfigurationManager.AppSettings[urlKey];
         }
+
         static ReadData readPostProject = new ReadData("PostProject");
         static ReadData readInviteUser = new ReadData("AddUser");
-
 
         String _Emailsubject = readInviteUser.GetValue("InviteEmailDetails", "emailSubject");
         String _EmailMessage = readInviteUser.GetValue("InviteEmailDetails", "emailMessage");
@@ -943,6 +943,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Delete Project
+            commonPage.ScrollUp();
             DeleteProject();
         }
 
