@@ -11,14 +11,16 @@ using System.Windows.Forms;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("ProjectApproval")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "ProjectApprovalChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "ProjectApprovalIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "ProjectApprovalChromeProduction")]
+    [TestFixture("Production", "ie", Category = "ProjectApprovalIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class ProjectApprovalTest : BaseTestES
     {
-        protected ProjectApprovalTest(string urlKey) : base(urlKey)
+        public ProjectApprovalTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
             String url = urlKey;
-            //Environment = environment;
         }
         static ReadData readProjectApproval = new ReadData("ProjectApproval");
         static ReadData readPostProject = new ReadData("PostProject");

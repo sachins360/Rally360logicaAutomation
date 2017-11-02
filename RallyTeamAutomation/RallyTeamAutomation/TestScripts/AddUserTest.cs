@@ -14,8 +14,8 @@ using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", "chrome", Category = "PostProjectPreprod")]
-    [TestFixture("ExternalStormURL", "ie", Category = "PostProjectPreprod")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "AddUserPreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "AddUserPreprod")]
     //[TestFixture("Production", Category = "PostProjectProd")]
     [Parallelizable(ParallelScope.Fixtures)]
     public class AddUsersTest : BaseTestES

@@ -12,14 +12,16 @@ using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", Category = "RegistrationPreprod")]
-    [TestFixture("Production", Category = "RegistrationProd")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "RegistrationChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "RegistrationIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "RegistrationChromeProduction")]
+    [TestFixture("Production", "ie", Category = "RegistrationIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class RegistrationTest : BaseTestWithoutLogin
     {
-        String BaseUrl;
-        public RegistrationTest(string urlKey) : base(urlKey)
+        public RegistrationTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            String url = urlKey;
         }
 
         static ReadData readRegistration = new ReadData("Registration");

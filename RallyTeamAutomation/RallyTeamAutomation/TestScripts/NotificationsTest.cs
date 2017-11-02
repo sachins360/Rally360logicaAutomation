@@ -14,14 +14,16 @@ using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", Category = "NotificationsPreprod")]
-    [TestFixture("Production", Category = "NotificationsProd")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "NotificationsChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "NotificationsIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "NotificationsChromeProduction")]
+    [TestFixture("Production", "ie", Category = "NotificationsIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class NotificationsTest : BaseTestES
     {
-        String BaseUrl;
-        public NotificationsTest(string urlKey) : base(urlKey)
+        public NotificationsTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            String url = urlKey;
         }
 
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);

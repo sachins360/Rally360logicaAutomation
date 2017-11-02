@@ -13,14 +13,16 @@ using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", Category = "DirectoryPreprod")]
-    [TestFixture("Production", Category = "DirectoryProd")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "DirectoryChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "DirectoryIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "DirectoryChromeProduction")]
+    [TestFixture("Production", "ie", Category = "DirectoryIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class DirectoryTest : BaseTestES
     {
-        String BaseUrl;
-        public DirectoryTest(string urlKey) : base(urlKey)
+        public DirectoryTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            String url = urlKey;
         }
 
         static ReadData readDirectory = new ReadData("Directory");

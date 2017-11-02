@@ -12,14 +12,16 @@ using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", Category = "JobsPreprod")]
-    [TestFixture("Production", Category = "JobsProd")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "JobsChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "JobsIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "JobsChromeProduction")]
+    [TestFixture("Production", "ie", Category = "JobsIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class JobsTest : BaseTestES
     {
-        String BaseUrl;
-        public JobsTest(string urlKey) : base(urlKey)
+        public JobsTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            String url = urlKey;
         }
 
         static ReadData readJob = new ReadData("Jobs");

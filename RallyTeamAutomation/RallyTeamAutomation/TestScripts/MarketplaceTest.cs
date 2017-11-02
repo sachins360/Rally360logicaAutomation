@@ -12,14 +12,16 @@ using System.Windows.Forms;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", Category = "MarketplacePreprod")]
-    [TestFixture("Production", Category = "MarketplaceProd")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "MarketplaceChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "MarketplaceIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "MarketplaceChromeProduction")]
+    [TestFixture("Production", "ie", Category = "MarketplaceIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class MarketplaceTest : BaseTestES
     {
-        String BaseUrl;
-        public MarketplaceTest(string urlKey) : base(urlKey)
+        public MarketplaceTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            String url = urlKey;
         }
 
         static ReadData readPostProject = new ReadData("PostProject");

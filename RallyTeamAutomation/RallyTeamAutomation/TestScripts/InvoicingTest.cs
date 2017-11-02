@@ -14,14 +14,16 @@ using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", Category = "InvoicingPreprod")]
-    [TestFixture("Production", Category = "InvoicingProd")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "InvoicingChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "InvoicingIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "InvoicingChromeProduction")]
+    [TestFixture("Production", "ie", Category = "InvoicingIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class InvoicingTest : BaseTestES
     {
-        String BaseUrl;
-        public InvoicingTest(string urlKey) : base(urlKey)
+        public InvoicingTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            String url = urlKey;
         }
 
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);

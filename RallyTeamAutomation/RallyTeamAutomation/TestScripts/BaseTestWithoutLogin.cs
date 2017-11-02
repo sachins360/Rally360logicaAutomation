@@ -51,9 +51,13 @@ namespace RallyTeam.TestScripts
         protected CommonMethods commonPage;
 
         String BaseUrl;
-        public BaseTestWithoutLogin(string urlKey)
+        String Browser;
+        public BaseTestWithoutLogin(string urlKey, string browser = "chrome")
         {
+            //BaseUrl = urlKey;
             BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            Browser = browser;
+            //Environment = environment;
         }
 
         [SetUp]

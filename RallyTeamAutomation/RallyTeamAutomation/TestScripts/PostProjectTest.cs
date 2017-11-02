@@ -13,8 +13,11 @@ using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", Category = "PostProjectPreprod")]
-    [TestFixture("Production", Category = "PostProjectProd")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "PostProjectChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "PostProjectIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "PostProjectChromeProduction")]
+    [TestFixture("Production", "ie", Category = "PostProjectIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class PostProjectTest : BaseTestES
     {
         #region Variable
@@ -479,9 +482,9 @@ namespace RallyTeam.TestScripts
         }
         #endregion
 
-        public PostProjectTest(string urlKey) : base(urlKey)
+        public PostProjectTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            String url = urlKey;
         }
 
         [Test]
