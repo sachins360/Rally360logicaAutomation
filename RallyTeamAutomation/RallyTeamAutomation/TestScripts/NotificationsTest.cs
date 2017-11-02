@@ -69,7 +69,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Enter the Project Description
-            String projectDesc = readPostProject.GetValue("AddProjectDetails", "projectDesc");
+            String projectDesc = readNotifications.GetValue("AddProjectDetails", "projectDesc");
             postProjectPage.EnterProjectDescription(projectDesc);
             Thread.Sleep(1000);
 
@@ -83,7 +83,7 @@ namespace RallyTeam.TestScripts
             //Enter Skills
             commonPage.ScrollUp();
             Thread.Sleep(2000);
-            String skills = readPostProject.GetValue("AddProjectDetails", "skills");
+            String skills = readNotifications.GetValue("AddProjectDetails", "skillsNeeded");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);
             commonPage.PressEnterKey();
@@ -94,7 +94,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
             postProjectPage.EnterMembersNeeded("5");
             Thread.Sleep(1000);
-            String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
+            String addMembersEmail = readNotifications.GetValue("AddProjectDetails", "memberEmail");
             List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
             int noOfMember = addMembersEmailList.Count;
             foreach (String value in addMembersEmailList)
@@ -199,10 +199,10 @@ namespace RallyTeam.TestScripts
             //Change Project Owner
             commonPage.ScrollDown();
             Thread.Sleep(1000);
-            String addMembersName = readPostProject.GetValue("AddProjectDetails", "memberName");
+            String addMembersName = readNotifications.GetValue("AddProjectDetails", "memberName");
             List<String> addMembersNameList = addMembersName.Split(',').ToList();
             postProjectPage.SelectProjectOwner(addMembersNameList[0]);
-            String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
+            String addMembersEmail = readNotifications.GetValue("AddProjectDetails", "memberEmail");
             List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
             log.Info("Change Project Owner.");
             Thread.Sleep(3000);
@@ -473,13 +473,13 @@ namespace RallyTeam.TestScripts
             //Signout of the application
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
 
             //Sign in with different user
             String userName = readNotifications.GetValue("AddProjectMember", "addMemberEmail");
             String password = readNotifications.GetValue("AddProjectMember", "password");
             SignInDifferentUser(userName, password);
-            Thread.Sleep(7000);
+            Thread.Sleep(3000);
 
             //Click Notifications Icon
             notificationsPage.ClickNotificationsIcon();
@@ -494,7 +494,7 @@ namespace RallyTeam.TestScripts
             //Click See All link
             notificationsPage.ClickSeeAll();
             log.Info("Click See All link.");
-            Thread.Sleep(7000);
+            Thread.Sleep(5000);
 
             //Verify the User Added to Project Notification on Notifications Page
             notificationsPage.VerifyUserAddedToProject();
@@ -510,10 +510,9 @@ namespace RallyTeam.TestScripts
             //Signout of the application
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
 
             //Login to the application
-            Thread.Sleep(5000);
             authenticationPage.SetUserName(_workEmail);
             authenticationPage.SetPassword(_password);
             authenticationPage.ClickOnLoginButton();
@@ -522,12 +521,12 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
             postProjectPage.SearchProjectName(projectName);
             log.Info("Enter the project name.");
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
 
             //Click Search button
             postProjectPage.ClickSearchBtn();
             log.Info("Click the prSearch button.");
-            Thread.Sleep(15000);
+            Thread.Sleep(10000);
 
             //Click the created project
             postProjectPage.ClickProjectNameOnPage(projectName);
@@ -772,7 +771,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Enter the Message in Text Area
-            postProjectPage.EnterMessageTextArea("Hi @Anup");
+            postProjectPage.EnterMessageTextArea("Hi @Automation");
             Thread.Sleep(2000);
             commonPage.PressTabKey();
             Thread.Sleep(2000);
@@ -816,7 +815,7 @@ namespace RallyTeam.TestScripts
 
             //Verify the User Mentioned In Project WIth All subject on the Notifications Page
             String loggedInUserName = readNotifications.GetValue("LoggedInUserName", "username");
-            notificationsPage.VerifyUserMentionedInProjectWIthAllSubject(loggedInUserName, "Hi @Anup Kumar");
+            notificationsPage.VerifyUserMentionedInProjectWIthAllSubject(loggedInUserName, "Hi @Automation UserOne");
             log.Info("Verify User Mentioned In Project WIth All notification subject on the Notifications Page.");
             Thread.Sleep(2000);
 
@@ -1485,7 +1484,12 @@ namespace RallyTeam.TestScripts
             //Click Search button
             postProjectPage.ClickSearchBtn();
             log.Info("Click the prSearch button.");
-            Thread.Sleep(10000);
+            Thread.Sleep(5000);
+
+            //Select Completed Projects from the Show Me drop-down
+            marketplacePage.SelectAllProjectsDropDown("Completed Projects");
+            log.Info("Select Completed Projects from the drop-down.");
+            Thread.Sleep(2000);            
 
             //Click the created project
             postProjectPage.ClickProjectNameOnPage(projectName);
@@ -1535,17 +1539,6 @@ namespace RallyTeam.TestScripts
             log.Info("Click Complete Project button.");
             Thread.Sleep(5000);
 
-            //Signout of the application
-            authenticationPage.SignOut();
-            log.Info("Click on the Signout button.");
-            Thread.Sleep(5000);
-
-            //Sign in with different user
-            String userName = readNotifications.GetValue("AddProjectMember", "addMemberEmail");
-            String password = readNotifications.GetValue("AddProjectMember", "password");
-            SignInDifferentUser(userName, password);
-            Thread.Sleep(7000);
-
             //Click User Profile Icon
             userProfilePage.ClickUserProfileIcon();
             log.Info("Click the User Profile Icon.");
@@ -1555,8 +1548,9 @@ namespace RallyTeam.TestScripts
             userProfilePage.ClickUserProfileOptions("Profile");
             log.Info("Click User Profile option 'Profile'.");
             Thread.Sleep(2000);
-            
+
             //Click Request Feedback button
+            commonPage.HalfScrollDown(200);
             directoryPage.ClickRequestFeedbackBtn();
             log.Info("Click on Request Feedback button.");
             Thread.Sleep(10000);
@@ -1576,12 +1570,12 @@ namespace RallyTeam.TestScripts
             log.Info("Click on the Signout button.");
             Thread.Sleep(5000);
 
-            //Login to the application
-            authenticationPage.SetUserName(_workEmail);
-            authenticationPage.SetPassword(_password);
-            authenticationPage.ClickOnLoginButton();
-            Thread.Sleep(5000);
-
+            //Sign in with different user
+            String userName = readNotifications.GetValue("ReceivesFeedback", "endorsingUser");
+            String password = readNotifications.GetValue("ReceivesFeedback", "password");
+            SignInDifferentUser(userName, password);
+            Thread.Sleep(7000);       
+                        
             //Click Notifications Icon
             notificationsPage.ClickNotificationsIcon();
             log.Info("Click on the Notifications Icon at top.");
@@ -1600,18 +1594,22 @@ namespace RallyTeam.TestScripts
             //Verify the User Requests Feedback on Notifications Page
             notificationsPage.VerifyUserRequestsFeedback();
             log.Info("Verify the User Requests Feedback Notification on Notifications Page.");
-            Thread.Sleep(3000);
 
             //Verify the User Requests Feedback subject on the Notifications Page
-            String username = readNotifications.GetValue("AddProjectMember", "addMemberName");
+            String username = readNotifications.GetValue("LoggedInUserName", "username");
             notificationsPage.VerifyUserRequestsFeedbackSubject(username, projectName);
             log.Info("Verify User Requests Feedback notification subject on the Notifications Page.");
+
+            //Signout of the application
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
             Thread.Sleep(2000);
 
-            //Click the Marketplace tab
-            marketplacePage.ClickMarketplaceTab();
-            log.Info("Click the Marketplace tab.");
-            Thread.Sleep(5000);
+            //Login to the application
+            authenticationPage.SetUserName(_workEmail);
+            authenticationPage.SetPassword(_password);
+            authenticationPage.ClickOnLoginButton();
+            Thread.Sleep(3000);
 
             //Enter the Project Name
             postProjectPage.SearchProjectName(projectName);
@@ -1621,7 +1619,12 @@ namespace RallyTeam.TestScripts
             //Click Search button
             postProjectPage.ClickSearchBtn();
             log.Info("Click the prSearch button.");
-            Thread.Sleep(15000);
+            Thread.Sleep(5000);
+
+            //Select Completed Projects from the Show Me drop-down
+            marketplacePage.SelectAllProjectsDropDown("Completed Projects");
+            log.Info("Select Completed Projects from the drop-down.");
+            Thread.Sleep(2000);
 
             //Click the created project
             postProjectPage.ClickProjectNameOnPage(projectName);
