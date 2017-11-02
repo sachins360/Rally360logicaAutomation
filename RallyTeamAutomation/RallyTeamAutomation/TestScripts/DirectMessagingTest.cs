@@ -15,15 +15,16 @@ using System.Configuration;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", Category = "DirectMessagingPreprod")]
-    [TestFixture("Production", Category = "DirectMessagingProd")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "DirectMessagingChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "DirectMessagingIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "DirectMessagingChromeProduction")]
+    [TestFixture("Production", "ie", Category = "DirectMessagingIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class DirectMessagingTest : BaseTestES
     {
-        String BaseUrl;
-
-        public DirectMessagingTest(string urlKey) : base(urlKey)
+        public DirectMessagingTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            String url = urlKey;
         }
 
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);

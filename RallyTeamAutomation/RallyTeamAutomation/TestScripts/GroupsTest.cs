@@ -15,17 +15,18 @@ using OpenQA.Selenium;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture("ExternalStormURL", Category= "GroupsPreprod")]
-    [TestFixture("Production", Category= "GroupsProd")]
+    [TestFixture("ExternalStormURL", "chrome", Category = "GroupsChromePreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "GroupsIEPreprod")]
+    [TestFixture("Production", "chrome", Category = "GroupsChromeProduction")]
+    [TestFixture("Production", "ie", Category = "GroupsIEProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class GroupsTest : BaseTestES
     {
-        String BaseUrl;
-
-        public GroupsTest(string urlKey) : base(urlKey)
+        public GroupsTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            String url = urlKey;
         }
-        
+
         [Test]
         public void Groups_001_CreateEmployeeGroup()
         {
