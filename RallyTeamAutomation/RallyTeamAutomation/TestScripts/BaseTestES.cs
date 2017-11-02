@@ -66,10 +66,12 @@ namespace RallyTeam.TestScripts
         protected JobsPage jobsPage;
 
         String BaseUrl;
-        public BaseTestES(string urlKey)
+        String Browser;
+        public BaseTestES(string urlKey,string browser= "chrome")
         {
             //BaseUrl = urlKey;
             BaseUrl = ConfigurationManager.AppSettings[urlKey];
+            Browser = browser;
             //Environment = environment;
         }
 
@@ -120,8 +122,6 @@ namespace RallyTeam.TestScripts
             CurrentEnvironment = environment;
         }*/
 
-
-
         [SetUp]
         public void TestSetUp()
         {
@@ -144,6 +144,7 @@ namespace RallyTeam.TestScripts
             jobsPage = new JobsPage(_driver, _pageLoadTimeout);
 
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
+            if(!Browser.Contains("edge"))
             _driver.Manage().Window.Maximize();
             _driver.Url = BaseUrl;
             _driver.setTimeOut(_pageLoadTimeout);
@@ -155,7 +156,8 @@ namespace RallyTeam.TestScripts
             Log.Info("Setup test");
 
             Global.MethodName = "TestSetup";
-            commonPage.RefreshPage();
+            if (!Browser.Contains("edge"))
+                commonPage.RefreshPage();
             Thread.Sleep(5000);
             authenticationPage.SetUserName(_workEmail);
             authenticationPage.SetPassword(_password);
@@ -186,7 +188,7 @@ namespace RallyTeam.TestScripts
         public IWebDriver GetDriver()
         {
             string path = System.IO.Directory.GetCurrentDirectory();
-            switch (_browser)
+            switch (Browser)
             {
                 case "chrome":
                     System.Environment.SetEnvironmentVariable("webdriver.chrome.driver", "chromedriver.exe");
@@ -212,7 +214,7 @@ namespace RallyTeam.TestScripts
                     return new InternetExplorerDriver(AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["IDEServerPath"], ieoptions, TimeSpan.FromSeconds(90));
                 case "edge":
                     Console.WriteLine("path: " + path);
-                    //System.setProperty("webdriver.edge.driver", "C:\\Program Files (x86)\\Microsoft Web Driver\\MicrosoftWebDriver.exe");
+                   // System.setProperty("webdriver.edge.driver", "C:\\Program Files (x86)\\Microsoft Web Driver\\MicrosoftWebDriver.exe");
                     System.Environment.SetEnvironmentVariable("webdriver.edge.driver", "MicrosoftWebDriver.exe");
                     return new EdgeDriver();
 
