@@ -1326,19 +1326,18 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Signout of the application
-            Thread.Sleep(5000);
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
-
-            //Sign in with a different user
             Thread.Sleep(5000);
-            String userName = "bobl@mailinator.com";
-            String password = "Logica360";
+
+            //Sign in with different user
+            String userName = readDirectory.GetValue("SignInDifferentUser", "userName");
+            String password = readDirectory.GetValue("SignInDifferentUser", "password");
             SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Click Directory Tab
-            Thread.Sleep(5000);
+            Thread.Sleep(3000);
             directoryPage.ClickDirectoryTab();
             log.Info("Click the Directory tab.");
             Thread.Sleep(3000);
