@@ -37,7 +37,7 @@ namespace RallyTeam.Util
             // Create directory if doesn't exist
             Directory.CreateDirectory(Path.GetDirectoryName(filename));
             // Save file
-            ss.SaveAsFile(filename, System.Drawing.Imaging.ImageFormat.Png);
+            ss.SaveAsFile(filename, ScreenshotImageFormat.Png);
             Log.InfoFormat("Screenshot saved at: {0}", filename);
             return filename;
         }
