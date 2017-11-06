@@ -65,7 +65,6 @@ F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\b
 F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.exe
 F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.pdb
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\chromedriver.exe
-F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\WebDriver.xml
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\Authentication.ini
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\DirectMessaging.ini
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\Invoicing.ini
@@ -98,6 +97,8 @@ F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamA
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\Microsoft.Extensions.Primitives.xml
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\nunit.framework.xml
+F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\WebDriver.xml
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\WebDriver.Support.xml
+F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.csprojResolveAssemblyReference.cache
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.exe
 F:\Automation_SeleniumCSharp\RallyTeam\SachinRepo\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.pdb

@@ -157,7 +157,7 @@ namespace RallyTeam.TestScripts
 
             Global.MethodName = "TestSetup";
             if (!Browser.Contains("edge"))
-                //commonPage.RefreshPage();
+                commonPage.RefreshPage();
             Thread.Sleep(5000);
             authenticationPage.SetUserName(_workEmail);
             authenticationPage.SetPassword(_password);
