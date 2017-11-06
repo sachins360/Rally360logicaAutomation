@@ -64,3 +64,6 @@ F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\b
 F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\WebDriver.Support.xml
 F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.exe
 F:\Automation_SeleniumCSharp\RallyTeam\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.pdb
+D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe.config
+D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.exe
+D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\obj\Debug\RallyTeamAutomation.pdb
