@@ -205,13 +205,19 @@ namespace RallyTeam.TestScripts
                     //capabilities.SetCapability(ChromeOptions.Capability, options);
                     return new ChromeDriver(options);
                 case "firefox":
-                    System.Environment.SetEnvironmentVariable("webdriver.chrome.driver", "geckodriver.exe");
+                    System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
                     return new FirefoxDriver();
                 case "ie":
-                    System.Environment.SetEnvironmentVariable("webdriver.ie.driver", "IEDriverServer.exe");
-                    InternetExplorerOptions ieoptions = new InternetExplorerOptions { EnableNativeEvents = false, RequireWindowFocus = true };
-                    ieoptions.AddAdditionalCapability("disable-popup-blocking", true);
-                    return new InternetExplorerDriver(AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["IDEServerPath"], ieoptions, TimeSpan.FromSeconds(90));
+                    var option = new InternetExplorerOptions()
+                    {
+                        InitialBrowserUrl = BaseUrl,
+                        IntroduceInstabilityByIgnoringProtectedModeSettings = true,
+                        RequireWindowFocus = true,
+                        IgnoreZoomLevel = true,
+                        // EnableNativeEvents = false,
+
+                    };
+                    return new InternetExplorerDriver(option);                    
                 case "edge":
                     Console.WriteLine("path: " + path);
                    // System.setProperty("webdriver.edge.driver", "C:\\Program Files (x86)\\Microsoft Web Driver\\MicrosoftWebDriver.exe");
