@@ -13,9 +13,9 @@ using System.Configuration;
 namespace RallyTeam.TestScripts
 {
     [TestFixture("ExternalStormURL", "chrome", Category = "RegistrationChromePreprod")]
-    [TestFixture("ExternalStormURL", "ie", Category = "RegistrationIEPreprod")]
+    [TestFixture("ExternalStormURL", "firefox", Category = "RegistrationFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "RegistrationChromeProduction")]
-    [TestFixture("Production", "ie", Category = "RegistrationIEProduction")]
+    [TestFixture("Production", "firefox", Category = "RegistrationFirefoxProduction")]
     [Parallelizable(ParallelScope.Fixtures)]
     public class RegistrationTest : BaseTestWithoutLogin
     {

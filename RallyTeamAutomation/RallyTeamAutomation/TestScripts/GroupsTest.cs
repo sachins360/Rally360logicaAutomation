@@ -16,9 +16,9 @@ using OpenQA.Selenium;
 namespace RallyTeam.TestScripts
 {
     [TestFixture("ExternalStormURL", "chrome", Category = "GroupsChromePreprod")]
-    [TestFixture("ExternalStormURL", "ie", Category = "GroupsIEPreprod")]
+    [TestFixture("ExternalStormURL", "firefox", Category = "GroupsFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "GroupsChromeProduction")]
-    [TestFixture("Production", "ie", Category = "GroupsIEProduction")]
+    [TestFixture("Production", "firefox", Category = "GroupsFirefoxProduction")]
     [Parallelizable(ParallelScope.Fixtures)]
     public class GroupsTest : BaseTestES
     {

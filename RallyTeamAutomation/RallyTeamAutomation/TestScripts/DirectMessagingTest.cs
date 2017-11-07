@@ -16,9 +16,9 @@ using System.Configuration;
 namespace RallyTeam.TestScripts
 {
     [TestFixture("ExternalStormURL", "chrome", Category = "DirectMessagingChromePreprod")]
-    [TestFixture("ExternalStormURL", "ie", Category = "DirectMessagingIEPreprod")]
+    [TestFixture("ExternalStormURL", "firefox", Category = "DirectMessagingFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "DirectMessagingChromeProduction")]
-    [TestFixture("Production", "ie", Category = "DirectMessagingIEProduction")]
+    [TestFixture("Production", "firefox", Category = "DirectMessagingFirefoxProduction")]
     [Parallelizable(ParallelScope.Fixtures)]
     public class DirectMessagingTest : BaseTestES
     {

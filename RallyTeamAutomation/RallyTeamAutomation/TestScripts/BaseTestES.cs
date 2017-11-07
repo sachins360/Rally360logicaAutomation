@@ -95,8 +95,9 @@ namespace RallyTeam.TestScripts
             jobsPage = new JobsPage(_driver, _pageLoadTimeout);
 
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
-            if(!Browser.Contains("edge"))
-            //_driver.Manage().Window.Maximize();
+
+            //if (!Browser.Contains("edge"))
+            //_driver.Manage().Window.Maximize();         
             _driver.Url = BaseUrl;
             _driver.setTimeOut(_pageLoadTimeout);
 
@@ -157,8 +158,12 @@ namespace RallyTeam.TestScripts
                     //capabilities.SetCapability(ChromeOptions.Capability, options);
                     return new ChromeDriver(options);
                 case "firefox":
-                    System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
-                    return new FirefoxDriver();
+                         System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
+                   var driver= new FirefoxDriver();
+                    driver.Manage().Window.Position = new Point(0, 0);
+                    driver.Manage().Window.Size = new Size(2000, 1000);
+                    return driver;
+
                 case "ie":
                     /*var option = new InternetExplorerOptions()
                     {

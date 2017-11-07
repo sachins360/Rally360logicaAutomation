@@ -13,9 +13,9 @@ using System.Windows.Forms;
 namespace RallyTeam.TestScripts
 {
     [TestFixture("ExternalStormURL", "chrome", Category = "MarketplaceChromePreprod")]
-    [TestFixture("ExternalStormURL", "ie", Category = "MarketplaceIEPreprod")]
+    [TestFixture("ExternalStormURL", "firefox", Category = "MarketplaceFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "MarketplaceChromeProduction")]
-    [TestFixture("Production", "ie", Category = "MarketplaceIEProduction")]
+    [TestFixture("Production", "firefox", Category = "MarketplaceFirefoxProduction")]
     [Parallelizable(ParallelScope.Fixtures)]
     public class MarketplaceTest : BaseTestES
     {
