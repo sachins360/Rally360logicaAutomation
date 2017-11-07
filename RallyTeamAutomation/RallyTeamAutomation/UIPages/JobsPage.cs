@@ -148,12 +148,13 @@ namespace RallyTeam.UIPages
         public void ClickPublishBtn()
         {
             _driver.WaitForElementAvailableAtDOM(JobsUI.publishBtn, 1);
-            _driver.SafeClick(JobsUI.publishBtn);
+            _driver.ClickElementUsingJS(JobsUI.publishBtn);
         }        
 
         //Click Settings Icon
         public void ClickSettingsIcon()
         {
+            _driver.ScrollWindowToElement(JobsUI.jobSettings);
             _driver.SafeClick(JobsUI.jobSettings);
         }
 

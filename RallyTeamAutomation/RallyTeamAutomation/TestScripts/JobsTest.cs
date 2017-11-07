@@ -133,6 +133,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Enter the Job Level
+            commonPage.HalfScrollDown(500);
+            Thread.Sleep(1000);
             String jobLevel = readJob.GetValue("AddJobDetails", "jobLevel");
             jobsPage.EnterLevel(jobLevel);
             log.Info("Enter Job Level.");

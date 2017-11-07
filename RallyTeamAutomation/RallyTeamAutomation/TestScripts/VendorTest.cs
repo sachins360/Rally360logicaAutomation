@@ -21,7 +21,7 @@ namespace RallyTeam.TestScripts
     [Parallelizable(ParallelScope.Fixtures)]
     public class VendorTest : BaseTestES
     {
-        protected VendorTest(string urlKey) : base(urlKey)
+        protected VendorTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
             String url = urlKey;
             //Environment = environment;
