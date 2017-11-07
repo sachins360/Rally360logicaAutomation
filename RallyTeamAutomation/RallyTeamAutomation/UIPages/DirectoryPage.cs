@@ -41,7 +41,7 @@ namespace RallyTeam.UIPages
         //Click the Endorse button
         public void ClickEndorseBtn()
         {
-            _driver.SafeClick(DirectoryUI.endorseBtn);
+            _driver.ClickElementUsingJS(DirectoryUI.endorseBtn);
         }
 
         //Select Project DropDown

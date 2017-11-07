@@ -67,7 +67,7 @@ namespace RallyTeam.TestScripts
             authenticationPage = new AuthenticationPage(_driver, _pageLoadTimeout);
             registrationPage = new RegistrationPage(_driver, _pageLoadTimeout);
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
-            _driver.Manage().Window.Maximize();
+            //_driver.Manage().Window.Maximize();
             _driver.Url = _externalStormURL;
             _driver.setTimeOut(_pageLoadTimeout);
 
@@ -108,9 +108,19 @@ namespace RallyTeam.TestScripts
             {
                 case "chrome":
                     System.Environment.SetEnvironmentVariable("webdriver.chrome.driver", "chromedriver.exe");
-                    var options = new ChromeOptions();
-                    options.AddArgument("no-sandbox");
-                    return new ChromeDriver();
+                    //var options = new ChromeOptions();
+
+                    ChromeOptions options = new ChromeOptions();
+                    //DesiredCapabilities capabilities = DesiredCapabilities.Chrome();
+                    options.AddArguments("--disable-extensions");
+                    options.AddArguments("-ignore-certificate-errors");
+                    options.AddArguments("start-maximized");
+                    options.AddArgument("test-type");
+                    options.AddArguments("disable-infobars");
+                    options.ToCapabilities();
+                    //capabilities.SetCapability("chrome.binary", @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe");
+                    //capabilities.SetCapability(ChromeOptions.Capability, options);
+                    return new ChromeDriver(options);
                 case "firefox":
                     return new FirefoxDriver();
                 case "ie":

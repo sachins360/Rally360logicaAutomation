@@ -67,60 +67,11 @@ namespace RallyTeam.TestScripts
 
         String BaseUrl;
         String Browser;
-        public BaseTestES(string urlKey,string browser= "chrome")
+        public BaseTestES(string urlKey,string browser = "chrome")
         {
-            //BaseUrl = urlKey;
             BaseUrl = ConfigurationManager.AppSettings[urlKey];
             Browser = browser;
-            //Environment = environment;
-        }
-
-        /*public enum Environment
-        {
-            Preprod,
-            Production,
-            Hotfix,
-            Development
-        }
-
-        public class Settings
-        {
-            public static string PreprodUrl { get { return "some url"; } }
-            public static string ProductionUrl { get { return "some url"; } }
-        }
-
-        public Dictionary<Environment, string> PossibleEnvironments
-        {
-            get
-            {
-                return new Dictionary<Environment, string>()
-                {
-                    { Environment.Preprod, Settings.PreprodUrl },
-                    { Environment.Production, Settings.ProductionUrl },
-                };
-            }
-        }
-
-        public Environment CurrentEnvironment { get; set; }
-
-        protected string CurrentEnvironmentURL
-        {
-            get
-            {
-                string url;
-                if (PossibleEnvironments.TryGetValue(CurrentEnvironment, out url))
-                {
-                    return url;
-                }
-
-                throw new InvalidOperationException(string.Format("The current environment ({0}) is not valid or does not have a mapped URL!", CurrentEnvironment));
-            }
-        }
-
-        public BaseTestES(Environment environment)
-        {
-            CurrentEnvironment = environment;
-        }*/
+        }        
 
         [SetUp]
         public void TestSetUp()
@@ -145,11 +96,11 @@ namespace RallyTeam.TestScripts
 
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
             if(!Browser.Contains("edge"))
-            _driver.Manage().Window.Maximize();
+            //_driver.Manage().Window.Maximize();
             _driver.Url = BaseUrl;
             _driver.setTimeOut(_pageLoadTimeout);
 
-            if (_browser == "phantomjs")
+            if (Browser == "phantomjs")
             {
                 _driver.Manage().Window.Size = new Size(_browserWidth, _browserHeight);
             }
@@ -198,6 +149,7 @@ namespace RallyTeam.TestScripts
                     //DesiredCapabilities capabilities = DesiredCapabilities.Chrome();
                     options.AddArguments("--disable-extensions");
                     options.AddArguments("-ignore-certificate-errors");
+                    options.AddArguments("start-maximized");
                     options.AddArgument("test-type");
                     options.AddArguments("disable-infobars");
                     options.ToCapabilities();
@@ -208,16 +160,23 @@ namespace RallyTeam.TestScripts
                     System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
                     return new FirefoxDriver();
                 case "ie":
-                    var option = new InternetExplorerOptions()
+                    /*var option = new InternetExplorerOptions()
                     {
-                        InitialBrowserUrl = BaseUrl,
+                        //InitialBrowserUrl = BaseUrl,
                         IntroduceInstabilityByIgnoringProtectedModeSettings = true,
                         RequireWindowFocus = true,
                         IgnoreZoomLevel = true,
-                        // EnableNativeEvents = false,
+                        //EnableNativeEvents = false,
 
                     };
-                    return new InternetExplorerDriver(option);                    
+                    return new InternetExplorerDriver(option);*/
+                    System.Environment.SetEnvironmentVariable("webdriver.ie.driver", "IEDriverServer.exe");
+                    InternetExplorerOptions ieoptions = new InternetExplorerOptions { RequireWindowFocus = true };
+                    ieoptions.AddAdditionalCapability("disable-popup-blocking", true);
+                    ieoptions.EnsureCleanSession = true;
+                    ieoptions.IntroduceInstabilityByIgnoringProtectedModeSettings = true;
+                    return new InternetExplorerDriver(AppDomain.CurrentDomain.BaseDirectory + ConfigurationManager.AppSettings["IDEServerPath"], ieoptions, TimeSpan.FromSeconds(90));
+                                       
                 case "edge":
                     Console.WriteLine("path: " + path);
                    // System.setProperty("webdriver.edge.driver", "C:\\Program Files (x86)\\Microsoft Web Driver\\MicrosoftWebDriver.exe");

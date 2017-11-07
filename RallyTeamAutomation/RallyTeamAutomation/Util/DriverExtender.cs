@@ -445,6 +445,13 @@ namespace RallyTeam.Util
             action.SendKeys(text).Perform();
         }
 
+        //Scroll to element using JS
+        public static void ScrollWindowToElement(this IWebDriver driver, By locator)
+        {
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            js.ExecuteScript("arguments[0].scrollIntoView(true);", driver.FindElement(locator));
+        }
+
         //Enter text using JS
         public static void EnterTextUsingJS(this IWebDriver driver, By locator, string text)
         {
@@ -694,6 +701,7 @@ namespace RallyTeam.Util
             try
             {
                 IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+                js.ExecuteScript("arguments[0].scrollIntoView(true);", driver.FindElement(locator));
                 js.ExecuteScript("arguments[0].click();", driver.FindElement(locator));                
             }
             catch (Exception error)

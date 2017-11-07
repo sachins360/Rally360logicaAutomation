@@ -1698,7 +1698,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter New Skills
-            postProjectPage.EnterSkillsNeeded("Feedback");
+            postProjectPage.EnterSkillsNeeded("Java");
             Thread.Sleep(3000);
             commonPage.PressEnterKey();
             Thread.Sleep(2000);
@@ -1950,8 +1950,7 @@ namespace RallyTeam.TestScripts
             GoToAddUser();
             inviteUser();
             verifyInviteMailFromMailinator(email);
-            onBoardInviteUser("GAP");
-           
+            onBoardInviteUser("GAP");           
 
             //Click on the Signout button.
             Thread.Sleep(5000);

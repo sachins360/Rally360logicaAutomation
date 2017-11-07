@@ -403,7 +403,7 @@ namespace RallyTeam.UIPages
         //Click Manage Team Save Button
         public void ClickManageTeamSaveBtn()
         {
-            _driver.SafeClick(PostProjectUI.manageTeamSaveBtn);
+            _driver.ClickElementUsingJS(PostProjectUI.manageTeamSaveBtn);
         }
 
         //Press Mark Complete button on Project About Page
@@ -525,7 +525,7 @@ namespace RallyTeam.UIPages
         //Click Requested User Accept Icon
         public void RequestedUserAcceptIcon()
         {
-            _driver.SafeClick(PostProjectUI.manageTeamAcceptIcon);
+            _driver.ClickElementUsingJS(PostProjectUI.manageTeamAcceptIcon);
         }
 
         //Click Requested User Reject Icon
