@@ -13,8 +13,12 @@ using System.Windows.Forms;
 
 namespace RallyTeam.TestScripts
 {
-    [TestFixture]
-    [Category("Vendors")]
+ 
+    [TestFixture("ExternalStormURL", "chrome", Category = "VendorChromePreprod")]
+    [TestFixture("ExternalStormURL", "firefox", Category = "VendorFirefoxPreprod")]
+    [TestFixture("Production", "chrome", Category = "VendorChromeProduction")]
+    [TestFixture("Production", "firefox", Category = "VendorFirefoxProduction")]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class VendorTest : BaseTestES
     {
         protected VendorTest(string urlKey) : base(urlKey)

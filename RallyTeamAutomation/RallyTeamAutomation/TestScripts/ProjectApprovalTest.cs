@@ -12,9 +12,9 @@ using System.Windows.Forms;
 namespace RallyTeam.TestScripts
 {
     [TestFixture("ExternalStormURL", "chrome", Category = "ProjectApprovalChromePreprod")]
-    [TestFixture("ExternalStormURL", "ie", Category = "ProjectApprovalIEPreprod")]
+    [TestFixture("ExternalStormURL", "firefox", Category = "ProjectApprovalFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "ProjectApprovalChromeProduction")]
-    [TestFixture("Production", "ie", Category = "ProjectApprovalIEProduction")]
+    [TestFixture("Production", "firefox", Category = "ProjectApprovalFirefoxProduction")]
     [Parallelizable(ParallelScope.Fixtures)]
     public class ProjectApprovalTest : BaseTestES
     {

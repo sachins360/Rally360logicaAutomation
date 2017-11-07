@@ -15,9 +15,9 @@ using System.Configuration;
 namespace RallyTeam.TestScripts
 {
     [TestFixture("ExternalStormURL", "chrome", Category = "NotificationsChromePreprod")]
-    [TestFixture("ExternalStormURL", "ie", Category = "NotificationsIEPreprod")]
+    [TestFixture("ExternalStormURL", "firefox", Category = "NotificationsFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "NotificationsChromeProduction")]
-    [TestFixture("Production", "ie", Category = "NotificationsIEProduction")]
+    [TestFixture("Production", "firefox", Category = "NotificationsFirefoxProduction")]
     [Parallelizable(ParallelScope.Fixtures)]
     public class NotificationsTest : BaseTestES
     {

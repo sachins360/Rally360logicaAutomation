@@ -13,9 +13,9 @@ using System.Configuration;
 namespace RallyTeam.TestScripts
 {
     [TestFixture("ExternalStormURL", "chrome", Category = "JobsChromePreprod")]
-    [TestFixture("ExternalStormURL", "ie", Category = "JobsIEPreprod")]
+    [TestFixture("ExternalStormURL", "firefox", Category = "JobsireFoxPreprod")]
     [TestFixture("Production", "chrome", Category = "JobsChromeProduction")]
-    [TestFixture("Production", "ie", Category = "JobsIEProduction")]
+    [TestFixture("Production", "firefox", Category = "JobsFirefoxProduction")]
     [Parallelizable(ParallelScope.Fixtures)]
     public class JobsTest : BaseTestES
     {

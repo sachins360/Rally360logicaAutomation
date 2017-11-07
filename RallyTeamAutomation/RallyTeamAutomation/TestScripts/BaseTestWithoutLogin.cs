@@ -112,7 +112,11 @@ namespace RallyTeam.TestScripts
                     options.AddArgument("no-sandbox");
                     return new ChromeDriver();
                 case "firefox":
-                    return new FirefoxDriver();
+                    System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
+                    var driver = new FirefoxDriver();
+                    driver.Manage().Window.Position = new Point(0, 0);
+                    driver.Manage().Window.Size = new Size(2000, 1000);
+                    return driver;
                 case "ie":
                     System.Environment.SetEnvironmentVariable("webdriver.ie.driver", "IEDriverServer.exe");
                     return new InternetExplorerDriver();
