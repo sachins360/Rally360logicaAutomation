@@ -204,7 +204,7 @@
   <ItemGroup>
     <Content Include="..\packages\Chromium.ChromeDriver.2.33\content\chromedriver.exe">
       <Link>chromedriver.exe</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
