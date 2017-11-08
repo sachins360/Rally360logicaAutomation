@@ -156,7 +156,10 @@ namespace RallyTeam.TestScripts
                     options.ToCapabilities();
                     //capabilities.SetCapability("chrome.binary", @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe");
                     //capabilities.SetCapability(ChromeOptions.Capability, options);
-                    return new ChromeDriver(options);
+                    var chromeDriver = new ChromeDriver(options);
+                    chromeDriver.Manage().Window.Position = new Point(0, 0);
+                    chromeDriver.Manage().Window.Size = new Size(2200, 1200);
+                    return chromeDriver;
                 case "firefox":
                          System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
                    var driver= new FirefoxDriver();
