@@ -1,5 +1,3 @@
-D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe.config
-D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\chromedriver.exe
 D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\Authentication.ini
 D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\DirectMessaging.ini
 D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\Invoicing.ini
@@ -14,6 +12,7 @@ D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\Te
 D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\Search.ini
 D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\Tasks.ini
 D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\TestData\UserProfile.ini
+D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe.config
 D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.exe
 D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\RallyTeamAutomation.pdb
 D:\Rally360logicaAutomation\RallyTeamAutomation\RallyTeamAutomation\bin\Debug\Ionic.Zip.dll
