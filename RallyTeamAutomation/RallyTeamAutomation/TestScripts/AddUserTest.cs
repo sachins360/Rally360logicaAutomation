@@ -243,8 +243,7 @@ namespace RallyTeam.TestScripts
             //Click All Done Button on the screen
             registrationPage.ClickAllDoneBtn();
             log.Info("Click All Done button on the screen.");
-            Thread.Sleep(7000);
-
+            Thread.Sleep(10000);
 
             //Select type of opportunities are you looking for            
             addUsersPage.SelectOpportunitiesType(_opportunitiesType);
@@ -619,178 +618,178 @@ namespace RallyTeam.TestScripts
             //log.Info("Verify the Email Get Started Button.");
         }
 
-        [Test]
-        public void AddUser_005_UploadResume()
-        {
-            Global.MethodName = "AddUser_005_UploadResume";
-            Thread.Sleep(5000);
-            GoToAddUser();
+        //[Test]
+        //public void AddUser_005_UploadResume()
+        //{
+        //    Global.MethodName = "AddUser_005_UploadResume";
+        //    Thread.Sleep(5000);
+        //    GoToAddUser();
 
-            inviteUser();
+        //    inviteUser();
 
-            verifyInviteMailFromMailinator(email);
+        //    verifyInviteMailFromMailinator(email);
 
-            //Click Get Started button
-            addUsersPage.ClickMailinatorEmailGetStartedBtn();
-            log.Info("Click the Get Started Button.");
-            Thread.Sleep(5000);
+        //    //Click Get Started button
+        //    addUsersPage.ClickMailinatorEmailGetStartedBtn();
+        //    log.Info("Click the Get Started Button.");
+        //    Thread.Sleep(5000);
 
-            //Enter First Name on the screen
-            registrationPage.EnterFirstName(builder.ToString());
-            log.Info("Enter First Name on the screen.");
-            Thread.Sleep(2000);
+        //    //Enter First Name on the screen
+        //    registrationPage.EnterFirstName(builder.ToString());
+        //    log.Info("Enter First Name on the screen.");
+        //    Thread.Sleep(2000);
 
-            //Enter Last Name on the screen
-            registrationPage.EnterLastName(builder.ToString());
-            log.Info("Enter Last Name on the screen.");
-            Thread.Sleep(2000);
+        //    //Enter Last Name on the screen
+        //    registrationPage.EnterLastName(builder.ToString());
+        //    log.Info("Enter Last Name on the screen.");
+        //    Thread.Sleep(2000);
 
-            //Click SignUp button on the screen
-            registrationPage.ClickSignUpBtn();
-            log.Info("Click SignUp button on the screen.");
-            Thread.Sleep(5000);
+        //    //Click SignUp button on the screen
+        //    registrationPage.ClickSignUpBtn();
+        //    log.Info("Click SignUp button on the screen.");
+        //    Thread.Sleep(5000);
 
-            //Enter Create a Password field on the screen
-            registrationPage.EnterCreatePwdFields(_password);
-            log.Info("Enter Create a Password field on the screen.");
-            Thread.Sleep(2000);
+        //    //Enter Create a Password field on the screen
+        //    registrationPage.EnterCreatePwdFields(_password);
+        //    log.Info("Enter Create a Password field on the screen.");
+        //    Thread.Sleep(2000);
 
-            //Enter Confirm Password field on the screen
-            registrationPage.EnterConfirmPwdFields(_password);
-            log.Info("Enter Confirm Password field on the screen.");
-            Thread.Sleep(2000);
+        //    //Enter Confirm Password field on the screen
+        //    registrationPage.EnterConfirmPwdFields(_password);
+        //    log.Info("Enter Confirm Password field on the screen.");
+        //    Thread.Sleep(2000);
 
-            //Click All Done Button on the screen
-            registrationPage.ClickAllDoneBtn();
-            log.Info("Click All Done button on the screen.");
-            Thread.Sleep(7000);
-
-
-            //Select type of opportunities are you looking for            
-            addUsersPage.SelectOpportunitiesType(_opportunitiesType);
-            log.Info("Select type of opportunities are you looking for.");
-            Thread.Sleep(7000);
-
-            //Select How many hours a week are you available
-            addUsersPage.SelectAvailableTime(_availableTime);
-            log.Info("Select type of opportunities are you looking for.");
-            Thread.Sleep(4000);
-
-            //Click on next link
-            addUsersPage.ClickNextBtn();
-            log.Info("Click on next link.");
-            Thread.Sleep(4000);
-
-            //Click Upload Resume button
-            addUsersPage.ClickUploadYourResumeBtn();
-            Thread.Sleep(5000);
-            // String startupPath = Environment.CurrentDirectory; ;
-
-            //string startupPath = "D:\\Rally360logicaAutomation\\RallyTeamAutomation";
-            string startupPath = System.IO.Directory.GetCurrentDirectory();
-            startupPath = startupPath + "\\AuzebManzoor.pdf";
-            Console.WriteLine("Start up path: " + startupPath);
-            SendKeys.SendWait(@startupPath);
-            Thread.Sleep(2000);
-            SendKeys.SendWait(@"{Enter}");
-            Thread.Sleep(7000);
-
-            //Verify the Confirm Tickmark
-            addUsersPage.VerifyConfirmTickmark();
-            log.Info("Verify the Confirm Tickmark.");
-        }
-
-        [Test]
-        public void AddUser_006_UploadLinkedIn()
-        {
-            Global.MethodName = "AddUser_006_UploadLinkedIn";
-            Thread.Sleep(5000);
-            GoToAddUser();
-
-            inviteUser();
-
-            verifyInviteMailFromMailinator(email);
-
-            //Click Get Started button
-            addUsersPage.ClickMailinatorEmailGetStartedBtn();
-            log.Info("Click the Get Started Button.");
-            Thread.Sleep(5000);
-
-            //Enter First Name on the screen
-            registrationPage.EnterFirstName(builder.ToString());
-            log.Info("Enter First Name on the screen.");
-            Thread.Sleep(2000);
-
-            //Enter Last Name on the screen
-            registrationPage.EnterLastName(builder.ToString());
-            log.Info("Enter Last Name on the screen.");
-            Thread.Sleep(2000);
-
-            //Click SignUp button on the screen
-            registrationPage.ClickSignUpBtn();
-            log.Info("Click SignUp button on the screen.");
-            Thread.Sleep(5000);
-
-            //Enter Create a Password field on the screen
-            registrationPage.EnterCreatePwdFields(_password);
-            log.Info("Enter Create a Password field on the screen.");
-            Thread.Sleep(2000);
-
-            //Enter Confirm Password field on the screen
-            registrationPage.EnterConfirmPwdFields(_password);
-            log.Info("Enter Confirm Password field on the screen.");
-            Thread.Sleep(2000);
-
-            //Click All Done Button on the screen
-            registrationPage.ClickAllDoneBtn();
-            log.Info("Click All Done button on the screen.");
-            Thread.Sleep(7000);
+        //    //Click All Done Button on the screen
+        //    registrationPage.ClickAllDoneBtn();
+        //    log.Info("Click All Done button on the screen.");
+        //    Thread.Sleep(7000);
 
 
-            //Select type of opportunities are you looking for            
-            addUsersPage.SelectOpportunitiesType(_opportunitiesType);
-            log.Info("Select type of opportunities are you looking for.");
-            Thread.Sleep(7000);
+        //    //Select type of opportunities are you looking for            
+        //    addUsersPage.SelectOpportunitiesType(_opportunitiesType);
+        //    log.Info("Select type of opportunities are you looking for.");
+        //    Thread.Sleep(7000);
 
-            //Select How many hours a week are you available
-            addUsersPage.SelectAvailableTime(_availableTime);
-            log.Info("Select type of opportunities are you looking for.");
-            Thread.Sleep(4000);
+        //    //Select How many hours a week are you available
+        //    addUsersPage.SelectAvailableTime(_availableTime);
+        //    log.Info("Select type of opportunities are you looking for.");
+        //    Thread.Sleep(4000);
 
-            //Click on next link
-            addUsersPage.ClickNextBtn();
-            log.Info("Click on next link.");
-            Thread.Sleep(4000);
-            //Click LinkedIn button Resume button
-            addUsersPage.ClickLinkedInBtn();
-            log.Info("Click LinkedIn button.");
-            Thread.Sleep(7000);
+        //    //Click on next link
+        //    addUsersPage.ClickNextBtn();
+        //    log.Info("Click on next link.");
+        //    Thread.Sleep(4000);
 
-            addUsersPage.SwitchLinkedInWindow();
-            Thread.Sleep(3000);
+        //    //Click Upload Resume button
+        //    addUsersPage.ClickUploadYourResumeBtn();
+        //    Thread.Sleep(5000);
+        //    // String startupPath = Environment.CurrentDirectory; ;
 
-            //Enter the LinkedIn User Id
-            addUsersPage.EnterLinkedInUserId("ammar.pccs@yahoo.com");
-            log.Info("Enter LinkedIn User Id.");
-            Thread.Sleep(2000);
+        //    //string startupPath = "D:\\Rally360logicaAutomation\\RallyTeamAutomation";
+        //    string startupPath = System.IO.Directory.GetCurrentDirectory();
+        //    startupPath = startupPath + "\\AuzebManzoor.pdf";
+        //    Console.WriteLine("Start up path: " + startupPath);
+        //    SendKeys.SendWait(@startupPath);
+        //    Thread.Sleep(2000);
+        //    SendKeys.SendWait(@"{Enter}");
+        //    Thread.Sleep(7000);
 
-            //Enter the LinkedIn Password
-            addUsersPage.EnterLinkedInPwd("Canada@123");
-            log.Info("Enter LinkedIn Password.");
-            Thread.Sleep(2000);
+        //    //Verify the Confirm Tickmark
+        //    addUsersPage.VerifyConfirmTickmark();
+        //    log.Info("Verify the Confirm Tickmark.");
+        //}
 
-            //Click the LinkedIn SignIn button
-            addUsersPage.EnterLinkedInSignInBtn();
-            log.Info("Enter LinkedIn SignIn button.");
-            Thread.Sleep(10000);
+        //[Test]
+        //public void AddUser_006_UploadLinkedIn()
+        //{
+        //    Global.MethodName = "AddUser_006_UploadLinkedIn";
+        //    Thread.Sleep(5000);
+        //    GoToAddUser();
 
-            addUsersPage.SwitchOriginalWindow();
-            Thread.Sleep(3000);
+        //    inviteUser();
 
-            //Verify the LinkedIn button disabled
-            addUsersPage.VerifyLinkedInDisabled();
-            log.Info("Verify the LinkedIn button disabled.");
-        }
+        //    verifyInviteMailFromMailinator(email);
+
+        //    //Click Get Started button
+        //    addUsersPage.ClickMailinatorEmailGetStartedBtn();
+        //    log.Info("Click the Get Started Button.");
+        //    Thread.Sleep(5000);
+
+        //    //Enter First Name on the screen
+        //    registrationPage.EnterFirstName(builder.ToString());
+        //    log.Info("Enter First Name on the screen.");
+        //    Thread.Sleep(2000);
+
+        //    //Enter Last Name on the screen
+        //    registrationPage.EnterLastName(builder.ToString());
+        //    log.Info("Enter Last Name on the screen.");
+        //    Thread.Sleep(2000);
+
+        //    //Click SignUp button on the screen
+        //    registrationPage.ClickSignUpBtn();
+        //    log.Info("Click SignUp button on the screen.");
+        //    Thread.Sleep(5000);
+
+        //    //Enter Create a Password field on the screen
+        //    registrationPage.EnterCreatePwdFields(_password);
+        //    log.Info("Enter Create a Password field on the screen.");
+        //    Thread.Sleep(2000);
+
+        //    //Enter Confirm Password field on the screen
+        //    registrationPage.EnterConfirmPwdFields(_password);
+        //    log.Info("Enter Confirm Password field on the screen.");
+        //    Thread.Sleep(2000);
+
+        //    //Click All Done Button on the screen
+        //    registrationPage.ClickAllDoneBtn();
+        //    log.Info("Click All Done button on the screen.");
+        //    Thread.Sleep(7000);
+
+
+        //    //Select type of opportunities are you looking for            
+        //    addUsersPage.SelectOpportunitiesType(_opportunitiesType);
+        //    log.Info("Select type of opportunities are you looking for.");
+        //    Thread.Sleep(7000);
+
+        //    //Select How many hours a week are you available
+        //    addUsersPage.SelectAvailableTime(_availableTime);
+        //    log.Info("Select type of opportunities are you looking for.");
+        //    Thread.Sleep(4000);
+
+        //    //Click on next link
+        //    addUsersPage.ClickNextBtn();
+        //    log.Info("Click on next link.");
+        //    Thread.Sleep(4000);
+        //    //Click LinkedIn button Resume button
+        //    addUsersPage.ClickLinkedInBtn();
+        //    log.Info("Click LinkedIn button.");
+        //    Thread.Sleep(7000);
+
+        //    addUsersPage.SwitchLinkedInWindow();
+        //    Thread.Sleep(3000);
+
+        //    //Enter the LinkedIn User Id
+        //    addUsersPage.EnterLinkedInUserId("ammar.pccs@yahoo.com");
+        //    log.Info("Enter LinkedIn User Id.");
+        //    Thread.Sleep(2000);
+
+        //    //Enter the LinkedIn Password
+        //    addUsersPage.EnterLinkedInPwd("Canada@123");
+        //    log.Info("Enter LinkedIn Password.");
+        //    Thread.Sleep(2000);
+
+        //    //Click the LinkedIn SignIn button
+        //    addUsersPage.EnterLinkedInSignInBtn();
+        //    log.Info("Enter LinkedIn SignIn button.");
+        //    Thread.Sleep(10000);
+
+        //    addUsersPage.SwitchOriginalWindow();
+        //    Thread.Sleep(3000);
+
+        //    //Verify the LinkedIn button disabled
+        //    addUsersPage.VerifyLinkedInDisabled();
+        //    log.Info("Verify the LinkedIn button disabled.");
+        //}
 
         [Test]
         public void AddUser_007_CreateProfile()
