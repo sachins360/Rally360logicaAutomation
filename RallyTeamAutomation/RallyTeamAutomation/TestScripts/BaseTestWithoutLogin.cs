@@ -118,6 +118,7 @@ namespace RallyTeam.TestScripts
                     options.AddArgument("test-type");
                     options.AddArguments("disable-infobars");
                     options.ToCapabilities();
+                    options.AddArguments("no-sandbox");
                     //capabilities.SetCapability("chrome.binary", @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe");
                     //capabilities.SetCapability(ChromeOptions.Capability, options);
                     var chromeDriver = new ChromeDriver(options);
