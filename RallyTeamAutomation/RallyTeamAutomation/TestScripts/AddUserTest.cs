@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using log4net;
 using System.Reflection;
 using System.Configuration;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace RallyTeam.TestScripts
 {
@@ -18,6 +19,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "AddUsersfirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "AddUsersChromeProduction")]
     [TestFixture("Production", "firefox", Category = "AddUsersfirefoxProduction")]
+    [DeploymentItem("chromedriver.exe")]
     [Parallelizable(ParallelScope.Fixtures)]
     public class AddUsersTest : BaseTestES
     {
