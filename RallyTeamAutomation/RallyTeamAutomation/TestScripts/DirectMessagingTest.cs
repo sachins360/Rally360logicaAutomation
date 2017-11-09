@@ -282,7 +282,7 @@ namespace RallyTeam.TestScripts
             log.Info("Click Send button.");
             Thread.Sleep(5000);
         }
-
+        /*
         [Test]
         public void DirectMessaging_005_VerifyMessageReceivedCounter()
         {
@@ -420,7 +420,7 @@ namespace RallyTeam.TestScripts
             directMessagingPage.ClickMessageReceived("Message by Bob");
             log.Info("Click on the message received by the user");
             Thread.Sleep(5000);
-        }
+        }*/
 
         [Test]
         public void DirectMessaging_006_VerifySendAnnouncementWindow()

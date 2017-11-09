@@ -66,7 +66,7 @@ namespace RallyTeam.UIPages
         //Scrollup
         public void ScrollUp()
         {
-            ((IJavaScriptExecutor)_driver).ExecuteScript("window.scrollTo(document.body.scrollHeight - 150, 0)");
+            ((IJavaScriptExecutor)_driver).ExecuteScript("window.scrollTo(document.body.scrollHeight - 200, 0)");
         }
 
         //Scrolldown

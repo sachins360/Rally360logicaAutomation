@@ -154,7 +154,6 @@ namespace RallyTeam.UIPages
         //Click Settings Icon
         public void ClickSettingsIcon()
         {
-            _driver.ScrollWindowToElement(JobsUI.jobSettings);
             _driver.SafeClick(JobsUI.jobSettings);
         }
 

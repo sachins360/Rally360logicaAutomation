@@ -1701,11 +1701,11 @@ namespace RallyTeam.TestScripts
             postProjectPage.EnterSkillsNeeded("Java");
             Thread.Sleep(3000);
             commonPage.PressEnterKey();
-            Thread.Sleep(2000);
+            Thread.Sleep(7000);
             log.Info("Enter New Skills.");
 
             //Click Promote Button
-            commonPage.ScrollDown();
+            commonPage.HalfScrollDown(2000);
             Thread.Sleep(1000);
             postProjectPage.ClickPromoteBtn();
             log.Info("Click Promote Button");
@@ -1983,14 +1983,14 @@ namespace RallyTeam.TestScripts
             postProjectPage.EnterSkillsNeeded("GAP");
             Thread.Sleep(3000);
             commonPage.PressEnterKey();
-            Thread.Sleep(2000);
+            Thread.Sleep(7000);
             log.Info("Enter New Skills.");
 
             //Click Promote Button
+            commonPage.HalfScrollDown(2000);
+            Thread.Sleep(1000);
             postProjectPage.ClickPromoteBtn();
             log.Info("Click Promote Button");
-            Thread.Sleep(3000);
-
 
             //Click on the Signout button.
             Thread.Sleep(5000);
