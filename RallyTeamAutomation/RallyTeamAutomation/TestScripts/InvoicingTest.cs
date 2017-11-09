@@ -87,6 +87,8 @@ namespace RallyTeam.TestScripts
         public void DeleteProject()
         {
             //Click Settings Icon
+            commonPage.ScrollUp();
+            Thread.Sleep(1000);
             postProjectPage.ClickSettingsIcon();
             log.Info("Click Settings Icon");
             Thread.Sleep(3000);
@@ -382,7 +384,7 @@ namespace RallyTeam.TestScripts
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
-            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+            String projectName = readInvoicing.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
             PostNewProject(projectName);
 
@@ -480,7 +482,7 @@ namespace RallyTeam.TestScripts
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
-            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+            String projectName = readInvoicing.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
             PostNewProject(projectName);
 

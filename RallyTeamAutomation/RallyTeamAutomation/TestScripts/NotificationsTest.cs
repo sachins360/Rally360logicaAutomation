@@ -42,6 +42,8 @@ namespace RallyTeam.TestScripts
         public void DeleteProject()
         {
             //Click Settings Icon
+            commonPage.ScrollUp();
+            Thread.Sleep(1000);
             postProjectPage.ClickSettingsIcon();
             log.Info("Click Settings Icon");
             Thread.Sleep(3000);
@@ -199,7 +201,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Change Project Owner
-            commonPage.ScrollDown();
+            commonPage.HalfScrollDown(400);
             Thread.Sleep(1000);
             String addMembersName = readNotifications.GetValue("AddProjectDetails", "memberName");
             List<String> addMembersNameList = addMembersName.Split(',').ToList();

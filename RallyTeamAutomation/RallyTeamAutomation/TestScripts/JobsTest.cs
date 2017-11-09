@@ -39,6 +39,8 @@ namespace RallyTeam.TestScripts
         public void DeleteJob()
         {
             //Click Settings Icon
+            commonPage.ScrollUp();
+            Thread.Sleep(1000);
             jobsPage.ClickSettingsIcon();
             log.Info("Click Settings Icon");
             Thread.Sleep(3000);
@@ -364,6 +366,8 @@ namespace RallyTeam.TestScripts
             PostNewJob(jobTitle);
 
             //Click Settings Icon
+            commonPage.ScrollUp();
+            Thread.Sleep(1000);
             jobsPage.ClickSettingsIcon();
             log.Info("Click Settings Icon");
             Thread.Sleep(3000);

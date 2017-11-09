@@ -555,7 +555,7 @@ namespace RallyTeam.UIPages
         //Click Promote button
         public void ClickPromoteBtn()
         {
-            _driver.SafeClick(PostProjectUI.promoteBtn);
+            _driver.ClickElementUsingJS(PostProjectUI.promoteBtn);
         }
 
         //Verify Promote Project Success Message
