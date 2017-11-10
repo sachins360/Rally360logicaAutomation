@@ -428,7 +428,7 @@ namespace RallyTeam.TestScripts
             //Click the created Project
             marketplacePage.ClickProjectNameOnPage(projectName);
             log.Info("Click the Project Name on the Projects Page.");
-            Thread.Sleep(5000);
+            Thread.Sleep(9000);
 
             //Delete Project
             DeleteProject();
