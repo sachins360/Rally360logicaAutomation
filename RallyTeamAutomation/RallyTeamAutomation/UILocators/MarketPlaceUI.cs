@@ -11,7 +11,7 @@ namespace RallyTeam.UILocators
     {
 
         public readonly static By marketplaceTab = By.XPath("//a[text()= 'MARKETPLACE']");
-        public readonly static By jobTab = By.XPath("//a[contains(text(), 'Jobs')]");
+        public readonly static By jobTab = By.XPath("//div[contains(@class, 'tabbed')]//a[contains(text(), 'Jobs')]");
 
         public readonly static By browseBtn = By.XPath("//a[text()= 'Browse All Opportunities']");
         public readonly static By searchText = By.XPath("//input[contains(@placeholder, 'What kind of opportunity are you looking for?')]");

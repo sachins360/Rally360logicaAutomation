@@ -80,8 +80,9 @@ namespace RallyTeam.UILocators
         public readonly static By nameTalentPool = By.XPath("//form[@name='talentPoolForm']//input[@name= 'name']");
         public readonly static By saveBtnTalentPool = By.XPath("//a[contains(text(), 'Save')]");
         public readonly static By privateTalentPool = By.XPath("//form[@name='talentPoolForm']//div[contains(@class, 'col-xs')]/span[2]//input");
-
-
+        public readonly static By editTalentPool = By.XPath("//a[text()= 'Edit Talent Pool']");
+        public readonly static By deleteTalentPool = By.XPath("//div[@class= 'modal-content']//i[@class= 'fa fa-trash']");
+        public readonly static By deleteTalentPoolYesBtn = By.XPath("//a[text()= 'Yes']");
 
         public readonly static By messageBtn = By.XPath("//a[text() ='Message']");
         public readonly static By viewProfileBtn = By.XPath("//a[text() ='View Profile']");
