@@ -154,6 +154,7 @@ namespace RallyTeam.UIPages
         //Click Settings Icon
         public void ClickSettingsIcon()
         {
+            _driver.CheckElementClickable(JobsUI.jobSettings);
             _driver.SafeClick(JobsUI.jobSettings);
         }
 
@@ -311,12 +312,21 @@ namespace RallyTeam.UIPages
         //Press Promote Job button
         public void ClickPromoteJobBtn()
         {
+            _driver.CheckElementVisibility(JobsUI.promoteJobBtn);
             _driver.SafeClick(JobsUI.promoteJobBtn);
+        }
+
+        //Press Job View Candidates Back button
+        public void ClickJobsViewCandidatesBackBtn()
+        {
+            _driver.CheckElementClickable(JobsUI.viewCandidatesBackBtn);
+            _driver.SafeClick(JobsUI.viewCandidatesBackBtn);
         }
 
         //Press Promote button
         public void ClickPromoteBtn()
         {
+            _driver.CheckElementClickable(JobsUI.promoteBtn);
             _driver.SafeClick(JobsUI.promoteBtn);
         }
 

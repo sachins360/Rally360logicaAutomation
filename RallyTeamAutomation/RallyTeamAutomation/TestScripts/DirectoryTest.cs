@@ -566,9 +566,8 @@ namespace RallyTeam.TestScripts
             //Click Search button
             directoryPage.ClickSearchBtn();
             log.Info("Click on the Search button on the main page");
-            Thread.Sleep(5000);
 
-            //Verify emoty page is displayed on People Tab
+            //Verify empty page is displayed on People Tab
             directoryPage.VerifyEmptyPageMessage();
             log.Info("Verify empty page is displayed on People Tab");
 
