@@ -626,7 +626,30 @@ namespace RallyTeam.TestScripts
             //Click Settings Icon
             jobsPage.ClickSettingsIcon();
             log.Info("Click Settings Icon");
-            
+
+            //Select Job Settings Option View Candidates
+            jobsPage.SelectJobOption("Edit Job Posting");
+            log.Info("Select Promote Job option.");
+            Thread.Sleep(3000);
+
+            //Edit Job Skill
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            String additionalSkill = readJob.GetValue("AddJobDetails", "additionalSkill");
+            jobsPage.EnterRequiredSkills(additionalSkill);
+            Thread.Sleep(3000);
+            commonPage.PressEnterKey();
+            Thread.Sleep(2000);
+            log.Info("Enter Skills.");
+
+            //Click Save button
+            jobsPage.ClickEditSaveBtn();
+            log.Info("Click Save button.");
+
+            //Click Settings Icon
+            jobsPage.ClickSettingsIcon();
+            log.Info("Click Settings Icon");
+
             //Select Job Settings Option View Candidates
             jobsPage.SelectJobOption("View Candidates");
             log.Info("Select Promote Job option.");
@@ -635,7 +658,6 @@ namespace RallyTeam.TestScripts
             //Click Promote button
             jobsPage.ClickPromoteJobBtn();
             log.Info("Click Promote Job button.");
-            Thread.Sleep(2000);
 
             ////Enter Additional Skills
             //String additionalSkill = readJob.GetValue("AddJobDetails", "additionalSkill");
@@ -648,10 +670,14 @@ namespace RallyTeam.TestScripts
             //Click Promote button
             jobsPage.ClickPromoteBtn();
             log.Info("Click Promote button.");
-            Thread.Sleep(5000);
+            Thread.Sleep(20000);
+
+            //Click Back button
+            jobsPage.ClickJobsViewCandidatesBackBtn();
+            log.Info("Click Back button.");
 
             //Delete Project
-            DeleteJob();
+            //DeleteJob();
 
             //Navigate to the user inbox
             commonPage.NavigateToUrl("https://www.mailinator.com/");
