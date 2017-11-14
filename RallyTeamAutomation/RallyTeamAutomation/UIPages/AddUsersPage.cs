@@ -567,7 +567,7 @@ namespace RallyTeam.UIPages
 
         public void VerifyUploadedUser()
         {
-           _assertHelper.AssertElementTextContains(AddUsersUI.uploadedUserMessageDiv, "You've just uploaded 0 users!");
+           _assertHelper.AssertElementTextContains(AddUsersUI.uploadedUserMessageDiv, "Some users already exist and have not been uploaded. You've uploaded 0 users!");
         }
 
 

@@ -626,24 +626,26 @@ namespace RallyTeam.TestScripts
             //Click Settings Icon
             jobsPage.ClickSettingsIcon();
             log.Info("Click Settings Icon");
-            Thread.Sleep(3000);
-
-            //Select Job Settings Option Promote Job
-            jobsPage.SelectJobOption("Promote Job");
+            
+            //Select Job Settings Option View Candidates
+            jobsPage.SelectJobOption("View Candidates");
             log.Info("Select Promote Job option.");
             Thread.Sleep(3000);
 
-            //Enter Additional Skills
-            String additionalSkill = readJob.GetValue("AddJobDetails", "additionalSkill");
-            jobsPage.EnterRequiredSkills(additionalSkill);
-            Thread.Sleep(3000);
-            commonPage.PressEnterKey();
+            //Click Promote button
+            jobsPage.ClickPromoteJobBtn();
+            log.Info("Click Promote Job button.");
             Thread.Sleep(2000);
-            log.Info("Enter Skills.");
+
+            ////Enter Additional Skills
+            //String additionalSkill = readJob.GetValue("AddJobDetails", "additionalSkill");
+            //jobsPage.EnterRequiredSkills(additionalSkill);
+            //Thread.Sleep(3000);
+            //commonPage.PressEnterKey();
+            //Thread.Sleep(2000);
+            //log.Info("Enter Skills.");
 
             //Click Promote button
-            commonPage.ScrollDown();
-            Thread.Sleep(1000);
             jobsPage.ClickPromoteBtn();
             log.Info("Click Promote button.");
             Thread.Sleep(5000);
