@@ -102,8 +102,9 @@ namespace RallyTeam.UILocators
         public readonly static By editSaveBtn = By.XPath("//a[text()= 'Save']");
         public readonly static By promoteBtn = By.XPath("//button[text()= 'Promote']");
 
-
-
+        //Jobs View Candidates Page
+        public readonly static By promoteJobBtn = By.XPath("//button/span[text()= 'Promote Job']");
+        public readonly static By viewCandidatesBackBtn = By.XPath("//div[text()= 'Back']");
 
         //Mailinator Elements
         public readonly static By mailinatorInputEmail = By.XPath("//input[@id= 'inboxfield']");

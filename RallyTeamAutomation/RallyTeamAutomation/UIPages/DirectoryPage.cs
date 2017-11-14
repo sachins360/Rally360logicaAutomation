@@ -309,7 +309,7 @@ namespace RallyTeam.UIPages
         //Assert Empty Result Page
         public void VerifyEmptyPageMessage()
         {
-            _driver.WaitForElementVisibility(DirectoryUI.emptyResult);
+            _driver.CheckElementVisibility(DirectoryUI.emptyResult);
             _assertHelper.AssertElementDisplayed(DirectoryUI.emptyResult);
         }
 

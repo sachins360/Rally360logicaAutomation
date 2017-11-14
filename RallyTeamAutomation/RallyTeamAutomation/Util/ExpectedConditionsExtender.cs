@@ -62,12 +62,27 @@ namespace RallyTeam.Util
             try
             {
                 WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
-                wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(locator));
-                
+               wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(locator));
+              
             }
             catch (Exception ex)
             {
-                
+               
+            }
+           
+        }
+
+        //Expected condition to check element clickable
+        public static void CheckElementClickable(this IWebDriver driver, By locator)
+        {
+            try
+            {
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+                wait.Until(ExpectedConditions.ElementToBeClickable(locator));
+
+            }
+            catch (Exception ex)
+            {
             }
         }
 
