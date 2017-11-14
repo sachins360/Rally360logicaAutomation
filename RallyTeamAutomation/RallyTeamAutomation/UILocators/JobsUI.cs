@@ -101,7 +101,7 @@ namespace RallyTeam.UILocators
         public readonly static By interestedBtn = By.XPath("//a[contains(text(), 'Interested') and @disabled='disabled']");
         public readonly static By editSaveBtn = By.XPath("//a[text()= 'Save']");
         public readonly static By promoteBtn = By.XPath("//button[text()= 'Promote']");
-
+        public readonly static By promoteJobBtn = By.XPath("//button/span[text()= 'Promote Job']");
 
 
 
