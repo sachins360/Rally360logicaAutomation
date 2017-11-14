@@ -309,6 +309,7 @@ namespace RallyTeam.UIPages
         //Assert Empty Result Page
         public void VerifyEmptyPageMessage()
         {
+            _driver.WaitForElementVisibility(DirectoryUI.emptyResult);
             _assertHelper.AssertElementDisplayed(DirectoryUI.emptyResult);
         }
 
@@ -383,6 +384,8 @@ namespace RallyTeam.UIPages
         //Enter Talent Pool Name
         public void EnterTalentPoolName(String option)
         {
+            _driver.WaitForElementAvailableAtDOM(DirectoryUI.nameTalentPool, 1);
+            _driver.MoveToElementUsingAction(DirectoryUI.nameTalentPool);
             _driver.SafeEnterText(DirectoryUI.nameTalentPool, option);
         }
 
@@ -418,10 +421,27 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(DirectoryUI.privateTalentPool);
         }
 
+        //Click Edit Talent Pool link
+        public void ClickEditTalentPool()
+        {
+            _driver.WaitForElementAvailableAtDOM(DirectoryUI.editTalentPool, 1);
+            _driver.SafeClick(DirectoryUI.editTalentPool);
+        }
 
+        //Click Delete Talent Pool icon
+        public void ClickDeleteTalentPool()
+        {
+            _driver.WaitForElementAvailableAtDOM(DirectoryUI.deleteTalentPool, 1);
+            _driver.MoveToElementUsingAction(DirectoryUI.deleteTalentPool);
+            _driver.SafeClick(DirectoryUI.deleteTalentPool);
+        }
 
-
-
+        //Click Delete Talent Pool Yes button
+        public void ClickDeleteTalentPoolYesBtn()
+        {
+            _driver.WaitForElementAvailableAtDOM(DirectoryUI.deleteTalentPoolYesBtn, 1);
+            _driver.SafeClick(DirectoryUI.deleteTalentPoolYesBtn);
+        }
 
 
 

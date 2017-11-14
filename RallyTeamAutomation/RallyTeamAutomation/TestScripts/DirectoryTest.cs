@@ -55,6 +55,26 @@ namespace RallyTeam.TestScripts
             log.Info("Press Delete Project Window Yes button.");
         }
 
+        //Delete Talent Pool
+        public void DeleteTalentPool()
+        {
+            //Click Edit Talent Pool link
+            directoryPage.ClickEditTalentPool();
+            log.Info("Click Edit Talent Pool link");
+            Thread.Sleep(3000);
+
+            //Click Delete Talent Pool icon
+            commonPage.ScrollDown();
+            Thread.Sleep(2000);
+            directoryPage.ClickDeleteTalentPool();
+            log.Info("Click Delete Talent Pool icon");
+            Thread.Sleep(3000);
+
+            //Click Delete Talent Pool Yes button
+            directoryPage.ClickDeleteTalentPoolYesBtn();
+            log.Info("Press Delete Project Window Yes button.");
+        }
+
         //Post a Project
         public void PostNewProject(String projectName)
         {
@@ -566,7 +586,7 @@ namespace RallyTeam.TestScripts
             //Click Search button
             directoryPage.ClickSearchBtn();
             log.Info("Click on the Search button on the main page");
-            Thread.Sleep(5000);
+            //Thread.Sleep(5000);
 
             //Verify emoty page is displayed on People Tab
             directoryPage.VerifyEmptyPageMessage();
@@ -785,6 +805,14 @@ namespace RallyTeam.TestScripts
             //Verify Talent Pool displayed now in Talent Pool drop-down
             directoryPage.VerifyTalentPoolDisplayed(talentPoolName);
             log.Info("Verify Talent Pool is displayed now in Talent Pool drop-down");
+
+            //Select Talent Pool Name from the Talent Pool drop-down
+            directoryPage.SelectTalentPoolFilter(talentPoolName);
+            log.Info("Select Talent Pool Name from the Talent Pool drop-down");
+            Thread.Sleep(3000);
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
 
         [Test]
@@ -834,6 +862,9 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
 
         [Test]
@@ -883,6 +914,9 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
 
         [Test]
@@ -932,6 +966,9 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
 
         [Test]
@@ -983,6 +1020,9 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
 
         [Test]
@@ -1030,6 +1070,9 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
 
         [Test]
@@ -1077,6 +1120,9 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
 
         [Test]
@@ -1124,6 +1170,9 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
 
         [Test]
@@ -1171,6 +1220,9 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
 
         [Test]
@@ -1270,8 +1322,11 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
+
+            //Delete Talent Pool
+            DeleteTalentPool();
         }
-        /*
+        
         [Test]
         public void Directory_024_VerifyPublicPrivateTalentPool()
         {
@@ -1328,12 +1383,16 @@ namespace RallyTeam.TestScripts
             log.Info("Click Talent Pool Save button");
             Thread.Sleep(5000);
 
+            //Click marketplace tab
+            marketplacePage.ClickMarketplaceTab();
+            Thread.Sleep(5000);
+
             //Signout of the application
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
             Thread.Sleep(5000);
 
-            //Sign in with different user
+            //Sign in with a different user
             String userName = readDirectory.GetValue("SignInDifferentUser", "userName");
             String password = readDirectory.GetValue("SignInDifferentUser", "password");
             SignInDifferentUser(userName, password);
@@ -1352,7 +1411,7 @@ namespace RallyTeam.TestScripts
             //Verify Second Talent Pool not displayed in Talent Pool drop-down
             directoryPage.VerifyTalentPoolNotDisplayed(talentTwoPoolName);
             log.Info("Verify Second Talent Pool not displayed in Talent Pool drop-down");
-        }*/        
+        }        
 
     }
 }

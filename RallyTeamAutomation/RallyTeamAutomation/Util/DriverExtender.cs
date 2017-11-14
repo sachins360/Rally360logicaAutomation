@@ -900,5 +900,25 @@ namespace RallyTeam.Util
                 throw new WebDriverTimeoutException(error);
             }
         }
+
+        //Finds a hidden element and waits for the element visible
+        public static void WaitForElementVisibility(this IWebDriver driver, By locator)
+        {
+
+
+            DefaultWait<IWebDriver> wait = new DefaultWait<IWebDriver>(driver);
+            wait.Timeout = TimeSpan.FromSeconds(timeout);
+            try
+            {
+                ExpectedConditionsExtender.CheckElementVisibility(driver, locator);
+            }
+            catch (WebDriverTimeoutException)
+            {
+                UtilityHelper.TakeScreenshot(driver);
+                String error = "Element was not visible : {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"expectedValue:\"}";
+                Log.Error(error);
+                throw new WebDriverTimeoutException(error);
+            }
+        }
     }
 }

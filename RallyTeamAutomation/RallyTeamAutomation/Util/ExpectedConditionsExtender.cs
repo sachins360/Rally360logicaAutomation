@@ -55,6 +55,22 @@ namespace RallyTeam.Util
                 return false;
             }
         }
+
+        //Expected condition to check visibility of element
+        public static void CheckElementVisibility(this IWebDriver driver, By locator)
+        {
+            try
+            {
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+                wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(locator));
+                
+            }
+            catch (Exception ex)
+            {
+                
+            }
+        }
+
         //Expected condition that is fulfilled by the element with the specified locator being found.
         public static bool IsElementPresent(this IWebDriver driver, By locator)
         {
