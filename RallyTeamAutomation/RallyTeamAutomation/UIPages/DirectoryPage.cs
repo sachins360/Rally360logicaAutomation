@@ -237,6 +237,7 @@ namespace RallyTeam.UIPages
         //Assert User Name search is displayed
         public void VerifyUserContainerUserName(String userName)
         {
+            _driver.CheckElementVisibility(DirectoryUI.userContainerUserName(userName));
             _assertHelper.AssertElementDisplayed(DirectoryUI.userContainerUserName(userName));
         }
 

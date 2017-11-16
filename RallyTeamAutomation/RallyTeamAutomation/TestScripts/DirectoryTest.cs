@@ -271,7 +271,7 @@ namespace RallyTeam.TestScripts
             //Click Search button
             directoryPage.ClickSearchBtn();
             log.Info("Click on the Search button on the main page");
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
 
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);

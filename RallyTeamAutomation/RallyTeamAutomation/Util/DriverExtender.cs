@@ -84,6 +84,24 @@ namespace RallyTeam.Util
             }
         }
 
+        //Verifies the drop-down option before trying to select the same
+        public static void VerifyDropDownOption(this IWebDriver _driver, By locator)
+        {                       
+            try
+            {
+                WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(20));
+                wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(locator));            
+            }
+            catch (Exception error)
+            {
+                UtilityHelper.TakeScreenshot(_driver);
+                //String error = "Element with locator:" + locator.ToString() + " is not clickable.";
+                String e = error.ToString();
+                Log.Error(e);
+                throw new Exception(e);
+            }
+        }
+
         //Move to particular element using Action Class
         public static void RightClickElementUsingAction(this IWebDriver _driver, By locator)
         {
@@ -770,6 +788,8 @@ namespace RallyTeam.Util
             wait.IgnoreExceptionTypes(typeof(NoSuchElementException));
             try
             {
+
+
                 new SelectElement(driver.FindElement(locator)).SelectByText(value);
             }
             catch (WebDriverTimeoutException)
