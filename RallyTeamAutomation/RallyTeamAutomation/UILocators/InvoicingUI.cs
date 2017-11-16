@@ -36,6 +36,10 @@ namespace RallyTeam.UILocators
         public readonly static By todayDate = By.XPath("//table[contains(@class, 'table-condensed')]//td[@class= 'today day']");
         public readonly static By invoiceTotal = By.XPath("//input[@name= 'cost']");
         public readonly static By projectName = By.XPath("//select[@name= 'selectedProject']");
+        public static By projectNameOption(String variable)
+        {
+            return By.XPath("//select[@name= 'selectedProject']//option[text()= '"+variable+"']");
+        }
         public readonly static By approver = By.XPath("//div[contains(@class= 'no-gutter')]//div[1]");
         public readonly static By invoiceFrom = By.XPath("//div[@class= 'row clearfix no-gutter']//div[2]");
         public readonly static By notes = By.XPath("//textarea[@placeholder= 'Enter notes for this invoice']");

@@ -355,7 +355,7 @@ namespace RallyTeam.TestScripts
             commonPage.ScrollDown();
             Thread.Sleep(2000);
             postProjectPage.EnterVendorName("LKO");
-            Thread.Sleep(2000);
+            Thread.Sleep(5000);
             commonPage.PressEnterKey();
             Thread.Sleep(5000);
             postProjectPage.ClickAddBtn();

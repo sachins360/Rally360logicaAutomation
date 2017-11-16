@@ -61,9 +61,8 @@ namespace RallyTeam.Util
         {
             try
             {
-                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
-               wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(locator));
-              
+               WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+               wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(locator));               
             }
             catch (Exception ex)
             {

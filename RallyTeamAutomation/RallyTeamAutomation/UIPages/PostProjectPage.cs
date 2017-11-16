@@ -355,6 +355,7 @@ namespace RallyTeam.UIPages
         //Click Settings Icon
         public void ClickSettingsIcon()
         {
+            _driver.CheckElementClickable(PostProjectUI.projectSettings);
             _driver.SafeClick(PostProjectUI.projectSettings);
         }
 
@@ -409,12 +410,14 @@ namespace RallyTeam.UIPages
         //Press Mark Complete button on Project About Page
         public void ClickMarkCompleteBtn()
         {
+            _driver.CheckElementClickable(PostProjectUI.aboutProjectMarkCompleteBtn);
             _driver.SafeClick(PostProjectUI.aboutProjectMarkCompleteBtn);
         }
 
         //Select Awesome Rating User1
         public void SelectAwesomeRatingUserOne()
         {
+            _driver.CheckElementClickable(PostProjectUI.markCompleteAwesomeMember1);
             _driver.SafeClick(PostProjectUI.markCompleteAwesomeMember1);
         }
 

@@ -147,7 +147,7 @@ namespace RallyTeam.UIPages
         //Click Publish Button
         public void ClickPublishBtn()
         {
-            _driver.WaitForElementAvailableAtDOM(JobsUI.publishBtn, 1);
+            _driver.CheckElementClickable(JobsUI.publishBtn);
             _driver.ClickElementUsingJS(JobsUI.publishBtn);
         }        
 
@@ -276,6 +276,7 @@ namespace RallyTeam.UIPages
         //Click the Job on Jobs Page
         public void ClickJobOnPage(String option)
         {
+            _driver.CheckElementClickable(MarketPlaceUI.jobTitleOnPage(option));
             _driver.ClickElementUsingJS(MarketPlaceUI.jobTitleOnPage(option));
         }
 
