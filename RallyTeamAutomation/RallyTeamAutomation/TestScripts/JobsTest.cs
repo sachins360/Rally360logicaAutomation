@@ -576,7 +576,7 @@ namespace RallyTeam.TestScripts
             PostNewJob(jobTitle);
             
             //Delete Project
-            DeleteJob();
+            //DeleteJob();
 
             //Navigate to the user inbox
             commonPage.NavigateToUrl("https://www.mailinator.com/");

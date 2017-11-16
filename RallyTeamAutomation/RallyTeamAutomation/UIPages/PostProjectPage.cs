@@ -410,13 +410,15 @@ namespace RallyTeam.UIPages
         //Press Mark Complete button on Project About Page
         public void ClickMarkCompleteBtn()
         {
+            _driver.CheckElementVisibility(PostProjectUI.aboutProjectMarkCompleteBtn);
             _driver.CheckElementClickable(PostProjectUI.aboutProjectMarkCompleteBtn);
-            _driver.SafeClick(PostProjectUI.aboutProjectMarkCompleteBtn);
+            _driver.ClickElementUsingJS(PostProjectUI.aboutProjectMarkCompleteBtn);
         }
 
         //Select Awesome Rating User1
         public void SelectAwesomeRatingUserOne()
         {
+            _driver.CheckElementVisibility(PostProjectUI.markCompleteAwesomeMember1);
             _driver.CheckElementClickable(PostProjectUI.markCompleteAwesomeMember1);
             _driver.SafeClick(PostProjectUI.markCompleteAwesomeMember1);
         }
@@ -424,6 +426,8 @@ namespace RallyTeam.UIPages
         //Select Awesome Rating User2
         public void SelectAwesomeRatingUserTwo()
         {
+            _driver.CheckElementVisibility(PostProjectUI.markCompleteAwesomeMember2);
+            _driver.CheckElementClickable(PostProjectUI.markCompleteAwesomeMember2);
             _driver.SafeClick(PostProjectUI.markCompleteAwesomeMember2);
         }
 
@@ -470,6 +474,7 @@ namespace RallyTeam.UIPages
         //Select Project Status
         public void SelectProjectStatus(string status)
         {
+            _driver.VerifyDropDownOption(PostProjectUI.projectStatusDropDownOption(status));
             _driver.SelectDropDownOption(status, PostProjectUI.projectStatusDropDown);
         }
 

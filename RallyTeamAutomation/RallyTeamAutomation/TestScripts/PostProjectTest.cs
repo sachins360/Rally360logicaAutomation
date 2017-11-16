@@ -957,8 +957,7 @@ namespace RallyTeam.TestScripts
             projectName = projectName + builder;
             PostNewProject(projectName);
 
-            //Click on Mark Complete button
-            Thread.Sleep(7000);
+            //Click on Mark Complete button            
             postProjectPage.ClickMarkCompleteBtn();
             log.Info("Click Mark Complete button.");
             Thread.Sleep(5000);

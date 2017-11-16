@@ -1340,6 +1340,8 @@ namespace RallyTeam.TestScripts
             PostNewProject(projectName);
 
             //Click on Mark Complete button
+            commonPage.ScrollUp();
+            Thread.Sleep(1000);
             postProjectPage.ClickMarkCompleteBtn();
             log.Info("Click Mark Complete button.");
             Thread.Sleep(5000);

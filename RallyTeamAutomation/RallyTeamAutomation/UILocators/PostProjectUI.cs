@@ -138,6 +138,10 @@ namespace RallyTeam.UILocators
         public readonly static By staffingInfoTab = By.XPath("//a[contains(text(), 'STAFFING INFO')]");
         public readonly static By saveBtn = By.XPath("//a[contains(text(), 'Save')]");
         public readonly static By projectStatusDropDown = By.XPath("//select[@ng-model='vm.project.status']");
+        public static By projectStatusDropDownOption(String variable)
+        {
+            return By.XPath("//select[@ng-model='vm.project.status']//option[text()= '"+variable+"']");
+        }
         public readonly static By projectOwnerDropDown = By.XPath("//div[4]//select");
 
         /*Projects Manage Team Page*/
