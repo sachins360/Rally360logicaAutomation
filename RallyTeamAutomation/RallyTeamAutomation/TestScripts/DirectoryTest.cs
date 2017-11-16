@@ -59,6 +59,8 @@ namespace RallyTeam.TestScripts
         public void DeleteTalentPool()
         {
             //Click Edit Talent Pool link
+            commonPage.ScrollUp();
+            Thread.Sleep(1000);
             directoryPage.ClickEditTalentPool();
             log.Info("Click Edit Talent Pool link");
             Thread.Sleep(3000);

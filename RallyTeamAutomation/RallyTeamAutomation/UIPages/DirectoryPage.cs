@@ -250,6 +250,7 @@ namespace RallyTeam.UIPages
         //Assert Role Name search is displayed
         public void VerifyUserContainerRoleName(String roleName)
         {
+            _driver.CheckElementVisibility(DirectoryUI.userContainerRoleName(roleName));
             _assertHelper.AssertElementDisplayed(DirectoryUI.userContainerRoleName(roleName));
         }
 
@@ -425,7 +426,7 @@ namespace RallyTeam.UIPages
         //Click Edit Talent Pool link
         public void ClickEditTalentPool()
         {
-            _driver.WaitForElementAvailableAtDOM(DirectoryUI.editTalentPool, 1);
+            _driver.CheckElementClickable(DirectoryUI.editTalentPool);
             _driver.SafeClick(DirectoryUI.editTalentPool);
         }
 

@@ -495,6 +495,7 @@ namespace RallyTeam.UIPages
         //Click the Project on Projects Page
         public void ClickProjectNameOnPage(String projectName)
         {
+            _driver.CheckElementClickable(MarketPlaceUI.ProjectNameOnPage(projectName));
             _driver.ClickElementUsingJS(MarketPlaceUI.ProjectNameOnPage(projectName));
         }
 

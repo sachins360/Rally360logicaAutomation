@@ -24,6 +24,7 @@ namespace RallyTeam.UIPages
         //Click on Marketplace tab
         public void ClickMarketplaceTab()
         {
+            _driver.CheckElementClickable(MarketPlaceUI.marketplaceTab);
             _driver.SafeClick(MarketPlaceUI.marketplaceTab);
         }
 
