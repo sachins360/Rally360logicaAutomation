@@ -67,7 +67,7 @@ namespace RallyTeam.TestScripts
             authenticationPage = new AuthenticationPage(_driver, _pageLoadTimeout);
             registrationPage = new RegistrationPage(_driver, _pageLoadTimeout);
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
-            //_driver.Manage().Window.Maximize();
+            _driver.Manage().Window.Maximize();
             _driver.Url = _externalStormURL;
             _driver.setTimeOut(_pageLoadTimeout);
 
@@ -114,7 +114,7 @@ namespace RallyTeam.TestScripts
                     //DesiredCapabilities capabilities = DesiredCapabilities.Chrome();
                     options.AddArguments("--disable-extensions");
                     options.AddArguments("-ignore-certificate-errors");
-                    options.AddArguments("start-maximized");
+                    //options.AddArguments("start-maximized");
                     options.AddArgument("test-type");
                     options.AddArguments("disable-infobars");
                     options.ToCapabilities();

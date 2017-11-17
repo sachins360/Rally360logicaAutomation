@@ -108,7 +108,7 @@ namespace RallyTeam.UILocators
 
         //Mailinator Elements
         public readonly static By mailinatorInputEmail = By.XPath("//input[@id= 'inboxfield']");
-        public readonly static By mailinatorJobInviteSubject = By.XPath("(//div[contains(text(), 'There is a new job opportunity available on the')])[2]");
+        public readonly static By mailinatorJobInviteSubject = By.XPath("(//div[contains(text(), 'There is a new job opportunity available on the')])[1]");
         public readonly static By mailinatorJobInviteViewJobBtn = By.XPath("//a[contains(text(), 'View Job')]");
         public static By mailinatorJobTitle(String var)
         {

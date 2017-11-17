@@ -948,7 +948,7 @@ namespace RallyTeam.TestScripts
         [Test]
         public void PostProject_006_CompleteProject()
         {
-            Global.MethodName = "PostProject_008_CompleteProject";
+            Global.MethodName = "PostProject_006_CompleteProject";
 
             //Post a new project
             StringBuilder builder = new StringBuilder();

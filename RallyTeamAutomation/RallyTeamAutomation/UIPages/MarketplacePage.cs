@@ -63,6 +63,8 @@ namespace RallyTeam.UIPages
         //Click the Project on Projects Page        
         public void ClickProjectSearchButton()
         {
+            _driver.CheckElementVisibility(MarketPlaceUI.projectSearchButton);
+            _driver.CheckElementClickable(MarketPlaceUI.projectSearchButton);
             _driver.ClickElementUsingJS(MarketPlaceUI.projectSearchButton);
         }
 
@@ -70,6 +72,8 @@ namespace RallyTeam.UIPages
         //Click the Project on Projects Page        
         public void ClickProjectNameOnPage(String projectName)
         {
+            _driver.CheckElementVisibility(ProjectsUI.ProjectNameOnPage(projectName));
+            _driver.CheckElementClickable(ProjectsUI.ProjectNameOnPage(projectName));            
             _driver.ClickElementUsingJS(ProjectsUI.ProjectNameOnPage(projectName));
         }
 

@@ -26,6 +26,5 @@ namespace RallyTeam.UILocators
 
         public readonly static By announcementPopup = By.XPath("//div[@class='rt-round-modal__header text-center ng-scope']");
         public readonly static By announcementCloseButton = By.XPath("//div[@class='text-center m-t-lg m-b-sm']//button");
-
     }
 }

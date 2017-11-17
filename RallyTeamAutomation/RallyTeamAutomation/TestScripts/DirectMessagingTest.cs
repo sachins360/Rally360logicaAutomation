@@ -275,12 +275,11 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
             directMessagingPage.EnterReplyTextArea("This is the reply message.");
             log.Info("Enter the reply message.");
-            Thread.Sleep(3000);
+            Thread.Sleep(1000);
 
             //Click Send button
             directMessagingPage.ClickReplySendBtn();
             log.Info("Click Send button.");
-            Thread.Sleep(5000);
         }
         /*
         [Test]
