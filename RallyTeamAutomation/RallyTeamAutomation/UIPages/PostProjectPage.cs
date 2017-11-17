@@ -412,7 +412,7 @@ namespace RallyTeam.UIPages
         {
             _driver.CheckElementVisibility(PostProjectUI.aboutProjectMarkCompleteBtn);
             _driver.CheckElementClickable(PostProjectUI.aboutProjectMarkCompleteBtn);
-            _driver.ClickElementUsingJS(PostProjectUI.aboutProjectMarkCompleteBtn);
+            _driver.ClickElementUsingAction(PostProjectUI.aboutProjectMarkCompleteBtn);
         }
 
         //Select Awesome Rating User1

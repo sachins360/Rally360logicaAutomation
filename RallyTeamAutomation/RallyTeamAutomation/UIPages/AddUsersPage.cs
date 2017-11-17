@@ -162,6 +162,8 @@ namespace RallyTeam.UIPages
         //Click Finish button
         public void ClickFinishBtn()
         {
+            _driver.CheckElementVisibility(AddUsersUI.finishBtn);
+            _driver.CheckElementClickable(AddUsersUI.finishBtn);
             _driver.SafeClick(AddUsersUI.finishBtn);
         }
 

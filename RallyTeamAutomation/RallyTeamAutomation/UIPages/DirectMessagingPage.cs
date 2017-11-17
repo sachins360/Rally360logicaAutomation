@@ -157,6 +157,8 @@ namespace RallyTeam.UIPages
         //Click Reply Message Window Send Button
         public void ClickReplySendBtn()
         {
+            _driver.CheckElementVisibility(DirectMessagingUI.replySendButton);
+            _driver.CheckElementClickable(DirectMessagingUI.replySendButton);
             _driver.SafeClick(DirectMessagingUI.replySendButton);
         }
 
