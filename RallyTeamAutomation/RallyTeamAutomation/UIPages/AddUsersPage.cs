@@ -460,6 +460,7 @@ namespace RallyTeam.UIPages
 
         public void EnterTopSkills(string skill)
         {
+            _driver.SafeClick(OnboardingUI.inputTopSkills);
             _driver.SafeEnterText(OnboardingUI.inputTopSkills, skill);
         }
 
@@ -539,6 +540,14 @@ namespace RallyTeam.UIPages
         {
             _driver.SafeClick(RegistrationUI.nextButton);
         }
+
+        public void ClickDiv()
+        {
+            _driver.ClickElementUsingAction(OnboardingUI.headerTitle);
+        }
+
+      
+
         //Enter skill and Click Next Button
         public void EnterSkillAndClickNextBtn(string skill)
         {

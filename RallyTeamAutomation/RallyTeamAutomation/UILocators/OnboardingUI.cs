@@ -24,6 +24,9 @@ namespace RallyTeam.UILocators
         public readonly static By verifyYourEmailBtn = By.XPath("//a[contains(text(),'Verify Your Email')]");
         //public readonly static By emailLink = By.XPath("//table[@class= 'twelve columns']//a[@class= 'need-a-link']");
         public readonly static By LetsGoBtn = By.XPath("//button[@type='submit']");
+
+        public readonly static By headerTitle = By.XPath("//div[@class='rt-standalone-page__title ng-binding']");
+
         public static By WelcomeUser(String variable)
         {
             return By.XPath("//div[contains(text(), 'Welcome " + variable + "!')]");

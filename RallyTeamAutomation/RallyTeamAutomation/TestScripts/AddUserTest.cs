@@ -28,17 +28,17 @@ namespace RallyTeam.TestScripts
         public string _browser = ConfigurationSettings.AppSettings["Browser"].ToLower();
         static ReadData readInviteUser = new ReadData("AddUser");
         public string _password = ConfigurationSettings.AppSettings["password"].ToString();
-        public string _workEmail = ConfigurationSettings.AppSettings["workEmail"].ToLower(); 
+        public string _workEmail = ConfigurationSettings.AppSettings["workEmail"].ToLower();
 
         String _Emailsubject = readInviteUser.GetValue("InviteEmailDetails", "emailSubject");
         String _EmailMessage = readInviteUser.GetValue("InviteEmailDetails", "emailMessage");
-        String _opportunitiesType= readInviteUser.GetValue("InviteEmailDetails", "opportunitiesType");
+        String _opportunitiesType = readInviteUser.GetValue("InviteEmailDetails", "opportunitiesType");
         String _availableTime = readInviteUser.GetValue("InviteEmailDetails", "availableTime");
 
         StringBuilder builder, builder2;
-        String email,email2;
+        String email, email2;
         #endregion
-        public AddUsersTest(string urlKey,string Browser) : base(urlKey, Browser)
+        public AddUsersTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
             String url = urlKey;
             //Environment = environment;
@@ -171,7 +171,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
-        public void verifyInviteMailFromMailinator(string _userEmail,string userId="User")
+        public void verifyInviteMailFromMailinator(string _userEmail, string userId = "User")
         {
             //Navigate to the user inbox
             commonPage.NavigateToUrl("https://www.harakirimail.com/");
@@ -180,7 +180,7 @@ namespace RallyTeam.TestScripts
 
             //Enter Harakirimail Email address
             addUsersPage.EnterHarakirimailEmail(_userEmail);
-            log.Info("Enter email"+ _userEmail + " address.");
+            log.Info("Enter email" + _userEmail + " address.");
             Thread.Sleep(2000);
 
             //Press Enter key
@@ -189,26 +189,26 @@ namespace RallyTeam.TestScripts
 
             //Verify the Email Sender
             addUsersPage.VerifyEmailSender();
-            log.Info("Verify the "+ userId + " Email Sender.");
+            log.Info("Verify the " + userId + " Email Sender.");
             Thread.Sleep(2000);
 
             //Verify the Email Subject
             addUsersPage.VerifyEmailSubject(_Emailsubject);
-            log.Info("Verify the "+ userId + " Email Subject.");
+            log.Info("Verify the " + userId + " Email Subject.");
             Thread.Sleep(5000);
 
             //Click the Email Subject
             addUsersPage.ClickEmailSubject(_Emailsubject);
-            log.Info("Click the "+ userId + " Email Subject.");
+            log.Info("Click the " + userId + " Email Subject.");
             Thread.Sleep(5000);
 
             //Verify the Email Get Started Button
             addUsersPage.VerifyEmailGetStartedBtn();
-            log.Info("Verify the "+ userId + " Email Get Started Button.");
+            log.Info("Verify the " + userId + " Email Get Started Button.");
 
-        }      
+        }
 
-        public void onBoardInviteUser(string skill= "Android")
+        public void onBoardInviteUser(string skill = "Android")
         {
             //Click Get Started button
             addUsersPage.ClickMailinatorEmailGetStartedBtn();
@@ -260,22 +260,29 @@ namespace RallyTeam.TestScripts
             log.Info("Click on next link.");
             Thread.Sleep(4000);
 
+          
+
             //Click on skip button    
             addUsersPage.ClickSkipBtn();
             log.Info("Click on skip link.");
             Thread.Sleep(4000);
 
+          
             //Enter Skill and Click on next button
             addUsersPage.EnterSkillAndClickNextBtn("Test");
             log.Info("Click on next link.");
             Thread.Sleep(4000);
+
+            commonPage.ScrollUp();
+            Thread.Sleep(4000);
+            addUsersPage.ClickDiv();
 
             //Enter Skills
             commonPage.ScrollDown();
             addUsersPage.EnterTopSkills(skill);
             Thread.Sleep(2000);
             commonPage.PressEnterKey();
-            Thread.Sleep(2000);        
+            Thread.Sleep(2000);
 
             //Click Done button on Profile
             commonPage.ScrollUp();
@@ -457,7 +464,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        
+
         public void AddUser_002_SendAndVerifyInviteEmail()
         {
             Global.MethodName = "AddUser_002_SendAndVerifyInviteEmail";
