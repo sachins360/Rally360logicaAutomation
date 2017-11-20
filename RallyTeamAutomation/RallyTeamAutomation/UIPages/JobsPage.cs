@@ -164,6 +164,12 @@ namespace RallyTeam.UIPages
             _assertHelper.AssertElementNotDisplayed(JobsUI.jobSettings);
         }
 
+        //Verify Settings Icon not displayed
+        public void VerifySettingsIconDisplayed()
+        {
+            _assertHelper.AssertElementDisplayed(JobsUI.jobSettings);
+        }
+
         //Select Job Option
         public void SelectJobOption(string option)
         {

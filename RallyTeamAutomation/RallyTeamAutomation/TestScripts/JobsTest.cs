@@ -310,6 +310,10 @@ namespace RallyTeam.TestScripts
             log.Info("Click the Job Title on the Jobs Tab.");
             Thread.Sleep(10000);
 
+            //Verify Settings option not displayed
+            jobsPage.VerifySettingsIconNotDisplayed();
+            log.Info("Verify Settings option not displayed.");
+
             //Click I'm Interested button
             jobsPage.ClickImInterestedBtn();
             log.Info("Click I'm Interested button displayed on screen.");
@@ -575,9 +579,6 @@ namespace RallyTeam.TestScripts
             jobTitle = jobTitle + builder;
             PostNewJob(jobTitle);
             
-            //Delete Project
-            //DeleteJob();
-
             //Navigate to the user inbox
             commonPage.NavigateToUrl("https://www.mailinator.com/");
             log.Info("Navigate to the mailinator site.");
@@ -675,10 +676,7 @@ namespace RallyTeam.TestScripts
             //Click Back button
             jobsPage.ClickJobsViewCandidatesBackBtn();
             log.Info("Click Back button.");
-
-            //Delete Project
-            //DeleteJob();
-
+            
             //Navigate to the user inbox
             commonPage.NavigateToUrl("https://www.mailinator.com/");
             log.Info("Navigate to the mailinator site.");
@@ -729,7 +727,7 @@ namespace RallyTeam.TestScripts
             log.Info("Click Settings Icon");
             Thread.Sleep(3000);
 
-            //Select Job Settings Option Promote Job
+            //Select Job Settings Option Edit Job Posting
             jobsPage.SelectJobOption("Edit Job Posting");
             log.Info("Select Promote Job option.");
             Thread.Sleep(3000);
@@ -757,6 +755,10 @@ namespace RallyTeam.TestScripts
             //Verify I'm Interested button gets displayed
             jobsPage.VerifyImInterestedBtnDisplayed();
             log.Info("Verify I'm Interested button gets displayed.");
+
+            //Verify Settings option still displayed as logged in user is Admin
+            jobsPage.VerifySettingsIconDisplayed();
+            log.Info("Verify Settings option still displayed as logged in user is Admin.");
 
             //Signout of the application
             Thread.Sleep(5000);
