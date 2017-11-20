@@ -28,7 +28,7 @@ namespace RallyTeam.UILocators
         //Results
         public static By userContainerUserName(String variable)
         {
-            return By.XPath("//div[contains(@class, 'rt-user')]//strong[contains(text(), '" + variable + "')]");
+            return By.XPath("//div[@class= 'rt-directory__results']//strong[contains(text(), '" + variable + "')]");
         }
         public static By vendorContainerVendorName(String variable)
         {
