@@ -97,7 +97,8 @@ namespace RallyTeam.TestScripts
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
 
             //if (!Browser.Contains("edge"))
-            _driver.Manage().Window.Maximize();         
+            if (!Browser.Contains("firefox"))
+                _driver.Manage().Window.Maximize();         
             _driver.Url = BaseUrl;
             _driver.setTimeOut(_pageLoadTimeout);
 
@@ -162,8 +163,8 @@ namespace RallyTeam.TestScripts
                     //chromeDriver.Manage().Window.Size = new Size(2200, 1200);
                     return chromeDriver;
                 case "firefox":
-                         //System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
-                   var driver= new FirefoxDriver();
+                    System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
+                    var driver= new FirefoxDriver();
                     driver.Manage().Window.Position = new Point(0, 0);
                     driver.Manage().Window.Size = new Size(2000, 1000);
                     return driver;
