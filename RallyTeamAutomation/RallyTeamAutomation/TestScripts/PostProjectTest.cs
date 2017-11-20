@@ -196,6 +196,11 @@ namespace RallyTeam.TestScripts
             log.Info("Click on next link.");
             Thread.Sleep(4000);
 
+            commonPage.ScrollUp();
+            Thread.Sleep(4000);
+            addUsersPage.ClickDiv();
+
+
             //Enter Skills
             commonPage.ScrollDown();
             addUsersPage.EnterTopSkills(skill);
@@ -209,6 +214,7 @@ namespace RallyTeam.TestScripts
             addUsersPage.ClickDoneBtn();
             log.Info("Click Done button.");
             Thread.Sleep(5000);
+
         }
         //SignIn
         private void SignInDifferentUser(String userName, String password)
