@@ -162,7 +162,7 @@ namespace RallyTeam.TestScripts
                     //chromeDriver.Manage().Window.Size = new Size(2200, 1200);
                     return chromeDriver;
                 case "firefox":
-                         System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
+                         //System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
                    var driver= new FirefoxDriver();
                     driver.Manage().Window.Position = new Point(0, 0);
                     driver.Manage().Window.Size = new Size(2000, 1000);
