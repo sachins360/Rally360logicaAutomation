@@ -49,6 +49,8 @@ namespace RallyTeam.UIPages
         //Click the Search button
         public void ClickSearchBtn()
         {
+            _driver.CheckElementVisibility(MarketPlaceUI.searchProjBtn);
+            _driver.CheckElementClickable(MarketPlaceUI.searchProjBtn);
             _driver.SafeClick(MarketPlaceUI.searchProjBtn);
         }
 

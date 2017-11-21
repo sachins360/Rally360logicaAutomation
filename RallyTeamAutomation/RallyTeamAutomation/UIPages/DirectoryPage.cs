@@ -386,7 +386,7 @@ namespace RallyTeam.UIPages
         //Enter Talent Pool Name
         public void EnterTalentPoolName(String option)
         {
-            _driver.WaitForElementAvailableAtDOM(DirectoryUI.nameTalentPool, 1);
+            _driver.CheckElementVisibility(DirectoryUI.nameTalentPool);
             _driver.MoveToElementUsingAction(DirectoryUI.nameTalentPool);
             _driver.SafeEnterText(DirectoryUI.nameTalentPool, option);
         }
