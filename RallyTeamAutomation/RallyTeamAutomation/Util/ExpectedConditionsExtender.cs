@@ -64,11 +64,11 @@ namespace RallyTeam.Util
                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
                wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(locator));               
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-               
+                throw new Exception(e.ToString());
             }
-           
+
         }
 
         //Expected condition to check element clickable
@@ -80,8 +80,9 @@ namespace RallyTeam.Util
                 wait.Until(ExpectedConditions.ElementToBeClickable(locator));
 
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
+                throw new Exception(e.ToString());
             }
         }
 

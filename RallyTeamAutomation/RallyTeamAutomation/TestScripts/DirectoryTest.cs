@@ -15,6 +15,7 @@ namespace RallyTeam.TestScripts
 {
     [TestFixture("ExternalStormURL", "chrome", Category = "DirectoryChromePreprod")]
     [TestFixture("ExternalStormURL", "firefox", Category = "DirectoryFirefoxPreprod")]
+    [TestFixture("ExternalStormURL", "ie", Category = "DirectoryIEPreprod")]
     [TestFixture("Production", "chrome", Category = "DirectoryChromeProduction")]
     [TestFixture("Production", "firefox", Category = "DirectoryFirefoxProduction")]
     [Parallelizable(ParallelScope.Fixtures)]

@@ -217,7 +217,7 @@ namespace RallyTeam.UIPages
         //Enter Endorsed By filter
         public void EnterEndorsedByFilter(String option)
         {
-            _driver.WaitForElementAvailableAtDOM(DirectoryUI.endorsedByFilter, 1);
+            _driver.CheckElementVisibility(DirectoryUI.endorsedByFilter);
             _driver.SafeEnterText(DirectoryUI.endorsedByFilter, option);
         }
 
@@ -251,7 +251,7 @@ namespace RallyTeam.UIPages
         public void VerifyUserContainerRoleName(String roleName)
         {
             _driver.CheckElementVisibility(DirectoryUI.userContainerRoleName(roleName));
-            _assertHelper.AssertElementDisplayed(DirectoryUI.userContainerRoleName(roleName));
+            //_assertHelper.AssertElementDisplayed(DirectoryUI.userContainerRoleName(roleName));
         }
 
         //Assert Initials is displayed
