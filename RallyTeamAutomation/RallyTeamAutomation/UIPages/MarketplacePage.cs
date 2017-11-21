@@ -54,6 +54,12 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(MarketPlaceUI.searchProjBtn);
         }
 
+        //Press Home Search button
+        public void ClickHomeSearchBtn()
+        {
+            _driver.SafeClick(MarketPlaceUI.searchBtn);
+        }
+
         //Select All Projects drop-down value
         public void SelectAllProjectsDropDown(String option)
         {

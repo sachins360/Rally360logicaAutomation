@@ -72,6 +72,12 @@ namespace RallyTeam.UIPages
             _driver.SelectDropDownOption(projectName, InvoicingUI.projectName);
         }
 
+        //Verify Project Name is not displayed
+        public void VerifyProjectNameNotDisplayed(String projectName)
+        {
+            _assertHelper.AssertElementNotDisplayed(InvoicingUI.projectNameOption(projectName));
+        }
+
         //Enter Invoice Notes
         public void EnterNotes(String notes)
         {
@@ -94,6 +100,12 @@ namespace RallyTeam.UIPages
         public void VerifyInvoiceDisplayed(String invoiceTitle)
         {
             _assertHelper.AssertElementDisplayed(InvoicingUI.invoiceDisplayed(invoiceTitle));
+        }
+
+        //Verify Invoice is not Displayed
+        public void VerifyInvoiceNotDisplayed(String invoiceTitle)
+        {
+            _assertHelper.AssertElementNotDisplayed(InvoicingUI.invoiceDisplayed(invoiceTitle));
         }
 
         //Verify Invoice Status

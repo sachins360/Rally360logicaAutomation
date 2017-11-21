@@ -237,21 +237,16 @@ namespace RallyTeam.TestScripts
             //Click the Marketplace tab
             marketplacePage.ClickMarketplaceTab();
             log.Info("Click the Marketplace tab.");
-            Thread.Sleep(5000);
-
-            //Click Browse button
-            marketplacePage.ClickBrowseBtn();
-            log.Info("Click Browse button.");
-            Thread.Sleep(5000);
+            Thread.Sleep(5000);            
 
             //Enter the Project Name
             postProjectPage.SearchProjectName(projectName);
             log.Info("Enter the project name.");
             Thread.Sleep(2000);
 
-            //Click Search button
-            marketplacePage.ClickSearchBtn();
-            log.Info("Click the Search button.");
+            //Click Home Search button
+            marketplacePage.ClickHomeSearchBtn();
+            log.Info("Click the Home Search button.");
             Thread.Sleep(12000);
 
             //Click the created Project

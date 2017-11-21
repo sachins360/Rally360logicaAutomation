@@ -36,7 +36,7 @@ namespace RallyTeam.UILocators
         }
         public static By userContainerRoleName(String variable)
         {
-            return By.XPath("//div[@class= 'rt-user-container']//div[contains(text(), '" + variable + "')]");
+            return By.XPath("//div[@class= 'rt-user-container']/div[contains(@class, 'tile-header') and contains(text(), '"+variable+"')]");
         }
         public static By userContainerInitials(String variable)
         {

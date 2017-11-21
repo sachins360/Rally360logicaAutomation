@@ -488,6 +488,7 @@ namespace RallyTeam.UIPages
         //Enter Project Name in Search field
         public void SearchProjectName(String projectName)
         {
+            _driver.CheckElementVisibility(MarketPlaceUI.searchText);
             _driver.SafeEnterText(MarketPlaceUI.searchText, projectName);
         }
 

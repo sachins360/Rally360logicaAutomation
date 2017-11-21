@@ -31,10 +31,8 @@ namespace RallyTeam.TestScripts
         static ReadData readPostProject = new ReadData("PostProject");
 
         //SignIn
-        private void SignInDifferentUser()
+        private void SignInDifferentUser(String userName, String password)
         {
-            String userName = readInvoicing.GetValue("SignInDifferentUser", "userName");
-            String password = readInvoicing.GetValue("SignInDifferentUser", "password");
             authenticationPage.SetUserName(userName);
             authenticationPage.SetPassword(password);
             authenticationPage.ClickOnLoginButton();
@@ -228,7 +226,9 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            SignInDifferentUser();
+            String userName = readInvoicing.GetValue("SignInDifferentUser", "userName");
+            String password = readInvoicing.GetValue("SignInDifferentUser", "password");
+            SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Click Invoicing menu option
@@ -314,7 +314,9 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(5000);
-            SignInDifferentUser();
+            String userName = readInvoicing.GetValue("SignInDifferentUser", "userName");
+            String password = readInvoicing.GetValue("SignInDifferentUser", "password");
+            SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Click Invoicing menu option
@@ -395,7 +397,9 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            SignInDifferentUser();
+            String userName = readInvoicing.GetValue("SignInDifferentUser", "userName");
+            String password = readInvoicing.GetValue("SignInDifferentUser", "password");
+            SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Click Invoicing menu option
@@ -493,7 +497,9 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(5000);
-            SignInDifferentUser();
+            String userName = readInvoicing.GetValue("SignInDifferentUser", "userName");
+            String password = readInvoicing.GetValue("SignInDifferentUser", "password");
+            SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Click Invoicing menu option
@@ -602,7 +608,9 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            SignInDifferentUser();
+            String userName = readInvoicing.GetValue("SignInDifferentUser", "userName");
+            String password = readInvoicing.GetValue("SignInDifferentUser", "password");
+            SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Click Invoicing menu option
@@ -794,9 +802,9 @@ namespace RallyTeam.TestScripts
         //}
 
         [Test]
-        public void Invoicing_007_DeleteDraftInvoice()
+        public void Invoicing_006_DeleteDraftInvoice()
         {
-            Global.MethodName = "Invoicing_007_DeleteDraftInvoice";
+            Global.MethodName = "Invoicing_006_DeleteDraftInvoice";
 
             //Post a new project
             StringBuilder builder = new StringBuilder();
@@ -812,7 +820,9 @@ namespace RallyTeam.TestScripts
 
             //Sign in with a different user
             Thread.Sleep(2000);
-            SignInDifferentUser();
+            String userName = readInvoicing.GetValue("SignInDifferentUser", "userName");
+            String password = readInvoicing.GetValue("SignInDifferentUser", "password");
+            SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 
             //Click Invoicing menu option
@@ -883,7 +893,203 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
+        [Test]
+        public void Invoicing_007_InvoiceForDraftProject()
+        {
+            //Post a new project
+            StringBuilder builder = new StringBuilder();
+            builder.Append(RandomString(6));
+            String projectName = "Z";
+            projectName = projectName + builder;
+            postProjectPage.ClickCreateProjectJobBtn();
+            Thread.Sleep(1000);
+            postProjectPage.ClickNewProject();
+            Thread.Sleep(5000);
 
+            //Enter the Project Name
+            postProjectPage.EnterProjectName(projectName);
+            Thread.Sleep(1000);
+
+            //Enter the Project Description
+            String projectDesc = readPostProject.GetValue("AddProjectDetails", "projectDesc");
+            postProjectPage.EnterProjectDescription(projectDesc);
+            Thread.Sleep(1000);
+
+            //Click Continue Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.ClickContinueBtn();
+            log.Info("Click on the Continue button.");
+            Thread.Sleep(5000);
+
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            postProjectPage.EnterMembersNeeded("5");
+            Thread.Sleep(1000);
+            String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
+            List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
+            int noOfMember = addMembersEmailList.Count;
+            foreach (String value in addMembersEmailList)
+            {
+                postProjectPage.EnterMemberName(value);
+                Thread.Sleep(2000);
+                commonPage.PressEnterKey();
+                Thread.Sleep(5000);
+                postProjectPage.ClickProjectAddBtn();
+                log.Info("Click Add button.");
+                Thread.Sleep(3000);
+            }
+
+            //Click Save Draft button
+            postProjectPage.ClickSaveDraftBtn();
+            log.Info("Click Save Draft button on Skills page.");
+            Thread.Sleep(5000);
+
+            //Click Invoicing menu option
+            Thread.Sleep(5000);
+            invoicingPage.ClickInvoicingMenu();
+            log.Info("Click the Invoicing menu.");
+
+            //Try to create Invoice
+            String invoiceTitle = readInvoicing.GetValue("InvoiceDetails", "invoiceTitle");
+            invoiceTitle = invoiceTitle + builder;
+
+            //Click New Invoice button
+            Thread.Sleep(5000);
+            invoicingPage.ClickNewInvoiceBtn();
+            log.Info("Click the New Invoice button.");
+
+            //Enter Invoice Title
+            Thread.Sleep(5000);
+            invoicingPage.EnterInvoiceTitle(invoiceTitle);
+            log.Info("Enter the Invoice Title.");
+            Thread.Sleep(5000);
+
+            //Verify Project Name is not displayed
+            invoicingPage.VerifyProjectNameNotDisplayed(projectName);
+            log.Info("Verify Project Name is not displayed.");
+            Thread.Sleep(2000);
+
+            //Signout of the application
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            //Sign in with a different user
+            Thread.Sleep(5000);
+            String userName = readInvoicing.GetValue("SignInDifferentUser", "userName");
+            String password = readInvoicing.GetValue("SignInDifferentUser", "password");
+            SignInDifferentUser(userName, password); ;
+            log.Info("Sign in with different user.");
+
+            //Click Invoicing menu option
+            Thread.Sleep(5000);
+            invoicingPage.ClickInvoicingMenu();
+            log.Info("Click the Invoicing menu.");
+
+            //Click New Invoice button
+            Thread.Sleep(5000);
+            invoicingPage.ClickNewInvoiceBtn();
+            log.Info("Click the New Invoice button.");
+
+            //Enter Invoice Title
+            Thread.Sleep(5000);
+            invoicingPage.EnterInvoiceTitle(invoiceTitle);
+            log.Info("Enter the Invoice Title.");
+            Thread.Sleep(5000);
+
+            //Verify Project Name is not displayed
+            invoicingPage.VerifyProjectNameNotDisplayed(projectName);
+            log.Info("Verify Project Name is not displayed.");
+            Thread.Sleep(2000);            
+        }
+
+        [Test]
+        public void Invoicing_008_InvoiceNotVisisbleToOthers()
+        {
+            //Post a new project
+            StringBuilder builder = new StringBuilder();
+            builder.Append(RandomString(6));
+            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+            projectName = projectName + builder;
+            PostNewProject(projectName);
+
+            //Signout of the application
+            Thread.Sleep(5000);
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            //Sign in with a different user
+            Thread.Sleep(5000);
+            String userName = readInvoicing.GetValue("SignInOtherMember", "userName");
+            String password = readInvoicing.GetValue("SignInOtherMember", "password");
+            SignInDifferentUser(userName, password);
+            log.Info("Sign in with different user.");
+
+            //Click Invoicing menu option
+            Thread.Sleep(5000);
+            invoicingPage.ClickInvoicingMenu();
+            log.Info("Click the Invoicing menu.");
+
+            //Create Invoice
+            String invoiceTitle = readInvoicing.GetValue("InvoiceDetails", "invoiceTitle");
+            invoiceTitle = invoiceTitle + builder;
+            CreateInvoice(invoiceTitle, projectName);
+
+            //Click Submit button
+            invoicingPage.ClickSubmitBtn();
+            log.Info("Click Submit button.");
+            Thread.Sleep(5000);
+            
+            //Signout of the application
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            //Sign in with a different user
+            Thread.Sleep(5000);
+            userName = readInvoicing.GetValue("SignInDifferentUser", "userName");
+            password = readInvoicing.GetValue("SignInDifferentUser", "password");
+            SignInDifferentUser(userName, password); ;
+            log.Info("Sign in with different user.");
+
+            //Click Invoicing menu option
+            Thread.Sleep(5000);
+            invoicingPage.ClickInvoicingMenu();
+            log.Info("Click the Invoicing menu.");
+
+            //Verify Invoice is not displayed
+            invoicingPage.VerifyInvoiceNotDisplayed(invoiceTitle);
+            log.Info("Verify Invoice is not displayed.");
+            Thread.Sleep(1000);
+
+            //Signout of the application
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            //Login to the application
+            Thread.Sleep(5000);
+            authenticationPage.SetUserName(_workEmail);
+            authenticationPage.SetPassword(_password);
+            authenticationPage.ClickOnLoginButton();
+
+            //Enter the Project Name
+            Thread.Sleep(5000);
+            postProjectPage.SearchProjectName(projectName);
+            log.Info("Enter the project name.");
+            Thread.Sleep(1000);
+
+            //Click Search button
+            postProjectPage.ClickSearchBtn();
+            log.Info("Click the Search button.");
+            Thread.Sleep(15000);
+
+            //Click the created project
+            postProjectPage.ClickProjectNameOnPage(projectName);
+            log.Info("Click the Project Name on the Projects Page.");
+            Thread.Sleep(10000);
+
+            //Delete Project
+            DeleteProject();
+        }
 
     }
 }

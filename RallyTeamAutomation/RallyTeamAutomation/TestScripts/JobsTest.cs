@@ -604,8 +604,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
 
             //Verify the Job Title
-            jobsPage.VerifyJobEmailTitle(jobTitle);
-            log.Info("Verify Job Title in Invite Job Email.");
+            //jobsPage.VerifyJobEmailTitle(jobTitle);
+            //log.Info("Verify Job Title in Invite Job Email.");
 
             //Verify the Job View Job Button
             commonPage.ScrollDown();
