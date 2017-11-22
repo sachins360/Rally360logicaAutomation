@@ -66,7 +66,7 @@ namespace RallyTeam.TestScripts
             String invoiceTotal = readInvoicing.GetValue("InvoiceDetails", "invoiceTotal");
             invoicingPage.EnterInvoiceTotal(invoiceTotal);
             log.Info("Enter the Invoice Total Amount");
-            Thread.Sleep(1000);
+            Thread.Sleep(5000);
 
             //Select Project
             invoicingPage.SelectProject(projectName);

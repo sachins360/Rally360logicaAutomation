@@ -519,10 +519,10 @@ namespace RallyTeam.TestScripts
             log.Info("Enter the project name.");
             Thread.Sleep(1000);
 
-            //Select Projects in Recruiting from the All Projects drop-down
+            //Click Search button on Marketplace Projects page
             marketplacePage.ClickProjectSearchButton();
-            log.Info("Select Projects in Recruiting.");
-            Thread.Sleep(5000);
+            log.Info("Click Search button on Marketplace Projects page.");
+            Thread.Sleep(10000);
 
             //Click the created Project
             marketplacePage.ClickProjectNameOnPage(projectName);

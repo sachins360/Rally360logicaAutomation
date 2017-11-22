@@ -68,7 +68,7 @@ namespace RallyTeam.UIPages
         //Select The Project
         public void SelectProject(String projectName)
         {
-            _driver.VerifyDropDownOption(InvoicingUI.projectNameOption(projectName));
+            //_driver.VerifyDropDownOption(InvoicingUI.projectNameOption(projectName));
             _driver.SelectDropDownOption(projectName, InvoicingUI.projectName);
         }
 

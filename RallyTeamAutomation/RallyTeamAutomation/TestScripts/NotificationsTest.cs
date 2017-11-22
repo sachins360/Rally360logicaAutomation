@@ -202,7 +202,7 @@ namespace RallyTeam.TestScripts
 
             //Change Project Owner
             commonPage.HalfScrollDown(400);
-            Thread.Sleep(1000);
+            Thread.Sleep(7000);
             String addMembersName = readNotifications.GetValue("AddProjectDetails", "memberName");
             List<String> addMembersNameList = addMembersName.Split(',').ToList();
             postProjectPage.SelectProjectOwner(addMembersNameList[0]);
