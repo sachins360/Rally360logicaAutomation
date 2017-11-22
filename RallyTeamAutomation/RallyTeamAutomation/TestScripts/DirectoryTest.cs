@@ -513,6 +513,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify searched user is displayed.");
 
             //Verify User container Role Name is displayed
+            Thread.Sleep(3000);
             directoryPage.VerifyUserContainerRoleName("Employee");
             log.Info("Verify searched user Role Name is displayed.");
 

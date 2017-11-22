@@ -250,8 +250,7 @@ namespace RallyTeam.UIPages
         //Assert Role Name search is displayed
         public void VerifyUserContainerRoleName(String roleName)
         {
-            _driver.CheckElementVisibility(DirectoryUI.userContainerRoleName(roleName));
-            //_assertHelper.AssertElementDisplayed(DirectoryUI.userContainerRoleName(roleName));
+            _assertHelper.AssertElementDisplayed(DirectoryUI.userContainerRoleName(roleName));
         }
 
         //Assert Initials is displayed

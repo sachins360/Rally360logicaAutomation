@@ -386,6 +386,7 @@ namespace RallyTeam.UIPages
         //Click Save Button
         public void ClickSaveBtn()
         {
+            _driver.CheckElementClickable(PostProjectUI.saveBtn);
             _driver.SafeClick(PostProjectUI.saveBtn);
         }
 
