@@ -127,7 +127,7 @@ namespace RallyTeam.UIPages
         //Click on the Sign out link
         public void SignOut()
         {
-            _driver.CheckElementVisibility(DashboardUI.userIcon);
+            //_driver.CheckElementVisibility(DashboardUI.userIcon);
             _driver.ScrollWindowToElement(DashboardUI.userIcon);
             _driver.ClickElementUsingAction(DashboardUI.userIcon);
             Thread.Sleep(2000);

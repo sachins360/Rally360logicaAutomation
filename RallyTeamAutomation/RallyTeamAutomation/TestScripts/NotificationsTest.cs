@@ -198,7 +198,7 @@ namespace RallyTeam.TestScripts
             //Select Project Settings Option
             postProjectPage.SelectProjectOption("Edit Project");
             log.Info("Select Edit Project option.");
-            Thread.Sleep(3000);
+            Thread.Sleep(5000);
 
             //Change Project Owner
             commonPage.HalfScrollDown(400);

@@ -481,7 +481,6 @@ namespace RallyTeam.UIPages
         //Select Project Owner
         public void SelectProjectOwner(string owner)
         {
-            _driver.CheckElementVisibility(PostProjectUI.projectOwnerDropDown);
             _driver.SelectDropDownOption(owner, PostProjectUI.projectOwnerDropDown);
         }
 
