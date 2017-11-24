@@ -198,11 +198,11 @@ namespace RallyTeam.TestScripts
             //Select Project Settings Option
             postProjectPage.SelectProjectOption("Edit Project");
             log.Info("Select Edit Project option.");
-            Thread.Sleep(5000);
+            Thread.Sleep(10000);
 
             //Change Project Owner
             commonPage.HalfScrollDown(400);
-            Thread.Sleep(7000);
+            Thread.Sleep(10000);
             String addMembersName = readNotifications.GetValue("AddProjectDetails", "memberName");
             List<String> addMembersNameList = addMembersName.Split(',').ToList();
             postProjectPage.SelectProjectOwner(addMembersNameList[0]);

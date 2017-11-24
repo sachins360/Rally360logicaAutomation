@@ -11,6 +11,7 @@
  ===============================================================================================================================*/
 
 using OpenQA.Selenium;
+using NUnit.Framework;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.ObjectModel;

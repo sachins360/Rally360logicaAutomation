@@ -153,6 +153,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
+        [Retry(2)]
         public void Directory_001_VerifyDirectoryPage()
         {
             //Click Directory Tab

@@ -615,6 +615,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
+        [CustomRetry(2)]
         public void Jobs_006_VerifyNotificationPromoteJob()
         {
             //Post a new project
