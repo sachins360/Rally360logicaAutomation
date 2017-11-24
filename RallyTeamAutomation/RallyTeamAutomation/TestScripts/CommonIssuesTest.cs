@@ -34,7 +34,7 @@ namespace RallyTeam.TestScripts
             authenticationPage.ClickOnLoginButton();
         }
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void CommonIssues_001_VerifyDeactivatedUserLogin()
         {
             Global.MethodName = "CommonIssues_001_VerifyDeactivatedUserLogin";
@@ -81,7 +81,7 @@ namespace RallyTeam.TestScripts
             commonIssuePage.VerifyDeactivateUserMsg();
         }
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void CommonIssues_002_VerifyNoErrorOnOpeningUserProfile()
         {
             Global.MethodName = "CommonIssues_002_VerifyNoErrorOnOpeningUserProfile";

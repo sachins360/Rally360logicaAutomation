@@ -417,7 +417,7 @@ namespace RallyTeam.TestScripts
         }
         #endregion
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void AddUser_001_VerifyInviteUserWindow()
         {
             Global.MethodName = "AddUser_001_VerifyInviteUserWindow";
@@ -463,8 +463,7 @@ namespace RallyTeam.TestScripts
             //log.Info("Verify Create Profile button.");
         }
 
-        [Test]
-
+        [Test, CustomRetry(2)]
         public void AddUser_002_SendAndVerifyInviteEmail()
         {
             Global.MethodName = "AddUser_002_SendAndVerifyInviteEmail";
@@ -489,7 +488,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(3000);
         }
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void AddUser_003_OnboardWithInvitedUser()
         {
             Global.MethodName = "AddUser_003_OnboardWithInvitedUser";
@@ -508,7 +507,7 @@ namespace RallyTeam.TestScripts
 
         }
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void AddUser_004_SendAndVerifyInviteEmailMultipleUsers()
         {
             Global.MethodName = "AddUser_004_SendAndVerifyInviteEmailMultipleUsers";
@@ -798,7 +797,7 @@ namespace RallyTeam.TestScripts
         //    log.Info("Verify the LinkedIn button disabled.");
         //}
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void AddUser_007_CreateProfile()
         {
             Global.MethodName = "AddUser_007_CreateProfile";
@@ -862,7 +861,7 @@ namespace RallyTeam.TestScripts
 
         //}
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void AddUser_009_CannotInviteRegisteredUser()
         {
             Global.MethodName = "AddUser_009_CannotInviteRegisteredUser";
@@ -907,7 +906,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(3000);
         }
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void AddUser_010_CannotInviteToInvalidEmailId()
         {
             Global.MethodName = "AddUser_010_CannotInviteToInvalidEmailId";
@@ -951,7 +950,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(3000);
         }
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void AddUser_011_VerifyInvitedEmailNotAskingVerifyCode()
         {
             Global.MethodName = "AddUser_011_VerifyInviteEmailNotAskingVerifyCode";
@@ -976,7 +975,7 @@ namespace RallyTeam.TestScripts
 
         }
 
-        [Test]
+        [Test, CustomRetry(2)]
         public void AddUser_0012_CreateProfileUserDoesRecciveInvitation()
         {
             Global.MethodName = "AddUser_0012_CreateProfileUserDoesnotRecciveInvitation";
