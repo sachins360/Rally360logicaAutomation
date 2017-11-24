@@ -216,7 +216,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
             postProjectPage.ClickSaveBtn();
             log.Info("Click on the Save button.");
-            Thread.Sleep(5000);
+            Thread.Sleep(7000);
                         
             //Signout of the application
             authenticationPage.SignOut();
@@ -1519,7 +1519,7 @@ namespace RallyTeam.TestScripts
             //Click on Mark Complete button
             postProjectPage.ClickMarkCompleteBtn();
             log.Info("Click Mark Complete button.");
-            Thread.Sleep(5000);
+            Thread.Sleep(10000);
 
             //Select Awesome rating for user1
             postProjectPage.SelectAwesomeRatingUserOne();

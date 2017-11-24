@@ -387,7 +387,7 @@ namespace RallyTeam.UIPages
         public void ClickSaveBtn()
         {
             _driver.CheckElementClickable(PostProjectUI.saveBtn);
-            _driver.SafeClick(PostProjectUI.saveBtn);
+            _driver.ClickElementUsingAction(PostProjectUI.saveBtn);
         }
 
         //Click Remove Member Icon
