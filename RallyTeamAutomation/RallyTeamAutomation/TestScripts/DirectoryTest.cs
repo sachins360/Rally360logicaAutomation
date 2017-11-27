@@ -1362,6 +1362,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Click Add Talent Pool Icon
+            commonPage.ScrollUp();
+            Thread.Sleep(1000);
             directoryPage.ClickAddTalentPoolIcom();
             log.Info("Click Add Talent Pool Icon.");
             Thread.Sleep(3000);
