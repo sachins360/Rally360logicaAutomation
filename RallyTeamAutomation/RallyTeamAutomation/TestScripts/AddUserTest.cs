@@ -368,7 +368,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
             commonPage.PressEnterKey();
             Thread.Sleep(2000);
-            commonPage.HalfScrollDown(700);
+            commonPage.HalfScrollDown(800);
             Thread.Sleep(2000);
 
             //Enter Other Skills
