@@ -427,6 +427,7 @@ namespace RallyTeam.UIPages
         //Verify the added user
         public void VerifyAddedUserName(string fullName)
         {
+            _driver.CheckElementVisibility(AddUsersUI.addedUserName(fullName));
             _assertHelper.AssertElementDisplayed(AddUsersUI.addedUserName(fullName));
         }
 
