@@ -323,7 +323,7 @@ namespace RallyTeam.UIPages
         //Click Add Talent Pool Icon
         public void ClickAddTalentPoolIcom()
         {
-            _driver.SafeClick(DirectoryUI.talentPoolPlusIcon);
+            _driver.ClickElementUsingAction(DirectoryUI.talentPoolPlusIcon);
         }
 
         //Enter Talent Pool Skills
