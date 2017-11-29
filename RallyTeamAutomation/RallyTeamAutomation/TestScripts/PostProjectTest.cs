@@ -1551,7 +1551,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void PostProject_017_VerifyAdminCanAccessPrivateProject()
+        public void PostProject_015_VerifyAdminCanAccessPrivateProject()
         {
             //Post a new project
             StringBuilder builder = new StringBuilder();
@@ -1599,7 +1599,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void PostProject_018_ChangeFromPrivateToPublicAndVerify()
+        public void PostProject_016_ChangeFromPrivateToPublicAndVerify()
         {            
             //Post a new project
             StringBuilder builder = new StringBuilder();
@@ -1683,7 +1683,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void PostProject_019_PromoteProject()
+        public void PostProject_017_PromoteProject()
         {
             //Post a new project
             StringBuilder builder = new StringBuilder();
@@ -1726,7 +1726,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void PostProject_020_AddMembersAfterProjectCreationAndVerify()
+        public void PostProject_018_AddMembersAfterProjectCreationAndVerify()
         {
             Global.MethodName = "PostProject_020_AddMembersAfterProjectCreationAndVerify";
 
@@ -1782,7 +1782,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void PostProject_021_UserLeaveProject()
+        public void PostProject_019_UserLeaveProject()
         {
             //Post a new project
             StringBuilder builder = new StringBuilder();
@@ -1859,7 +1859,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void PostProject_022_VerifyDraftProjectCanSeenOnlyToPO()
+        public void PostProject_020_VerifyDraftProjectCanSeenOnlyToPO()
         {
             //Post a new project
             StringBuilder builder = new StringBuilder();
@@ -1947,7 +1947,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void PostProject_023_VerifyPrivatePromoteProject()
+        public void PostProject_021_VerifyPrivatePromoteProject()
         {
             //Onboard a new User
             Global.MethodName = "PostProject_023_VerifyPrivatePromoteProject";
@@ -2097,7 +2097,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void PostProject_024_VendorStaffedProjectVisibleToAddedVendorOnly()
+        public void PostProject_022_VendorStaffedProjectVisibleToAddedVendorOnly()
         {
             //Post a new project
             StringBuilder builder = new StringBuilder();

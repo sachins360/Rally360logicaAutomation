@@ -346,15 +346,7 @@ namespace RallyTeam.TestScripts
 
             //Delete Project
             DeleteProject();
-        }
-
-
-        //Recommended Projects
-        //Development Projects
-        //Projects In Progress
-        //Completed Projects
-        //Closed Projects
-        //Projects Needing Approval
+        }       
 
         [Test, CustomRetry(2)]
         public void Marketplace_003_VerifyProjectsNeedingApprovalSearch()
@@ -427,51 +419,10 @@ namespace RallyTeam.TestScripts
 
             //Delete Project
             DeleteProject();
-        }
-
-        //[Test]
-        //public void Marketplace_004_VerifyProjectsIOwnSearch()
-        //{
-        //    Global.MethodName = "Marketplace_004_VerifyProjectsIOwnSearch";
-
-        //    //Post a new project
-        //    StringBuilder builder = new StringBuilder();
-        //    builder.Append(RandomString(6));
-        //    String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
-        //    projectName = projectName + builder;
-        //    PostNewProject(projectName);
-
-        //    //Click the Marketplace tab
-        //    marketplacePage.ClickMarketplaceTab();
-        //    log.Info("Click the Marketplace tab.");
-        //    Thread.Sleep(5000);
-
-        //    //Click the Browse button
-        //    marketplacePage.ClickBrowseBtn();
-        //    log.Info("Click the Browse button.");
-        //    Thread.Sleep(5000);
-
-        //    //Enter the Project Name            
-        //    marketplacePage.EnterSearchField(projectName);
-        //    log.Info("Enter the project name.");
-        //    Thread.Sleep(1000);
-
-        //    //Select My Projects from the All Projects drop-down
-        //    marketplacePage.SelectAllProjectsDropDown("Projects I Own");
-        //    log.Info("Select My Projects from the drop-down.");
-        //    Thread.Sleep(5000);
-
-        //    //Click the created Project
-        //    marketplacePage.ClickProjectNameOnPage(projectName);
-        //    log.Info("Click the Project Name on the Projects Page.");
-        //    Thread.Sleep(5000);
-
-        //    //Delete Project
-        //    DeleteProject();
-        //}
+        }       
 
         [Test, CustomRetry(2)]
-        public void Marketplace_005_VerifyRecruitingProjectsSearch()
+        public void Marketplace_004_VerifyRecruitingProjectsSearch()
         {
             Global.MethodName = "Marketplace_005_VerifyRecruitingProjectsSearch";
 
@@ -534,7 +485,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void Marketplace_006_VerifyRecommendedProjectsSearch()
+        public void Marketplace_005_VerifyRecommendedProjectsSearch()
         {
             Global.MethodName = "Marketplace_006_VerifyRecommendedProjectsSearch";
 
@@ -618,7 +569,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void Marketplace_007_VerifyInProgressProjectsSearch()
+        public void Marketplace_006_VerifyInProgressProjectsSearch()
         {
             Global.MethodName = "Marketplace_007_VerifyInProgressProjectsSearch";
 
@@ -681,7 +632,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void Marketplace_008_VerifyCompletedProjectsSearch()
+        public void Marketplace_007_VerifyCompletedProjectsSearch()
         {
             Global.MethodName = "Marketplace_008_VerifyCompletedProjectsSearch";
 
@@ -765,7 +716,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void Marketplace_009_VerifyClosedProjectsSearch()
+        public void Marketplace_008_VerifyClosedProjectsSearch()
         {
             Global.MethodName = "Marketplace_009_VerifyClosedProjectsSearch";
 
@@ -826,7 +777,46 @@ namespace RallyTeam.TestScripts
             //Delete Project
             DeleteProject();
         }
-        
 
+        //[Test]
+        //public void Marketplace_009_VerifyProjectsIOwnSearch()
+        //{
+        //    Global.MethodName = "Marketplace_004_VerifyProjectsIOwnSearch";
+
+        //    //Post a new project
+        //    StringBuilder builder = new StringBuilder();
+        //    builder.Append(RandomString(6));
+        //    String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+        //    projectName = projectName + builder;
+        //    PostNewProject(projectName);
+
+        //    //Click the Marketplace tab
+        //    marketplacePage.ClickMarketplaceTab();
+        //    log.Info("Click the Marketplace tab.");
+        //    Thread.Sleep(5000);
+
+        //    //Click the Browse button
+        //    marketplacePage.ClickBrowseBtn();
+        //    log.Info("Click the Browse button.");
+        //    Thread.Sleep(5000);
+
+        //    //Enter the Project Name            
+        //    marketplacePage.EnterSearchField(projectName);
+        //    log.Info("Enter the project name.");
+        //    Thread.Sleep(1000);
+
+        //    //Select My Projects from the All Projects drop-down
+        //    marketplacePage.SelectAllProjectsDropDown("Projects I Own");
+        //    log.Info("Select My Projects from the drop-down.");
+        //    Thread.Sleep(5000);
+
+        //    //Click the created Project
+        //    marketplacePage.ClickProjectNameOnPage(projectName);
+        //    log.Info("Click the Project Name on the Projects Page.");
+        //    Thread.Sleep(5000);
+
+        //    //Delete Project
+        //    DeleteProject();
+        //}
     }
 }
