@@ -86,6 +86,22 @@ namespace RallyTeam.Util
             }
         }
 
+        //Expected condition to check visibility of element
+        public static void CheckElementDisabled(this IWebDriver driver, By locator)
+        {
+            try
+            {
+                bool b = driver.FindElement(locator).Enabled;
+                if(b)
+                    throw new Exception();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.ToString());
+            }
+
+        }
+
         //Expected condition that is fulfilled by the element with the specified locator being found.
         public static bool IsElementPresent(this IWebDriver driver, By locator)
         {

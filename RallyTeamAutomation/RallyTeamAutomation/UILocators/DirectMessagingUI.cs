@@ -26,6 +26,7 @@ namespace RallyTeam.UILocators
         public readonly static By toTextInput = By.XPath("//div[@class= 'modal-content']//input[@placeholder= 'Add user']");
         public readonly static By textArea = By.XPath("//textarea[@name= 'body']");
         public readonly static By sendButton = By.XPath("//div[@class= 'modal-content']//button[@type= 'submit']//strong[text()= 'Send']");
+        public readonly static By sendBtnDisabled = By.XPath("//div[@class= 'modal-content']//button[@type= 'submit' and @disabled= 'disabled']");
         public readonly static By attachmentIcon = By.XPath("//div[@class= 'modal-content']//i[@class= 'fa fa-paperclip']");
         public readonly static By closeIcon = By.XPath("//div[@class= 'modal-content']//i[@class= 'fa fa-times']");
 

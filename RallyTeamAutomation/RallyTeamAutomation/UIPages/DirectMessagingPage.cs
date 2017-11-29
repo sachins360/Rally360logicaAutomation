@@ -124,6 +124,12 @@ namespace RallyTeam.UIPages
             _driver.SafeClick(DirectMessagingUI.sendButton);
         }
 
+        //Verify New Message Window Send Button is disabled
+        public void VerifySendBtnDisabledisDisplayed()
+        {
+            _assertHelper.AssertElementDisplayed(DirectMessagingUI.sendBtnDisabled);
+        }
+
         //Assert New Message Window Attachment icon displayed
         public void VerifyAttachmentIcon()
         {

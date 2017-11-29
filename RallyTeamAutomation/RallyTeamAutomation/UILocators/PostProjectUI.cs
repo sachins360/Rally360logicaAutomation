@@ -148,6 +148,7 @@ namespace RallyTeam.UILocators
         public readonly static By manageTeamSaveBtn = By.XPath("//button[contains(text(), 'Save')]");
         public readonly static By manageTeamAcceptIcon = By.XPath("//i[2]");
         public readonly static By manageTeamRejectIcon = By.XPath("//a[2]/span/i[2]");
+        public readonly static By manageMyTeamLabel = By.XPath("//div[text()= 'Manage My Team']");
 
         /*Projects Promote Project Page*/
         public readonly static By promoteBtn = By.XPath("//button[contains(text(), 'Promote')]");

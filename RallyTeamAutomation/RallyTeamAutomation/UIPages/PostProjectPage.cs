@@ -408,6 +408,12 @@ namespace RallyTeam.UIPages
             _driver.ClickElementUsingJS(PostProjectUI.manageTeamSaveBtn);
         }
 
+        //Verify Manage Team Page Displayed
+        public void VerifyManageTeamPageDisplayed()
+        {
+            _assertHelper.AssertElementDisplayed(PostProjectUI.manageMyTeamLabel);
+        }
+
         //Press Mark Complete button on Project About Page
         public void ClickMarkCompleteBtn()
         {
