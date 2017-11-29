@@ -622,10 +622,203 @@ namespace RallyTeam.TestScripts
             ////Verify the Email Get Started Button
             //addUsersPage.VerifyEmailGetStartedBtn();
             //log.Info("Verify the Email Get Started Button.");
+        }        
+
+        [Test, CustomRetry(2)]
+        public void AddUser_005_CreateProfile()
+        {
+            Global.MethodName = "AddUser_007_CreateProfile";
+            Thread.Sleep(5000);
+            GoToAddUser();
+
+            //Create User Profile
+            createUserProfile();
+
+            //Verify the added user
+            addUsersPage.VerifyAddedUserName(builder.ToString() + " " + builder.ToString());
+            log.Info("Verify the added user Full Name.");
+            Thread.Sleep(1000);
+        }        
+
+        [Test, CustomRetry(2)]
+        public void AddUser_006_CannotInviteRegisteredUser()
+        {
+            Global.MethodName = "AddUser_009_CannotInviteRegisteredUser";
+            Thread.Sleep(5000);
+            GoToAddUser();
+
+            if (_browser == "edge")
+                addUsersPage.PressEmailBtn();
+            else
+                addUsersPage.ClickEmailBtn();
+            log.Info("Click Email button.");
+            Thread.Sleep(5000);
+
+            //Enter Email Address
+            email = "ammark@360logica.com";
+            addUsersPage.EnterEmailAddresses(email);
+            log.Info("Enter Email Address.");
+            commonPage.PressEnterKey();
+            commonPage.PressEnterKey();
+            Thread.Sleep(2000);
+
+            //Click Add Users button
+            addUsersPage.ClickEmailAddUsersBtn();
+            log.Info("Click Add Users button.");
+            Thread.Sleep(5000);
+
+            //Enter the invite emaail subject and message
+            addUsersPage.EnterEmailSubjectAndMessage(_Emailsubject, _EmailMessage);
+            log.Info("Enter Email Subject.");
+            commonPage.PressTabKey();
+            Thread.Sleep(2000);
+
+
+            //click on send invite button   
+            addUsersPage.ClickSendInviteBtn();
+            log.Info("Click Send Invite button.");
+            Thread.Sleep(5000);
+
+            //Verify no user should uploaded
+            addUsersPage.VerifyUploadedUser();
+            log.Info("Verify 0 user should uploaded");
+            Thread.Sleep(3000);
+        }
+
+        [Test, CustomRetry(2)]
+        public void AddUser_007_CannotInviteToInvalidEmailId()
+        {
+            Global.MethodName = "AddUser_010_CannotInviteToInvalidEmailId";
+            Thread.Sleep(5000);
+            GoToAddUser();
+
+            //Click Email button
+            if (_browser == "edge")
+                addUsersPage.PressEmailBtn();
+            else
+                addUsersPage.ClickEmailBtn();
+            log.Info("Click Email button.");
+            Thread.Sleep(5000);
+
+            //Enter Email Address            
+            addUsersPage.EnterEmailAddresses("sachins@360logica");
+            log.Info("Enter Invalid Email Address.");
+            commonPage.PressTabKey();
+            Thread.Sleep(2000);
+
+            //Click Add Users button
+            addUsersPage.ClickEmailAddUsersBtn();
+            log.Info("Click Add Users button.");
+            Thread.Sleep(5000);
+
+            //Enter the invite emaail subject and message
+            addUsersPage.EnterEmailSubjectAndMessage(_Emailsubject, _EmailMessage);
+            log.Info("Enter Email Subject.");
+            commonPage.PressTabKey();
+            Thread.Sleep(2000);
+
+
+            //click on send invite button   
+            addUsersPage.ClickSendInviteBtn();
+            log.Info("Click Send Invite button.");
+            Thread.Sleep(5000);
+
+            //Verify no user should uploaded
+            addUsersPage.VerifyUploadedUser();
+            log.Info("Verify 0 user should uploaded");
+            Thread.Sleep(3000);
+        }
+
+        [Test, CustomRetry(2)]
+        public void AddUser_008_VerifyInvitedEmailNotAskingVerifyCode()
+        {
+            Global.MethodName = "AddUser_011_VerifyInviteEmailNotAskingVerifyCode";
+            Thread.Sleep(5000);
+            GoToAddUser();
+
+            //Invite an user         
+            inviteUser();
+
+            //Verify user invite email from mailinator
+            verifyInviteMailFromMailinator(email);
+            Thread.Sleep(2000);
+
+            //Onboard invite user
+            onBoardInviteUser();
+
+            //Verify verification code doesn't asking        
+            authenticationPage.VerifyUserIcon();
+            log.Info("Verify user able to login without asking any verification code.");
+            Thread.Sleep(2000);
+
+
+        }
+
+        [Test, CustomRetry(2)]
+        public void AddUser_009_CreateProfileUserDoesRecciveInvitation()
+        {
+            Global.MethodName = "AddUser_0012_CreateProfileUserDoesnotRecciveInvitation";
+            Thread.Sleep(5000);
+            GoToAddUser();
+
+            createUserProfile();
+
+            //Verify the added user
+            addUsersPage.VerifyAddedUserName(builder.ToString() + " " + builder.ToString());
+            log.Info("Verify the added user Full Name.");
+            Thread.Sleep(1000);
+
+            //Click User Profile Icon
+            userProfilePage.ClickUserProfileIcon();
+            log.Info("Click the User Profile Icon.");
+            Thread.Sleep(2000);
+
+            //Select the User Profile Option 'Admin'
+            userProfilePage.ClickUserProfileOptions("Admin");
+            log.Info("Click User Profile option 'Admin'.");
+            Thread.Sleep(5000);
+
+            userProfilePage.EnterSearchUser(email);
+            log.Info("Enter search user email id.");
+            Thread.Sleep(5000);
+
+            //Click search button            
+            userProfilePage.ClickSearchButton();
+            log.Info("Click on search button.");
+            Thread.Sleep(5000);
+
+            //Click the resend invite link of searched user
+            userProfilePage.ClickSearchedUserResendInviteLink();
+            log.Info("Click the resend invite link of searched user.");
+            Thread.Sleep(5000);
+
+            //click on send invite button   
+            addUsersPage.ClickSendInviteBtn();
+            log.Info("Click Send Invite button.");
+            Thread.Sleep(5000);
+
+            commonPage.NavigateToUrl("https://www.harakirimail.com/");
+            log.Info("Navigate to the mailinator site.");
+            Thread.Sleep(7000);
+
+            //Enter Harakirimail Email address
+            addUsersPage.EnterHarakirimailEmail(email);
+            log.Info("Enter email" + email + " address.");
+            Thread.Sleep(2000);
+
+            //Press Enter key
+            commonPage.PressEnterKey();
+            Thread.Sleep(5000);
+
+            //Verify user does reccived any invitation email
+            addUsersPage.VerifyEmailSenderDoesExist();
+            log.Info("Verify user does reccived any invitation email.");
+            Thread.Sleep(2000);
+
         }
 
         //[Test]
-        //public void AddUser_005_UploadResume()
+        //public void AddUser_0010_UploadResume()
         //{
         //    Global.MethodName = "AddUser_005_UploadResume";
         //    Thread.Sleep(5000);
@@ -704,117 +897,100 @@ namespace RallyTeam.TestScripts
         //    addUsersPage.VerifyConfirmTickmark();
         //    log.Info("Verify the Confirm Tickmark.");
         //}
-
-        //[Test]
-        //public void AddUser_006_UploadLinkedIn()
-        //{
-        //    Global.MethodName = "AddUser_006_UploadLinkedIn";
-        //    Thread.Sleep(5000);
-        //    GoToAddUser();
-
-        //    inviteUser();
-
-        //    verifyInviteMailFromMailinator(email);
-
-        //    //Click Get Started button
-        //    addUsersPage.ClickMailinatorEmailGetStartedBtn();
-        //    log.Info("Click the Get Started Button.");
-        //    Thread.Sleep(5000);
-
-        //    //Enter First Name on the screen
-        //    registrationPage.EnterFirstName(builder.ToString());
-        //    log.Info("Enter First Name on the screen.");
-        //    Thread.Sleep(2000);
-
-        //    //Enter Last Name on the screen
-        //    registrationPage.EnterLastName(builder.ToString());
-        //    log.Info("Enter Last Name on the screen.");
-        //    Thread.Sleep(2000);
-
-        //    //Click SignUp button on the screen
-        //    registrationPage.ClickSignUpBtn();
-        //    log.Info("Click SignUp button on the screen.");
-        //    Thread.Sleep(5000);
-
-        //    //Enter Create a Password field on the screen
-        //    registrationPage.EnterCreatePwdFields(_password);
-        //    log.Info("Enter Create a Password field on the screen.");
-        //    Thread.Sleep(2000);
-
-        //    //Enter Confirm Password field on the screen
-        //    registrationPage.EnterConfirmPwdFields(_password);
-        //    log.Info("Enter Confirm Password field on the screen.");
-        //    Thread.Sleep(2000);
-
-        //    //Click All Done Button on the screen
-        //    registrationPage.ClickAllDoneBtn();
-        //    log.Info("Click All Done button on the screen.");
-        //    Thread.Sleep(7000);
-
-
-        //    //Select type of opportunities are you looking for            
-        //    addUsersPage.SelectOpportunitiesType(_opportunitiesType);
-        //    log.Info("Select type of opportunities are you looking for.");
-        //    Thread.Sleep(7000);
-
-        //    //Select How many hours a week are you available
-        //    addUsersPage.SelectAvailableTime(_availableTime);
-        //    log.Info("Select type of opportunities are you looking for.");
-        //    Thread.Sleep(4000);
-
-        //    //Click on next link
-        //    addUsersPage.ClickNextBtn();
-        //    log.Info("Click on next link.");
-        //    Thread.Sleep(4000);
-        //    //Click LinkedIn button Resume button
-        //    addUsersPage.ClickLinkedInBtn();
-        //    log.Info("Click LinkedIn button.");
-        //    Thread.Sleep(7000);
-
-        //    addUsersPage.SwitchLinkedInWindow();
-        //    Thread.Sleep(3000);
-
-        //    //Enter the LinkedIn User Id
-        //    addUsersPage.EnterLinkedInUserId("ammar.pccs@yahoo.com");
-        //    log.Info("Enter LinkedIn User Id.");
-        //    Thread.Sleep(2000);
-
-        //    //Enter the LinkedIn Password
-        //    addUsersPage.EnterLinkedInPwd("Canada@123");
-        //    log.Info("Enter LinkedIn Password.");
-        //    Thread.Sleep(2000);
-
-        //    //Click the LinkedIn SignIn button
-        //    addUsersPage.EnterLinkedInSignInBtn();
-        //    log.Info("Enter LinkedIn SignIn button.");
-        //    Thread.Sleep(10000);
-
-        //    addUsersPage.SwitchOriginalWindow();
-        //    Thread.Sleep(3000);
-
-        //    //Verify the LinkedIn button disabled
-        //    addUsersPage.VerifyLinkedInDisabled();
-        //    log.Info("Verify the LinkedIn button disabled.");
-        //}
-
-        [Test, CustomRetry(2)]
-        public void AddUser_007_CreateProfile()
+         
+        [Test]
+        public void AddUser_0011_UploadLinkedIn()
         {
-            Global.MethodName = "AddUser_007_CreateProfile";
+            Global.MethodName = "AddUser_006_UploadLinkedIn";
             Thread.Sleep(5000);
             GoToAddUser();
 
-            //Create User Profile
-            createUserProfile();
+            inviteUser();
 
-            //Verify the added user
-            addUsersPage.VerifyAddedUserName(builder.ToString() + " " + builder.ToString());
-            log.Info("Verify the added user Full Name.");
-            Thread.Sleep(1000);
+            verifyInviteMailFromMailinator(email);
+
+            //Click Get Started button
+            addUsersPage.ClickMailinatorEmailGetStartedBtn();
+            log.Info("Click the Get Started Button.");
+            Thread.Sleep(5000);
+
+            //Enter First Name on the screen
+            registrationPage.EnterFirstName(builder.ToString());
+            log.Info("Enter First Name on the screen.");
+            Thread.Sleep(2000);
+
+            //Enter Last Name on the screen
+            registrationPage.EnterLastName(builder.ToString());
+            log.Info("Enter Last Name on the screen.");
+            Thread.Sleep(2000);
+
+            //Click SignUp button on the screen
+            registrationPage.ClickSignUpBtn();
+            log.Info("Click SignUp button on the screen.");
+            Thread.Sleep(5000);
+
+            //Enter Create a Password field on the screen
+            registrationPage.EnterCreatePwdFields(_password);
+            log.Info("Enter Create a Password field on the screen.");
+            Thread.Sleep(2000);
+
+            //Enter Confirm Password field on the screen
+            registrationPage.EnterConfirmPwdFields(_password);
+            log.Info("Enter Confirm Password field on the screen.");
+            Thread.Sleep(2000);
+
+            //Click All Done Button on the screen
+            registrationPage.ClickAllDoneBtn();
+            log.Info("Click All Done button on the screen.");
+            Thread.Sleep(7000);
+
+
+            //Select type of opportunities are you looking for            
+            addUsersPage.SelectOpportunitiesType(_opportunitiesType);
+            log.Info("Select type of opportunities are you looking for.");
+            Thread.Sleep(7000);
+
+            //Select How many hours a week are you available
+            addUsersPage.SelectAvailableTime(_availableTime);
+            log.Info("Select type of opportunities are you looking for.");
+            Thread.Sleep(4000);
+
+            //Click on next link
+            addUsersPage.ClickNextBtn();
+            log.Info("Click on next link.");
+            Thread.Sleep(4000);
+            //Click LinkedIn button Resume button
+            addUsersPage.ClickLinkedInBtn();
+            log.Info("Click LinkedIn button.");
+            Thread.Sleep(7000);
+
+            addUsersPage.SwitchLinkedInWindow();
+            Thread.Sleep(3000);
+
+            //Enter the LinkedIn User Id
+            addUsersPage.EnterLinkedInUserId("ammar.pccs@yahoo.com");
+            log.Info("Enter LinkedIn User Id.");
+            Thread.Sleep(2000);
+
+            //Enter the LinkedIn Password
+            addUsersPage.EnterLinkedInPwd("Canada@123");
+            log.Info("Enter LinkedIn Password.");
+            Thread.Sleep(2000);
+
+            //Click the LinkedIn SignIn button
+            addUsersPage.EnterLinkedInSignInBtn();
+            log.Info("Enter LinkedIn SignIn button.");
+            Thread.Sleep(10000);
+
+            addUsersPage.SwitchOriginalWindow();
+            Thread.Sleep(3000);
+
+            //Verify the LinkedIn button disabled
+            addUsersPage.VerifyLinkedInDisabled();
+            log.Info("Verify the LinkedIn button disabled.");
         }
-
         //[Test]
-        //public void AddUser_008_SendAndVerifyMultipleUserInviteEmail()
+        //public void AddUser_0012_SendAndVerifyMultipleUserInviteEmail()
         //{
         //    Global.MethodName = "AddUser_008_SendAndVerifyMultipleUserInviteEmail";
         //    Thread.Sleep(5000);
@@ -860,185 +1036,6 @@ namespace RallyTeam.TestScripts
 
 
         //}
-
-        [Test, CustomRetry(2)]
-        public void AddUser_009_CannotInviteRegisteredUser()
-        {
-            Global.MethodName = "AddUser_009_CannotInviteRegisteredUser";
-            Thread.Sleep(5000);
-            GoToAddUser();
-
-            if (_browser == "edge")
-                addUsersPage.PressEmailBtn();
-            else
-                addUsersPage.ClickEmailBtn();
-            log.Info("Click Email button.");
-            Thread.Sleep(5000);
-
-            //Enter Email Address
-            email = "ammark@360logica.com";
-            addUsersPage.EnterEmailAddresses(email);
-            log.Info("Enter Email Address.");
-            commonPage.PressEnterKey();
-            commonPage.PressEnterKey();
-            Thread.Sleep(2000);
-
-            //Click Add Users button
-            addUsersPage.ClickEmailAddUsersBtn();
-            log.Info("Click Add Users button.");
-            Thread.Sleep(5000);
-
-            //Enter the invite emaail subject and message
-            addUsersPage.EnterEmailSubjectAndMessage(_Emailsubject, _EmailMessage);
-            log.Info("Enter Email Subject.");
-            commonPage.PressTabKey();
-            Thread.Sleep(2000);
-
-
-            //click on send invite button   
-            addUsersPage.ClickSendInviteBtn();
-            log.Info("Click Send Invite button.");
-            Thread.Sleep(5000);
-
-            //Verify no user should uploaded
-            addUsersPage.VerifyUploadedUser();
-            log.Info("Verify 0 user should uploaded");
-            Thread.Sleep(3000);
-        }
-
-        [Test, CustomRetry(2)]
-        public void AddUser_010_CannotInviteToInvalidEmailId()
-        {
-            Global.MethodName = "AddUser_010_CannotInviteToInvalidEmailId";
-            Thread.Sleep(5000);
-            GoToAddUser();
-
-            //Click Email button
-            if (_browser == "edge")
-                addUsersPage.PressEmailBtn();
-            else
-                addUsersPage.ClickEmailBtn();
-            log.Info("Click Email button.");
-            Thread.Sleep(5000);
-
-            //Enter Email Address            
-            addUsersPage.EnterEmailAddresses("sachins@360logica");
-            log.Info("Enter Invalid Email Address.");
-            commonPage.PressTabKey();
-            Thread.Sleep(2000);
-
-            //Click Add Users button
-            addUsersPage.ClickEmailAddUsersBtn();
-            log.Info("Click Add Users button.");
-            Thread.Sleep(5000);
-
-            //Enter the invite emaail subject and message
-            addUsersPage.EnterEmailSubjectAndMessage(_Emailsubject, _EmailMessage);
-            log.Info("Enter Email Subject.");
-            commonPage.PressTabKey();
-            Thread.Sleep(2000);
-
-
-            //click on send invite button   
-            addUsersPage.ClickSendInviteBtn();
-            log.Info("Click Send Invite button.");
-            Thread.Sleep(5000);
-
-            //Verify no user should uploaded
-            addUsersPage.VerifyUploadedUser();
-            log.Info("Verify 0 user should uploaded");
-            Thread.Sleep(3000);
-        }
-
-        [Test, CustomRetry(2)]
-        public void AddUser_011_VerifyInvitedEmailNotAskingVerifyCode()
-        {
-            Global.MethodName = "AddUser_011_VerifyInviteEmailNotAskingVerifyCode";
-            Thread.Sleep(5000);
-            GoToAddUser();
-
-            //Invite an user         
-            inviteUser();
-
-            //Verify user invite email from mailinator
-            verifyInviteMailFromMailinator(email);
-            Thread.Sleep(2000);
-
-            //Onboard invite user
-            onBoardInviteUser();
-
-            //Verify verification code doesn't asking        
-            authenticationPage.VerifyUserIcon();
-            log.Info("Verify user able to login without asking any verification code.");
-            Thread.Sleep(2000);
-
-
-        }
-
-        [Test, CustomRetry(2)]
-        public void AddUser_0012_CreateProfileUserDoesRecciveInvitation()
-        {
-            Global.MethodName = "AddUser_0012_CreateProfileUserDoesnotRecciveInvitation";
-            Thread.Sleep(5000);
-            GoToAddUser();
-
-            createUserProfile();
-
-            //Verify the added user
-            addUsersPage.VerifyAddedUserName(builder.ToString() + " " + builder.ToString());
-            log.Info("Verify the added user Full Name.");
-            Thread.Sleep(1000);
-
-            //Click User Profile Icon
-            userProfilePage.ClickUserProfileIcon();
-            log.Info("Click the User Profile Icon.");
-            Thread.Sleep(2000);
-
-            //Select the User Profile Option 'Admin'
-            userProfilePage.ClickUserProfileOptions("Admin");
-            log.Info("Click User Profile option 'Admin'.");
-            Thread.Sleep(5000);
-
-            userProfilePage.EnterSearchUser(email);
-            log.Info("Enter search user email id.");
-            Thread.Sleep(5000);
-
-            //Click search button            
-            userProfilePage.ClickSearchButton();
-            log.Info("Click on search button.");
-            Thread.Sleep(5000);
-
-            //Click the resend invite link of searched user
-            userProfilePage.ClickSearchedUserResendInviteLink();
-            log.Info("Click the resend invite link of searched user.");
-            Thread.Sleep(5000);
-
-            //click on send invite button   
-            addUsersPage.ClickSendInviteBtn();
-            log.Info("Click Send Invite button.");
-            Thread.Sleep(5000);
-
-            commonPage.NavigateToUrl("https://www.harakirimail.com/");
-            log.Info("Navigate to the mailinator site.");
-            Thread.Sleep(7000);
-
-            //Enter Harakirimail Email address
-            addUsersPage.EnterHarakirimailEmail(email);
-            log.Info("Enter email" + email + " address.");
-            Thread.Sleep(2000);
-
-            //Press Enter key
-            commonPage.PressEnterKey();
-            Thread.Sleep(5000);
-
-            //Verify user doesn't reccived any invitation email
-            addUsersPage.VerifyEmailSenderDoesExist();
-            log.Info("Verify user does reccived any invitation email.");
-            Thread.Sleep(2000);
-
-        }
-
-
     }
 }
 

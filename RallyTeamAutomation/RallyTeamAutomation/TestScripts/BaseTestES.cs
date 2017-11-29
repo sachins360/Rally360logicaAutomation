@@ -97,7 +97,7 @@ namespace RallyTeam.TestScripts
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
 
             //if (!Browser.Contains("edge"))
-            if (!Browser.Contains("firefox"))
+           if (!Browser.Contains("firefox"))
                 _driver.Manage().Window.Maximize();         
             _driver.Url = BaseUrl;
             _driver.setTimeOut(_pageLoadTimeout);
@@ -164,9 +164,17 @@ namespace RallyTeam.TestScripts
                     return chromeDriver;
                 case "firefox":
                     System.Environment.SetEnvironmentVariable("webdriver.gecko.driver", "geckodriver.exe");
-                    var driver= new FirefoxDriver();
+                   // FirefoxOptions option = new FirefoxOptions();
+                    //option.sSetBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe"); //This is the location where you have installed Firefox on your machine
+
+                    var driver = new FirefoxDriver();
                     driver.Manage().Window.Position = new Point(0, 0);
                     driver.Manage().Window.Size = new Size(2000, 1000);
+
+
+                 
+                    //WebDriver driver = new FirefoxDriver(option);
+                 
                     return driver;
 
                 case "ie":

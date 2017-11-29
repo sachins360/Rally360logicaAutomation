@@ -823,113 +823,7 @@ namespace RallyTeam.TestScripts
             //Delete Project
             Thread.Sleep(3000);
             DeleteProject();
-        }
-
-        [Test, CustomRetry(2)]
-        public void Notifications_013_UserMentionedInProject()
-        {
-            //Post a new project
-            StringBuilder builder = new StringBuilder();
-            builder.Append(RandomString(6));
-            String projectName = readNotifications.GetValue("AddProjectDetails", "projectName");
-            projectName = projectName + builder;
-            PostNewProject(projectName);
-
-            //Go to Discussions Page
-            postProjectPage.ClickDiscussionTab();
-            log.Info("Click on the Discussions tab.");
-            Thread.Sleep(5000);
-
-            commonPage.PressTabKey();
-            Thread.Sleep(1000);
-            commonPage.PressTabKey();
-            Thread.Sleep(1000);
-            commonPage.PressTabKey();
-            Thread.Sleep(1000);
-
-            commonPage.PressTabKey();
-            Thread.Sleep(1000);
-
-            //Enter the Message in Text Area
-            postProjectPage.EnterMessageTextArea("Hi @Automation");
-            Thread.Sleep(2000);
-            commonPage.PressTabKey();
-            Thread.Sleep(2000);
-            log.Info("Enter message in Discussion.");
-            //  commonPage.PressEnterKey();
-            //Click the Post button for the message
-            postProjectPage.ClickMessagePostBtn();
-            log.Info("Click the Post button for the message.");
-            Thread.Sleep(7000);
-
-            //Signout of the application
-            authenticationPage.SignOut();
-            log.Info("Click on the Signout button.");
-            Thread.Sleep(5000);
-
-            //Sign in with different user
-            String userName = readNotifications.GetValue("AddProjectMember", "addMemberEmail");
-            String password = readNotifications.GetValue("AddProjectMember", "password");
-            SignInDifferentUser(userName, password);
-            Thread.Sleep(7000);
-
-            //Click Notifications Icon
-            notificationsPage.ClickNotificationsIcon();
-            log.Info("Click on the Notifications Icon at top.");
-            Thread.Sleep(5000);
-
-            //Verify the User Mentioned In Project WIth All on the Notification Window
-           // notificationsPage.VerifyUserMentionedInProjectWIthAllNotificationWindow();
-            //log.Info("Verify the User Mentioned In Project WIth All short notification on the Notification Window.");
-            //Thread.Sleep(1000);
-
-            //Click See All link
-            notificationsPage.ClickSeeAll();
-            log.Info("Click See All link.");
-            Thread.Sleep(7000);
-
-            //Verify the User Mentioned In Project WIth All on Notifications Page
-            notificationsPage.VerifyUserMentionedInProjectWIthAll(projectName);
-            log.Info("Verify the User Mentioned In Project WIth All Notification on Notifications Page.");
-            Thread.Sleep(1000);
-
-            //Verify the User Mentioned In Project WIth All subject on the Notifications Page
-            String loggedInUserName = readNotifications.GetValue("LoggedInUserName", "username");
-            notificationsPage.VerifyUserMentionedInProjectWIthAllSubject(loggedInUserName, "Hi @Automation UserOne");
-            log.Info("Verify User Mentioned In Project WIth All notification subject on the Notifications Page.");
-            Thread.Sleep(2000);
-
-            //Signout of the application
-            authenticationPage.SignOut();
-            log.Info("Click on the Signout button.");
-            Thread.Sleep(5000);
-
-            //Login to the application
-            Thread.Sleep(5000);
-            authenticationPage.SetUserName(_workEmail);
-            authenticationPage.SetPassword(_password);
-            authenticationPage.ClickOnLoginButton();
-
-            //Enter the Project Name
-            Thread.Sleep(5000);
-            postProjectPage.SearchProjectName(projectName);
-            log.Info("Enter the project name.");
-            Thread.Sleep(2000);
-
-            //Click Search button
-            postProjectPage.ClickSearchBtn();
-            log.Info("Click the prSearch button.");
-            Thread.Sleep(15000);
-
-            //Click the created project
-            postProjectPage.ClickProjectNameOnPage(projectName);
-            log.Info("Click the Project Name on the Projects Page.");
-            Thread.Sleep(5000);
-
-            //Delete Project
-            Thread.Sleep(3000);
-            DeleteProject();
-        }
+        }       
 
         [Test, CustomRetry(2)]
         public void Notifications_007_InvoiceRequiresApproval()
@@ -1718,21 +1612,112 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
+        [Test, CustomRetry(2)]
+        public void Notifications_013_UserMentionedInProject()
+        {
+            //Post a new project
+            StringBuilder builder = new StringBuilder();
+            builder.Append(RandomString(6));
+            String projectName = readNotifications.GetValue("AddProjectDetails", "projectName");
+            projectName = projectName + builder;
+            PostNewProject(projectName);
 
+            //Go to Discussions Page
+            postProjectPage.ClickDiscussionTab();
+            log.Info("Click on the Discussions tab.");
+            Thread.Sleep(5000);
 
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
 
+            commonPage.PressTabKey();
+            Thread.Sleep(1000);
 
+            //Enter the Message in Text Area
+            postProjectPage.EnterMessageTextArea("Hi @Automation");
+            Thread.Sleep(2000);
+            commonPage.PressTabKey();
+            Thread.Sleep(2000);
+            log.Info("Enter message in Discussion.");
+            //  commonPage.PressEnterKey();
+            //Click the Post button for the message
+            postProjectPage.ClickMessagePostBtn();
+            log.Info("Click the Post button for the message.");
+            Thread.Sleep(7000);
 
+            //Signout of the application
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+            Thread.Sleep(5000);
 
+            //Sign in with different user
+            String userName = readNotifications.GetValue("AddProjectMember", "addMemberEmail");
+            String password = readNotifications.GetValue("AddProjectMember", "password");
+            SignInDifferentUser(userName, password);
+            Thread.Sleep(7000);
 
+            //Click Notifications Icon
+            notificationsPage.ClickNotificationsIcon();
+            log.Info("Click on the Notifications Icon at top.");
+            Thread.Sleep(5000);
 
+            //Verify the User Mentioned In Project WIth All on the Notification Window
+            // notificationsPage.VerifyUserMentionedInProjectWIthAllNotificationWindow();
+            //log.Info("Verify the User Mentioned In Project WIth All short notification on the Notification Window.");
+            //Thread.Sleep(1000);
 
+            //Click See All link
+            notificationsPage.ClickSeeAll();
+            log.Info("Click See All link.");
+            Thread.Sleep(7000);
 
+            //Verify the User Mentioned In Project WIth All on Notifications Page
+            notificationsPage.VerifyUserMentionedInProjectWIthAll(projectName);
+            log.Info("Verify the User Mentioned In Project WIth All Notification on Notifications Page.");
+            Thread.Sleep(1000);
 
+            //Verify the User Mentioned In Project WIth All subject on the Notifications Page
+            String loggedInUserName = readNotifications.GetValue("LoggedInUserName", "username");
+            notificationsPage.VerifyUserMentionedInProjectWIthAllSubject(loggedInUserName, "Hi @Automation UserOne");
+            log.Info("Verify User Mentioned In Project WIth All notification subject on the Notifications Page.");
+            Thread.Sleep(2000);
 
+            //Signout of the application
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+            Thread.Sleep(5000);
 
+            //Login to the application
+            Thread.Sleep(5000);
+            authenticationPage.SetUserName(_workEmail);
+            authenticationPage.SetPassword(_password);
+            authenticationPage.ClickOnLoginButton();
 
+            //Enter the Project Name
+            Thread.Sleep(5000);
+            postProjectPage.SearchProjectName(projectName);
+            log.Info("Enter the project name.");
+            Thread.Sleep(2000);
 
+            //Click Search button
+            postProjectPage.ClickSearchBtn();
+            log.Info("Click the prSearch button.");
+            Thread.Sleep(15000);
+
+            //Click the created project
+            postProjectPage.ClickProjectNameOnPage(projectName);
+            log.Info("Click the Project Name on the Projects Page.");
+            Thread.Sleep(5000);
+
+            //Delete Project
+            Thread.Sleep(3000);
+            DeleteProject();
+        }
+        
 
     }
 }
