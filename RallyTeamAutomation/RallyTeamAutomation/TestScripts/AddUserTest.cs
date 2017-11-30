@@ -23,7 +23,9 @@ namespace RallyTeam.TestScripts
     [Parallelizable(ParallelScope.Fixtures)]
     public class AddUsersTest : BaseTestES
     {
+        const int h = 9;
         #region Variable
+
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         public string _browser = ConfigurationSettings.AppSettings["Browser"].ToLower();
         static ReadData readInviteUser = new ReadData("AddUser");
@@ -36,11 +38,11 @@ namespace RallyTeam.TestScripts
         String _availableTime = readInviteUser.GetValue("InviteEmailDetails", "availableTime");
 
         StringBuilder builder, builder2;
-        String email, email2;
+        String email, email2, url;
         #endregion
         public AddUsersTest(string urlKey, string Browser) : base(urlKey, Browser)
         {
-            String url = urlKey;
+             url = urlKey;
             //Environment = environment;
         }
 
@@ -225,6 +227,11 @@ namespace RallyTeam.TestScripts
             log.Info("Enter Last Name on the screen.");
             Thread.Sleep(2000);
 
+            SignUpUserFlowFromPassword(skill);
+        }
+
+        private void SignUpUserFlowFromPassword(string skill = "Android")
+        {
             //Click SignUp button on the screen
             registrationPage.ClickSignUpBtn();
             log.Info("Click SignUp button on the screen.");
@@ -260,14 +267,11 @@ namespace RallyTeam.TestScripts
             log.Info("Click on next link.");
             Thread.Sleep(4000);
 
-          
-
             //Click on skip button    
             addUsersPage.ClickSkipBtn();
             log.Info("Click on skip link.");
             Thread.Sleep(4000);
 
-          
             //Enter Skill and Click on next button
             addUsersPage.EnterSkillAndClickNextBtn("Test");
             log.Info("Click on next link.");
@@ -416,8 +420,8 @@ namespace RallyTeam.TestScripts
 
         }
         #endregion
-
-        [Test, CustomRetry(2)]
+        
+        [Test, CustomRetry(_reTryCount)]
         public void AddUser_001_VerifyInviteUserWindow()
         {
             Global.MethodName = "AddUser_001_VerifyInviteUserWindow";
@@ -463,7 +467,7 @@ namespace RallyTeam.TestScripts
             //log.Info("Verify Create Profile button.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void AddUser_002_SendAndVerifyInviteEmail()
         {
             Global.MethodName = "AddUser_002_SendAndVerifyInviteEmail";
@@ -488,7 +492,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(3000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void AddUser_003_OnboardWithInvitedUser()
         {
             Global.MethodName = "AddUser_003_OnboardWithInvitedUser";
@@ -507,7 +511,7 @@ namespace RallyTeam.TestScripts
 
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void AddUser_004_SendAndVerifyInviteEmailMultipleUsers()
         {
             Global.MethodName = "AddUser_004_SendAndVerifyInviteEmailMultipleUsers";
@@ -797,7 +801,7 @@ namespace RallyTeam.TestScripts
         //    log.Info("Verify the LinkedIn button disabled.");
         //}
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void AddUser_007_CreateProfile()
         {
             Global.MethodName = "AddUser_007_CreateProfile";
@@ -861,7 +865,7 @@ namespace RallyTeam.TestScripts
 
         //}
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void AddUser_009_CannotInviteRegisteredUser()
         {
             Global.MethodName = "AddUser_009_CannotInviteRegisteredUser";
@@ -906,7 +910,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(3000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void AddUser_010_CannotInviteToInvalidEmailId()
         {
             Global.MethodName = "AddUser_010_CannotInviteToInvalidEmailId";
@@ -950,7 +954,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(3000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void AddUser_011_VerifyInvitedEmailNotAskingVerifyCode()
         {
             Global.MethodName = "AddUser_011_VerifyInviteEmailNotAskingVerifyCode";
@@ -975,7 +979,7 @@ namespace RallyTeam.TestScripts
 
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void AddUser_0012_CreateProfileUserDoesRecciveInvitation()
         {
             Global.MethodName = "AddUser_0012_CreateProfileUserDoesnotRecciveInvitation";
@@ -1038,7 +1042,102 @@ namespace RallyTeam.TestScripts
 
         }
 
+        [Test]
+        public void AddUser_0013_UserSignUp()
+        {
+            Global.MethodName = "AddUser_0013_UserSignUp";
+            string firstName, lastName, code;
+            firstName = RandomString(5);
+            lastName = RandomString(5);
 
+            email = firstName + lastName + "@harakirimail.com";
+        //   email = "tttttrrrrr@harakirimail.com";
+            _Emailsubject = "Confirm your email address on Rallyteam";
+            Thread.Sleep(5000);
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            Thread.Sleep(5000);
+            addUsersPage.ClickSignUpLink();
+            log.Info("Click on the SignUp button.");
+
+            Thread.Sleep(1000);
+            addUsersPage.EnterFirstName(Convert.ToString(firstName));
+            log.Info("Enter first name.");
+
+            Thread.Sleep(1000);
+            addUsersPage.EnterLastName(Convert.ToString(lastName));
+            log.Info("Enter Last name.");
+
+            Thread.Sleep(1000);
+            addUsersPage.EnterEmail(Convert.ToString(email));
+            log.Info("Enter working email name.");
+
+            SignUpUserFlowFromPassword();
+            commonPage.NavigateToUrl("https://www.harakirimail.com/");
+            log.Info("Navigate to the mailinator site.");
+            Thread.Sleep(7000);
+
+            //Enter Harakirimail Email address
+            addUsersPage.EnterHarakirimailEmail(email);
+            log.Info("Enter email" + email + " address.");
+            Thread.Sleep(2000);
+
+            //Press Enter key
+            commonPage.PressEnterKey();
+            Thread.Sleep(5000);
+
+            //Click the Email Subject
+            addUsersPage.ClickEmailSubject(_Emailsubject);
+            log.Info("Click the " + email + " Email Subject.");
+            Thread.Sleep(5000);
+            
+
+            code = commonIssuePage.GetCodeFromMailinator();
+            string urlNew = Convert.ToString(ConfigurationManager.AppSettings[url]);
+            urlNew=(urlNew.Split('#'))[0];
+            commonPage.NavigateToUrl(urlNew);
+            Thread.Sleep(5000);
+            //Click Done button on Profile
+            commonPage.ScrollUp();
+            Thread.Sleep(2000);
+            addUsersPage.ClickDoneBtn();
+            log.Info("Click Done button.");
+            Thread.Sleep(5000);
+
+            //Enter security code
+            EnterCode(code);
+
+           
+            Thread.Sleep(2000);
+            addUsersPage.ClickLetsRallyBtn();
+            log.Info("Click Lets Rally button.");
+            Thread.Sleep(5000);
+
+            addUsersPage.VerifyBrowseAllAppBtn();
+            log.Info("Verify user has been sign up.");
+            Thread.Sleep(5000);
+
+        }
+
+        private void EnterCode(string code)
+        {
+          
+            string[] codearr = code.Split('-');
+            code = codearr[0] + codearr[1];
+            char[] code1 = codearr[0].ToCharArray();
+            char[] code2 = codearr[1].ToCharArray();
+            for (int i = 1; i <= 2; i++)
+            {
+                for (int j = 1; j <= 3; j++)
+                {
+                    if (i == 1)
+                        addUsersPage.EnterCode(i, j, Convert.ToString(code1[j - 1]));
+                    else if (i == 2)
+                        addUsersPage.EnterCode(i, j, Convert.ToString(code2[j - 1]));
+                }
+            }
+        }
     }
 }
 

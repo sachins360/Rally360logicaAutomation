@@ -178,6 +178,10 @@ namespace RallyTeam.UIPages
             _assertHelper.AssertElementDisplayed(AddUsersUI.harakiriEmailSender);
         }
 
+        public void VerifyBrowseAllAppBtn()
+        {
+            _assertHelper.AssertElementDisplayed(MarketPlaceUI.browseBtn);
+        }
         //Assert the email sender
         public void VerifyEmailSenderDoesExist()
         {
@@ -219,7 +223,14 @@ namespace RallyTeam.UIPages
         {
             _driver.SafeClick(AddUsersUI.emailGetStartedBtn);
         }
+        //Click the Email Get Started Button
+        public void ClickSignUpLink()
+        {
+            _driver.SafeClick(AddUsersUI.signUpLink);
+        }
 
+
+       
         //Get the email link
         public String GetEmailLink()
         {
@@ -302,6 +313,11 @@ namespace RallyTeam.UIPages
         public void EnterFirstName(String firstName)
         {
             _driver.SafeEnterText(AddUsersUI.firstName, firstName);
+        }
+
+        public void EnterCode(int i,int j, string _code)
+        {
+            _driver.SafeAppendText(AddUsersUI.code(i,j), _code);
         }
 
         //Enter Last Name
@@ -520,6 +536,12 @@ namespace RallyTeam.UIPages
             _driver.ClickElementUsingAction(OnboardingUI.doneBtn);
         }
 
+        //Click Letsrally button on Profile
+        public void ClickLetsRallyBtn()
+        {
+            _driver.SafeClick(AddUsersUI.letsRallyButtn);
+        }
+
         //Click sign-up button
         public void ClickSignUpBtn()
         {
@@ -549,7 +571,15 @@ namespace RallyTeam.UIPages
             _driver.ClickElementUsingAction(OnboardingUI.headerTitle);
         }
 
-      
+        //td[@class= 'content-pad p-b center']/center[4]
+
+        //public string GetCode(string skill)
+        //{
+        //    _driver.SafeEnterText(OnboardingUI.onboardingInputSkills, skill);
+        //    Thread.Sleep(2000);
+         
+        //}
+
 
         //Enter skill and Click Next Button
         public void EnterSkillAndClickNextBtn(string skill)

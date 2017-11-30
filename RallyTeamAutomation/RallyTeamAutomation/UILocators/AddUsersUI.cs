@@ -49,6 +49,8 @@ namespace RallyTeam.UILocators
         public readonly static By linkedInPwd = By.XPath("//input[@name= 'session_password']");
         public readonly static By linkedInSignIn = By.XPath("//input[@name= 'signin']");
 
+        public readonly static By letsRallyButtn = By.XPath("//a[@class='btn rt-btn rt-btn--l rt-btn--seagrass m-b-md']");
+
         public readonly static By signUpBtn = By.XPath("//div[@class='form-group']//div[@class='col-lg-12']//button[contains(@class,'btn btn-block m-t-xs rt-btn--md rt-btn')]");
         public readonly static By uploadResumeBtn = By.XPath("//button[contains(text(), 'Upload Your Resume')]");
         public readonly static By skipUploadResume = By.XPath("//a[contains(text(), 'SKIP')]");
@@ -115,7 +117,8 @@ namespace RallyTeam.UILocators
         //public readonly static By emailLink = By.XPath("//table[@class= 'twelve columns']//a[@class= 'need-a-link']");
         public readonly static By confirmationCode = By.XPath("//table[@class= 'twelve columns']//tbody/tr//td[1]//center[4]");
         public readonly static By emailGetStartedBtn = By.XPath("//a[contains(text(),'Get Started')]");
-
+        public readonly static By signUpLink = By.XPath("//a[@class='col-xs-12']//span[@class='signup']");
+        
         /*Create a Profile fields*/
         public readonly static By firstName = By.Name("firstName");
         public readonly static By lastName = By.Name("lastName");
@@ -124,6 +127,7 @@ namespace RallyTeam.UILocators
         public readonly static By hoursPerWeek = By.XPath("//input[contains(@placeholder, 'Enter your availability')]");
         public readonly static By title = By.Name("title");
         public readonly static By department = By.Name("department");
+        public readonly static By codeCenter = By.XPath("//td[@class= 'content-pad p-b center']/center[4]");
         public readonly static By aboutMe = By.Name("bio"); ////ul[@class= 'tag-list'][1]//input[@placeholder= 'Add a tag'][4]
         public readonly static By myTopSkills = By.XPath("(//input[@class='input ng-pristine ng-untouched ng-valid'])[1]");
         public readonly static By otherSkills = By.XPath("(//input[@class='input ng-pristine ng-untouched ng-valid'])[2]");
@@ -142,6 +146,13 @@ namespace RallyTeam.UILocators
         public static By addedUserName(string variable)
         {
             return By.XPath("//div[contains(text(), '"+variable+"')]");
-        }        
+        }
+
+        public static By code(int i,int j)
+        {
+          
+           return By.XPath("((//div[@class='rt-authentication__input-group'])["+i+"])//input["+j+"]");
+           // return By.XPath("//div[contains(text(), '" + variable + "')]");
+        }
     }
 }

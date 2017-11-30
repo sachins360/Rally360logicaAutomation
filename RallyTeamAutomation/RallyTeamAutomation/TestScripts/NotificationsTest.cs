@@ -178,7 +178,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_001_ProjectAssignment()
         {
             Global.MethodName = "Notifications_001_ProjectAssignment";
@@ -279,7 +279,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_002_ProjectOwnerPendingJoinRequest()
         {
             //Post a new project
@@ -385,7 +385,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_003_UserRecruitedToProject()
         {
             //Post a new project
@@ -464,7 +464,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_004_UserAddedToProject()
         {
             //Post a new project
@@ -542,7 +542,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_005_UserRemovedFromProject()
         {
             //Post a new project
@@ -646,7 +646,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_006_UserMentionedInProjectWithAll()
         {
             //Post a new project
@@ -749,7 +749,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_013_UserMentionedInProject()
         {
             //Post a new project
@@ -855,7 +855,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_007_InvoiceRequiresApproval()
         {
             //Post a new project
@@ -954,7 +954,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_008_InvoiceApproved()
         {
             //Post a new project
@@ -1084,7 +1084,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_009_InvoiceDenied()
         {
             //Post a new project
@@ -1214,7 +1214,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_010_InvoiceRequiresPayment()
         {
             //Post a new project
@@ -1329,7 +1329,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_011_UserReceivesFeedback()
         {
             //Post a New Project
@@ -1507,7 +1507,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Notifications_012_UserRequestsFeedback()
         {
             StringBuilder builder = new StringBuilder();

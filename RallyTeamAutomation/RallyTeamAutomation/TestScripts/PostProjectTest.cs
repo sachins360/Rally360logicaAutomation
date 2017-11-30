@@ -493,7 +493,7 @@ namespace RallyTeam.TestScripts
             String url = urlKey;
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_001_PostNewEmployeeProject()
         {
             //Post a new project
@@ -610,7 +610,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_002_VerifyDataOnAboutPage()
         {
             //Post a new project
@@ -783,7 +783,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_003_AddMembersAndVerify()
         {
             //Post a new project
@@ -807,7 +807,7 @@ namespace RallyTeam.TestScripts
             }            
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_004_EditProjectAndVerify()
         {
             //Post a new project
@@ -886,7 +886,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_005_ManageProjectTeam()
         {
             //Post a new project
@@ -951,7 +951,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_006_CompleteProject()
         {
             Global.MethodName = "PostProject_006_CompleteProject";
@@ -1008,7 +1008,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_007_MarkProjectInProgress()
         {
             Global.MethodName = "PostProject_009_MarkProjectInProgress";
@@ -1051,7 +1051,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_08_MarkProjectClosed()
         {
             //Post a new project
@@ -1097,7 +1097,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_09_RequestToJoinProject()
         {
             //Post a new project
@@ -1176,7 +1176,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_010_AcceptRequestToJoinProject()
         {
             //Post a new project
@@ -1276,7 +1276,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_011_RejectRequestToJoinProject()
         {
             //Post a new project
@@ -1376,7 +1376,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_012_PostNewPrivateProject()
         {
             //Post a Project
@@ -1395,7 +1395,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_013_VerifyNonAdminCannotAccessPrivateProject()
         {
             //Post a new project
@@ -1473,7 +1473,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_014_VerifyInvitedUsersCanAccessPrivateProject()
         {
             //Post a new project
@@ -1550,7 +1550,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_017_VerifyAdminCanAccessPrivateProject()
         {
             //Post a new project
@@ -1598,7 +1598,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_018_ChangeFromPrivateToPublicAndVerify()
         {            
             //Post a new project
@@ -1682,7 +1682,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_019_PromoteProject()
         {
             //Post a new project
@@ -1725,7 +1725,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_020_AddMembersAfterProjectCreationAndVerify()
         {
             Global.MethodName = "PostProject_020_AddMembersAfterProjectCreationAndVerify";
@@ -1781,7 +1781,7 @@ namespace RallyTeam.TestScripts
             }
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_021_UserLeaveProject()
         {
             //Post a new project
@@ -1858,7 +1858,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_022_VerifyDraftProjectCanSeenOnlyToPO()
         {
             //Post a new project
@@ -1946,7 +1946,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_023_VerifyPrivatePromoteProject()
         {
             //Onboard a new User
@@ -2096,7 +2096,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void PostProject_024_VendorStaffedProjectVisibleToAddedVendorOnly()
         {
             //Post a new project

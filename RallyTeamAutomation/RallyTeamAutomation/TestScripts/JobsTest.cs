@@ -98,7 +98,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(7000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Jobs_001_PostNewJobAndVerifyData()
         {
             //Post a new project
@@ -267,7 +267,7 @@ namespace RallyTeam.TestScripts
             DeleteJob();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Jobs_002_SendInterestAndViewCandidates()
         {
             //Post a new project
@@ -359,7 +359,7 @@ namespace RallyTeam.TestScripts
             DeleteJob();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Jobs_003_FilledJobs()
         {
             //Post a new project
@@ -465,7 +465,7 @@ namespace RallyTeam.TestScripts
             DeleteJob();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Jobs_004_CancelledJobs()
         {
             //Post a new project
@@ -569,7 +569,7 @@ namespace RallyTeam.TestScripts
             DeleteJob();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Jobs_005_VerifyNotificationPublishedJob()
         {
             //Post a new project
@@ -615,7 +615,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test]
-        [CustomRetry(2)]
+        [CustomRetry(_reTryCount)]
         public void Jobs_006_VerifyNotificationPromoteJob()
         {
             //Post a new project
@@ -713,7 +713,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Job View Job Button in Invite Job Email.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Jobs_007_ChangeHiringManagerAndVerify()
         {
             //Post a new project
