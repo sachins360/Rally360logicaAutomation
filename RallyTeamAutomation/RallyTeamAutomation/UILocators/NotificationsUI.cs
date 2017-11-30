@@ -11,6 +11,12 @@ namespace RallyTeam.UILocators
     {
         public readonly static By notificationsIcon = By.XPath("//i[contains(@class, 'fa-bell-o')]");
         public readonly static By notificationsSeeAll = By.XPath("//div[contains(@class,'text-center rt-notification')]/a[contains(text(),'See All')]");
+        public static By harakiriEmailSubject(String variable)
+        {
+            return By.XPath("//div[contains(text(), '" + variable + "')][1]");
+        }
+        public readonly static By harakiriLetsRallyBtn = By.XPath("//a[contains(text(), ' Rally')]");
+        public readonly static By harakiriViewOnRallyteamBtn = By.XPath("//a[contains(text(), 'View on Rallyteam')]");
 
         //Project Assigned
         public readonly static By notificationsWindowProjectAssigned = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'been assigned')]");
@@ -18,12 +24,7 @@ namespace RallyTeam.UILocators
         public static By projectAssignedSubject(string variable1, string variable2)
         {
             return By.XPath("//div[contains(@class, 'mail-box')]//a[contains(text(), '" + variable1+" assigned "+variable2+" to you.')]");
-        }
-        public static By harakiriEmailSubject(String variable)
-        {
-            return By.XPath("//div[contains(text(), '" + variable + "')][1]");
-        }
-        public readonly static By harakiriLetsRallyBtn = By.XPath("//a[contains(text(), ' Rally')]");
+        }               
 
         //Project Join Request
         public readonly static By notificationsWindowProjectJoinRequest = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You have a new reque')]");
@@ -60,11 +61,8 @@ namespace RallyTeam.UILocators
 
         //User was mentioned in a Project with @all
         //public readonly static By notificationsWindowUserMentionedInProjectWithAll = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You were mentioned i')]");
-
         public readonly static By notificationsWindowUserMentionedInProjectWithAll = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'Congrats! You have just joined')]");
-
         public readonly static By userMentionedInProjectWithAll = By.XPath("//a[contains(text(), 'You were mentioned in Project')]");
-
         public static By userMentionedInProjectWithAl(string projectName)
         {
             return By.XPath("//div[contains(@class, 'mail-box ng-scope')]//a[contains(text(), '" + projectName + "')]");
@@ -73,10 +71,14 @@ namespace RallyTeam.UILocators
         {
             return By.XPath("//div[contains(@class, 'mail-box')]//a[contains(text(), '"+variable2+"')]");
         }
+        public static By messageText(string variable)
+        {
+            return By.XPath("//p[contains(text(), '" + variable + "')]");
+        }
 
         //Invoice Requires Approval
         public readonly static By notificationsWindowInvoiceRequiresApproval = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'An invoice requires')]");
-        public readonly static By invoiceRequiresApproval = By.XPath("//a[contains(text(), 'An invoice requires payment')]");
+        public readonly static By invoiceRequiresApproval = By.XPath("//a[contains(text(), 'An invoice requires your approval')]");
         public static By invoiceRequiresApprovalSubject(string variable1)
         {
             return By.XPath("//div[contains(@class, 'mail-box')]//a[contains(text(), '" + variable1 + " submitted an invoice that requires your approval')]");

@@ -847,6 +847,13 @@ namespace RallyTeam.UIPages
             _driver.SafeEnterText(ProjectsUI.discussionTypeMessageArea, message);
         }
 
+        //Verify the Message
+        public void VerifyMessage(String message)
+        {
+            _driver.CheckElementVisibility(NotificationsUI.messageText(message));
+            _assertHelper.AssertElementDisplayed(NotificationsUI.messageText(message));
+        }
+
         //Press the Message Post button
         public void ClickMessagePostBtn()
         {

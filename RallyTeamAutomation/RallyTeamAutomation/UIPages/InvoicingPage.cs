@@ -46,7 +46,13 @@ namespace RallyTeam.UIPages
         {
             _driver.SafeEnterText(InvoicingUI.invoiceTitle, invoiceTitle);
         }
-        
+
+        //Verify Invoice Title
+        public void VerifyInvoiceTitle()
+        {
+            _assertHelper.AssertElementDisplayed(InvoicingUI.invoiceTitle);
+        }
+
         //Click Due Date Calender Icon
         public void ClickDueDateField()
         {
@@ -166,6 +172,12 @@ namespace RallyTeam.UIPages
         public void ClickProjectNameOnPage(String projectName)
         {
             _driver.ClickElementUsingJS(ProjectsUI.ProjectNameOnPage(projectName));
+        }
+
+        //Verify the Project Name on About page
+        public void VerifyInvoiceNameInvoicePage(string invoiceName)
+        {
+            _assertHelper.AssertElementDisplayed(InvoicingUI.invoiceNameInvoicePage(invoiceName));
         }
 
     }

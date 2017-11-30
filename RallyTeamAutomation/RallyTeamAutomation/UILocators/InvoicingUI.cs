@@ -27,6 +27,10 @@ namespace RallyTeam.UILocators
         {
             return By.XPath("//div[@class= 'ng-scope']//div[2]//div[contains(text(), '" + variable + "')]");
         }
+        public static By invoiceNameInvoicePage(string variable)
+        {
+            return By.XPath("//div[contains(@class, 'rt-invoice-title') and contains(text(), '" + variable + "')]");
+        }
 
 
         //New Invoice Fields
