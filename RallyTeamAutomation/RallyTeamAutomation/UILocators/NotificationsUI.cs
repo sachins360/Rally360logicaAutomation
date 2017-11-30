@@ -19,6 +19,11 @@ namespace RallyTeam.UILocators
         {
             return By.XPath("//div[contains(@class, 'mail-box')]//a[contains(text(), '" + variable1+" assigned "+variable2+" to you.')]");
         }
+        public static By harakiriEmailSubject(String variable)
+        {
+            return By.XPath("//div[contains(text(), '" + variable + "')][1]");
+        }
+        public readonly static By harakiriLetsRallyBtn = By.XPath("//a[contains(text(), ' Rally')]");
 
         //Project Join Request
         public readonly static By notificationsWindowProjectJoinRequest = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You have a new reque')]");
@@ -27,6 +32,7 @@ namespace RallyTeam.UILocators
         {
             return By.XPath("//div[contains(@class, 'mail-box')]//a[contains(text(), '" + variable1+" requests to join your project "+variable2+"')]");
         }
+       
 
         //User Recruited to a Project
         public readonly static By notificationsWindowUserReqcruitedToProject = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You have a new invit')]");

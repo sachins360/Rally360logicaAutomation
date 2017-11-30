@@ -787,7 +787,7 @@ namespace RallyTeam.TestScripts
         public void DirectMessaging_008_CannotSendNewMessageWithoutPermissionAndVerify()
 
         {
-            Global.MethodName = "DirectMessaging_011_CannotSendNewMessageWithoutPermissionAndVerify";
+            Global.MethodName = "DirectMessaging_008_CannotSendNewMessageWithoutPermissionAndVerify";
             //Open Grop
             OpenGroupTab();
 
@@ -847,6 +847,46 @@ namespace RallyTeam.TestScripts
             directMessagingPage.VerifySendAnnouncementBtnNotDisplayed();
             log.Info("Verify non admin user can't send Send Announcement.");
             Thread.Sleep(1000);            
+        }
+
+        [Test, CustomRetry(2)]
+        public void DirectMessaging_013_VerifyMessagesCantbeSendToVendorPoolUser()
+        {
+            Global.MethodName = "DirectMessaging_013_VerifyMessagesCantbeSendToVendorPoolUser";
+
+            //Click Messages menu icon
+            Thread.Sleep(5000);
+            directMessagingPage.ClickMessagesMenu();
+            log.Info("Click Messages menu icon.");
+            Thread.Sleep(5000);
+
+            //Click New Message button
+            directMessagingPage.ClickNewMessageBtn();
+            log.Info("Click New Message button.");
+            Thread.Sleep(5000);
+
+            //Enter To text input
+            String vendorEmail = readMessages.GetValue("Messages", "vendorEmail");
+            directMessagingPage.EnterToTextInput(vendorEmail);
+            log.Info("Enter the user email.");
+            Thread.Sleep(5000);
+
+            //Press enter key
+            directMessagingPage.PressEnterKey();
+            Thread.Sleep(1000);
+
+            //Enter message in the text area
+            String message = readMessages.GetValue("Messages", "message");
+            StringBuilder builder = new StringBuilder();
+            builder.Append(RandomString(4));
+            message = message + builder;
+            directMessagingPage.EnterTextArea(message);
+            log.Info("Enter the message.");
+            Thread.Sleep(2000);
+
+            //Verify Send button is disabled
+            directMessagingPage.VerifySendBtnDisabledisDisplayed();
+            log.Info("Verify Send button is disabled.");            
         }
     }
 }

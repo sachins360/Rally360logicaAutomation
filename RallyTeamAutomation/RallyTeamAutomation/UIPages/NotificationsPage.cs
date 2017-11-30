@@ -249,6 +249,18 @@ namespace RallyTeam.UIPages
             _assertHelper.AssertElementDisplayed(NotificationsUI.userRequestsFeedbackSubject(userName, projectName));
         }
 
+        //Click the Harakirimail email Subject
+        public void ClickHarakirimailEmailSubject(string _Emailsubject = "Test Subject")
+        {
+            _driver.ClickElementUsingAction(NotificationsUI.harakiriEmailSubject(_Emailsubject));
+        }
+
+        //Click the Harakirimail Lets Rally button
+        public void ClickHarakiriLetsRallyBtn()
+        {
+            _driver.CheckElementClickable(NotificationsUI.harakiriLetsRallyBtn);
+            _driver.ClickElementUsingAction(NotificationsUI.harakiriLetsRallyBtn);
+        }
 
     }
 }

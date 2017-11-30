@@ -481,68 +481,10 @@ namespace RallyTeam.TestScripts
             postProjectPage.ClickPublishBtn();
             log.Info("Click Publish Button");
             Thread.Sleep(7000);
+
         }
 
-        [Test, CustomRetry(_reTryCount)]
-        public void ProjectApproval_005_VerifyProjectStatusRecqruitWhenApprovalOFF()
-        {
-            Global.MethodName = "ProjectApproval_001_VerifyProjectStatusRecqruitWhenApprovalOFF";
 
-            //Open feature tab
-            openFeatureTab();
-            log.Info("Open feature tab.");
-
-            //Set project approval Off
-            setProjectApproval();
-            log.Info("Set project approval Off.");
-            
-            //Signout of the application
-            Thread.Sleep(3000);
-            authenticationPage.SignOut();
-            log.Info("Click on the Signout button.");
-
-            //Sign in with a different user
-            Thread.Sleep(2000);
-            String userName = readProjectApproval.GetValue("SignInNonAdminUser", "userName");
-            String password = readProjectApproval.GetValue("SignInNonAdminUser", "password");
-            SignInDifferentUser(userName,password);
-            log.Info("Sign in with different user.");           
-
-            //Post a new project
-            StringBuilder builder = new StringBuilder();
-            builder.Append(RandomString(6));            
-            String projectName = readProjectApproval.GetValue("AddProjectDetails", "projectName");
-            projectName = projectName + builder;
-            PostNewProject(projectName);
-
-            //Verify Recruit tag at project about page
-            postProjectPage.VerifyRecruitLinkOnAboutPage();
-            log.Info("Verify Project status recruit when project approval OFF.");
-
-            //Delete Project
-            Thread.Sleep(3000);
-            DeleteProject();
-
-            //Signout of the application
-            Thread.Sleep(3000);
-            authenticationPage.SignOut();
-            log.Info("Click on the Signout button.");
-
-            //Sign in with a different user
-            Thread.Sleep(2000);
-             userName = readProjectApproval.GetValue("SignInAdminUser", "userName");
-             password = readProjectApproval.GetValue("SignInAdminUser", "password");
-            SignInDifferentUser(userName, password);
-            log.Info("Sign in with different user.");
-
-            //Open feature tab
-            openFeatureTab();
-            log.Info("Open feature tab.");
-
-            //Set project approval Off
-            setProjectApproval();
-            log.Info("Set project approval ON.");
-        }
 
         [Test, CustomRetry(_reTryCount)]
         public void ProjectApproval_001_VerifyProjectStatusPendingWhenApprovalON()
@@ -857,8 +799,69 @@ namespace RallyTeam.TestScripts
 
         }
 
+        [Test, CustomRetry(2)]
+        public void ProjectApproval_005_VerifyProjectStatusRecqruitWhenApprovalOFF()
+        {
+            Global.MethodName = "ProjectApproval_001_VerifyProjectStatusRecqruitWhenApprovalOFF";
+
+            //Open feature tab
+            openFeatureTab();
+            log.Info("Open feature tab.");
+
+            //Set project approval Off
+            setProjectApproval();
+            log.Info("Set project approval Off.");
+
+            //Signout of the application
+            Thread.Sleep(3000);
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            //Sign in with a different user
+            Thread.Sleep(2000);
+            String userName = readProjectApproval.GetValue("SignInNonAdminUser", "userName");
+            String password = readProjectApproval.GetValue("SignInNonAdminUser", "password");
+            SignInDifferentUser(userName, password);
+            log.Info("Sign in with different user.");
+
+            //Post a new project
+            StringBuilder builder = new StringBuilder();
+            builder.Append(RandomString(6));
+            String projectName = readProjectApproval.GetValue("AddProjectDetails", "projectName");
+            projectName = projectName + builder;
+            PostNewProject(projectName);
+
+            //Verify Recruit tag at project about page
+            postProjectPage.VerifyRecruitLinkOnAboutPage();
+            log.Info("Verify Project status recruit when project approval OFF.");
+
+            //Delete Project
+            Thread.Sleep(3000);
+            DeleteProject();
+
+            //Signout of the application
+            Thread.Sleep(3000);
+            authenticationPage.SignOut();
+            log.Info("Click on the Signout button.");
+
+            //Sign in with a different user
+            Thread.Sleep(2000);
+            userName = readProjectApproval.GetValue("SignInAdminUser", "userName");
+            password = readProjectApproval.GetValue("SignInAdminUser", "password");
+            SignInDifferentUser(userName, password);
+            log.Info("Sign in with different user.");
+
+            //Open feature tab
+            openFeatureTab();
+            log.Info("Open feature tab.");
+
+            //Set project approval Off
+            setProjectApproval();
+            log.Info("Set project approval ON.");
+        }
+        
         //[Test]
-        //public void PostProject_003_VerifyDraftProject()
+        //public void PostProject_006_VerifyDraftProject()
         //{
         //    Global.MethodName = "PostProject_003_VerifyDraftProject";
 
@@ -979,7 +982,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_004_VerifyDataAboutPage()
+        //public void PostProject_007_VerifyDataAboutPage()
         //{
         //    Global.MethodName = "PostProject_004_VerifyDataAboutPage";
 
@@ -1148,7 +1151,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_005_AddMembersAndVerify()
+        //public void PostProject_008_AddMembersAndVerify()
         //{
         //    Global.MethodName = "PostProject_005_AddMembersAndVerify";
 
@@ -1174,7 +1177,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_020_AddMembersAfterProjectCreationAndVerify()
+        //public void PostProject_009_AddMembersAfterProjectCreationAndVerify()
         //{
         //    Global.MethodName = "PostProject_020_AddMembersAfterProjectCreationAndVerify";
 
@@ -1229,7 +1232,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_006_EditProjectAndVerify()
+        //public void PostProject_010_EditProjectAndVerify()
         //{
         //    Global.MethodName = "PostProject_006_EditProjectAndVerify";
 
@@ -1308,7 +1311,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_007_ManageProjectTeam()
+        //public void PostProject_011_ManageProjectTeam()
         //{//done
         //    Global.MethodName = "PostProject_007_ManageProjectTeam";
 
@@ -1374,7 +1377,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_008_CompleteProject()
+        //public void PostProject_012_CompleteProject()
         //{
         //    Global.MethodName = "PostProject_008_CompleteProject";
 
@@ -1426,7 +1429,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_009_MarkProjectInProgress()
+        //public void PostProject_013_MarkProjectInProgress()
         //{
         //    Global.MethodName = "PostProject_009_MarkProjectInProgress";
 
@@ -1467,7 +1470,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_010_MarkProjectClosed()
+        //public void PostProject_014_MarkProjectClosed()
         //{
         //    Global.MethodName = "PostProject_010_MarkProjectClosed";
 
@@ -1513,7 +1516,7 @@ namespace RallyTeam.TestScripts
         //}        
 
         //[Test]
-        //public void PostProject_011_RequestToJoinProject()
+        //public void PostProject_015_RequestToJoinProject()
         //{
         //    Global.MethodName = "PostProject_011_RequestToJoinProject";
 
@@ -1594,7 +1597,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_012_AcceptRequestToJoinProject()
+        //public void PostProject_016_AcceptRequestToJoinProject()
         //{
         //    Global.MethodName = "PostProject_012_AcceptRequestToJoinProject";
 
@@ -1694,7 +1697,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_013_RejectRequestToJoinProject()
+        //public void PostProject_017_RejectRequestToJoinProject()
         //{
         //    Global.MethodName = "PostProject_013_RejectRequestToJoinProject";
 
@@ -1794,7 +1797,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_014_PostNewPrivateProject()
+        //public void PostProject_018_PostNewPrivateProject()
         //{
         //    Global.MethodName = "PostProject_014_PostNewPrivateProject";
 
@@ -1815,7 +1818,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_015_VerifyNonAdminCannotAccessPrivateProject()
+        //public void PostProject_019_VerifyNonAdminCannotAccessPrivateProject()
         //{
         //    Global.MethodName = "PostProject_015_VerifyNonAdminCannotAccessPrivateProject";
 
@@ -1895,7 +1898,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_016_VerifyInvitedUsersCanAccessPrivateProject()
+        //public void PostProject_020_VerifyInvitedUsersCanAccessPrivateProject()
         //{
         //    Global.MethodName = "PostProject_016_VerifyInvitedUsersCanAccessPrivateProject";
 
@@ -1974,7 +1977,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_017_VerifyAdminCanAccessPrivateProject()
+        //public void PostProject_021_VerifyAdminCanAccessPrivateProject()
         //{
         //    Global.MethodName = "PostProject_017_VerifyAdminCanAccessPrivateProject";
 
@@ -2024,7 +2027,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_018_ChangeFromPrivateToPublicAndVerify()
+        //public void PostProject_022_ChangeFromPrivateToPublicAndVerify()
         //{
         //    Global.MethodName = "PostProject_018_ChangeFromPrivateToPublicAndVerify";
 
@@ -2110,7 +2113,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_019_PromoteProject()
+        //public void PostProject_023_PromoteProject()
         //{
         //    Global.MethodName = "PostProject_019_PromoteProject";
 
@@ -2153,7 +2156,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_021_POCanViewProjectAfterCreation()
+        //public void PostProject_024_POCanViewProjectAfterCreation()
         //{
         //    Global.MethodName = "PostProject_021_POViewProjectAfterCreation";
 
@@ -2195,7 +2198,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_022_UserLeaveProject()
+        //public void PostProject_025_UserLeaveProject()
         //{
         //    Global.MethodName = "PostProject_022_UserLeaveProject";
 
@@ -2327,7 +2330,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_023_VerifyDraftProjectCanSeenOnlyToPO()
+        //public void PostProject_026_VerifyDraftProjectCanSeenOnlyToPO()
         //{
         //    Global.MethodName = "PostProject_023_VerifyDraftProjectCanSeenOnlyToPO";
 
@@ -2487,7 +2490,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_024_ProjectOwnerHasAllTabsAfterAcceptJoinProjectRequest()
+        //public void PostProject_027_ProjectOwnerHasAllTabsAfterAcceptJoinProjectRequest()
         //{
         //    Global.MethodName = "PostProject_024_POHasAllTabsAfterAcceptJoinProjectRequest";
 
@@ -2602,7 +2605,7 @@ namespace RallyTeam.TestScripts
         //}
 
         //[Test]
-        //public void PostProject_025_VerifyPrivatePromoteProject()
+        //public void PostProject_028_VerifyPrivatePromoteProject()
         //{
         //    Global.MethodName = "PostProject_025_VerifyPrivatePromoteProject";
 
