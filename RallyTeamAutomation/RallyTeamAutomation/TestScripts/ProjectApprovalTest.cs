@@ -481,9 +481,12 @@ namespace RallyTeam.TestScripts
             postProjectPage.ClickPublishBtn();
             log.Info("Click Publish Button");
             Thread.Sleep(7000);
-        }      
 
-        [Test, CustomRetry(2)]
+        }
+
+
+
+        [Test, CustomRetry(_reTryCount)]
         public void ProjectApproval_001_VerifyProjectStatusPendingWhenApprovalON()
         {
             Global.MethodName = "ProjectApproval_002_VerifyProjectStatusPendingWhenApprovalON";
@@ -526,7 +529,7 @@ namespace RallyTeam.TestScripts
           
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void ProjectApproval_002_VerifyProjectAboutPageOptionForAdmin()
         {
             Global.MethodName = "ProjectApproval_003_VerifyProjectAboutPageOptionForAdmin";
@@ -616,7 +619,7 @@ namespace RallyTeam.TestScripts
 
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void ProjectApproval_003_VerifyProjectApproveByAdmin()
         {
             Global.MethodName = "ProjectApproval_003_VerifyProjectAboutPageOptionForAdmin";
@@ -706,7 +709,7 @@ namespace RallyTeam.TestScripts
 
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void ProjectApproval_004_VerifyProjectDenyByAdmin()
         {
             Global.MethodName = "ProjectApproval_005_VerifyProjectDenyByAdmin";

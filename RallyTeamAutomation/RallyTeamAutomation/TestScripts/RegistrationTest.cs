@@ -26,7 +26,7 @@ namespace RallyTeam.TestScripts
 
         static ReadData readRegistration = new ReadData("Registration");
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Register_User_001_VerifySignUpOption()
         {
             Global.MethodName = "Register_User_001_VerifySignUpOption";
@@ -36,7 +36,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify SignUp option given to the user.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Register_User_002_VerifyRegistrationPage()
         {
             Global.MethodName = "Register_User_002_VerifyRegistrationPage";
@@ -77,7 +77,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Privacy Policy on the screen.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Register_User_003_ClickSignUpAndVerify()
         {
             Global.MethodName = "Register_User_003_ClickSignUpAndVerify";
@@ -130,8 +130,11 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Next button on the screen.");
         }        
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Register_User_004_EnterDuplicateEmailAndVerify()
+
         {
             Global.MethodName = "Register_User_007_EnterDuplicateEmailAndVerify";
 
@@ -169,8 +172,11 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Duplicate error message on the screen.");
         }
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Register_User_005_DoNotEnterEmailAndVerify()
+
         {
             Global.MethodName = "Register_User_008_DoNotEnterEmailAndVerify";
 
@@ -202,8 +208,11 @@ namespace RallyTeam.TestScripts
             log.Info("Verify error message on the screen.");*/
         }
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Register_User_006_LeaveCreatePwdAndVerify()
+
         {
             Global.MethodName = "Register_User_009_LeaveCreatePwdAndVerify";
 
@@ -256,8 +265,11 @@ namespace RallyTeam.TestScripts
             log.Info("Verify error message on the screen.");
         }
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Register_User_007LeaveConfirmPwdAndVerify()
+
         {
             Global.MethodName = "Register_User_010_LeaveConfirmPwdAndVerify";
 
@@ -311,8 +323,11 @@ namespace RallyTeam.TestScripts
             log.Info("Verify error message on the screen.");
         }
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Register_User_008_DifferentCreateAndConfirmPwd()
+
         {
             Global.MethodName = "Register_User_011_DifferentCreateAndConfirmPwd";
 
@@ -369,8 +384,11 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
         }
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Register_User_009_InvalidCreateAndConfirmPwd()
+
         {
             Global.MethodName = "Register_User_012_InvalidCreateAndConfirmPwd";
 

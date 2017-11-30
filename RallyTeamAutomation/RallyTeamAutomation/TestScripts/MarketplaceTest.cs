@@ -222,7 +222,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(7000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Marketplace_001_SearchProject()
         {
             Global.MethodName = "Marketplace_001_SearchProject";
@@ -258,7 +258,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Marketplace_002_BrowseAndSearchDevelopmentProject()
         {
             Global.MethodName = "Marketplace_002_BrowseAndSearchDevelopmentProject";
@@ -348,7 +348,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }       
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Marketplace_003_VerifyProjectsNeedingApprovalSearch()
         {
             //Project need approval
@@ -421,8 +421,11 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }       
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Marketplace_004_VerifyRecruitingProjectsSearch()
+
         {
             Global.MethodName = "Marketplace_005_VerifyRecruitingProjectsSearch";
 
@@ -484,8 +487,11 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Marketplace_005_VerifyRecommendedProjectsSearch()
+
         {
             Global.MethodName = "Marketplace_006_VerifyRecommendedProjectsSearch";
 
@@ -568,8 +574,11 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Marketplace_006_VerifyInProgressProjectsSearch()
+
         {
             Global.MethodName = "Marketplace_007_VerifyInProgressProjectsSearch";
 
@@ -631,8 +640,10 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
+
         public void Marketplace_007_VerifyCompletedProjectsSearch()
+
         {
             Global.MethodName = "Marketplace_008_VerifyCompletedProjectsSearch";
 
@@ -715,8 +726,11 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+
+        [Test, CustomRetry(_reTryCount)]
+
         public void Marketplace_008_VerifyClosedProjectsSearch()
+
         {
             Global.MethodName = "Marketplace_009_VerifyClosedProjectsSearch";
 

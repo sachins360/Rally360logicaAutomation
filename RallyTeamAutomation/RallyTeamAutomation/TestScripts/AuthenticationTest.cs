@@ -26,7 +26,7 @@ namespace RallyTeam.TestScripts
 
         static ReadData readAuthentication = new ReadData("Authentication");
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_001_VerifyLoginUrl()
         {
             Global.MethodName = "Authentication_Login_001_VerifyLoginUrl";
@@ -36,7 +36,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Login Url Page");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_002_VerifyLoginPageFields()
         {
             Global.MethodName = "Authentication_Login_002_VerifyLoginPageFields";
@@ -89,7 +89,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Login Url Page");
         }*/
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_004_LoginWithEmptyFields()
         {
             Global.MethodName = "Authentication_Login_004_LoginWithEmptyFields";
@@ -105,7 +105,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify the error message for empty fields.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_005_InvalidUserNamePwd()
         {
             Global.MethodName = "Authentication_Login_005_InvalidUserNamePwd";
@@ -132,7 +132,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_006_SuccessfulLogin()
         {
             Global.MethodName = "Authentication_Login_006_SuccessfulLogin";
@@ -161,7 +161,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_008_SuccessfulSignOut()
         {
             Global.MethodName = "Authentication_Login_008_SuccessfulSignOut";
@@ -194,7 +194,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Login Url Page");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_010_ClickForgotPwd()
         {
             Global.MethodName = "Authentication_Login_010_ClickForgotPwd";
@@ -210,7 +210,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Forgot Password Page is displayed.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_011_ClickForgotPwdAndVerify()
         {
             Global.MethodName = "Authentication_Login_011_ClickForgotPwdAndVerify";
@@ -236,7 +236,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Go Back Link.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_012_ClickSubmitWithoutEmail()
         {
             Global.MethodName = "Authentication_Login_012_ClickSubmitWithoutEmail";
@@ -257,7 +257,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify the error message displayed.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_013_ClickSubmitWithInvalidEmail()
         {
             Global.MethodName = "Authentication_Login_013_ClickSubmitWithInvalidEmail";
@@ -285,7 +285,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify the error message displayed.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Authentication_Login_014_VerifyResendEmail()
         {
             Global.MethodName = "Authentication_Login_014_VerifyResendEmail";

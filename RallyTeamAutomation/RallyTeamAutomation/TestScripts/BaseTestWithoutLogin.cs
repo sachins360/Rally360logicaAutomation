@@ -28,7 +28,7 @@ namespace RallyTeam.TestScripts
         protected IWebDriver _driver;
         protected AssertHelper _assertHelper;
         protected static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
+        public const int _reTryCount = 3;
         //user details
         protected string _workEmail = ConfigurationSettings.AppSettings["workEmail"];
         protected string _password = ConfigurationSettings.AppSettings["password"];

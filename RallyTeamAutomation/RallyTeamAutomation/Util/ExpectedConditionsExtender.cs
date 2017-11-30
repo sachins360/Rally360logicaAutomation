@@ -142,6 +142,24 @@ namespace RallyTeam.Util
             return textEnteredInElement;
         }
 
+
+        public static string GetCodeFromMailinator(this IWebDriver driver,By locator)
+        {
+            
+               IWebElement element = driver.SafeFindElement(locator);
+                try
+                {
+                    return element.Text;
+                   
+                }
+                catch
+                {
+                    return null;
+                }
+                   
+        }
+
+
         public static Func<IWebDriver, bool> TextAppendInElement(By locator, string text, int timeout)
         {
             Func<IWebDriver, bool> textEnteredInElement = delegate (IWebDriver driver)
