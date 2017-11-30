@@ -152,7 +152,7 @@ namespace RallyTeam.TestScripts
             return indexofNum;
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_001_VerifyDirectoryPage()
         {
             //Click Directory Tab
@@ -207,7 +207,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify the Vendor Location Filter on Vendors tab.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_002_SearchPeopleByNameAndMetadata()
         {
             //Click Directory Tab
@@ -315,7 +315,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify searched user is displayed.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_003_SearchUserByRolesFilter()
         {
             //Click Directory Tab
@@ -342,7 +342,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_004_SearchUserByAvailableForFilter()
         {
             //Click Directory Tab
@@ -369,7 +369,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_005_SearchUserByLocationFilter()
         {
             //Click Directory Tab
@@ -399,7 +399,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_006_SearchUserByEndorsedBy()
         {
             //Click Directory Tab
@@ -429,7 +429,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_007_SearchUserByAllFilters()
         {
             //Click Directory Tab
@@ -486,7 +486,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_008_VerifyUserCard()
         {
             //Click Directory Tab
@@ -538,7 +538,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify searched user Message Icon is displayed.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_009_ClickUserCardAndReturn()
         {
             //Click Directory Tab
@@ -573,7 +573,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify searched user is displayed.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_010_SearchInvalidData()
         {
             //Click Directory Tab
@@ -606,7 +606,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify empty page is displayed on People Tab");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_011_SearchVendorByNameAndMetadata()
         {
             //Click Directory Tab
@@ -666,7 +666,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify searched vendor is displayed.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_012_SearchVendorByLocationFilter()
         {
             //Click Directory Tab
@@ -697,7 +697,7 @@ namespace RallyTeam.TestScripts
         }
 
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_013_SendMessageAndVerify()
         {
             //Click Directory Tab
@@ -776,7 +776,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify confirmaion message.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_014_CreaateTalentPool()
         {
             //Click Directory Tab
@@ -819,7 +819,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_015_VerifyUsersPerSkillsInTalentPool()
         {
             //Click Directory Tab
@@ -871,7 +871,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_016_VerifyUsersPerLanguageInTalentPool()
         {
             //Click Directory Tab
@@ -923,7 +923,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_017_VerifyUsersPerSkillsToDevelopInTalentPool()
         {
             //Click Directory Tab
@@ -975,7 +975,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_018_VerifyUsersPerLocationInTalentPool()
         {
             //Click Directory Tab
@@ -1029,7 +1029,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_019_VerifyUsersPerDepartmentInTalentPool()
         {
             //Click Directory Tab
@@ -1079,7 +1079,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_020_VerifyUsersPerTitleInTalentPool()
         {
             //Click Directory Tab
@@ -1129,7 +1129,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_021_VerifyUsersPerRoleInTalentPool()
         {
             //Click Directory Tab
@@ -1179,7 +1179,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_022_VerifyUsersPerAvailabilityInTalentPool()
         {
             //Click Directory Tab
@@ -1229,7 +1229,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_023_VerifyUsersPerAllFieldsInTalentPool()
         {
             //Click Directory Tab
@@ -1331,7 +1331,7 @@ namespace RallyTeam.TestScripts
             DeleteTalentPool();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_024_VerifyPublicPrivateTalentPool()
         {
             //Click Directory Tab

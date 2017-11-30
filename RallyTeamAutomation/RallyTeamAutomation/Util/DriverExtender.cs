@@ -404,7 +404,7 @@ namespace RallyTeam.Util
                 Log.Error(error);
                 throw new Exception(error);
             }
-        }
+        }   
 
 
         public static void SafeAppendText(this IWebDriver driver, By locator, string text)

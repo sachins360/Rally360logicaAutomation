@@ -84,7 +84,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(10000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void DirectMessaging_001_VerifyMessagesPage()
         {
             Global.MethodName = "DirectMessaging_001_VerifyMessagesPage";
@@ -113,7 +113,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify Send Announcemnet Btn is displayed.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void DirectMessaging_002_VerifyNewMessageWindow()
         {
             Global.MethodName = "DirectMessaging_002_VerifyNewMessageWindow";
@@ -164,7 +164,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify close icon is displayed.");            
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void DirectMessaging_003_SendNewMessageAndVerify()
         {
             Global.MethodName = "DirectMessaging_003_SendNewMessageAndVerify";
@@ -209,7 +209,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify message is successfully posted.");
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void DirectMessaging_004_ReplyMessage()
         {
             Global.MethodName = "DirectMessaging_004_ReplyMessage";
@@ -783,7 +783,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify reply text area is not present.");
         }*/
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void DirectMessaging_008_CannotSendNewMessageWithoutPermissionAndVerify()
 
         {
@@ -811,7 +811,7 @@ namespace RallyTeam.TestScripts
 
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void DirectMessaging_012_VerifyNonAdminCannotSendAnnouncement()
         {
             Global.MethodName = "DirectMessaging_012_VerifyNonAdminCannotSendAnnouncement";

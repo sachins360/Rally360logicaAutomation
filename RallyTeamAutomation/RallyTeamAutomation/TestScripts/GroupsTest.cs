@@ -27,7 +27,7 @@ namespace RallyTeam.TestScripts
             String url = urlKey;
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Groups_001_CreateEmployeeGroup()
         {
             //Click User Profile Icon
@@ -74,7 +74,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Groups_002_CreateExternalUserGroup()
         {
             //Click User Profile Icon
@@ -121,7 +121,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Groups_003_CreateVendorGroup()
         {
             //Click User Profile Icon
@@ -168,7 +168,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Groups_004_AddMemberToGroup()
         {
             //Click User Profile Icon
@@ -232,7 +232,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Groups_005_RemoveMemberFromGroup()
         {
             //Click User Profile Icon
@@ -296,7 +296,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Groups_006_DeleteEmployeeGroup()
         {
             //Click User Profile Icon
@@ -359,7 +359,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Groups_007_VerifySytemGroupNotDeleted()
         {
             //Click User Profile Icon
@@ -385,7 +385,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);      
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Groups_008_VerifyUserEditGroup()
         {
             //Click User Profile Icon
@@ -462,7 +462,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Groups_009_VerifyUserChangeDefaultGroup()
         {
             //Click User Profile Icon

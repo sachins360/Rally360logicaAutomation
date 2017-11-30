@@ -209,7 +209,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(7000);
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Invoicing_001_CreateAndVerifyDraftInvoice()
         {
             //Post a new project
@@ -297,7 +297,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Invoicing_002_SubmitInvoiceAndVerifyStatus()
         {
             //Post a new project
@@ -380,7 +380,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Invoicing_003_ApproveInvoiceAndVerifyStatus()
         {
             //Post a new project
@@ -480,7 +480,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Invoicing_004_DenyInvoiceAndVerifyStatus()
         {
             //Post a new project
@@ -580,7 +580,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Invoicing_005_MarkPaidInvoiceAndVerifyStatus()
         {
             Global.MethodName = "Invoicing_005_MarkPaidInvoiceAndVerifyStatus";
@@ -801,7 +801,7 @@ namespace RallyTeam.TestScripts
         //    DeleteProject();
         //}
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Invoicing_006_DeleteDraftInvoice()
         {
             Global.MethodName = "Invoicing_006_DeleteDraftInvoice";
@@ -893,7 +893,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Invoicing_007_InvoiceForDraftProject()
         {
             //Post a new project
@@ -1003,7 +1003,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(2000);            
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(_reTryCount)]
         public void Invoicing_008_InvoiceNotVisisbleToOthers()
         {
             //Post a new project

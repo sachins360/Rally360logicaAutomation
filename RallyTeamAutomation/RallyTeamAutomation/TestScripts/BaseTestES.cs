@@ -31,6 +31,7 @@ namespace RallyTeam.TestScripts
         protected static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         //user details
+        public const int _reTryCount = 3;
         protected string _workEmail = ConfigurationSettings.AppSettings["workEmail"];
         protected string _password = ConfigurationSettings.AppSettings["password"];
 

@@ -58,6 +58,14 @@ namespace RallyTeam.UIPages
             commonPage.PressEnterKey();
         }
 
+        public string GetCodeFromMailinator()
+        {
+            string code = _driver.GetCodeFromMailinator(AddUsersUI.codeCenter);
+            return code;
+        }
+
+        
+
         public void EnterInvoiceDesignatedPayor(string _payerName)
         {
             bool configureFlag = _driver.IsElementVisible(DashboardUI.configureLink);
