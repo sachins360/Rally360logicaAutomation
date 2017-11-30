@@ -262,5 +262,11 @@ namespace RallyTeam.UIPages
             _driver.ClickElementUsingAction(NotificationsUI.harakiriLetsRallyBtn);
         }
 
+        //Click the Harakirimail View On Rallyteam button
+        public void ClickHarakiriViewOnRallyteamBtn()
+        {
+            _driver.CheckElementClickable(NotificationsUI.harakiriViewOnRallyteamBtn);
+            _driver.ClickElementUsingAction(NotificationsUI.harakiriViewOnRallyteamBtn);
+        }
     }
 }
