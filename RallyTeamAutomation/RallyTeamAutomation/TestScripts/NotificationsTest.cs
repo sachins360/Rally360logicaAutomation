@@ -317,7 +317,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(1)]
+        [Test, CustomRetry(2)]
         public void Notifications_002_ProjectOwnerPendingJoinRequest()
         {
             //Post a new project
@@ -462,7 +462,7 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(2)]
-        public void Notifications_003_UserRecruitedToProject()
+        public void Notifications_003_UserInviteToProject()
         {
             //Post a new project
             StringBuilder builder = new StringBuilder();
@@ -476,12 +476,49 @@ namespace RallyTeam.TestScripts
             log.Info("Click on the Signout button.");
             Thread.Sleep(5000);
 
-            //Sign in with different user
+            //Navigate to the user inbox
+            commonPage.NavigateToUrl("https://www.harakirimail.com/");
+            log.Info("Navigate to the mailinator site.");
+            Thread.Sleep(7000);
+
+            //Enter Harakirimail Email address
             String username = readNotifications.GetValue("SignInDifferentUser", "username");
             String password = readNotifications.GetValue("SignInDifferentUser", "password");
+            addUsersPage.EnterHarakirimailEmail(username);
+            log.Info("Enter email" + username + " address.");
+            Thread.Sleep(2000);
+
+            //Press Enter key
+            commonPage.PressEnterKey();
+            Thread.Sleep(5000);
+
+            //Verify the Email Subject
+            String projectInviteSubject = readNotifications.GetValue("EmailSubject", "projectInviteSubject");
+            addUsersPage.VerifyEmailSubject(projectInviteSubject);
+            log.Info("Verify the " + projectInviteSubject + " Email Subject.");
+            Thread.Sleep(1000);
+
+            //Click the Email Subject
+            notificationsPage.ClickHarakirimailEmailSubject(projectInviteSubject);
+            log.Info("Click the " + projectInviteSubject + " Email Subject.");
+            Thread.Sleep(5000);
+
+            //Click Harakirmail Let's Rally button Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            notificationsPage.ClickHarakiriLetsRallyBtn();
+            log.Info("Click Harakirmail Let's Rally button Button.");
+            Thread.Sleep(5000);
+
+            //Sign in with different user
             SignInDifferentUser(username, password);
             Thread.Sleep(7000);
-            
+
+            //Verify Project About Page is displayed
+            postProjectPage.VerifyProjectName(projectName);
+            log.Info("Verify the Project Name on About page");
+            Thread.Sleep(1000);
+
             //Click Notifications Icon
             notificationsPage.ClickNotificationsIcon();
             log.Info("Click on the Notifications Icon at top.");
@@ -540,7 +577,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-        [Test, CustomRetry(2)]
+        [Test, CustomRetry(1)]
         public void Notifications_004_UserAddedToProject()
         {
             //Post a new project
@@ -555,10 +592,43 @@ namespace RallyTeam.TestScripts
             log.Info("Click on the Signout button.");
             Thread.Sleep(2000);
 
+            //Navigate to the user inbox
+            commonPage.NavigateToUrl("https://www.harakirimail.com/");
+            log.Info("Navigate to the mailinator site.");
+            Thread.Sleep(7000);
+
+            //Enter Harakirimail Email address            
+            String addMembersEmail = readNotifications.GetValue("AddProjectDetails", "memberEmail");
+            List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
+            String password = readNotifications.GetValue("SignInDifferentUser", "password");
+            addUsersPage.EnterHarakirimailEmail(addMembersEmailList[0]);
+            log.Info("Enter email" + addMembersEmailList[0] + " address.");
+            Thread.Sleep(2000);
+
+            //Press Enter key
+            commonPage.PressEnterKey();
+            Thread.Sleep(5000);
+
+            //Verify the Email Subject
+            String userAddedToProjectSubject = readNotifications.GetValue("EmailSubject", "userAddedToProjectSubject");
+            addUsersPage.VerifyEmailSubject(userAddedToProjectSubject);
+            log.Info("Verify the " + userAddedToProjectSubject + " Email Subject.");
+            Thread.Sleep(1000);
+
+            //Click the Email Subject
+            notificationsPage.ClickHarakirimailEmailSubject(userAddedToProjectSubject);
+            log.Info("Click the " + userAddedToProjectSubject + " Email Subject.");
+            Thread.Sleep(5000);
+
+            //Click Harakirmail Let's Rally button Button
+            commonPage.ScrollDown();
+            Thread.Sleep(1000);
+            notificationsPage.ClickHarakiriLetsRallyBtn();
+            log.Info("Click Harakirmail Let's Rally button Button.");
+            Thread.Sleep(5000);
+
             //Sign in with different user
-            String userName = readNotifications.GetValue("AddProjectMember", "addMemberEmail");
-            String password = readNotifications.GetValue("AddProjectMember", "password");
-            SignInDifferentUser(userName, password);
+            SignInDifferentUser(addMembersEmailList[0], password);
             Thread.Sleep(3000);
 
             //Click Notifications Icon

@@ -23,7 +23,7 @@ namespace RallyTeam.UILocators
         {
             return By.XPath("//div[contains(text(), '" + variable + "')][1]");
         }
-        public readonly static By harakiriLetsRallyBtn = By.XPath("//a[contains(text(), ' Rally!')]");
+        public readonly static By harakiriLetsRallyBtn = By.XPath("//a[contains(text(), ' Rally')]");
 
         //Project Join Request
         public readonly static By notificationsWindowProjectJoinRequest = By.XPath("//div[contains(@class, 'rt-notification__width')]//strong[contains(text(), 'You have a new reque')]");

@@ -236,7 +236,7 @@ namespace RallyTeam.TestScripts
             jobsPage.VerifyRequiredQualificationsAboutPage(reqQualifications);
 
             //Verify About tab Job Hiring Manager after creation
-            jobsPage.VerifyHiringManagerAboutPage("Ammar Khan");
+            jobsPage.VerifyHiringManagerAboutPage("Automation AdminUser");
 
             //Verify About tab Job Team after creation
             jobsPage.VerifyTeamAboutPage(jobTeam);
