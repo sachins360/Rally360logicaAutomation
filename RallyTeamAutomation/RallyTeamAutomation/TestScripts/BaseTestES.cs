@@ -20,6 +20,8 @@ using RallyTeam.UIPages;
 using NUnit.Framework.Interfaces;
 using System.Diagnostics;
 using System.Collections.Generic;
+using AventStack.ExtentReports;
+using AventStack.ExtentReports.Reporter;
 
 namespace RallyTeam.TestScripts
 {
@@ -29,6 +31,9 @@ namespace RallyTeam.TestScripts
         protected IWebDriver _driver;
         protected AssertHelper _assertHelper;
         protected static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        public static ExtentReports extent;
+        public static ExtentTest test;
 
         //user details
         public const int _reTryCount = 3;
@@ -72,7 +77,18 @@ namespace RallyTeam.TestScripts
         {
             BaseUrl = ConfigurationManager.AppSettings[urlKey];
             Browser = browser;
-        }        
+        }
+
+        [OneTimeSetUp]
+        public void StartReport()
+        {
+            //*********Extent Report Generation*********
+            String rootDir = AppDomain.CurrentDomain.BaseDirectory;
+            ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(rootDir + "\\ExecutionResult.html");
+            extent = new ExtentReports();
+            extent.AttachReporter(htmlReporter);
+            
+        }
 
         [SetUp]
         public void TestSetUp()
@@ -94,6 +110,29 @@ namespace RallyTeam.TestScripts
             notificationsPage = new NotificationsPage(_driver, _pageLoadTimeout);
             groupsPage = new GroupsPage(_driver, _pageLoadTimeout);
             jobsPage = new JobsPage(_driver, _pageLoadTimeout);
+
+            //*********Extent Report Generation*********
+            /*//To obtain the current solution path/project path
+            string pth = System.Reflection.Assembly.GetCallingAssembly().CodeBase;
+            string actualPath = pth.Substring(0, pth.LastIndexOf("bin"));
+            string projectPath = new Uri(actualPath).LocalPath;
+
+            //Append the html report file to current project path
+            string reportPath = projectPath + "\\TestRunReport.html";
+
+            //Boolean value for replacing exisisting report
+            extent = new ExtentReports();
+
+            //Add QA system info to html report
+            //extent.AddSystemInfo("Host Name", "YourHostName").AddSystemInfo("Environment", "YourQAEnvironment").AddSystemInfo("Username", "YourUserName");
+            //extent.AttachReporter(htmlReporter);*/
+
+            // start reporters
+            var currentContext = TestContext.CurrentContext;
+            var testName = currentContext.Test.Name;
+            String filename = this.GetType().FullName + "." + testName;
+            test = extent.CreateTest(filename);
+            test.AssignAuthor("360Logica");
 
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
 
@@ -127,18 +166,31 @@ namespace RallyTeam.TestScripts
             try
             {
                 var currentContext = TestContext.CurrentContext;
+                var message = TestContext.CurrentContext.Result.Message;
+                var stackTrace = TestContext.CurrentContext.Result.StackTrace;
                 if (currentContext.Result.Outcome != ResultState.Success)
                 {
                     var testName = currentContext.Test.Name;
                     String filename = "Screenshots\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
                     Console.WriteLine("filename: " + filename);
                     UtilityHelper.TakeScreenshot(_driver, filename);
+                    filename = AppDomain.CurrentDomain.BaseDirectory + "Screenshots\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
+                    UtilityHelper.TakeScreenshot(_driver, filename);
+                    test.Log(Status.Fail, stackTrace + message);
+                    test.Log(Status.Fail, "Snapshot below: " + test.AddScreenCaptureFromPath(filename));
+
                 }
                 Log.Info("Teardown test");
                 _driver.Quit();
             }
             catch { _driver.Dispose(); }
         }
+        [OneTimeTearDown]
+        public void EndReport()
+        {
+            extent.Flush();
+        }
+
         public IWebDriver GetDriver()
         {
             string path = System.IO.Directory.GetCurrentDirectory();
