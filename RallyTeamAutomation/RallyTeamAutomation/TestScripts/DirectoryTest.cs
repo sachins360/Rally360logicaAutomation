@@ -326,7 +326,8 @@ namespace RallyTeam.TestScripts
 
             //Select Role
             String userName = "Aa Directory";
-            String roleName = "AUTOMATION_ROLE";
+            //String roleName = "AUTOMATION_ROLE";
+            String roleName = "AUTOMJKDGJSHATION_ROLE";
             directoryPage.SelectRolesFilter(roleName);
             log.Info("Select the Roles Filter.");
             Thread.Sleep(1000);

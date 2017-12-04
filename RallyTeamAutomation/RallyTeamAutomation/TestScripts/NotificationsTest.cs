@@ -1921,7 +1921,8 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Enter the Message in Text Area
-            postProjectPage.EnterMessageTextArea("Hi @Automation");
+            String messageUserOne = readNotifications.GetValue("AddProjectDetails", "messageUserOne");
+            postProjectPage.EnterMessageTextArea("Hi @Notification UserOne");
             Thread.Sleep(2000);
             commonPage.PressTabKey();
             Thread.Sleep(2000);
@@ -1965,7 +1966,7 @@ namespace RallyTeam.TestScripts
 
             //Verify the User Mentioned In Project WIth All subject on the Notifications Page
             String loggedInUserName = readNotifications.GetValue("LoggedInUserName", "username");
-            notificationsPage.VerifyUserMentionedInProjectWIthAllSubject(loggedInUserName, "Hi @Automation UserOne");
+            notificationsPage.VerifyUserMentionedInProjectWIthAllSubject(loggedInUserName, "Hi @Notification UserOne");
             log.Info("Verify User Mentioned In Project WIth All notification subject on the Notifications Page.");
             Thread.Sleep(2000);
 
