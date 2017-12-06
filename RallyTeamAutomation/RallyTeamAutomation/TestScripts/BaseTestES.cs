@@ -22,6 +22,7 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using AventStack.ExtentReports;
 using AventStack.ExtentReports.Reporter;
+using static RallyTeam.Util.CustomRetry;
 
 namespace RallyTeam.TestScripts
 {
@@ -73,6 +74,11 @@ namespace RallyTeam.TestScripts
 
         String BaseUrl;
         String Browser;
+
+        public BaseTestES()
+        {
+
+        }
         public BaseTestES(string urlKey,string browser = "chrome")
         {
             BaseUrl = ConfigurationManager.AppSettings[urlKey];
@@ -150,6 +156,10 @@ namespace RallyTeam.TestScripts
                 var currentContext = TestContext.CurrentContext;
                 var message = TestContext.CurrentContext.Result.Message;
                 var stackTrace = TestContext.CurrentContext.Result.StackTrace;
+                if (currentContext.Result.Outcome == ResultState.Success)
+                {
+                    test.Log(Status.Pass, message);
+                }
                 if (currentContext.Result.Outcome != ResultState.Success)
                 {
                     var testName = currentContext.Test.Name;
@@ -157,7 +167,7 @@ namespace RallyTeam.TestScripts
                     String filename = rootPath+"\\Report\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
                     Console.WriteLine("filename: " + filename);
                     UtilityHelper.TakeScreenshot(_driver, filename);
-                    if(_reTryCount==3)
+                    if (Global.tempCount == 1)
                         test.Log(Status.Fail, stackTrace + message);
                 }
                 Log.Info("Teardown test");

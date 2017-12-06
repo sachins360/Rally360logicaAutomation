@@ -9,5 +9,6 @@ namespace RallyTeam
     public static class Global
     {
        public static string MethodName = string.Empty;
+       public static int tempCount;
     }
 }
