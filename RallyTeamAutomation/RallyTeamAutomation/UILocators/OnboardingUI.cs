@@ -26,6 +26,7 @@ namespace RallyTeam.UILocators
         public readonly static By LetsGoBtn = By.XPath("//button[@type='submit']");
 
         public readonly static By headerTitle = By.XPath("//div[@class='rt-standalone-page__title ng-binding']");
+        public readonly static By popUpBtn = By.XPath("//a[@class='intercom-post-close']");
 
         public static By WelcomeUser(String variable)
         {

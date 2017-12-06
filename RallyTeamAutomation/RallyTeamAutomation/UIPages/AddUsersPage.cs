@@ -568,7 +568,11 @@ namespace RallyTeam.UIPages
 
         public void ClickDiv()
         {
-            _driver.ClickElementUsingAction(OnboardingUI.headerTitle);
+           // _driver.ClickElementUsingAction(OnboardingUI.headerTitle);
+            if (_driver.IsElementPresent(OnboardingUI.popUpBtn) || _driver.IsElementVisible(OnboardingUI.popUpBtn))
+            {
+                _driver.ClickElementUsingAction(OnboardingUI.popUpBtn);
+            }
         }
 
         //td[@class= 'content-pad p-b center']/center[4]
