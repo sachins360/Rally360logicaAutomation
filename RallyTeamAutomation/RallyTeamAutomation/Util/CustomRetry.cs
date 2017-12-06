@@ -19,14 +19,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RallyTeam.TestScripts;
 
 namespace RallyTeam.Util
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
     public class CustomRetry : PropertyAttribute, IWrapSetUpTearDown
     {
-        private int _count;
-
+        public int _count;
         /// <summary>
         /// Construct a RepeatAttribute
         /// </summary>
@@ -57,8 +57,7 @@ namespace RallyTeam.Util
         /// </summary>
         public class CustomRetryCommand : DelegatingTestCommand
         {
-            private int _retryCount;
-
+            public int _retryCount;           
             /// <summary>
             /// Initializes a new instance of the <see cref="CustomRetryCommand"/> class.
             /// </summary>
@@ -82,6 +81,7 @@ namespace RallyTeam.Util
                 while (count-- > 0)
                 {
                     context.CurrentResult = innerCommand.Execute(context);
+                    Global.tempCount = count;
                     var results = context.CurrentResult.ResultState;
 
                     if (results != ResultState.Error

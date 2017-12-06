@@ -77,7 +77,6 @@ namespace RallyTeam.Util
             }
             catch (Exception error)
             {
-                UtilityHelper.TakeScreenshot(_driver);
                 //String error = "Element with locator:" + locator.ToString() + " is not clickable.";
                 String e = error.ToString();
                 Log.Error(e);
@@ -95,7 +94,6 @@ namespace RallyTeam.Util
             }
             catch (Exception error)
             {
-                UtilityHelper.TakeScreenshot(_driver);
                 //String error = "Element with locator:" + locator.ToString() + " is not clickable.";
                 String e = error.ToString();
                 Log.Error(e);
@@ -260,7 +258,6 @@ namespace RallyTeam.Util
             }
             catch (NoSuchElementException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to locate element: {\"method\":\"Text\",\"selector\":\"" + text + "\"}";
                 Log.Error(error);
                 throw new NoSuchElementException(error);
@@ -277,7 +274,6 @@ namespace RallyTeam.Util
             }
             catch (NoSuchElementException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to locate element: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"text\":\"" + text + "\"}";
                 Log.Error(error);
                 throw new NoSuchElementException(error);
@@ -323,7 +319,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to locate element: {\"ancestorMethod\":\"" + ancestorLocator.GetMethod() + "\",\"ancestorSelector\":\"" + ancestorLocator.GetSelector() + "\",\"descendantMethod\":\"" + descendantLocator.GetMethod() + "\",\"descendantSelector\":\"" + descendantLocator.GetSelector() + "\",\"text\":\"" + text + "\"}";
                 Log.Error(error);
                 throw new NoSuchElementException(error);
@@ -342,7 +337,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to locate element: {\"knownElementMethod\":\"" + knownElementLocator.GetMethod() + "\",\"knownElementSelector\":\"" + knownElementLocator.GetSelector() + "\",\"relativeMethod\":\"" + relativeLocator.GetMethod() + "\",\"relativeSelector\":\"" + relativeLocator.GetSelector() + "\"}";
                 Log.Error(error);
                 throw new NoSuchElementException(error);
@@ -360,7 +354,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to locate element: {\"knownElementMethod\":\"" + knownElementLocator.GetMethod() + "\",\"knownElementSelector\":\"" + knownElementLocator.GetSelector() + "\",\"knownElementText\":\"" + knownElementText + "\",\"relativeMethod\":\"" + relativeLocator.GetMethod() + "\",\"relativeSelector\":\"" + relativeLocator.GetSelector() + "\"}";
                 Log.Error(error);
                 throw new NoSuchElementException(error);
@@ -379,7 +372,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to locate hidden element: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\"}";
                 Log.Error(error);
                 throw new NoSuchElementException(error);
@@ -399,7 +391,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to send text to element: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\"}";
                 Log.Error(error);
                 throw new Exception(error);
@@ -417,7 +408,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to send text to element: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\"}";
                 Log.Error(error);
                 throw new Exception(error);
@@ -440,7 +430,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to send text to element: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\"}";
                 Log.Error(error);
                 throw new Exception(error);
@@ -492,7 +481,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to send text to element: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\"}";
                 Log.Error(error);
                 throw new Exception(error);
@@ -512,7 +500,6 @@ namespace RallyTeam.Util
             }
             catch (Exception error)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 //String error = "Element with locator:" + locator.ToString() + " is not clickable.";
                 String e = error.ToString();
                 Log.Error(e);
@@ -550,7 +537,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Unable to locate element: {\"ancestorMethod\":\"" + ancestorLocator.GetMethod() + "\",\"ancestorSelector\":\"" + ancestorLocator.GetSelector() + "\",\"descendantMethod\":\"" + descendantLocator.GetMethod() + "\",\"descendantSelector\":\"" + descendantLocator.GetSelector() + "\",\"text\":\"" + text + "\"}";
                 Log.Error(error);
                 throw new NoSuchElementException(error);
@@ -608,7 +594,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Element text did not become expected value before timing out: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"expectedValue\":\"" + text + "\"}";
                 Log.Error(error);
                 throw new WebDriverTimeoutException(error);
@@ -628,7 +613,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Element text did not become expected value before timing out: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"expectedValue:\"}";
                 Log.Error(error);
                 throw new WebDriverTimeoutException(error);
@@ -646,7 +630,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 throw new WebDriverTimeoutException("Hidden element text did not become expected value before timing out: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"expectedValue\":\"" + text + "\"}");
             }
         }
@@ -662,7 +645,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Hidden element text did not change from expected value before timing out: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"expectedValue\":\"" + text + "\"}";
                 Log.Error(error);
                 throw new WebDriverTimeoutException(error);
@@ -680,7 +662,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Hidden element text did not contain expected value before timing out: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"expectedValue\":\"" + text + "\"}";
                 Log.Error(error);
                 throw new WebDriverTimeoutException(error);
@@ -698,7 +679,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Hidden element text did not contain expected value before timing out: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"expectedValue\":\"" + text + "\"}";
                 Log.Error(error);
                 throw new WebDriverTimeoutException(error);
@@ -795,7 +775,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Element with locator:" + locator.ToString() + " is not dropdown.";
                 Log.Error(error);
                 throw new InvalidElementStateException(error);
@@ -842,7 +821,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Element with locator:" + locator.ToString() + " is not dropdown.";
                 Log.Error(error);
                 throw new InvalidElementStateException(error);
@@ -864,7 +842,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Element with locator:" + locator.ToString() + " is not dropdown.";
                 Log.Error(error);
                 throw new InvalidElementStateException(error);
@@ -915,7 +892,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Element text did not become expected value before timing out: {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"expectedValue:\"}";
                 Log.Error(error);
                 throw new WebDriverTimeoutException(error);
@@ -935,7 +911,6 @@ namespace RallyTeam.Util
             }
             catch (WebDriverTimeoutException)
             {
-                UtilityHelper.TakeScreenshot(driver);
                 String error = "Element was not visible : {\"method\":\"" + locator.GetMethod() + "\",\"selector\":\"" + locator.GetSelector() + "\",\"expectedValue:\"}";
                 Log.Error(error);
                 throw new WebDriverTimeoutException(error);

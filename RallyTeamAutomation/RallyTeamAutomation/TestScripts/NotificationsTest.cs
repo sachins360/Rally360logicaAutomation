@@ -578,7 +578,6 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-
         [Test, CustomRetry(_reTryCount)]
         public void Notifications_004_UserAddedToProject()
         {
@@ -977,7 +976,6 @@ namespace RallyTeam.TestScripts
             //Delete Project
             Thread.Sleep(3000);
             DeleteProject();
-
         }
 
         [Test, CustomRetry(_reTryCount)]
