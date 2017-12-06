@@ -8,7 +8,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Safari;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Remote;
-//using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Edge;
 using System.Drawing;
 using System.Reflection;
 using System.Text;
@@ -19,7 +19,9 @@ using OpenQA.Selenium.PhantomJS;
 using RallyTeam.UIPages;
 using NUnit.Framework.Interfaces;
 using System.Diagnostics;
-using OpenQA.Selenium.Edge;
+using System.Collections.Generic;
+using AventStack.ExtentReports;
+using AventStack.ExtentReports.Reporter;
 
 namespace RallyTeam.TestScripts
 {
@@ -28,6 +30,10 @@ namespace RallyTeam.TestScripts
         protected IWebDriver _driver;
         protected AssertHelper _assertHelper;
         protected static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        public static ExtentReports extent;
+        public static ExtentTest test;
+
         public const int _reTryCount = 3;
         //user details
         protected string _workEmail = ConfigurationSettings.AppSettings["workEmail"];
@@ -54,10 +60,18 @@ namespace RallyTeam.TestScripts
         String Browser;
         public BaseTestWithoutLogin(string urlKey, string browser = "chrome")
         {
-            //BaseUrl = urlKey;
             BaseUrl = ConfigurationManager.AppSettings[urlKey];
             Browser = browser;
-            //Environment = environment;
+        }
+
+        [OneTimeSetUp]
+        public void StartReport()
+        {
+            //*********Extent Report Generation One Time Setup*********
+            String rootPath = AppDomain.CurrentDomain.BaseDirectory;
+            ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(rootPath + "\\Report" + "\\ExecutionResult.html");
+            extent = new ExtentReports();
+            extent.AttachReporter(htmlReporter);
         }
 
         [SetUp]
@@ -66,11 +80,20 @@ namespace RallyTeam.TestScripts
             _driver = GetDriver();
             authenticationPage = new AuthenticationPage(_driver, _pageLoadTimeout);
             registrationPage = new RegistrationPage(_driver, _pageLoadTimeout);
-            _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
-            _driver.Manage().Window.Maximize();
-            _driver.Url = _externalStormURL;
-            _driver.setTimeOut(_pageLoadTimeout);
 
+            //*********Extent Report Generation*********
+            var currentContext = TestContext.CurrentContext;
+            var testName = currentContext.Test.Name;
+            String filename = this.GetType().FullName + "." + testName;
+            test = extent.CreateTest(filename);
+            test.AssignAuthor("360Logica");
+
+            _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
+            //if (!Browser.Contains("edge"))
+            if (!Browser.Contains("firefox"))
+                _driver.Manage().Window.Maximize();
+            _driver.Url = BaseUrl;
+            _driver.setTimeOut(_pageLoadTimeout);
 
             if (_browser == "phantomjs")
             {
@@ -89,12 +112,16 @@ namespace RallyTeam.TestScripts
             try
             {
                 var currentContext = TestContext.CurrentContext;
+                var message = TestContext.CurrentContext.Result.Message;
+                var stackTrace = TestContext.CurrentContext.Result.StackTrace;
                 if (currentContext.Result.Outcome != ResultState.Success)
                 {
                     var testName = currentContext.Test.Name;
-                    String filename = "Screenshots\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
+                    String rootPath = AppDomain.CurrentDomain.BaseDirectory;
+                    String filename = rootPath + "\\Report\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
                     Console.WriteLine("filename: " + filename);
                     UtilityHelper.TakeScreenshot(_driver, filename);
+                    test.Log(Status.Fail, stackTrace + message);
                 }
                 Log.Info("Teardown test");
                 _driver.Quit();
