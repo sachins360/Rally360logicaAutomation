@@ -1550,7 +1550,6 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-
         [Test, CustomRetry(_reTryCount)]
         public void PostProject_015_VerifyAdminCanAccessPrivateProject()
 
@@ -1600,9 +1599,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-
         [Test, CustomRetry(_reTryCount)]
-
         public void PostProject_016_ChangeFromPrivateToPublicAndVerify()
 
         {            
@@ -1687,9 +1684,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-
         [Test, CustomRetry(_reTryCount)]
-
         public void PostProject_017_PromoteProject()
 
         {
@@ -1733,9 +1728,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-
         [Test, CustomRetry(_reTryCount)]
-
         public void PostProject_018_AddMembersAfterProjectCreationAndVerify()
 
         {
@@ -1792,9 +1785,7 @@ namespace RallyTeam.TestScripts
             }
         }
 
-
         [Test, CustomRetry(_reTryCount)]
-
         public void PostProject_019_UserLeaveProject()
 
         {
@@ -1871,7 +1862,6 @@ namespace RallyTeam.TestScripts
             //Delete Project
             DeleteProject();
         }
-
 
         [Test, CustomRetry(_reTryCount)]  
         public void PostProject_020_VerifyDraftProjectCanSeenOnlyToPO()
@@ -1961,7 +1951,6 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
         }
 
-
         [Test, CustomRetry(_reTryCount)]
    
         public void PostProject_021_VerifyPrivatePromoteProject()
@@ -2016,7 +2005,7 @@ namespace RallyTeam.TestScripts
             log.Info("Click Promote Button");
 
             //Click on the Signout button.
-            Thread.Sleep(5000);
+            Thread.Sleep(10000);
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
 
@@ -2114,9 +2103,7 @@ namespace RallyTeam.TestScripts
             DeleteProject();
         }
 
-
         [Test, CustomRetry(_reTryCount)]
-
         public void PostProject_022_VendorStaffedProjectVisibleToAddedVendorOnly()
 
         {

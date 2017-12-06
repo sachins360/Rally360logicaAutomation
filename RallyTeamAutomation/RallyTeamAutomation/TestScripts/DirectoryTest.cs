@@ -208,6 +208,33 @@ namespace RallyTeam.TestScripts
         }
 
         [Test, CustomRetry(_reTryCount)]
+        public void Directory_003_SearchUserByRolesFilter()
+        {
+            //Click Directory Tab
+            Thread.Sleep(2000);
+            directoryPage.ClickDirectoryTab();
+            log.Info("Click the Directory tab.");
+            Thread.Sleep(3000);
+
+            //Select Role
+            String userName = "Aa Directory";
+            String roleName = "AUTOMATION_ROLE";
+            directoryPage.SelectRolesFilter(roleName);
+            log.Info("Select the Roles Filter.");
+            Thread.Sleep(1000);
+
+            //Click Search button
+            directoryPage.ClickSearchBtn();
+            log.Info("Click on the Search button on the main page");
+            Thread.Sleep(5000);
+
+            //Verify User container User Name is displayed
+            directoryPage.VerifyUserContainerUserName(userName);
+            log.Info("Verify searched user is displayed.");
+            Thread.Sleep(1000);
+        }
+        
+        [Test, CustomRetry(_reTryCount)]
         public void Directory_002_SearchPeopleByNameAndMetadata()
         {
             //Click Directory Tab
@@ -313,35 +340,7 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
-        }
-
-        [Test, CustomRetry(_reTryCount)]
-        public void Directory_003_SearchUserByRolesFilter()
-        {
-            //Click Directory Tab
-            Thread.Sleep(2000);
-            directoryPage.ClickDirectoryTab();
-            log.Info("Click the Directory tab.");
-            Thread.Sleep(3000);
-
-            //Select Role
-            String userName = "Aa Directory";
-            //String roleName = "AUTOMATION_ROLE";
-            String roleName = "AUTOMJKDGJSHATION_ROLE";
-            directoryPage.SelectRolesFilter(roleName);
-            log.Info("Select the Roles Filter.");
-            Thread.Sleep(1000);
-
-            //Click Search button
-            directoryPage.ClickSearchBtn();
-            log.Info("Click on the Search button on the main page");
-            Thread.Sleep(5000);
-
-            //Verify User container User Name is displayed
-            directoryPage.VerifyUserContainerUserName(userName);
-            log.Info("Verify searched user is displayed.");
-            Thread.Sleep(1000);
-        }
+        }        
 
         [Test, CustomRetry(_reTryCount)]
         public void Directory_004_SearchUserByAvailableForFilter()
@@ -1418,7 +1417,7 @@ namespace RallyTeam.TestScripts
             //Verify Second Talent Pool not displayed in Talent Pool drop-down
             directoryPage.VerifyTalentPoolNotDisplayed(talentTwoPoolName);
             log.Info("Verify Second Talent Pool not displayed in Talent Pool drop-down");
-        }        
+        } 
 
     }
 }

@@ -515,10 +515,10 @@ namespace RallyTeam.TestScripts
             SignInDifferentUser(username, password);
             Thread.Sleep(7000);
 
-            //Verify Project About Page is displayed
+            /*//Verify Project About Page is displayed
             postProjectPage.VerifyProjectName(projectName);
             log.Info("Verify the Project Name on About page");
-            Thread.Sleep(1000);
+            Thread.Sleep(1000);*/
 
             //Click Notifications Icon
             notificationsPage.ClickNotificationsIcon();
@@ -979,7 +979,6 @@ namespace RallyTeam.TestScripts
             DeleteProject();
 
         }
-
 
         [Test, CustomRetry(_reTryCount)]
         public void Notifications_007_InvoiceRequiresApproval()
