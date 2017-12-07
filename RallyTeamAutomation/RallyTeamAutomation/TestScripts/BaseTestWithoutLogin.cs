@@ -30,7 +30,8 @@ namespace RallyTeam.TestScripts
         protected AssertHelper _assertHelper;
         protected static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-      
+        public static ExtentReports extent;
+        public static ExtentTest test;
 
         public const int _reTryCount = 3;
         //user details
