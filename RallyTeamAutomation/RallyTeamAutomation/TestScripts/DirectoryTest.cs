@@ -18,7 +18,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "ie", Category = "DirectoryIEPreprod")]
     [TestFixture("Production", "chrome", Category = "DirectoryChromeProduction")]
     [TestFixture("Production", "firefox", Category = "DirectoryFirefoxProduction")]
-    [Parallelizable(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     public class DirectoryTest : BaseTestES
     {
         public DirectoryTest(string urlKey, string Browser) : base(urlKey, Browser)
@@ -233,7 +233,7 @@ namespace RallyTeam.TestScripts
             log.Info("Verify searched user is displayed.");
             Thread.Sleep(1000);
         }
-        
+
         [Test, CustomRetry(_reTryCount)]
         public void Directory_002_SearchPeopleByNameAndMetadata()
         {
@@ -340,7 +340,7 @@ namespace RallyTeam.TestScripts
             //Verify User container User Name is displayed
             directoryPage.VerifyUserContainerUserName(userName);
             log.Info("Verify searched user is displayed.");
-        }        
+        }
 
         [Test, CustomRetry(_reTryCount)]
         public void Directory_004_SearchUserByAvailableForFilter()
@@ -469,7 +469,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(5000);
 
             //Enter Endorsed By
-            String endorsedBy = "ammark@360logica.com";            
+            String endorsedBy = "ammark@360logica.com";
             directoryPage.EnterEndorsedByFilter(endorsedBy);
             Thread.Sleep(2000);
             commonPage.PressDownArrowKey();
@@ -720,7 +720,7 @@ namespace RallyTeam.TestScripts
             //Click Message button
             directoryPage.ClickUserContainerMessage();
             log.Info("Click on Message Link.");
-            Thread.Sleep(3000);           
+            Thread.Sleep(3000);
 
             //Enter message in the text area
             StringBuilder builder = new StringBuilder();
@@ -1276,7 +1276,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
             commonPage.PressEnterKey();
             log.Info("Enter Location in the search.");
-            Thread.Sleep(1000);            
+            Thread.Sleep(1000);
 
             //Enter Department
             String department = "QCT";
@@ -1417,7 +1417,7 @@ namespace RallyTeam.TestScripts
             //Verify Second Talent Pool not displayed in Talent Pool drop-down
             directoryPage.VerifyTalentPoolNotDisplayed(talentTwoPoolName);
             log.Info("Verify Second Talent Pool not displayed in Talent Pool drop-down");
-        } 
+        }
 
     }
 }

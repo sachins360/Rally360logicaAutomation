@@ -17,7 +17,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "PostProjectFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "PostProjectChromeProduction")]
     [TestFixture("Production", "firefox", Category = "PostProjectFirefoxProduction")]
-    [Parallelizable(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     public class PostProjectTest : BaseTestES
     {
         #region Variable
@@ -1410,8 +1410,8 @@ namespace RallyTeam.TestScripts
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
 
-            //Sign in with Steve Smith
-            authenticationPage.SetUserName("smith@mailinator.com");
+            //Sign in with Naveen Baghel
+            authenticationPage.SetUserName("naveenb@mailinator.com");
             authenticationPage.SetPassword("Logica360");
             authenticationPage.ClickOnLoginButton();
             Thread.Sleep(5000);
@@ -1566,10 +1566,10 @@ namespace RallyTeam.TestScripts
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
 
-            //Sign in with a different user
+            //Sign in with a different Admin User
             Thread.Sleep(5000);
-            String userName = readPostProject.GetValue("SignInDifferentUser", "userName");
-            String password = readPostProject.GetValue("SignInDifferentUser", "password");
+            String userName = readPostProject.GetValue("SignInDifferentAdminUser", "userName");
+            String password = readPostProject.GetValue("SignInDifferentAdminUser", "password");
             SignInDifferentUser(userName, password);
             log.Info("Sign in with different user.");
 

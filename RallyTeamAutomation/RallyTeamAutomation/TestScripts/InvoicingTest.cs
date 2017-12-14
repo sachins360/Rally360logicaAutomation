@@ -18,7 +18,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "InvoicingFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "InvoicingChromeProduction")]
     [TestFixture("Production", "firefox", Category = "InvoicingFirefoxProduction")]
-    [Parallelizable(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     public class InvoicingTest : BaseTestES
     {
         public InvoicingTest(string urlKey, string Browser) : base(urlKey, Browser)
@@ -28,7 +28,6 @@ namespace RallyTeam.TestScripts
 
         private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         static ReadData readInvoicing = new ReadData("Invoicing");
-        static ReadData readPostProject = new ReadData("PostProject");
 
         //SignIn
         private void SignInDifferentUser(String userName, String password)
@@ -147,7 +146,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Enter the Project Description
-            String projectDesc = readPostProject.GetValue("AddProjectDetails", "projectDesc");
+            String projectDesc = readInvoicing.GetValue("AddProjectDetails", "projectDesc");
             postProjectPage.EnterProjectDescription(projectDesc);
             Thread.Sleep(1000);
 
@@ -161,7 +160,7 @@ namespace RallyTeam.TestScripts
             //Enter Skills
             commonPage.ScrollUp();
             Thread.Sleep(2000);
-            String skills = readPostProject.GetValue("AddProjectDetails", "skills");
+            String skills = readInvoicing.GetValue("AddProjectDetails", "skills");
             postProjectPage.EnterSkillsNeeded(skills);
             Thread.Sleep(3000);
             commonPage.PressEnterKey();
@@ -172,7 +171,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
             postProjectPage.EnterMembersNeeded("5");
             Thread.Sleep(1000);
-            String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
+            String addMembersEmail = readInvoicing.GetValue("AddProjectDetails", "memberEmail");
             List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
             int noOfMember = addMembersEmailList.Count;
             foreach (String value in addMembersEmailList)
@@ -215,12 +214,12 @@ namespace RallyTeam.TestScripts
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
-            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+            String projectName = readInvoicing.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
             PostNewProject(projectName);
 
             //Signout of the application
-            Thread.Sleep(5000);
+            Thread.Sleep(7000);
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
 
@@ -303,7 +302,7 @@ namespace RallyTeam.TestScripts
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
-            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+            String projectName = readInvoicing.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
             PostNewProject(projectName);
 
@@ -391,7 +390,7 @@ namespace RallyTeam.TestScripts
             PostNewProject(projectName);
 
             //Signout of the application
-            Thread.Sleep(5000);
+            Thread.Sleep(7000);
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
 
@@ -809,7 +808,7 @@ namespace RallyTeam.TestScripts
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
-            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+            String projectName = readInvoicing.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
             PostNewProject(projectName);
 
@@ -911,7 +910,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
 
             //Enter the Project Description
-            String projectDesc = readPostProject.GetValue("AddProjectDetails", "projectDesc");
+            String projectDesc = readInvoicing.GetValue("AddProjectDetails", "projectDesc");
             postProjectPage.EnterProjectDescription(projectDesc);
             Thread.Sleep(1000);
 
@@ -926,7 +925,7 @@ namespace RallyTeam.TestScripts
             Thread.Sleep(1000);
             postProjectPage.EnterMembersNeeded("5");
             Thread.Sleep(1000);
-            String addMembersEmail = readPostProject.GetValue("AddProjectDetails", "memberEmail");
+            String addMembersEmail = readInvoicing.GetValue("AddProjectDetails", "memberEmail");
             List<String> addMembersEmailList = addMembersEmail.Split(',').ToList();
             int noOfMember = addMembersEmailList.Count;
             foreach (String value in addMembersEmailList)
@@ -1009,7 +1008,7 @@ namespace RallyTeam.TestScripts
             //Post a new project
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(6));
-            String projectName = readPostProject.GetValue("AddProjectDetails", "projectName");
+            String projectName = readInvoicing.GetValue("AddProjectDetails", "projectName");
             projectName = projectName + builder;
             PostNewProject(projectName);
 

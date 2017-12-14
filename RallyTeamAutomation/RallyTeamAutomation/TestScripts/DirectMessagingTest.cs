@@ -19,7 +19,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "DirectMessagingFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "DirectMessagingChromeProduction")]
     [TestFixture("Production", "firefox", Category = "DirectMessagingFirefoxProduction")]
-    [Parallelizable(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     public class DirectMessagingTest : BaseTestES
     {
         public DirectMessagingTest(string urlKey, string Browser) : base(urlKey, Browser)
@@ -88,7 +88,6 @@ namespace RallyTeam.TestScripts
         public void DirectMessaging_001_VerifyMessagesPage()
         {
             Global.MethodName = "DirectMessaging_001_VerifyMessagesPage";
-
             Thread.Sleep(5000);
             directMessagingPage.VerifyMessagessMenuOption();
             log.Info("Verify Messages icon");
@@ -161,7 +160,7 @@ namespace RallyTeam.TestScripts
 
             //Verify close icon is displayed
             directMessagingPage.VerifyTextArea();
-            log.Info("Verify close icon is displayed.");            
+            log.Info("Verify close icon is displayed.");
         }
 
         [Test, CustomRetry(_reTryCount)]
@@ -202,7 +201,7 @@ namespace RallyTeam.TestScripts
             //Click Send button
             directMessagingPage.ClickSendBtn();
             log.Info("Click Send button.");
-            Thread.Sleep(5000);                      
+            Thread.Sleep(5000);
 
             //Verify New message posted successfully
             directMessagingPage.VerifyNewMessagePosted(message);
@@ -287,28 +286,28 @@ namespace RallyTeam.TestScripts
         {
             Global.MethodName = "DirectMessaging_005_VerifyMessageReceivedCounter";
 
-            //Click Messages menu icon
+            Click Messages menu icon
             Thread.Sleep(5000);
             directMessagingPage.ClickMessagesMenu();
             log.Info("Click Messages menu icon.");
             Thread.Sleep(5000);
 
-            //Click New Message button
+            Click New Message button
             directMessagingPage.ClickNewMessageBtn();
             log.Info("Click New Message button.");
             Thread.Sleep(5000);
 
-            //Enter To text input
+            Enter To text input
             String userEmail = readMessages.GetValue("Messages", "userEmail");
             directMessagingPage.EnterToTextInput(userEmail);
             log.Info("Enter the user email.");
             Thread.Sleep(3000);
 
-            //Press enter key
+            Press enter key
             directMessagingPage.PressEnterKey();
             Thread.Sleep(1000);
 
-            //Enter message in the text area
+            Enter message in the text area
             String message = readMessages.GetValue("Messages", "message");
             StringBuilder builder = new StringBuilder();
             builder.Append(RandomString(4));
@@ -317,33 +316,33 @@ namespace RallyTeam.TestScripts
             log.Info("Enter the message.");
             Thread.Sleep(2000);
 
-            //Click Send button
+            Click Send button
             directMessagingPage.ClickSendBtn();
             log.Info("Click Send button.");
             Thread.Sleep(7000);
 
-            //Signout of the application
+            Signout of the application
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
             Thread.Sleep(5000);
 
-            //Sign in with a different user
+            Sign in with a different user
             SignInDifferentUser();
             log.Info("Sign in with different user.");
             Thread.Sleep(7000);
 
-            //Get the Initial Message counter
+            Get the Initial Message counter
             string initialCounter = directMessagingPage.GetMessageCounterValue();
             int initialCounterInt = Int32.Parse(initialCounter);
             int finalCounter = initialCounterInt + 1;
             string finalCounterString = finalCounter.ToString();
 
-            //Signout of the application
+            Signout of the application
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
             Thread.Sleep(5000);
 
-            //Sign in with a different user
+            Sign in with a different user
             String differentUserName = readMessages.GetValue("SignInDifferentUser", "differentUserName");
             String password = readMessages.GetValue("SignInDifferentUser", "password");
             authenticationPage.SetUserName(differentUserName);
@@ -352,70 +351,70 @@ namespace RallyTeam.TestScripts
             log.Info("Sign in with different user.");
             Thread.Sleep(7000);
 
-            //Click Messages menu icon
+            Click Messages menu icon
             Thread.Sleep(5000);
             directMessagingPage.ClickMessagesMenu();
             log.Info("Click Messages menu icon.");
             Thread.Sleep(5000);
 
-            //Click New Message button
+            Click New Message button
             directMessagingPage.ClickNewMessageBtn();
             log.Info("Click New Message button.");
             Thread.Sleep(5000);
 
-            //Enter To text input
+            Enter To text input
             String loggedInUser = readMessages.GetValue("Messages", "userEmail");
             directMessagingPage.EnterToTextInput(loggedInUser);
             log.Info("Enter the user email.");
             Thread.Sleep(3000);
 
-            //Press enter key
+            Press enter key
             directMessagingPage.PressEnterKey();
             Thread.Sleep(1000);
 
-            //Enter message in the text area
+            Enter message in the text area
             directMessagingPage.EnterTextArea("Message by Bob");
             log.Info("Enter the message.");
             Thread.Sleep(2000);
 
-            //Click Send button
+            Click Send button
             directMessagingPage.ClickSendBtn();
             log.Info("Click Send button.");
             Thread.Sleep(7000);
 
-            //Signout of the application
+            Signout of the application
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");
             Thread.Sleep(5000);
 
-            //Sign in with a different user
+            Sign in with a different user
             SignInDifferentUser();
             log.Info("Sign in with different user.");
             Thread.Sleep(7000);
 
-            //string finalCounterString = "2";
-            //Verify the Message Counter has increased
+            string finalCounterString = "2";
+            Verify the Message Counter has increased
             directMessagingPage.VerifyIncreasedMessageCounterValue(finalCounterString);
             log.Info("Verify the Message Counter has increased");
             Thread.Sleep(1000);
 
-            //Click Messages menu icon
+            Click Messages menu icon
             Thread.Sleep(5000);
             directMessagingPage.ClickMessagesMenu();
             log.Info("Click Messages menu icon.");
             Thread.Sleep(5000);
 
-            //Click the message received
+            Click the message received
             directMessagingPage.ClickMessageReceived(message);
             log.Info("Click on the message received by the user");
             Thread.Sleep(5000);
 
-            //Click back icon
+            Click back icon
             directMessagingPage.ClickBackIcon();
             log.Info("Click the Messages Back icon.");
             Thread.Sleep(3000);
 
-            //Click the message received
+            Click the message received
             directMessagingPage.ClickMessageReceived("Message by Bob");
             log.Info("Click on the message received by the user");
             Thread.Sleep(5000);
@@ -445,7 +444,7 @@ namespace RallyTeam.TestScripts
             //Verify Group Drop-Down is displayed
             directMessagingPage.VerifyGroupDropDown();
             log.Info("Verify Group Drop-Down is displayed.");
-            Thread.Sleep(1000);                       
+            Thread.Sleep(1000);
 
             //Verify Text Area is displayed
             directMessagingPage.VerifyTextArea();
@@ -634,7 +633,7 @@ namespace RallyTeam.TestScripts
             SignInDifferentUser();
             log.Info("Sign in with different user.");
             Thread.Sleep(5000);
-                        
+
             //Click Announcement Modal Contact Sender
             directMessagingPage.ClickAnnouncementContactSender();
             log.Info("Click Announcement Modal Contact Sender.");
@@ -797,11 +796,11 @@ namespace RallyTeam.TestScripts
             //Click Messages menu icon
             Thread.Sleep(10000);
             directMessagingPage.ClickMessagesMenu();
-            log.Info("Click Messages menu icon.");       
+            log.Info("Click Messages menu icon.");
 
             //Verify New Message button
             directMessagingPage.VerifyNewMessageWindowDoesntDisplayed();
-            log.Info("Verify New Message button doesn't displayed.");            
+            log.Info("Verify New Message button doesn't displayed.");
 
             //Open Grop
             OpenGroupTab();
@@ -846,7 +845,7 @@ namespace RallyTeam.TestScripts
             //Verify non admin can't Send Announcement
             directMessagingPage.VerifySendAnnouncementBtnNotDisplayed();
             log.Info("Verify non admin user can't send Send Announcement.");
-            Thread.Sleep(1000);            
+            Thread.Sleep(1000);
         }
 
         [Test, CustomRetry(2)]
@@ -886,7 +885,7 @@ namespace RallyTeam.TestScripts
 
             //Verify Send button is disabled
             directMessagingPage.VerifySendBtnDisabledisDisplayed();
-            log.Info("Verify Send button is disabled.");            
+            log.Info("Verify Send button is disabled.");
         }
     }
 }
