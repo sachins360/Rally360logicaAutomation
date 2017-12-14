@@ -18,7 +18,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "NotificationsFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "NotificationsChromeProduction")]
     [TestFixture("Production", "firefox", Category = "NotificationsFirefoxProduction")]
-    [Parallelizable(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     public class NotificationsTest : BaseTestES
     {
         public NotificationsTest(string urlKey, string Browser) : base(urlKey, Browser)

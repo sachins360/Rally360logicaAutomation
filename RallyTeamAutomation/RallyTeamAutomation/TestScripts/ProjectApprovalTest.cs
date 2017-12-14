@@ -15,7 +15,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "ProjectApprovalFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "ProjectApprovalChromeProduction")]
     [TestFixture("Production", "firefox", Category = "ProjectApprovalFirefoxProduction")]
-    [Parallelizable(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     public class ProjectApprovalTest : BaseTestES
     {
         public ProjectApprovalTest(string urlKey, string Browser) : base(urlKey, Browser)

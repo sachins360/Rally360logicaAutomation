@@ -16,7 +16,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "MarketplaceFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "MarketplaceChromeProduction")]
     [TestFixture("Production", "firefox", Category = "MarketplaceFirefoxProduction")]
-    [Parallelizable(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     public class MarketplaceTest : BaseTestES
     {
         public MarketplaceTest(string urlKey, string Browser) : base(urlKey, Browser)

@@ -15,7 +15,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "CommonIssuesFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "CommonIssuesChromeProduction")]
     [TestFixture("Production", "firefox", Category = "CommonIssuesFirefoxProduction")]
-    [Parallelizable(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     public class CommonIssuesTest : BaseTestES
     {
         public CommonIssuesTest(string urlKey, string Browser) : base(urlKey, Browser)

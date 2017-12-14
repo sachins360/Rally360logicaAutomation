@@ -19,7 +19,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "GroupsFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "GroupsChromeProduction")]
     [TestFixture("Production", "firefox", Category = "GroupsFirefoxProduction")]
-    [Parallelizable(ParallelScope.Fixtures)]
+    //[Parallelizable(ParallelScope.Fixtures)]
     public class GroupsTest : BaseTestES
     {
         public GroupsTest(string urlKey, string Browser) : base(urlKey, Browser)

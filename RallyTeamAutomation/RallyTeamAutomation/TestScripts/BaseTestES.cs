@@ -25,13 +25,14 @@ using static RallyTeam.Util.CustomRetry;
 
 namespace RallyTeam.TestScripts
 {
-    
     public class BaseTestES : IDisposable
     {
         protected IWebDriver _driver;
         protected AssertHelper _assertHelper;
         protected static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
+        /*public static ExtentReports extent;
+        public static ExtentTest test;*/
 
         //user details
         public const int _reTryCount = 3;
@@ -71,26 +72,27 @@ namespace RallyTeam.TestScripts
 
         String BaseUrl;
         String Browser;
-
-        public BaseTestES()
-        {
-
-        }
+        
         public BaseTestES(string urlKey,string browser = "chrome")
         {
             BaseUrl = ConfigurationManager.AppSettings[urlKey];
             Browser = browser;
         }
 
-        [OneTimeSetUp]
+        public BaseTestES()
+        {
+        }
+
+        /*[OneTimeSetUp]
         public void StartReport()
         {
             //*********Extent Report Generation One Time Setup*********
-            String rootPath = AppDomain.CurrentDomain.BaseDirectory;
-            ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(rootPath+"\\Report"+"\\ExecutionResult.html");
+            string rootPath = AppDomain.CurrentDomain.BaseDirectory;
+            ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(rootPath +"\\ExecutionResult.html");
             extent = new ExtentReports();
             extent.AttachReporter(htmlReporter);
-        }
+            Console.WriteLine("I am printed.");
+        }*/
 
         [SetUp]
         public void TestSetUp()
@@ -117,8 +119,8 @@ namespace RallyTeam.TestScripts
             var currentContext = TestContext.CurrentContext;
             var testName = currentContext.Test.Name;
             String filename = this.GetType().FullName + "." + testName;
-            test = extent.CreateTest(filename);
-            test.AssignAuthor("360Logica");
+            Global.test = Global.extent.CreateTest(filename);
+            Global.test.AssignAuthor("360Logica");
 
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
             //if (!Browser.Contains("edge"))
@@ -152,31 +154,27 @@ namespace RallyTeam.TestScripts
             {
                 var currentContext = TestContext.CurrentContext;
                 var message = TestContext.CurrentContext.Result.Message;
-                var stackTrace = TestContext.CurrentContext.Result.StackTrace;
-                if (currentContext.Result.Outcome == ResultState.Success)
-                {
-                    test.Log(Status.Pass, message);
-                }
+                var stackTrace = TestContext.CurrentContext.Result.StackTrace;                
                 if (currentContext.Result.Outcome != ResultState.Success)
                 {
                     var testName = currentContext.Test.Name;
-                    String rootPath = AppDomain.CurrentDomain.BaseDirectory;
+                    string rootPath = AppDomain.CurrentDomain.BaseDirectory;
                     String filename = rootPath+"\\Report\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
                     Console.WriteLine("filename: " + filename);
                     UtilityHelper.TakeScreenshot(_driver, filename);
-                    if (Global.tempCount == 1)
-                        test.Log(Status.Fail, stackTrace + message);
+                    if (Global.tempCount <= 1)
+                        Global.test.Log(Status.Fail, stackTrace + message);
                 }
                 Log.Info("Teardown test");
                 _driver.Quit();
             }
             catch { _driver.Dispose(); }
         }
-        [OneTimeTearDown]
+        /*[OneTimeTearDown]
         public void EndReport()
         {
             extent.Flush();
-        }
+        }*/
 
         public IWebDriver GetDriver()
         {

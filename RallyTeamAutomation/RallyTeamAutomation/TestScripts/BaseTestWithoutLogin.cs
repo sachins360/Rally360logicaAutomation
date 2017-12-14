@@ -30,8 +30,8 @@ namespace RallyTeam.TestScripts
         protected AssertHelper _assertHelper;
         protected static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        public static ExtentReports extent;
-        public static ExtentTest test;
+        //public static ExtentReports extent;
+        //public static ExtentTest test;
 
         public const int _reTryCount = 3;
         //user details
@@ -63,7 +63,7 @@ namespace RallyTeam.TestScripts
             Browser = browser;
         }
 
-        [OneTimeSetUp]
+        /*[OneTimeSetUp]
         public void StartReport()
         {
             //*********Extent Report Generation One Time Setup*********
@@ -71,7 +71,7 @@ namespace RallyTeam.TestScripts
             ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(rootPath + "\\Report" + "\\ExecutionResult.html");
             extent = new ExtentReports();
             extent.AttachReporter(htmlReporter);
-        }
+        }*/
 
         [SetUp]
         public void TestSetUp()
@@ -84,8 +84,8 @@ namespace RallyTeam.TestScripts
             var currentContext = TestContext.CurrentContext;
             var testName = currentContext.Test.Name;
             String filename = this.GetType().FullName + "." + testName;
-            test = extent.CreateTest(filename);
-            test.AssignAuthor("360Logica");
+            Global.test = Global.extent.CreateTest(filename);
+            Global.test.AssignAuthor("360Logica");
 
             _assertHelper = new AssertHelper(_driver, _pageLoadTimeout);
             //if (!Browser.Contains("edge"))
@@ -120,7 +120,7 @@ namespace RallyTeam.TestScripts
                     String filename = rootPath + "\\Report\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
                     Console.WriteLine("filename: " + filename);
                     UtilityHelper.TakeScreenshot(_driver, filename);
-                    test.Log(Status.Fail, stackTrace + message);
+                    Global.test.Log(Status.Fail, stackTrace + message);
                 }
                 Log.Info("Teardown test");
                 _driver.Quit();
