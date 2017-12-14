@@ -20,8 +20,7 @@ using RallyTeam.UIPages;
 using NUnit.Framework.Interfaces;
 using System.Diagnostics;
 using System.Collections.Generic;
-using AventStack.ExtentReports;
-using AventStack.ExtentReports.Reporter;
+
 using static RallyTeam.Util.CustomRetry;
 
 namespace RallyTeam.TestScripts
