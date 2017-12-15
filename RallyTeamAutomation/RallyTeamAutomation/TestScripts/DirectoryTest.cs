@@ -204,7 +204,7 @@ namespace RallyTeam.TestScripts
 
             //Verify Vendor Location Filter
             directoryPage.VerifyVendorLocationFilter();
-            log.Info("Verify the Vendor Location Filter on Vendors tab.");
+            log.Info("Verify the Vendor Location Filter on Vendors tab.");            
         }
 
         [Test, CustomRetry(_reTryCount)]
