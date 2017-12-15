@@ -20,7 +20,8 @@ using RallyTeam.UIPages;
 using NUnit.Framework.Interfaces;
 using System.Diagnostics;
 using System.Collections.Generic;
-
+using AventStack.ExtentReports;
+using NUnit.Framework.Internal;
 
 namespace RallyTeam.TestScripts
 {
@@ -110,17 +111,20 @@ namespace RallyTeam.TestScripts
         {
             try
             {
-                var currentContext = TestContext.CurrentContext;
+                //var currentContext = TestContext.CurrentContext;
+                var currentContext = TestExecutionContext.CurrentContext;
                 var message = TestContext.CurrentContext.Result.Message;
                 var stackTrace = TestContext.CurrentContext.Result.StackTrace;
-                if (currentContext.Result.Outcome != ResultState.Success)
+                //if (currentContext.Result.Outcome != ResultState.Success)
+                if (currentContext.CurrentResult.ResultState != ResultState.Success)
                 {
-                    var testName = currentContext.Test.Name;
-                    String rootPath = AppDomain.CurrentDomain.BaseDirectory;
+                    var testName = currentContext.CurrentTest.Name;
+                    string rootPath = AppDomain.CurrentDomain.BaseDirectory;
                     String filename = rootPath + "\\Report\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
                     Console.WriteLine("filename: " + filename);
                     UtilityHelper.TakeScreenshot(_driver, filename);
-                    Global.test.Log(Status.Fail, stackTrace + message);
+                    if (Global.tempCount <= 1)
+                        Global.test.Log(Status.Fail, stackTrace + message);
                 }
                 Log.Info("Teardown test");
                 _driver.Quit();

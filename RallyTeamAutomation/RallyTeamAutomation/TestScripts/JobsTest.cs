@@ -359,7 +359,7 @@ namespace RallyTeam.TestScripts
             DeleteJob();
         }
 
-        [Test, CustomRetry(_reTryCount)]
+        /*[Test, CustomRetry(_reTryCount)]
         public void Jobs_003_FilledJobs()
         {
             //Post a new project
@@ -463,7 +463,7 @@ namespace RallyTeam.TestScripts
 
             //Delete Project
             DeleteJob();
-        }
+        }*/
 
         [Test, CustomRetry(_reTryCount)]
         public void Jobs_004_CancelledJobs()
