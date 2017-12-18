@@ -18,7 +18,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "ie", Category = "DirectoryIEPreprod")]
     [TestFixture("Production", "chrome", Category = "DirectoryChromeProduction")]
     [TestFixture("Production", "firefox", Category = "DirectoryFirefoxProduction")]
-    //[Parallelizable(ParallelScope.Fixtures)]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class DirectoryTest : BaseTestES
     {
         public DirectoryTest(string urlKey, string Browser) : base(urlKey, Browser)

@@ -18,7 +18,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "InvoicingFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "InvoicingChromeProduction")]
     [TestFixture("Production", "firefox", Category = "InvoicingFirefoxProduction")]
-    //[Parallelizable(ParallelScope.Fixtures)]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class InvoicingTest : BaseTestES
     {
         public InvoicingTest(string urlKey, string Browser) : base(urlKey, Browser)
