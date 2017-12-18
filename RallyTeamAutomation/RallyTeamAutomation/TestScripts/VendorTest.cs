@@ -18,7 +18,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "VendorFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "VendorChromeProduction")]
     [TestFixture("Production", "firefox", Category = "VendorFirefoxProduction")]
-    //[Parallelizable(ParallelScope.Fixtures)]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class VendorTest : BaseTestES
     {
         protected VendorTest(string urlKey, string Browser) : base(urlKey, Browser)

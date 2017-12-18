@@ -17,7 +17,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "PostProjectFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "PostProjectChromeProduction")]
     [TestFixture("Production", "firefox", Category = "PostProjectFirefoxProduction")]
-    //[Parallelizable(ParallelScope.Fixtures)]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class PostProjectTest : BaseTestES
     {
         #region Variable
