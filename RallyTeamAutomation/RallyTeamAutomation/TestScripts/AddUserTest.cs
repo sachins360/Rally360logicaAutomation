@@ -20,7 +20,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("Production", "chrome", Category = "AddUsersChromeProduction")]
     [TestFixture("Production", "firefox", Category = "AddUsersfirefoxProduction")]
     [DeploymentItem("chromedriver.exe")]
-    //[Parallelizable(ParallelScope.Fixtures)]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class AddUsersTest : BaseTestES
     {
         const int h = 9;

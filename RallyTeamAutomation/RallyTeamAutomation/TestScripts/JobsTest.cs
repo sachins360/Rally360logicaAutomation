@@ -16,7 +16,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "JobsFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "JobsChromeProduction")]
     [TestFixture("Production", "firefox", Category = "JobsFirefoxProduction")]
-    //[Parallelizable(ParallelScope.Fixtures)]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class JobsTest : BaseTestES
     {
         public JobsTest(string urlKey, string Browser) : base(urlKey, Browser)
@@ -359,7 +359,7 @@ namespace RallyTeam.TestScripts
             DeleteJob();
         }
 
-        [Test, CustomRetry(_reTryCount)]
+        /*[Test, CustomRetry(_reTryCount)]
         public void Jobs_003_FilledJobs()
         {
             //Post a new project
@@ -463,7 +463,7 @@ namespace RallyTeam.TestScripts
 
             //Delete Project
             DeleteJob();
-        }
+        }*/
 
         [Test, CustomRetry(_reTryCount)]
         public void Jobs_004_CancelledJobs()

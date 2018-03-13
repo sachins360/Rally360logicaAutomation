@@ -16,7 +16,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "RegistrationFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "RegistrationChromeProduction")]
     [TestFixture("Production", "firefox", Category = "RegistrationFirefoxProduction")]
-    //[Parallelizable(ParallelScope.Fixtures)]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class RegistrationTest : BaseTestWithoutLogin
     {
         public RegistrationTest(string urlKey, string Browser) : base(urlKey, Browser)

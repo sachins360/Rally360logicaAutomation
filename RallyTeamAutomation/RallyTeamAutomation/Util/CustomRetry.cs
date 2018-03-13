@@ -93,6 +93,10 @@ namespace RallyTeam.Util
                     {
                         break;
                     }
+                    if (count > 0)
+                    {
+                        context.CurrentResult = TestExecutionContext.CurrentContext.CurrentTest.MakeTestResult();
+                    }
                 }
 
                 return context.CurrentResult;

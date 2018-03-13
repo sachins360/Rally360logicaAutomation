@@ -111,18 +111,25 @@ namespace RallyTeam.TestScripts
         {
             try
             {
+<<<<<<< HEAD
                 var currentContext = TestContext.CurrentContext;
                 var currentContext2 = TestExecutionContext.CurrentContext;
+=======
+                //var currentContext = TestContext.CurrentContext;
+                var currentContext = TestExecutionContext.CurrentContext;
+>>>>>>> 243dc50bc9f18e8421fc0e83476422a32559c69a
                 var message = TestContext.CurrentContext.Result.Message;
                 var stackTrace = TestContext.CurrentContext.Result.StackTrace;
-                if (currentContext.Result.Outcome != ResultState.Success)
+                //if (currentContext.Result.Outcome != ResultState.Success)
+                if (currentContext.CurrentResult.ResultState != ResultState.Success)
                 {
-                    var testName = currentContext.Test.Name;
-                    String rootPath = AppDomain.CurrentDomain.BaseDirectory;
+                    var testName = currentContext.CurrentTest.Name;
+                    string rootPath = AppDomain.CurrentDomain.BaseDirectory;
                     String filename = rootPath + "\\Report\\" + this.GetType().FullName + "." + testName + "_" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + ".png";
                     Console.WriteLine("filename: " + filename);
                     UtilityHelper.TakeScreenshot(_driver, filename);
-                    Global.test.Log(Status.Fail, stackTrace + message);
+                    if (Global.tempCount <= 1)
+                        Global.test.Log(Status.Fail, stackTrace + message);
                 }
                 Log.Info("Teardown test");
                 _driver.Quit();

@@ -19,7 +19,7 @@ namespace RallyTeam.TestScripts
     [TestFixture("ExternalStormURL", "firefox", Category = "DirectMessagingFirefoxPreprod")]
     [TestFixture("Production", "chrome", Category = "DirectMessagingChromeProduction")]
     [TestFixture("Production", "firefox", Category = "DirectMessagingFirefoxProduction")]
-    //[Parallelizable(ParallelScope.Fixtures)]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class DirectMessagingTest : BaseTestES
     {
         public DirectMessagingTest(string urlKey, string Browser) : base(urlKey, Browser)
