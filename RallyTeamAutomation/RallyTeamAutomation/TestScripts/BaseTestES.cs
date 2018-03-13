@@ -20,8 +20,11 @@ using RallyTeam.UIPages;
 using NUnit.Framework.Interfaces;
 using System.Diagnostics;
 using System.Collections.Generic;
+using AventStack.ExtentReports;
+using AventStack.ExtentReports.Reporter;
 
 using static RallyTeam.Util.CustomRetry;
+using NUnit.Framework.Internal;
 
 namespace RallyTeam.TestScripts
 {
@@ -35,7 +38,7 @@ namespace RallyTeam.TestScripts
         public static ExtentTest test;*/
 
         //user details
-        public const int _reTryCount = 3;
+        public const int _reTryCount = 1;
         protected string _workEmail = ConfigurationSettings.AppSettings["workEmail"];
         protected string _password = ConfigurationSettings.AppSettings["password"];
 
@@ -153,6 +156,7 @@ namespace RallyTeam.TestScripts
             try
             {
                 var currentContext = TestContext.CurrentContext;
+                var currentContext2 = TestExecutionContext.CurrentContext;
                 var message = TestContext.CurrentContext.Result.Message;
                 var stackTrace = TestContext.CurrentContext.Result.StackTrace;                
                 if (currentContext.Result.Outcome != ResultState.Success)

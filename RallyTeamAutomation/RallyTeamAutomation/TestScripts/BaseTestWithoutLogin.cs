@@ -20,7 +20,8 @@ using RallyTeam.UIPages;
 using NUnit.Framework.Interfaces;
 using System.Diagnostics;
 using System.Collections.Generic;
-
+using AventStack.ExtentReports;
+using NUnit.Framework.Internal;
 
 namespace RallyTeam.TestScripts
 {
@@ -111,6 +112,7 @@ namespace RallyTeam.TestScripts
             try
             {
                 var currentContext = TestContext.CurrentContext;
+                var currentContext2 = TestExecutionContext.CurrentContext;
                 var message = TestContext.CurrentContext.Result.Message;
                 var stackTrace = TestContext.CurrentContext.Result.StackTrace;
                 if (currentContext.Result.Outcome != ResultState.Success)

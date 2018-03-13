@@ -249,7 +249,7 @@ namespace RallyTeam.UIPages
 
         //Assert Role Name search is displayed
         public void VerifyUserContainerRoleName(String roleName)
-        {
+        {//div[contains(text(), "Employee")]
             _assertHelper.AssertElementDisplayed(DirectoryUI.userContainerRoleName(roleName));
         }
 

@@ -837,7 +837,7 @@ namespace RallyTeam.TestScripts
 
             email = firstName + lastName + "@harakirimail.com";
         //   email = "tttttrrrrr@harakirimail.com";
-            _Emailsubject = "Confirm your email address on Rallyteam";
+            _Emailsubject = "Confirm your email address for the 360Logica Testing Services";
             Thread.Sleep(5000);
             authenticationPage.SignOut();
             log.Info("Click on the Signout button.");

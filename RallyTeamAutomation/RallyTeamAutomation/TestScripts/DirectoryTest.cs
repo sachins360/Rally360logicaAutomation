@@ -37,7 +37,6 @@ namespace RallyTeam.TestScripts
             authenticationPage.SetPassword(password);
             authenticationPage.ClickOnLoginButton();
         }
-
         //Delete Project
         public void DeleteProject()
         {
@@ -55,7 +54,6 @@ namespace RallyTeam.TestScripts
             postProjectPage.PressDeleteProjectWindowYesBtn();
             log.Info("Press Delete Project Window Yes button.");
         }
-
         //Delete Talent Pool
         public void DeleteTalentPool()
         {
@@ -77,7 +75,6 @@ namespace RallyTeam.TestScripts
             directoryPage.ClickDeleteTalentPoolYesBtn();
             log.Info("Press Delete Project Window Yes button.");
         }
-
         //Post a Project
         public void PostNewProject(String projectName)
         {

@@ -127,7 +127,7 @@ namespace RallyTeam.UILocators
         public readonly static By hoursPerWeek = By.XPath("//input[contains(@placeholder, 'Enter your availability')]");
         public readonly static By title = By.Name("title");
         public readonly static By department = By.Name("department");
-        public readonly static By codeCenter = By.XPath("//td[@class= 'content-pad p-b center']/center[4]");
+        public readonly static By codeCenter = By.XPath("(//th//strong)[2]");
         public readonly static By aboutMe = By.Name("bio"); ////ul[@class= 'tag-list'][1]//input[@placeholder= 'Add a tag'][4]
         public readonly static By myTopSkills = By.XPath("(//input[@class='input ng-pristine ng-untouched ng-valid'])[1]");
         public readonly static By otherSkills = By.XPath("(//input[@class='input ng-pristine ng-untouched ng-valid'])[2]");

@@ -9,7 +9,9 @@ namespace RallyTeam.UILocators
 {
     public static class DirectoryUI
     {
-        public readonly static By directoryTab = By.XPath("//a[text()= 'DIRECTORY']");
+        //public readonly static By directoryTab = By.XPath("//a[text()= 'TALENT SEARCH']");
+        public readonly static By directoryTab = By.XPath("//div[@class='pull-left rt-top-navbar__links']//a[2]");
+        
         public readonly static By peopleTab = By.XPath("//a[contains(text(), 'People')]");
         public readonly static By vendorsTab = By.XPath("//a[contains(text(), 'Vendors')]");
         public readonly static By resetBtn = By.XPath("//button[text()= 'Reset']");
@@ -28,15 +30,19 @@ namespace RallyTeam.UILocators
         //Results
         public static By userContainerUserName(String variable)
         {
-            return By.XPath("//div[@class= 'rt-directory__results']//strong[contains(text(), '" + variable + "')]");
+            
+            return By.XPath("//div[contains(text(), '" + variable + "')]");            
+            //return By.XPath("//div[@class= 'rt-directory__results']//strong[contains(text(), '" + variable + "')]");
         }
         public static By vendorContainerVendorName(String variable)
         {
             return By.XPath("//div[contains(@class,'rt-user-container--vendor')]//strong[contains(text(), '" + variable + "')]");
         }
         public static By userContainerRoleName(String variable)
-        {
-            return By.XPath("//div[@class= 'rt-directory__results']//div[contains(text(), '" + variable+"')]");
+        {//div[contains(text(), "Employee")]
+
+            return By.XPath("//div[contains(text(), '" + variable + "')]");
+            //return By.XPath("//div[@class= 'rt-directory__results']//div[contains(text(), '" + variable+"')]");
         }
         public static By userContainerInitials(String variable)
         {
