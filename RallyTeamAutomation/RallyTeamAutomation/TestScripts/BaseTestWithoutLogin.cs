@@ -111,13 +111,13 @@ namespace RallyTeam.TestScripts
         {
             try
             {
-<<<<<<< HEAD
-                var currentContext = TestContext.CurrentContext;
-                var currentContext2 = TestExecutionContext.CurrentContext;
-=======
+
+               // var currentContext = TestContext.CurrentContext;
+               // var currentContext2 = TestExecutionContext.CurrentContext;
+
                 //var currentContext = TestContext.CurrentContext;
                 var currentContext = TestExecutionContext.CurrentContext;
->>>>>>> 243dc50bc9f18e8421fc0e83476422a32559c69a
+
                 var message = TestContext.CurrentContext.Result.Message;
                 var stackTrace = TestContext.CurrentContext.Result.StackTrace;
                 //if (currentContext.Result.Outcome != ResultState.Success)
